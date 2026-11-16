@@ -1,0 +1,11 @@
+{
+  "asOf": "2026-11-11",
+  "sourceFiles": [
+    "Veygrit_Japan_World_Customs_Register_2026-11-11.json",
+    "Veygrit_30_Countries_EC_Customs_Research_2026-11-11.pdf"
+  ],
+  "method": "Adapted country identifiers, source metadata and jurisdiction summaries. Inherited research never enables a numeric calculation. No model fine-tuning was performed. Original PDFs, address data and account identifiers are excluded.",
+  "inheritedSources": 70,
+  "inheritedProfiles": 26,
+  "countryNamesLicense": "LGPL-2.1-or-later; see licenses/ and THIRD_PARTY_NOTICES.md"
+}

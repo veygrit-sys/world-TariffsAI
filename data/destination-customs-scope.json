@@ -1,0 +1,206 @@
+{
+  "checkedOn": "2026-11-13",
+  "destinations": [
+    {
+      "country": "AF",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "WTOでHS2022版の譲許表を確認できます。アフガニスタン税関が公表した個別品目の改定通知も参照できます。見積もりには、輸入日に適用される国内税番と実行税率を税関に確認してください。",
+      "requiredChecks": [
+        "輸入日に有効な国内税表と国内税番",
+        "品目別・季節別の改定、原産地の特恵条件、追加費用",
+        "輸入許可と申告手続き"
+      ],
+      "sourceIds": [
+        "af_wto_certified_bound_schedule_hs2022",
+        "af_customs_selected_tariff_changes_2023",
+        "af_mof_gazette_newsletter_77_tariff_decisions"
+      ]
+    },
+    {
+      "country": "AQ",
+      "classification": "scientific_logistics",
+      "noteJa": "南極での活動・観測基地への補給は、南極条約と環境保護議定書を実施する関係国の所管当局に確認します。貨物は出発・中継港の通関条件と受入基地の手配を個別に確認します。",
+      "requiredChecks": [
+        "観測基地・受入組織と積卸地を特定する",
+        "関係国の所管当局、活動許可と事前通報を確認する",
+        "出発・中継港の税関手続、貨物の環境条件と輸送の受託を確認する"
+      ],
+      "sourceIds": [
+        "aq_antarctic_treaty_competent_authorities",
+        "aq_antarctic_treaty_advance_notice"
+      ]
+    },
+    {
+      "country": "BV",
+      "classification": "restricted_access",
+      "noteJa": "ブーベ島はノルウェーの属領です。関税法第1条の1で定めるノルウェー本土の関税領域の範囲から除かれます。自然保護区には上陸や航空機着陸に関する制限があり、研究施設以外のインフラは公的案内で確認できません。",
+      "requiredChecks": [
+        "貨物の受取人と、運送・荷揚げの手配を確認する。",
+        "上陸地点・時期の制限と、航空機着陸などに必要な許可をノルウェー極地研究所に確認する。",
+        "当該貨物に適用する関税・費用と経由地の申告条件を所管当局に確認する。"
+      ],
+      "sourceIds": [
+        "bv_norway_customs_duty_act_scope",
+        "bv_dependency_legal_scope",
+        "bv_nature_reserve_landing"
+      ]
+    },
+    {
+      "country": "DJ",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "WTOでHS2022版の譲許表を確認できます。官報の財政法には国内消費税（TIC）と個別品目の税率が掲載されています。輸入日に適用される税番別のTICと追加税は現地税関に確認してください。",
+      "requiredChecks": [
+        "輸入日に適用される国内税番とTICの品目別税率",
+        "VAT、物品税、追加課徴金、原産地の特恵条件",
+        "Sydonia Worldのe-Guichetでの電子申告と納付"
+      ],
+      "sourceIds": [
+        "dj_wto_certified_bound_schedule_hs2022",
+        "dj_finance_law_2022_tic_and_excise",
+        "dj_finance_law_2023_selected_import_taxes",
+        "dj_finance_law_2026_customs_e_guichet"
+      ]
+    },
+    {
+      "country": "ER",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "エリトリア政府官報の2001年関税規則と当時の品目別税率表を取得できました。2006年の適用税率も研究用に参照できます。現在適用される品目分類と税率をエリトリア税関に確認してください。",
+      "requiredChecks": [
+        "官報の後続改正と輸入日に適用される税表",
+        "申告品目の国内税番、原産地の特恵条件と輸入税",
+        "現地税関による輸入許可、申告、通関条件"
+      ],
+      "sourceIds": [
+        "er_gazette_customs_tariff_52_2001",
+        "er_legacy_applied_tariff_wits"
+      ]
+    },
+    {
+      "country": "HM",
+      "classification": "restricted_access",
+      "noteJa": "ハード島・マクドナルド諸島は無人の豪州外部領土です。豪州国境警備隊の通知では、現地に独自の税関法令は適用されず、同隊による現地の貨物国境管理はありません。入域、船舶・航空機の運用や物資の持込み・残置には、環境保護条例や海洋保護区の許可条件を確認します。諸島から豪州本土へ入る貨物は、本土で関税・税の審査を受けます。",
+      "requiredChecks": [
+        "現地への搬入か、現地から豪州本土への輸入かを確認する",
+        "入域、輸送手段および積荷について、豪州南極局と許可条件を確認する",
+        "許可を受けた受取人と輸送事業者の受付を確認する"
+      ],
+      "sourceIds": [
+        "hm_abf_customs_territory_notice",
+        "hm_environment_access_ordinance",
+        "hm_aad_environmental_approval"
+      ]
+    },
+    {
+      "country": "IO",
+      "classification": "restricted_access",
+      "noteJa": "英領インド洋地域の輸出入管理条例は、原則としてディエゴガルシアを指定し、航空機または登録トン数100トン以上の船舶を用いるよう定めています。事前の書面許可や政府・米軍施設向けの例外には個別条件があります。",
+      "requiredChecks": [
+        "仕向島、荷受人、許可を受けた搬入方法と運送事業者の受託を確認する。",
+        "実際の輸入日に適用される当局と、貨物の輸入条件・関税・費用を確認する。",
+        "防衛目的の免税を利用する場合は、協定が定める荷受人・用途・時期を個別に確認する。"
+      ],
+      "sourceIds": [
+        "io_imports_exports_control_2009",
+        "io_defence_import_relief_unts_8737",
+        "io_current_treaty_status_uk_parliament",
+        "io_gov_uk_restricted_access"
+      ]
+    },
+    {
+      "country": "NE",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "UEMOA共通税表は原本を確認しました。ニジェールの国内税表は公表を確認し、原本の直接取得は未完了です。2026年財政法と8月の第一次改正を確認し、国内課税や免除の適用を個別に照会します。",
+      "requiredChecks": [
+        "品目の国内税番と輸入日時点の適用税率をニジェール税関に確認する",
+        "UEMOA共通税表の国内適用、国内追加課税、免除および2026年財政法の改正を確認する"
+      ],
+      "sourceIds": [
+        "ne_douanes_tarif_sh2022",
+        "uemoa_tec_2022",
+        "ne_wto_member_notification_tariffs",
+        "ne_finance_2026",
+        "ne_finance_2026_first_amendment"
+      ]
+    },
+    {
+      "country": "PN",
+      "classification": "local_customs_ordinance",
+      "noteJa": "ピトケアンでは現地法に基づく申告、輸入制限、バイオセキュリティの確認が必要です。酒類は許可制で、蜂蜜や使用済み養蜂用品には輸入禁止が公表されています。船便には航海ごとの日程と貨物の受託条件があります。",
+      "requiredChecks": [
+        "品目に応じて酒類許可、動植物・食品の検疫、輸入禁止品と申告の条件を確認する。",
+        "現地当局に輸入日の関税・税・取扱費用を確認する。",
+        "船便の貨物受託、積替え、荷受人と引渡し方法を確認する。"
+      ],
+      "sourceIds": [
+        "pn_ordinance_biosecurity_2024",
+        "pn_gov_uk_import_controls",
+        "pn_silver_supporter_shipping_schedule"
+      ]
+    },
+    {
+      "country": "TF",
+      "classification": "local_customs_ordinance",
+      "noteJa": "フランス領南方・南極地域には2026年5月1日施行の税関法典第VIII編による固有の税関領域があります。地区ごとの立入り・停泊・貨物輸送条件と、現地当局の輸入規制を確認します。",
+      "requiredChecks": [
+        "地区、島、受取人、荷揚げ地点と貨物便の受託を確認する。",
+        "TAAF行政当局に立入り・停泊の許可と品目ごとの輸入制限を確認する。",
+        "貨物の関税・税・取扱費用を確認し、滞在・停泊に対する課税と区別する。"
+      ],
+      "sourceIds": [
+        "tf_customs_code_title_viii",
+        "tf_stay_and_mooring_taxes_order_2022_03",
+        "tf_district_supply_routes",
+        "tf_austral_access_and_mooring"
+      ]
+    },
+    {
+      "country": "TO",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "トンガ税関の2016年改正版基礎税表は公表を確認し、原本の直接取得は未完了です。改正命令とPACER Plusの特恵資料を取得済みです。",
+      "requiredChecks": [
+        "輸入日と国内税番に対応する通常関税をトンガ税関の基礎税表と後続改正で照会する",
+        "原産地特恵、免除、消費税、物品税、通関手数料を個別に確認する"
+      ],
+      "sourceIds": [
+        "to_customs_tariff_2016",
+        "to_customs_tariff_2016_unsuffixed_reference",
+        "to_customs_tariffs_and_fees",
+        "to_customs_duty_amendment_2021",
+        "to_pacer_plus_annex_2a_tariffs"
+      ]
+    },
+    {
+      "country": "UM",
+      "classification": "island_required",
+      "noteJa": "米領小離島は複数の島・環礁をまとめたコードです。ウェーク、ミッドウェー、ジョンストンへの輸入には米国関税法の本土制度が適用されず、行政上の取扱いが異なります。ウェークで営利活動を行うには島の許可が必要です。ミッドウェーとナヴァッサは一般公開されておらず、パルミラへの訪問船は特別使用許可の対象です。",
+      "requiredChecks": [
+        "実際の仕向島、受取人および荷揚げ地点を特定する",
+        "島を管轄する機関に、商用貨物の受入れ、入域および保護区の許可条件を確認する",
+        "当該経路を受け付ける輸送事業者と、米国関税領域に入る場合の手続を確認する"
+      ],
+      "sourceIds": [
+        "um_insular_possessions_customs_rule",
+        "um_insular_possessions_customs_current",
+        "um_wake_island_commercial_permit",
+        "um_pacific_refuge_access",
+        "um_midway_refuge_access",
+        "um_navassa_refuge_access"
+      ]
+    },
+    {
+      "country": "ZM",
+      "classification": "applied_tariff_confirmation_required",
+      "noteJa": "ザンビアの公式品目照会は利用できます。品目8702409000はポータルの通常関税15%と、ZRAの2026年1月版税表の同じ品目の無税表示が一致しません。",
+      "requiredChecks": [
+        "税番8702409000を含め、品目照会とZRAの現行税表に差がある場合は税関の回答を確認する",
+        "輸入日時点の基礎税率、法改正、国内税、原産地特恵および関連手数料を確認する"
+      ],
+      "sourceIds": [
+        "zm_zra_tariff_book_2026",
+        "zm_trade_portal_tariff_search",
+        "zm_trade_portal_item_8702409000",
+        "zm_parliament_customs_act_18_2025"
+      ]
+    }
+  ]
+}

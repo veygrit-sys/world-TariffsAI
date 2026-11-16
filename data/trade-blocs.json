@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "eu_customs_union",
+    "titleJa": "EU関税同盟",
+    "kind": "customs_union",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "mode": "eu_standard_route",
+    "conditionJa": "EU加盟27カ国の通常税関領域間では、自由流通に置かれた貨物かを確認します。特別領域、保税状態、付加価値税・物品税の領域差は別途確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Council of the European Union",
+        "title": "The EU customs union",
+        "url": "https://www.consilium.europa.eu/en/policies/the-eu-customs-union/"
+      },
+      {
+        "authority": "European Commission",
+        "title": "Territorial Scope",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union",
+        "title": "EU countries",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+      }
+    ]
+  },
+  {
+    "id": "eu_turkiye_customs_union",
+    "titleJa": "EU・トルコ関税同盟",
+    "kind": "customs_union",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK",
+      "TR"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "自由流通の対象となる品目とA.TR移動証明書を確認します。農産物、石炭・鉄鋼には別の協定・原産地条件があり、加工農産品には個別条件があります。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission",
+        "title": "Türkiye customs union and preferential arrangements",
+        "url": "https://taxation-customs.ec.europa.eu/turkey-customs-unions-and-preferential-arrangements_en"
+      },
+      {
+        "authority": "European Commission",
+        "title": "EU and Türkiye customs cooperation",
+        "url": "https://taxation-customs.ec.europa.eu/news/eu-and-turkiye-new-agreement-strengthen-customs-cooperation-2026-07-16_en"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "AT",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "BE",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "BG",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "CY",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "CZ",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "DE",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "DK",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "EE",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "ES",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "FI",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "FR",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "GR",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "HR",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "HU",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "IE",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "IT",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "LT",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "LU",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "LV",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "MT",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "NL",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "PL",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "PT",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "RO",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "SE",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "SI",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "SK",
+        "destinationCountry": "TR"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "AT"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "BE"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "BG"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "CY"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "CZ"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "DE"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "DK"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "EE"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "ES"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "FI"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "FR"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "GR"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "HR"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "HU"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "IE"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "IT"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "LT"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "LU"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "LV"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "MT"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "NL"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "PL"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "PT"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "RO"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "SE"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "SI"
+      },
+      {
+        "originCountry": "TR",
+        "destinationCountry": "SK"
+      }
+    ]
+  },
+  {
+    "id": "gcc_customs_union",
+    "titleJa": "GCC関税同盟",
+    "kind": "customs_union",
+    "countries": [
+      "AE",
+      "BH",
+      "KW",
+      "OM",
+      "QA",
+      "SA"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "加盟6カ国間で、第三国貨物の最初の入域地、通関・納税証拠、仕向地への移送手続を確認します。加盟国原産品と域外品の扱い、特別区域、規制品、仕向国の税や証憑を個別に確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "UAE Federal Authority for Identity, Citizenship, Customs & Port Security",
+        "title": "Customs Union for GCC States",
+        "url": "https://icp.gov.ae/en/customs-union-for-gcc/"
+      }
+    ]
+  },
+  {
+    "id": "sacu_customs_union",
+    "titleJa": "南部アフリカ関税同盟（SACU）",
+    "kind": "customs_union",
+    "countries": [
+      "BW",
+      "LS",
+      "NA",
+      "SZ",
+      "ZA"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "SACU協定第18条・第19条に沿って域内生産品か、域外貨物が共通税関領域でどの手続を経たかを確認します。農産品等の例外、仕向国の規制、VAT・物品税、申告手続は個別に確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "SACU Secretariat",
+        "title": "Southern African Customs Union Agreement of 2002, articles 18–19",
+        "url": "https://www.sacu.int/uploads/documents/6a7ae39b41cba945b083e93a2e1a103d7cee629c.pdf"
+      },
+      {
+        "authority": "SACU Secretariat",
+        "title": "SACU Agreements",
+        "url": "https://www.sacu.int/what-we-do/sacu-agreements"
+      }
+    ]
+  },
+  {
+    "id": "eaeu_customs_union",
+    "titleJa": "ユーラシア経済連合（EAEU）",
+    "kind": "customs_union",
+    "countries": [
+      "AM",
+      "BY",
+      "KG",
+      "KZ",
+      "RU"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "加盟5カ国間で連合貨物の地位、自由流通・保税・通過手続、到着国の間接税と書類を確認します。輸出入規制・制裁・品目別条件は別途確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Eurasian Economic Commission",
+        "title": "EAEU over 10 years",
+        "url": "https://eec.eaeunion.org/upload/iblock/69c/mutq450gxmmn90861uvhvu1t98xedekl/EAEU-over-10-Years-oct-2025.pdf"
+      },
+      {
+        "authority": "Eurasian Economic Commission",
+        "title": "Practical Recommendations on Doing Business in the EAEU",
+        "url": "https://eec.eaeunion.org/upload/medialibrary/750/Guidance-on-the-Eurasian-Economic-Union-Trade-Regulation-2020.pdf"
+      }
+    ]
+  },
+  {
+    "id": "eac_customs_union",
+    "titleJa": "東アフリカ共同体（EAC）関税同盟",
+    "kind": "customs_union",
+    "countries": [
+      "BI",
+      "KE",
+      "RW",
+      "TZ",
+      "UG"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "域内原産地規則と証明、第三国貨物の初回通関と納税、品目・仕向国別の共通対外関税例外を照合します。この行はブルンジ・ケニア・ルワンダ・タンザニア・ウガンダの取扱いを確認し、残る加盟国は個別の実施範囲を確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "East African Community",
+        "title": "EAC Customs Union",
+        "url": "https://www.eac.int/?id=23"
+      },
+      {
+        "authority": "East African Community",
+        "title": "EAC Gazette, Vol. AT. 1 No. 16, June 2026",
+        "url": "https://www.eac.int/documents?controller=download&file=a3c7fa5a-b765-48ed-befa-b6b65bf5b3cc&name=EAC+Vol.+AT+1+NO.+16+JUNE+2026.pdf.pdf&task=download.file"
+      },
+      {
+        "authority": "East African Community",
+        "title": "EAC Ministers adopt measures to strengthen regional trade and industrialization",
+        "url": "https://www.eac.int/press-releases/142-customs/3544-eac-ministers-adopt-measures-to-strengthen-regional-trade-and-industrialization"
+      }
+    ]
+  },
+  {
+    "id": "eac_partner_implementation",
+    "titleJa": "EAC加盟国の関税手続の実施範囲",
+    "kind": "transition",
+    "countries": [
+      "BI",
+      "CD",
+      "KE",
+      "RW",
+      "SO",
+      "SS",
+      "TZ",
+      "UG"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "コンゴ民主共和国・ソマリア・南スーダンを含む方向は、加盟関係を踏まえ、到着国の実施日・対象制度・通関データ接続、原産地証明と国内税関の取扱いを確認します。ソマリアの段階的採用を含め、実施状況は国と制度によって異なります。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "East African Community",
+        "title": "EAC Partner States",
+        "url": "https://www.eac.int/eac-partner-states"
+      },
+      {
+        "authority": "East African Community",
+        "title": "EAC Ministers adopt measures to strengthen regional trade and industrialization",
+        "url": "https://www.eac.int/press-releases/142-customs/3544-eac-ministers-adopt-measures-to-strengthen-regional-trade-and-industrialization"
+      },
+      {
+        "authority": "East African Community",
+        "title": "EAC Trade and Investment Report 2024, Somalia phased convergence",
+        "url": "https://www.eac.int/documents?controller=download&file=cd2b9a9a-a2da-4ff2-b6d2-422fa82ddef9&name=EAC+Trade+and+Investment+Report+2024+281025+e.pdf&task=download.file"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "BI",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "BI",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "BI",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "BI"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "KE"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "RW"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "TZ"
+      },
+      {
+        "originCountry": "CD",
+        "destinationCountry": "UG"
+      },
+      {
+        "originCountry": "KE",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "KE",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "KE",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "RW",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "RW",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "RW",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "BI"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "KE"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "RW"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "TZ"
+      },
+      {
+        "originCountry": "SO",
+        "destinationCountry": "UG"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "BI"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "KE"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "RW"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "TZ"
+      },
+      {
+        "originCountry": "SS",
+        "destinationCountry": "UG"
+      },
+      {
+        "originCountry": "TZ",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "TZ",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "TZ",
+        "destinationCountry": "SS"
+      },
+      {
+        "originCountry": "UG",
+        "destinationCountry": "CD"
+      },
+      {
+        "originCountry": "UG",
+        "destinationCountry": "SO"
+      },
+      {
+        "originCountry": "UG",
+        "destinationCountry": "SS"
+      }
+    ]
+  },
+  {
+    "id": "ecowas_customs_union",
+    "titleJa": "西アフリカ諸国経済共同体（ECOWAS）",
+    "kind": "customs_union",
+    "countries": [
+      "BJ",
+      "CI",
+      "CV",
+      "GH",
+      "GM",
+      "GN",
+      "GW",
+      "LR",
+      "NG",
+      "SL",
+      "SN",
+      "TG"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "現加盟12カ国間で、貿易自由化制度（ETLS）の原産要件、対象品目と必要な承認・原産地証明を確認します。第三国貨物の共通対外関税（CET）と各国適用、国内税やその他費目は個別に確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "ECOWAS Commission",
+        "title": "Member States",
+        "url": "https://www.ecowas.int/member_states/"
+      },
+      {
+        "authority": "ECOWAS Commission",
+        "title": "Press statement on the withdrawal of Burkina Faso, Mali and Niger",
+        "url": "https://www.ecowas.int/press-statement-2/"
+      },
+      {
+        "authority": "ECOWAS Commission",
+        "title": "ECOWAS Trade Liberalisation Scheme origin recognition procedure",
+        "url": "https://etls.ecowas.int/approval-procedures/"
+      },
+      {
+        "authority": "ECOWAS Trade Information System",
+        "title": "ECOWAS Common External Tariff",
+        "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+      }
+    ]
+  },
+  {
+    "id": "ecowas_withdrawal_etls",
+    "titleJa": "ECOWAS離脱3カ国からのETLS経過措置",
+    "kind": "transition",
+    "countries": [
+      "BF",
+      "BJ",
+      "CI",
+      "CV",
+      "GH",
+      "GM",
+      "GN",
+      "GW",
+      "LR",
+      "ML",
+      "NE",
+      "NG",
+      "SL",
+      "SN",
+      "TG"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "2025年1月29日に離脱したブルキナファソ、マリ、ニジェールから現加盟国への貨物は、ETLS取扱いを継続する旨の発表と、対象原産性・輸入国税関の現行運用を照合します。この経過措置は該当する方向に限って案内します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "ECOWAS Commission",
+        "title": "Press statement on the withdrawal of Burkina Faso, Mali and Niger",
+        "url": "https://www.ecowas.int/press-statement-2/"
+      },
+      {
+        "authority": "ECOWAS Commission",
+        "title": "ECOWAS Trade Liberalisation Scheme origin recognition procedure",
+        "url": "https://etls.ecowas.int/approval-procedures/"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "BF",
+        "destinationCountry": "BJ"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "CI"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "CV"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "GH"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "GM"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "GN"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "GW"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "LR"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "NG"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "SL"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "SN"
+      },
+      {
+        "originCountry": "BF",
+        "destinationCountry": "TG"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "BJ"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "CI"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "CV"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "GH"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "GM"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "GN"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "GW"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "LR"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "NG"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "SL"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "SN"
+      },
+      {
+        "originCountry": "ML",
+        "destinationCountry": "TG"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "BJ"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "CI"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "CV"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "GH"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "GM"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "GN"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "GW"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "LR"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "NG"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "SL"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "SN"
+      },
+      {
+        "originCountry": "NE",
+        "destinationCountry": "TG"
+      }
+    ]
+  },
+  {
+    "id": "mercosur_customs_union",
+    "titleJa": "南米南部共同市場（MERCOSUR）",
+    "kind": "customs_union",
+    "countries": [
+      "AR",
+      "BR",
+      "PY",
+      "UY"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "アルゼンチン・ブラジル・パラグアイ・ウルグアイ間で、MERCOSUR原産地制度（ROM）、原産地申告・証明、個別品目条件を照合します。共通対外関税の国別例外・特別制度も確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "MERCOSUR Secretariat",
+        "title": "Countries and Bolivia's accession transition",
+        "url": "https://www.mercosur.int/en/about-mercosur/countries"
+      },
+      {
+        "authority": "MERCOSUR Secretariat",
+        "title": "Regime of Origin under Decision CMC 05/23",
+        "url": "https://polcom.mercosur.int/public/rom/ordenado/origem-2023"
+      },
+      {
+        "authority": "MERCOSUR Trade Commission",
+        "title": "Adjustment of product-specific origin requirements",
+        "url": "https://documentos.mercosur.int/public/normativas/5157"
+      },
+      {
+        "authority": "MERCOSUR Secretariat",
+        "title": "Common External Tariff exceptions and special import regimes",
+        "url": "https://polcom.mercosur.int/to/a_3/52"
+      }
+    ]
+  },
+  {
+    "id": "mercosur_bolivia_transition",
+    "titleJa": "MERCOSURへのボリビア加入に伴う経過措置",
+    "kind": "transition",
+    "countries": [
+      "AR",
+      "BO",
+      "BR",
+      "PY",
+      "UY"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "ボリビアは加盟済みで、2024年7月の批准書寄託後、制度取込みに最大4年の移行期間があります。相手国と品目ごとの適用法令・原産地・税率と、既存の協定上の取扱いを確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "MERCOSUR Secretariat",
+        "title": "Countries and Bolivia's accession transition",
+        "url": "https://www.mercosur.int/en/about-mercosur/countries"
+      },
+      {
+        "authority": "MERCOSUR Secretariat",
+        "title": "Regime of Origin under Decision CMC 05/23",
+        "url": "https://polcom.mercosur.int/public/rom/ordenado/origem-2023"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "AR",
+        "destinationCountry": "BO"
+      },
+      {
+        "originCountry": "BO",
+        "destinationCountry": "AR"
+      },
+      {
+        "originCountry": "BO",
+        "destinationCountry": "BR"
+      },
+      {
+        "originCountry": "BO",
+        "destinationCountry": "PY"
+      },
+      {
+        "originCountry": "BO",
+        "destinationCountry": "UY"
+      },
+      {
+        "originCountry": "BR",
+        "destinationCountry": "BO"
+      },
+      {
+        "originCountry": "PY",
+        "destinationCountry": "BO"
+      },
+      {
+        "originCountry": "UY",
+        "destinationCountry": "BO"
+      }
+    ]
+  },
+  {
+    "id": "cemac_customs_union",
+    "titleJa": "中部アフリカ経済通貨共同体（CEMAC）",
+    "kind": "customs_union",
+    "countries": [
+      "CF",
+      "CG",
+      "CM",
+      "GA",
+      "GQ",
+      "TD"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "CEMAC加盟6カ国間で、共同体原産地、証明、域外貨物の税関上の地位、共通対外関税と国別の施行を確認します。CEEAC・CEMACの調和税関法の施行状況は各国で確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "CEMAC Commission",
+        "title": "CEMAC Member States and institutions",
+        "url": "https://cemac.int/about/"
+      },
+      {
+        "authority": "CEMAC Commission",
+        "title": "Common External Tariff and Generalised Preferential Tariff",
+        "url": "https://cemac.int/wp-content/uploads/2025/02/acte-portant-revision-tarif-exterieur-commun-fixant-modalites-application-tarif-preferentiel-generalise.pdf"
+      },
+      {
+        "authority": "Direction Générale des Douanes du Cameroun",
+        "title": "Loi de finances 2026, harmonised CEEAC–CEMAC customs code",
+        "url": "https://www.douanes.cm/douanes-cameroun/wp-content/uploads/2026/01/LOI-DE-FINANCES-VF-BON.pdf_062414.pdf"
+      }
+    ]
+  },
+  {
+    "id": "central_america_cacm",
+    "titleJa": "中米経済統合・中米共同市場（CACM）",
+    "kind": "customs_union",
+    "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
+      "SV"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "中米共通品目分類（SAC）と仕向国の関税表を確認します。域内貨物は原産地条件、品目別例外、申告・通過手続を確認します。統合税関の稼働は国境施設・経路ごとに確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "SIECA",
+        "title": "Governance of the Central American Economic Integration Subsystem",
+        "url": "https://www.sieca.int/gobernanza-del-subsitema-economico-la-sieca/"
+      },
+      {
+        "authority": "SIECA",
+        "title": "Central American free trade area and governing rules",
+        "url": "https://www.sieca.int/integracion-economica-centroamericana/areas-de-la-integracion-economica/"
+      },
+      {
+        "authority": "WTO",
+        "title": "Central American Common Market (CACM), regional trade agreement",
+        "url": "https://rtais.wto.org/UI/PublicShowRTAIDCard.aspx?rtaid=151"
+      },
+      {
+        "authority": "SIECA",
+        "title": "Annex A of the General Treaty on Central American Economic Integration",
+        "url": "https://www.sieca.int/producto/anexo-a-del-tratado-general-de-integracion-economica/"
+      }
+    ]
+  },
+  {
+    "id": "central_america_panama",
+    "titleJa": "中米経済統合のパナマ経路",
+    "kind": "transition",
+    "countries": [
+      "CR",
+      "GT",
+      "HN",
+      "NI",
+      "PA",
+      "SV"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "パナマの中米経済統合への加入議定書を参照し、相手国・対象品目別の市場アクセス、原産地と例外、輸入国で使用する税表・申告手続を確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "SIECA",
+        "title": "Governance of the Central American Economic Integration Subsystem",
+        "url": "https://www.sieca.int/gobernanza-del-subsitema-economico-la-sieca/"
+      },
+      {
+        "authority": "SIECA",
+        "title": "Central American free trade area and governing rules",
+        "url": "https://www.sieca.int/integracion-economica-centroamericana/areas-de-la-integracion-economica/"
+      },
+      {
+        "authority": "Guatemala Ministry of Economy",
+        "title": "Central American Economic Integration treaties, including Panama accession",
+        "url": "https://www.mineco.gob.gt/tratados-vigentes-int-economica-centroamericana"
+      },
+      {
+        "authority": "WTO",
+        "title": "CACM accession of Panama, regional trade agreement",
+        "url": "https://rtais.wto.org/UI/PublicShowRTAIDCard.aspx?rtaid=878"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "CR",
+        "destinationCountry": "PA"
+      },
+      {
+        "originCountry": "GT",
+        "destinationCountry": "PA"
+      },
+      {
+        "originCountry": "HN",
+        "destinationCountry": "PA"
+      },
+      {
+        "originCountry": "NI",
+        "destinationCountry": "PA"
+      },
+      {
+        "originCountry": "PA",
+        "destinationCountry": "CR"
+      },
+      {
+        "originCountry": "PA",
+        "destinationCountry": "GT"
+      },
+      {
+        "originCountry": "PA",
+        "destinationCountry": "HN"
+      },
+      {
+        "originCountry": "PA",
+        "destinationCountry": "NI"
+      },
+      {
+        "originCountry": "PA",
+        "destinationCountry": "SV"
+      },
+      {
+        "originCountry": "SV",
+        "destinationCountry": "PA"
+      }
+    ]
+  },
+  {
+    "id": "central_america_deep_integration",
+    "titleJa": "中米深化統合（グアテマラ・ホンジュラス・エルサルバドル）",
+    "kind": "customs_union",
+    "countries": [
+      "GT",
+      "HN",
+      "SV"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "3カ国の統合税関の稼働する施設と経路、自由流通対象品目、除外貨物の税関管理、FYDUCA等の取引書類と仕向国の税を確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "SIECA",
+        "title": "Integración Profunda",
+        "url": "https://www.sieca.int/iniciativa-subregionales/integracion-profunda-la-sieca/"
+      },
+      {
+        "authority": "SIECA",
+        "title": "2026 agreement on integrated customs controls",
+        "url": "https://www.sieca.int/noticias/instancia-ministerial-aprueba-controles-aduaneros-migratorios-integrados-guatemala-honduras-el-salvador/"
+      }
+    ]
+  },
+  {
+    "id": "asean_atiga",
+    "titleJa": "ASEAN物品貿易協定（ATIGA）",
+    "kind": "free_trade_area",
+    "countries": [
+      "BN",
+      "ID",
+      "KH",
+      "LA",
+      "MM",
+      "MY",
+      "PH",
+      "SG",
+      "TH",
+      "VN"
+    ],
+    "mode": "preference_review",
+    "conditionJa": "ATIGAの対象10カ国間で、輸入国の譲許、品目別原産地規則、原産地証明と直接積送・経由時の管理を確認します。東ティモールはASEAN加盟済みで、ATIGAの相互適用は個別に確認します。改正議定書の暫定適用は、関税譲許と原産地条項の開始時期と区別します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "ASEAN Secretariat",
+        "title": "ASEAN Trade in Goods",
+        "url": "https://asean.org/our-communities/economic-community/trade-in-goods/"
+      },
+      {
+        "authority": "ASEAN Secretariat",
+        "title": "ASEAN Rules of Origin",
+        "url": "https://asean.org/our-communities/economic-community/rules-of-origin/"
+      },
+      {
+        "authority": "ASEAN Member States",
+        "title": "Declaration on Provisional Application of the Second Protocol to Amend ATIGA",
+        "url": "https://agreement.asean.org/media/download/20260922094235.pdf"
+      },
+      {
+        "authority": "ASEAN Member States",
+        "title": "Declaration on the Admission of Timor-Leste into ASEAN",
+        "url": "https://agreement.asean.org/media/download/20251031093959.pdf"
+      },
+      {
+        "authority": "Singapore Customs",
+        "title": "Electronic Exchange of Form D via the ASEAN Single Window",
+        "url": "https://www.customs.gov.sg/doing-business/rules-of-origin/origin-documentation/electronic-exchange-of-form-d-via-the-asean-single-window/"
+      }
+    ]
+  },
+  {
+    "id": "afcfta_south_africa",
+    "titleJa": "アフリカ大陸自由貿易圏（AfCFTA）・南アフリカ輸入",
+    "kind": "free_trade_area",
+    "countries": [
+      "BI",
+      "CM",
+      "DZ",
+      "EG",
+      "ET",
+      "GH",
+      "GM",
+      "KE",
+      "MA",
+      "NG",
+      "RW",
+      "TN",
+      "UG",
+      "ZA"
+    ],
+    "mode": "preference_review",
+    "conditionJa": "南アフリカへの指定相手国からの貨物は、SARS Schedule 1 General Note Oの適格原産国、原産地証明、相互主義、品目別譲許・段階税率と例外を確認します。同注記のケニア原産0902.40には一般税率が指定されています。相手国を仕向地とする方向の適用は別途確認します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "African Union",
+        "title": "Agreement Establishing the African Continental Free Trade Area",
+        "url": "https://au.int/en/treaties/agreement-establishing-african-continental-free-trade-area"
+      },
+      {
+        "authority": "South African Revenue Service",
+        "title": "Customs and Excise Act, Schedule 1 General Note O",
+        "url": "https://www.sars.gov.za/legal-lprim-ce-sch1gen-general-notes-to-schedules-to-customs-and-excise-act/"
+      }
+    ],
+    "pairs": [
+      {
+        "originCountry": "BI",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "CM",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "DZ",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "EG",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "ET",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "GH",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "GM",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "KE",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "MA",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "NG",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "RW",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "TN",
+        "destinationCountry": "ZA"
+      },
+      {
+        "originCountry": "UG",
+        "destinationCountry": "ZA"
+      }
+    ]
+  },
+  {
+    "id": "waemu_customs_union",
+    "titleJa": "西アフリカ経済通貨同盟（UEMOA）",
+    "kind": "customs_union",
+    "countries": [
+      "BF",
+      "BJ",
+      "CI",
+      "GW",
+      "ML",
+      "NE",
+      "SN",
+      "TG"
+    ],
+    "mode": "hold_for_review",
+    "conditionJa": "UEMOA加盟8カ国間で、共同体原産性と証明、域内手続、共通対外関税と国内適用を確認します。ブルキナファソ、マリ、ニジェールを含む方向では、ECOWAS離脱に伴う経過措置とUEMOAの取扱いを区別します。",
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "UEMOA Commission",
+        "title": "UEMOA Common External Tariff",
+        "url": "https://www.uemoa.int/index.php/tarif-exterieur-commun"
+      },
+      {
+        "authority": "UEMOA Commission",
+        "title": "UEMOA Member States",
+        "url": "https://pfdpoc.uemoa.int/etats-membre"
+      },
+      {
+        "authority": "BCEAO",
+        "title": "West African Monetary Union member states",
+        "url": "https://www.bceao.int/fr/content/presentation-de-lumoa"
+      },
+      {
+        "authority": "ECOWAS Commission",
+        "title": "Press statement on the withdrawal of Burkina Faso, Mali and Niger",
+        "url": "https://www.ecowas.int/press-statement-2/"
+      }
+    ]
+  }
+]

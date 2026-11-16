@@ -1,0 +1,487 @@
+[
+  {
+    "id": "global-scope",
+    "countries": [],
+    "topics": [
+      "framework",
+      "classification",
+      "documents"
+    ],
+    "title": "Classification and route checks",
+    "text": {
+      "ja": "HS6は分類の共通の入口です。輸入国の追加桁、原産地、許認可、通関方式を別に確認します。住所の国、発送国、商品の原産国は別々に記録してください。",
+      "en": "HS6 is an initial classification reference. Confirm the importing jurisdiction’s additional digits, origin, authorisations and declaration procedure. Dispatch country and product origin are separate facts.",
+      "zh": "HS六位编码仅是分类入口。还须核对进口地的附加位数、原产地、许可与申报方式。发货地和商品原产地须分别记录。"
+    },
+    "sourceIds": [
+      "primary-wco-hs"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "gb-low-value",
+    "countries": [
+      "GB"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "Great Britain direct B2C low-value sales",
+    "text": {
+      "ja": "英国本土への対象の直接B2C販売は、貨物の本体価格合計135ポンド以下で販売時VATを確認します。送料・保険を別記した場合は判定基準から分離します。標準税率の確認済み商品に限り20%の概算を出します。北アイルランド、贈答、物品税対象は別審査です。",
+      "en": "For qualifying direct B2C sales to Great Britain, the £135 test uses the consignment intrinsic value. Separately identified freight and insurance are excluded from that threshold. This implementation estimates 20% only for confirmed standard-rated goods. Northern Ireland, gifts and excise goods need separate review.",
+      "zh": "发往大不列颠的符合条件的直接B2C销售，以整批货物内在价值135英镑为门槛，单列运保费另计。本实现仅对已确认标准税率的商品估算20%。北爱尔兰、礼物及消费税商品另审。"
+    },
+    "sourceIds": [
+      "primary-gb-sale",
+      "primary-gb-rate",
+      "primary-gb-duty",
+      "primary-gb-delivery"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2021-01-01",
+    "validTo": null
+  },
+  {
+    "id": "eu-temporary-duty",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "classification",
+      "documents"
+    ],
+    "title": "EU transitional low-value customs duty",
+    "text": {
+      "ja": "2026年7月1日からの暫定制度とIOSSのVATを分けます。本実装では、150ユーロ以下・IOSS利用または郵便・通常商品の確認済み分類に限り、HS6区分ごと3ユーロを概算します。数量を掛けません。その他の通関方式は、法令と更新されたガイダンスの範囲を再照合します。2026年11月以降の商品識別情報も確認してください。",
+      "en": "The temporary customs duty and IOSS VAT are separate. This implementation estimates €3 per confirmed HS6 category for ordinary consignments up to €150 using IOSS or post, without multiplying by quantity. Other procedures require a fresh legal-scope check. Product identifiers also require checking from November 2026.",
+      "zh": "暂行关税与IOSS增值税分开处理。本实现仅对150欧元以内、IOSS或邮政且分类已核定的普通商品，按HS六位类别估算每类3欧元，不乘件数。其他申报方式须重新核对法令与更新指引范围，亦须核对2026年11月起的商品识别信息。"
+    },
+    "sourceIds": [
+      "primary-eu-law",
+      "primary-eu-guidance"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-07-01",
+    "validTo": "2028-07-01"
+  },
+  {
+    "id": "sg-low-value",
+    "countries": [
+      "SG"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "Singapore sales-value and CIF tests",
+    "text": {
+      "ja": "空輸・郵便の低額商品は1点の販売価格400シンガポールドル以下で判定します。登録販売者の購入時GSTと、輸入時の貨物全体CIF400ドル基準を分けます。標準GSTは9%。購入時徴収の証拠が未確認なら輸入時GSTをゼロと断定しません。",
+      "en": "Low-value goods arriving by air or post use a S$400 per-item sales-value test. The separate import-relief test uses the whole consignment CIF. Standard GST is 9%. Checkout GST evidence must be confirmed before assuming no further import GST.",
+      "zh": "空运或邮政低值商品按每件销售价400新元判定。进口减免另按整批CIF400新元核对。标准GST为9%；购买时征税凭证未确认时，不判定进口GST为零。"
+    },
+    "sourceIds": [
+      "primary-sg-lvg",
+      "primary-sg-rate"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2024-01-01",
+    "validTo": null
+  },
+  {
+    "id": "jp-low-value",
+    "countries": [
+      "JP"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "Japan small-value relief with exclusions",
+    "text": {
+      "ja": "課税価格合計1万円以下でも、革製品・編物衣類など対象外品や分割貨物の合算を確認します。課税価格と各商品の免税適格性が確認済みの場合だけ関税・消費税の免税を概算します。小売価格を自動で0.6倍にはしません。",
+      "en": "Japan’s ¥10,000 customs-value relief has product exclusions and aggregation rules. Numeric relief requires an explicitly confirmed customs value and eligible lines. The engine never automatically multiplies a retail price by 0.6.",
+      "zh": "日本课税价格合计一万日元的减免存在商品排除与拆分合并规则。仅在课税价格和各商品资格均已确认时估算减免，不自动把零售价乘以0.6。"
+    },
+    "sourceIds": [
+      "primary-jp-relief"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-11-11",
+    "validTo": null
+  },
+  {
+    "id": "cn-cbec",
+    "countries": [
+      "CN"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "identity",
+      "documents"
+    ],
+    "title": "China CBEC eligibility review",
+    "text": {
+      "ja": "中国CBECは通常輸入や個人郵便と別に判定します。1取引5,000元・年間26,000元の枠、対象リスト、本人確認、注文・決済・物流電子情報を照合します。高額単品特例、増値税・消費税の品目差があるため、一律9.1%を適用しません。",
+      "en": "China CBEC is distinct from standard import and personal post. Check the CNY5,000 transaction and CNY26,000 annual limits, positive list, identity and electronic order/payment/logistics evidence. A high-value single-item exception exists. No blanket 9.1% rate is applied.",
+      "zh": "中国跨境电商与一般贸易、个人邮递分别判定。核对单次5000元、年度26000元限额、正面清单、身份及三单信息。存在高值单件例外；本系统不一律适用9.1%。"
+    },
+    "sourceIds": [
+      "primary-cn-limit",
+      "primary-cn-process"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2019-01-01",
+    "validTo": null
+  },
+  {
+    "id": "au-low-value",
+    "countries": [
+      "AU"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "Australia low-value postal goods",
+    "text": {
+      "ja": "郵便の通常商品は確認済み課税価格1,000豪ドル以下の国境段階の取扱いを照合します。販売者による購入時GSTは別です。本版の豪州計算は条件付きの国境関税のみで、販売時GSTをゼロとは扱いません。",
+      "en": "For ordinary postal goods, confirm the customs value and the AUD1,000 border treatment. Seller-collected GST is separate. This version estimates only scoped border duty and leaves sales GST unresolved.",
+      "zh": "普通邮递货物须核实课税价格与1000澳元的边境处理条件。销售方购买时征收的GST另计；本版仅估算有条件的边境关税，不将销售GST视为零。"
+    },
+    "sourceIds": [
+      "primary-au-lvg",
+      "primary-au-post"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-11-11",
+    "validTo": null
+  },
+  {
+    "id": "nz-low-value",
+    "countries": [
+      "NZ"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "New Zealand low-value GST",
+    "text": {
+      "ja": "NZ$1,000以下の通常商品について、販売者登録と貨物合算を確認します。確認済み標準課税商品の販売時GSTは15%を概算し、税抜商品代・配送・保険を計算基礎とします。酒・たばこや輸入手数料は別です。",
+      "en": "For ordinary goods within NZ$1,000, confirm seller registration and shipment aggregation. Confirmed standard-rated supplies use an estimated 15% GST on tax-exclusive goods, delivery and insurance. Alcohol, tobacco and import fees are outside this calculation.",
+      "zh": "NZ$1000以内普通商品须核实卖方注册与货物合并规则。已确认标准课税的供应，按不含税货值、运费、保险估算15%销售GST。酒、烟和进口手续费另审。"
+    },
+    "sourceIds": [
+      "primary-nz-border",
+      "primary-nz-sale"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-11-11",
+    "validTo": null
+  },
+  {
+    "id": "us-no-blanket-de-minimis",
+    "countries": [
+      "US"
+    ],
+    "topics": [
+      "tax",
+      "threshold",
+      "documents"
+    ],
+    "title": "US de minimis is not an automatic $800 exemption",
+    "text": {
+      "ja": "2026年2月20日の大統領令14388は少額免税停止の継続を定めています。800米ドル以下を自動免税にしません。HTSUS、原産地、輸入日、追加税、郵便と通常貨物の方式を現行資料で確認します。本版は米国税額を自動計算しません。",
+      "en": "Executive Order 14388 continues the suspension of de minimis treatment. A value below US$800 does not trigger automatic exemption. Recheck current HTSUS, origin, entry date, additional duties and postal procedure. This version does not calculate US duties.",
+      "zh": "第14388号行政命令继续暂停小额免税。本系统不因低于800美元自动免税。须核对现行HTSUS、原产地、进口日、附加税与邮递申报方式；本版不自动计算美国税额。"
+    },
+    "sourceIds": [
+      "primary-us-de-minimis"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-02-20",
+    "validTo": null
+  },
+  {
+    "id": "global-customs-valuation",
+    "countries": [],
+    "topics": [
+      "valuation"
+    ],
+    "title": "Evidence for customs valuation",
+    "text": {
+      "ja": "課税価格を計算する前に、輸入地の税関評価方法、取引価格に加算する項目、適用通貨、明細ごとの配分を確認します。価格がない贈答・返品・見本品は、適用される評価方法と価格資料を通関担当に確認します。",
+      "en": "Confirm the importing jurisdiction’s valuation method, adjustments, currency and line allocations. Ask the customs reviewer which method and evidence to use for gifts, returns or samples without a transaction price.",
+      "zh": "计算前核对进口地的估价方法、价格调整、币种和明细分摊。礼物、退运及无成交价格的样品应由通关人员确认估价方法和价格凭证。"
+    },
+    "sourceIds": [
+      "primary-wco-valuation"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "global-origin-evidence",
+    "countries": [],
+    "topics": [
+      "origin",
+      "classification"
+    ],
+    "title": "Product origin and advance rulings",
+    "text": {
+      "ja": "商品ごとに原産地を確認し、発送国とは別項目で記録します。特恵を申請する場合は適用協定、原産地基準、証明書類を確認します。分類や原産地の判断が難しい場合は輸入地で事前教示を照会します。",
+      "en": "Record the origin of each product separately from its dispatch country. When claiming a preference, verify the agreement, origin rule and supporting evidence. Ask the importing authority about advance rulings when classification or origin is uncertain.",
+      "zh": "逐项记录商品原产地与发货国。申请优惠时核对协定、原产地规则及证明。如归类或原产地存在疑问，向进口地主管机构查询预裁定程序。"
+    },
+    "sourceIds": [
+      "primary-wco-origin",
+      "primary-wto-advance-ruling"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "global-clearance-documents",
+    "countries": [],
+    "topics": [
+      "documents"
+    ],
+    "title": "Documents to prepare for customs review",
+    "text": {
+      "ja": "商用貨物ではインボイスや運送書類を準備し、貨物・制度・輸送手段に応じて原産地資料、輸出入許可、衛生証明などの提出要否を通関担当に確認します。",
+      "en": "Prepare invoice and transport evidence for commercial shipments. Ask the customs reviewer whether origin evidence, licences or health certificates are required for the goods, procedure and transport mode.",
+      "zh": "商业货物应准备发票和运输凭证，并根据商品、申报制度与运输方式向通关人员核实原产地证明、许可证或卫生证书的要求。"
+    },
+    "sourceIds": [
+      "primary-wco-clearance"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "global-postal-customs",
+    "countries": [],
+    "topics": [
+      "documents",
+      "postal"
+    ],
+    "title": "Postal customs declarations and electronic data",
+    "text": {
+      "ja": "国際郵便では、荷物とサービスに応じてCN22・CN23または電子事前データの提出方法を差出郵便事業者に確認します。価格、内容品、分類、原産地の記録を申告資料と照合します。",
+      "en": "For international mail, ask the sending postal operator about CN22, CN23 or electronic advance data for the service and item. Reconcile declared values, contents, classification and origin with the supporting records.",
+      "zh": "国际邮寄时，按邮件种类和服务向寄件邮政查询CN22、CN23或电子预报数据的提交方式，并核对品名、价格、归类和原产地。"
+    },
+    "sourceIds": [
+      "primary-upu-postal"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "us-standard-tariff-reference",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "topics": [
+      "classification",
+      "tax",
+      "origin"
+    ],
+    "title": "US HTS rate columns",
+    "text": {
+      "ja": "米国の標準輸入では、品目番号と原産地からHTSUSの税率欄を確認します。通常貿易関係の税率欄を参照したうえで、特恵、例外、追加措置を別に照会します。",
+      "en": "For standard US imports, check the HTSUS classification and the rate column for the product’s origin. Review preferences, exceptions and additional measures alongside the normal trade relations column.",
+      "zh": "美国一般进口应按商品编码及原产地核对HTSUS税率栏，并另查优惠、例外和额外措施。"
+    },
+    "sourceIds": [
+      "primary-us-hts"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "jp-standard-tariff-reference",
+    "countries": [
+      "JP"
+    ],
+    "topics": [
+      "classification",
+      "tax",
+      "origin"
+    ],
+    "title": "Japan tariff rate families",
+    "text": {
+      "ja": "日本向けでは統計品目番号を確認し、基本、暫定、WTO協定、EPAなどの適用条件と優先関係を確認します。",
+      "en": "Confirm the Japanese statistical commodity code and the eligibility and precedence of general, temporary, WTO and EPA rates.",
+      "zh": "进口日本时，应核对统计商品编码及基本、暂定、WTO和EPA税率的适用条件与优先顺序。"
+    },
+    "sourceIds": [
+      "primary-jp-rates"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "cn-standard-tariff-reference",
+    "countries": [
+      "CN"
+    ],
+    "topics": [
+      "classification",
+      "tax",
+      "origin"
+    ],
+    "title": "China standard import tariff reference",
+    "text": {
+      "ja": "中国本土向けの一般輸入では、2026年輸出入税則を参照し、品目番号、原産地、税率欄、輸入日の改正を確認します。越境ECの9610・1210は手続を個別に確認します。",
+      "en": "For standard imports into mainland China, consult the 2026 tariff and check the commodity code, origin, rate column and amendments for the import date. Review the 9610 and 1210 procedures separately for cross-border retail.",
+      "zh": "中国大陆一般进口应按2026年进出口税则核对商品编码、原产地、适用税率栏及进口日的调整；跨境零售9610和1210另核对适用流程。"
+    },
+    "sourceIds": [
+      "primary-cn-tariff-2026",
+      "primary-cn-process"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "eu-taric-and-local-taxes",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "topics": [
+      "classification",
+      "tax",
+      "origin"
+    ],
+    "title": "TARIC and national tax references",
+    "text": {
+      "ja": "EU向けではTARICの第三国関税・特恵・追加措置を品目と原産地で確認します。VAT・物品税は対象国の資料で確認します。",
+      "en": "Use TARIC to check third-country duties, preferences and additional measures by code and origin. Consult the destination country’s sources for VAT and excise.",
+      "zh": "进口欧盟时，按商品编码和原产地查询TARIC的第三国关税、优惠及附加措施；增值税和消费税查目的地国家资料。"
+    },
+    "sourceIds": [
+      "primary-eu-taric-scope"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "ch-specific-duty-basis",
+    "countries": [
+      "CH"
+    ],
+    "topics": [
+      "valuation",
+      "tax"
+    ],
+    "title": "Swiss weight-based customs duty",
+    "text": {
+      "ja": "スイスの税率行でCHF／100 kg（総重量）が指定されている場合は、該当する包装を含む通関用の重量を確認します。税表が別の課税単位を指定する場合はその単位を使います。",
+      "en": "For Swiss lines expressed in CHF per 100 kg gross, confirm the assessment weight including applicable packaging. Some tariff lines use a different assessment unit.",
+      "zh": "瑞士税则如标明每100公斤毛重的瑞士法郎税额，应核实含适用包装的计税重量。另有计税单位的商品按相应税目核对。"
+    },
+    "sourceIds": [
+      "primary-ch-assessment-bases"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "hk-cargo-free-port",
+    "countries": [
+      "HK"
+    ],
+    "topics": [
+      "tax",
+      "documents",
+      "origin"
+    ],
+    "title": "Hong Kong cargo and free-port treatment",
+    "text": {
+      "ja": "香港税関の自由港制度に基づき、通常関税と、指定品の物品税・許認可・貨物申告を別々に確認します。",
+      "en": "Under Hong Kong’s free-port framework, review general customs duty, excise on dutiable commodities, licensing and cargo declarations separately.",
+      "zh": "香港自由港制度下，普通关税、应课税品税项、许可证和货物申报分别核对。"
+    },
+    "sourceIds": [
+      "primary-hk-cargo-clearance"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": null,
+    "validTo": null
+  }
+]

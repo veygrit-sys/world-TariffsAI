@@ -1,0 +1,834 @@
+[
+  {
+    "id": "prior-J01",
+    "title": "日本税関・課税価格1万円以下の免税",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1006_jr.htm?initialSessionID=358-2454690-2440169&ld=ASXXSCTJPDirect",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J02",
+    "title": "日本税関・20万円以下の簡易税率",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1001.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J03",
+    "title": "日本税関・個人輸入と郵便通関",
+    "url": "https://www.customs.go.jp/tsukan/kojinyunyu.htm?l-id=event_overseas_pc_07_attention_2",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J04",
+    "title": "国税庁・輸入取引の消費税",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6563.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J05",
+    "title": "日本税関・実行関税率表",
+    "url": "https://www.customs.go.jp/tariff/?vm=r",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J06",
+    "title": "日本税関・課税価格に用いる外国為替相場",
+    "url": "https://www.customs.go.jp/tetsuzuki/kawase/index.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J07",
+    "title": "財務省・少額輸入貨物の制度改正",
+    "url": "https://www.mof.go.jp/public_relations/finance/202610/202610f.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J08",
+    "title": "国税庁・令和8年度の消費税法改正",
+    "url": "https://www.nta.go.jp/publication/pamph/shohi/kaisei/pdf/r08kaisei.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J09",
+    "title": "国税庁・輸出取引の免税と証明書類",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6551.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J10",
+    "title": "日本税関・通販貨物とECプラットフォームの申告",
+    "url": "https://www.customs.go.jp/shiryo/leaflet_shinkokukoumoku.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J11",
+    "title": "日本郵便・国とサービス別の差出可否",
+    "url": "https://www.post.japanpost.jp/service/send/oversea/information/overview.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J12",
+    "title": "日本郵便・通関電子データの送信義務",
+    "url": "https://www.post.japanpost.jp/question/oversea/150.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J13",
+    "title": "日本税関・再輸入免税",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1609.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J14",
+    "title": "日本税関・違約品等の再輸出に係る戻し税",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1604.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J15",
+    "title": "日本税関・輸出入禁止と規制品目",
+    "url": "https://www.customs.go.jp/mizugiwa/kinshi.htm?s=.p",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-J16",
+    "title": "日本税関・医薬品や化粧品の個人輸入",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1806_jr.htm?l-id=event_overseas_pc_07_attention_1",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A01",
+    "title": "外務省・日本のEPAとFTAの現況",
+    "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/index.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A02",
+    "title": "日本税関・RCEPの対日適用と原産地",
+    "url": "https://www.customs.go.jp/english/epa/rcep/rcep.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A03",
+    "title": "日本税関・経済連携協定の適用国と地域",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX4000.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A04",
+    "title": "日本税関・2026年度のGSP受益国と地域",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1504.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A05",
+    "title": "外務省・日バングラデシュEPA",
+    "url": "https://www.mofa.go.jp/policy/economy/fta/bangladesh.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-A06",
+    "title": "外務省・日UAE包括的経済連携協定",
+    "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/uae.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-S01",
+    "title": "経済産業省・対北朝鮮の輸出入禁止措置",
+    "url": "https://www.meti.go.jp/press/2025/04/20250408002/20250408002.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-S02",
+    "title": "経済産業省・ロシア等への輸出規制",
+    "url": "https://www.meti.go.jp/policy/external_economy/trade_control/02_export/17_russia/russia.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-US1",
+    "title": "米CBP・2026年10月の郵便通関規則",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-US2",
+    "title": "USITC・米国の実行関税率表",
+    "url": "https://hts.usitc.gov/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-US3",
+    "title": "USTR・Section 301対象品目の検索",
+    "url": "https://www.ustr.gov/issue-areas/enforcement/section-301-investigations/search",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CA1",
+    "title": "CBSA・郵便と宅配の少額免税",
+    "url": "https://cbsa-asfc.gc.ca/services/cusma-aceum/lvs-efv-eng.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-MX1",
+    "title": "SAT・宅配事業者による輸入手続",
+    "url": "https://wwwmat.sat.gob.mx/consulta/27974/operaciones-realizadas-por-empresas-de-mensajeria-y-paqueteria",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-EU1",
+    "title": "EU理事会・2026年7月からの小口関税",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-EU2",
+    "title": "欧州委員会・少額貨物のVATと通関",
+    "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/customs-formalities-low-value-consignments_en?prefLang=mt",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-EU3",
+    "title": "欧州委員会・EUの関税とVATの適用地域",
+    "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-EU4",
+    "title": "欧州委員会・IOSS上限撤廃の将来適用",
+    "url": "https://taxation-customs.ec.europa.eu/news/commission-welcomes-council-agreement-removing-eur150-threshold-vat-import-one-stop-shop-2026-11-09_en",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-EU5",
+    "title": "欧州委員会・3ユーロ関税のVAT上の扱い",
+    "url": "https://vat-one-stop-shop.ec.europa.eu/document/download/4ba8dc4c-2600-43ee-9010-2101cd05210c_en?filename=VAT+treatment+of+the+EUR+3+customs+duty+and+of+the+announced+Union+handling+fee.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-UK1",
+    "title": "英国政府・海外購入品の税と135ポンド基準",
+    "url": "https://www.gov.uk/goods-sent-from-abroad/tax-and-duty",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CH1",
+    "title": "スイス税務当局・通販とプラットフォーム課税",
+    "url": "https://www.estv.admin.ch/en/vat-mail-order-trade-and-platform-taxation",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CH2",
+    "title": "スイス税務当局・VAT税率",
+    "url": "https://www.estv.admin.ch/en/vat-rates-switzerland",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-NO1",
+    "title": "ノルウェー税務当局・VOECでの海外購入",
+    "url": "https://www.skatteetaten.no/en/person/duties/purchases-from-abroad/?pageid=829",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-NO2",
+    "title": "ノルウェー税務当局・VOEC番号の電子送信",
+    "url": "https://www.skatteetaten.no/bedrift-og-organisasjon/avgifter/mva/utland/e-handel-voec/sending-av-pakker-i-voec-ordningen/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CN1",
+    "title": "中国財政部・CBECの取引と年間限度額",
+    "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/201811/t20181129_3079073.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CN2",
+    "title": "中国財政部・CBECの税額と課税価格",
+    "url": "https://www.mof.gov.cn/gp/xxgkml/gss/201603/t20160324_2510682.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CN3",
+    "title": "中国海関・注文と決済と物流の電子申告",
+    "url": "https://online.customs.gov.cn/static/pages/guides/000629020000/000629020000.html",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-HK1",
+    "title": "香港海関・自由港と課税品目",
+    "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-KR1",
+    "title": "韓国関税庁・海外購入の免税と税額",
+    "url": "https://customs.go.kr/kcs/ad/tax/BuyTaxCalculation.do",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-KR2",
+    "title": "韓国関税庁・個人通関固有符号",
+    "url": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?cntntsId=5502&mi=10802",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-TW1",
+    "title": "台湾関務署・2千元と半年度6回の免税",
+    "url": "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93437_1207",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-SG1",
+    "title": "シンガポールIRAS・低額輸入品の販売時GST",
+    "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/consumers/gst-on-imported-low-value-goods",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-SG2",
+    "title": "シンガポールIRAS・輸入時のGST",
+    "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/consumers/consumers-importing-goods-into-singapore",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-MY1",
+    "title": "マレーシア税関・低額商品の売上税",
+    "url": "https://mylvg.customs.gov.my/FAQ",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-TH1",
+    "title": "タイ政府・2026年からの小口輸入課税",
+    "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/440097",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-VN1",
+    "title": "ベトナム政府・低額速達貨物のVAT免除廃止",
+    "url": "https://cms.baochinhphu.vn/trien-khai-bai-bo-mien-thue-gtgt-doi-voi-hang-nhap-khau-gia-tri-nho-102250214191738076.htm",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-PH1",
+    "title": "フィリピン税関・1万ペソの少額免税",
+    "url": "https://customs.gov.ph/guidelines-on-importation/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-ID1",
+    "title": "インドネシア税関・小口貨物の税と品目例外",
+    "url": "https://beacukai.go.id/faq-impor-barang-kiriman",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-IN1",
+    "title": "インドCBIC・宅配輸入の本人確認",
+    "url": "https://courier.cbic.gov.in/ECCS/PN%20Delhi/PN-2025/Public%20Notice%2009%202025%20Clarification%20regarding%20clearance%20of%20import%20goods%20through%20courier%20parcel%20and%20postal%20mode%20-%20ICT%20Delhi-1.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-IN2",
+    "title": "インドCBIC・2026年の宅配輸出入改正",
+    "url": "https://taxinformation.cbic.gov.in/view-pdf/1003317/ENG/Circulars",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-AU1",
+    "title": "豪州ABF・海外ネット購入と通関",
+    "url": "https://www.abf.gov.au/buying-online/buying-online",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-AU2",
+    "title": "豪州ATO・低額輸入品に対するGST",
+    "url": "https://www.ato.gov.au/law/view/pdf?DocID=COG%2FLCR20181%2FNAT%2FATO%2F00001&PiT=20240424000001&filename=law%2Fview%2Fpdf%2Fpbr%2Flcr2018-001.pdf",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-NZ1",
+    "title": "NZ Inland Revenue・低額輸入品のGST",
+    "url": "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-NZ2",
+    "title": "NZ Customs・輸入時の関税とGST",
+    "url": "https://www.customs.govt.nz/sending-and-receiving/duty-and-gst/duty-and-allowances",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-BR1",
+    "title": "ブラジルReceita・2026年5月以降の小口課税",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/manual-de-encomendas-internacionais",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-BR2",
+    "title": "ブラジルReceita・輸入税と州ICMS",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/remessas-postal-e-expressa/preciso-pagar-impostos-nas-compras-internacionais/quais-sao-os-impostos-devidos",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-CL1",
+    "title": "チリSII・低額商品の遠隔販売VAT",
+    "url": "https://www.sii.cl/destacados/iva_bienes/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-PE1",
+    "title": "ペルーSUNAT・郵便輸入Importa Facil",
+    "url": "https://emprender.sunat.gob.pe/principales-impuestos/otros/importa-facil",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-SA1",
+    "title": "サウジZATCA・個人の海外EC購入",
+    "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/e-stores-customers.aspx",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-AE1",
+    "title": "UAE税務当局・輸入時のVAT",
+    "url": "https://tax.gov.ae/en/faq.aspx?keyword=Will+VAT+be+paid+on+imports",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-ZA1",
+    "title": "南アSARS・越境EC小口輸入の課税",
+    "url": "https://www.sars.gov.za/media-release/changes-to-customs-import-system/",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-TR1",
+    "title": "トルコ商務省・2026年のEC簡易申告変更",
+    "url": "https://ticaret.gov.tr/haberler/e-ithalatta-basitlestirilmis-gumruk-beyannamesi-kapsaminin-degistirilmesine-iliskin-yeni-duzenleme-hakkinda-basin-aciklamasi",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-OSS1",
+    "title": "iso-codes・国と地域コードおよび日本語名称",
+    "url": "https://salsa.debian.org/iso-codes-team/iso-codes",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-OSS2",
+    "title": "Google libaddressinput・住所の国別メタデータ",
+    "url": "https://github.com/google/libaddressinput",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "prior-OSS3",
+    "title": "libpostal・住所解析と表記正規化",
+    "url": "https://github.com/openvenues/libpostal/blob/master/README.md?plain=1",
+    "verification": "inherited_research",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-11"
+  },
+  {
+    "id": "primary-eu-law",
+    "title": "Council Regulation (EU) 2026/382",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-eu-guidance",
+    "title": "European Commission low-value import guidance, updated 2026-07-20",
+    "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-gb-sale",
+    "title": "HMRC overseas goods sold directly to customers",
+    "url": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-directly-to-customers-in-the-uk",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-gb-rate",
+    "title": "HMRC VAT rates",
+    "url": "https://www.gov.uk/tax-on-shopping/vat-duties",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-gb-delivery",
+    "title": "HMRC VAT Notice 700/24",
+    "url": "https://www.gov.uk/guidance/vat-on-postage-delivery-and-direct-marketing-notice-70024",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-gb-duty",
+    "title": "HMRC tax and duty for overseas goods",
+    "url": "https://www.gov.uk/goods-sent-from-abroad/tax-and-duty",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-sg-lvg",
+    "title": "Singapore Customs GST on low-value goods",
+    "url": "https://www.customs.gov.sg/personal-shipment/buying-from-overseas/gst-on-low-value-goods/",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-sg-rate",
+    "title": "IRAS consumers importing goods",
+    "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/consumers/consumers-importing-goods-into-singapore",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-jp-relief",
+    "title": "Japan Customs low-value duty exemption",
+    "url": "https://www.customs.go.jp/english/c-answer_e/imtsukan/1006_e.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-cn-limit",
+    "title": "SAT tax notice 2018 No.49",
+    "url": "https://www.chinatax.gov.cn/chinatax/n810341/n810765/n3359382/201812/c4182338/content.html",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-cn-process",
+    "title": "MOFCOM CBEC import clearance procedures",
+    "url": "https://chinawto.mofcom.gov.cn/article/jsbl/zszc/202106/20210603070381.shtml",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-au-lvg",
+    "title": "Australian Border Force low-value imports",
+    "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/gst-and-other-taxes/gst-on-low-value-goods",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-au-post",
+    "title": "Australian Border Force imports by post",
+    "url": "https://www.abf.gov.au/buying-online-subsite/Pages/importing-post-mail.aspx",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-nz-border",
+    "title": "New Zealand Customs duty and allowances",
+    "url": "https://www.customs.govt.nz/sending-and-receiving/duty-and-gst/duty-and-allowances",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-nz-sale",
+    "title": "New Zealand IRD when to charge GST",
+    "url": "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods/when-to-charge-gst-on-low-value-imported-goods",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-us-de-minimis",
+    "title": "US Executive Order 14388, 2026-02-20",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-wco-hs",
+    "title": "WCO Harmonized System FAQ",
+    "url": "https://www.wcoomd.org/en/topics/nomenclature/overview/harmonized_system_faq.aspx",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-wco-valuation",
+    "title": "WCO — WTO Valuation Agreement",
+    "url": "https://www.wcoomd.org/en/topics/valuation/overview/wto-valuation-agreement.aspx",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-wco-origin",
+    "title": "WCO — Rules of origin FAQ",
+    "url": "https://www.wcoomd.org/en/topics/origin/overview/faq-origin.aspx",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-wco-clearance",
+    "title": "WCO — Revised Kyoto Convention clearance guidelines, Chapter 3",
+    "url": "https://www.wcoomd.org/~/media/wco/public/global/pdf/topics/wto-atf/dev/rkc-guidelines-ch3.pdf",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-upu-postal",
+    "title": "UPU — Electronic advance data for customs declarations",
+    "url": "https://www.upu.int/en/postal-solutions/technical-solutions/products/ead-customs-declarations-app",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-wto-advance-ruling",
+    "title": "WTO — Trade Facilitation Agreement, Article 3",
+    "url": "https://www.wto.org/english/docs_e/legal_e/downloads_e/tfa_en.pdf",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-us-hts",
+    "title": "USITC — Product classification and HTS rates",
+    "url": "https://www.usitc.gov/faq/question/what_classification_good_i_am_trying_import_or.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-jp-rates",
+    "title": "Japan Customs — Outline of tariff and duty rate system",
+    "url": "https://www.customs.go.jp/english/summary/tariff.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-cn-tariff-2026",
+    "title": "国务院关税税则委员会 — 中华人民共和国进出口税则（2026）",
+    "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202512/t20251231_3981044.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-eu-taric-scope",
+    "title": "European Commission — TARIC and the scope of national taxes",
+    "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-ch-assessment-bases",
+    "title": "Swiss FOCBS — Customs assessment bases",
+    "url": "https://www.bazg.admin.ch/en/customs-assessment-bases-gross-weight-and-effective-weight",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-hk-cargo-clearance",
+    "title": "Hong Kong Customs — Cargo clearance",
+    "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11"
+  },
+  {
+    "id": "primary-jp-kp-trade",
+    "title": "経済産業省・北朝鮮輸出入禁止措置の延長",
+    "url": "https://www.meti.go.jp/press/2025/04/20250408002/20250408002.html",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2027-04-13"
+  },
+  {
+    "id": "primary-eu-declaration-item",
+    "title": "EU Delegated Regulation 2026/1022 — declaration items and distance sales",
+    "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-eu-union-handling-fee",
+    "title": "EU Delegated Regulation 2026/2152 — Union handling fee",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-us-nonpostal-suspension",
+    "title": "US CBP — indefinite nonpostal de minimis suspension (91 FR 37789)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-us-postal-suspension",
+    "title": "US CBP — indefinite postal de minimis suspension and informal entry (91 FR 37801)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-18"
+  },
+  {
+    "id": "primary-us-postal-delayed-compliance",
+    "title": "US CBP — postal informal entry delayed compliance (91 FR 66638)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-18"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "HK",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-11",
+    "locale": "ja",
+    "currency": "HKD",
+    "freight": "0.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "synthetic-line-1",
+        "description": "Synthetic ordinary goods",
+        "quantity": 1,
+        "unitValue": "100.00",
+        "originCountry": "JP",
+        "goodsType": "ordinary",
+        "nonDutiableConfirmed": true
+      }
+    ],
+    "transaction": "b2b_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "unknown",
+    "consignmentScopeConfirmed": true,
+    "incoterm": "DAP",
+    "customsValue": "100.00",
+    "customsValueConfirmed": true
+  },
+  "lines": [{ "itemId": "synthetic-line-1", "rateTreatment": "zero_duty_policy" }]
+}

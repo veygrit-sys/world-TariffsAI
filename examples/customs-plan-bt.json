@@ -1,0 +1,31 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "BT",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-11",
+    "locale": "ja",
+    "currency": "USD",
+    "freight": "5.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "synthetic-line-1",
+        "description": "Synthetic gift",
+        "quantity": 1,
+        "unitValue": "20.00",
+        "originCountry": "JP",
+        "goodsType": "ordinary",
+        "hs6": "691200"
+      }
+    ],
+    "transaction": "private_gift",
+    "channel": "direct",
+    "transport": "post",
+    "regime": "unknown",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "unknown",
+    "consignmentScopeConfirmed": true
+  }
+}

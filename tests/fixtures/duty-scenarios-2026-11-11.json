@@ -1,0 +1,599 @@
+{
+  "AM": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "eaeu-cet-2026-11-11"
+  },
+  "AT": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "AU": {
+    "code": "6912000037",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "au-abf-sch3-2026-11-11"
+  },
+  "AZ": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "az-cabinet-decision-500-2026-11-11"
+  },
+  "BE": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "BG": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "BJ": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "bj-customs-tariff-hs2022-v2"
+  },
+  "BR": {
+    "code": "69120000",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "18.00",
+    "snapshotId": "br-gecex-272-2026-11-04"
+  },
+  "BW": {
+    "code": "691200",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "sacu-sars-general-2026-11-06"
+  },
+  "BY": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "eaeu-cet-2026-11-11"
+  },
+  "CA": {
+    "code": "69120090",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "7.00",
+    "snapshotId": "ca-t2026-2"
+  },
+  "CH": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "CHF",
+    "expected": "0.00",
+    "grossWeightKg": "100",
+    "snapshotId": "ch-tares-duty-2026-10"
+  },
+  "CI": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "ci-cet-sydam-2026-03"
+  },
+  "CK": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "ck-customs-hs2022-2025"
+  },
+  "CN": {
+    "code": "69120010",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "7.00",
+    "snapshotId": "cn-import-tariff-2026"
+  },
+  "CO": {
+    "code": "6912000000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "co-dian-decree-1881-2026-11"
+  },
+  "CR": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "cr-sieca-sac-v6"
+  },
+  "CY": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "CZ": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "DE": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "DK": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "EE": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "ES": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "FI": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "FJ": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "fj-frcs-standard-2026-budget"
+  },
+  "FO": {
+    "code": "69120021",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "fo-taks-customs-tariff-2026-11-11"
+  },
+  "FR": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "GB": {
+    "code": "6912002100",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "4.00",
+    "snapshotId": "gb-ukgt-2026-v134"
+  },
+  "GE": {
+    "code": "39172110000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "ge-tax-code-art197-2026-10"
+  },
+  "GR": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "GT": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "gt-sieca-sac-v6"
+  },
+  "HK": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "hk-free-port-hkhs-2026"
+  },
+  "HN": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "hn-sieca-sac-v6"
+  },
+  "HR": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "HU": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "ID": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "id-btki-pmk68-2026"
+  },
+  "IE": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "IS": {
+    "code": "61091000",
+    "treatment": "general",
+    "currency": "ISK",
+    "expected": "0",
+    "snapshotId": "is-skatturinn-import-duty-2026-10-01"
+  },
+  "IT": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "JM": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "jm-jca-integrated-duty-2026-10-30"
+  },
+  "JP": {
+    "code": "691200000",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "2.30",
+    "snapshotId": "jp-tariff-2026-10-31"
+  },
+  "KG": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "eaeu-cet-2026-11-11"
+  },
+  "KZ": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "eaeu-cet-2026-11-11"
+  },
+  "LI": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "CHF",
+    "expected": "0.00",
+    "grossWeightKg": "100",
+    "snapshotId": "ch-tares-duty-2026-10"
+  },
+  "LK": {
+    "code": "39039010",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "lk-customs-tariff-2026-11-03"
+  },
+  "LS": {
+    "code": "691200",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "sacu-sars-general-2026-11-06"
+  },
+  "LT": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "LU": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "LV": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "MK": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "mk-customs-2026-gazette-161"
+  },
+  "MO": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "mo-free-port-ncem-hs2022"
+  },
+  "MT": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "MU": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "mu-mra-integrated-tariff-2026-10"
+  },
+  "NA": {
+    "code": "691200",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "sacu-sars-general-2026-11-06"
+  },
+  "NC": {
+    "code": "69120010",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "nc-drdnc-tariff-2026-11-11"
+  },
+  "NG": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "ng-ncs-cet-2026"
+  },
+  "NI": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "ni-sieca-sac-v6"
+  },
+  "NL": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "NO": {
+    "code": "69120010",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "no-tolletaten-duty-2026-11-11"
+  },
+  "NP": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "np-customs-integrated-fy-2083-84"
+  },
+  "NZ": {
+    "code": "6912000102",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "nz-cusmod-2026-11-11"
+  },
+  "OM": {
+    "code": "691200000001",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "om-royal-oman-police-2026"
+  },
+  "PE": {
+    "code": "6912000000",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "6.00",
+    "snapshotId": "pe-sunat-nandina-2022-amended"
+  },
+  "PK": {
+    "code": "69120010",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "pk-fbr-first-schedule-fy-2026-27"
+  },
+  "PL": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "PR": {
+    "code": "6912001000",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "0.70",
+    "snapshotId": "us-hts-2026-r23"
+  },
+  "PT": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "PW": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "pw-ordinary-import-tax-2026"
+  },
+  "RO": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "RS": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "8.00",
+    "snapshotId": "rs-customs-107-25-45-26"
+  },
+  "RU": {
+    "code": "6912002100",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "eaeu-cet-2026-11-11"
+  },
+  "SE": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "SG": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "0.00",
+    "snapshotId": "sg-customs-first-schedule-2026-10"
+  },
+  "SI": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "SK": {
+    "code": "69120021",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "eu-cn-2026"
+  },
+  "SV": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "sv-sieca-sac-v6"
+  },
+  "SZ": {
+    "code": "691200",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "sacu-sars-general-2026-11-06"
+  },
+  "TG": {
+    "code": "6912001000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "20.00",
+    "snapshotId": "tg-otr-cet-2025"
+  },
+  "TR": {
+    "code": "691200210000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "tr-mot-decision-3350-2026"
+  },
+  "TW": {
+    "code": "69120010003",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "10.00",
+    "snapshotId": "tw-ccc-2026-11-11"
+  },
+  "UA": {
+    "code": "6912002100",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "5.00",
+    "snapshotId": "ua-uktzed-law2697-dcfta-2026"
+  },
+  "US": {
+    "code": "6912001000",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "0.70",
+    "snapshotId": "us-hts-2026-r23"
+  },
+  "VU": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "15.00",
+    "snapshotId": "vu-customs-hs2022-v4"
+  },
+  "ZA": {
+    "code": "691200",
+    "treatment": "mfn",
+    "currency": "USD",
+    "expected": "30.00",
+    "snapshotId": "sacu-sars-general-2026-11-06"
+  },
+  "ZW": {
+    "code": "69120000",
+    "treatment": "general",
+    "currency": "USD",
+    "expected": "60.00",
+    "snapshotId": "zw-zimra-si203-2022"
+  }
+}

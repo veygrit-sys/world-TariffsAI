@@ -1,0 +1,2856 @@
+{
+  "pass": 5,
+  "reviewedOn": "2026-11-12",
+  "entries": [
+    {
+      "country": "AE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.dubaicustoms.gov.ae/en/OpenData/Publications/DubaiCustomsServiceGuide2025_V09.pdf",
+          "authority": "Dubai Customs",
+          "title": "Dubai Customs Service Guide 2025",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.dubaicustoms.gov.ae/en/mobile/pages/faq.aspx",
+          "authority": "Dubai Customs",
+          "title": "Dubai Customs FAQ",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://uaelegislation.gov.ae/en/legislations/2705",
+          "authority": "UAE Cabinet",
+          "title": "Unified GCC Customs Tariff Resolution",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ドバイ税関では本土向け輸入、フリーゾーンへの搬入、フリーゾーンから本土への移動で申告を選ぶ。貨物の請求書、梱包明細、運送関係書類、該当時の原産地証明を準備する。",
+          "sourceUrls": [
+            "https://www.dubaicustoms.gov.ae/en/OpenData/Publications/DubaiCustomsServiceGuide2025_V09.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "規制品は所管当局の承認条件を確認する。フリーゾーン経由の貨物も本土に搬入する時点の申告区分と条件を確認する。",
+          "sourceUrls": [
+            "https://www.dubaicustoms.gov.ae/en/OpenData/Publications/DubaiCustomsServiceGuide2025_V09.pdf",
+            "https://www.dubaicustoms.gov.ae/en/mobile/pages/faq.aspx"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "GCC共通の品目分類とUAEの適用税表・例外を照合する。申告区分や協定原産性によって適用条件が変わる。",
+          "sourceUrls": [
+            "https://www.dubaicustoms.gov.ae/en/OpenData/Publications/DubaiCustomsServiceGuide2025_V09.pdf",
+            "https://uaelegislation.gov.ae/en/legislations/2705"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.src.am/en/getMenusContents/122",
+          "authority": "Armenian State Revenue Committee",
+          "title": "Customs information and services",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://english.hartak.am/services/7d0c257b-da97-4cb4-bd9f-bfd514966f2e/online/",
+          "authority": "Armenian National Services Gateway",
+          "title": "EAEU Member State Import and Export Transaction Registration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+          "authority": "Eurasian Economic Commission",
+          "title": "EAEU Commodity Nomenclature and Common Customs Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.arlis.am/en/acts/231853",
+          "authority": "Armenian Legal Information System",
+          "title": "Law on Customs Regulation, Article 36",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "EAEU加盟国との輸出入取引登録はHartakの対象手続を確認する。域外からの貨物は歳入委員会の輸入申告経路を確認する。",
+          "sourceUrls": [
+            "https://www.src.am/en/getMenusContents/122",
+            "https://english.hartak.am/services/7d0c257b-da97-4cb4-bd9f-bfd514966f2e/online/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "域外輸入はEAEU共通税表を参照し、アルメニア加盟条約附属書4の例外、個別の免除・割当・通商措置を確認する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/comission/department/catr/ett/",
+            "https://www.arlis.am/en/acts/231853"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://pice.gov.ao/como-funciona",
+          "authority": "Governo de Angola",
+          "title": "Plataforma Integrada do Comércio Externo — como funciona",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.dev.ucm.minfin.gov.ao/cs/groups/public/documents/document/zmlu/mdey/~edisp/minfin012625.pdf",
+          "authority": "Ministério das Finanças de Angola",
+          "title": "Procedimento Geral de Despacho — Documento Único",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "PICEで輸入ライセンス申請の利用登録と品目別の受付窓口を確認する。申告者は通関申告と許可の手続をそれぞれ照合する。",
+          "sourceUrls": [
+            "https://pice.gov.ao/como-funciona"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "一般通関手続の申告様式であるDocumento Único（DU）と、提出先・添付書類・現行の電子申告方式を税関に確認する。",
+          "sourceUrls": [
+            "https://www.dev.ucm.minfin.gov.ao/cs/groups/public/documents/document/zmlu/mdey/~edisp/minfin012625.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.az/en/sahibkarlar-ucun/gomruk-senedleri",
+          "authority": "Azerbaijan State Customs Committee",
+          "title": "Customs Documents",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.az/en/e-xidmetler/",
+          "authority": "Azerbaijan State Customs Committee",
+          "title": "Customs Electronic Services",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://e-qanun.az/framework/37035",
+          "authority": "Azerbaijan Cabinet of Ministers",
+          "title": "Decision 500 and Consolidated Customs Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://e-qanun.az/framework/62646",
+          "authority": "Azerbaijan Cabinet of Ministers",
+          "title": "Amendment to Decision 500",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関公式様式で貨物申告と輸入略式申告の対象を確認し、電子サービスを使う場合は税関の手続案内に従う。",
+          "sourceUrls": [
+            "https://customs.gov.az/en/sahibkarlar-ucun/gomruk-senedleri",
+            "https://customs.gov.az/en/e-xidmetler/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "閣僚会議決定500の細分コードと改正・附則を照合する。一部の品目には従価率に加えて期間限定の従量税が設定されているため、単位と適用日も確認する。",
+          "sourceUrls": [
+            "https://e-qanun.az/framework/37035",
+            "https://e-qanun.az/framework/62646"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douanes.bf/sydoniabf/files/codeDGD.pdf",
+          "authority": "Direction générale des douanes du Burkina Faso",
+          "title": "Code des douanes",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.ecowas.int/press-statement-2/",
+          "authority": "Economic Community of West African States",
+          "title": "Statement on the withdrawal of Burkina Faso, Mali and Niger",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物を管轄税関に提示し、適用する税関手続に沿った詳細申告を行う。規制品については品目ごとの許認可と提出窓口を確認する。",
+          "sourceUrls": [
+            "https://douanes.bf/sydoniabf/files/codeDGD.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2025年1月29日のECOWAS脱退後の税関取扱いを、最新の国内法令・地域取決め・原産地条件で確認する。",
+          "sourceUrls": [
+            "https://www.ecowas.int/press-statement-2/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1318",
+          "authority": "Bahrain National Portal",
+          "title": "Customs Declaration Services",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=3165",
+          "authority": "Bahrain National Portal",
+          "title": "Clearance of Regulated Products via OFOQ",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1322",
+          "authority": "Bahrain National Portal",
+          "title": "Unified Customs Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx",
+          "authority": "Saudi ZATCA",
+          "title": "Integrated Customs Tariff and GCC 12-digit HS",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "OFOQで貨物の申告を行い、運送書類、請求書、必要な原産地書類を添付する。",
+          "sourceUrls": [
+            "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1318"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "規制品のOFOQ承認では、対象に応じて適合性資料、請求書、梱包明細を用意する。",
+          "sourceUrls": [
+            "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=3165"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "GCCの共通分類とバーレーンの統一関税検索で、現行のコード・税目・輸入条件を照合する。",
+          "sourceUrls": [
+            "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1322",
+            "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.obr.bi/images/PDF/Communique-Portant-Dematerialisation-du-document-de-declaration-d-importation.pdf",
+          "authority": "Office burundais des recettes",
+          "title": "Dématérialisation du document de déclaration d’importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "OBRの輸入申告書電子化通知に従い、輸入申告書の作成と電子提出の手順を申告者が確認する。",
+          "sourceUrls": [
+            "https://www.obr.bi/images/PDF/Communique-Portant-Dematerialisation-du-document-de-declaration-d-importation.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BJ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://guce.gouv.bj/trade-server/wp-content/uploads/2022/06/Procedure_de_verification.pdf",
+          "authority": "Guichet unique du commerce extérieur du Bénin",
+          "title": "Procédure de vérification documentaire",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "書類検証の対象貨物はGUCEに事前申告（Déclaration Anticipée）を提出する。対象外の貨物と品目別書類は同窓口で確認する。",
+          "sourceUrls": [
+            "https://guce.gouv.bj/trade-server/wp-content/uploads/2022/06/Procedure_de_verification.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://ecustoms.burs.org.bw/TFBSEW/cusLogin/traderAndBusiness.jsp",
+          "authority": "Botswana Unified Revenue Service",
+          "title": "Botswana Single Window for traders",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf",
+          "authority": "Southern African Customs Union",
+          "title": "SACU Agreement 2002",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業輸入はBURSへ電子申告し、インボイス、該当する輸入許可、原産地証明などを添える。用途に合う税関手続区分を指定する。",
+          "sourceUrls": [
+            "https://ecustoms.burs.org.bw/TFBSEW/cusLogin/traderAndBusiness.jsp"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACUの共通対外関税の適用を確認する。域内移動・第三国貨物の扱い、輸入先の国内税や許認可は取引条件に沿って照合する。",
+          "sourceUrls": [
+            "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douane.gouv.cd/les-procedures-douanieres/les-procedures-de-dedouanement-a-limportation-en-rdc%EF%BF%BC/",
+          "authority": "Direction générale des douanes et accises de la RDC",
+          "title": "Procédures de dédouanement à l’importation en RDC",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物を税関へ提示し、DGDAの案内に沿って貨物に税関手続区分を指定する申告を行う。貨物・入国地に応じた事前手続と添付書類を確認する。",
+          "sourceUrls": [
+            "https://douane.gouv.cd/les-procedures-douanieres/les-procedures-de-dedouanement-a-limportation-en-rdc%EF%BF%BC/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "共通対外関税の国内施行範囲と移行措置を、貨物の申告日について輸入先税関へ確認する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://finances.gouv.cf/projet/16/e-douanes",
+          "authority": "Ministère des Finances et du Budget, République centrafricaine",
+          "title": "E-Douanes",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "E-Douanesでは商業輸入申告（DIC）や事前輸入申告（DPIV）の電子提出・承認を案内する。適用する書類を貨物の種類に応じて確認する。",
+          "sourceUrls": [
+            "https://finances.gouv.cf/projet/16/e-douanes"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://guot.cg/docs/GUIDE%20UTILISATEUR%20CONSULTGUOT.pdf",
+          "authority": "Guichet unique des opérations transfrontalières",
+          "title": "Guide utilisateur ConsultGUOT",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告をGUOTの手続に沿って照合し、ConsultGUOTで関連書類の真正性を確認する。実際の受付は使用する税関手続と照合する。",
+          "sourceUrls": [
+            "https://guot.cg/docs/GUIDE%20UTILISATEUR%20CONSULTGUOT.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://support.guce.gouv.ci/portal/fr/kb/articles/c4est",
+          "authority": "Guichet unique du commerce extérieur de Côte d’Ivoire",
+          "title": "FDI — Fiche de déclaration à l’importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://support.guce.gouv.ci/portal/fr/kb/articles/fdi-ce-qu-il-faut-savoir-8-9-2026",
+          "authority": "Guichet unique du commerce extérieur de Côte d’Ivoire",
+          "title": "FDI — Ce qu’il faut savoir",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告票（FDI）の対象、輸入者コード、必要な証憑を確認し、該当する案件をGUCEで手続する。",
+          "sourceUrls": [
+            "https://support.guce.gouv.ci/portal/fr/kb/articles/c4est"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "商務省の承認待ちとなる対象では、必要な輸入ライセンスを先に照合する。FDIとライセンスの受付状態を確認する。",
+          "sourceUrls": [
+            "https://support.guce.gouv.ci/portal/fr/kb/articles/fdi-ce-qu-il-faut-savoir-8-9-2026"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douanes.cm/douanes-cameroun/wp-content/uploads/2022/09/Procedure-dedaounement-imposition-ok.pdf.pdf",
+          "authority": "Direction générale des douanes du Cameroun",
+          "title": "Procédure de dédouanement et d’imposition",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "CAMCISの詳細申告を行う。通常は先にマニフェストが登録されていることを確認し、特別手続の例外は税関に照会する。",
+          "sourceUrls": [
+            "https://www.douanes.cm/douanes-cameroun/wp-content/uploads/2022/09/Procedure-dedaounement-imposition-ok.pdf.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CV",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.mf.gov.cv/web/dnre/direca-geral-das-alfandegas",
+          "authority": "Ministério das Finanças, Cabo Verde",
+          "title": "Direção-Geral das Alfândegas",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.mf.gov.cv/web/dnre/dire%C3%A7%C3%A3o-geral-das-contribui%C3%A7%C3%B5es-e-impostos",
+          "authority": "Ministério das Finanças, Cabo Verde",
+          "title": "Informação fiscal ao importador de bens",
+          "topic": "tax"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "財務省の税関窓口を照会先とし、輸入申告、運送書類、対象品のライセンスを実際の受付税関で確認する。",
+          "sourceUrls": [
+            "https://www.mf.gov.cv/web/dnre/direca-geral-das-alfandegas"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "商業インボイスと税関単一書類（DAU）を税務上の記録に用いる場合は、輸入申告の控えと対応する税の記録を確認する。",
+          "sourceUrls": [
+            "https://www.mf.gov.cv/web/dnre/dire%C3%A7%C3%A3o-geral-das-contribui%C3%A7%C3%B5es-e-impostos"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.mof.gov.cy/mof/customs/Customs.nsf/0/B7D3EB29E4071197C22575D300335A2E",
+          "authority": "Cyprus Customs and Excise Department",
+          "title": "EORI Registration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.mof.gov.cy/mof/Customs/customs.nsf/All/0C4031A4E9CBC36DC22572A6003D77DB",
+          "authority": "Cyprus Customs and Excise Department",
+          "title": "Prohibitions and Restrictions",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://commission.europa.eu/about/departments-and-executive-agencies/regional-and-urban-policy/green-line-regulation_en",
+          "authority": "European Commission",
+          "title": "Green Line Regulation",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "キプロス共和国政府が実効支配する区域の一般商業輸入は、必要なEORI登録とEU TARICの品目コード・措置を確認する。",
+          "sourceUrls": [
+            "https://www.mof.gov.cy/mof/customs/Customs.nsf/0/B7D3EB29E4071197C22575D300335A2E",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動物・動物由来製品などの規制品は、税関のリストから関係当局と証明・許可を確認する。",
+          "sourceUrls": [
+            "https://www.mof.gov.cy/mof/Customs/customs.nsf/All/0C4031A4E9CBC36DC22572A6003D77DB"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "グリーンラインを越える貨物は、通常の域外輸入と区分し、Green Line Regulationの品目・証明・経路条件を確認する。",
+          "sourceUrls": [
+            "https://commission.europa.eu/about/departments-and-executive-agencies/regional-and-urban-policy/green-line-regulation_en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DJ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douanes.gouv.dj/wp-content/uploads/2024/06/guide_nouveau_onglet_docs_scannes_SW_v1.0.pdf",
+          "authority": "Direction générale des douanes et droits indirects de Djibouti",
+          "title": "Guide des pièces scannées dans la déclaration en douane",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "電子税関申告の添付画面に必要な証憑を提出し、読み取り状況を確認する。品目別許可書を含め、受付が完了したか申告者が確認する。",
+          "sourceUrls": [
+            "https://douanes.gouv.dj/wp-content/uploads/2024/06/guide_nouveau_onglet_docs_scannes_SW_v1.0.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov.dz/fr/questions-frequentes/collection/controle-amp-repression-des-fraudes?page=6",
+          "authority": "Ministère du Commerce, Algérie",
+          "title": "Contrôle de conformité des produits importés",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入品の適合検査対象では、製品の輸入申告、インボイス、該当する事前許可などを準備する。輸入品の類型に応じて国境検査窓口に照会する。",
+          "sourceUrls": [
+            "https://www.commerce.gov.dz/fr/questions-frequentes/collection/controle-amp-repression-des-fraudes?page=6"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "EG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.nafeza.gov.eg/web/m/docs-7442175c9c80264cbb76d7b4c8484a2622478bc9a3e7e8f327cee238.pdf?down=",
+          "authority": "Egyptian Customs Authority / Nafeza",
+          "title": "Advance Cargo Information cycle for air cargo",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://mof.gov.eg/en/media/press-releases/finance-minister-with-mandatory-air-cargo-aci-rollout-starting-tomorrow",
+          "authority": "Ministry of Finance, Egypt",
+          "title": "Mandatory air cargo ACI rollout",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "航空貨物では、対象の輸入者または申告代理人がNafezaで貨物を事前登録し、ACIDを取得して商業送り状や航空運送状と照合する。",
+          "sourceUrls": [
+            "https://www.nafeza.gov.eg/web/m/docs-7442175c9c80264cbb76d7b4c8484a2622478bc9a3e7e8f327cee238.pdf?down="
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "航空貨物ACIの適用開始日と対象範囲を確認し、該当する場合は搭載前にACIDを取得して運送事業者と照合する。",
+          "sourceUrls": [
+            "https://mof.gov.eg/en/media/press-releases/finance-minister-with-mandatory-air-cargo-aci-rollout-starting-tomorrow"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "EH",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://mcinet.gov.ma/sites/default/files/avis%20aux%20imporatteurs.GUERGARATE-1%20Fr.pdf",
+          "authority": "Ministère de l’Industrie et du Commerce du Maroc",
+          "title": "Avis aux importateurs — Guergarate",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ゲルゲラートの特定通関地点でモロッコ当局が公表する工業品の適合性審査を参照できる。発送前に実際の経路・管轄・受付可否を個別確認する。",
+          "sourceUrls": [
+            "https://mcinet.gov.ma/sites/default/files/avis%20aux%20imporatteurs.GUERGARATE-1%20Fr.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ER",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/valuation/resources/contact/contact-point-valuation-matters.pdf",
+          "authority": "World Customs Organization",
+          "title": "Customs valuation contact points — Eritrea",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "WCOの税関評価連絡先に掲載されたエリトリア税関を照会先とし、使用する通関地点、輸入者登録、該当品目の許可と申告書類を確認する。",
+          "sourceUrls": [
+            "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/valuation/resources/contact/contact-point-valuation-matters.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ET",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.erca.gov.et/traders-guide/",
+          "authority": "Ethiopian Customs Commission",
+          "title": "Ethiopia Customs Trade Portal — traders’ guide",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関トレーダーズガイドで輸入申告の経路、申告者の登録、商業・運送書類を確認する。許可対象品は該当機関へ事前照会する。",
+          "sourceUrls": [
+            "https://customs.erca.gov.et/traders-guide/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douanes.ga/med/pdf/code-des-douanes-juin21-210608020852.pdf",
+          "authority": "Direction générale des douanes et droits indirects du Gabon",
+          "title": "Code des douanes révisé",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "適切な税関窓口に貨物を提示して詳細申告を行い、貨物に該当する許可・規制と受付場所を確認する。",
+          "sourceUrls": [
+            "https://douanes.ga/med/pdf/code-des-douanes-juin21-210608020852.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.rs.ge/CommodityCodes-en",
+          "authority": "Georgia Revenue Service",
+          "title": "Commodity Codes and Tax Rates",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.rs.ge/Media/Default/Images/CustomsBrochures/Simplified%20%20means%20of%20clearance%20of%20goods.pdf",
+          "authority": "Georgia Revenue Service",
+          "title": "Simplified Means of Clearance of Goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://matsne.gov.ge/ka/document/view/1043717?publication=248",
+          "authority": "Legislative Herald of Georgia",
+          "title": "Tax Code of Georgia, consolidated text",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "歳入庁案内で電子申告と事前申告の対象を確認する。利用条件は選ぶ手続と貨物に応じて確認する。",
+          "sourceUrls": [
+            "https://www.rs.ge/Media/Default/Images/CustomsBrochures/Simplified%20%20means%20of%20clearance%20of%20goods.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "商品コードで税法197条の輸入関税と、付加価値税・物品税の該当条文・免除を確認する。従量税の場合は単位と貨物数量も照合する。",
+          "sourceUrls": [
+            "https://www.rs.ge/CommodityCodes-en",
+            "https://matsne.gov.ge/ka/document/view/1043717?publication=248"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://gra.gov.gh/customs/import-procedures/",
+          "authority": "Ghana Revenue Authority",
+          "title": "Import procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "通関業者とICUMSによる申告を確認し、インボイス、運送書類、輸入申告票（IDF）と対象品のFDA・GSAなどの許可を揃える。",
+          "sourceUrls": [
+            "https://gra.gov.gh/customs/import-procedures/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gra.gm/download-file/f1319dea-3e38-11f1-b086-029254d29bb1",
+          "authority": "Gambia Revenue Authority",
+          "title": "Standard procedure — ASYCUDA World",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "GRAのASYCUDA Worldで貨物の申告手順と添付書類を確認する。書類と税関の受付を照合してから引取り手続を行う。",
+          "sourceUrls": [
+            "https://www.gra.gm/download-file/f1319dea-3e38-11f1-b086-029254d29bb1"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://dgd.gov.gn/wp-content/uploads/2024/02/CODE-DES-DOUANESDE-GUINEE.pdf",
+          "authority": "Direction générale des douanes de Guinée",
+          "title": "Code des douanes de Guinée",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物を管轄税関に提示し、税関法に沿って用途と税関手続を示す詳細申告を提出する。個別の規制・許認可は品目ごとに確認する。",
+          "sourceUrls": [
+            "https://dgd.gov.gn/wp-content/uploads/2024/02/CODE-DES-DOUANESDE-GUINEE.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GQ",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://unctad.org/system/files/official-document/dtlasycuda2022d1_en.pdf",
+          "authority": "UN Trade and Development",
+          "title": "ASYCUDA Compendium 2022 — Equatorial Guinea",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "UNCTADの資料で商業輸入のASYCUDA運用を確認できる。最新の受付場所、申告者の資格、輸入許可と利用可能な提出方法は現地税関へ確認する。",
+          "sourceUrls": [
+            "https://unctad.org/system/files/official-document/dtlasycuda2022d1_en.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://asycuda.org/en/guinea-bissau-launches-asycudaworld-to-strengthen-customs-digitalization/",
+          "authority": "UN Trade and Development — ASYCUDA",
+          "title": "Guinea-Bissau launches ASYCUDAWorld",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ASYCUDAWorldへの移行を確認できる。輸入申告に先立って、対象税関の稼働と輸入者・申告代理人の利用登録、必要な許可を確認する。",
+          "sourceUrls": [
+            "https://asycuda.org/en/guinea-bissau-launches-asycudaworld-to-strengthen-customs-digitalization/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.il/en/service/customs-tariff",
+          "authority": "Israel Tax Authority",
+          "title": "Customs Tariff and Purchase Tax",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.gov.il/en/service/approval-from-the-regulatory-commissioner-for-imported-goods",
+          "authority": "Israel Ministry of Economy and Industry",
+          "title": "Approval from the Regulatory Commissioner for Imported Goods",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.gov.il/he/service/import_license_economy",
+          "authority": "Israel Ministry of Economy and Industry",
+          "title": "Import License via Maslul+",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://apps.economy.gov.il/Apps/FreeImport/decree",
+          "authority": "Israel Ministry of Economy and Industry",
+          "title": "Free Import Order and Appendices",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "tariff",
+          "textJa": "品目番号を税関税表に照会し、関税、購入税、その他の輸入措置を確認する。",
+          "sourceUrls": [
+            "https://www.gov.il/en/service/customs-tariff"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "対象品目の輸入ライセンスはMaslul+から申請する。",
+          "sourceUrls": [
+            "https://www.gov.il/he/service/import_license_economy"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "Free Import Orderの附表Iの輸入ライセンスと附表IIの条件・承認を品目番号で確認し、適合宣言の利用可否を照合する。",
+          "sourceUrls": [
+            "https://www.gov.il/en/service/approval-from-the-regulatory-commissioner-for-imported-goods",
+            "https://apps.economy.gov.il/Apps/FreeImport/decree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IO",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.biot.gov.io/wp-content/uploads/The-Imports-Exports-Control-Ord-2009-F.2.pdf",
+          "authority": "British Indian Ocean Territory Administration",
+          "title": "Imports and Exports Control Ordinance 2009",
+          "topic": "territory"
+        },
+        {
+          "url": "https://bills.parliament.uk/publications/64104/documents/7553",
+          "authority": "UK Parliament",
+          "title": "Diego Garcia Military Base and British Indian Ocean Territory Bill",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "地域の輸出入管理条例を参照する。島・基地への物資持込みは、実際の管轄、入域条件、荷受けの許可を所管当局へ事前照会する。",
+          "sourceUrls": [
+            "https://www.biot.gov.io/wp-content/uploads/The-Imports-Exports-Control-Ord-2009-F.2.pdf"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "チャゴス諸島・ディエゴガルシアの協定発効と適用規定の状態を、通関・搬入手続の確認時点で所管機関に照会する。",
+          "sourceUrls": [
+            "https://bills.parliament.uk/publications/64104/documents/7553"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IQ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://asy.mof.gov.iq/",
+          "authority": "Iraq Ministry of Finance",
+          "title": "ASYCUDA Iraq",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://tariffs.gcc.iq/",
+          "authority": "Iraqi Customs Tariff Dashboard",
+          "title": "2026 tariff reference quoting the General Commission of Customs",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "イラク財務省のASYCUDA窓口で輸入者・申告代理人に該当する登録と申告経路を確認する。利用予定の到着港・陸路国境で受付可能な申告と書類を確認する。",
+          "sourceUrls": [
+            "https://asy.mof.gov.iq/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年の税表照会画面で品目コードを検索し、税関原表と申告地・適用日を所管税関に確認する。",
+          "sourceUrls": [
+            "https://tariffs.gcc.iq/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "JO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://asytrade.customs.gov.jo/?lang=en",
+          "authority": "Jordan Customs",
+          "title": "ASYTRADE Tariff and Requirements",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://tradeportal.customs.gov.jo/procedure/2180/step/10194?l=en",
+          "authority": "Jordan Customs",
+          "title": "Air Import Procedure: Electronic Customs Declaration",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "航空貨物の申告はJordan Trade Portalの電子申告工程を参照する。海上・陸上貨物は該当する経路の手続を確認する。",
+          "sourceUrls": [
+            "https://tradeportal.customs.gov.jo/procedure/2180/step/10194?l=en"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "ASYTRADEで品目番号ごとの適用税目、関連当局、必要書類を確認する。所管当局の事前承認が表示されたときは申告前に取得方法を確認する。",
+          "sourceUrls": [
+            "https://asytrade.customs.gov.jo/?lang=en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.kra.go.ke/individual/importing/learn-about-importation/how-to-import",
+          "authority": "Kenya Revenue Authority",
+          "title": "How to import",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://infotradekenya.go.ke/procedure/5789/step/7632",
+          "authority": "Kenya Trade Network Agency / InfoTradeKenya",
+          "title": "KEPHIS — obtain a plant import permit",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://infotradekenya.go.ke/procedure/2571/step/5189",
+          "authority": "Kenya Trade Network Agency / InfoTradeKenya",
+          "title": "Integrated Export Import Certification System",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "対象の商業貨物は通関業者と輸入申告票（IDF）、貨物書類、許可・検査証明を確認して税関申告を準備する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/individual/importing/learn-about-importation/how-to-import"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物・植物材料は、品種と輸入条件を照合し、対象貨物ごとにKEPHISの植物輸入許可（PIP）を取得する。",
+          "sourceUrls": [
+            "https://infotradekenya.go.ke/procedure/5789/step/7632"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "KEPHIS IEICSとeCitizenの申請手順を確認する。輸出国の植物検疫証明は品目とPIPの条件に応じて照合する。",
+          "sourceUrls": [
+            "https://infotradekenya.go.ke/procedure/2571/step/5189"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douane.gov.km/douane-comorienne/pages/importation.php",
+          "authority": "Direction générale des douanes des Comores",
+          "title": "Importation",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関の輸入案内に従い、利用する税関窓口で申告方式と必要書類を確認する。規制品では輸入許可や所管機関の証明を事前に照会する。",
+          "sourceUrls": [
+            "https://douane.gov.km/douane-comorienne/pages/importation.php"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.e.gov.kw/sites/kgoenglish/Pages/Services/MOCI/ReleasesCustoms.aspx",
+          "authority": "Kuwait Ministry of Commerce and Industry",
+          "title": "Customs Releases",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://customs.gov.kw/HSCode/HsCode",
+          "authority": "Kuwait General Administration of Customs",
+          "title": "Customs Tariff Search",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://customs.gov.kw/KGO/Search",
+          "authority": "Kuwait General Administration of Customs",
+          "title": "Kuwait Customs 12-Digit Tariff Lookup",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx",
+          "authority": "Saudi ZATCA",
+          "title": "Integrated Customs Tariff and GCC 12-digit HS",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商工省の輸入貨物リリースが必要な場合は、対象事業者の商業・工業ライセンスや指定書類を同省の手続で確認する。",
+          "sourceUrls": [
+            "https://www.e.gov.kw/sites/kgoenglish/Pages/Services/MOCI/ReleasesCustoms.aspx"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "GCC共通の12桁分類をクウェート税関の品目検索と照合し、国内の税・追加条件を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.kw/HSCode/HsCode",
+            "https://customs.gov.kw/KGO/Search",
+            "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LB",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.lb/Files/Laws/law_en.pdf",
+          "authority": "Lebanese Customs",
+          "title": "Lebanese Customs Law",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.lb/Tariff/Tariff_Table.aspx",
+          "authority": "Lebanese Customs",
+          "title": "Lebanese Customs Tariff Table",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.trade.gov/country-commercial-guides/lebanon-import-requirements-and-documentation",
+          "authority": "U.S. International Trade Administration",
+          "title": "Lebanon Import Requirements and Documentation",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "単一行政文書の輸入申告を行い、請求書、運送書類、梱包明細、必要に応じ引渡指示書や原産地書類を準備する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lb/Files/Laws/law_en.pdf",
+            "https://www.trade.gov/country-commercial-guides/lebanon-import-requirements-and-documentation"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "レバノン税関の品目別税表を検索し、規制品では所管省庁の許可や証明書を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lb/Tariff/Tariff_Table.aspx",
+            "https://www.trade.gov/country-commercial-guides/lebanon-import-requirements-and-documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://revenue.lra.gov.lr/customs-fact-sheet/",
+          "authority": "Liberia Revenue Authority",
+          "title": "Customs fact sheet",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入者はASYCUDA Worldの利用登録または登録済み通関業者の利用を確認する。事前検査と添付書類の適用を貨物ごとに照合する。",
+          "sourceUrls": [
+            "https://revenue.lra.gov.lr/customs-fact-sheet/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://ecustoms2.rsl.org.ls/asycuda/",
+          "authority": "Revenue Services Lesotho",
+          "title": "ASYCUDA World",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf",
+          "authority": "Southern African Customs Union",
+          "title": "SACU Agreement 2002",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "RSLのASYCUDA Worldでレソトへの貨物搬入に対応する申告を行う。貨物ごとの申告者登録と必要書類は窓口で確認する。",
+          "sourceUrls": [
+            "https://ecustoms2.rsl.org.ls/asycuda/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACUの共通対外関税の適用を確認する。域内移動・第三国貨物の扱い、輸入先の国内税や許認可は取引条件に沿って照合する。",
+          "sourceUrls": [
+            "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.ly/services/customs-declaration",
+          "authority": "Libyan Customs Authority",
+          "title": "Customs declaration and required documents",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物を管轄税関へ提示し、税関申告に原本の引渡指図書と詳細な商業インボイス等を添える。必要な原産地証明・品目別許可は税関へ確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ly/services/customs-declaration"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.portnet.ma/titre-d-importation",
+          "authority": "PortNet, Morocco",
+          "title": "Gestion des titres d’importation",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "PortNetで、自由輸入品の輸入確約と許可対象品の輸入ライセンスを区分して手続する。品目分類と所管機関の承認を確認する。",
+          "sourceUrls": [
+            "https://www.portnet.ma/titre-d-importation"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.vae.douanes.gov.mg/module-midac",
+          "authority": "Direction générale des douanes de Madagascar",
+          "title": "Module MIDAC",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "規制品に必要な許可・ライセンス・証明等は所管機関の手続をMIDACで照合する。許可書の電子発行と税関申告への反映を確認する。",
+          "sourceUrls": [
+            "https://www.vae.douanes.gov.mg/module-midac"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ML",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douanes.gouv.ml/index.php/intentions-dimportation-ou-intentions-dexportation",
+          "authority": "Direction générale des douanes du Mali",
+          "title": "Intentions d’importation ou d’exportation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.ecowas.int/press-statement-2/",
+          "authority": "Economic Community of West African States",
+          "title": "Statement on the withdrawal of Burkina Faso, Mali and Niger",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関が案内する輸入意思書（Intention d’Importation）の発行と適用除外を確認する。品目別の許可と税関申告は対象制度ごとに確認する。",
+          "sourceUrls": [
+            "https://douanes.gouv.ml/index.php/intentions-dimportation-ou-intentions-dexportation"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2025年1月29日のECOWAS脱退後の税関取扱いを、最新の国内法令・地域取決め・原産地条件で確認する。",
+          "sourceUrls": [
+            "https://www.ecowas.int/press-statement-2/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov.mr/fr/?q=node%2F1448",
+          "authority": "Ministère du Commerce, Mauritanie",
+          "title": "Avis aux importateurs — Programme de vérification de la conformité",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入品の適合性確認プログラムに該当する場合は、対象品目と適合性証明の取得方法を所管機関で確認し、税関申告に備える。",
+          "sourceUrls": [
+            "https://www.commerce.gov.mr/fr/?q=node%2F1448"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.mra.mu/customs1/import?highlight=WyJhcmUiXQ%3D%3D",
+          "authority": "Mauritius Revenue Authority",
+          "title": "Customs import",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "電子申告（Bill of Entry）とともに、インボイス、運送書類、該当する梱包明細・原産地証明・輸入許可を電子提出する。",
+          "sourceUrls": [
+            "https://www.mra.mu/customs1/import?highlight=WyJhcmUiXQ%3D%3D"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.mra.mw/assets/upload/downloads/Mandatory_Import_and_Export_Documents.pdf",
+          "authority": "Malawi Revenue Authority",
+          "title": "Mandatory import and export documents",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "MRAの通知で輸入申告に必要な商業・運送書類を確認して提出する。規制品の許可や証明を品目ごとに照合する。",
+          "sourceUrls": [
+            "https://www.mra.mw/assets/upload/downloads/Mandatory_Import_and_Export_Documents.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://portalcomercioexterno.gov.mz/wp-content/uploads/2023/12/guia-de-exportacao.pdf",
+          "authority": "Portal do Comércio Externo de Moçambique",
+          "title": "Guia de exportação — Anexo 3",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "電子シングルウィンドウ（JUE）の輸入者登録を確認し、貨物に対応する税関申告と必要書類の提出を行う。",
+          "sourceUrls": [
+            "https://portalcomercioexterno.gov.mz/wp-content/uploads/2023/12/guia-de-exportacao.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.namra.org.na/documents/cms/uploaded/public-notice--mandatory-tin-on-asycudaworld--9-dec-2025-7d1548a64e.pdf",
+          "authority": "Namibia Revenue Agency",
+          "title": "Mandatory Trader Identification Number on ASYCUDAWorld",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.namra.org.na/documents/cms/uploaded/importation-of-goods-guidelines-9cb5fdcdee.pdf",
+          "authority": "Namibia Revenue Agency",
+          "title": "Importation of Goods — Customs Procedure Manual",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf",
+          "authority": "Southern African Customs Union",
+          "title": "SACU Agreement 2002",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "2026年4月1日からのASYCUDAWorldの税関取引ではTrader Identification Number（TIN）の使用を確認する。未登録の取引者はNamRAへ申請する。",
+          "sourceUrls": [
+            "https://www.namra.org.na/documents/cms/uploaded/public-notice--mandatory-tin-on-asycudaworld--9-dec-2025-7d1548a64e.pdf"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "貨物申告方式と添付書類をNamRAの輸入手引で確認し、適用する搬入・引取り手続を選ぶ。",
+          "sourceUrls": [
+            "https://www.namra.org.na/documents/cms/uploaded/importation-of-goods-guidelines-9cb5fdcdee.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACUの共通対外関税の適用を確認する。域内移動・第三国貨物の扱い、輸入先の国内税や許認可は取引条件に沿って照合する。",
+          "sourceUrls": [
+            "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NE",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://tfadatabase.org/index.php/fr/members/niger",
+          "authority": "World Trade Organization",
+          "title": "Niger — Trade Facilitation Agreement database",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.ecowas.int/press-statement-2/",
+          "authority": "Economic Community of West African States",
+          "title": "Statement on the withdrawal of Burkina Faso, Mali and Niger",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "WTOの届出先からニジェールの税関・関連当局に照会し、輸入申告、許可、国境の受付条件を確認する。",
+          "sourceUrls": [
+            "https://tfadatabase.org/index.php/fr/members/niger"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2025年1月29日のECOWAS脱退後の税関取扱いを、最新の国内法令・地域取決め・原産地条件で確認する。",
+          "sourceUrls": [
+            "https://www.ecowas.int/press-statement-2/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://trade.gov.ng/trade-server/wp-content/uploads/2021/10/TP-NCS-PAAR-Consignment-Submission-Quick-Guide-EN-V1.0.pdf",
+          "authority": "Nigeria Customs Service / Nigeria Trade Portal",
+          "title": "PAAR consignment submission quick guide",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "対象取引ではForm Mと最終の取引・貨物書類を照合し、PAARの申請経路と税関申告を確認する。対象品の認証・許可は所管機関に照会する。",
+          "sourceUrls": [
+            "https://trade.gov.ng/trade-server/wp-content/uploads/2021/10/TP-NCS-PAAR-Consignment-Submission-Quick-Guide-EN-V1.0.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "OM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.om/en/business-services/procedural_services/request-to-apply-a-custom-declaration/",
+          "authority": "Royal Oman Police Directorate General of Customs",
+          "title": "Apply for a Customs Declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://apps.oman.om/en/home-top-level/whole-of-government/central-initiative/bayan%28customs-single-window%29",
+          "authority": "Oman Government",
+          "title": "Bayan Customs Single Window",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.customs.gov.om/en/user-guides/",
+          "authority": "Royal Oman Police Directorate General of Customs",
+          "title": "Customs User Guides and 2026 Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx",
+          "authority": "Saudi ZATCA",
+          "title": "Integrated Customs Tariff and GCC 12-digit HS",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Bayanの輸入申告で、商業請求書、原産地関係書類、輸出側の申告書類など税関案内に示された該当書類を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.om/en/business-services/procedural_services/request-to-apply-a-custom-declaration/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "許可対象貨物は、Bayanの単一窓口から関係機関への申請と承認の要否を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.om/en/business-services/procedural_services/request-to-apply-a-custom-declaration/",
+            "https://apps.oman.om/en/home-top-level/whole-of-government/central-initiative/bayan%28customs-single-window%29"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "GCC共通の品目分類をオマーン税関の当年税表と照合する。該当する原産地優遇や数量単位は個別に確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.om/en/user-guides/",
+            "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PS",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.portal.psc.ps/en/import/category-62",
+          "authority": "Palestinian Shippers Council",
+          "title": "Import Guide and Cargo Release Procedures",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "Palestinian Shippers Councilの輸入案内から利用する港・陸路国境の経路と必要書類を確認し、引渡し・検査の受付状況を実際の通関窓口に確認する。",
+          "sourceUrls": [
+            "https://www.portal.psc.ps/en/import/category-62"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "貨物に輸入ライセンスや適合承認が必要かを品目と経路ごとに確認する。港での手続と最終搬入の条件はそれぞれ確認する。",
+          "sourceUrls": [
+            "https://www.portal.psc.ps/en/import/category-62"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "QA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.qa/English/Procedures/UnifiedGuide/Pages/Importation.aspx",
+          "authority": "Qatar General Authority of Customs",
+          "title": "Unified Guide: Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://hukoomi.gov.qa/en/services/process-customs-declaration-online",
+          "authority": "Qatar Government",
+          "title": "Process Customs Declaration Online",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.customs.gov.qa/English/Legislations/Pages/Executive-Decisions.aspx",
+          "authority": "Qatar General Authority of Customs",
+          "title": "Executive Decisions and Unified Customs Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx",
+          "authority": "Saudi ZATCA",
+          "title": "Integrated Customs Tariff and GCC 12-digit HS",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Al-Nadeebで商業貨物を申告し、請求書、運送書類、原産地書類などを貨物に応じて提出する。税関が求める場合は外国語書類のアラビア語訳を用意する。",
+          "sourceUrls": [
+            "https://www.customs.gov.qa/English/Procedures/UnifiedGuide/Pages/Importation.aspx",
+            "https://hukoomi.gov.qa/en/services/process-customs-declaration-online"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "規制貨物は、所管当局の承認とAl-Nadeebでの審査経路を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.qa/English/Procedures/UnifiedGuide/Pages/Importation.aspx",
+            "https://hukoomi.gov.qa/en/services/process-customs-declaration-online"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "GCC共通分類に加え、カタールの統一税表決定・改正を照合する。",
+          "sourceUrls": [
+            "https://www.customs.gov.qa/English/Legislations/Pages/Executive-Decisions.aspx",
+            "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "RE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+          "authority": "Direction générale des douanes et droits indirects, France",
+          "title": "Importer un bien dans un DROM",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/fiche/loctroi-de-mer-la-reunion",
+          "authority": "Direction générale des douanes et droits indirects, France",
+          "title": "L’octroi de mer à La Réunion",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "EU関税領域と租税上の扱いを区別する。レユニオン向け貨物は輸入申告と現地の海関税（octroi de mer）、レユニオンでのVATを個別に確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "レユニオン地域議会が定める海関税の品目別税率・免除条件は現地表で確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/loctroi-de-mer-la-reunion"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "RW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.rra.gov.rw/en/home?cHash=42f1ed4916e59aa1a1c5af8d6b2d2a29&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1928",
+          "authority": "Rwanda Revenue Authority",
+          "title": "Processing of customs import declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関輸入申告にインボイスと運送書類を揃え、該当する輸入許可やライセンスを添付する。",
+          "sourceUrls": [
+            "https://www.rra.gov.rw/en/home?cHash=42f1ed4916e59aa1a1c5af8d6b2d2a29&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1928"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-bussiness/import-pages/Import-Instructions.aspx",
+          "authority": "Saudi Zakat, Tax and Customs Authority",
+          "title": "Import Instructions",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sfda.gov.sa/sites/default/files/2025-04/ConditionsRequirementsFoodClearanceE.pdf",
+          "authority": "Saudi Food and Drug Authority",
+          "title": "Conditions and Requirements for Food Clearance",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx",
+          "authority": "Saudi ZATCA",
+          "title": "Integrated Customs Tariff and GCC 12-digit HS",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://zatca.gov.sa/en/MediaCenter/News/Pages/news-1282.aspx",
+          "authority": "Saudi Zakat, Tax and Customs Authority",
+          "title": "Fee Rules on Customs Services",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Fasahの申告に向けて商業請求書、運送書類、該当時の原産地書類を準備し、対象品目の証明・事前許可を確認する。",
+          "sourceUrls": [
+            "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-bussiness/import-pages/Import-Instructions.aspx"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "食品はSFDAのGhadで事業所と品目を登録し、Fasahから貨物の通関審査を申請する。倉庫の要件と免除、品目別の証明はSFDAの条件を照合する。",
+          "sourceUrls": [
+            "https://www.sfda.gov.sa/sites/default/files/2025-04/ConditionsRequirementsFoodClearanceE.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ZATCAの統合税表でGCC共通の12桁分類とサウジアラビアの税率・規制を品目別に確認する。",
+          "sourceUrls": [
+            "https://www.zatca.gov.sa/en/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入申告処理手数料は運賃・保険料込みの貨物価額の0.15%で、通常は最低15 SAR、上限500 SAR。VAT免税貨物は上限130 SARで、一定の個人向け通販貨物には15 SARの区分がある。",
+          "sourceUrls": [
+            "https://zatca.gov.sa/en/MediaCenter/News/Pages/news-1282.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.tradeportal.sc/wp-content/uploads/2024/10/Final-Draft-Import-Guide-2024.pdf",
+          "authority": "Seychelles Ministry of Finance, National Planning and Trade",
+          "title": "Import guide",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "制限品は輸出入許可窓口を通じた所管機関の許可が必要になる。品目、禁止・制限の別、申告と許可の受付先を事前に照会する。",
+          "sourceUrls": [
+            "https://www.tradeportal.sc/wp-content/uploads/2024/10/Final-Draft-Import-Guide-2024.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SD",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://web.customs.gov.sd/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF-%D9%88%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%B1%D8%AF/",
+          "authority": "Sudan Customs",
+          "title": "Import procedures",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関当局の輸入手続と申告書類を参照し、実際の通関地点と受付状況を現地で確認する。",
+          "sourceUrls": [
+            "https://web.customs.gov.sd/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF-%D9%88%D8%A7%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%B1%D8%AF/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.sainthelena.gov.sh/important-reminder-on-customs-procedures-for-imported-goods/",
+          "authority": "St Helena Government",
+          "title": "Important reminder on customs procedures for imported goods",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.sainthelena.gov.sh/wp-content/uploads/2013/08/2012-Import-Health-Guide-for-St-Helena-Island.pdf",
+          "authority": "St Helena Government",
+          "title": "Agricultural and forestry imports into St Helena Island",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.sainthelena.gov.sh/wp-content/uploads/2020/10/Customs-Ordinance-Updated-25-September-2018.pdf",
+          "authority": "St Helena Government",
+          "title": "Ascension Customs Ordinance",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.sainthelena.gov.sh/documents/Export-Import-Control-TdC-Ordinance.pdf",
+          "authority": "St Helena Government",
+          "title": "Tristan da Cunha Export and Import Control Ordinance",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "セントヘレナ島の税関手続を確認し、該当する申告書・貨物書類を受付窓口へ提出する。コードSHの中でもアセンション島やトリスタンダクーニャ諸島では実際の島の制度を確認する。",
+          "sourceUrls": [
+            "https://www.sainthelena.gov.sh/important-reminder-on-customs-procedures-for-imported-goods/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "セントヘレナ島向けの農林産品は、輸入許可・植物検疫証明の対象を確認してから発送する。",
+          "sourceUrls": [
+            "https://www.sainthelena.gov.sh/wp-content/uploads/2013/08/2012-Import-Health-Guide-for-St-Helena-Island.pdf"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "アセンション島については島の税関条例と現行改正を確認し、配送先と受付先を指定する。",
+          "sourceUrls": [
+            "https://www.sainthelena.gov.sh/wp-content/uploads/2020/10/Customs-Ordinance-Updated-25-September-2018.pdf"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "トリスタンダクーニャ諸島向けは同諸島の輸出入規制と現行改正を確認し、必要な許可と実際の貨物受付を事前照会する。",
+          "sourceUrls": [
+            "https://www.sainthelena.gov.sh/documents/Export-Import-Control-TdC-Ordinance.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.nra.gov.sl/sites/default/files/Revised%20%20Customs%20Clearance%20Process_0.pdf",
+          "authority": "Sierra Leone National Revenue Authority",
+          "title": "Customs clearance process",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "NRAの通関手順で輸入者のTIN、貨物書類、該当する事前確認とASYCUDAでの申告を照合する。",
+          "sourceUrls": [
+            "https://www.nra.gov.sl/sites/default/files/Revised%20%20Customs%20Clearance%20Process_0.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://senegalcommerce.sec.gouv.sn/Documents/DGD/Proc%C3%A9dure/D%C3%A9douanement%20marchandises/Le%20d%C3%A9douanement%20de%20marchandises.PDF",
+          "authority": "Direction générale des douanes du Sénégal / Senegal Commerce",
+          "title": "Le dédouanement de marchandises",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.finances.gouv.sn/app/uploads/enews-revu-Juin-2024.pdf",
+          "authority": "Ministère des Finances et du Budget, Sénégal",
+          "title": "Déclaration préalable d’importation (DPI)",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物の区分に従い、詳細申告とインボイス・運送書類などの添付書類を管轄税関に提出する。対象品では輸入許可や証明も確認する。",
+          "sourceUrls": [
+            "https://senegalcommerce.sec.gouv.sn/Documents/DGD/Proc%C3%A9dure/D%C3%A9douanement%20marchandises/Le%20d%C3%A9douanement%20de%20marchandises.PDF"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "貨物の金額や条件により事前輸入申告（DPI）が適用される。申告時点の対象条件と提出窓口を照合する。",
+          "sourceUrls": [
+            "https://www.finances.gouv.sn/app/uploads/enews-revu-Juin-2024.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://mof.gov.so/sites/default/files/Publications/Standard%20Operating%20Procedures%20on%20the%20Process%20of%20Customs%20Declarations%20Through%20SOMCAS_0.pdf",
+          "authority": "Federal Ministry of Finance, Somalia",
+          "title": "Standard operating procedures for customs declarations through SOMCAS",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "連邦税関のSOMCAS手続に従い、利用する窓口で電子申告と書類提出を確認する。実際の搬入地点で管轄と受付可否を確かめる。",
+          "sourceUrls": [
+            "https://mof.gov.so/sites/default/files/Publications/Standard%20Operating%20Procedures%20on%20the%20Process%20of%20Customs%20Declarations%20Through%20SOMCAS_0.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "共通対外関税の国内施行範囲と移行措置を、貨物の申告日について輸入先税関へ確認する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://ecustoms.nra.gov.ss/customs",
+          "authority": "South Sudan Revenue Authority",
+          "title": "eCustoms",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "eCustomsで申告を作成・提出し、必要に応じ申告代理人を指定する。品目ごとの許可と通関地点の受付可否を照合する。",
+          "sourceUrls": [
+            "https://ecustoms.nra.gov.ss/customs"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "共通対外関税の国内施行範囲と移行措置を、貨物の申告日について輸入先税関へ確認する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ST",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://guce.gov.st/procedimentos/",
+          "authority": "Guiché Único do Comércio Externo de São Tomé e Príncipe",
+          "title": "Procedimentos para importação de mercadorias",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "GUCEの輸入手続一覧で利用する申告・品目別許可の窓口を確認する。代理人を使う場合はDGAが認める通関業者を照合する。",
+          "sourceUrls": [
+            "https://guce.gov.st/procedimentos/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://eaip.gaca.gov.sy/public/eaip/SY-AIP-20261028T002236Z-cdec0a9a92c4/section/86",
+          "authority": "Syrian General Authority of Civil Aviation",
+          "title": "Syria eAIP: Entry, Transit and Departure of Cargo",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://sana.sy/presidency/2479092/",
+          "authority": "Syrian Arab News Agency",
+          "title": "Presidential Decree 110 of 2026 on Customs Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://sana.sy/presidency/2604942/",
+          "authority": "Syrian Arab News Agency",
+          "title": "Presidential Decree 188 of 2026 on Tariff Amendments",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "航空貨物はeAIPで貨物申告・許可・請求書などの条件を確認し、到着空港に受付可否と必要書類を照会する。陸路・海上は利用する通関窓口の条件を確認する。",
+          "sourceUrls": [
+            "https://eaip.gaca.gov.sy/public/eaip/SY-AIP-20261028T002236Z-cdec0a9a92c4/section/86"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年大統領令110号と後続の188号を品目別に確認し、改正後の適用日・税率・関係条件を照合する。",
+          "sourceUrls": [
+            "https://sana.sy/presidency/2479092/",
+            "https://sana.sy/presidency/2604942/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://ers.org.sz/CustomExcise/GeneralRules",
+          "authority": "Eswatini Revenue Service",
+          "title": "General import and export rules",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf",
+          "authority": "Southern African Customs Union",
+          "title": "SACU Agreement 2002",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ERSの輸入規則に沿って消費向け、保税、通過など適切な手続を選び、貨物提示、書類、法定期限を確認する。",
+          "sourceUrls": [
+            "https://ers.org.sz/CustomExcise/GeneralRules"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACUの共通対外関税の適用を確認する。域内移動・第三国貨物の扱い、輸入先の国内税や許認可は取引条件に沿って照合する。",
+          "sourceUrls": [
+            "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douanes.td/e-douane/acces-au-systeme-sydonia-world/",
+          "authority": "Direction générale des douanes et droits indirects du Tchad",
+          "title": "Accès au système SYDONIA World",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf",
+          "authority": "Communauté économique et monétaire de l’Afrique centrale",
+          "title": "CEMAC — suivi de la politique commerciale et tarif extérieur commun",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "SYDONIA Worldの申告アカウントと利用権限を確保し、貨物の手続区分と提出窓口を確認する。",
+          "sourceUrls": [
+            "https://douanes.td/e-douane/acces-au-systeme-sydonia-world/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CEMACの共通対外関税表と品目別改正を起点に、輸入先の例外・国内課徴金・品目別許可を確認する。",
+          "sourceUrls": [
+            "https://www.cemac.int/sites/default/files/Textes%20Officiels/TSPC%20MARS%202022%20REV%20EJ%20TABLEAU%20DE%20SUIVI%20DES%20INDICATEURS%20DE%20LA%20POLITIQUE%20COMMERCIALE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TF",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071570/LEGISCTA000053808277/2026-05-01",
+          "authority": "Légifrance",
+          "title": "Code des douanes — Terres australes et antarctiques françaises",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "フランス領南方・南極地域については税関法の当該領域の章を確認し、島・基地・入域と実際の貨物受付の可否を所管機関へ事前照会する。",
+          "sourceUrls": [
+            "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071570/LEGISCTA000053808277/2026-05-01"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.segucetogo.tg/formalites-routieres",
+          "authority": "SEGUCE Togo",
+          "title": "Formalité routière",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/",
+          "authority": "Economic Community of West African States",
+          "title": "ECOWAS Common External Tariff (CET)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "陸路の輸入は車両の事前通知から国境到着・税関申告までをGUCE手続で確認する。ロメ港など別窓口を使う貨物は実際の申告先を照合する。",
+          "sourceUrls": [
+            "https://www.segucetogo.tg/formalites-routieres"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ECOWAS共通対外関税表を参照し、輸入先の国内施行表、経過措置・追加課徴金、適用する原産地要件を照合する。",
+          "sourceUrls": [
+            "https://ecotis.ecowas.int/policy-development/common-external-tariff-cet/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douane.gov.tn/sinda/",
+          "authority": "Direction générale des douanes, Tunisie",
+          "title": "SINDA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.douane.gov.tn/fileadmin/lois_et_reglements/CD/FR/CD_1.pdf",
+          "authority": "Direction générale des douanes, Tunisie",
+          "title": "Code des douanes — autorisations et certificats",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "SINDAの詳細貨物申告（DDM）、マニフェスト、対外取引書類（TCE）、技術管理書類（DCT）のうち該当する書類を照合する。",
+          "sourceUrls": [
+            "https://www.douane.gov.tn/sinda/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "許可・証明を要する貨物は、申告名義と書類の適用条件を確認し、管轄税関に提示する。",
+          "sourceUrls": [
+            "https://www.douane.gov.tn/fileadmin/lois_et_reglements/CD/FR/CD_1.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TR",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri",
+          "authority": "Türkiye Ministry of Trade",
+          "title": "Import Regime Decision, Additional Customs Duty and Import Communiqués",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri/2-ithalatta-ilave-gumruk-vergisi-uygulanmasina-iliskin-karar-karar-sayisi-3351-karar-metni-ve-tablolar-konsolide-edilmis-olup-gunceldir",
+          "authority": "Türkiye Ministry of Trade",
+          "title": "Consolidated Additional Customs Duty Decision 3351",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "tariff",
+          "textJa": "基本税表の決定3350号と追加関税の決定3351号を品目コードと原産国で照合する。A.TRを使う貨物では原産性の別途確認や追加関税の例外条件を確認する。",
+          "sourceUrls": [
+            "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri",
+            "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri/2-ithalatta-ilave-gumruk-vergisi-uygulanmasina-iliskin-karar-karar-sayisi-3351-karar-metni-ve-tablolar-konsolide-edilmis-olup-gunceldir"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "輸入告示で品目別に必要な許可、登録、監督や適合性書類を確認する。",
+          "sourceUrls": [
+            "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://trade.tanzania.go.tz/",
+          "authority": "Tanzania Trade Development Authority",
+          "title": "Tanzania Trade Portal",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://tanesw.tra.go.tz/",
+          "authority": "Tanzania Revenue Authority",
+          "title": "Tanzania Electronic Single Window",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "取引ポータルで貨物と搬入地点に合う輸入手順を選び、通関申告と所管省庁の許可を照合する。",
+          "sourceUrls": [
+            "https://trade.tanzania.go.tz/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "TANeSWで対象機関・許可の受付方式と適用日を確認する。港や輸送経路ごとの申告手順も照合する。",
+          "sourceUrls": [
+            "https://tanesw.tra.go.tz/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://ugandatrades.go.ug/procedure/212",
+          "authority": "Ministry of Trade, Industry and Cooperatives, Uganda",
+          "title": "Uganda Trade Portal — customs declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ugandatrades.go.ug/procedure/95?l=en",
+          "authority": "Ministry of Trade, Industry and Cooperatives, Uganda",
+          "title": "Uganda Trade Portal — import procedure and inspections",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.eac.int/eac-partner-states",
+          "authority": "East African Community",
+          "title": "EAC Partner States",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+          "authority": "Kenya Revenue Authority",
+          "title": "EAC Common External Tariff and HS 2022 implementation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "URAのASYCUDA Worldで、搬入地点・貨物の手続に応じて電子申告、提出書類、検査区分を確認する。",
+          "sourceUrls": [
+            "https://ugandatrades.go.ug/procedure/212"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "規制品では輸入許可・適合確認・原産地や品目に応じた証憑を照合し、該当する所管機関と受付窓口に提出する。",
+          "sourceUrls": [
+            "https://ugandatrades.go.ug/procedure/95?l=en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EACの加盟状況を確認し、貨物の通関日と国内施行状況に応じて共通対外関税表、官報の国別適用停止・免除、国内税と許可を照合する。",
+          "sourceUrls": [
+            "https://www.eac.int/eac-partner-states"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS2022版の共通対外関税を起点に、申告日までのEAC官報改正と輸入先の実施通知を確認する。",
+          "sourceUrls": [
+            "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "YE",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.yemen-customs.net/ar/",
+          "authority": "Yemen Customs Authority",
+          "title": "Customs Authority Services and Guidance",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "予定している港・陸路国境で、管轄税関の申告窓口と貨物受付の可否を確認する。請求書、運送書類、原産地書類と品目別許可について、申告を受け付ける窓口の最新案内を照合する。",
+          "sourceUrls": [
+            "https://www.yemen-customs.net/ar/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "YT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douane.gouv.fr/fiche/vos-echanges-commerciaux-avec-mayotte",
+          "authority": "Direction générale des douanes et droits indirects, France",
+          "title": "Vos échanges commerciaux avec Mayotte",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "マヨットはEU関税領域に含まれ、VATの対象地域とは異なる。輸入税関にDAUを提出し、海関税（octroi de mer）と地域分を確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/vos-echanges-commerciaux-avec-mayotte"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ZA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.za/services/custom-duties/register-importer",
+          "authority": "Government of South Africa",
+          "title": "Register as importer — import permits",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sars.gov.za/customs-and-excise/prohibited-and-restricted-goods/",
+          "authority": "South African Revenue Service",
+          "title": "Prohibited and restricted goods",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf",
+          "authority": "Southern African Customs Union",
+          "title": "SACU Agreement 2002",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "SARSで輸入者登録を確認し、ITACの管理対象品・中古品・廃棄物等は品目と適用除外を確認して所管機関の許可を取得する。",
+          "sourceUrls": [
+            "https://www.gov.za/services/custom-duties/register-importer"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "SARSの禁止・制限品資料を品目番号と照合し、輸入禁止、ITAC許可、ほかの所管機関の証明を分けて確認する。",
+          "sourceUrls": [
+            "https://www.sars.gov.za/customs-and-excise/prohibited-and-restricted-goods/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACUの共通対外関税の適用を確認する。域内移動・第三国貨物の扱い、輸入先の国内税や許認可は取引条件に沿って照合する。",
+          "sourceUrls": [
+            "https://www.sacu.int/uploads/documents/a5b6a3a7b6db1de61e1fb20caeb6dc16ed17d5a5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ZM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.zra.org.zm/importation-of-goods/",
+          "authority": "Zambia Revenue Authority",
+          "title": "Importation of goods",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業用貨物として該当する申告手続を選び、貨物書類を準備する。少額でも商業目的の貨物は用途と申告要件を確認する。",
+          "sourceUrls": [
+            "https://www.zra.org.zm/importation-of-goods/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ZW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.zimra.co.zw/customs/customs-clearance-procedures",
+          "authority": "Zimbabwe Revenue Authority",
+          "title": "Commercial clearance guidelines on imports and exports",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業インボイス、輸送書類、該当する輸出・通過申告書や輸入許可を用意し、ZIMRAの商業貨物通関手続で提出条件を確認する。",
+          "sourceUrls": [
+            "https://www.zimra.co.zw/customs/customs-clearance-procedures"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1231 @@
+[
+  {
+    "id": "aland",
+    "nameJa": "オーランド諸島",
+    "category": "fiscal_boundary",
+    "registryCountry": "AX",
+    "selectors": [
+      {
+        "country": "FI",
+        "selectors": [
+          "ALAND",
+          "AX"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。フィンランド本土との間にも税境界があります。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "フィンランド税関に税境界を越える貨物を申告し、輸入VATの扱いとEU貨物ステータスを確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "仕向地で税境界の申告と輸入税の扱いを確認します。",
+    "routeGuidance": [
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "FI"
+        ],
+        "guidanceJa": "フィンランド本土からの貨物はフィンランド税関へ提示し、国内税境界申告を行います。"
+      },
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "FI"
+        ],
+        "guidanceJa": "フィンランド本土への貨物はフィンランド税関へ提示し、国内税境界申告を行います。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Finnish Customs",
+        "title": "Goods traffic between Åland and mainland Finland",
+        "url": "https://www.suomi.fi/services/webpage/goods-traffic-between-aland-and-mainland-finland-finnish-customs/927199fa-c031-4608-89fc-5f2e5c38207a"
+      },
+      {
+        "authority": "Finnish Customs",
+        "title": "Customs clearance between mainland Finland or an EU country and Åland",
+        "url": "https://www.suomi.fi/services/customs-clearance-of-goods-in-traffic-between-mainland-finland-or-an-eu-country-and-aland-finnish-customs/6d4205cc-96f1-4974-b875-c226584aff93"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "canary_islands",
+    "nameJa": "カナリア諸島",
+    "category": "fiscal_boundary",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "ES",
+        "selectors": [
+          "CANARY_ISLANDS"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。カナリア諸島の間接税IGICなどを確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "VEXCANで申告の種類を確認します。EU域外貨物の関税と、IGICなどの現地税を区別します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "仕向地がスペイン本土・バレアレス諸島などのEU VAT領域なら、到着側の輸入VATと申告を確認します。",
+    "routeGuidance": [
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "ES"
+        ],
+        "guidanceJa": "スペイン本土・バレアレス諸島からの貨物はVEXCANの搬入申告とIGICを照会します。EU貨物ステータスを確認します。"
+      },
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "ES"
+        ],
+        "guidanceJa": "スペイン本土・バレアレス諸島への貨物は到着側の申告、輸入VATおよびEU貨物ステータスを照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "Canary Islands, Ceuta and Melilla customs guidance",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/islas-canarias.html"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "VAT treatment of imports and exports",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/iva-operaciones-comercio-exterior/importaciones-exportaciones.html"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "ceuta",
+    "nameJa": "セウタ",
+    "category": "separate_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "ES",
+        "selectors": [
+          "CEUTA",
+          "XC"
+        ]
+      }
+    ],
+    "customsAreaJa": "スペイン領の都市。EU関税領域外。",
+    "fiscalAreaJa": "スペインVAT・EU物品税領域外。現地のIPSI、品目別の補完税・特例を確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "仕向都市の輸入申告、IPSI、補完税と少額貨物の対象様式を税務庁へ確認します。EU原産品は協定の特恵条件と原産地証明を照会します。",
+    "outboundJa": "EU関税領域へ発送する場合は輸入申告、原産品の特恵と原産地証明、仕向地のVATまたはIGICを照会します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "Ceuta and Melilla customs and indirect taxes",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/islas-canarias-ciudades-ceuta-melilla/ceuta-melilla.html"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "VAT treatment of imports and exports",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/iva-operaciones-comercio-exterior/importaciones-exportaciones.html"
+      },
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Ceuta and Melilla preferential origin rules",
+        "url": "https://taxation-customs.ec.europa.eu/customs/international-affairs/third-countries/ceuta-and-melilla_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Implementing Regulation (EU) 2020/1470, Annex I",
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2020/1470/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "melilla",
+    "nameJa": "メリリャ",
+    "category": "separate_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "ES",
+        "selectors": [
+          "MELILLA",
+          "XL"
+        ]
+      }
+    ],
+    "customsAreaJa": "スペイン領の都市。EU関税領域外。",
+    "fiscalAreaJa": "スペインVAT・EU物品税領域外。現地のIPSI、品目別の補完税・特例を確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "仕向都市の輸入申告、IPSI、補完税と少額貨物の対象様式を税務庁へ確認します。EU原産品は協定の特恵条件と原産地証明を照会します。",
+    "outboundJa": "EU関税領域へ発送する場合は輸入申告、原産品の特恵と原産地証明、仕向地のVATまたはIGICを照会します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "Ceuta and Melilla customs and indirect taxes",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/islas-canarias-ciudades-ceuta-melilla/ceuta-melilla.html"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "VAT treatment of imports and exports",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/iva/iva-operaciones-comercio-exterior/importaciones-exportaciones.html"
+      },
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Ceuta and Melilla preferential origin rules",
+        "url": "https://taxation-customs.ec.europa.eu/customs/international-affairs/third-countries/ceuta-and-melilla_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Implementing Regulation (EU) 2020/1470, Annex I",
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2020/1470/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "northern_ireland",
+    "nameJa": "北アイルランド",
+    "category": "special_goods_regime",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "GB",
+        "selectors": [
+          "NORTHERN_IRELAND",
+          "XI"
+        ]
+      }
+    ],
+    "customsAreaJa": "英国の一部。貨物にはウィンザー枠組みの税関規定が適用されます。",
+    "fiscalAreaJa": "物品にはEU VATに関する特則があり、英国の仕向側規則と移動の種類を確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "英国・EU域外からは貨物がEUへ移動するおそれの判定、UKIMSの認可・利用条件、UK/EU税率の適用条件を照会します。",
+    "outboundJa": "EU向け貨物の取扱い、またはグレートブリテン向け貨物の適格性と、規制品・物品税を確認します。",
+    "routeGuidance": [
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "GB"
+        ],
+        "guidanceJa": "グレートブリテン発ではB2B・B2C・個人間・返品を区別します。B2Bの簡素化はUKIMS認可などの条件とIMMIを、B2C小包は配送業者の制度を照会します。"
+      },
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "GB"
+        ],
+        "guidanceJa": "グレートブリテン向けは適格な北アイルランド貨物の無障壁アクセスを照会します。非適格貨物は申告など追加手続の要否を確認します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "Apply for UK Internal Market Scheme authorisation",
+        "url": "https://www.gov.uk/guidance/apply-for-authorisation-for-the-uk-internal-market-scheme-if-you-bring-goods-into-northern-ireland"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "Sending parcels between Great Britain and Northern Ireland under the Windsor Framework",
+        "url": "https://www.gov.uk/guidance/sending-parcels-between-great-britain-and-northern-ireland-under-the-windsor-framework"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "Check if you can declare goods you bring into Northern Ireland not at risk",
+        "url": "https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu"
+      }
+    ]
+  },
+  {
+    "id": "french_guiana",
+    "nameJa": "仏領ギアナ",
+    "category": "fiscal_boundary",
+    "registryCountry": "GF",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "FRENCH_GUIANA",
+          "GF"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。現地のoctroi de merと地域分を確認します。フランス税関資料上、VATは暫定的に適用されません。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "EU貨物ステータスを照合し、現地のoctroi de mer、地域分、VATの適用と申告を確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "フランス本土などへの出荷は、仕向側の輸入VAT・申告とEU貨物ステータスを照会します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Fiscalité douanière dans les départements d’Outre-mer",
+        "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "guadeloupe",
+    "nameJa": "グアドループ",
+    "category": "fiscal_boundary",
+    "registryCountry": "GP",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "GUADELOUPE",
+          "GP"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。現地のoctroi de merと地域分を確認します。フランスの現地VATを確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "EU貨物ステータスを照合し、現地のoctroi de mer、地域分、VATの適用と申告を確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "フランス本土などへの出荷は、仕向側の輸入VAT・申告とEU貨物ステータスを照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "MQ"
+        ],
+        "guidanceJa": "グアドループとマルティニークはVAT上の単一課税領域です。貨物の先行課税、現地産品の取扱いとoctroi de merの条件を確認します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "MQ"
+        ],
+        "guidanceJa": "グアドループとマルティニークはVAT上の単一課税領域です。貨物の先行課税、現地産品の取扱いとoctroi de merの条件を確認します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Fiscalité douanière dans les départements d’Outre-mer",
+        "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "martinique",
+    "nameJa": "マルティニーク",
+    "category": "fiscal_boundary",
+    "registryCountry": "MQ",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "MARTINIQUE",
+          "MQ"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。現地のoctroi de merと地域分を確認します。フランスの現地VATを確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "EU貨物ステータスを照合し、現地のoctroi de mer、地域分、VATの適用と申告を確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "フランス本土などへの出荷は、仕向側の輸入VAT・申告とEU貨物ステータスを照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "GP"
+        ],
+        "guidanceJa": "グアドループとマルティニークはVAT上の単一課税領域です。貨物の先行課税、現地産品の取扱いとoctroi de merの条件を確認します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "GP"
+        ],
+        "guidanceJa": "グアドループとマルティニークはVAT上の単一課税領域です。貨物の先行課税、現地産品の取扱いとoctroi de merの条件を確認します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Fiscalité douanière dans les départements d’Outre-mer",
+        "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "reunion",
+    "nameJa": "レユニオン",
+    "category": "fiscal_boundary",
+    "registryCountry": "RE",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "REUNION",
+          "RE"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。現地のoctroi de merと地域分を確認します。フランスの現地VATを確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "EU貨物ステータスを照合し、現地のoctroi de mer、地域分、VATの適用と申告を確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "フランス本土などへの出荷は、仕向側の輸入VAT・申告とEU貨物ステータスを照会します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Fiscalité douanière dans les départements d’Outre-mer",
+        "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "mayotte",
+    "nameJa": "マヨット",
+    "category": "fiscal_boundary",
+    "registryCountry": "YT",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "MAYOTTE",
+          "YT"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。現地のoctroi de merと地域分を確認します。フランス税関資料上、VATは暫定的に適用されません。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "EU貨物ステータスを照合し、現地のoctroi de mer、地域分、VATの適用と申告を確認します。EU域外からの距離販売は、特別な財政領域も対象に含むEU取扱手数料の適用条件を確認します。",
+    "outboundJa": "フランス本土などへの出荷は、仕向側の輸入VAT・申告とEU貨物ステータスを照会します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Fiscalité douanière dans les départements d’Outre-mer",
+        "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Delegated Regulation (EU) 2026/2152, recital 1 and Article 2",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      }
+    ]
+  },
+  {
+    "id": "french_saint_martin",
+    "nameJa": "サンマルタン（仏領）",
+    "category": "special_goods_regime",
+    "registryCountry": "MF",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "FRENCH_SAINT_MARTIN",
+          "MF"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。フランス税関が地域限定の自由港の取扱いを案内しています。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。自治体の税制を確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "仏領サンマルタンの自由港の適用条件、燃料等の現地税、申告を確認します。",
+    "outboundJa": "フランス本土・他の仏海外地域への発送は仕向側のVAT、octroi de mer等と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Cas particuliers de Saint-Martin et Saint-Barthélemy",
+        "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy"
+      }
+    ]
+  },
+  {
+    "id": "saint_barthelemy",
+    "nameJa": "サン・バルテルミー",
+    "category": "separate_customs_area",
+    "registryCountry": "BL",
+    "selectors": [
+      {
+        "country": "FR",
+        "selectors": [
+          "SAINT_BARTHELEMY",
+          "BL"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域外の海外領域。",
+    "fiscalAreaJa": "フランス本土のVAT領域と異なり、現地の港湾課徴金等があります。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "現地の港湾課徴金、申告・受付と対象品目を確認します。",
+    "outboundJa": "EU向けの貨物は仕向側の関税、VAT、EU・海外領域の原産地条件を確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Cas particuliers de Saint-Martin et Saint-Barthélemy",
+        "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy"
+      }
+    ]
+  },
+  {
+    "id": "puerto_rico",
+    "nameJa": "プエルトリコ",
+    "category": "shared_customs_area",
+    "registryCountry": "PR",
+    "selectors": [
+      {
+        "country": "US",
+        "selectors": [
+          "PUERTO_RICO",
+          "PR"
+        ]
+      }
+    ],
+    "customsAreaJa": "米国関税領域内。域外からの貨物は連邦CBP手続の対象です。",
+    "fiscalAreaJa": "プエルトリコの売上・使用税IVUとSURI申告を連邦関税と区別します。",
+    "reviewWhen": "linked_crossing",
+    "reviewCounterpartCountries": [
+      "US"
+    ],
+    "inboundJa": "連邦CBPの輸入と、現地SURIへの輸入申告・IVU・引渡し条件を分けて確認します。",
+    "outboundJa": "仕向地の輸入手続を確認します。米国の州・DC向けは貨物の連邦関税領域上の状態と輸送・申告要件を確認します。",
+    "routeGuidance": [
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC発は米国関税領域内の移動です。現地のSURI申告・IVUの対象と引渡し条件を確認します。"
+      },
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC着は米国関税領域内の移動です。先行通関の状態、統計報告や輸送要件を照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §101.1 — Customs territory of the United States",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1"
+      },
+      {
+        "authority": "Departamento de Hacienda de Puerto Rico",
+        "title": "Importadores",
+        "url": "https://hacienda.pr.gov/node/1818"
+      },
+      {
+        "authority": "Departamento de Hacienda de Puerto Rico",
+        "title": "Impuesto sobre Ventas y Uso",
+        "url": "https://hacienda.pr.gov/impuesto-sobre-ventas-y-uso-ivu"
+      }
+    ]
+  },
+  {
+    "id": "us_virgin_islands",
+    "nameJa": "米領ヴァージン諸島",
+    "category": "separate_customs_area",
+    "registryCountry": "VI",
+    "selectors": [
+      {
+        "country": "US",
+        "selectors": [
+          "US_VIRGIN_ISLANDS",
+          "VI"
+        ]
+      }
+    ],
+    "customsAreaJa": "米国連邦関税領域外。",
+    "fiscalAreaJa": "現地関税・税を照会します。CBPは現地法に基づき税関事務を担当します。",
+    "reviewWhen": "linked_crossing",
+    "reviewCounterpartCountries": [
+      "PR",
+      "US"
+    ],
+    "inboundJa": "仕向地の税関、検疫、申告、費用を確認します。",
+    "outboundJa": "米国関税領域へ向かう貨物は連邦輸入申告と、19 CFR §7.3の原産・価額・直送等の条件を照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコ向けは連邦輸入として扱い、貨物の原産・価額・直送等を個別照会します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコからの搬入は仕向地の現地制度を照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.2 — Insular possessions other than Puerto Rico",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.3 — Conditional duty-free treatment of insular goods",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.3"
+      },
+      {
+        "authority": "U.S. Government Accountability Office",
+        "title": "GAO-26-107811 — Guam and other U.S. territory customs models",
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html"
+      }
+    ]
+  },
+  {
+    "id": "guam",
+    "nameJa": "グアム",
+    "category": "separate_customs_area",
+    "registryCountry": "GU",
+    "selectors": [
+      {
+        "country": "US",
+        "selectors": [
+          "GUAM",
+          "GU"
+        ]
+      }
+    ],
+    "customsAreaJa": "米国連邦関税領域外。",
+    "fiscalAreaJa": "GAOは通常関税を課さず貨物検査費用等を徴収する制度を報告しています。グアムの使用税等は別に確認します。",
+    "reviewWhen": "linked_crossing",
+    "reviewCounterpartCountries": [
+      "PR",
+      "US"
+    ],
+    "inboundJa": "仕向地の税関、検疫、申告、費用を確認します。",
+    "outboundJa": "米国関税領域へ向かう貨物は連邦輸入申告と、19 CFR §7.3の原産・価額・直送等の条件を照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコ向けは連邦輸入として扱い、貨物の原産・価額・直送等を個別照会します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコからの搬入は仕向地の現地制度を照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.2 — Insular possessions other than Puerto Rico",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.3 — Conditional duty-free treatment of insular goods",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.3"
+      },
+      {
+        "authority": "U.S. Government Accountability Office",
+        "title": "GAO-26-107811 — Guam and other U.S. territory customs models",
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html"
+      }
+    ]
+  },
+  {
+    "id": "american_samoa",
+    "nameJa": "米領サモア",
+    "category": "separate_customs_area",
+    "registryCountry": "AS",
+    "selectors": [
+      {
+        "country": "US",
+        "selectors": [
+          "AMERICAN_SAMOA",
+          "AS"
+        ]
+      }
+    ],
+    "customsAreaJa": "米国連邦関税領域外。",
+    "fiscalAreaJa": "現地当局が税関事務を担当します。現地の輸入時課税・許可を確認します。",
+    "reviewWhen": "linked_crossing",
+    "reviewCounterpartCountries": [
+      "PR",
+      "US"
+    ],
+    "inboundJa": "仕向地の税関、検疫、申告、費用を確認します。",
+    "outboundJa": "米国関税領域へ向かう貨物は連邦輸入申告と、19 CFR §7.3の原産・価額・直送等の条件を照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコ向けは連邦輸入として扱い、貨物の原産・価額・直送等を個別照会します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコからの搬入は仕向地の現地制度を照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.2 — Insular possessions other than Puerto Rico",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.3 — Conditional duty-free treatment of insular goods",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.3"
+      },
+      {
+        "authority": "U.S. Government Accountability Office",
+        "title": "GAO-26-107811 — Guam and other U.S. territory customs models",
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html"
+      }
+    ]
+  },
+  {
+    "id": "northern_mariana",
+    "nameJa": "北マリアナ諸島",
+    "category": "separate_customs_area",
+    "registryCountry": "MP",
+    "selectors": [
+      {
+        "country": "US",
+        "selectors": [
+          "NORTHERN_MARIANA",
+          "MP"
+        ]
+      }
+    ],
+    "customsAreaJa": "米国連邦関税領域外。",
+    "fiscalAreaJa": "現地税関・検疫局が輸入物品税・輸入規制を扱います。",
+    "reviewWhen": "linked_crossing",
+    "reviewCounterpartCountries": [
+      "PR",
+      "US"
+    ],
+    "inboundJa": "仕向地の税関、検疫、申告、費用を確認します。",
+    "outboundJa": "米国関税領域へ向かう貨物は連邦輸入申告と、19 CFR §7.3の原産・価額・直送等の条件を照会します。",
+    "routeGuidance": [
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコ向けは連邦輸入として扱い、貨物の原産・価額・直送等を個別照会します。"
+      },
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "PR",
+          "US"
+        ],
+        "guidanceJa": "米国の州・DC・プエルトリコからの搬入は仕向地の現地制度を照会します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.2 — Insular possessions other than Puerto Rico",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection, eCFR",
+        "title": "19 CFR §7.3 — Conditional duty-free treatment of insular goods",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.3"
+      },
+      {
+        "authority": "U.S. Government Accountability Office",
+        "title": "GAO-26-107811 — Guam and other U.S. territory customs models",
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html"
+      },
+      {
+        "authority": "CNMI Department of Finance",
+        "title": "Division of Customs and Quarantine",
+        "url": "https://dof.gov.mp/customs-quarantine.php"
+      }
+    ]
+  },
+  {
+    "id": "gibraltar",
+    "nameJa": "ジブラルタル",
+    "category": "special_goods_regime",
+    "registryCountry": "GI",
+    "selectors": [
+      {
+        "country": "GB",
+        "selectors": [
+          "GIBRALTAR",
+          "GI"
+        ]
+      }
+    ],
+    "customsAreaJa": "英EUジブラルタル協定は2026年7月15日から暫定適用。指定スペイン税関が商業貨物の輸出入を扱う移行手順を確認します。",
+    "fiscalAreaJa": "EU VAT領域外。ジブラルタルの取引税・該当物品税と協定の移行条件を確認します。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "商業貨物は協定第247条の移行手順に沿い、指定スペイン税関と原則の陸路を照会します。海路のEU貨物は協定上の条件を確認します。",
+    "outboundJa": "指定スペイン税関・陸路の手順と、第三国向け海路が許される条件を照会します。申告、トランジットと仕向側課税を確認します。",
+    "routeGuidance": [
+      {
+        "side": "destination",
+        "counterpartCountries": [
+          "ES"
+        ],
+        "guidanceJa": "スペイン発はEU貨物の証拠、協定付属書に基づく申告と指定税関での搬入、ジブラルタルの取引税を確認します。"
+      },
+      {
+        "side": "origin",
+        "counterpartCountries": [
+          "ES"
+        ],
+        "guidanceJa": "スペイン着は協定付属書に基づく輸出入手続と指定税関、貨物ステータスと仕向側の課税を確認します。"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Agreement in respect of Gibraltar, Articles 246–248",
+        "url": "https://eur-lex.europa.eu/eli/agree_internation/2026/1562/oj/eng"
+      },
+      {
+        "authority": "HM Government of Gibraltar",
+        "title": "Treaty implementation review, 10 November 2026",
+        "url": "https://www.gibraltar.gov.gi/press-releases/business-transition-advisory-group-reviews-treaty-implementation-8742026-12562"
+      },
+      {
+        "authority": "HM Government of Gibraltar",
+        "title": "Treaty-related customs guidance and transit",
+        "url": "https://www.gibraltar.gov.gi/press-releases/government-publishes-further-treaty-related-customs-guidance-4622026-12099"
+      }
+    ]
+  },
+  {
+    "id": "heligoland",
+    "nameJa": "ヘルゴラント島",
+    "category": "separate_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "DE",
+        "selectors": [
+          "HELGOLAND"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域外。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "busingen",
+    "nameJa": "ビュージンゲン",
+    "category": "separate_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "DE",
+        "selectors": [
+          "BUSINGEN"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域外。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "mount_athos",
+    "nameJa": "アトス山",
+    "category": "fiscal_boundary",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "GR",
+        "selectors": [
+          "MOUNT_ATHOS"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT領域外。EU物品税規則の対象です。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "livigno",
+    "nameJa": "リヴィーニョ",
+    "category": "separate_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "IT",
+        "selectors": [
+          "LIVIGNO"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域外。",
+    "fiscalAreaJa": "EU VAT・物品税領域外。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "campione",
+    "nameJa": "カンピョーネ・ディターリア",
+    "category": "fiscal_boundary",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "IT",
+        "selectors": [
+          "CAMPIONE_D_ITALIA"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT領域外。EU物品税規則の対象です。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "italian_lake_lugano",
+    "nameJa": "ルガーノ湖イタリア領水域",
+    "category": "fiscal_boundary",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "IT",
+        "selectors": [
+          "ITALIAN_LAKE_LUGANO"
+        ]
+      }
+    ],
+    "customsAreaJa": "EU関税領域内。",
+    "fiscalAreaJa": "EU VAT領域外。EU物品税規則の対象です。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  },
+  {
+    "id": "akrotiri_dhekelia",
+    "nameJa": "アクロティリ・デケリア",
+    "category": "shared_customs_area",
+    "registryCountry": null,
+    "selectors": [
+      {
+        "country": "CY",
+        "selectors": [
+          "AKROTIRI_DHEKELIA"
+        ]
+      }
+    ],
+    "customsAreaJa": "税関上はキプロスの領域として扱われます。",
+    "fiscalAreaJa": "VAT・物品税上もキプロスとして扱われます。",
+    "reviewWhen": "any_crossing",
+    "reviewCounterpartCountries": [],
+    "inboundJa": "発送地域と貨物の関税領域・税務領域を特定し、仕向側当局の申告・課税条件を確認します。",
+    "outboundJa": "仕向側当局の輸入申告・課税条件と貨物ステータスを確認します。",
+    "routeGuidance": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "European Commission, DG TAXUD",
+        "title": "Territorial scope of EU customs, VAT and excise rules",
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "authority": "European Union, EUR-Lex",
+        "title": "Union Customs Code, Articles 1 and 4",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0952-20221212"
+      }
+    ]
+  }
+]

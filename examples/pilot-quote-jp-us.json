@@ -1,0 +1,172 @@
+{
+  "orderId": "synthetic-order-jp-us",
+  "estimateId": "synthetic-estimate-jp-us",
+  "loadingCountry": "JP",
+  "reviewedShipmentDigest": "7f370fd6810ea7280d63143c9d8f4dfaae979bca5138894f43a3d97ef104fd39",
+  "plan": {
+    "shipment": {
+      "originCountry": "JP",
+      "destinationCountry": "US",
+      "originZone": "standard",
+      "destinationZone": "standard",
+      "importDate": "2026-11-12",
+      "locale": "ja",
+      "currency": "USD",
+      "freight": "12.00",
+      "insurance": "3.00",
+      "items": [
+        {
+          "id": "synthetic-ceramic-cup-line",
+          "description": "合成データの陶器製カップ",
+          "quantity": 2,
+          "unitValue": "100.00",
+          "originCountry": "JP",
+          "goodsType": "ordinary",
+          "hs6": "691200",
+          "classificationConfirmed": true
+        }
+      ],
+      "transaction": "b2c_sale",
+      "channel": "direct",
+      "transport": "air",
+      "regime": "standard",
+      "inventoryStatus": "free_circulation",
+      "sellerTaxRegistration": "registered",
+      "consignmentScopeConfirmed": true,
+      "customsValue": "200.00",
+      "customsValueConfirmed": true,
+      "taxEvidenceConfirmed": true,
+      "incoterm": "DAP"
+    },
+    "lines": [
+      {
+        "itemId": "synthetic-ceramic-cup-line",
+        "tariffCode": "6912001000"
+      }
+    ],
+    "availableDocuments": [
+      "COMMERCIAL_INVOICE",
+      "PACKING_LIST",
+      "TRANSPORT_DOCUMENT"
+    ]
+  },
+  "charges": [
+    {
+      "category": "customs_duty",
+      "method": "confirmed_amount",
+      "evidence": {
+        "id": "synthetic-jp-us-customs_duty",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/customs_duty",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      },
+      "amount": "10.00",
+      "timing": "import",
+      "payer": "buyer"
+    },
+    {
+      "category": "import_vat_gst",
+      "method": "not_applicable",
+      "evidence": {
+        "id": "synthetic-jp-us-import_vat_gst",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/import_vat_gst",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      }
+    },
+    {
+      "category": "additional_duty",
+      "method": "confirmed_amount",
+      "evidence": {
+        "id": "synthetic-jp-us-additional_duty",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/additional_duty",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      },
+      "amount": "2.00",
+      "timing": "import",
+      "payer": "buyer"
+    },
+    {
+      "category": "excise",
+      "method": "not_applicable",
+      "evidence": {
+        "id": "synthetic-jp-us-excise",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/excise",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      }
+    },
+    {
+      "category": "customs_fee",
+      "method": "confirmed_amount",
+      "evidence": {
+        "id": "synthetic-jp-us-customs_fee",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/customs_fee",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      },
+      "amount": "3.00",
+      "timing": "import",
+      "payer": "buyer"
+    },
+    {
+      "category": "carrier_fee",
+      "method": "confirmed_amount",
+      "evidence": {
+        "id": "synthetic-jp-us-carrier_fee",
+        "sourceUrl": "https://carrier.example/synthetic-review/jp-us/carrier_fee",
+        "sourceType": "carrier",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      },
+      "amount": "5.00",
+      "timing": "import",
+      "payer": "buyer"
+    },
+    {
+      "category": "checkout_tax",
+      "method": "not_applicable",
+      "evidence": {
+        "id": "synthetic-jp-us-checkout_tax",
+        "sourceUrl": "https://broker.example/synthetic-review/jp-us/checkout_tax",
+        "sourceType": "customs_broker",
+        "destinationCountry": "US",
+        "currency": "USD",
+        "reviewedOn": "2026-11-12",
+        "effectiveFrom": "2026-11-12",
+        "effectiveThrough": "2026-11-12",
+        "reviewBy": "2026-11-19"
+      }
+    }
+  ]
+}

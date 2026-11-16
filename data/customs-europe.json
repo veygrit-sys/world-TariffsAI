@@ -1,0 +1,4098 @@
+{
+  "pass": 3,
+  "entries": [
+    {
+      "country": "AD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/andorra-customs-unions-and-preferential-arrangements_en",
+          "authority": "European Commission",
+          "title": "Andorra customs union and preferential arrangements",
+          "topic": "territory"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "EUとの関税同盟の対象はHS第25〜97類。第1〜24類は原産地と個別の取決めを確認する。アンドラへの貨物は現地の申告と国内税を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/andorra-customs-unions-and-preferential-arrangements_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://dogana.gov.al/english/d/181/294/0/279/import-of-goods",
+          "authority": "Albanian General Directorate of Customs",
+          "title": "Import of goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://dogana.gov.al/english/c/181/338/necessary-documentation-for-declaration",
+          "authority": "Albanian General Directorate of Customs",
+          "title": "Necessary documentation for declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://dogana.gov.al/english/d/182/248/0/231/combined-nomenclature-of-goods",
+          "authority": "Albanian General Directorate of Customs",
+          "title": "Combined Nomenclature of Goods",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "アルバニアの自由流通への輸入申告を確認し、商業送り状と品目に応じた輸送・原産地などの書類をそろえる。",
+          "sourceUrls": [
+            "https://dogana.gov.al/english/d/181/294/0/279/import-of-goods",
+            "https://dogana.gov.al/english/c/181/338/necessary-documentation-for-declaration"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "アルバニアの品目表で国内コードを照合する。",
+          "sourceUrls": [
+            "https://dogana.gov.al/english/d/182/248/0/231/combined-nomenclature-of-goods"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.usp.gv.at/themen/aussenwirtschaft/einfuhr-von-waren/notwendige-unterlagen.html",
+          "authority": "Unternehmensserviceportal Österreich",
+          "title": "Notwendige Unterlagen",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入の通関手続では原則としてACCSで電子申告し、取引価格の裏付けとなる商業インボイスを提示できるようにする。",
+          "sourceUrls": [
+            "https://www.usp.gv.at/themen/aussenwirtschaft/einfuhr-von-waren/notwendige-unterlagen.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AX",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/",
+          "authority": "Finnish Tax Administration",
+          "title": "Åland Islands tax border and importing goods",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.suomi.fi/services/webpage/goods-traffic-between-aland-and-mainland-finland-finnish-customs/927199fa-c031-4608-89fc-5f2e5c38207a",
+          "authority": "Finnish Customs",
+          "title": "Goods traffic between Åland and mainland Finland",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "オーランド諸島にはEU関税制度が適用され、EU VAT・物品税の適用領域外。フィンランド本土との貨物移動にも税境界がある。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "本土との貨物移動は税関の税境界手続を使い、申告とVATの取扱いを貨物と事業者の条件に沿って確認する。",
+          "sourceUrls": [
+            "https://www.suomi.fi/services/webpage/goods-traffic-between-aland-and-mainland-finland-finnish-customs/927199fa-c031-4608-89fc-5f2e5c38207a",
+            "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.uino.gov.ba/portal/bs/carine/carinski-postupci/",
+          "authority": "Indirect Taxation Authority of Bosnia and Herzegovina",
+          "title": "Customs procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.uino.gov.ba/portal/bs/carine/carinska-tarifa/",
+          "authority": "Indirect Taxation Authority of Bosnia and Herzegovina",
+          "title": "Customs tariff",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ボスニア・ヘルツェゴビナの税関手続を選び、輸入申告、品目分類と必要書類を国内税関の資料で照合する。",
+          "sourceUrls": [
+            "https://www.uino.gov.ba/portal/bs/carine/carinski-postupci/",
+            "https://www.uino.gov.ba/portal/bs/carine/carinska-tarifa/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://finance.belgium.be/sites/default/files/Customs/Ondernemingen/Applicaties/IDMS/Business_User_Guide_IDMS_v.0.2.pdf",
+          "authority": "FPS Finance, Belgian Customs and Excise",
+          "title": "Business User Guide IDMS",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "自由流通への引渡しの申告では、ベルギー税関のIDMS利用者ガイドで対象の手続コードとH1のデータ項目を照合する。",
+          "sourceUrls": [
+            "https://finance.belgium.be/sites/default/files/Customs/Ondernemingen/Applicaties/IDMS/Business_User_Guide_IDMS_v.0.2.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.bg/wps/portal/agency/home/info-business/customs-activities/customs-procedures/customs-regimes/vnos",
+          "authority": "Bulgarian Customs Agency",
+          "title": "Митнически режими — Внос",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "非連合貨物をEU市場向けに輸入する場合は自由流通への引渡し手続を選び、輸入関税・その他の徴収金と禁止・制限を確認する。",
+          "sourceUrls": [
+            "https://customs.bg/wps/portal/agency/home/info-business/customs-activities/customs-procedures/customs-regimes/vnos"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BY",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+          "authority": "Eurasian Economic Commission",
+          "title": "Common Customs Tariff of the Eurasian Economic Union",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-belarus/",
+          "authority": "Council of the European Union",
+          "title": "EU sanctions against Belarus",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "tariff",
+          "textJa": "ユーラシア経済連合の共通対外関税表の品目と版を確認する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/comission/department/catr/ett/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "Veygritは取引を個別確認に回す。EUに接点がある貨物は、EUの対ベラルーシ制裁の対象品目、取引相手、経路を確認する。",
+          "sourceUrls": [
+            "https://www.consilium.europa.eu/en/policies/sanctions-against-belarus/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.bazg.admin.ch/en/courier-by-post-online-shopping-mail-order-importation-companies",
+          "authority": "Swiss Federal Office for Customs and Border Security",
+          "title": "Courier by post, online shopping, mail-order company",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.bazg.admin.ch/en/tares-application",
+          "authority": "Swiss Federal Office for Customs and Border Security",
+          "title": "Application Tares",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.bazg.admin.ch/en/customs-tariff-act",
+          "authority": "Swiss Federal Office for Customs and Border Security",
+          "title": "Customs Tariff Act",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "郵便・宅配便の通関は、運送会社に品目、原産地、申告価格を渡し、通関手数料と輸入税の負担者を確認する。",
+          "sourceUrls": [
+            "https://www.bazg.admin.ch/en/courier-by-post-online-shopping-mail-order-importation-companies"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "Taresのスイス関税番号と適用日を確認し、輸入VATや品目別の措置を照合する。",
+          "sourceUrls": [
+            "https://www.bazg.admin.ch/en/tares-application",
+            "https://www.bazg.admin.ch/en/customs-tariff-act"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://celnisprava.gov.cz/cz/clo/informace-pro-fyzicke-osoby/Stranky/dovoz-obchodniho-zbozi-do-eu-vyvoz-obchodniho-zbozi-z-eu-a-modely-celniho-odbaveni.aspx",
+          "authority": "Customs Administration of the Czech Republic",
+          "title": "Importing commercial goods and models of customs clearance",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "反復する商用輸入ではEORI登録を行い、自己申告か代理人に委託するかを決め、貨物到着前に所管税関との申告経路と提出書類を準備する。",
+          "sourceUrls": [
+            "https://celnisprava.gov.cz/cz/clo/informace-pro-fyzicke-osoby/Stranky/dovoz-obchodniho-zbozi-do-eu-vyvoz-obchodniho-zbozi-z-eu-a-modely-celniho-odbaveni.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99122025028000",
+          "authority": "German Federal Ministry of Finance",
+          "title": "Declare goods to customs when importing via the Internet",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "ヘルゴラントとビュージンゲンへの貨物はEU関税・VAT・物品税の領域外として、通常のドイツ本土向けと区別する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "域外からドイツに輸入する貨物について、連邦政府ポータルからオンライン税関申告の手続を確認する。",
+          "sourceUrls": [
+            "https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99122025028000"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://toldst.dk/erhverv/import/kom-i-gang-med-at-importere",
+          "authority": "Danish Customs Agency",
+          "title": "Kom i gang med at importere",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "フェロー諸島とグリーンランドはEU関税・VAT・物品税の領域外。実際の到着地をコードで確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "域外からの商用輸入に先立ち、Virkで輸入者登録を行い、関税支払の担保方法と自社申告・代理申告のいずれを使うか確認する。",
+          "sourceUrls": [
+            "https://toldst.dk/erhverv/import/kom-i-gang-med-at-importere"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "EE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.emta.ee/en/business-client/customs-trade-goods/customs-information-systems/users-customs-information-systems",
+          "authority": "Estonian Tax and Customs Board",
+          "title": "Import customs declaration processing system Impulss",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告にはImpulssを使う。担当者が会社を代理して申告する場合は、e-MTAで必要な利用権限を確認する。",
+          "sourceUrls": [
+            "https://www.emta.ee/en/business-client/customs-trade-goods/customs-information-systems/users-customs-information-systems"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ES",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/procedimientos/DB01.shtml",
+          "authority": "Agencia Estatal de Administración Tributaria",
+          "title": "Importación",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "カナリア諸島にはEU関税制度が適用され、EU VAT・物品税の領域外。セウタとメリリャはEU関税・VAT・物品税の領域外として個別に確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "スペイン税務当局の電子窓口で輸入申告の提出方法と該当する書式を確認する。",
+          "sourceUrls": [
+            "https://sede.agenciatributaria.gob.es/Sede/procedimientos/DB01.shtml"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/",
+          "authority": "Finnish Tax Administration",
+          "title": "Åland Islands tax border and importing goods",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.suomi.fi/services/declaring-goods-as-a-business-customer-finnish-customs/6c7f212d-d548-41df-8d25-25ab0fb36be5",
+          "authority": "Finnish Customs",
+          "title": "Declaring goods as a business customer",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "オーランド諸島への貨物はEU関税領域内で、EU VAT・物品税の税境界がある。本土との移動も税境界の申告を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "事業者はEU税関・税務領域外からの輸入や、EU税関領域内でEU税務領域外からの貨物について、Finnish Customsの電子サービスで輸入申告の要否と支払方法を確認する。",
+          "sourceUrls": [
+            "https://www.suomi.fi/services/declaring-goods-as-a-business-customer-finnish-customs/6c7f212d-d548-41df-8d25-25ab0fb36be5"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.government.fo/en/foreign-relations/representations-of-the-faroe-islands-abroad/the-mission-of-the-faroe-islands-to-the-european-union/the-faroe-islands-and-the-european-union/memorandum-to-foreign-producers",
+          "authority": "Government of the Faroe Islands",
+          "title": "Memorandum to foreign producers",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.taks.fo/en/business/customs/customs-tariff",
+          "authority": "TAKS Faroe Islands",
+          "title": "Customs tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.taks.fo/en/business/customs/general-information-about-customs-duties-and-importation",
+          "authority": "TAKS Faroe Islands",
+          "title": "General information about customs duties and importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "フェロー諸島はデンマーク本土と異なる独自の税関領域。",
+          "sourceUrls": [
+            "https://www.government.fo/en/foreign-relations/representations-of-the-faroe-islands-abroad/the-mission-of-the-faroe-islands-to-the-european-union/the-faroe-islands-and-the-european-union/memorandum-to-foreign-producers",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "TAKSの輸入案内と現地税表を使い、品目の関税とその他の輸入費用を確認する。",
+          "sourceUrls": [
+            "https://www.taks.fo/en/business/customs/general-information-about-customs-duties-and-importation",
+            "https://www.taks.fo/en/business/customs/customs-tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/demarche/deposer-une-declaration-en-douane-import-export",
+          "authority": "French Customs (DGDDI)",
+          "title": "Déposer une déclaration en douane (import - export)",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "本土、モナコ、海外の各仕向地では税関・VAT・物品税の範囲が異なる。住所の地域を確定してから制度を選択する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入の税関申告では、貨物と手続に応じてフランス税関のDELTAの該当サービスを選ぶ。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/demarche/deposer-une-declaration-en-douane-import-export"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/import-goods-into-uk",
+          "authority": "HM Revenue & Customs",
+          "title": "Import goods into the UK: step by step",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.uk/trade-tariff",
+          "authority": "HM Revenue & Customs",
+          "title": "Trade Tariff: look up commodity codes, duty and VAT rates",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/communications-resources-to-help-you-move-goods-from-great-britain-to-northern-ireland/checklist-getting-ready-to-make-freight-movements-from-great-britain-to-northern-ireland-under-the-windsor-framework",
+          "authority": "HM Revenue & Customs",
+          "title": "Checklist for freight movements under the Windsor Framework",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "イングランド・スコットランド・ウェールズ向けは、英国の輸入手順でEORI、申告、必要な許可と品目番号を確認する。",
+          "sourceUrls": [
+            "https://www.gov.uk/import-goods-into-uk",
+            "https://www.gov.uk/trade-tariff"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "北アイルランドはグレートブリテンと手続が異なる。グレートブリテン発、EU発、第三国発を区別し、Windsor Frameworkに沿う手続と物品のVAT・関税を確認する。",
+          "sourceUrls": [
+            "https://www.gov.uk/import-goods-into-uk",
+            "https://www.gov.uk/government/publications/communications-resources-to-help-you-move-goods-from-great-britain-to-northern-ireland/checklist-getting-ready-to-make-freight-movements-from-great-britain-to-northern-ireland-under-the-windsor-framework",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://gems.gov.gg/",
+          "authority": "Guernsey Border Agency",
+          "title": "GEMS Customs and Excise",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies",
+          "authority": "HM Revenue & Customs",
+          "title": "Customs arrangements with the Crown Dependencies",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "英国との関税取決めを確認したうえで、ガーンジーのGEMSで現地の通関・物品税の手続を確認する。",
+          "sourceUrls": [
+            "https://gems.gov.gg/",
+            "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?docLanguage=en&id=2026009",
+          "authority": "Council of the European Union",
+          "title": "Agreement in respect of Gibraltar, Treaty Register",
+          "topic": "territory"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.gibraltar.gov.gi/press-releases/government-publishes-further-treaty-related-customs-guidance-4622026-12099",
+          "authority": "Government of Gibraltar",
+          "title": "Treaty-related customs guidance",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gibraltar.gov.gi/press-releases/business-transition-advisory-group-reviews-treaty-implementation-8742026-12562",
+          "authority": "Government of Gibraltar",
+          "title": "Business Transition Advisory Group reviews Treaty implementation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gibraltarlaws.gov.gi/uploads/legislations/treaty-on-gibraltar/2026-11/2026-11o.pdf",
+          "authority": "Government of Gibraltar",
+          "title": "Treaty on Gibraltar and the European Union Act 2026",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "2026年7月15日から協定を暫定適用。商業貨物にはジブラルタルを代理するスペインの指定税関がEUの関税規則を適用する。",
+          "sourceUrls": [
+            "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?docLanguage=en&id=2026009",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "貨物の経路、指定税関、附属書に基づく手続と通過を確認する。移行中の運用は現地HM Customsの最新案内で照合する。",
+          "sourceUrls": [
+            "https://www.gibraltar.gov.gi/press-releases/government-publishes-further-treaty-related-customs-guidance-4622026-12099",
+            "https://www.gibraltar.gov.gi/press-releases/business-transition-advisory-group-reviews-treaty-implementation-8742026-12562"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "EU VATの適用領域外。ジブラルタルの取引税・物品税の条件と現地実施法を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.gibraltarlaws.gov.gi/uploads/legislations/treaty-on-gibraltar/2026-11/2026-11o.pdf",
+            "https://www.gibraltar.gov.gi/press-releases/business-transition-advisory-group-reviews-treaty-implementation-8742026-12562"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://aade.gr/en/imports-imports-system",
+          "authority": "Independent Authority for Public Revenue (AADE)",
+          "title": "IMPORTS - Imports System",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "アトス山はEU関税領域内で、EU VATの適用領域外。物品税の領域は別に判定する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "第三国貨物の自由流通への引渡しや特別な輸入手続では、ICISnetの輸入サブシステムで必要な申告と証明書を確認する。",
+          "sourceUrls": [
+            "https://aade.gr/en/imports-imports-system"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://carina.gov.hr/pristup-informacijama/propisi-i-sporazumi/carinsko-postupanje/najcesca-pitanja-i-odgovori-3529/cesta-pitanja-u-robnom-prometu/sto-je-pustanje-robe-u-slobodni-promet/14417",
+          "authority": "Croatian Customs Administration",
+          "title": "Što je puštanje robe u slobodni promet?",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "自由流通への引渡しに用いる標準輸入申告はHRAISへ電子提出する。輸入関税やその他の徴収金、規制の適用を照合する。",
+          "sourceUrls": [
+            "https://carina.gov.hr/pristup-informacijama/propisi-i-sporazumi/carinsko-postupanje/najcesca-pitanja-i-odgovori-3529/cesta-pitanja-u-robnom-prometu/sto-je-pustanje-robe-u-slobodni-promet/14417"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://nav.gov.hu/sajtoszoba/hirek/Decembertol_megujult_nemzeti_importrendszer_segiti_a_vameljarasokat",
+          "authority": "National Tax and Customs Administration of Hungary (NAV)",
+          "title": "Decembertől megújult nemzeti importrendszer segíti a vámeljárásokat",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "第三国からの貨物は、ハンガリーの輸入申告システムeVÁM AISで通関手続を開始する。",
+          "sourceUrls": [
+            "https://nav.gov.hu/sajtoszoba/hirek/Decembertol_megujult_nemzeti_importrendszer_segiti_a_vameljarasokat"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.revenue.ie/en/customs/businesses/electronic-systems/ais/business-impact/importers.aspx",
+          "authority": "Irish Revenue",
+          "title": "Automated Import System (AIS) — Importers",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "EU域外からの輸入はAISで申告し、自己申告・代理申告のどちらでもAISに対応する方法と申告内容の正確さを確認する。",
+          "sourceUrls": [
+            "https://www.revenue.ie/en/customs/businesses/electronic-systems/ais/business-impact/importers.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/",
+          "authority": "Isle of Man Customs and Excise",
+          "title": "Imports and Exports",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies",
+          "authority": "HM Revenue & Customs",
+          "title": "Customs arrangements with the Crown Dependencies",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.gov.uk/hmrc-internal-manuals/vat-registration-manual/vatreg45050",
+          "authority": "HM Revenue & Customs",
+          "title": "The Isle of Man VAT register",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "英国との関税取決めの適用を確認し、英国・マン島外からの貨物はマン島税関の輸入案内で申告・許可を確認する。",
+          "sourceUrls": [
+            "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/",
+            "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "マン島のVATは英国との関係とマン島の登録・申告案内を確認する。",
+          "sourceUrls": [
+            "https://www.gov.uk/hmrc-internal-manuals/vat-registration-manual/vatreg45050",
+            "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.skatturinn.is/english/companies/customs-matters/importing-to-iceland/import-documents/",
+          "authority": "Iceland Revenue and Customs",
+          "title": "Import Documents",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.skatturinn.is/english/companies/customs-matters/customs-tariff/",
+          "authority": "Iceland Revenue and Customs",
+          "title": "Customs tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+          "authority": "European Free Trade Association",
+          "title": "Customs Matters in the EEA",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement",
+          "authority": "European Free Trade Association",
+          "title": "EEA Agreement questions and answers",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "アイスランドの輸入申告に必要な商業送り状、輸送書類、適用条件に応じた原産地証明を確認する。",
+          "sourceUrls": [
+            "https://www.skatturinn.is/english/companies/customs-matters/importing-to-iceland/import-documents/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EEA内の取引も、アイスランドの税表と特恵原産地条件を照合する。",
+          "sourceUrls": [
+            "https://www.skatturinn.is/english/companies/customs-matters/customs-tariff/",
+            "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+            "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.adm.gov.it/portale/en/dichiarazioni-import",
+          "authority": "Agenzia delle Dogane e dei Monopoli (ADM)",
+          "title": "Dichiarazioni import",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "リヴィーニョはEU関税・VAT・物品税の領域外。カンピオーネ・ディターリアとルガーノ湖のイタリア領水にはEU関税・物品税制度が適用され、EU VATの領域外。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "イタリア税関ADMの輸入申告案内から、利用する電子申告の手順と関連文書を確認する。",
+          "sourceUrls": [
+            "https://www.adm.gov.it/portale/en/dichiarazioni-import"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "JE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.je/Travel/InformationAdvice/ImportsExports/CustomsTradersAgents/Pages/ImportExportAndPostalProcedures.aspx",
+          "authority": "Jersey Customs and Immigration Service",
+          "title": "Import, export and postal procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.je/taxesmoney/gst/gstcustomers/pages/declaringpaying.aspx",
+          "authority": "Government of Jersey",
+          "title": "Paying GST for online shopping and imported goods",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies",
+          "authority": "HM Revenue & Customs",
+          "title": "Customs arrangements with the Crown Dependencies",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "英国との関税取決めの適用範囲を確認し、ジャージーの貨物・郵便申告は現地の通関手続に従う。",
+          "sourceUrls": [
+            "https://www.gov.je/Travel/InformationAdvice/ImportsExports/CustomsTradersAgents/Pages/ImportExportAndPostalProcedures.aspx",
+            "https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "通販と輸入には現地GSTの条件を確認し、販売者徴収と到着時徴収の扱いを照合する。",
+          "sourceUrls": [
+            "https://www.gov.je/taxesmoney/gst/gstcustomers/pages/declaringpaying.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.llv.li/en/business/trade-in-goods-services/movement-of-goods-customs-and-origin/inch-and-origin/customs-procedure",
+          "authority": "Liechtenstein National Administration",
+          "title": "Customs procedure",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.llv.li/en/national-administration/diplomatic-representations/berne-ch/bilateral-relations-liechtenstein---switzerland",
+          "authority": "Liechtenstein National Administration",
+          "title": "Bilateral relations with Switzerland",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.bazg.admin.ch/en/tares-application",
+          "authority": "Swiss Federal Office for Customs and Border Security",
+          "title": "Application Tares",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+          "authority": "European Free Trade Association",
+          "title": "Customs Matters in the EEA",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement",
+          "authority": "European Free Trade Association",
+          "title": "EEA Agreement questions and answers",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "リヒテンシュタインの輸入はスイスとの関税取決めを確認する。EEA加盟の扱いと通関の扱いを個別に確認する。",
+          "sourceUrls": [
+            "https://www.llv.li/en/national-administration/diplomatic-representations/berne-ch/bilateral-relations-liechtenstein---switzerland",
+            "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+            "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "現地当局の手続案内とスイスTaresを確認し、品目と輸入税、原産地の条件を照合する。",
+          "sourceUrls": [
+            "https://www.llv.li/en/business/trade-in-goods-services/movement-of-goods-customs-and-origin/inch-and-origin/customs-procedure",
+            "https://www.bazg.admin.ch/en/tares-application"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://muitine.lrv.lt/en/news/new-version-of-imdas-familiarise-yourself-with-the-revised-system-operation-functions/",
+          "authority": "Customs of the Republic of Lithuania",
+          "title": "New version of iMDAS",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "自己申告する受取人はiMDASの輸入申告を使い、課税額の支払と貨物の引渡し状態を確認する。",
+          "sourceUrls": [
+            "https://muitine.lrv.lt/en/news/new-version-of-imdas-familiarise-yourself-with-the-revised-system-operation-functions/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://douanes.public.lu/fr/services-ligne/edouanes/LUCCS/National_Import_System.html",
+          "authority": "Administration des douanes et accises, Luxembourg",
+          "title": "NIS (National Import System)",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "第三国からの貨物はLUCCSのNational Import Systemでオンライン申告する。利用前にEORI番号とLuxTrust証明書を確認する。",
+          "sourceUrls": [
+            "https://douanes.public.lu/fr/services-ligne/edouanes/LUCCS/National_Import_System.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LV",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.vid.gov.lv/en/how-become-user-emdas",
+          "authority": "Latvian State Revenue Service",
+          "title": "How to become a user of EMDAS",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告はEMDASのAISサブシステムで提出する。事業者はEORIと電子申告システムEDSからのアクセスを確認する。",
+          "sourceUrls": [
+            "https://www.vid.gov.lv/en/how-become-user-emdas"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "モナコとの対象取引にはフランスと同じEU関税・VAT・物品税の領域上の取扱いがある。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "域外からの貨物はEUの自由流通手続とTARICを参照し、フランス側の申告窓口と貨物条件を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.md/ro/articles/introducerea-si-scoaterea-marfurilor",
+          "authority": "Customs Service of the Republic of Moldova",
+          "title": "Introduction and removal of goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.md/api/media/02/01/2024/528-O_29.12.2023.pdf",
+          "authority": "Customs Service of the Republic of Moldova",
+          "title": "Order No. 528-O, TARIM instructions",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://customs.gov.md/ro/articles/noi-reguli-de-taxare-incepand-cu-1-noiembrie-2026-4160-ro",
+          "authority": "Customs Service of the Republic of Moldova",
+          "title": "New taxation rules from 1 November 2026",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "モルドバ税関の貨物搬入と輸入申告の案内を確認する。TARIMで品目と関税・非関税措置を照合する。",
+          "sourceUrls": [
+            "https://customs.gov.md/ro/articles/introducerea-si-scoaterea-marfurilor",
+            "https://customs.gov.md/api/media/02/01/2024/528-O_29.12.2023.pdf"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "2026年11月1日以降に自由流通への申告をする対象の越境EC貨物は、モルドバ税関の改定案内でVAT、同一梱包の集計と徴収時点を確認する。注文日と申告日を区別する。",
+          "sourceUrls": [
+            "https://customs.gov.md/ro/articles/noi-reguli-de-taxare-incepand-cu-1-noiembrie-2026-4160-ro"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ME",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.me/dokumenta/c0c947e1-2fb1-4ae8-88a8-8d6e122aea2c",
+          "authority": "Customs Administration of Montenegro",
+          "title": "Instructions on electronic paperless import and export clearance",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taric.carina.co.me/TariCG/public/public/Search.jsp",
+          "authority": "Customs Administration of Montenegro",
+          "title": "TARICG integrated tariff",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "モンテネグロの電子通関案内で輸入申告と添付書類を確認し、TARICGで国内品目番号と措置を照合する。",
+          "sourceUrls": [
+            "https://www.gov.me/dokumenta/c0c947e1-2fb1-4ae8-88a8-8d6e122aea2c",
+            "https://taric.carina.co.me/TariCG/public/public/Search.jsp"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.mk/en-GB/tarifa-vrednost-i-poteklo.nspx",
+          "authority": "Customs Administration of North Macedonia",
+          "title": "Customs tariff, value and origin",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.mk/en-GB/pocetna/e-carina/nkts/carinska-tarifa.nspx",
+          "authority": "Customs Administration of North Macedonia",
+          "title": "Customs tariff",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "北マケドニアの国内品目番号、課税価格と原産地を申告前に確認し、国内税表で税・割当と適用条件を照合する。",
+          "sourceUrls": [
+            "https://customs.gov.mk/en-GB/tarifa-vrednost-i-poteklo.nspx",
+            "https://customs.gov.mk/en-GB/pocetna/e-carina/nkts/carinska-tarifa.nspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://mtca.gov.mt/customs/electronic-systems/customs-electronic-systems-ces",
+          "authority": "Malta Tax and Customs Administration",
+          "title": "Customs Electronic Systems (CES)",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "マルタの電子通関サービスでNational Import Systemの案内を確認し、輸入申告の利用手順と書式を確認する。",
+          "sourceUrls": [
+            "https://mtca.gov.mt/customs/electronic-systems/customs-electronic-systems-ces"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.douane.nl/en/themes/import-and-export/import/import-submitting-a-declaration/",
+          "authority": "Dutch Customs",
+          "title": "Import: submitting a declaration",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "欧州本土とカリブ海の各オランダ関連領域は別の仕向地コードと税関・税制で扱う。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "自己申告の場合は事前に電子メッセージの登録を申請する。代理申告や越境ECの輸入申告を使う場合は、該当する手順を確認する。",
+          "sourceUrls": [
+            "https://www.douane.nl/en/themes/import-and-export/import/import-submitting-a-declaration/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.toll.no/en/corporate/import/import-guide-for-beginners",
+          "authority": "Norwegian Customs",
+          "title": "Import Guide",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.toll.no/en/corporate/norwegian-customs-tariff",
+          "authority": "Norwegian Customs",
+          "title": "Classification of Goods",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.toll.no/no/verktoy/regelverk/handboker/vareforselshandboken/1-2",
+          "authority": "Norwegian Customs",
+          "title": "Goods Movement Act, geographical scope",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+          "authority": "European Free Trade Association",
+          "title": "Customs Matters in the EEA",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement",
+          "authority": "European Free Trade Association",
+          "title": "EEA Agreement questions and answers",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ノルウェー税関の輸入案内に従い、内容と数量を申告して、品目番号をノルウェー税表で照合する。",
+          "sourceUrls": [
+            "https://www.toll.no/en/corporate/import/import-guide-for-beginners",
+            "https://www.toll.no/en/corporate/norwegian-customs-tariff"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "ノルウェー本土とスヴァールバル諸島・ヤンマイエン島は税関上の扱いが異なる。EEA加盟国間の貨物にも各輸入先の通関条件を確認する。",
+          "sourceUrls": [
+            "https://www.toll.no/no/verktoy/regelverk/handboker/vareforselshandboken/1-2",
+            "https://www.efta.int/eea-relations-eu/policy-areas/free-movement-goods/customs-matters",
+            "https://www.efta.int/eea-relations-eu/qa-about-eea-agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://puesc.gov.pl/uslugi/zloz-przywozowe-zgloszenie-celne-i-wykonaj-inne-obowiazki-zwiazane-z-przywozem-towaru",
+          "authority": "Polish National Revenue Administration (KAS), PUESC",
+          "title": "Submit an import customs declaration",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "ポーランドの標準的な商用輸入申告はPUESC経由のAIS/IMPORT PLUSを使う。送信前に利用登録と署名方法を確認する。",
+          "sourceUrls": [
+            "https://puesc.gov.pl/uslugi/zloz-przywozowe-zgloszenie-celne-i-wykonaj-inne-obowiazki-zwiazane-z-przywozem-towaru"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://info-aduaneiro.portaldasfinancas.gov.pt/pt/informacao_aduaneira/STADA_Importacao_CAU/Pages/Declaracoes_Aduaneiras_de_Importacao_e_Notificacoes.aspx",
+          "authority": "Autoridade Tributária e Aduaneira, Portugal",
+          "title": "Declarações Aduaneiras de Importação e Notificações",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "アゾレス諸島とマデイラ諸島にもEU関税・VAT・物品税制度が適用される。適用税率は対象地域と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告と通知はSTADA Importação – CAU – DAINで提出する。対象の申告書式と通知の技術仕様を確認する。",
+          "sourceUrls": [
+            "https://info-aduaneiro.portaldasfinancas.gov.pt/pt/informacao_aduaneira/STADA_Importacao_CAU/Pages/Declaracoes_Aduaneiras_de_Importacao_e_Notificacoes.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "RO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/307724",
+          "authority": "Romanian Customs Authority, Romanian Legislative Portal",
+          "title": "Technical rules for use of the National Import System",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "申告者または通関代理人がSNIで輸入申告DVIを作成する。申告に裏付け書類を記載し、電子添付の条件を確認する。",
+          "sourceUrls": [
+            "https://legislatie.just.ro/Public/DetaliiDocument/307724"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "RS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.carina.rs/upload/media/2020/10/25/47853/REGULAR_PROCEDURE.pdf",
+          "authority": "Customs Administration of Serbia",
+          "title": "Regular procedure",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://carina.rs/en/business-community/CustomsTariff.html",
+          "authority": "Customs Administration of Serbia",
+          "title": "Customs tariff",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "セルビアの通常通関手続で輸入申告と添付資料を確認し、品目分類、原産地と関税措置を国内税表で照合する。",
+          "sourceUrls": [
+            "https://www.carina.rs/upload/media/2020/10/25/47853/REGULAR_PROCEDURE.pdf",
+            "https://carina.rs/en/business-community/CustomsTariff.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "RU",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+          "authority": "Eurasian Economic Commission",
+          "title": "Common Customs Tariff of the Eurasian Economic Union",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/",
+          "authority": "Council of the European Union",
+          "title": "Russia's war against Ukraine: EU sanctions",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "tariff",
+          "textJa": "ユーラシア経済連合の共通対外関税表の品目と版を確認する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/comission/department/catr/ett/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "Veygritは取引を個別確認に回す。EUに接点がある貨物は、EUの対ロシア制裁の対象品目、取引相手、経路を確認する。",
+          "sourceUrls": [
+            "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.tullverket.se/en/startpage/business/internationalbusiness/importinggoods/declaringgoodswhenimporting/differenttypesofcustomsdeclarationsforimports.4.422c8052175b1d827692642.html",
+          "authority": "Swedish Customs",
+          "title": "Different types of customs declarations for imports",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "標準申告・簡易申告などから貨物に適した方式を選び、スウェーデン税関が示す電子メッセージの種類を確認する。",
+          "sourceUrls": [
+            "https://www.tullverket.se/en/startpage/business/internationalbusiness/importinggoods/declaringgoodswhenimporting/differenttypesofcustomsdeclarationsforimports.4.422c8052175b1d827692642.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.fu.gov.si/en/customs/areas_of_work/import_of_goods",
+          "authority": "Financial Administration of the Republic of Slovenia",
+          "title": "Import of goods",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を輸入する場合、免除がなければEU税関領域に入る前に到着前申告を提出し、貨物を所定の税関手続に付す。",
+          "sourceUrls": [
+            "https://www.fu.gov.si/en/customs/areas_of_work/import_of_goods"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SJ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.toll.no/en/corporate/import/norwegian-customs-in-svalbard/",
+          "authority": "Norwegian Customs",
+          "title": "Norwegian Customs in Svalbard",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.toll.no/no/verktoy/regelverk/handboker/vareforselshandboken/1-2",
+          "authority": "Norwegian Customs",
+          "title": "Goods Movement Act, geographical scope",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.toll.no/en/corporate/import/import-guide-for-beginners",
+          "authority": "Norwegian Customs",
+          "title": "Import Guide",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "スヴァールバル諸島とヤンマイエン島はいずれもノルウェー本土の関税領域外。島ごとの貨物受入と申告の可否を確認する。",
+          "sourceUrls": [
+            "https://www.toll.no/no/verktoy/regelverk/handboker/vareforselshandboken/1-2",
+            "https://www.toll.no/en/corporate/import/import-guide-for-beginners"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "スヴァールバル諸島には現地の貨物報告・検査がある。ヤンマイエン島と本土では、各仕向地の条件を個別に確認する。",
+          "sourceUrls": [
+            "https://www.toll.no/en/corporate/import/norwegian-customs-in-svalbard/",
+            "https://www.toll.no/no/verktoy/regelverk/handboker/vareforselshandboken/1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+          "authority": "European Commission",
+          "title": "Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+          "authority": "European Commission",
+          "title": "Economic Operators Registration and Identification number",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+          "authority": "European Commission",
+          "title": "EU Customs Tariff (TARIC)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+          "authority": "European Union Official Journal",
+          "title": "Commission Implementing Regulation (EU) 2025/1926, 2026 Combined Nomenclature",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+          "authority": "European Commission",
+          "title": "VAT rates",
+          "topic": "tax"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+          "authority": "Council of the European Union",
+          "title": "Council Regulation (EU) 2026/382, duty relief for low-value consignments",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200",
+          "authority": "European Commission",
+          "title": "Implementing Regulation (EU) 2026/1200, implementation of temporary duty",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en",
+          "authority": "European Commission",
+          "title": "Product identifiers for e-commerce imports from 1 November 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.financnasprava.sk/sk/podnikatelia/clo-obchodny-tovar/dovoz/colne-formality",
+          "authority": "Financial Administration of the Slovak Republic",
+          "title": "Colné formality pri dovoze",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "域外貨物を自由流通に付す場合、申告者のEORI要件、貨物の提示、輸入申告と申告受理日を確認する。域内を移動する貨物は、自由流通の地位と税境界の有無を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "CNで品目を分類し、申告受理日と原産地に対応するTARICの関税、割当、追加措置、必要書類を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+            "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/importation_en"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入VATと物品税は仕向地の国内制度と品目で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+            "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年7月1日から域外からの少額貨物の関税制度が改定された。郵便・輸入VATの処理、貨物の内在価額と申告受理日を確認し、改定後の条件を照合する。",
+          "sourceUrls": [
+            "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1200"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "2026年11月1日以降の対象となる越境EC貨物では、商品ごとに販売者と製造者の製品識別子を確認する。標準製品識別子が存在しない場合は申告用の例外コードを確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/news/product-identifiers-e-commerce-imports-mandatory-1-november-2026-2026-11-03_en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告は原則として電子提出し、貨物を提示する場所を担当する税関と電子申告の手順を確認する。",
+          "sourceUrls": [
+            "https://www.financnasprava.sk/sk/podnikatelia/clo-obchodny-tovar/dovoz/colne-formality"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/san-marino-customs-unions-and-preferential-arrangements_en",
+          "authority": "European Commission",
+          "title": "San Marino customs union and preferential arrangements",
+          "topic": "territory"
+        },
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "サンマリノとの対象取引では、関税と物品税はイタリアの領域として扱う。EU VATの適用領域外で、現地の税手続を別に確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/san-marino-customs-unions-and-preferential-arrangements_en",
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.ua/informatsia-dlia-opryliudnenia-zgidno-z-ugodoiu-sot",
+          "authority": "State Customs Service of Ukraine",
+          "title": "Information under the WTO Trade Facilitation Agreement",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ウクライナ税関が公開する輸入申告・税の根拠を参照し、実際の申告地と品目に対する適用規定、必要書類、現行の制限を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ua/informatsia-dlia-opryliudnenia-zgidno-z-ugodoiu-sot"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.vaticanstate.va/en/news/2983-interview-with-gianni-lasaracina-head-of-the-customs-services-of-the-governorate.html",
+          "authority": "Governorate of Vatican City State",
+          "title": "Interview with Head of the Customs Services of the Governorate",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.vaticanstate.va/phocadownload/laws-decrees/LateranTreaty.pdf",
+          "authority": "Vatican City State",
+          "title": "Lateran Treaty",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "バチカン市国はEU関税・VAT・物品税の領域外。イタリア経由の貨物は、両当局の取決めと対象条件を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.vaticanstate.va/en/news/2983-interview-with-gianni-lasaracina-head-of-the-customs-services-of-the-governorate.html",
+            "https://www.vaticanstate.va/phocadownload/laws-decrees/LateranTreaty.pdf"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "バチカン市国税関とイタリア税関の手続を照合する。条約上の通過・免除を扱うときは対象貨物の条件を照合する。",
+          "sourceUrls": [
+            "https://www.vaticanstate.va/en/news/2983-interview-with-gianni-lasaracina-head-of-the-customs-services-of-the-governorate.html",
+            "https://www.vaticanstate.va/phocadownload/laws-decrees/LateranTreaty.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "XK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://dogana.rks-gov.net/faq",
+          "authority": "Kosovo Customs",
+          "title": "Customs frequently asked questions",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://dogana.rks-gov.net/sharedfolder/ProductFiles/2026_488f89e7-9610-4161-b671-3e11c747d458.pdf",
+          "authority": "Kosovo Customs",
+          "title": "Integrated Tariff of Kosovo 2026",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "コソボ税関の輸入案内とTARIKを確認し、申告時の品目番号、原産地と輸入措置を照合する。",
+          "sourceUrls": [
+            "https://dogana.rks-gov.net/faq",
+            "https://dogana.rks-gov.net/sharedfolder/ProductFiles/2026_488f89e7-9610-4161-b671-3e11c747d458.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewedOn": "2026-11-12"
+}

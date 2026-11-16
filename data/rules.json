@@ -1,0 +1,86 @@
+[
+  {
+    "id": "GB_LOW_VALUE",
+    "currency": "GBP",
+    "threshold": "135",
+    "validFrom": "2021-01-01",
+    "validTo": null,
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11",
+    "sourceIds": [
+      "primary-gb-sale",
+      "primary-gb-rate",
+      "primary-gb-delivery",
+      "primary-gb-duty"
+    ],
+    "vatBps": 2000
+  },
+  {
+    "id": "EU_TEMP_LOW_VALUE",
+    "currency": "EUR",
+    "threshold": "150",
+    "validFrom": "2026-07-01",
+    "validTo": "2028-07-01",
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-11-18",
+    "sourceIds": [
+      "primary-eu-law",
+      "primary-eu-guidance",
+      "primary-eu-declaration-item"
+    ],
+    "flatDuty": "3"
+  },
+  {
+    "id": "SG_LOW_VALUE",
+    "currency": "SGD",
+    "threshold": "400",
+    "validFrom": "2024-01-01",
+    "validTo": null,
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11",
+    "sourceIds": [
+      "primary-sg-lvg",
+      "primary-sg-rate"
+    ],
+    "vatBps": 900
+  },
+  {
+    "id": "JP_LOW_VALUE",
+    "currency": "JPY",
+    "threshold": "10000",
+    "validFrom": "2026-11-11",
+    "validTo": null,
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11",
+    "sourceIds": [
+      "primary-jp-relief"
+    ]
+  },
+  {
+    "id": "AU_LOW_VALUE_POST",
+    "currency": "AUD",
+    "threshold": "1000",
+    "validFrom": "2026-11-11",
+    "validTo": null,
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11",
+    "sourceIds": [
+      "primary-au-lvg",
+      "primary-au-post"
+    ]
+  },
+  {
+    "id": "NZ_LOW_VALUE",
+    "currency": "NZD",
+    "threshold": "1000",
+    "validFrom": "2026-11-11",
+    "validTo": null,
+    "checkedOn": "2026-11-11",
+    "reviewBy": "2026-12-11",
+    "sourceIds": [
+      "primary-nz-border",
+      "primary-nz-sale"
+    ],
+    "vatBps": 1500
+  }
+]

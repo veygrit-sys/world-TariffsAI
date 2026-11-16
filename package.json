@@ -1,0 +1,59 @@
+{
+  "name": "@veygrit/customs-ai",
+  "version": "1.0.0-rc.22",
+  "private": true,
+  "description": "Source-backed global customs decision support for Veygrit",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=24.22.0 <25"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./http": {
+      "types": "./dist/http.d.ts",
+      "import": "./dist/http.js"
+    }
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "cli": "node dist/cli.js",
+    "test": "npm run build && node --test tests/data.test.ts tests/engine.test.ts tests/http.test.ts tests/invoice-reconciliation.test.ts tests/money.test.ts tests/native-server.test.ts tests/public-catalog.test.ts tests/trade-policy.test.ts",
+    "test:full": "npm run build && node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "data:check": "node scripts/check-data.ts",
+    "data:manifest": "node scripts/manifest.ts",
+    "data:review": "node scripts/review.ts",
+    "openapi": "node scripts/openapi.ts",
+    "check": "npm run typecheck && npm run test:full && npm run data:check",
+    "check:public": "npm run typecheck && npm test && npm run data:check",
+    "build": "tsc --project tsconfig.build.json",
+    "tariff:import": "node scripts/tariffs/import.ts",
+    "tariff:verify-update": "node scripts/verify-tariff-update.ts",
+    "tariff:acquire": "node scripts/acquire-tariff-sources.ts",
+    "tariff:sign-review": "node scripts/sign-tariff-review.ts",
+    "tariff:source-coverage": "node scripts/tariff-source-coverage.ts",
+    "tariff:pilot-cycle": "node scripts/pilot-cycle.ts",
+    "settlement:verify": "node scripts/verify-import-settlement-coverage.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
+  },
+  "files": [
+    "dist",
+    "data",
+    "docs",
+    "licenses",
+    "SECURITY.md",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSE"
+  ]
+}

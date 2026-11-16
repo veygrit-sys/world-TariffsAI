@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+.env.*
+private_research
+private-tariffs
+private-evidence
+data/tariffs/*
+!data/tariffs/manifest.json
+*.zip
+*.log

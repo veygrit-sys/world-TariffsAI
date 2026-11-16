@@ -1,0 +1,638 @@
+[
+  {
+    "id": "prior-profile-US",
+    "countries": [
+      "US"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "米国",
+    "text": {
+      "ja": "少額免税の停止が継続。HTSUS・原産国・輸入日・追加関税・郵便／宅配の申告方式を照合。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-US1",
+      "prior-US2",
+      "prior-US3"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-CN",
+    "countries": [
+      "CN"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "中国本土",
+    "text": {
+      "ja": "CBEC対象品と通関方式を照合。注文・決済・物流電子情報と本人確認を委託先で連携。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-CN1",
+      "prior-CN2",
+      "prior-CN3"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-CA",
+    "countries": [
+      "CA"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "カナダ",
+    "text": {
+      "ja": "日本から直送する郵便・宅配の基本少額基準はC$20。米墨発送向けの特例を別条件で管理。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-CA1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-MX",
+    "countries": [
+      "MX"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "メキシコ",
+    "text": {
+      "ja": "宅配簡易手続と一般輸入、協定原産地と適用条件を確認。品目・方式ごとの現行税率を照合する。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-MX1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-GB",
+    "countries": [
+      "GB"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "英国",
+    "text": {
+      "ja": "GBの対象販売では135ポンド以下の委託貨物は販売時VAT。北アイルランドは別の税務・通関区分。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-UK1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-CH",
+    "countries": [
+      "CH"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "スイス",
+    "text": {
+      "ja": "通販課税とプラットフォーム課税を照合。標準VATは8.1%。免税は税額・商品区分を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-CH1",
+      "prior-CH2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-NO",
+    "countries": [
+      "NO"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "ノルウェー",
+    "text": {
+      "ja": "対象商品は1点3,000クローネ未満をVOECで販売時徴税。VOEC番号を電子送信。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-NO1",
+      "prior-NO2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-HK",
+    "countries": [
+      "HK"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "香港",
+    "text": {
+      "ja": "一般関税・VATは課さない自由港。酒・たばこ・炭化水素油・メチルアルコール等の課税と許認可を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-HK1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-KR",
+    "countries": [
+      "KR"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "韓国",
+    "text": {
+      "ja": "日本発送の自用小口は通常US$150基準を照合。品目と個人通関固有符号を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-KR1",
+      "prior-KR2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-TW",
+    "countries": [
+      "TW"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "台湾",
+    "text": {
+      "ja": "同批の完税価格NT$2,000以下の少額免税と半年度6回を照合。例外品目と本人確認を別判定。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-TW1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-SG",
+    "countries": [
+      "SG"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "シンガポール",
+    "text": {
+      "ja": "S$400以下の対象低額商品は登録販売者が購入時GSTを徴収。輸入時のCIF基準と区別。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-SG1",
+      "prior-SG2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-MY",
+    "countries": [
+      "MY"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "マレーシア",
+    "text": {
+      "ja": "RM500以下の対象LVGの販売時売上税10%と、輸入時の免税・重複課税防止を照合。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-MY1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-TH",
+    "countries": [
+      "TH"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "タイ",
+    "text": {
+      "ja": "2026年1月からEC輸入品の従来の1,500バーツ免税を見直し。低額でも関税・VATを照合。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-TH1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-VN",
+    "countries": [
+      "VN"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "ベトナム",
+    "text": {
+      "ja": "2025年2月18日から低額速達貨物のVAT免除を廃止。関税の免税要件は別に照合。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-VN1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-PH",
+    "countries": [
+      "PH"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "フィリピン",
+    "text": {
+      "ja": "FOB／FCAが1万ペソ以下の対象貨物は関税・税の少額免税。規制品と処理手数料を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-PH1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-ID",
+    "countries": [
+      "ID"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "インドネシア",
+    "text": {
+      "ja": "FOB US$3以下の関税免除とPPN課税を分ける。品目別税率・名目税率と課税標準を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-ID1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-IN",
+    "countries": [
+      "IN"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "インド",
+    "text": {
+      "ja": "宅配輸入のKYC・価格と用途を照合。2026年には宅配輸出上限や返品手続も改正。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-IN1",
+      "prior-IN2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-AU",
+    "countries": [
+      "AU"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "豪州",
+    "text": {
+      "ja": "A$1,000以下の対象低額商品にも、登録販売者等がGSTを徴収する仕組みを適用。高額品は輸入申告を確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-AU1",
+      "prior-AU2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-NZ",
+    "countries": [
+      "NZ"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "ニュージーランド",
+    "text": {
+      "ja": "NZ$1,000以下の対象低額商品は海外販売者等のGST制度を確認。高額輸入と輸入時徴税を別管理。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-NZ1",
+      "prior-NZ2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-BR",
+    "countries": [
+      "BR"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "ブラジル",
+    "text": {
+      "ja": "2026年5月12日以降、PRC対象の個人購入でUS$50以下は連邦輸入税0%。州ICMSは別。対象外販売は別計算。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-BR1",
+      "prior-BR2"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-CL",
+    "countries": [
+      "CL"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "チリ",
+    "text": {
+      "ja": "2025年10月からUS$500以下の対象遠隔販売は販売時のVAT制度を確認。登録と輸入時の重複課税防止を連携。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-CL1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-PE",
+    "countries": [
+      "PE"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "ペルー",
+    "text": {
+      "ja": "対象のFOB US$200以下の郵便輸入は少額免税を確認。分割・規制品・速達方式の条件を別確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-PE1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-SA",
+    "countries": [
+      "SA"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "サウジアラビア",
+    "text": {
+      "ja": "個人購入の総額1,000リヤル未満は条件付き関税免除。運賃・保険を含み、VATは別判定。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-SA1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-AE",
+    "countries": [
+      "AE"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "アラブ首長国連邦",
+    "text": {
+      "ja": "輸入VATと税関手続を確認。首長国・フリーゾーン・商品で通関条件を分ける。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-AE1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-ZA",
+    "countries": [
+      "ZA"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "南アフリカ",
+    "text": {
+      "ja": "小口輸入でもVATと品目別関税を確認。品目と方式に対応する税額・輸入者条件を照合する。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-ZA1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  },
+  {
+    "id": "prior-profile-TR",
+    "countries": [
+      "TR"
+    ],
+    "topics": [
+      "framework",
+      "customs",
+      "tax",
+      "documents"
+    ],
+    "title": "トルコ",
+    "text": {
+      "ja": "2026年のEC簡易申告の対象変更を反映。通常輸入・個人向け特例の適用を事業者に確認。",
+      "en": "Prior Veygrit research identifies local import procedures for this jurisdiction. Revalidate the linked authority before applying rates.",
+      "zh": "既有研究记录了此地区的进口制度。适用税率前必须重新核对所列官方资料。"
+    },
+    "sourceIds": [
+      "prior-TR1"
+    ],
+    "verification": "inherited_research",
+    "validFrom": null,
+    "validTo": null
+  }
+]

@@ -1,0 +1,2367 @@
+{
+  "pass": 4,
+  "reviewedOn": "2026-11-12",
+  "entries": [
+    {
+      "country": "AG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://portal.customs.gov.ag/portal/content.jsf?c=CNI",
+          "authority": "Antigua and Barbuda Customs and Excise Division",
+          "title": "Commercial and Non-Commercial Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.ag/index.php/page/duties-and-taxes-collected",
+          "authority": "Antigua and Barbuda Customs and Excise Division",
+          "title": "Duties and Taxes Collected",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業貨物は、船荷証券または航空運送状、貨物明細、価格情報をそろえ、ASYCUDA WorldでSAD（単一行政文書）を提出する。通関業者を使う場合も申告内容を輸入者が確認する。",
+          "sourceUrls": [
+            "https://portal.customs.gov.ag/portal/content.jsf?c=CNI"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入関税、ABST、Revenue Recovery Charge、取扱い・廃棄関連の賦課金を別々に確認する。貨物に該当する税目と税額は税関申告で確定する。",
+          "sourceUrls": [
+            "https://customs.gov.ag/index.php/page/duties-and-taxes-collected"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.ai/asycuda/",
+          "authority": "Anguilla Customs Department",
+          "title": "ASYCUDA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.ai/wp-content/uploads/2020/02/Anguilla-Declaration-Manual-final-4.2.2-v1.pdf",
+          "authority": "Anguilla Customs Department",
+          "title": "ASYCUDA World Declaration Manual",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.ai/legislation/",
+          "authority": "Anguilla Customs Department",
+          "title": "Legislation",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "アンギラ税関のASYCUDA World申告マニュアルに沿って、申告者の利用資格、申告区分、添付資料を確認する。商業貨物は輸送書類と商業インボイスを用意し、品目分類と申告税額を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ai/asycuda/",
+            "https://customs.gov.ai/wp-content/uploads/2020/02/Anguilla-Declaration-Manual-final-4.2.2-v1.pdf"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入品目の関税と輸入時の課税を、アンギラ税関の法令資料で確認する。申告日、取引形態、適用する免除を税関に確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ai/legislation/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://biblioteca.arca.gob.ar/dcp/LEY_C_025986_2004_12_16",
+          "authority": "ARCA",
+          "title": "Código Aduanero: declaración de importación para consumo",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://polcom.mercosur.int/public/ncm/vigente",
+          "authority": "MERCOSUR",
+          "title": "NCM y Arancel Externo Común",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1140-2024-407914/texto",
+          "authority": "Poder Ejecutivo Nacional",
+          "title": "Decreto 1140/2024: tasa de estadística",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "消費輸入は税関のシステムで申告する。輸入者・申告者、対象貨物、品目番号、価格と添付書類を確認し、適用される申告方式を選ぶ。",
+          "sourceUrls": [
+            "https://biblioteca.arca.gob.ar/dcp/LEY_C_025986_2004_12_16"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "NCM品目番号とメルコスールの共通対外関税を参照し、アルゼンチン国内の例外と申告日の改正を確認する。",
+          "sourceUrls": [
+            "https://polcom.mercosur.int/public/ncm/vigente"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "消費輸入の統計手数料（tasa de estadística）は、政令1140/2024で2027年12月31日まで3%とされる。課税対象額ごとの上限、免除と適用協定を個別に確認する。",
+          "sourceUrls": [
+            "https://www.argentina.gob.ar/normativa/nacional/decreto-1140-2024-407914/texto"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gobierno.aw/en/import-documents",
+          "authority": "Government of Aruba",
+          "title": "Import documents",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gobierno.aw/en/import-duties",
+          "authority": "Government of Aruba",
+          "title": "Import duties",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.douane.aw/en/calculation-import-value/",
+          "authority": "Departamento di Aduana, Aruba",
+          "title": "Calculation import value",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "アルバの輸入貨物はEnig Documentで申告する。貨物の分類と必要書類を確認し、必要に応じて現地通関業者と調整する。",
+          "sourceUrls": [
+            "https://www.gobierno.aw/en/import-documents"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "アルバ税関の品目分類と課税価額を確認する。インボイス価格、運送費、保険料などの算入項目は評価規則に照らして確認する。",
+          "sourceUrls": [
+            "https://www.gobierno.aw/en/import-duties",
+            "https://www.douane.aw/en/calculation-import-value/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BB",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://asycuda.customs.gov.bb/documents/DeclarationProcedureSop.pdf",
+          "authority": "Barbados Customs and Excise Department",
+          "title": "Commercial Declaration Standard Operating Procedure",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://asycuda.customs.gov.bb/portal/services/tariff/headings-detail.jsf",
+          "authority": "Barbados Customs and Excise Department",
+          "title": "Tariff headings",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://asycuda.customs.gov.bb/documents/2026%20BUDGET%20PORTAL%20NOTICE.pdf",
+          "authority": "Barbados Customs and Excise Department",
+          "title": "2026 Budget Portal Notice",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "バルバドス税関の商業申告手順に従い、ASYCUDA Worldで申告を登録する。品目・手続コード、輸入者情報、輸送・取引書類をそろえ、申告後の審査と支払いを確認する。",
+          "sourceUrls": [
+            "https://asycuda.customs.gov.bb/documents/DeclarationProcedureSop.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "税関ポータルの品目別関税表と予算改定の告知を参照し、税目ごとの適用日を確認する。",
+          "sourceUrls": [
+            "https://asycuda.customs.gov.bb/portal/services/tariff/headings-detail.jsf",
+            "https://asycuda.customs.gov.bb/documents/2026%20BUDGET%20PORTAL%20NOTICE.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Cas particuliers de Saint-Martin et de Saint-Barthélemy",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071570/LEGISCTA000053807436/",
+          "authority": "Légifrance",
+          "title": "Code des douanes, dispositions applicables à Saint-Barthélemy",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "サン・バルテルミーはEU関税領域外のフランス海外領土・地域。輸入時は現地の関税法の適用範囲と入港地・到着地を確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+            "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071570/LEGISCTA000053807436/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "現地のdroit de quai（岸壁税）の課税標準と適用除外を確認する。他の海外県向けのoctroi de merとは区別して現地法で照合する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.bm/bermuda-customs-declaration-bcd",
+          "authority": "Government of Bermuda Customs",
+          "title": "Bermuda Customs Declaration (BCD)",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.bm/articles/wharfage-fees-imported-goods",
+          "authority": "Government of Bermuda Customs",
+          "title": "Wharfage fees on imported goods",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "バミューダ税関のBCDを使い、CAPSまたはCustoms Web Traderで電子提出する。自由流通向け、保税、一時輸入などの区分に応じた申告手順を選ぶ。",
+          "sourceUrls": [
+            "https://www.gov.bm/bermuda-customs-declaration-bcd"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "ハミルトン港、セントジョージ港、L.F.ウェイド空港で課される岸壁使用料は課税価額の1.25%で、税関が徴収する。郵便貨物、指定品目、一時輸入などの免除を照合する。",
+          "sourceUrls": [
+            "https://www.gov.bm/articles/wharfage-fees-imported-goods"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://portal.aduana.gob.bo/aduana7/content/r%C3%A9gimen-de-importaci%C3%B3n",
+          "authority": "Aduana Nacional de Bolivia",
+          "title": "Régimen de importación",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://media.economiayfinanzas.gob.bo/aranceles-aduaneros",
+          "authority": "Ministerio de Economía y Finanzas Públicas",
+          "title": "Aranceles aduaneros",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "消費輸入ではSUMAの利用対象を確認し、管轄税関へ輸入貨物申告（DIM）と必要書類を送信する。既存の輸送記録が別システムにある場合は当局の案内を確認する。",
+          "sourceUrls": [
+            "https://portal.aduana.gob.bo/aduana7/content/r%C3%A9gimen-de-importaci%C3%B3n"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "申告日を基準に経済財政省の品目別税表を参照し、付表、免除、原産地条件を確認する。",
+          "sourceUrls": [
+            "https://media.economiayfinanzas.gob.bo/aranceles-aduaneros"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BQ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://english.belastingdienst-cn.nl/topics/customs-business/import-transit-and-export/importing-and-unloading-goods/customs-formalities",
+          "authority": "Belastingdienst Caribisch Nederland",
+          "title": "Customs formalities",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.belastingdienst-cn.nl/onderwerpen/douanezaken-bedrijven/invoerbelastingen-bedrijven",
+          "authority": "Belastingdienst Caribisch Nederland",
+          "title": "Invoerbelastingen bedrijven",
+          "topic": "territory"
+        },
+        {
+          "url": "https://english.belastingdienst-cn.nl/topics/customs-individuals/online-purchases",
+          "authority": "Belastingdienst Caribisch Nederland",
+          "title": "Online purchases",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "このコードはボネール、シント・ユースタティウス、サバを含む。実際の到着島を確定し、カリブ・オランダ税関の輸入手続とABBの島別区分を使う。",
+          "sourceUrls": [
+            "https://english.belastingdienst-cn.nl/topics/customs-business/import-transit-and-export/importing-and-unloading-goods/customs-formalities",
+            "https://www.belastingdienst-cn.nl/onderwerpen/douanezaken-bedrijven/invoerbelastingen-bedrijven"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "事業者向け当局資料では輸入関税の税率は0%。ABB（一般支出税）、適用がある物品税、品目別例外、課税価額は別に確認する。郵便・宅配の少額免除は個人向けの要件を確認する。",
+          "sourceUrls": [
+            "https://www.belastingdienst-cn.nl/onderwerpen/douanezaken-bedrijven/invoerbelastingen-bedrijven",
+            "https://english.belastingdienst-cn.nl/topics/customs-individuals/online-purchases"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/sistemas/duimp/migracao-da-di-para-duimp",
+          "authority": "Receita Federal do Brasil",
+          "title": "Migração da DI para Duimp",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://portalunico.siscomex.gov.br/classif/#/sumario?perfil=publico",
+          "authority": "Portal Único Siscomex",
+          "title": "Classif: consulta pública",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes",
+          "authority": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+          "title": "Tarifas vigentes",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=16%2F04%2F2021&jornal=515&pagina=18",
+          "authority": "Ministério da Economia / Diário Oficial da União",
+          "title": "Portaria ME nº 4.131/2021: Taxa Siscomex",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/sistemas/duimp/elaboracao-da-duimp/aba-resumo",
+          "authority": "Receita Federal do Brasil",
+          "title": "Duimp: Aba Resumo",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "SiscomexのDIからPortal ÚnicoのDuimpへの移行日程を確認する。貨物の品目・輸送形態と輸入者の適用条件から、申告方式と必要な許認可を決める。",
+          "sourceUrls": [
+            "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/sistemas/duimp/migracao-da-di-para-duimp"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ClassifでNCM品目を検索し、対外共通関税の国内例外、GECEX改正と期限を輸入日で確認する。",
+          "sourceUrls": [
+            "https://portalunico.siscomex.gov.br/classif/#/sumario?perfil=publico",
+            "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "Siscomex利用料を輸入関税と別に扱う。DIは2021年の省令4131と明細数別の料金を確認する。Duimpでは申告システムが算出した追加明細数と納付額を照合する。",
+          "sourceUrls": [
+            "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=16%2F04%2F2021&jornal=515&pagina=18",
+            "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/despacho-de-importacao/sistemas/duimp/elaboracao-da-duimp/aba-resumo"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.bahamastradeinfo.gov.bs/trade-facilitation/import-procedures/",
+          "authority": "Bahamas Trade Information Portal",
+          "title": "Import procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0062/2013-0062.pdf",
+          "authority": "Laws of The Bahamas",
+          "title": "Customs Management Regulations, regulation 147",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/AMENDING/2026/2026-0057S/2026-0057S.pdf",
+          "authority": "The Bahamas Official Gazette",
+          "title": "Customs Management (Amendment) (No. 3) Regulations, 2026",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "海上・航空貨物は運送書類、商業インボイス、必要な許可証を準備し、用途に対応する税関申告で提出する。国内消費向け申告、郵便小包、フリーポートの条件付き免税を区別する。",
+          "sourceUrls": [
+            "https://www.bahamastradeinfo.gov.bs/trade-facilitation/import-procedures/",
+            "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0062/2013-0062.pdf"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "国内消費向けのC13処理手数料はCIFの1%で、最低10 BSD、2026年7月1日以降の上限は1,500 BSD。郵便小包や条件付き免税の別様式、環境賦課金、輸入VAT、通関業者費用はそれぞれの条件を確認する。",
+          "sourceUrls": [
+            "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/AMENDING/2026/2026-0057S/2026-0057S.pdf",
+            "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0062/2013-0062.pdf",
+            "https://www.bahamastradeinfo.gov.bs/trade-facilitation/import-procedures/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BV",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://npolar.no/en/regulations-bouvetoya-nature-reserve/",
+          "authority": "Norwegian Polar Institute",
+          "title": "Regulations for Bouvetøya Nature Reserve",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ブーベ島は自然保護区。活動や航空機着陸に必要な許可をノルウェー極地研究所の規則で確認する。通常の輸入・配送手続は要確認とする。",
+          "sourceUrls": [
+            "https://npolar.no/en/regulations-bouvetoya-nature-reserve/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.bz/asycuda.html",
+          "authority": "Belize Customs and Excise Department",
+          "title": "ASYCUDAWorld at ports of entry",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.bz/ttpg.html",
+          "authority": "Belize Customs and Excise Department",
+          "title": "Tariff and Trade Classification",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.customs.gov.bz/Customs.html",
+          "authority": "Belize Customs and Excise Department",
+          "title": "Duty and tax calculator",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "指定の入国港ではASYCUDAWorldを使う。提出書類と税関のリリース指示は、利用する港と申告形態に合わせて確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.bz/asycuda.html"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "関税と輸入税は税関の関税検索で確認し、取引価格の証憑、対象品目の追加税・物品税の適用を照合する。",
+          "sourceUrls": [
+            "https://www.customs.gov.bz/ttpg.html",
+            "https://www.customs.gov.bz/Customs.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://cbsa-asfc.gc.ca/import/guide-8-eng.html",
+          "authority": "Canada Border Services Agency",
+          "title": "Commercial import checklist",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cbsa-asfc.gc.ca/import/guide-6-eng.html",
+          "authority": "Canada Border Services Agency",
+          "title": "Release, account and pay duties and taxes",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/",
+          "authority": "Canada Border Services Agency",
+          "title": "Customs Tariff 2026",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/complete-list-us-products-subject-to-counter-tariffs.html",
+          "authority": "Department of Finance Canada",
+          "title": "U.S. products subject to counter tariffs",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.canadapost-postescanada.ca/cpc/en/support/articles/customs-requirements/customs-duty-taxes-and-exemptions.page",
+          "authority": "Canada Post",
+          "title": "Customs duty, taxes, exemptions and postal handling fee",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.cbsa-asfc.gc.ca/import/postal-postale/dispute-contestation-eng.html",
+          "authority": "Canada Border Services Agency",
+          "title": "Disputing duty and taxes on mail or courier goods",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業輸入ではCARMで輸入事業アカウントを設定する。貨物のリリース申請、商業会計申告（CAD）、税の支払いを確認し、支払前リリース（RPP）は登録・条件を別に確認する。",
+          "sourceUrls": [
+            "https://cbsa-asfc.gc.ca/import/guide-8-eng.html",
+            "https://www.cbsa-asfc.gc.ca/import/guide-6-eng.html"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年版Customs Tariffの品目・適用待遇を確認し、米国原産品などの対抗関税は対象品目、原産地、免除と発効日を別途確認する。",
+          "sourceUrls": [
+            "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/",
+            "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/complete-list-us-products-subject-to-counter-tariffs.html"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "Canada Postの郵便取扱料は関税・税の課される郵便物1件につき9.95カナダドルと案内される。民間クーリエや通関業者の料金は当該事業者の見積りで確認する。",
+          "sourceUrls": [
+            "https://www.canadapost-postescanada.ca/cpc/en/support/articles/customs-requirements/customs-duty-taxes-and-exemptions.page",
+            "https://www.cbsa-asfc.gc.ca/import/postal-postale/dispute-contestation-eng.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.aduana.cl/aduana/site/docs/20070228/20070228014536/1.pdf",
+          "authority": "Servicio Nacional de Aduanas de Chile",
+          "title": "Declaración de importación: documentos de base",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.aduana.cl/arancel-aduanero-vigente/aduana/2016-12-30/090118.html",
+          "authority": "Servicio Nacional de Aduanas de Chile",
+          "title": "Arancel aduanero vigente",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告に用いる運送書類、商業送り状、必要な許可書類を用意する。品目、価額、輸送方法に応じて税関申告と通関業者の要否を確認する。",
+          "sourceUrls": [
+            "https://www.aduana.cl/aduana/site/docs/20070228/20070228014536/1.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "現行関税表の品目番号を確認し、特恵協定の適用、輸入IVA、免除や追加措置を個別に確認する。",
+          "sourceUrls": [
+            "https://www.aduana.cl/arancel-aduanero-vigente/aduana/2016-12-30/090118.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1165_2019.htm",
+          "authority": "Dirección de Impuestos y Aduanas Nacionales",
+          "title": "Decreto 1165 de 2019: presentación y documentos de la declaración",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://muisca.dian.gov.co/WebArancel/DefMenuConsultas.faces",
+          "authority": "Dirección de Impuestos y Aduanas Nacionales",
+          "title": "Consulta Web Arancel",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1881_2021.htm",
+          "authority": "Dirección de Impuestos y Aduanas Nacionales",
+          "title": "Decreto 1881 de 2021: arancel aduanero",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "DIANの電子サービスで貨物所在地を管轄する税関に輸入申告する。申告前に商業送り状、運送書類、該当する許可・原産地書類を確認する。",
+          "sourceUrls": [
+            "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1165_2019.htm"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "DIANのWeb Arancelで国内細分を照合し、輸入税と輸入IVA、原産地別条件や時限措置を分けて確認する。",
+          "sourceUrls": [
+            "https://muisca.dian.gov.co/WebArancel/DefMenuConsultas.faces",
+            "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1881_2021.htm"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.hacienda.go.cr/docs/MH-DGA-RES-1709-2024.pdf",
+          "authority": "Dirección General de Aduanas, Costa Rica",
+          "title": "Declaración de valor en aduana: MH-DGA-RES-1709-2024",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ticaconsultas.hacienda.go.cr/Tica/hdbaranc.aspx",
+          "authority": "Ministerio de Hacienda de Costa Rica",
+          "title": "Consulta Arancel TICA",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Arancel Centroamericano de Importación",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "確定輸入のDUAには税関価額の申告書が添付される。免除に該当する場合を確認し、品目、原産地と評価根拠を申告書類で照合する。",
+          "sourceUrls": [
+            "https://www.hacienda.go.cr/docs/MH-DGA-RES-1709-2024.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SAC分類に対応するTICAの国内税率を照会し、国別例外と輸入税の扱いを確認する。",
+          "sourceUrls": [
+            "https://ticaconsultas.hacienda.go.cr/Tica/hdbaranc.aspx",
+            "https://www.sieca.int/recursos/arancel-centroamericano-importacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o7.pdf",
+          "authority": "Ministerio de Justicia de Cuba",
+          "title": "Gaceta Oficial 7 de 2026: normativa aduanera, artículos 384 y 385",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+          "authority": "U.S. Department of the Treasury / OFAC",
+          "title": "Cuba sanctions and authorizations",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "キューバの税関規則で輸入申告の提出先、申告方式、運送書類と商業送り状などの添付要件を確認する。貨物ごとの許可と現行の原産地・評価条件も照合する。",
+          "sourceUrls": [
+            "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o7.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "米国との取引や米国の管轄が関係する場合は、輸出入と支払いに適用される現行の制裁・許可を確認する。",
+          "sourceUrls": [
+            "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://douane.cw/zakelijk/inklaring-en-invoer/",
+          "authority": "Douane Curaçao",
+          "title": "Inklaring en invoer",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://douane.cw/zakelijk/asycuda-world/",
+          "authority": "Douane Curaçao",
+          "title": "Asycuda World",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "キュラソーで自由流通に入れる貨物はDouane Curaçaoに申告する。業務用ASYCUDA Worldの利用方法、港での荷揚げ許可、対象品の輸入許可を確認する。",
+          "sourceUrls": [
+            "https://douane.cw/zakelijk/inklaring-en-invoer/",
+            "https://douane.cw/zakelijk/asycuda-world/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入関税、売上税（omzetbelasting）、対象品の物品税を照合する。一時輸入や加工用の免除は該当する申告・許可の条件を確認する。",
+          "sourceUrls": [
+            "https://douane.cw/zakelijk/inklaring-en-invoer/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.dm/importing-goods/commercial-imports",
+          "authority": "Dominica Customs and Excise Division",
+          "title": "Commercial Imports",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.dm/importing-goods/non-commercial-imports",
+          "authority": "Dominica Customs and Excise Division",
+          "title": "Non-Commercial Imports",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.dm/duty-calculator",
+          "authority": "Dominica Customs and Excise Division",
+          "title": "Duty Calculator",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.domports.daspa.dm/index.php/media-room/frequently-asked-questions/",
+          "authority": "Dominica Air and Sea Ports Authority",
+          "title": "Frequently Asked Questions",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ドミニカ国では商業貨物をASYCUDA WorldのSADで申告する。商業書類を準備し、国内消費、保税、再輸出などの申告区分を選ぶ。個人貨物は簡易申告の条件を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.dm/importing-goods/commercial-imports",
+            "https://customs.gov.dm/importing-goods/non-commercial-imports"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "品目、課税価額、輸送条件をそろえて税関の試算資料を確認する。港湾当局の貨物保管・受取に関する請求は税関の請求と照合する。",
+          "sourceUrls": [
+            "https://www.customs.gov.dm/duty-calculator",
+            "https://www.domports.daspa.dm/index.php/media-room/frequently-asked-questions/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.aduanas.gob.do/preguntas-frecuentes/",
+          "authority": "Dirección General de Aduanas, República Dominicana",
+          "title": "Preguntas frecuentes sobre DUA y SIGA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://sirevuce.aduanas.gob.do/?lang=es",
+          "authority": "Dirección General de Aduanas, República Dominicana",
+          "title": "Consulta de aranceles",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.aduanas.gob.do/media/as3hx2ml/norma-general-01-2023-ajuste-tasas-por-servicios.pdf",
+          "authority": "Dirección General de Aduanas, República Dominicana",
+          "title": "Norma General 01-2023, tasas por servicios",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ドミニカ共和国DGAのSIGAで電子DUAを提出する。原本の商業インボイスとB/LまたはAWBを用意し、品目に必要な許可を照合する。",
+          "sourceUrls": [
+            "https://www.aduanas.gob.do/preguntas-frecuentes/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "税率はDGAの品目検索・税額試算を照会する。DUA輸入申告料と個別サービス料金はDGAの現行料金表で確認し、輸入税と区別する。",
+          "sourceUrls": [
+            "https://sirevuce.aduanas.gob.do/?lang=es",
+            "https://www.aduanas.gob.do/media/as3hx2ml/norma-general-01-2023-ajuste-tasas-por-servicios.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "EC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.aduana.gob.ec/servicio-al-ciudadano/para-importar/",
+          "authority": "Servicio Nacional de Aduana del Ecuador",
+          "title": "Para importar: registro y declaración",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入者をECUAPASSに登録し、輸入申告（DAI）を提出する。申告区分と送り状・運送書類・許可や原産地証明の要否を事前に確認する。",
+          "sourceUrls": [
+            "https://www.aduana.gob.ec/servicio-al-ciudadano/para-importar/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "品目別の従価関税、FODINFA、対象品目のICEとIVAの税目・課税標準を別に確認する。税関の申告区分に対応する情報を使う。",
+          "sourceUrls": [
+            "https://www.aduana.gob.ec/servicio-al-ciudadano/para-importar/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.fk/customs/contact-us/",
+          "authority": "Falkland Islands Government Customs & Immigration Service",
+          "title": "Customs and Immigration contact",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.fk/agriculture/biosecurity/importing-exporting/",
+          "authority": "Falkland Islands Government Department of Agriculture",
+          "title": "Biosecurity importing and exporting",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.fk/customs/wp-content/uploads/sites/8/2026/06/CI-Duty-and-Charges-FY-2026-27-5.pdf",
+          "authority": "Falkland Islands Government Customs & Immigration Service",
+          "title": "Duty and Charges FY 2026–27",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物の通関は現地税関に確認する。動植物・機械などの対象品目は、バイオセキュリティの輸入許可や到着前申告の有無を確認する。",
+          "sourceUrls": [
+            "https://www.gov.fk/customs/contact-us/",
+            "https://www.gov.fk/agriculture/biosecurity/importing-exporting/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "現地税関の年度別Duty and Chargesで課税品と手数料を確認する。船舶の通関料・港湾料は港や船の区分で変わるため、貨物の品目別関税と分けて確認する。",
+          "sourceUrls": [
+            "https://www.gov.fk/customs/wp-content/uploads/sites/8/2026/06/CI-Duty-and-Charges-FY-2026-27-5.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.grenadacustoms.com/index.php",
+          "authority": "Grenada Customs and Excise Division",
+          "title": "Customs and ASYCUDA World",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.grenadacustoms.com/index.php/resources/downloads/forms",
+          "authority": "Grenada Customs and Excise Division",
+          "title": "Customs forms",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "グレナダ税関のASYCUDA Worldで電子申告する。申告様式と必要な添付書類を税関のフォーム一覧で確認し、適用する品目分類と免除条件を輸入手続に照合する。",
+          "sourceUrls": [
+            "https://www.grenadacustoms.com/index.php",
+            "https://www.grenadacustoms.com/index.php/resources/downloads/forms"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "EU territorial scope: customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/professionnels/outre-mer/guyane",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Guyane: customs and fiscal territory",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/fiche/la-fiscalite-de-loctroi-de-mer-en-guyane",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "La fiscalité de l’octroi de mer en Guyane",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "仏領ギアナはEU関税領域に含まれ、EUのVAT領域から外れる。輸送元と貨物の関税上の地位を確認し、域内輸送でも仏領ギアナ側の税・手続を照合する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.douane.gouv.fr/professionnels/outre-mer/guyane"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "地方税のoctroi de merおよびoctroi de mer régionalの国内細分別の適用・免除を、現地の最新決定で確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/la-fiscalite-de-loctroi-de-mer-en-guyane"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://aka.gl/da/erhverv/afgifter/indfoerselsafgift-for-varer",
+          "authority": "Grønlands Skattestyrelse",
+          "title": "Indførselsafgift for varer: 2026 rates",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "グリーンランドはEU関税領域外。現地税務当局の品目別の輸入賦課、免税・規制を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://aka.gl/da/erhverv/afgifter/indfoerselsafgift-for-varer"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "対象貨物の輸入賦課を現地当局の案内に従って申告し、運送事業者または税務当局への支払いを確認する。一定の酒類・たばこの商業輸入は事前許可の要否を確認する。",
+          "sourceUrls": [
+            "https://aka.gl/da/erhverv/afgifter/indfoerselsafgift-for-varer"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GP",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial Scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.guadeloupe.gouv.fr/Services-de-l-Etat/Organisation-des-services-de-l-Etat/Economie-finances-publiques-travail-et-emploi/Direction-regionale-des-douanes/La-Direction-Regionale-des-Douanes",
+          "authority": "Préfecture de la Guadeloupe",
+          "title": "La Direction régionale des Douanes",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Importer un bien dans un DROM",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Fiscalité douanière dans les départements d’Outre-mer",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "グアドループはEU関税領域に属し、EUのVAT領域とは区分される。本土またはEU域内から送る場合も、海外県の税務上の輸入手続を確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.guadeloupe.gouv.fr/Services-de-l-Etat/Organisation-des-services-de-l-Etat/Economie-finances-publiques-travail-et-emploi/Direction-regionale-des-douanes/La-Direction-Regionale-des-Douanes"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入時のoctroi de mer、地方分octroi de mer、現地TVAを品目と課税価額に照らして確認する。地域決定の品目別税率と免除を確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+            "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://laws.gov.gs/wp-content/uploads/2022/05/2016.pdf",
+          "authority": "Government of South Georgia and the South Sandwich Islands",
+          "title": "Customs Ordinance 2016",
+          "topic": "territory"
+        },
+        {
+          "url": "https://gov.gs/biosecurity/",
+          "authority": "Government of South Georgia and the South Sandwich Islands",
+          "title": "Biosecurity requirements for cargo and equipment",
+          "topic": "territory"
+        },
+        {
+          "url": "https://gov.gs/visitor-permit-fee-update/",
+          "authority": "Government of South Georgia and the South Sandwich Islands",
+          "title": "Visitor permit fees effective from 1 July 2026",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "現地の税関令とバイオセキュリティ手続を確認する。船積みする貨物・機材の種類や目的を特定し、政府に必要な申告、許可、現地課金を照会する。",
+          "sourceUrls": [
+            "https://laws.gov.gs/wp-content/uploads/2022/05/2016.pdf",
+            "https://gov.gs/biosecurity/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "来訪者許可の手数料は入域の料金である。貨物の通関費用を確かめる際は、申請の種類を分けて政府に確認する。",
+          "sourceUrls": [
+            "https://gov.gs/visitor-permit-fee-update/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://en.portal.sat.gob.gt/portal/preguntas-frecuentes/temas-aduaneros/",
+          "authority": "Superintendencia de Administración Tributaria, Guatemala",
+          "title": "Customs issues: DUCA categories",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sieca.int/faq/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Preguntas frecuentes sobre DUCA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://portal.sat.gob.gt/portal/arancel-integrado/",
+          "authority": "Superintendencia de Administración Tributaria, Guatemala",
+          "title": "Arancel Integrado",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Arancel Centroamericano de Importación",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "SATの案内でDUCAの区分を確認する。第三国原産等の輸入はDUCA-D、地域原産の条件を満たす取引はDUCA-F、国際陸上通過はDUCA-Tを照合する。",
+          "sourceUrls": [
+            "https://en.portal.sat.gob.gt/portal/preguntas-frecuentes/temas-aduaneros/",
+            "https://www.sieca.int/faq/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SATのArancel Integradoで現行のSAC分類、国内課税、優遇条件を確認する。",
+          "sourceUrls": [
+            "https://portal.sat.gob.gt/portal/arancel-integrado/",
+            "https://www.sieca.int/recursos/arancel-centroamericano-importacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://gra.gov.gy/business/customs-and-trade/imports/commercial/",
+          "authority": "Guyana Revenue Authority",
+          "title": "Commercial imports: ASYCUDA World and IM4",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://gra.gov.gy/tariff-headings-that-require-import-licence-under-the-trade-act/",
+          "authority": "Guyana Revenue Authority",
+          "title": "Tariff headings that require import licences",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gra.gov.gy/the-national-tariff-2011/",
+          "authority": "Guyana Revenue Authority",
+          "title": "National Tariff",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://gra.gov.gy/administration-of-budget-measures-2026/",
+          "authority": "Guyana Revenue Authority",
+          "title": "Administration of Budget Measures 2026",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業輸入はASYCUDA Worldで消費輸入申告（IM4）を提出し、商業書類と該当する輸入許可を添える。",
+          "sourceUrls": [
+            "https://gra.gov.gy/business/customs-and-trade/imports/commercial/",
+            "https://gra.gov.gy/tariff-headings-that-require-import-licence-under-the-trade-act/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "国家税表と2026年予算措置を照合し、該当品目の関税・VAT免除と施行日を確認する。",
+          "sourceUrls": [
+            "https://www.gra.gov.gy/the-national-tariff-2011/",
+            "https://gra.gov.gy/administration-of-budget-measures-2026/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.aduanas.gob.hn/wp-content/uploads/2024/04/ADUANAS-GNGA-017-2024.pdf",
+          "authority": "Administración Aduanera de Honduras",
+          "title": "Proceso general de importación con DUCA-D",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sieca.int/faq/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Preguntas frecuentes sobre DUCA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://sarahweb2.aduanas.gob.hn/#/plataforma/informacion/consulta_nomenclador",
+          "authority": "Administración Aduanera de Honduras",
+          "title": "Consulta nomenclador SARAH",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Arancel Centroamericano de Importación",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "確定輸入のDUCA-Dと添付書類の要件を税関の手順書で確認する。地域原産取引と通過貨物は適用申告を個別に確認する。",
+          "sourceUrls": [
+            "https://www.aduanas.gob.hn/wp-content/uploads/2024/04/ADUANAS-GNGA-017-2024.pdf",
+            "https://www.sieca.int/faq/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SARAHの品目照会でSAC分類とホンジュラスの例外を確認する。",
+          "sourceUrls": [
+            "https://sarahweb2.aduanas.gob.hn/#/plataforma/informacion/consulta_nomenclador",
+            "https://www.sieca.int/recursos/arancel-centroamericano-importacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://mci.gouv.ht/uploads/docs/Brochure-Preavis-dimportation.pdf",
+          "authority": "Ministère du Commerce et de l’Industrie, Haïti",
+          "title": "Préavis d’importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.douane.gouv.ht/2025/09/09/liste-des-commissionnaires-agrees-actifs-sur-sydonia/",
+          "authority": "Administration Générale des Douanes, Haïti",
+          "title": "Commissionnaires agréés actifs sur SYDONIA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.douane.gouv.ht/tarif-ndp/",
+          "authority": "Administration Générale des Douanes, Haïti",
+          "title": "Tarif NDP",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ハイチへの輸入は、商務省の事前通知手続と、税関の通関申告を照合する。事前通知の対象・事務手数料・受領証を商務省の資料で確認し、代理申告を使う場合はAGDが公表するSYDONIAの認定通関業者一覧を参照する。",
+          "sourceUrls": [
+            "https://mci.gouv.ht/uploads/docs/Brochure-Preavis-dimportation.pdf",
+            "https://www.douane.gouv.ht/2025/09/09/liste-des-commissionnaires-agrees-actifs-sur-sydonia/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "AGDのTarif NDPで品目を確認し、輸入日に有効な税目・率・例外と必要書類を照合する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.ht/tarif-ndp/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "JM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://jca.gov.jm/business/imports/import-clearance-commercial/",
+          "authority": "Jamaica Customs Agency",
+          "title": "Import Clearance – Commercial",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://jca.gov.jm/business/duties-and-taxes/",
+          "authority": "Jamaica Customs Agency",
+          "title": "Duties and Taxes",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ジャマイカの商業貨物はASYCUDAのeSADで通関する。商業インボイス、輸送書類、必要な許可、特恵を申請する場合の原産地証明をそろえ、代理申告の要否を確認する。",
+          "sourceUrls": [
+            "https://jca.gov.jm/business/imports/import-clearance-commercial/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "関税、GCT、SCT、印紙税、対象品の追加印紙税、Customs Administrative Feeを別々に確認する。通関業者・代理人を使う場合に提出するC73の処理料を一般の手数料と区別する。",
+          "sourceUrls": [
+            "https://jca.gov.jm/business/duties-and-taxes/",
+            "https://jca.gov.jm/business/imports/import-clearance-commercial/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.miticca.gov.kn/wp-content/uploads/2021/07/Import-Export-Procedures-Manual.pdf",
+          "authority": "Ministry of International Trade, Industry, Commerce and Consumer Affairs, Saint Kitts and Nevis",
+          "title": "Import & Export Procedures Manual",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://skncgtoronto.gov.kn/2026/06/05/government-reinforces-customs-surcharge-relief-measure-to-help-reduce-cost-of-living-burden-on-consumers/",
+          "authority": "Government of Saint Kitts and Nevis",
+          "title": "2026 customs surcharge relief measure",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "セントクリストファー・ネービスへの商業貨物は、同国の輸入手続マニュアルに従い、通関申告、インボイス、輸送書類と必要な許可を確認する。到着港に応じた窓口を使う。",
+          "sourceUrls": [
+            "https://www.miticca.gov.kn/wp-content/uploads/2021/07/Import-Export-Procedures-Manual.pdf"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "船会社等の燃料サーチャージをCIF課税価額に算入する扱いと税関サービス手数料を区別する。2026年の一時的な軽減は対象と適用期間を確認し、申告結果を運送・通関業者の請求と照合する。",
+          "sourceUrls": [
+            "https://skncgtoronto.gov.kn/2026/06/05/government-reinforces-customs-surcharge-relief-measure-to-help-reduce-cost-of-living-burden-on-consumers/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://gov.ky/web/cbc/trade/imports/import-entry",
+          "authority": "Cayman Islands Customs and Border Control",
+          "title": "Import Entry",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://gov.ky/web/cbc/trade/imports",
+          "authority": "Cayman Islands Customs and Border Control",
+          "title": "Imports",
+          "topic": "tax"
+        },
+        {
+          "url": "https://otp.gov.ky/web/cbc/trade/imports/environmental-impact-fee",
+          "authority": "Cayman Islands Customs and Border Control",
+          "title": "Customs Duty and Other Fees",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ケイマン諸島では輸入者または認定代理人が、到着日を起点にCBCの定める期限内にImport Entryを提出する。品目の詳細、関税コード、積出国と外貨換算を確認する。",
+          "sourceUrls": [
+            "https://gov.ky/web/cbc/trade/imports/import-entry"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入関税、免除、Package Tax、倉庫料金をそれぞれの附表・規則で確認する。Package Taxの対象輸送、環境負担等の対象品と条件も現行の規定で照合する。",
+          "sourceUrls": [
+            "https://gov.ky/web/cbc/trade/imports",
+            "https://otp.gov.ky/web/cbc/trade/imports/environmental-impact-fee"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.lc/imports-and-exports/importation-of-goods",
+          "authority": "Saint Lucia Customs and Excise Department",
+          "title": "Importation of Goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://commerce.gov.lc/departments/view/56",
+          "authority": "Saint Lucia Ministry of Commerce",
+          "title": "Import licence requirements",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.lc/legislation/customs-core-legislation/customs-service-charge-act-cap.15.06.pdf",
+          "authority": "Saint Lucia Customs and Excise Department",
+          "title": "Customs Service Charge Act",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.customs.gov.lc/legislation/customs-core-legislation/vat-act-cap-15.42.pdf",
+          "authority": "Saint Lucia Customs and Excise Department",
+          "title": "Value Added Tax Act",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "セントルシアでは輸入者または認定代理人がASYCUDA WorldでEntryを提出する。申告後に支払いと審査区分を確認し、規制品は商務省の輸入許可条件を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lc/imports-and-exports/importation-of-goods",
+            "https://commerce.gov.lc/departments/view/56"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入時のCustoms Service ChargeとVATは、個々の法令・適用除外に基づいて照合する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lc/legislation/customs-core-legislation/customs-service-charge-act-cap.15.06.pdf",
+            "https://www.customs.gov.lc/legislation/customs-core-legislation/vat-act-cap-15.42.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial Scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Cas particuliers de Saint-Martin et de Saint-Barthélemy",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.impots-saint-martin.fr/files/file/Reglementation/CGI/CGI_SM_au_26_06_2025.pdf",
+          "authority": "Direction de la Fiscalité, Collectivité de Saint-Martin",
+          "title": "Code général des impôts de Saint-Martin",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "仏領サン・マルタンはEU関税領域に属し、EUのVAT・物品税の領域とは区分される。仏税関が案内する自由港の特例と、オランダ側シント・マールテンの手続を区別し、実際の到着側を確定する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "フランス側の燃料に対する特別消費税と、該当する現地税を確認する。仏領サン・マルタンからフランス本土や他の海外県に移す場合は到着地で課税を照合する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+            "https://www.impots-saint-martin.fr/files/file/Reglementation/CGI/CGI_SM_au_26_06_2025.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MQ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+          "authority": "European Commission",
+          "title": "Territorial Scope of EU customs, VAT and excise",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Importer un bien dans un DROM",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Fiscalité douanière dans les départements d’Outre-mer",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "マルティニークはEU関税領域に属し、EUのVAT領域とは区分される。輸入税務の手続は、発送元がフランス本土・EU域内の場合も到着地で確認する。",
+          "sourceUrls": [
+            "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+            "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入時のoctroi de mer、地方分octroi de mer、現地TVAを区別する。マルティニークに適用される品目別税率と免除を確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+            "https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://mcrs.gov.ms/customs/",
+          "authority": "Montserrat Customs and Revenue Service",
+          "title": "Customs",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.ms/government/ministries/ministry-of-finance-economic-management/montserrat-customs-revenue-services/",
+          "authority": "Government of Montserrat",
+          "title": "Montserrat Customs & Revenue Services",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.ms/wp-content/uploads/2026/02/17.05-Customs-Duties-and-Consumption-Tax-Act.pdf",
+          "authority": "Government of Montserrat",
+          "title": "Customs Duties and Consumption Tax Act",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "モントセラトの貨物はCustoms and Revenue ServiceのASYCUDAを利用する。輸送書類と申告資料をそろえ、税関審査と港湾側の引渡し手順を担当窓口で確認する。",
+          "sourceUrls": [
+            "https://mcrs.gov.ms/customs/",
+            "https://www.gov.ms/government/ministries/ministry-of-finance-economic-management/montserrat-customs-revenue-services/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入関税と消費税はモントセラトの法令附表と輸入日に有効な改正を確認する。",
+          "sourceUrls": [
+            "https://www.gov.ms/wp-content/uploads/2026/02/17.05-Customs-Duties-and-Consumption-Tax-Act.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MX",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.sat.gob.mx/minisitio/PadronImportadoresExportadores/pi_inscripcion.html",
+          "authority": "Servicio de Administración Tributaria",
+          "title": "Padrón de Importadores",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://portalhcd.diputados.gob.mx/LeyesBiblio/PortalWeb/Leyes/Vigentes/MOV/Ley_Aduanera.pdf",
+          "authority": "Cámara de Diputados",
+          "title": "Ley Aduanera: artículos 36 y 36-A",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.html",
+          "authority": "Secretaría de Economía / SNICE",
+          "title": "LIGIE y NICO",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.mod26.html",
+          "authority": "Secretaría de Economía / SNICE",
+          "title": "Modificaciones a la TIGIE 2026",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://portalhcd.diputados.gob.mx/LeyesBiblio/PortalWeb/Leyes/Vigentes/MOV/Ley_Federal_de_Derechos.pdf",
+          "authority": "Cámara de Diputados",
+          "title": "Ley Federal de Derechos, artículo 49",
+          "topic": "tax"
+        },
+        {
+          "url": "https://dof.gob.mx/website/index.php?day=28&edicion=MAT&month=12&year=2025",
+          "authority": "Diario Oficial de la Federación",
+          "title": "Anexo 4 de la Resolución Miscelánea Fiscal para 2026",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Padrón de Importadoresへの登録要否を確認する。適用手続に従い、電子申告（pedimento）と商業書類・原産地・規制適合書類を提出する。",
+          "sourceUrls": [
+            "https://www.sat.gob.mx/minisitio/PadronImportadoresExportadores/pi_inscripcion.html",
+            "https://portalhcd.diputados.gob.mx/LeyesBiblio/PortalWeb/Leyes/Vigentes/MOV/Ley_Aduanera.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "LIGIE/TIGIEとNICOの品目を照合し、2026年の変更、原産地・協定、関税割当、暫定措置を確認する。",
+          "sourceUrls": [
+            "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.html",
+            "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.mod26.html"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "DTA（通関手続料）は連邦権利法49条の区分に従う。従価区分、定額・最低額、協定上の免除、年度の更新額を別々に確認する。",
+          "sourceUrls": [
+            "https://portalhcd.diputados.gob.mx/LeyesBiblio/PortalWeb/Leyes/Vigentes/MOV/Ley_Federal_de_Derechos.pdf",
+            "https://dof.gob.mx/website/index.php?day=28&edicion=MAT&month=12&year=2025"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.sieca.int/faq/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Preguntas frecuentes sobre DUCA",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Arancel Centroamericano de Importación",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "中米共通申告（DUCA）で第三国からの輸入、地域原産取引、国際陸上通過を区分し、ニカラグア税関へ利用する申告と書類を確認する。",
+          "sourceUrls": [
+            "https://www.sieca.int/faq/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SIECAのSAC分類から該当項目を確認し、ニカラグア国内の適用税率、免除と施行日を照会する。",
+          "sourceUrls": [
+            "https://www.sieca.int/recursos/arancel-centroamericano-importacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://tramites.ana.gob.pa/w_proceso/GestiondeDespacho.html",
+          "authority": "Autoridad Nacional de Aduanas de Panamá",
+          "title": "Gestión de despacho",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://aranceles.ana.gob.pa/",
+          "authority": "Autoridad Nacional de Aduanas de Panamá",
+          "title": "Herramienta Interactiva del Arancel Nacional",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.ana.gob.pa/w_ana/images/ANA_pdf/pasos_contingentes_arancelarios/PASOS-PARA-LA-IMPORTACION-DE-CONTINGENTE-DE-TPC-SISTEMA.pdf",
+          "authority": "Autoridad Nacional de Aduanas de Panamá",
+          "title": "Contingente arancelario por sistema SIGA",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "確定輸入、再輸入、特急便・クーリエなどに応じて税関の手続を選ぶ。対象手続に従って輸入申告を送信し、添付書類と搬出の承認を確認する。",
+          "sourceUrls": [
+            "https://tramites.ana.gob.pa/w_proceso/GestiondeDespacho.html"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "国内関税の検索で品目・最新改正を確認する。協定の割当を利用する場合は、通常の輸入申告に加えて当局の割当申請手順を確認する。",
+          "sourceUrls": [
+            "https://aranceles.ana.gob.pa/",
+            "https://www.ana.gob.pa/w_ana/images/ANA_pdf/pasos_contingentes_arancelarios/PASOS-PARA-LA-IMPORTACION-DE-CONTINGENTE-DE-TPC-SISTEMA.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PE",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.sunat.gob.pe/legislacion/procedim/despacho/importacion/importac/procGeneral/despa-pg.01.htm",
+          "authority": "SUNAT",
+          "title": "DESPA-PG.01 Importación para el consumo",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.sunat.gob.pe/orientacionaduanera/importacion/index.html",
+          "authority": "SUNAT",
+          "title": "Importación: tributos, pagos y garantías",
+          "topic": "tax"
+        },
+        {
+          "url": "https://ww1.sunat.gob.pe/orientacionaduanera/pagosgarantias/index.html",
+          "authority": "SUNAT",
+          "title": "Derechos, tributos y recargos",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "消費輸入の申告ではSUNATの要件に従い、貨物・輸入者・運送書類・取引資料と許認可を確認する。適用関税等を納付または担保してリリースの手続を進める。",
+          "sourceUrls": [
+            "https://www.sunat.gob.pe/legislacion/procedim/despacho/importacion/importac/procGeneral/despa-pg.01.htm"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "国内細分に基づく関税、IGV/IPM、対象品目のISCや追加課徴金を区分し、税関債務の発生日に有効な税率を確認する。",
+          "sourceUrls": [
+            "https://www.sunat.gob.pe/orientacionaduanera/importacion/index.html",
+            "https://ww1.sunat.gob.pe/orientacionaduanera/pagosgarantias/index.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.douane.gouv.fr/fiche/vous-vous-installez-en-polynesie-francaise-saint-pierre-et-miquelon-ou-wallis-et-futuna",
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Autonomie douanière et fiscale des collectivités",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.douane975.fr/dedouanement/",
+          "authority": "Service des douanes de Saint-Pierre-et-Miquelon",
+          "title": "Dédouanement et tarif local",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "サンピエール島・ミクロン島は関税・税務の自治制度を持つ。現地の税関当局に輸入申告、地方税、免税条件を確認する。",
+          "sourceUrls": [
+            "https://www.douane.gouv.fr/fiche/vous-vous-installez-en-polynesie-francaise-saint-pierre-et-miquelon-ou-wallis-et-futuna",
+            "https://www.douane975.fr/dedouanement/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1",
+          "authority": "U.S. National Archives, Office of the Federal Register",
+          "title": "19 CFR § 101.1 — Definitions, customs territory of the United States",
+          "topic": "territory"
+        },
+        {
+          "url": "https://hacienda.pr.gov/node/1818",
+          "authority": "Departamento de Hacienda de Puerto Rico",
+          "title": "Importadores",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "プエルトリコは米国の関税領域に含まれる。連邦通関上の扱いと、プエルトリコ財務省のSURIによる輸入申告・使用税（IVU）を分けて確認する。",
+          "sourceUrls": [
+            "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1",
+            "https://hacienda.pr.gov/node/1818"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "プエルトリコ財務省は、対象の輸入明細と輸入税月次申告をSURIで提出するよう案内している。輸送手段に応じた引取りの要件と、IVU免税でも必要な申告を確認する。",
+          "sourceUrls": [
+            "https://hacienda.pr.gov/node/1818"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.dnit.gov.py/en/web/portal-institucional/w/dnit-consolida-el-despacho-aduanero-digital-con-la-impresi%C3%B3n-electr%C3%B3nica-de-la-declaraci%C3%B3n-aduanera-desde-el-2026",
+          "authority": "Dirección Nacional de Ingresos Tributarios",
+          "title": "Declaración Aduanera Digital desde 2026",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://economia.gov.py/index.php/paraguay-y-el-mundo/aranceles-la-importacion",
+          "authority": "Ministerio de Economía y Finanzas de Paraguay",
+          "title": "Aranceles a la importación",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://polcom.mercosur.int/public/ncm/vigente",
+          "authority": "MERCOSUR",
+          "title": "NCM y Arancel Externo Común",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "2026年1月1日からの輸入・輸出の電子税関申告（DAD）を利用する。SOFIAでの登録・提出要件と貨物に必要な添付資料を確認する。",
+          "sourceUrls": [
+            "https://www.dnit.gov.py/en/web/portal-institucional/w/dnit-consolida-el-despacho-aduanero-digital-con-la-impresi%C3%B3n-electr%C3%B3nica-de-la-declaraci%C3%B3n-aduanera-desde-el-2026"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "NCMとパラグアイ国内の輸入税率を確認し、共通対外関税の国内例外を照合する。",
+          "sourceUrls": [
+            "https://economia.gov.py/index.php/paraguay-y-el-mundo/aranceles-la-importacion",
+            "https://polcom.mercosur.int/public/ncm/vigente"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://belastingdienst.sr/wp-content/uploads/2024/02/Registratieformulier-Douane-202316313-1.pdf",
+          "authority": "Belastingdienst Suriname / Douane",
+          "title": "Douane ASYCUDA registration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://asycuda.belastingdienst.sr/index.jsf",
+          "authority": "Suriname Customs",
+          "title": "ASYCUDAWorld portal and document tracking",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://gov.sr/document/wet-tarief-van-invoerrechten/",
+          "authority": "Government of Suriname",
+          "title": "Wet tarief van invoerrechten",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ASYCUDAWorldの利用登録を税関で確認し、申告の提出先と進捗の照会を当局のポータルで確認する。",
+          "sourceUrls": [
+            "https://belastingdienst.sr/wp-content/uploads/2024/02/Registratieformulier-Douane-202316313-1.pdf",
+            "https://asycuda.belastingdienst.sr/index.jsf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "国内の輸入関税法とその改正を確認し、品目に適用される税率・その他の輸入税を現地当局に照会する。",
+          "sourceUrls": [
+            "https://gov.sr/document/wet-tarief-van-invoerrechten/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SV",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://web01.aduana.gob.sv/servicios/importacion-definitiva-de-mercancias/",
+          "authority": "Dirección General de Aduanas de El Salvador",
+          "title": "Importación definitiva de mercancías",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://sitio.aduana.gob.sv/faq/documentos-que-deben-presentarse-para-realizar-un-tramite-de-importacion/",
+          "authority": "Dirección General de Aduanas de El Salvador",
+          "title": "Documentos para una importación",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://aduana2.mh.gob.sv/SAC/",
+          "authority": "Ministerio de Hacienda de El Salvador",
+          "title": "Sistema Arancelario Centroamericano",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+          "authority": "Secretaría de Integración Económica Centroamericana (SIECA)",
+          "title": "Arancel Centroamericano de Importación",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "確定輸入では電子送信した貨物申告と該当する添付資料を用意する。輸送・品目に応じて商業送り状、運送書類、DUCA-D/F、許可や証明書を照合する。",
+          "sourceUrls": [
+            "https://web01.aduana.gob.sv/servicios/importacion-definitiva-de-mercancias/",
+            "https://sitio.aduana.gob.sv/faq/documentos-que-deben-presentarse-para-realizar-un-tramite-de-importacion/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "SACの国内照会で品目分類とエルサルバドルでの適用率を確認する。",
+          "sourceUrls": [
+            "https://aduana2.mh.gob.sv/SAC/",
+            "https://www.sieca.int/recursos/arancel-centroamericano-importacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SX",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx",
+          "authority": "Government of Sint Maarten, Customs",
+          "title": "Customs responsibilities and border controls",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.info.gouv.fr/organisation/reconstruction-des-iles-de-saint-barthelemy-et-saint-martin/saint-barthelemy-et-saint-martin",
+          "authority": "Gouvernement de la République française",
+          "title": "Saint-Barthélemy et Saint-Martin",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "オランダ側シント・マールテンの貨物は、現地税関の管轄、到着港、輸入規制を確認する。仏領サン・マルタンやボネール・サバ等の制度と区別する。",
+          "sourceUrls": [
+            "https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx",
+            "https://www.info.gouv.fr/organisation/reconstruction-des-iles-de-saint-barthelemy-et-saint-martin/saint-barthelemy-et-saint-martin"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "現地税関は無鉛ガソリンの税・物品税の徴収を案内している。貨物の規制、個別税、港湾・運送会社費用は到着側で照合する。",
+          "sourceUrls": [
+            "https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.tc/webuploads/doclib/Customs%20Clearance%20Procedures.pdf",
+          "authority": "Turks and Caicos Islands Customs Department",
+          "title": "Customs Clearance Procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.gov.tc/trade/portal/imports",
+          "authority": "Turks and Caicos Islands Government",
+          "title": "Trade portal — Imports",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tc/webuploads/currdoc/19.04%20Customs%20Ordinance.pdf",
+          "authority": "Turks and Caicos Islands Customs Department",
+          "title": "Customs Ordinance",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "タークス・カイコス諸島の貨物は通関業者、代理人または認定申告者がASYCUDA Worldで申告する。運送状、インボイス、許可を添付し、支払票で関税・手数料を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.tc/webuploads/doclib/Customs%20Clearance%20Procedures.pdf",
+            "https://www.gov.tc/trade/portal/imports"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "関税とCustoms Processing Feeは別項目として、輸入日、申告方式、対象の免除・軽減、品目を照合する。",
+          "sourceUrls": [
+            "https://customs.gov.tc/webuploads/currdoc/19.04%20Customs%20Ordinance.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.finance.gov.tt/services/customs-and-excise/importing-and-exporting/",
+          "authority": "Ministry of Finance, Trinidad and Tobago",
+          "title": "Importing and Exporting",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tt/importing",
+          "authority": "Trinidad and Tobago Customs and Excise Division",
+          "title": "Duties and Clearance",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tt/importing/duties-and-payment",
+          "authority": "Trinidad and Tobago Customs and Excise Division",
+          "title": "Duties and Payment",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.customs.gov.tt/content/Notice%20to%20Importers%20No.%2023%20of%202016%20-%20Amendments%20to%20the%20Miscellaneous%20Taxes%20Act%2C%20Chap.%2077.01%20-%2028.10.2016.pdf",
+          "authority": "Trinidad and Tobago Customs and Excise Division",
+          "title": "Notice to Importers No. 23 of 2016 — Online Purchase Tax",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "トリニダード・トバゴ財務省の案内に従い、商業貨物は通関業者に取引・輸送書類を提示し、税関申告と必要な許可を確認する。",
+          "sourceUrls": [
+            "https://www.finance.gov.tt/services/customs-and-excise/importing-and-exporting/",
+            "https://customs.gov.tt/importing"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "品目別の関税、輸入VAT、該当するオンライン購入税やその他の賦課を確認する。取引形態と輸送経路を現行の通知・税額明細に照合する。",
+          "sourceUrls": [
+            "https://customs.gov.tt/importing/duties-and-payment",
+            "https://www.customs.gov.tt/content/Notice%20to%20Importers%20No.%2023%20of%202016%20-%20Amendments%20to%20the%20Miscellaneous%20Taxes%20Act%2C%20Chap.%2077.01%20-%2028.10.2016.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.help.cbp.gov/s/article/Article-1211?language=en_US",
+          "authority": "U.S. Customs and Border Protection",
+          "title": "Consumption entry and bonds",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.cbp.gov/sites/default/files/documents/ace_es_instructions_3.pdf",
+          "authority": "U.S. Customs and Border Protection",
+          "title": "ACE Entry Summary instructions",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.usitc.gov/harmonized_tariff_information",
+          "authority": "U.S. International Trade Commission",
+          "title": "Harmonized tariff information",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://hts.usitc.gov/current",
+          "authority": "U.S. International Trade Commission",
+          "title": "Current Harmonized Tariff Schedule",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027",
+          "authority": "U.S. Customs and Border Protection / Federal Register",
+          "title": "FY 2027 customs user fees, 91 FR 48398, Table 2",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23",
+          "authority": "Electronic Code of Federal Regulations",
+          "title": "19 CFR 24.23: merchandise processing fees and exemptions",
+          "topic": "tax"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.24",
+          "authority": "Electronic Code of Federal Regulations",
+          "title": "19 CFR 24.24: harbor maintenance fee",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入者、申告区分、必要な保証と添付書類を確認する。正式申告ではACEのEntry Summary（CBP Form 7501相当）に品目番号、原産地、税関価額等を記録する。",
+          "sourceUrls": [
+            "https://www.help.cbp.gov/s/article/Article-1211?language=en_US",
+            "https://www.cbp.gov/sites/default/files/documents/ace_es_instructions_3.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "USITCのHTSで基礎税率を確認し、Chapter 99の追加関税、原産地・品目の例外、貿易救済措置を申告日で照合する。",
+          "sourceUrls": [
+            "https://www.usitc.gov/harmonized_tariff_information",
+            "https://hts.usitc.gov/current"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "2026年10月1日適用のFY2027正式申告MPFは0.3464%で、下限34.58米ドル・上限670.86米ドル。手入力の加算、簡易申告の定額、協定による免除は申告方式と資格を確認する。",
+          "sourceUrls": [
+            "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027",
+            "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "Harbor Maintenance Feeは対象港で積み降ろす商業船舶の貨物価額に0.125%が適用される。港、取引、免除と特例を確認する。通関業者や配送業者の料金は、それぞれの見積り・請求で照合する。",
+          "sourceUrls": [
+            "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.24"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.aduanas.gub.uy/innovaportal/v/28223/1/innova.front/importacion-regimen-general-%E2%80%93-dua-importacion.html",
+          "authority": "Dirección Nacional de Aduanas de Uruguay",
+          "title": "Importación régimen general: DUA importación",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://aplicaciones.aduanas.gub.uy/LuciapubX/DatoBasico.Arancel.HPUDBAr2.aspx",
+          "authority": "Dirección Nacional de Aduanas de Uruguay",
+          "title": "Sistema Lucía: arancel",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.gub.uy/ministerio-economia-finanzas/nomenclatura-aranceles-uruguay-0",
+          "authority": "Ministerio de Economía y Finanzas de Uruguay",
+          "title": "Nomenclatura y aranceles de Uruguay",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "一般輸入はDUA Importaciónの手順で、通関業者、輸入者、申告書、関係書類の要件を確認する。",
+          "sourceUrls": [
+            "https://www.aduanas.gub.uy/innovaportal/v/28223/1/innova.front/importacion-regimen-general-%E2%80%93-dua-importacion.html"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "Lucíaと国内関税表でNCM分類、国内税率・免除と協定の扱いを確認する。",
+          "sourceUrls": [
+            "https://aplicaciones.aduanas.gub.uy/LuciapubX/DatoBasico.Arancel.HPUDBAr2.aspx",
+            "https://www.gub.uy/ministerio-economia-finanzas/nomenclatura-aranceles-uruguay-0"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.foreign.gov.vc/foreign/index.php/import-export-guide-content/606-clearing-of-commercial-consignments",
+          "authority": "Government of Saint Vincent and the Grenadines",
+          "title": "Clearing of Commercial Consignments",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.vc/",
+          "authority": "Customs and Excise Department, Saint Vincent and the Grenadines",
+          "title": "ASYCUDA World paperless processing",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.foreign.gov.vc/foreign/index.php/import-export-guide-content/603-imports-page",
+          "authority": "Government of Saint Vincent and the Grenadines",
+          "title": "Import guide",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "セントビンセント及びグレナディーン諸島の商業貨物は、認定代理人を通じてASYCUDAで申告する。税関が案内する電子書類提出と貨物引渡しの流れを確認する。",
+          "sourceUrls": [
+            "https://www.foreign.gov.vc/foreign/index.php/import-export-guide-content/606-clearing-of-commercial-consignments",
+            "https://customs.gov.vc/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入品目の関税と該当する税・手数料を通関明細で確認する。到着後の通関期限と、保管が生じる場合の港湾費用を別に確認する。",
+          "sourceUrls": [
+            "https://www.foreign.gov.vc/foreign/index.php/import-export-guide-content/603-imports-page"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VE",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://tfadatabase.org/index.php/en/members/venezuela-bolivarian-republic-of/publication-of-information-for-governments-and-traders",
+          "authority": "Venezuela TFA notification / World Trade Organization",
+          "title": "Publication of trade procedures, documents and enquiry points",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "WTOに通知されたSENIAT等の照会先から、輸入申告に必要な現行書類・品目別の税率と措置を確認する。",
+          "sourceUrls": [
+            "https://tfadatabase.org/index.php/en/members/venezuela-bolivarian-republic-of/publication-of-information-for-governments-and-traders"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.vg/news/scheduled-caps-migration-temporary-manual-declaration-process",
+          "authority": "Government of the Virgin Islands, His Majesty’s Customs",
+          "title": "CAPS declaration submission and migrated portal",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://caps.gov.vg/CAPSWeb/TraderLogin.jsp",
+          "authority": "Government of the Virgin Islands, His Majesty’s Customs",
+          "title": "CAPS Trader Login",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://laws.gov.vg/sites/default/files/2026-05/S.I.%20No.%2025%20of%202026-Customs%20Management%20and%20Duties%20%28Amendment%20of%20Schedule%204%29%20%28No.%202%29%20Order%2C%202026.pdf",
+          "authority": "Government of the Virgin Islands",
+          "title": "Customs Management and Duties (Amendment of Schedule 4) (No. 2) Order, 2026",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "英領ヴァージン諸島のTrader DeclarationはHM CustomsのCAPSを使う。利用資格、通関業者による申告、到着港の必要書類を確認する。",
+          "sourceUrls": [
+            "https://www.gov.vg/news/scheduled-caps-migration-temporary-manual-declaration-process",
+            "https://caps.gov.vg/CAPSWeb/TraderLogin.jsp"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "Customs Management and DutiesのSchedule 4と輸入日に有効な改正を照合する。特定の改正命令を全品目に適用しない。",
+          "sourceUrls": [
+            "https://laws.gov.vg/sites/default/files/2026-05/S.I.%20No.%2025%20of%202026-Customs%20Management%20and%20Duties%20%28Amendment%20of%20Schedule%204%29%20%28No.%202%29%20Order%2C%202026.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1",
+          "authority": "U.S. National Archives, Office of the Federal Register",
+          "title": "19 CFR § 101.1 — Definitions, customs territory of the United States",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2",
+          "authority": "U.S. National Archives, Office of the Federal Register",
+          "title": "19 CFR § 7.2 — Insular possessions of the United States other than Puerto Rico",
+          "topic": "territory"
+        },
+        {
+          "url": "https://excise.bir.vi.gov/Documents/Templates/help.html",
+          "authority": "Virgin Islands Bureau of Internal Revenue",
+          "title": "What is Excise Web?",
+          "topic": "tax"
+        },
+        {
+          "url": "https://excise.bir.vi.gov/Documents/Templates/ClearTaxable721TaxReturns.html",
+          "authority": "Virgin Islands Bureau of Internal Revenue",
+          "title": "Clear Taxable 721 (Tax Returns)",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "米領ヴァージン諸島は米国関税領域の外にある。米領ヴァージン諸島への輸入は現地の関税法をCBPが執行するため、米国本土・プエルトリコ向けとは区分して、実際の到着地と方向を確認する。",
+          "sourceUrls": [
+            "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1",
+            "https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "現地の対象取引についてBureau of Internal RevenueのExcise Webと申告手順を確認し、物品税と通関・運送上の請求を別に照合する。",
+          "sourceUrls": [
+            "https://excise.bir.vi.gov/Documents/Templates/help.html",
+            "https://excise.bir.vi.gov/Documents/Templates/ClearTaxable721TaxReturns.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

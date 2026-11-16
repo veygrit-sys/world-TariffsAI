@@ -1,78 +1,50 @@
 # Veygrit Customs AI
 
-Veygritで使う、出典付きの関税・通関判断支援エンジンです。TypeScript、Node.js、JSON Schema、Ajvで構成し、API・CLI・Next.js連携例を同梱しています。
+Veygrit向けの関税・通関判断支援エンジンです。TypeScript・Node.jsのAPIとCLIに、通関準備、根拠付きの見積もり、DAP・DDPの請求照合、Next.js・WooCommerce連携例を収録しています。
 
-**v1.0.0-rc.20** は、国際宅配便のDAP・DDPの精算試験を、同梱の公開税表や通常関税ゼロの制度を使える経路に拡張しました。発送国または輸入国を選び、相手先247の国・地域について、税表の適用日や審査が必要な理由を一覧で確認できます。金額を出すには、実際の輸入日に有効な費用の根拠、輸入者・通関担当の確認、配送業者の請求先受諾が必要です。 [関税の納付・精算と試験範囲](docs/IMPORT_SETTLEMENT.md) ・ [WooCommerce連携](integrations/woocommerce/README.md)
+**v1.0.0-rc.22** は、照会時点までに確認済みの税表・計算ルール・一次資料だけを試算に使います。根拠を確認した日と、貨物の輸入日を別々に判定します。
 
-rc.15で、北朝鮮を除く248仕向地について公式原本の取得・照会結果と、WooCommerceの見積もり表示・金額保留を検証しました。試験承認した税番では、保存済み見積もりを通関明細と照合します。 [248仕向地の試験](docs/ALL_DESTINATION_CYCLE.md) ・ [既存の日中米試験](docs/PILOT_CYCLE.md) ・ [追加11仕向地の往復試験](docs/WORLDWIDE_CYCLE.md) ・ [税表更新の運用](docs/TARIFF_UPDATE_OPERATIONS.md)
+## 公開リポジトリの対応範囲
 
-**2026年11月12日に標準税表または品目別の標準税率資料を照会できるのは、世界で110仕向地です。** 資料の範囲と適用日は[品目別税率データ](docs/TARIFF_DATA.md)に記載しています。
+WCO加盟187件と名簿に単独掲載されていない62件、計249仕向地の公的照会先と通関準備を収録しています。原産地、発送元、船積国、経由地と、お届け先の税関領域を区別します。北朝鮮（KP）は照会台帳に含まれ、商用受付では対象外です。 [仕向地別の対応](docs/WCO_COVERAGE.md) ・ [経由貨物の確認](docs/TRADE_BLOCS_AND_TRANSIT.md)
 
-コソボはISO正式割当と区別した補足コード `XK` として入力できます。特別地域は通常領域へ自動的にまとめず、税関・税領域の確認に進みます。
+公開版の [品目別税表マニフェスト](data/tariffs/manifest.json) は空です。一般輸入の品目別関税は、指定日に適用できる税表が不足していれば保留します。公的照会先、書類の確認事項、仕向地別の制度案内と、条件がそろった場合の少額貨物などの計算ルールは利用できます。 [税表の追加と署名承認](docs/TARIFF_UPDATE_OPERATIONS.md)
 
-WCO加盟187件と、名簿に単独掲載されていない62件を[仕向地別の対応範囲](docs/WCO_COVERAGE.md)に収録しています。輸入日別の税表・付加税の収録状況、公式照会先、通常関税0%・原則0%の制度を確認できます。
+公的出典を日本語・英語・簡体字で検索できます。商品分類では候補の絞り込みに必要な属性を案内します。追加のモデルを用意すると既存の出典選択に使用でき、税額は適用条件を確認した計算ルールで処理します。
 
-v0.8.0では、**249仕向地の通関準備**を追加しました。品目・原産地・輸入日による税率照会、対象税率欄の基礎関税試算、通常関税0%の制度、書類の確認事項を一つのAPIで取得できます。 [世界の通関準備と基礎関税の試算](docs/WORLDWIDE_CUSTOMS_PLAN.md)
+## ローカル実行
 
-## できること
-
-- 国内・EU域内・越境の区分と、特別な税関・税領域の確認。
-- 公式税表の品目別照会。国別品目番号、HS6候補、版、出典、税率・算式、原産地条件を取得できます。
-- 日本語・英語・簡体字での知識検索と、出典・確認日・再確認期限の表示。
-- 英国本土、EU、シンガポール、日本、豪州、ニュージーランドの限定条件による概算。
-- 中国CBECの取引枠・年間残枠・本人確認済み証拠・三単情報の確認事項整理。
-- 商品の規制カテゴリの候補抽出と分類に必要な属性の案内。
-- Veygritの注文版・住所版・用途限定の住所利用許可を照合する連携ポート。
-- 249仕向地で通関担当への確認事項と公的照会先を取得。日付が合う税表と確認済みの明細を使い、基礎関税の参考値を試算。
-- 任意のローカルOllamaモデルによる根拠の選択。モデル停止時もローカル検索を継続。
-
-AIは既存の確認済み根拠を選択します。自由生成文やモデルの出力を税率・税額・発送許可に変換しません。初期状態の検索と税率照会はモデルやGPUなしで動きます。税率データの収録範囲は税表マニフェストに記載しています。
-
-## すぐ動かす
-
-Node.js 24.22以降の24系を使用します。Windows、macOS、Linuxで同じNodeコマンドを使えます。
+Node.js 24.22以降の24系が必要です。
 
 ```bash
+git clone https://github.com/veygrit-sys/world-TariffsAI.git
+cd world-TariffsAI
 npm ci --ignore-scripts
-npm run check
-npm run cli -- tariff examples/tariff-jp.json
-npm run cli -- tariff examples/tariff-ca-surtax.json
-npm run cli -- assess examples/gb.json
-npm run cli -- destination-coverage 2026-11-11
-npm run cli -- checkout-preview examples/gb.json
-npm run cli -- customs-plan examples/customs-plan-us.json
-npm run cli -- release-readiness
-npm run cli -- worldwide-coverage 2026-11-12
+npm run check:public
 npm run cli -- worldwide-direction examples/worldwide-direction-jp-de.json
-npm run cli -- worldwide-direction examples/worldwide-direction-de-jp.json
-npm run cli -- worldwide-quote examples/worldwide-quote-br-de.json 2026-11-12T00:00:00Z
-npm run cli -- pilot-quote examples/pilot-quote-jp-us.json 2026-11-12T00:00:00Z
-npm run cli -- invoice-reconcile examples/pilot-reconcile-jp-us.json
-npm run cli -- ask "日本から英国へ商品を送るときの関税と書類"
+npm run cli -- customs-plan examples/customs-plan-us.json
+npm run cli -- tariff examples/tariff-jp.json
 ```
 
-サーバーは `.env.example` を `.env` にコピーし、`VEYGRIT_CUSTOMS_API_KEY` に32文字以上のランダムなサービス用キーを設定して起動します。
+`check:public` は型検査、ビルド、公開データで実行できるテスト、出典台帳の整合性検査を行います。方向照会では公的資料を、通関計画では書類と税額の保留理由を確認できます。品目照会は参照候補を返し、個別取引の適用税率は `applicableRate: null` と表示します。
+
+### HTTP API
+
+`.env.example` を `.env` にコピーし、`VEYGRIT_CUSTOMS_API_KEY` に32文字以上のランダムなサービス用キーを設定します。キーはサーバー間通信で使用します。
 
 ```bash
 node --env-file=.env dist/server.js
 ```
 
-環境変数で直接設定する場合は `npm start` でも起動できます。キーはサーバー間通信にだけ使います。ブラウザや `NEXT_PUBLIC_` 変数へ入れないでください。開発専用の認証省略モードは、ループバックに限定されています。
-
-`npm run check` はJavaScriptと型定義のビルドも実行します。テストなしでビルドだけ行う場合は `npm run build` です。アプリへパッケージとして組み込むときは、このビルド後の `dist/` と `data/` を使います。
+別の端末でヘルスチェックを実行します。通関計画の例を試す場合は、同じサービスキーを別端末の環境変数 `VEYGRIT_CUSTOMS_API_KEY` に設定します。
 
 ```bash
-curl http://127.0.0.1:3008/v1/assess \
-  -H "Authorization: Bearer $VEYGRIT_CUSTOMS_API_KEY" \
+curl http://127.0.0.1:3008/health
+curl http://127.0.0.1:3008/v1/customs/plan \
+  -H "Authorization: Bearer ${VEYGRIT_CUSTOMS_API_KEY}" \
   -H "Content-Type: application/json" \
-  --data-binary @examples/gb.json
+  --data-binary @examples/customs-plan-us.json
 ```
-
-上のcurl例はシェルの環境変数を使います。`.env` をNodeに読ませただけでは、シェルの変数には設定されません。
-
-## 品目別税率
-
-[税表の収録範囲・照会・追加方法](docs/TARIFF_DATA.md) を参照してください。`GET /v1/tariffs/coverage` は仕向地別の収録版・税種を返します。`POST /v1/tariffs/lookup` は品目番号で基本税表と付加税の候補を照会し、出典と参照日を返します。
 
 ## 税額計算と通関確認の対応範囲
 
@@ -80,7 +52,7 @@ curl http://127.0.0.1:3008/v1/assess \
 
 | 領域                | この版の動作                                                               | 未確定として返すもの                                      |
 | ------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------- |
-| 全249 ISOエントリー | 入力の認識。南極は対象外                                                   | 配送・決済・法規制の提供可否                              |
+| 249仕向地の台帳 | 公的照会先と通関準備。南極は商用対象外 | 配送・決済・法規制の提供可否 |
 | 英国本土            | 直接B2C・通常商品・本体価格合計£135以下。確認済み標準課税の販売時VATを概算 | 北アイルランド、B2B、贈答、物品税、軽減税率、その他の手続 |
 | EU27の通常領域      | €150以下の対象申告、確認済み分類と申告明細数による暫定関税                   | 国別商品別VAT、その他の通関方式、特恵・手数料             |
 | シンガポール        | 空輸・郵便、非関税品確認済み。1点価格と貨物全体CIFを分離                   | 物品税品、証拠不明の重複課税、その他輸送                  |
@@ -115,7 +87,8 @@ curl http://127.0.0.1:3008/v1/assess \
 | `POST /v1/import-settlement/plan` | DAP・DDPの費用負担と配送業者の受諾済み請求先を方向別に照合 |
 | `POST /v1/import-settlement/reconcile` | 税関への納付・配送業者の請求と支払いを、保存済み見積もりと照合 |
 | `GET /v1/sources`          | 出典・確認日・再確認期限         |
-| `GET /v1/tariffs/coverage` | 関税・付加税の収録版と対象範囲   |
+| `GET /v1/tariffs/coverage` | 関税・付加税の収録版と対象範囲 |
+| `GET /v1/tariffs/evidence` | 仕向地の税表原本、公式照会先と追加で必要な根拠 |
 | `GET /v1/tariffs/coverage/wco` | WCO加盟187件の輸入日別収録状況と照会先 |
 | `GET /v1/tariffs/coverage/territories` | WCO名簿外の仕向地と通常関税0%・原則0%の制度 |
 | `POST /v1/tariffs/lookup`  | 品目別の関税・付加税の照会       |
@@ -163,16 +136,12 @@ OLLAMA_MODEL=利用環境にインストールしたモデル名
 
 モデルは自動ダウンロードしません。モデルが返せる値は候補内の根拠IDだけです。新しい税率、本文、URL、発送許可は受け入れません。応答失敗・不正なID・余分な項目はローカル検索へ戻します。実モデルでの精度評価は未実施で、通信契約と失敗処理をモックで検証しています。
 
-## 更新と検証
+## 税表の追加と全体検証
 
-```bash
-npm run check
-npm run data:review
-npm run openapi
-```
+正式な運用で追加税表を読み込むには、利用条件を確認した税表をリポジトリの外に置き、`VEYGRIT_TARIFF_DIR`、`VEYGRIT_TARIFF_APPROVAL`、`VEYGRIT_TARIFF_TRUSTED_KEYS` を設定します。承認手順と切り戻しの方法を運用文書に記載しています。 [税表の取得と切り替え](docs/TARIFF_UPDATE_OPERATIONS.md)
 
-更新手順は [docs/DATA_UPDATES.md](docs/DATA_UPDATES.md)、構成は [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)、セキュリティは [SECURITY.md](SECURITY.md) を参照してください。国別ルールを追加するときは、税額計算の条件、一次出典、適用日、再確認期限、境界値テストをそろえます。
+`npm run check` は、税表を用意した検証用コピーで全体を検証するコマンドです。過去の検証結果は対象日・品目・サンプルデータを明示した記録です。 [公開版と追加データの管理](docs/GITHUB_UPLOAD.md) ・ [データの更新手順](docs/DATA_UPDATES.md) ・ [構成](docs/ARCHITECTURE.md) ・ [セキュリティ](SECURITY.md)
 
-GitHubへ上げる手順は [docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md) にあります。コード・データ・テスト・設定例を含み、秘密情報、元の調査PDF、モデル重み、`node_modules` は配布物に含めません。
+## ライセンス
 
-オープンソースの帰属は [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) と [licenses](licenses/) にあります。このプロジェクト固有コードにはOSSライセンスを自動付与していません。
+独自コードと独自文書にはオープンソースライセンスを付与していません。第三者ライブラリとデータには、それぞれのライセンスと利用条件が適用されます。 [LICENSE](LICENSE) ・ [第三者の利用条件](THIRD_PARTY_NOTICES.md) ・ [ライセンス原文](licenses/)

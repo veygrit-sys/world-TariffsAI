@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "nonMemberSources": {
+    "AI": [
+      {
+        "url": "https://customs.gov.ai/wp-content/uploads/2020/01/Anguilla-HS2017-Tariff-Final.pdf",
+        "authority": "Anguilla Customs Department",
+        "title": "Integrated Customs Tariff HS 2017",
+        "kind": "official_schedule",
+        "scope": "Anguilla has its own customs tariff. This is the published 2019 schedule. Check later amendments and the current GST regime.",
+        "sourceUrl": "https://customs.gov.ai/asycuda/"
+      },
+      {
+        "url": "https://customs.gov.ai/legislation/",
+        "authority": "Anguilla Customs Department",
+        "title": "Customs Legislation",
+        "kind": "official_legislation",
+        "scope": "Local customs legislation and tariff instruments."
+      },
+      {
+        "url": "https://customs.gov.ai/asycuda/",
+        "authority": "Anguilla Customs Department",
+        "title": "ASYCUDA",
+        "kind": "customs_guidance",
+        "scope": "Local electronic declarations and import procedure."
+      }
+    ],
+    "AS": [
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+        "authority": "U.S. Government Accountability Office",
+        "title": "Customs models used in U.S. territories",
+        "kind": "customs_guidance",
+        "scope": "American Samoa administers its own customs outside the U.S. customs territory. See local import taxes and controls."
+      },
+      {
+        "url": "https://uscode.house.gov/us/usc/t48/s1669/",
+        "authority": "U.S. House Office of the Law Revision Counsel",
+        "title": "48 U.S.C. § 1669",
+        "kind": "official_legislation",
+        "scope": "American Samoa administration and enforcement of customs duties. This provision does not state the local rates."
+      }
+    ],
+    "AW": [
+      {
+        "url": "https://www.douane.aw/wp-content/uploads/2023/07/Tarief-van-invoerrechten-versie-1-augustus-2023.pdf",
+        "authority": "Departamento di Aduana Aruba",
+        "title": "Tarief van Invoerrechten, 1 August 2023",
+        "kind": "official_schedule",
+        "scope": "Aruba has its own customs tariff, outside the EU customs territory. Verify later changes, excise and import taxes separately.",
+        "sourceUrl": "https://www.douane.aw/hoeveel-moet-ik-aan-invoerrechten-en-accijnzen-betalen/"
+      },
+      {
+        "url": "https://www.gobierno.aw/en/import-duties",
+        "authority": "Government of Aruba",
+        "title": "Import duties",
+        "kind": "customs_guidance",
+        "scope": "Aruba applies its own import duties and has its own customs process."
+      }
+    ],
+    "AX": [
+      {
+        "url": "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/international-commerce/value-added-taxation-of-imported-goods/%C3%A5land-islands-tax-border-and-importing-goods/",
+        "authority": "Finnish Tax Administration",
+        "title": "Åland Islands tax border and importing goods",
+        "kind": "customs_authority",
+        "scope": "Åland uses EU customs rules and has a separate VAT and excise border. Confirm the import declaration and Åland tax treatment.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "BL": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Saint-Barthélemy customs and local dock duty",
+        "kind": "customs_guidance",
+        "scope": "Saint-Barthélemy is an EU overseas country or territory outside the EU customs territory. The local dock duty and other local rules apply."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/fiche/vous-voyagez-aux-antilles",
+        "authority": "French Customs",
+        "title": "Vous voyagez aux Antilles",
+        "kind": "customs_guidance",
+        "scope": "Saint Barthélemy is outside the EU customs and tax territory. Check local collection and import treatment."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/particuliers/vous-etes-en-outre-mer/territoires-et-collectivites-doutre-mer/saint-barthelemy-saint",
+        "authority": "French Customs",
+        "title": "Saint-Barthélemy and Saint-Martin",
+        "kind": "customs_authority",
+        "scope": "Saint-Barthélemy is outside the EU customs, VAT and excise territories. Check local import procedures and droit de quai.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "BQ": [
+      {
+        "url": "https://www.belastingdienst-cn.nl/onderwerpen/douanezaken-bedrijven/invoerbelastingen-bedrijven",
+        "authority": "Belastingdienst Caribisch Nederland",
+        "title": "Commercial import taxes and zero customs duty in Caribbean Netherlands",
+        "kind": "customs_guidance",
+        "scope": "Bonaire, Sint Eustatius and Saba set ordinary import duty at 0% for all goods. Customs declarations, ABB and excise can apply. Bonaire and the other two islands have different ABB rates.",
+        "sourceUrl": "https://english.belastingdienst-cn.nl/topics/customs-business/customs-legislation"
+      }
+    ],
+    "BV": [
+      {
+        "url": "https://npolar.no/en/regulations-bouvetoya-nature-reserve/",
+        "authority": "Norwegian Polar Institute",
+        "title": "Regulations for Bouvetøya Nature Reserve",
+        "kind": "customs_guidance",
+        "scope": "Protected area and access permissions. Commercial import rates have not been verified."
+      }
+    ],
+    "CC": [
+      {
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11",
+        "kind": "customs_guidance",
+        "scope": "Cocos (Keeling) Islands has local Customs Ordinance and border reporting. Customs duties are not assessed on goods imported into the islands."
+      }
+    ],
+    "CK": [
+      {
+        "url": "https://www.mfem.gov.ck/post/cook-islands-customs-tariff-hs2022",
+        "authority": "Cook Islands Ministry of Finance and Economic Management",
+        "title": "Cook Islands Customs Tariff HS2022",
+        "kind": "official_schedule",
+        "scope": "National HS 2022 tariff effective 10 December 2025, with links to duty rates and concessions."
+      }
+    ],
+    "CX": [
+      {
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11",
+        "kind": "customs_guidance",
+        "scope": "Christmas Island has local Customs Ordinance and border reporting. Customs duties are not assessed on goods imported into the island."
+      }
+    ],
+    "DM": [
+      {
+        "url": "https://customs.gov.dm/legislation",
+        "authority": "Dominica Customs and Excise Division",
+        "title": "Customs Tariff and Customs Act",
+        "kind": "official_legislation",
+        "scope": "Dominica administers its own customs tariff and import tax rules. Use the national customs tariff tab and official calculator.",
+        "sourceUrl": "https://www.customs.gov.dm/duty-calculator"
+      }
+    ],
+    "EH": [
+      {
+        "url": "https://www.mcinet.gov.ma/sites/default/files/avis%20aux%20imporatteurs.GUERGARATE-1%20Fr.pdf",
+        "authority": "Moroccan Ministry of Industry and Trade",
+        "title": "Guergarate border import controls",
+        "kind": "customs_guidance",
+        "scope": "Operational import procedures at the Moroccan-administered Guergarate crossing only. Western Sahara remains a UN-listed Non-Self-Governing Territory.",
+        "sourceUrl": "https://www.un.org/dppa/decolonization/en/nsgt/western-sahara"
+      },
+      {
+        "url": "https://www.douane.gov.ma/adil/",
+        "authority": "Moroccan Administration of Customs and Indirect Taxes",
+        "title": "ADIL customs tariff search",
+        "kind": "tariff_search",
+        "scope": "Consult for shipments cleared by Moroccan customs at the Moroccan-administered crossing. Confirm the actual entry point and route before applying the tariff.",
+        "sourceUrl": "https://www.mcinet.gov.ma/sites/default/files/avis%20aux%20imporatteurs.GUERGARATE-1%20Fr.pdf"
+      }
+    ],
+    "FK": [
+      {
+        "url": "https://www.gov.fk/customs/wp-content/uploads/sites/8/2026/06/CI-Duty-and-Charges-FY-2026-27-5.pdf",
+        "authority": "Falkland Islands Customs and Immigration Service",
+        "title": "Duty and Charges FY 2026–27",
+        "kind": "official_schedule",
+        "scope": "The local schedule lists dutiable categories and customs charges. Review it together with restrictions and exemptions for the shipment.",
+        "sourceUrl": "https://www.gov.fk/customs/"
+      }
+    ],
+    "FM": [
+      {
+        "url": "https://dofa.gov.fm/dofa-divisions/customs-tax-administration/",
+        "authority": "Federated States of Micronesia Department of Finance and Administration",
+        "title": "Customs & Tax Administration",
+        "kind": "authority",
+        "scope": "National customs authority and import tax information."
+      },
+      {
+        "url": "https://dofa.gov.fm/wp-content/uploads/2021/09/Taxpayer-Services-Booklet.pdf",
+        "authority": "Federated States of Micronesia Department of Finance and Administration",
+        "title": "Taxpayer Services Booklet",
+        "kind": "customs_guidance",
+        "scope": "National import taxes, customs release and taxpayer guidance. Consult current law for rates."
+      }
+    ],
+    "FO": [
+      {
+        "url": "https://voruskra.taks.fo/en/Sections",
+        "authority": "TAKS, Faroe Islands",
+        "title": "Customs Tariff",
+        "kind": "tariff_search",
+        "scope": "Faroese customs and import charge schedule searchable by national tariff code. Faroe Islands have a separate customs and tax regime.",
+        "sourceUrl": "https://www.taks.fo/en/business/customs/customs-tariff"
+      }
+    ],
+    "GD": [
+      {
+        "url": "https://www.grenadacustoms.com/index.php",
+        "authority": "Grenada Customs and Excise Division",
+        "title": "Grenada Customs and ASYCUDA",
+        "kind": "customs_guidance",
+        "scope": "Grenada administers a CARICOM-based national tariff and local VAT, excise and customs charges. Use Grenada’s customs references and declarations for the applied treatment.",
+        "sourceUrl": "https://www.grenadacustoms.com/pdf/Customer%20Service%20Charter.pdf"
+      },
+      {
+        "url": "https://laws.gov.gd/index.php/chapters/c-39a-75d/128-chapter-75c-customs-duties-act",
+        "authority": "Government of Grenada",
+        "title": "Customs Duties Act (Chapter 75C)",
+        "kind": "official_legislation",
+        "scope": "Grenada customs duties legislation. Verify subsequent amendments and local schedule."
+      }
+    ],
+    "GF": [
+      {
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Importer un bien dans un DROM",
+        "kind": "customs_guidance",
+        "scope": "French Guiana is in the EU customs territory. Local octroi de mer rules apply. French customs guidance states VAT is currently inapplicable in French Guiana.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in French Guiana. Check local taxes and controls separately."
+      }
+    ],
+    "GG": [
+      {
+        "url": "https://gems.gov.gg/",
+        "authority": "Guernsey Border Agency",
+        "title": "Customs and Excise",
+        "kind": "customs_authority",
+        "scope": "Guernsey participates in customs arrangements with the UK. Use local Guernsey declaration and excise procedures.",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-agrees-new-customs-arrangements-with-the-crown-dependencies"
+      }
+    ],
+    "GI": [
+      {
+        "url": "https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-agreement-respect-gibraltar_en",
+        "authority": "European Commission",
+        "title": "EU–UK Agreement in respect of Gibraltar",
+        "kind": "official_legislation",
+        "scope": "Provisionally applied from 15 July 2026. For commercial goods designated Spanish customs offices apply EU customs rules on behalf of Gibraltar. Treaty limits preference and quota eligibility.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://www.gibraltarlaws.gov.gi/uploads/legislations/treaty-on-gibraltar/2026-11/2026-11o.pdf",
+        "authority": "Government of Gibraltar",
+        "title": "Treaty on Gibraltar and the European Union Act 2026",
+        "kind": "official_legislation",
+        "scope": "Gibraltar transaction tax, excise and local implementing rules under the treaty."
+      }
+    ],
+    "GL": [
+      {
+        "url": "https://aka.gl/da/erhverv/afgifter/indfoerselsafgift-for-varer",
+        "authority": "Greenland Tax Agency",
+        "title": "Indførselsafgift for varer",
+        "kind": "customs_guidance",
+        "scope": "Greenland is outside the EU customs territory. Greenland imposes import duty on specified categories. Verify current local statutory rates and restrictions.",
+        "sourceUrl": "https://tradeinvest.gl/-/media/invest/trade-guides---english/trade-guide-english-final-1.pdf"
+      }
+    ],
+    "GP": [
+      {
+        "url": "https://www.douane.gouv.fr/professionnels/outre-mer/guadeloupe",
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Guadeloupe customs and local taxes",
+        "kind": "customs_guidance",
+        "scope": "Guadeloupe is in the EU customs territory and outside the EU VAT and excise territory. Local VAT, octroi de mer and regional octroi de mer can apply.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in Guadeloupe. Check local taxes and controls separately."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+        "authority": "French Customs",
+        "title": "Importer un bien dans un DROM",
+        "kind": "customs_authority",
+        "scope": "Guadeloupe is inside EU customs scope and outside EU VAT and excise scope. Check local tax rates and octroi de mer.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "GS": [
+      {
+        "url": "https://laws.gov.gs/wp-content/uploads/2022/05/2016.pdf",
+        "authority": "Government of South Georgia and the South Sandwich Islands",
+        "title": "Customs Ordinance 2016",
+        "kind": "official_legislation",
+        "scope": "The territory has its own customs ordinance. Review the local customs clearance, fees and exemptions policy for ship and cargo movements.",
+        "sourceUrl": "https://gov.gs/wp-content/uploads/2022/10/Customs-Fees-Policy-Post-08-22.pdf"
+      }
+    ],
+    "GU": [
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+        "authority": "U.S. Government Accountability Office",
+        "title": "Guam customs and tariff treatment",
+        "kind": "customs_guidance",
+        "scope": "2026 report describes Guam as a duty-free port outside U.S. customs territory. Guam Customs and Quarantine Agency applies separate use taxes and inspection fees."
+      },
+      {
+        "url": "https://www.gao.gov/assets/gao-26-107811.pdf",
+        "authority": "U.S. Government Accountability Office",
+        "title": "GAO-26-107811 — Guam Customs",
+        "scope": "Duty-free status and separate local use tax and fees.",
+        "kind": "public_trade_guidance"
+      }
+    ],
+    "HM": [
+      {
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11",
+        "kind": "customs_guidance",
+        "scope": "No separate customs legislation or ABF border controls in Heard Island and McDonald Islands. Goods subsequently entering mainland Australia are subject to mainland rules."
+      }
+    ],
+    "IM": [
+      {
+        "url": "https://www.gov.im/categories/tax-vat-and-your-money/customs-and-excise/imports-and-exports/",
+        "authority": "Isle of Man Customs and Excise",
+        "title": "Imports and exports",
+        "kind": "customs_authority",
+        "scope": "Apply the Isle of Man–UK customs arrangement and use the Manx import and tax procedures.",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-agrees-new-customs-arrangements-with-the-crown-dependencies"
+      }
+    ],
+    "IO": [
+      {
+        "url": "https://www.biot.gov.io/wp-content/uploads/The-Imports-Exports-Control-Ord-2009-F.2.pdf",
+        "authority": "British Indian Ocean Territory Administration",
+        "title": "Imports and Exports Control Ordinance 2009",
+        "kind": "official_legislation",
+        "scope": "Customs powers, methods of importation and exportation, and import controls. Consult the administration for authorization and any charges for the actual destination.",
+        "sourceUrl": "https://commonslibrary.parliament.uk/research-briefings/cbp-10512/"
+      }
+    ],
+    "JE": [
+      {
+        "url": "https://www.gov.je/taxesmoney/gst/gstcustomers/pages/declaringpaying.aspx",
+        "authority": "Jersey Customs and Immigration Service",
+        "title": "Paying GST for online shopping and imported goods",
+        "kind": "customs_authority",
+        "scope": "Jersey uses the Common Customs Tariff within the customs arrangement and applies local GST and excise.",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-agrees-new-customs-arrangements-with-the-crown-dependencies"
+      }
+    ],
+    "KI": [
+      {
+        "url": "https://mcic.gov.ki/wp-content/uploads/2018/12/Kiribati-Trade-Policy-Framework.pdf",
+        "authority": "Kiribati Ministry of Commerce, Industry and Cooperatives",
+        "title": "Kiribati Trade Policy Framework",
+        "kind": "customs_guidance",
+        "scope": "Reports the 2014 reform set import duties to zero and introduced VAT and excise. Consult current levy and tax rules separately."
+      },
+      {
+        "url": "https://mfed.gov.ki/node/186",
+        "authority": "Kiribati Ministry of Finance and Economic Development",
+        "title": "Import Levy (Amendment) Regulation 2025",
+        "kind": "official_legislation",
+        "scope": "Recent import levy fund regulation reference. Review current levy treatment alongside the 2014 tariff reform."
+      }
+    ],
+    "KN": [
+      {
+        "url": "https://skncustoms.com/duty-calculator",
+        "authority": "Saint Kitts and Nevis Customs and Excise Department",
+        "title": "Customs Duty Calculator",
+        "kind": "tariff_search",
+        "scope": "Saint Kitts and Nevis applies a CARICOM-based national tariff with local customs service charge, excise and VAT rules. Review the official calculator and applicable relief.",
+        "sourceUrl": "https://tfadatabase.org/en/members/saint-kitts-and-nevis/publication-of-information-for-governments-and-traders"
+      },
+      {
+        "url": "https://www.skncustoms.com/pdfs/SKB%20Import%20Procedures%20%20Final.pdf",
+        "authority": "St Kitts and Nevis Customs & Excise Department",
+        "title": "Import & Export Procedures Manual",
+        "kind": "customs_guidance",
+        "scope": "Local import procedures, authorities and duties guidance."
+      }
+    ],
+    "KP": [
+      {
+        "url": "https://www.meti.go.jp/english/press/2025/0408_001.html",
+        "authority": "Ministry of Economy, Trade and Industry, Japan",
+        "title": "Trade measures and country restrictions",
+        "kind": "public_trade_guidance",
+        "scope": "Export and import controls applicable to Japan-related routes. Destination tariff rates require separate evidence."
+      }
+    ],
+    "KY": [
+      {
+        "url": "https://gov.ky/web/cbc/trade/imports",
+        "authority": "Cayman Islands Customs and Border Control",
+        "title": "Imports and Customs Tariff Act First Schedule",
+        "kind": "customs_guidance",
+        "scope": "Cayman Islands has its own duties. Customs directs importers to the First Schedule of its Customs Tariff Act for codes and rates.",
+        "sourceUrl": "https://gov.ky/web/cbc/publications/legislation/law"
+      },
+      {
+        "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2012/2012-0001/2012-0001.pdf",
+        "authority": "Cayman Islands Legislation",
+        "title": "Customs Tariff Act (2026 Revision)",
+        "kind": "official_schedule",
+        "scope": "Official Cayman Islands tariff act, 2026 revision."
+      }
+    ],
+    "LI": [
+      {
+        "url": "https://www.llv.li/en/individuals/mobility-travel-and-abroad/border-crossing-and-goods-traffic",
+        "authority": "Liechtenstein National Administration",
+        "title": "Border crossing and movement of goods",
+        "kind": "customs_authority",
+        "scope": "Liechtenstein is part of Swiss customs territory. Swiss customs administers import, export and transit clearances, with local EEA procedures where applicable."
+      },
+      {
+        "url": "https://www.bazg.admin.ch/en/tares-free-data-delivery-on-customers-request",
+        "authority": "Swiss Federal Office for Customs and Border Security (FOCBS/BAZG)",
+        "title": "FOCBS Tares tariff rates from 2026-10-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "MC": [
+      {
+        "url": "https://legimonaco.mc/tai/convention/1963/05-18-tai1l000236/",
+        "authority": "Principality of Monaco",
+        "title": "France–Monaco Customs Convention",
+        "kind": "official_legislation",
+        "scope": "Monaco is treated as French territory for customs, VAT and excise purposes in covered transactions.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "MF": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/cas-particuliers-de-lile-de-saint-martin-et-de-lile-de-saint-barthelemy",
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Saint-Martin customs and free-port treatment",
+        "kind": "customs_guidance",
+        "scope": "French Saint-Martin is in the EU customs territory. French Customs describes limited free-port treatment and a local fuel consumption tax. Verify the local exception before applying an EU rate.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in French Saint Martin. Check local taxes and controls separately."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/particuliers/vous-etes-en-outre-mer/territoires-et-collectivites-doutre-mer/saint-barthelemy-saint",
+        "authority": "French Customs",
+        "title": "Saint-Barthélemy and Saint-Martin",
+        "kind": "customs_authority",
+        "scope": "French Saint-Martin is inside EU customs scope and outside EU VAT and excise scope. Separate Saint-Martin from the Dutch Sint Maarten jurisdiction.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "MH": [
+      {
+        "url": "https://mof.gov.mh/department-of-customs/",
+        "authority": "Marshall Islands Ministry of Finance, Banking and Postal Services",
+        "title": "Department of Customs",
+        "kind": "authority",
+        "scope": "National customs authority. Marshall Islands has its own import duties rules."
+      },
+      {
+        "url": "https://rmiparliament.org/cms/images/LEGISLATION/PHOCA/PL_2008_3_Import%20Duties%20Amendment%20Act2008.pdf",
+        "authority": "Nitijela of the Republic of the Marshall Islands",
+        "title": "Import Duties Amendment Act 2008",
+        "kind": "official_legislation",
+        "scope": "Amendment to statutory import duties schedule. Consult subsequent enactments for current rates."
+      }
+    ],
+    "MP": [
+      {
+        "url": "https://dof.gov.mp/cus-import-requirements.php",
+        "authority": "Commonwealth of the Northern Mariana Islands Department of Finance",
+        "title": "Import Requirements",
+        "kind": "customs_guidance",
+        "scope": "CNMI is outside U.S. customs territory and administers local import clearance and excise. Review current import tax rules.",
+        "sourceUrl": "https://files.gao.gov/reports/GAO-26-107811/index.html"
+      }
+    ],
+    "MQ": [
+      {
+        "url": "https://www.douane.gouv.fr/professionnels/outre-mer/martinique",
+        "authority": "Direction générale des douanes et droits indirects",
+        "title": "Martinique customs and local taxes",
+        "kind": "customs_guidance",
+        "scope": "Martinique is in the EU customs territory and outside the EU VAT and excise territory. Local VAT, octroi de mer and regional octroi de mer can apply.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in Martinique. Check local taxes and controls separately."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+        "authority": "French Customs",
+        "title": "Importer un bien dans un DROM",
+        "kind": "customs_authority",
+        "scope": "Martinique is inside EU customs scope and outside EU VAT and excise scope. Check local tax rates and octroi de mer.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "MS": [
+      {
+        "url": "https://mcrs.gov.ms/customs/",
+        "authority": "Montserrat Customs and Revenue Services",
+        "title": "Customs and local tariff codes",
+        "kind": "customs_guidance",
+        "scope": "Montserrat administers local import duty and consumption taxes. Review Montserrat’s published Customs Tariff and cargo clearance process.",
+        "sourceUrl": "https://www.gov.ms/government/ministries/ministry-of-finance-economic-management/montserrat-customs-revenue-services/"
+      },
+      {
+        "url": "https://www.gov.ms/wp-content/uploads/2026/02/17.05-Customs-Duties-and-Consumption-Tax-Act.pdf",
+        "authority": "Government of Montserrat",
+        "title": "Customs Duties and Consumption Tax Act",
+        "kind": "official_legislation",
+        "scope": "Local statutory import duty and consumption tax provisions and tariff schedule."
+      }
+    ],
+    "NC": [
+      {
+        "url": "https://data.gouv.nc/explore/dataset/referentiel-douanier-tarif-douanier-compilation/",
+        "authority": "Government of New Caledonia",
+        "title": "Tarif douanier (compilation)",
+        "kind": "official_schedule",
+        "scope": "Official machine-readable customs tariff compilation. New Caledonia has its own customs taxation regime."
+      },
+      {
+        "url": "https://douane.gouv.nc/node/181",
+        "authority": "New Caledonia Customs Directorate",
+        "title": "Applicable duties and taxes",
+        "kind": "customs_guidance",
+        "scope": "Local customs duties and taxes and links to New Caledonia tariff."
+      }
+    ],
+    "NF": [
+      {
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11",
+        "kind": "customs_guidance",
+        "scope": "Norfolk Island has local Customs Ordinance and border reporting. Customs duties are not assessed on goods imported into the island."
+      }
+    ],
+    "NR": [
+      {
+        "url": "https://ronlaw.gov.nr/assets/docs%2Flaws%2F2024%2FCustoms%20Tariff%20%28Amendment%20of%20Schedule%201%29%20%28Tariff%29%20Regulations%202024.pdf",
+        "authority": "Nauru Online Legal Database",
+        "title": "Customs Tariff Amendment of Schedule 1 Regulations 2024",
+        "kind": "official_legislation",
+        "scope": "Statutory amendments to Nauru customs rates. Consult the current consolidated tariff and later amendments."
+      }
+    ],
+    "NU": [
+      {
+        "url": "https://www.gov.nu/media-releases/customs-clearance-procedures-customs-clearance-procedures-for-imported-goods-effective-1-february-2026",
+        "authority": "Government of Niue",
+        "title": "Customs clearance procedures effective 1 February 2026",
+        "kind": "customs_guidance",
+        "scope": "Niue applies local import clearance under the Customs Act 1966. Consult its legislation for rates and separate consumption tax."
+      },
+      {
+        "url": "https://mof.gov.nu/wp-content/uploads/2025/09/Niue-NCT-Act-2009.pdf",
+        "authority": "Niue Ministry of Finance",
+        "title": "Niue Consumption Tax Act 2009",
+        "kind": "official_legislation",
+        "scope": "Local consumption tax statute including imported goods."
+      }
+    ],
+    "PF": [
+      {
+        "url": "https://www.service-public.pf/douane/professionnels/procedure-de-dedouanement/le-tarif-douanier/",
+        "authority": "French Polynesia Customs",
+        "title": "Le tarif douanier",
+        "kind": "official_schedule",
+        "scope": "French Polynesia has its own customs and tax regime. Official tariff source."
+      }
+    ],
+    "PM": [
+      {
+        "url": "https://www.douane975.fr/dedouanement/",
+        "authority": "Direction des douanes de Saint-Pierre-et-Miquelon",
+        "title": "Dédouanement and local tariff",
+        "kind": "customs_guidance",
+        "scope": "Saint-Pierre-et-Miquelon is outside the EU customs territory. Local declarations, duties and taxes are determined by classification, origin and customs value.",
+        "sourceUrl": "https://www.douane.gouv.fr/professionnels/outre-mer/territoires-et-collectivites-doutre-mer/saint-pierre-et-miquelon"
+      },
+      {
+        "url": "https://www.douane.gouv.fr/professionnels/outre-mer/territoires-et-collectivites-doutre-mer/saint-pierre-et-miquelon",
+        "authority": "French Customs",
+        "title": "Saint-Pierre-et-Miquelon customs",
+        "kind": "customs_authority",
+        "scope": "Check Saint-Pierre-et-Miquelon local import rules outside EU customs, VAT and excise scope.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "PN": [
+      {
+        "url": "https://www.government.pn/laws",
+        "authority": "Government of the Pitcairn Islands",
+        "title": "Laws",
+        "kind": "official_legislation",
+        "scope": "Official territorial law collection. A historical economic report describes no customs duties, but the current ordinary-duty treatment has not been established by this source."
+      }
+    ],
+    "PR": [
+      {
+        "url": "https://hts.usitc.gov/",
+        "authority": "United States International Trade Commission",
+        "title": "Harmonized Tariff Schedule of the United States",
+        "kind": "customs_union_reference",
+        "scope": "Puerto Rico forms part of the United States customs territory under 19 CFR 101.1. US HTS applies to import from abroad. Local tax requirements can be separate.",
+        "sourceUrl": "https://www.ecfr.gov/current/title-19/chapter-I/part-101/section-101.1"
+      },
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+        "authority": "U.S. Government Accountability Office",
+        "title": "Customs models used in U.S. territories",
+        "kind": "customs_union_reference",
+        "scope": "Puerto Rico is part of the U.S. customs territory and applies the U.S. HTS. Local taxes are assessed separately."
+      },
+      {
+        "url": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list",
+        "authority": "USITC",
+        "title": "2026 HTS Revision 23",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "RE": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/loctroi-de-mer-la-reunion",
+        "authority": "France Customs (DGDDI)",
+        "title": "Réunion octroi de mer",
+        "kind": "official_schedule",
+        "scope": "Regional and external octroi de mer tariff references and exemptions. The customs territory is the EU and French local VAT rules apply.",
+        "sourceUrl": "https://www.douane.gouv.fr/professionnels/outre-mer/la-reunion"
+      },
+      {
+        "url": "https://www.douane.gouv.fr/service-en-ligne/tarif-douanier-communautaire-et-national-rita",
+        "authority": "France Customs (DGDDI)",
+        "title": "RITA customs tariff lookup",
+        "kind": "tariff_search",
+        "scope": "Consult EU customs duties and Réunion local taxes through the applicable RITA destination options.",
+        "sourceUrl": "https://www.douane.gouv.fr/fiche/loctroi-de-mer-la-reunion"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in Réunion. Check local taxes and controls separately."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+        "authority": "French Customs",
+        "title": "Importer un bien dans un DROM",
+        "kind": "customs_authority",
+        "scope": "Réunion is inside EU customs scope and outside EU VAT and excise scope. Check local tax rates and octroi de mer.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "SH": [
+      {
+        "url": "https://www.sainthelena.gov.sh/st-helena/government/portfolios/safety-security-and-home-affairs/hm-customs/",
+        "authority": "Saint Helena Government HM Customs",
+        "title": "Saint Helena HM Customs and tariff schedule",
+        "kind": "official_schedule",
+        "scope": "Saint Helena island customs guidance and tariff download. Review local exemptions and later Gazette measures.",
+        "sourceUrl": "https://www.sainthelena.gov.sh/gazette/"
+      },
+      {
+        "url": "https://www.sainthelena.gov.sh/wp-content/uploads/2020/10/Customs-Ordinance-Updated-25-September-2018.pdf",
+        "authority": "Ascension Island Government / Saint Helena Government",
+        "title": "Ascension Customs Ordinance and subsidiary instruments",
+        "kind": "official_legislation",
+        "scope": "Ascension-specific customs legislation, entry forms, exemptions and levies. Check later amendments for the shipment date.",
+        "sourceUrl": "https://www.sainthelena.gov.sh/st-helena/government/legislation/"
+      },
+      {
+        "url": "https://www.sainthelena.gov.sh/documents/Export-Import-Control-TdC-Ordinance.pdf",
+        "authority": "Tristan da Cunha Government / Saint Helena Government",
+        "title": "Tristan da Cunha Export and Import Control Ordinance",
+        "kind": "official_legislation",
+        "scope": "Tristan-specific import and export controls. See the official law library for local statutes and instruments applied from Saint Helena.",
+        "sourceUrl": "https://www.sainthelena.gov.sh/st-helena/government/legislation/laws-of-tristan-da-cunha/"
+      }
+    ],
+    "SJ": [
+      {
+        "url": "https://www.toll.no/en/corporate/import/norwegian-customs-in-svalbard",
+        "authority": "Norwegian Customs",
+        "title": "Norwegian Customs in Svalbard",
+        "kind": "customs_authority",
+        "scope": "Svalbard and Jan Mayen are outside mainland Norway's customs territory. Check applicable territorial procedures and taxes.",
+        "sourceUrl": "https://www.toll.no/en/corporate/export/export-declaration"
+      }
+    ],
+    "SM": [
+      {
+        "url": "https://www.gov.sm/pub2/GovSM/Dipartimenti/Dipartimento-Economia-e-Finanze/Ufficio-Tributario.html",
+        "authority": "San Marino Tax Office",
+        "title": "Ufficio Tributario",
+        "kind": "customs_authority",
+        "scope": "San Marino has a customs union agreement with the EU and uses distinct domestic import tax procedures. Check the scope and exclusions of the agreement.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "SX": [
+      {
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR142349",
+        "authority": "Government of Sint Maarten via Overheid.nl",
+        "title": "Landsverordening tarief van invoerrechten",
+        "kind": "official_legislation",
+        "scope": "Dutch Sint Maarten is outside the EU customs territory. The ordinary import duty is set at zero. A separate ordinance imposes a special import duty on gasoline. Verify current product-specific taxes, exemptions and restrictions.",
+        "sourceUrl": "https://lokaleregelgeving.overheid.nl/CVDR142521/3"
+      },
+      {
+        "url": "https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx",
+        "authority": "Government of Sint Maarten",
+        "title": "Customs",
+        "kind": "customs_guidance",
+        "scope": "The territorial customs authority says its only collected tax is excise on unleaded gasoline. Separate taxes and border controls still apply."
+      },
+      {
+        "url": "https://sintmaartengov.org/Documents/Reports/Report%20on%20SXM%20Business%20Climate%20final%20with%20corrections.pdf",
+        "authority": "Government of Sint Maarten",
+        "title": "Business Climate Report",
+        "scope": "General import duty and gasoline excise discussion.",
+        "kind": "customs_guidance"
+      }
+    ],
+    "TC": [
+      {
+        "url": "https://customs.gov.tc/trf",
+        "authority": "Turks and Caicos Islands Customs Department",
+        "title": "Tariff Finder",
+        "kind": "tariff_search",
+        "scope": "The islands have a separate customs tariff. Search by commodity code or description and verify current exemptions and amendments.",
+        "sourceUrl": "https://www.gov.tc/trade/portal/imports"
+      },
+      {
+        "url": "https://customs.gov.tc/cltr",
+        "authority": "Turks and Caicos Islands Customs Department",
+        "title": "Turks and Caicos Customs",
+        "kind": "authority",
+        "scope": "Local customs and tariff information."
+      }
+    ],
+    "TF": [
+      {
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071570/LEGISCTA000053808277/2026-05-01",
+        "authority": "French Republic / Légifrance",
+        "title": "Customs Code, Title VIII for the French Southern and Antarctic Lands",
+        "kind": "official_legislation",
+        "scope": "Dedicated customs territory and procedures for the TAAF. Confirm the district and entry authorization with the TAAF administration.",
+        "sourceUrl": "https://taaf.fr/nous-contacter/"
+      }
+    ],
+    "TK": [
+      {
+        "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1991/4/en/latest/",
+        "authority": "New Zealand Parliamentary Counsel Office",
+        "title": "Tokelau Customs Regulations 1991",
+        "kind": "official_legislation",
+        "scope": "Tokelau-specific customs rules on import and export. Check permits and any current charges."
+      }
+    ],
+    "TV": [
+      {
+        "url": "https://tuvalu.tradeportal.org/media/CustomsRevenueandBorderProtectionAct2014_1.pdf",
+        "authority": "Government of Tuvalu Trade Portal",
+        "title": "Customs Revenue and Border Protection Act 2014",
+        "kind": "official_legislation",
+        "scope": "The statutory Schedule 1 is the Customs Tariff of Tuvalu. Check orders and later amendments before applying rates."
+      }
+    ],
+    "TW": [
+      {
+        "url": "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93361_1207",
+        "authority": "Customs Administration, Ministry of Finance",
+        "title": "Tariff and duty rate lookup",
+        "kind": "tariff_search",
+        "scope": "Official Taiwan Customs lookup for national tariff codes and import duty rates."
+      },
+      {
+        "url": "https://data.gov.tw/dataset/80871",
+        "authority": "Customs Administration, Ministry of Finance, Taiwan",
+        "title": "Taiwan Customs CCC CSV",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "UM": [
+      {
+        "url": "https://public-inspection.federalregister.gov/2026-15420.pdf",
+        "authority": "U.S. Federal Register",
+        "title": "Customs treatment of U.S. insular possessions",
+        "kind": "official_legislation",
+        "scope": "US customs territory comprises the fifty states, District of Columbia and Puerto Rico. This ISO grouping contains multiple islands. Determine the actual island before using any territorial rule."
+      }
+    ],
+    "VA": [
+      {
+        "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+2&codiceOrdinamento=200000200000000&id=%7B442FDF84-CF15-4F73-9BA4-4CA474515FCD%7D",
+        "authority": "Italian Ministry of Economy and Finance",
+        "title": "Vatican customs convention, Article 2",
+        "kind": "official_legislation",
+        "scope": "Vatican City is outside EU customs, VAT and excise territories. The bilateral convention applies to qualifying official consignments under its own conditions.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ],
+    "VG": [
+      {
+        "url": "https://laws.gov.vg/laws/customs-management-and-duties-act-2010",
+        "authority": "British Virgin Islands Virgin Islands Laws Online",
+        "title": "Customs Management and Duties Act and Schedule 4",
+        "kind": "official_legislation",
+        "scope": "The British Virgin Islands administer a separate tariff under Schedule 4. Review recent amending orders and applicable valuation changes.",
+        "sourceUrl": "https://laws.gov.vg/index.php/laws/si-no-25-2026-customs-management-and-duties-amendment-schedule-4-no-2-order-2026"
+      },
+      {
+        "url": "https://bvi.gov.vg/sites/default/files/resources/No.%2013%20of%202011-Customs%20Management%20and%20Duties%20%28Amendment%29%20Act%202011.pdf",
+        "authority": "Government of the Virgin Islands",
+        "title": "Customs Management and Duties Amendment Act 2011",
+        "kind": "official_legislation",
+        "scope": "Local statutory amendment. Review current duties and subsequent enactments."
+      }
+    ],
+    "VI": [
+      {
+        "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+        "authority": "United States Government Accountability Office",
+        "title": "Customs jurisdiction of the US Virgin Islands",
+        "kind": "customs_guidance",
+        "scope": "The US Virgin Islands are outside the US customs territory. The local government imposes its own tariff and CBP administers customs under agreement. Local excise rules also apply.",
+        "sourceUrl": "https://bir.vi.gov/article/bir-reminds-taxpayers-of-excise-tax-collections"
+      }
+    ],
+    "WF": [
+      {
+        "url": "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-douanieres",
+        "authority": "Wallis and Futuna State and Territorial Services",
+        "title": "Formalités douanières",
+        "kind": "customs_guidance",
+        "scope": "Local declaration and import taxes. Consult territorial customs for the current applicable tariff."
+      }
+    ],
+    "YT": [
+      {
+        "url": "https://www.douane.gouv.fr/fiche/vos-echanges-commerciaux-avec-mayotte",
+        "authority": "France Customs (DGDDI)",
+        "title": "Commercial shipments with Mayotte",
+        "kind": "customs_guidance",
+        "scope": "EU customs rules and Mayotte octroi de mer apply. French Customs states that VAT is inapplicable in Mayotte.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      },
+      {
+        "url": "https://www.douane.gouv.fr/service-en-ligne/tarif-douanier-communautaire-et-national-rita",
+        "authority": "France Customs (DGDDI)",
+        "title": "RITA customs tariff lookup",
+        "kind": "tariff_search",
+        "scope": "Look up EU customs duties and review Mayotte-specific local taxation and exemptions.",
+        "sourceUrl": "https://www.douane.gouv.fr/fiche/vos-echanges-commerciaux-avec-mayotte"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en",
+        "authority": "European Commission",
+        "title": "Territorial scope of EU customs, VAT and excise",
+        "kind": "customs_union_reference",
+        "scope": "EU customs rules apply in Mayotte. Check local taxes and controls separately."
+      },
+      {
+        "url": "https://www.douane.gouv.fr/demarche/importer-un-bien-dans-un-drom",
+        "authority": "French Customs",
+        "title": "Importer un bien dans un DROM",
+        "kind": "customs_authority",
+        "scope": "Mayotte is inside EU customs scope and outside EU VAT and excise scope. Check octroi de mer and local procedures.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en"
+      }
+    ]
+  },
+  "generalDutyPolicies": [
+    {
+      "destinationCountry": "BQ",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "ボネール、シント・ユースタティウス、サバの通常輸入関税は全品目0%。",
+      "otherChargesAndControls": "一般支出税（ABB）、物品税、申告の条件は仕向島と品目によって異なります。",
+      "sources": [
+        {
+          "url": "https://www.belastingdienst-cn.nl/onderwerpen/douanezaken-bedrijven/invoerbelastingen-bedrijven",
+          "authority": "Belastingdienst Caribisch Nederland",
+          "title": "Invoerbelastingen bedrijven",
+          "scope": "All-goods zero ordinary duty and separate ABB and excise.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "CC",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-13",
+      "scope": "ココス（キーリング）諸島に輸入される貨物の通常関税は0%。",
+      "otherChargesAndControls": "島ごとの申告、輸入規制、オーストラリア本土へ移動する場合の手続と税を確認します。",
+      "sources": [
+        {
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "scope": "Duty treatment and customs procedures for Australian external territories.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "CX",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-13",
+      "scope": "クリスマス島に輸入される貨物の通常関税は0%。",
+      "otherChargesAndControls": "島ごとの申告、輸入規制、オーストラリア本土へ移動する場合の手続と税を確認します。",
+      "sources": [
+        {
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "scope": "Duty treatment and customs procedures for Australian external territories.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "GU",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "グアム港の通常輸入関税は0%。",
+      "otherChargesAndControls": "現地の使用税や料金、グアム税関・検疫庁の輸入手続を確認します。",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/gao-26-107811.pdf",
+          "authority": "U.S. Government Accountability Office",
+          "title": "GAO-26-107811 — Guam Customs",
+          "scope": "Duty-free status and separate local use tax and fees.",
+          "kind": "public_trade_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "HK",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "香港への通常輸入関税は0%。",
+      "otherChargesAndControls": "酒類、たばこ、炭化水素油、メチルアルコールの物品税や、申告、許可・規制を確認します。",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/",
+          "authority": "Hong Kong Customs and Excise Department",
+          "title": "Cargo Clearance",
+          "scope": "Free-port general duty, excise and cargo controls.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "MO",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "マカオへの通常輸入関税は0%。法令による例外は個別確認が必要です。",
+      "otherChargesAndControls": "指定の酒類・たばこの消費税、輸入許可と検疫が該当する場合があります。",
+      "sources": [
+        {
+          "url": "https://www.ipim.gov.mo/en/invest-here/foreign-trade",
+          "authority": "Macao Commerce and Investment Promotion Institute",
+          "title": "Foreign Trade",
+          "scope": "Free-port general duty, consumption tax and customs clearance.",
+          "kind": "customs_guidance"
+        },
+        {
+          "url": "https://www.gov.mo/en/services/ps-1331/ps-1331a/",
+          "authority": "Financial Services Bureau, Macao SAR",
+          "title": "Payment of Consumption Tax",
+          "scope": "Consumption tax on covered goods entering the territory.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "NF",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-13",
+      "scope": "ノーフォーク島に輸入される貨物の通常関税は0%。",
+      "otherChargesAndControls": "島ごとの申告、輸入規制、オーストラリア本土へ移動する場合の手続と税を確認します。",
+      "sources": [
+        {
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "scope": "Duty treatment and customs procedures for Australian external territories.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "PW",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-12",
+      "scope": "パラオの通常輸入税はTitle 40 §1301に基づく0%。",
+      "otherChargesAndControls": "課税対象輸入にはPGSTが適用されます。物品税、免税条件と評価額は別途確認します。",
+      "sources": [
+        {
+          "url": "https://www.palaulaw.gov.pw/view/recsEBwJfyb2r7jaF?source=documents",
+          "authority": "Palau National Code Commission",
+          "title": "Title 40 — Revenue and Taxation",
+          "scope": "Ordinary import tax, PGST and taxable import exemptions.",
+          "kind": "official_legislation"
+        },
+        {
+          "url": "https://www.palaulaw.gov.pw/rppl-12th-oek",
+          "authority": "Palau National Code Commission",
+          "title": "Public Laws of the 12th Olbiil Era Kelulau",
+          "scope": "Subsequent enacted laws checked through RPPL 12-10; RPPL 12-9 amends distribution of alcohol tax receipts.",
+          "kind": "official_legislation"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "SG",
+      "treatment": "most_goods_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "シンガポールでは関税・物品税の指定品目以外は通常の関税がかかりません。",
+      "otherChargesAndControls": "酒類、たばこ、自動車、石油製品・バイオディーゼル混合物は該当する関税・物品税を確認します。輸入GSTと申告・許可も確認します。",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/import-procedures-overview/",
+          "authority": "Singapore Customs",
+          "title": "Import Procedures Overview",
+          "scope": "Dutiable goods, GST and import permit procedures.",
+          "kind": "customs_guidance"
+        }
+      ]
+    },
+    {
+      "destinationCountry": "SJ",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "スヴァールバル税関領域への輸入には通常関税がかかりません。",
+      "otherChargesAndControls": "この資料の対象はスヴァールバルです。貨物の申告、禁止・規制、ノルウェー本土への再輸入を確認します。",
+      "sources": [
+        {
+          "url": "https://www.toll.no/en/corporate/import/norwegian-customs-in-svalbard",
+          "authority": "Norwegian Customs",
+          "title": "Norwegian Customs in Svalbard",
+          "scope": "Svalbard customs territory, duty-free imports and declarations.",
+          "kind": "customs_guidance"
+        }
+      ],
+      "customsTerritory": "SVALBARD"
+    },
+    {
+      "destinationCountry": "SX",
+      "treatment": "general_zero",
+      "availableFrom": "2026-11-11",
+      "availableThrough": "2026-11-11",
+      "scope": "オランダ側シント・マールテンの通常輸入関税は0%。",
+      "otherChargesAndControls": "無鉛ガソリンの物品税と、輸入許可・検査の条件を確認します。",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR142349",
+          "authority": "Government of Sint Maarten",
+          "title": "Invoertarievenbesluit",
+          "scope": "Article 2 provides the general import duty rule.",
+          "kind": "official_legislation"
+        },
+        {
+          "url": "https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx",
+          "authority": "Government of Sint Maarten Customs",
+          "title": "Customs",
+          "scope": "Import controls and local excise treatment.",
+          "kind": "customs_guidance"
+        },
+        {
+          "url": "https://sintmaartengov.org/Documents/Reports/Report%20on%20SXM%20Business%20Climate%20final%20with%20corrections.pdf",
+          "authority": "Government of Sint Maarten",
+          "title": "Business Climate Report",
+          "scope": "General import duty and gasoline excise discussion.",
+          "kind": "customs_guidance"
+        }
+      ]
+    }
+  ]
+}
