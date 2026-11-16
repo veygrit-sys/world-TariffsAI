@@ -1,0 +1,761 @@
+[
+  {
+    "id": "au_bicon_conditions",
+    "countries": [
+      "AU"
+    ],
+    "category": "biosecurity",
+    "titleJa": "豪州本土の輸入条件と検疫",
+    "submissionJa": "DAFFのBICONで品目・原産地・輸入条件を照会し、必要に応じて許可を申請する。",
+    "conditionJa": "食品、植物、動物などは品目・原産地・用途で許可や証明が異なる。梱包やコンテナの条件も確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "PHYTOSANITARY_CERTIFICATE",
+      "VETERINARY_HEALTH_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "BICON Biosecurity Import Conditions",
+        "url": "https://www.agriculture.gov.au/import/online-services/bicon"
+      },
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "Minimum documentary and import declaration requirements",
+        "url": "https://www.agriculture.gov.au/import/arrival/clearance-inspection/documentary-requirements/minimum-document-requirements-policy"
+      }
+    ]
+  },
+  {
+    "id": "au_sea_packing",
+    "countries": [
+      "AU"
+    ],
+    "category": "documents",
+    "titleJa": "豪州海上コンテナの梱包申告",
+    "submissionJa": "荷詰めした事業者または立会事業者の申告書を用意し、輸入申告の書類要件に照らして提出する。",
+    "conditionJa": "海上コンテナの場合。FCL・LCL、梱包材、コンテナ清浄性で記載事項が異なる。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transports": [
+        "sea"
+      ]
+    },
+    "documents": [
+      "PACKING_DECLARATION"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "Minimum documentary and import declaration requirements",
+        "url": "https://www.agriculture.gov.au/import/arrival/clearance-inspection/documentary-requirements/minimum-document-requirements-policy"
+      },
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "Packing declaration fact sheet",
+        "url": "https://www.agriculture.gov.au/sites/default/files/documents/packing-declaration-fact-sheet.pdf"
+      }
+    ]
+  },
+  {
+    "id": "au_indian_ocean_islands",
+    "countries": [
+      "CC",
+      "CX"
+    ],
+    "category": "territory",
+    "titleJa": "ココス諸島・クリスマス島の税関領域と検疫",
+    "submissionJa": "DAFFのインド洋諸島向け条件を照会する。輸入許可が必要な貨物は発送前に手配する。",
+    "conditionJa": "島ごとの検疫条件を確認する。豪州本土発でも島向けの検疫があり、通関と船舶・コンテナの受付条件は島の窓口に確認する。",
+    "requirement": "authority_review",
+    "appliesWhen": {},
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "PACKING_DECLARATION"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "Indian Ocean Territories of Christmas Island and Cocos (Keeling) Islands",
+        "url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/iot"
+      },
+      {
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11, Australian external territories",
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+      }
+    ]
+  },
+  {
+    "id": "au_norfolk_conditions",
+    "countries": [
+      "NF"
+    ],
+    "category": "territory",
+    "titleJa": "ノーフォーク島向け貨物・植物検疫",
+    "submissionJa": "BICONで輸入先にNorfolk Islandを指定し、当局が案内する許可・検査条件を照会する。",
+    "conditionJa": "生鮮園芸品は許可が必要な場合があり、豪州本土由来の一部品目には別条件がある。",
+    "requirement": "authority_review",
+    "appliesWhen": {},
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "PHYTOSANITARY_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11, Australian external territories",
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+      },
+      {
+        "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+        "title": "Norfolk Island plant biosecurity import conditions",
+        "url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/norfolk-island-produce"
+      }
+    ]
+  },
+  {
+    "id": "au_himi_access",
+    "countries": [
+      "HM"
+    ],
+    "category": "territory",
+    "titleJa": "ハード島・マクドナルド諸島の保護区域",
+    "submissionJa": "Australian Antarctic DivisionのHIMI環境承認申請を、出発予定の少なくとも5か月前までに提出する案内を確認する。",
+    "conditionJa": "島と海洋保護区の活動は環境承認と区域別の条件が対象。通常貨物の受付は個別照会。",
+    "requirement": "authority_review",
+    "appliesWhen": {},
+    "documents": [],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Australian Border Force",
+        "title": "Australian Customs Notice 2026/11, Australian external territories",
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+      },
+      {
+        "authority": "Australian Antarctic Division",
+        "title": "Heard Island and McDonald Islands permits",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/protection-and-management/permits/"
+      }
+    ]
+  },
+  {
+    "id": "nz_tsw_import",
+    "countries": [
+      "NZ"
+    ],
+    "category": "documents",
+    "titleJa": "ニュージーランドの商業貨物の電子申告",
+    "submissionJa": "輸入者または代理人がTrade Single Window（TSW）に申告する。",
+    "conditionJa": "商業貨物は品目・価額・手続に応じて申告様式とコード登録を確認する。NZD 1,000超の商業輸入は税関案内のクライアント・供給者コードを確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transactions": [
+        "b2b_sale",
+        "b2c_sale"
+      ]
+    },
+    "documents": [
+      "IMPORT_DECLARATION",
+      "COMMERCIAL_INVOICE",
+      "TRANSPORT_DOCUMENT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "Register as a commercial importer, TSW and lodgements",
+        "url": "https://www.customs.govt.nz/business/import/start-importing/register-as-a-commercial-importer"
+      }
+    ]
+  },
+  {
+    "id": "nz_sea_container_bacc",
+    "countries": [
+      "NZ"
+    ],
+    "category": "biosecurity",
+    "titleJa": "ニュージーランドの海上コンテナ検疫申告",
+    "submissionJa": "輸入者または通関業者がTSWに申告し、MPIにBiosecurity Authority Clearance Certificate（BACC）を申請する。",
+    "conditionJa": "海上コンテナの場合は梱包・輸出施設の責任者が署名した検疫申告を添える。バルク貨物は該当条件を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transports": [
+        "sea"
+      ]
+    },
+    "documents": [
+      "QUARANTINE_DECLARATION",
+      "BIOSECURITY_CLEARANCE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "Register as a commercial importer, TSW and lodgements",
+        "url": "https://www.customs.govt.nz/business/import/start-importing/register-as-a-commercial-importer"
+      },
+      {
+        "authority": "New Zealand Ministry for Primary Industries",
+        "title": "Steps to importing containers and cargo",
+        "url": "https://www.mpi.govt.nz/import/border-clearance/containers-and-cargo-border-clearance/steps-to-importing-containers-and-cargo"
+      }
+    ]
+  },
+  {
+    "id": "nz_health_standards",
+    "countries": [
+      "NZ"
+    ],
+    "category": "biosecurity",
+    "titleJa": "ニュージーランドの輸入衛生基準",
+    "submissionJa": "MPIの品目別Import Health Standard（IHS）と必要な許可・証明を確認する。",
+    "conditionJa": "食品・植物・動物等のリスク貨物はIHSと原産地別条件を照合する。販売用食品には食品安全の追加条件がある。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "food",
+        "plant",
+        "animal"
+      ]
+    },
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "PHYTOSANITARY_CERTIFICATE",
+      "VETERINARY_HEALTH_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "New Zealand Ministry for Primary Industries",
+        "title": "Import health standards",
+        "url": "https://www.mpi.govt.nz/import/importing-into-nz-how-it-works/import-health-standards"
+      }
+    ]
+  },
+  {
+    "id": "gcc_entry_and_local_exceptions",
+    "countries": [
+      "AE",
+      "BH",
+      "KW",
+      "OM",
+      "QA",
+      "SA"
+    ],
+    "category": "territory",
+    "titleJa": "GCCの最初の輸入地点と仕向国の例外",
+    "submissionJa": "最初の入域国の税関で申告・検査・納税を行う手続と、最終仕向国の規制・検疫を照会する。",
+    "conditionJa": "域内転送では元の輸入申告や納税証憑を確認する。禁止・制限品、植物・動物検疫、免税・原産地条件は仕向国・通過国で確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "IMPORT_DECLARATION",
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "UAE Federal Authority for Identity, Citizenship, Customs & Port Security",
+        "title": "Customs Union for GCC States",
+        "url": "https://icp.gov.ae/en/customs-union-for-gcc/"
+      }
+    ]
+  },
+  {
+    "id": "sacu_circulation_and_controls",
+    "countries": [
+      "BW",
+      "LS",
+      "NA",
+      "SZ",
+      "ZA"
+    ],
+    "category": "territory",
+    "titleJa": "SACU域内移動と輸入許可",
+    "submissionJa": "仕向国税関に貨物の原産地・域内流通・域外からの輸入済み記録を確認する。",
+    "conditionJa": "SACU協定18～19条の共通領域の扱いを照合する。国内法による保健・動植物・環境等の制限は別途確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "ORIGIN_EVIDENCE",
+      "IMPORT_DECLARATION",
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Southern African Customs Union",
+        "title": "SACU Agreement, Articles 18–19",
+        "url": "https://www.sacu.int/uploads/documents/6a7ae39b41cba945b083e93a2e1a103d7cee629c.pdf"
+      }
+    ]
+  },
+  {
+    "id": "sa_fasah_import",
+    "countries": [
+      "SA"
+    ],
+    "category": "documents",
+    "titleJa": "サウジアラビアのFasah輸入申告",
+    "submissionJa": "Fasahで輸入申告を作成し、税関の要求書類を通関業者と確認する。",
+    "conditionJa": "商業貨物のインボイス、運送書類、原産地・認証の条件は品目と申告方式で確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transactions": [
+        "b2b_sale",
+        "b2c_sale"
+      ]
+    },
+    "documents": [
+      "COMMERCIAL_INVOICE",
+      "TRANSPORT_DOCUMENT",
+      "IMPORT_DECLARATION"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Saudi ZATCA",
+        "title": "Import instructions for businesses",
+        "url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/customs-bussiness/import-pages/Import-Instructions.aspx"
+      }
+    ]
+  },
+  {
+    "id": "sa_sfda_food",
+    "countries": [
+      "SA"
+    ],
+    "category": "import_permit",
+    "titleJa": "サウジアラビアの販売用食品の輸入審査",
+    "submissionJa": "SFDAのGhadで該当する事業者・品目登録を確認し、Fasahで貨物の食品通関を手配する。",
+    "conditionJa": "販売用食品が対象。食品の種類に応じ、インボイス、証明書、対象施設の登録・承認を照合する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "food"
+      ],
+      "transactions": [
+        "b2b_sale",
+        "b2c_sale"
+      ]
+    },
+    "documents": [
+      "COMMERCIAL_INVOICE",
+      "PRODUCT_COMPLIANCE_CERTIFICATE",
+      "VETERINARY_HEALTH_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Saudi Food and Drug Authority",
+        "title": "Conditions and Requirements for Food Clearance",
+        "url": "https://www.sfda.gov.sa/sites/default/files/2025-04/ConditionsRequirementsFoodClearanceE.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ae_dubai_declaration",
+    "countries": [
+      "AE"
+    ],
+    "category": "documents",
+    "titleJa": "ドバイでの貨物輸入申告",
+    "submissionJa": "ドバイ税関の電子手続を使用する場合、申告区分に対応するサービスを選び、許可・書類を提出する。",
+    "conditionJa": "ドバイ税関での通関を対象とする。他の首長国やフリーゾーンから域内に移す場合は別窓口・手続を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "COMMERCIAL_INVOICE",
+      "TRANSPORT_DOCUMENT",
+      "PACKING_LIST",
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Dubai Customs",
+        "title": "Dubai Customs Service Guide",
+        "url": "https://www.dubaicustoms.gov.ae/en/OpenData/Publications/DubaiCustomsServiceGuide2025_V09.pdf"
+      }
+    ]
+  },
+  {
+    "id": "za_itac_petroleum",
+    "countries": [
+      "ZA"
+    ],
+    "category": "import_permit",
+    "titleJa": "南アフリカの指定石油製品のITAC輸入許可",
+    "submissionJa": "ITACの輸入許可を取得し、SARSの輸入申告で許可情報を確認する。",
+    "conditionJa": "SARSの2026年3月4日更新で示された南アフリカの品目番号に適用。HS6だけの場合は対象の8桁分類を確認する。",
+    "requirement": "document_required",
+    "appliesWhen": {
+      "tariffCodes": [
+        "27101907",
+        "27101909",
+        "27101915",
+        "27101926",
+        "27101930",
+        "27101935",
+        "27101937",
+        "27101939",
+        "27101945",
+        "27101947",
+        "27101949",
+        "27101952",
+        "27101955",
+        "27101957",
+        "27101960",
+        "27101970",
+        "27101980",
+        "27101990"
+      ]
+    },
+    "documents": [
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "South African Revenue Service",
+        "title": "Prohibited and restricted imports update, 4 March 2026",
+        "url": "https://www.sars.gov.za/latest-news/updated-prohibited-and-restricted-imports-and-exports-list-14/"
+      }
+    ]
+  },
+  {
+    "id": "ke_kephis_plant_import",
+    "countries": [
+      "KE"
+    ],
+    "category": "biosecurity",
+    "titleJa": "ケニアの植物・植物製品の輸入許可",
+    "submissionJa": "ケニア植物衛生検査局（KEPHIS）の輸出入証明システムで、貨物に該当する植物輸入許可を出荷前に申請する。",
+    "conditionJa": "植物・植物製品・その他の規制品は品種、原産地、用途をもとに検疫条件を照合する。対象貨物は出荷前に植物輸入許可を取得し、許可条件に応じて輸出国の植物検疫証明を添付する。播種用種子は種子輸入許可や輸入者登録も確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "plant"
+      ]
+    },
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "PHYTOSANITARY_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Kenya Plant Health Inspectorate Service",
+        "title": "Seed Import and plant quarantine",
+        "url": "https://kephis.go.ke/seed-import"
+      },
+      {
+        "authority": "Kenya Plant Health Inspectorate Service",
+        "title": "Seed Certification Services",
+        "url": "https://kephis.go.ke/seed-certification-services"
+      },
+      {
+        "authority": "Kenya Trade Network Agency",
+        "title": "Integrated Export Import Certification System",
+        "url": "https://infotradekenya.go.ke/procedure/2571/step/5189"
+      }
+    ]
+  },
+  {
+    "id": "eg_nafeza_air_aci",
+    "countries": [
+      "EG"
+    ],
+    "category": "documents",
+    "titleJa": "エジプトの航空貨物事前情報登録（ACI）",
+    "submissionJa": "輸入者がNafezaで事前登録を行い、取得したACIDを輸出者・運送事業者に伝えて貨物書類と照合する。",
+    "conditionJa": "航空貨物ACIは2026年1月1日に義務化された。貨物区分や受付例外を照合し、対象となる場合は航空機への積込み前にACIDを取得し、商業書類と航空運送状への記載を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transports": [
+        "air"
+      ]
+    },
+    "documents": [
+      "COMMERCIAL_INVOICE",
+      "TRANSPORT_DOCUMENT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Ministry of Finance, Egypt",
+        "title": "Mandatory air cargo ACI rollout",
+        "url": "https://mof.gov.eg/en/media/press-releases/finance-minister-with-mandatory-air-cargo-aci-rollout-starting-tomorrow"
+      },
+      {
+        "authority": "Nafeza, Egypt",
+        "title": "Advance Cargo Information cycle for air cargo",
+        "url": "https://www.nafeza.gov.eg/web/m/docs-7442175c9c80264cbb76d7b4c8484a2622478bc9a3e7e8f327cee238.pdf?down="
+      }
+    ]
+  },
+  {
+    "id": "ci_guce_fdi",
+    "countries": [
+      "CI"
+    ],
+    "category": "import_permit",
+    "titleJa": "コートジボワールの輸入申告票（FDI）と事前許可",
+    "submissionJa": "GUCEで見積送り状をもとに取引情報（DVT）を登録し、対象取引のFDIを取得する。",
+    "conditionJa": "GUCEの一般案内ではFOB価額が50万CFAフラン以上の商業輸入がFDIの対象となる。品目別の適用条件を照合し、GUCEが事前許可待ちと表示する対象品では、商業所管省の承認前に品目別輸入ライセンスを取得する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Guichet unique du commerce extérieur de Côte d’Ivoire",
+        "title": "Conditions pour une FDI",
+        "url": "https://support.guce.gouv.ci/portal/fr/kb/articles/condition-pour-une-fdi"
+      },
+      {
+        "authority": "Guichet unique du commerce extérieur de Côte d’Ivoire",
+        "title": "FDI — ce qu’il faut savoir",
+        "url": "https://support.guce.gouv.ci/portal/fr/kb/articles/fdi-ce-qu-il-faut-savoir-8-9-2026"
+      }
+    ]
+  },
+  {
+    "id": "ma_portnet_import_title",
+    "countries": [
+      "MA"
+    ],
+    "category": "import_permit",
+    "titleJa": "モロッコのPortNet輸入ライセンス",
+    "submissionJa": "品目に対応する手続をPortNetで選ぶ。許可対象品は輸入ライセンスを入力し、所管省の承認に回す。",
+    "conditionJa": "品目と適用法令を確認し、自由輸入品には輸入確約、許可対象品には輸入ライセンスを用いる。追加の技術管理や支払形態に関する手続は貨物ごとに照合する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {},
+    "documents": [
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "PortNet, Morocco",
+        "title": "Gestion des titres d’importation",
+        "url": "https://www.portnet.ma/titre-d-importation"
+      }
+    ]
+  },
+  {
+    "id": "fj_asycuda_commercial_documents",
+    "countries": [
+      "FJ"
+    ],
+    "category": "documents",
+    "titleJa": "フィジーの海上・航空商業貨物の輸入申告",
+    "submissionJa": "初回登録と運送業者による搬入マニフェスト登録を確認し、輸入者または指定通関業者がFRCSのASYCUDA WorldにSADを提出する。",
+    "conditionJa": "FRCSの標準貨物手順。申告前に商業インボイス、梱包明細、船荷証券または航空運送状を照合する。対象品の許可、検査指示、納付および搬出許可を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transports": [
+        "air",
+        "sea"
+      ],
+      "transactions": [
+        "b2b_sale",
+        "b2c_sale"
+      ]
+    },
+    "documents": [
+      "IMPORT_DECLARATION",
+      "COMMERCIAL_INVOICE",
+      "PACKING_LIST",
+      "TRANSPORT_DOCUMENT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Fiji Revenue and Customs Service",
+        "title": "Import procedure",
+        "url": "https://frcs.org.fj/our-services/customs/trade-business/importers/import-procedure/"
+      },
+      {
+        "authority": "Fiji Government Trade Portal",
+        "title": "Registering the customs declaration",
+        "url": "https://fijitradeportal.gov.fj/en-gb/super-process/step-detail?id=14"
+      }
+    ]
+  },
+  {
+    "id": "fj_baf_animal_plant_conditions",
+    "countries": [
+      "FJ"
+    ],
+    "category": "biosecurity",
+    "titleJa": "フィジーの動植物と関連製品の輸入許可確認",
+    "submissionJa": "Biosecurity Authority of Fijiの様式から、生きた動物、動物製品、植物・植物製品に対応する様式を選び、BAFの許可窓口に提出方法を確認する。",
+    "conditionJa": "品目、加工状態、原産地・輸出国によって許可、衛生証明、検査の条件を確認する。食品は動植物由来の原材料が対象になるかを照会する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "animal",
+        "plant",
+        "food"
+      ]
+    },
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT",
+      "VETERINARY_HEALTH_CERTIFICATE",
+      "PHYTOSANITARY_CERTIFICATE"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Biosecurity Authority of Fiji",
+        "title": "Application forms",
+        "url": "https://www.baf.com.fj/download-forms/"
+      },
+      {
+        "authority": "Biosecurity Authority of Fiji",
+        "title": "Animals and animal products",
+        "url": "https://www.baf.com.fj/animals-and-animal-products/"
+      },
+      {
+        "authority": "Biosecurity Authority of Fiji",
+        "title": "Permit application system",
+        "url": "https://permit.baf.com.fj/"
+      }
+    ]
+  },
+  {
+    "id": "vu_port_vila_luganville_sad",
+    "countries": [
+      "VU"
+    ],
+    "category": "documents",
+    "titleJa": "バヌアツのポートビラ・ルガンビルの輸入申告",
+    "submissionJa": "対象港の通関業者がASYCUDA Worldに該当する輸入手続のSADを提出する。",
+    "conditionJa": "税関の通関業者向け手順はポートビラ・ルガンビルが対象。商業インボイス、船荷証券または航空運送状、送金・契約・保険資料、対象品の許可を確認する。黄・赤の審査区分は追加指示を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "transports": [
+        "air",
+        "sea"
+      ],
+      "transactions": [
+        "b2b_sale",
+        "b2c_sale"
+      ]
+    },
+    "documents": [
+      "IMPORT_DECLARATION",
+      "COMMERCIAL_INVOICE",
+      "TRANSPORT_DOCUMENT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Vanuatu Customs and Inland Revenue",
+        "title": "SAD import clearance procedure for brokers",
+        "url": "https://vanuatucustoms.gov.vu/images/ASYCUDA/AWorld/SOP/SOP_Imports_External.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vu_plant_animal_biosecurity_permit",
+    "countries": [
+      "VU"
+    ],
+    "category": "import_permit",
+    "titleJa": "バヌアツの動植物・食品のバイオセキュリティ許可",
+    "submissionJa": "品目名、原産国、到着日、経由地、供給者を確認し、Biosecurity VanuatuにSPS様式を使った電子申請手順を照会する。必要な許可は発送前に取得する。",
+    "conditionJa": "承認国からの承認済み動物製品が5kgを超える場合は商業輸入許可が必要。商業輸入できる生きた動物は対象種が限られ、許可が必要。植物輸入マニュアル掲載品は輸入許可が必要。原産国、品目、重量と各許可の条件を照合する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "animal",
+        "plant",
+        "food"
+      ]
+    },
+    "documents": [
+      "BIOSECURITY_IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "Biosecurity Vanuatu",
+        "title": "Imports",
+        "url": "https://biosecurity.gov.vu/index.php/imports"
+      },
+      {
+        "authority": "Biosecurity Vanuatu",
+        "title": "SPS application for biosecurity import permit",
+        "url": "https://biosecurity.gov.vu/images/Forms/SPS_Application_for_Biosecurity_Import_Permit_or_Export_Certificate.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mp_animal_plant_import_permits",
+    "countries": [
+      "MP"
+    ],
+    "category": "import_permit",
+    "titleJa": "北マリアナ諸島の動物・植物の輸入許可",
+    "submissionJa": "CNMI Department of Lands and Natural ResourcesのAnimal Health & Industry部門に、輸入前の申請様式・添付書類・到着港の検査を照会する。",
+    "conditionJa": "CNMI Customs and Quarantineは動物・植物を他機関の許可が必要な品目として案内している。個々の品目、加工状態、原産地、運送方法を伝え、現地当局に適用範囲を確認する。",
+    "requirement": "verify_conditions",
+    "appliesWhen": {
+      "goodsTypes": [
+        "animal",
+        "plant"
+      ]
+    },
+    "documents": [
+      "IMPORT_PERMIT"
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "sources": [
+      {
+        "authority": "CNMI Department of Finance, Customs and Quarantine",
+        "title": "Import requirements",
+        "url": "https://dof.gov.mp/cus-import-requirements.php"
+      },
+      {
+        "authority": "CNMI Department of Finance, Customs and Quarantine",
+        "title": "Customs offices and staff",
+        "url": "https://dof.gov.mp/cus-offices-and-staff.php"
+      }
+    ]
+  }
+]

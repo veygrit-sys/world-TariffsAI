@@ -1,0 +1,35 @@
+{
+  "originCountry": "JP",
+  "destinationCountry": "GB",
+  "originZone": "standard",
+  "destinationZone": "standard",
+  "importDate": "2026-11-11",
+  "locale": "ja",
+  "currency": "GBP",
+  "freight": "10.00",
+  "insurance": "0.00",
+  "items": [
+    {
+      "id": "line-1",
+      "description": "合成データの一般商品",
+      "quantity": 1,
+      "unitValue": "100.00",
+      "originCountry": "JP",
+      "goodsType": "ordinary",
+      "hs6": "691200",
+      "classificationConfirmed": true,
+      "standardTaxConfirmed": true,
+      "nonDutiableConfirmed": true,
+      "japanReliefEligibility": "eligible",
+      "productIdentifier": "SYNTHETIC-001"
+    }
+  ],
+  "transaction": "b2c_sale",
+  "channel": "direct",
+  "transport": "air",
+  "regime": "standard",
+  "inventoryStatus": "free_circulation",
+  "sellerTaxRegistration": "registered",
+  "consignmentScopeConfirmed": true,
+  "taxEvidenceConfirmed": true
+}

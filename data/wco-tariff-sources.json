@@ -1,0 +1,3414 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "sourceDirectories": [
+    {
+      "title": "WCO National Tariff",
+      "url": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx",
+      "publishedOn": "2026-07-22"
+    },
+    {
+      "title": "WCO HS positions, Annex II",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/overview/hs-contracting-parties/positions-of-cp/situation_hs.pdf?db=web",
+      "publishedOn": "2026-07-23"
+    },
+    {
+      "title": "WTO TFA — Applied rates of duties and taxes",
+      "url": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+    }
+  ],
+  "sources": {
+    "AD": [
+      {
+        "url": "https://www.govern.ad/es/tematiques/impostos-taxes-i-duana/aranzels-duaners-i-granquicies",
+        "authority": "Government of Andorra",
+        "title": "Aranzels duaners i franquícies",
+        "kind": "official_schedule",
+        "scope": "Customs tariffs and reliefs, with separate agricultural and industrial arrangements."
+      }
+    ],
+    "AE": [
+      {
+        "url": "https://www.dubaicustoms.gov.ae/en/CustomsInformation/Pages/IntegratedCustomsTariff.aspx",
+        "authority": "Dubai Customs",
+        "title": "Integrated Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Official GCC-based UAE 12-digit tariff and national code correlation."
+      }
+    ],
+    "AF": [
+      {
+        "url": "https://www.customs.mof.gov.af/english",
+        "authority": "Afghanistan Customs Department",
+        "title": "Customs Department",
+        "kind": "authority",
+        "scope": "National customs authority and tariff committee announcements."
+      }
+    ],
+    "AG": [
+      {
+        "url": "https://customs.gov.ag/page/duties-and-taxes-collected",
+        "authority": "Antigua and Barbuda Customs and Excise Division",
+        "title": "Duties and Taxes Collected",
+        "kind": "customs_guidance",
+        "scope": "Official guidance on duty, taxes and ASYCUDA declarations.",
+        "sourceUrl": "https://tfadatabase.org/en/members/antigua-and-barbuda/publication-of-information-for-governments-and-traders"
+      }
+    ],
+    "AL": [
+      {
+        "url": "https://www.dogana.gov.al/english/d/182/248/0/231/combined-nomenclature-of-goods",
+        "authority": "Albanian Customs Administration",
+        "title": "Combined Nomenclature of Goods",
+        "kind": "official_schedule",
+        "scope": "Customs nomenclature, duties and downloadable tariff material.",
+        "sourceUrl": "https://tfadatabase.org/en/members/albania/contact-points"
+      }
+    ],
+    "AM": [
+      {
+        "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "authority": "Eurasian Economic Commission",
+        "title": "Decision No. 80 common external tariff, EEC chapter tables",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "AO": [
+      {
+        "url": "https://agt.minfin.gov.ao/PortalAGT/#!/servicos-aduaneiros//pauta-aduaneira",
+        "authority": "Angola General Tax Administration",
+        "title": "Pauta Aduaneira",
+        "kind": "tariff_search",
+        "scope": "Angolan customs tariff portal."
+      }
+    ],
+    "AR": [
+      {
+        "url": "https://www.mercosur.int/politica-comercial/ncm/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Argentina (Mercosur) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://polcom.mercosur.int/public/ncm/vigente",
+        "authority": "Secretaría del MERCOSUR, Sector de Asesoría Técnica",
+        "title": "MERCOSUR POLCOM NCM and AEC at 1 November 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "AT": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Austria (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "AU": [
+      {
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff",
+        "authority": "Australian Border Force",
+        "title": "Current tariff",
+        "kind": "official_schedule",
+        "scope": "Current Australian customs tariff."
+      },
+      {
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3",
+        "authority": "Australian Border Force",
+        "title": "ABF Working Tariff Schedule 3",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "AZ": [
+      {
+        "url": "https://e-qanun.az/framework/37035",
+        "authority": "Official legal database of Azerbaijan",
+        "title": "Commodity nomenclature and customs duty rates",
+        "kind": "official_legislation",
+        "scope": "Azerbaijani tariff legal instrument and amendments."
+      },
+      {
+        "url": "https://www.e-gov.az/en/services",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Azerbaijan (link 1) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://customs.gov.az/en/",
+        "authority": "State Customs Committee of Azerbaijan",
+        "title": "State Customs Committee",
+        "kind": "customs_authority",
+        "scope": "Customs regulations, service directory and guidance for Azerbaijan."
+      }
+    ],
+    "BA": [
+      {
+        "url": "https://www.uino.gov.ba/portal/bs/carine/carinska-tarifa/",
+        "authority": "Indirect Taxation Authority of Bosnia and Herzegovina",
+        "title": "Carinska tarifa",
+        "kind": "official_schedule",
+        "scope": "Customs tariff publications and links for Bosnia and Herzegovina.",
+        "sourceUrl": "https://mvteo.gov.ba/Content/Read/carinska-tarifa?lang=en"
+      },
+      {
+        "url": "https://mvteo.gov.ba/Content/Read/carinska-tarifa?lang=en",
+        "authority": "Ministry of Foreign Trade and Economic Relations of Bosnia and Herzegovina",
+        "title": "Customs tariff",
+        "kind": "official_legislation",
+        "scope": "2026 customs tariff decision and related tariff decisions."
+      }
+    ],
+    "BB": [
+      {
+        "url": "https://asycuda.customs.gov.bb/portal/services/tariff/search.jsf",
+        "authority": "Barbados Customs and Excise Department",
+        "title": "Tariff Search",
+        "kind": "tariff_search",
+        "scope": "Barbados ASYCUDA tariff search."
+      }
+    ],
+    "BD": [
+      {
+        "url": "https://nbr.gov.bd/taxtype/tariff-schedule/eng",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Bangladesh — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "BE": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://eservices.minfin.fgov.be/extTariffBrowser/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Belgium (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BF": [
+      {
+        "url": "https://douanes.bf/sydoniabf/files/codeDGD.pdf",
+        "authority": "Direction générale des douanes, Burkina Faso",
+        "title": "Code des douanes",
+        "kind": "official_legislation",
+        "scope": "Published customs code and tariff framework."
+      }
+    ],
+    "BG": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Bulgaria (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BH": [
+      {
+        "url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1322",
+        "authority": "Bahrain Customs Affairs",
+        "title": "E-copy of unified customs tariff",
+        "kind": "official_schedule",
+        "scope": "Official tariff publication service and Customs Affairs enquiry channel.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "BI": [
+      {
+        "url": "https://www.obr.bi",
+        "authority": "Office Burundais des Recettes",
+        "title": "Office Burundais des Recettes",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+        "authority": "East African Community / Kenya Revenue Authority",
+        "title": "EAC CET 2022, KRA publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.rra.gov.rw/index.php?L=0&id=129",
+        "authority": "East African Community / Rwanda Revenue Authority",
+        "title": "EAC CET HS2022, June 2025 consolidated publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BJ": [
+      {
+        "url": "https://douanes.gouv.bj/tarif-douane/",
+        "authority": "Direction générale des douanes du Bénin",
+        "title": "Benin Customs tariff SH2022, 2.0 edition",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BM": [
+      {
+        "url": "https://www.gov.bm/schedules-customs-tariff-act-1970",
+        "authority": "Bermuda Customs Department",
+        "title": "The Schedules to the Customs Tariff Act 1970",
+        "kind": "official_schedule",
+        "scope": "Bermuda customs tariff schedules. Review applicable amendments and dates."
+      }
+    ],
+    "BN": [
+      {
+        "url": "https://www.customs.gov.bn/ref-rced-customs-taxes/",
+        "authority": "Royal Customs and Excise Department, Brunei",
+        "title": "Customs Taxes",
+        "kind": "official_schedule",
+        "scope": "Official import duty and excise references and tariff guide."
+      }
+    ],
+    "BO": [
+      {
+        "url": "https://media.economiayfinanzas.gob.bo/aranceles-aduaneros",
+        "authority": "Bolivia Ministry of Economy and Public Finance",
+        "title": "Aranceles Aduaneros",
+        "kind": "official_schedule",
+        "scope": "Official annual import tariff publications."
+      }
+    ],
+    "BR": [
+      {
+        "url": "https://portalunico.siscomex.gov.br/classif/#/sumario?perfil=publico",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Brazil (link 1) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Brazil (link 2) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.xlsx",
+        "authority": "Receita Federal do Brasil",
+        "title": "TIPI 2022 with ADE 1/2026 corrected on 2026-02-12",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BS": [
+      {
+        "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2013/2013-0027/2013-0027_2.pdf",
+        "authority": "Bahamas Office of the Attorney-General",
+        "title": "Tariff Act",
+        "kind": "official_legislation",
+        "scope": "Principal Act. Review subsequent amendments for current rates."
+      }
+    ],
+    "BT": [
+      {
+        "url": "https://ecms.gov.bt/publication/btc-and-tariff-schedule",
+        "authority": "Department of Revenue and Customs, Bhutan",
+        "title": "Bhutan Trade Classification and Tariff Schedule",
+        "kind": "official_schedule",
+        "scope": "Official current and historical tariff schedule publications."
+      }
+    ],
+    "BW": [
+      {
+        "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/",
+        "authority": "South African Revenue Service / Southern African Customs Union",
+        "title": "SARS Schedule 1 Part 1, 2026-11-06",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BY": [
+      {
+        "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "authority": "Eurasian Economic Commission",
+        "title": "Decision No. 80 common external tariff, EEC chapter tables",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "BZ": [
+      {
+        "url": "https://www.customs.gov.bz/ttpg.html",
+        "authority": "Belize Customs and Excise Department",
+        "title": "Tariff and Trade Classification",
+        "kind": "official_schedule",
+        "scope": "Belize national HS 2022 tariff by chapter, effective January 2023 according to the official publication."
+      }
+    ],
+    "CA": [
+      {
+        "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/menu-eng.html",
+        "authority": "Canada Border Services Agency",
+        "title": "Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Official Canadian customs tariff editions."
+      },
+      {
+        "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/",
+        "authority": "Canada Border Services Agency",
+        "title": "T2026-2",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/complete-list-us-products-subject-to-counter-tariffs.html",
+        "authority": "Department of Finance / Justice Laws Website, Canada",
+        "title": "Finance Canada US counter-tariff list, effective 2026-09-08",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-187/FullText.html",
+        "authority": "Justice Laws Website, Canada",
+        "title": "SOR/2024-187 consolidation through 2026-10-19",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2025-148/FullText.html",
+        "authority": "Justice Laws Website, Canada",
+        "title": "SOR/2025-148 consolidation through 2026-10-19",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2025-154/FullText.html",
+        "authority": "Justice Laws Website, Canada",
+        "title": "SOR/2025-154 consolidation through 2026-10-19",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2025-267/FullText.html",
+        "authority": "Justice Laws Website, Canada",
+        "title": "SOR/2025-267 consolidation through 2026-10-19",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CD": [
+      {
+        "url": "https://douane.gouv.cd/dgda/tarif-des-droits-et-taxes-a-limportation-et-a-lexportation-aligne-sur-la-version-sh-2022/",
+        "authority": "Direction générale des douanes et accises, DR Congo",
+        "title": "Tarif des droits et taxes SH 2022",
+        "kind": "official_schedule",
+        "scope": "Import and export duties and taxes tariff publication."
+      }
+    ],
+    "CF": [
+      {
+        "url": "https://finances.gouv.cf/projet/16/e-douanes",
+        "authority": "Ministry of Finance and Budget, Central African Republic",
+        "title": "E-Douanes",
+        "kind": "customs_guidance",
+        "scope": "Official electronic import and export declaration guidance."
+      }
+    ],
+    "CG": [
+      {
+        "url": "https://douanes.gouv.cg",
+        "authority": "Direction générale des douanes et droits indirects, Congo",
+        "title": "Douanes",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "CH": [
+      {
+        "url": "https://www.bazg.admin.ch/en/tares-free-data-delivery-on-customers-request",
+        "authority": "Swiss Federal Office for Customs and Border Security (FOCBS/BAZG)",
+        "title": "FOCBS Tares tariff rates from 2026-10-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CI": [
+      {
+        "url": "https://www.douanes.ci/info/tec",
+        "authority": "Direction générale des douanes de Côte d’Ivoire",
+        "title": "SYDAM World TEC CEDEAO HS2022, 27 March 2026 edition",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CL": [
+      {
+        "url": "https://www.aduana.cl/arancel-aduanero-vigente/aduana/2016-12-30/090118.html",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Chile — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "CM": [
+      {
+        "url": "https://www.douanes.cm/douanes-cameroun/tarif-des-douanes/",
+        "authority": "Cameroon Directorate General of Customs",
+        "title": "Tarif des Douanes",
+        "kind": "official_schedule",
+        "scope": "Cameroonian customs tariff page."
+      }
+    ],
+    "CN": [
+      {
+        "url": "https://online.customs.gov.cn/",
+        "authority": "General Administration of Customs of China",
+        "title": "Internet + Customs",
+        "kind": "authority",
+        "scope": "Chinese customs official services portal."
+      },
+      {
+        "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202512/t20251231_3981044.htm",
+        "authority": "State Council Customs Tariff Commission",
+        "title": "中华人民共和国进出口税则（2026）",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CO": [
+      {
+        "url": "https://muisca.dian.gov.co/WebArancel/DefMenuConsultas.faces",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Colombia — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1881_2021.htm",
+        "authority": "Dirección de Impuestos y Aduanas Nacionales de Colombia",
+        "title": "DIAN consolidated Decreto 1881 de 2021, reference captured November 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CR": [
+      {
+        "url": "https://ticaconsultas.hacienda.go.cr/Tica/hdbaranc.aspx",
+        "authority": "Servicio Nacional de Aduanas, Costa Rica",
+        "title": "Arancel TICA",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+        "authority": "Secretaría de Integración Económica Centroamericana and COMIECO",
+        "title": "SIECA Arancel Centroamericano de Importación, SAC VII Enmienda, version 6 (August 2025)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CU": [
+      {
+        "url": "https://tfadatabase.org/en/members/cuba/publication-of-information-for-governments-and-traders",
+        "authority": "WTO Trade Facilitation Agreement Database (Cuba notification)",
+        "title": "Cuba published trade information",
+        "kind": "member_notification",
+        "scope": "Published WTO member notification links the Cuban customs tariff instrument. The linked Cuban customs site returned an access error in verification."
+      }
+    ],
+    "CV": [
+      {
+        "url": "https://www.mf.gov.cv/web/dnre/direca-geral-das-alfandegas",
+        "authority": "Ministério das Finanças, Cabo Verde",
+        "title": "Direção-Geral das Alfândegas",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "CW": [
+      {
+        "url": "https://douane.cw/tarief-van-invoerrechten/",
+        "authority": "Douane Curaçao",
+        "title": "Tarief van invoerrechten",
+        "kind": "official_schedule",
+        "scope": "Curaçao import duty tariff."
+      }
+    ],
+    "CY": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Cyprus (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-01-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "CZ": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Czech Republic (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "DE": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Germany (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/ustg_1980/anlage_2.html",
+        "authority": "Federal Ministry of Justice, Germany",
+        "title": "UStG § 12 and Anlage 2",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "DJ": [
+      {
+        "url": "https://douanes.gouv.dj/",
+        "authority": "Direction des douanes et droits indirects, Djibouti",
+        "title": "Douanes",
+        "kind": "authority",
+        "scope": "National customs authority and legal publications."
+      }
+    ],
+    "DK": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://tarif.skat.dk/arctictariff-public-web/#!/home",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Denmark (Danish) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "DO": [
+      {
+        "url": "https://sirevuce.aduanas.gob.do/",
+        "authority": "Dominican Republic Dirección General de Aduanas",
+        "title": "Consulta de aranceles",
+        "kind": "tariff_search",
+        "scope": "Official Dominican tariff search."
+      },
+      {
+        "url": "https://www.aduanas.gob.do/de-interes/consultas/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Republic Dominican — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://vucerd.gob.do/de-inter%C3%A9s/arancel-7ma-enmienda/",
+        "authority": "Dirección General de Aduanas, República Dominicana",
+        "title": "Dirección General de Aduanas, Arancel de Aduanas 7ma Enmienda 2022",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "DZ": [
+      {
+        "url": "https://douane.gov.dz/spip.php?page=tarif_douanier",
+        "authority": "Algerian Directorate General of Customs",
+        "title": "Tarif douanier",
+        "kind": "tariff_search",
+        "scope": "Algerian customs tariff search by code or keyword.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "EC": [
+      {
+        "url": "https://ecuapass.aduana.gob.ec/",
+        "authority": "Servicio Nacional de Aduana del Ecuador",
+        "title": "ECUAPASS",
+        "kind": "tariff_search",
+        "scope": "Choose Servicios informativos → 2.1.1 Arancel for national tariff.",
+        "sourceUrl": "https://www.aduana.gob.ec/canales-de-atencion/"
+      },
+      {
+        "url": "https://www.aduana.gob.ec/gaceta-boletin/entrada-en-vigor-resolucion-comex-nro-002-2023--arancel-del-ecuador/",
+        "authority": "Comité de Comercio Exterior and Servicio Nacional de Aduana del Ecuador",
+        "title": "Ecuador COMEX 002-2023 Annex I as amended by 011-2023 upon entry into force",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "EE": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://www.emta.ee/et",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Estonia (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "EG": [
+      {
+        "url": "https://www.customs.gov.eg/Services/Tarif",
+        "authority": "Egyptian Customs Authority",
+        "title": "Customs tariff",
+        "kind": "tariff_search",
+        "scope": "Egyptian Customs Authority tariff service.",
+        "sourceUrl": "https://tfadatabase.org/en/members/egypt/contact-points"
+      }
+    ],
+    "ER": [
+      {
+        "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/resources/contacs/hs-membercp.pdf",
+        "authority": "World Customs Organization",
+        "title": "HS classification contact points",
+        "kind": "wco_directory_reference",
+        "scope": "Includes the Eritrean Customs Department classification enquiry point. Confirm current contact details."
+      }
+    ],
+    "ES": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Spain (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "ET": [
+      {
+        "url": "https://customs.erca.gov.et/trade/?lang=en",
+        "authority": "Ethiopian Customs Commission",
+        "title": "Customs Trade Portal",
+        "kind": "tariff_search",
+        "scope": "Official electronic customs and tariff reference portal."
+      }
+    ],
+    "EU": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      }
+    ],
+    "FI": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "FJ": [
+      {
+        "url": "https://frcs.org.fj/our-services/customs/trade-business/customs-tariff/hs/",
+        "authority": "Fiji Revenue and Customs Service",
+        "title": "HS 2022 with 2026/2027 National Budget Amendments",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "FR": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "France (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "GA": [
+      {
+        "url": "https://www.douanes.ga/media/documents/15/la-fiscalite-douaniere?lng=FR",
+        "authority": "Direction générale des douanes et droits indirects, Gabon",
+        "title": "La fiscalité douanière",
+        "kind": "customs_guidance",
+        "scope": "Official duty and tax framework."
+      }
+    ],
+    "GB": [
+      {
+        "url": "https://www.gov.uk/trade-tariff",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "United Kingdom — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/reference-document-for-the-customs-tariff-establishment-eu-exit-regulations-2020",
+        "authority": "HM Revenue & Customs and HM Treasury",
+        "title": "Tariff of the United Kingdom v1.34",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.api.gov.uk/hmrc/gov-uk-trade-tariff-api/",
+        "authority": "HM Revenue & Customs / UK Integrated Online Tariff",
+        "title": "HMRC heading VAT overview for 216 selected headings",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/v4.0.1652/metadata?format=html",
+        "authority": "Department for Business and Trade",
+        "title": "DBT UK tariff v4.0.1652, 10 November 2026 release",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "GE": [
+      {
+        "url": "https://rs.ge/CommodityCodes-en?cat=1&tab=1",
+        "authority": "Revenue Service of Georgia",
+        "title": "Commodity Codes",
+        "kind": "tariff_search",
+        "scope": "Georgia customs code lookup."
+      },
+      {
+        "url": "https://www.rs.ge/EservicesTaxCalculator-en?id=94031&tab=1",
+        "authority": "Georgia Revenue Service",
+        "title": "Customs duties calculator",
+        "kind": "tariff_search",
+        "scope": "Official customs duties calculator by commodity code, supplementing the existing commodity-code service.",
+        "sourceUrl": "https://www.rs.ge/CommodityCodes-en?cat=1&tab=1"
+      },
+      {
+        "url": "https://matsne.gov.ge/ka/document/view/1043717?publication=248",
+        "authority": "Legislative Herald of Georgia and Georgia Revenue Service",
+        "title": "Tax Code Article 197, October 2026 consolidation",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "GH": [
+      {
+        "url": "https://gra.gov.gh/customs/import-procedures/",
+        "authority": "Ghana Revenue Authority",
+        "title": "Import Procedures",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "GM": [
+      {
+        "url": "https://www.gra.gm/custom-faqs",
+        "authority": "Gambia Revenue Authority",
+        "title": "Customs FAQs",
+        "kind": "customs_guidance",
+        "scope": "National customs procedures and ECOWAS tariff framework."
+      }
+    ],
+    "GN": [
+      {
+        "url": "https://dgd.gov.gn/actes-du-dg/",
+        "authority": "Direction générale des douanes, Guinea",
+        "title": "Actes du Directeur Général",
+        "kind": "authority",
+        "scope": "Customs administrative publications."
+      }
+    ],
+    "GQ": [
+      {
+        "url": "https://unctad.org/system/files/official-document/dtlasycuda2022d1_en.pdf",
+        "authority": "UN Trade and Development",
+        "title": "ASYCUDA compendium — Equatorial Guinea",
+        "kind": "regional_guidance",
+        "scope": "Official account of national customs procedures and ASYCUDA implementation. Check applicable tariff with the national authority."
+      }
+    ],
+    "GR": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Greece (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-01-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "GT": [
+      {
+        "url": "https://portal.sat.gob.gt/portal/arancel-integrado/",
+        "authority": "Superintendencia de Administración Tributaria, Guatemala",
+        "title": "Arancel Integrado",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+        "authority": "Secretaría de Integración Económica Centroamericana and COMIECO",
+        "title": "SIECA Arancel Centroamericano de Importación, SAC VII Enmienda, version 6 (August 2025)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "GW": [
+      {
+        "url": "https://www.ecowas.int/member_states/guinea-bissau/",
+        "authority": "ECOWAS",
+        "title": "Guinea-Bissau national authority contacts",
+        "kind": "regional_guidance",
+        "scope": "Regional organization publishes national economic ministry contact information."
+      }
+    ],
+    "GY": [
+      {
+        "url": "https://www.gra.gov.gy/the-national-tariff-2011/",
+        "authority": "Guyana Revenue Authority",
+        "title": "The National Tariff",
+        "kind": "official_schedule",
+        "scope": "2011 publication. Check latest enactments for current rates."
+      },
+      {
+        "url": "https://gra.gov.gy/administration-of-budget-measures-2026/",
+        "authority": "Guyana Revenue Authority",
+        "title": "GRA 2026 budget import measures in ASYCUDA World",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://gra.gov.gy/exemptions-on-sports-equipment-and-gear/",
+        "authority": "Guyana Revenue Authority",
+        "title": "GRA sports equipment import duty and VAT exemptions",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "HK": [
+      {
+        "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/",
+        "authority": "Hong Kong Customs and Excise Department",
+        "title": "Cargo Clearance",
+        "kind": "customs_guidance",
+        "scope": "Free-port treatment and separate excise on specified dutiable commodities."
+      },
+      {
+        "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/dutiable-commodities/index.html",
+        "authority": "Hong Kong Customs and Excise Department",
+        "title": "Dutiable Commodities",
+        "kind": "customs_guidance",
+        "scope": "Excise regimes for liquor, tobacco, hydrocarbon oil and methyl alcohol."
+      },
+      {
+        "url": "https://www.censtatd.gov.hk/en/page_1364.html",
+        "authority": "Hong Kong Census and Statistics Department",
+        "title": "Commodity Classification Publications",
+        "kind": "official_schedule",
+        "scope": "Official Hong Kong Harmonized System national commodity codes."
+      }
+    ],
+    "HN": [
+      {
+        "url": "https://sarahweb2.aduanas.gob.hn/#/plataforma/informacion/consulta_nomenclador",
+        "authority": "Aduanas Honduras",
+        "title": "Consulta Nomenclador",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+        "authority": "Secretaría de Integración Económica Centroamericana and COMIECO",
+        "title": "SIECA Arancel Centroamericano de Importación, SAC VII Enmienda, version 6 (August 2025)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "HR": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://carina.gov.hr/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Croatia (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "HT": [
+      {
+        "url": "https://www.douane.gouv.ht/tarif-ndp/",
+        "authority": "Haiti Administration Générale des Douanes",
+        "title": "Tarif NDP",
+        "kind": "official_schedule",
+        "scope": "Official Haitian tariff nomenclature and tariff notices."
+      }
+    ],
+    "HU": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "ID": [
+      {
+        "url": "https://insw.go.id/intr",
+        "authority": "Indonesia National Single Window",
+        "title": "Indonesia National Trade Repository",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://jdih.kemenkeu.go.id/dok/26-pmk-010-2022",
+        "authority": "Indonesia Ministry of Finance, JDIH",
+        "title": "BTKI 2022, PMK 26/2022 as amended through PMK 68/2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "IE": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Ireland (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "IL": [
+      {
+        "url": "https://shaarolami-query.customs.mof.gov.il/CustomspilotWeb/en/CustomsBook/Import/Doubt",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Israel — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "IN": [
+      {
+        "url": "https://old.cbic.gov.in/htdocs-cbec/customs/custom-tariff",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "India — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://gst.karnataka.gov.in/Igstaxrate.aspx?lang=EN",
+        "authority": "India Ministry of Finance, Department of Revenue",
+        "title": "Notifications 09/2025 and 10/2025, consolidated 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "IQ": [
+      {
+        "url": "https://www.mof.gov.iq/Customs-tariff-law",
+        "authority": "Ministry of Finance of Iraq",
+        "title": "Customs Tariff Law",
+        "kind": "official_legislation",
+        "scope": "Ministry publication of the Iraqi Customs Tariff Law.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "IR": [
+      {
+        "url": "https://www.jetro.go.jp/world/middle_east/ir/trade_03.html",
+        "authority": "Japan External Trade Organization",
+        "title": "Iran tariff system",
+        "kind": "public_trade_guidance",
+        "scope": "Public trade guidance on Iran tariff administration and the responsible national authorities."
+      }
+    ],
+    "IS": [
+      {
+        "url": "https://www.skatturinn.is/english/companies/customs-matters/customs-tariff/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Iceland (English) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://veftollskra.skattur.is/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Iceland (Icelandic) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "IT": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Italy (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "JM": [
+      {
+        "url": "https://jca.gov.jm/business/duties-and-taxes/",
+        "authority": "Jamaica Customs Agency",
+        "title": "Duties & Taxes",
+        "kind": "customs_guidance",
+        "scope": "Official import duties and taxes guidance and tariff links."
+      },
+      {
+        "url": "https://jca.gov.jm/services/current-tariffs/",
+        "authority": "Jamaica Customs Agency",
+        "title": "Jamaica Customs Agency Integrated Tariff, 30 October 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "JO": [
+      {
+        "url": "https://asytrade.customs.gov.jo/customs/tariff?lang=en",
+        "authority": "Jordan Customs",
+        "title": "JCAP tariff item search",
+        "kind": "tariff_search",
+        "scope": "Official ASYCUDA tariff item search, with Jordan Customs contact details.",
+        "sourceUrl": "https://customs.gov.jo/EN/List/Integrated_customs_tariff"
+      }
+    ],
+    "JP": [
+      {
+        "url": "https://www.customs.go.jp/english/tariff/index.htm",
+        "authority": "Japan Customs",
+        "title": "Customs Tariff Schedules of Japan",
+        "kind": "official_schedule",
+        "scope": "Official Japanese tariff schedule editions."
+      },
+      {
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm",
+        "authority": "Japan Customs",
+        "title": "実行関税率表 2026年10月31日版",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.customs.go.jp/news/news/consumptiontax2019/consumptiontax_annex03.pdf",
+        "authority": "Japan Customs and National Tax Agency",
+        "title": "Japan Customs 2026-10-31 HS anchors, verified 2026-11-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.nta.go.jp/taxes/sake/shiori-gaikyo/shiori/2026/pdf/05-1.pdf",
+        "authority": "Japan Customs and National Tax Agency",
+        "title": "Japan Customs 2026-10-31 HS anchors, verified 2026-11-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "KE": [
+      {
+        "url": "https://kra.go.ke/publications",
+        "authority": "Kenya Revenue Authority",
+        "title": "Publications",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+        "authority": "East African Community / Kenya Revenue Authority",
+        "title": "EAC CET 2022, KRA publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.rra.gov.rw/index.php?L=0&id=129",
+        "authority": "East African Community / Rwanda Revenue Authority",
+        "title": "EAC CET HS2022, June 2025 consolidated publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "KG": [
+      {
+        "url": "https://www.customs.kg",
+        "authority": "State Customs Service, Kyrgyz Republic",
+        "title": "State Customs Service",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "authority": "Eurasian Economic Commission",
+        "title": "Decision No. 80 common external tariff, EEC chapter tables",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "KH": [
+      {
+        "url": "https://customs.gov.kh/en/publications/14043-customs-tariff-of-cambodia-km-2022",
+        "authority": "General Department of Customs and Excise of Cambodia",
+        "title": "Customs Tariff of Cambodia, 2022",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "KM": [
+      {
+        "url": "https://www.douane.gov.km/organisation.php",
+        "authority": "Direction générale des douanes, Comoros",
+        "title": "Douane Comorienne",
+        "kind": "authority",
+        "scope": "National customs departments and contacts."
+      }
+    ],
+    "KR": [
+      {
+        "url": "https://unipass.customs.go.kr/clip/index.do#",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Korea (Rep. of) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.data.go.kr/data/15051179/fileData.do",
+        "authority": "Korea Customs Service",
+        "title": "KCS national 2026 rate table, sheet 2.12",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "KW": [
+      {
+        "url": "https://www.customs.gov.kw/HSCode/HsCode",
+        "authority": "Kuwait General Administration of Customs",
+        "title": "Customs tariff search",
+        "kind": "tariff_search",
+        "scope": "Official Kuwait tariff item and description search.",
+        "sourceUrl": "https://tfadatabase.org/en/members/kuwait/contact-points"
+      }
+    ],
+    "KZ": [
+      {
+        "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "authority": "Eurasian Economic Commission",
+        "title": "Decision No. 80 common external tariff, EEC chapter tables",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LA": [
+      {
+        "url": "https://www.laotradeportal.gov.la/index.php?r=tradeInfo/index",
+        "authority": "Lao Trade Portal",
+        "title": "Trade Information",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "LB": [
+      {
+        "url": "https://www.customs.gov.lb/Tariff/Tariff_Table.aspx",
+        "authority": "Lebanese Customs",
+        "title": "Tariff table",
+        "kind": "tariff_search",
+        "scope": "Lebanese Customs tariff table and nomenclature.",
+        "sourceUrl": "https://www.customs.gov.lb/News_Details.aspx?Item_Id=23"
+      }
+    ],
+    "LC": [
+      {
+        "url": "https://asycuda.customs.gov.lc/portal/services/tariff/sections.jsf",
+        "authority": "Saint Lucia Customs and Excise Department",
+        "title": "Tariff Sections",
+        "kind": "tariff_search",
+        "scope": "Official ASYCUDA tariff."
+      }
+    ],
+    "LK": [
+      {
+        "url": "https://www.customs.gov.lk/customs-tariff/import-tariff/",
+        "authority": "Sri Lanka Customs",
+        "title": "Sri Lanka Customs National Imports Tariff Guide, 3 November 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LR": [
+      {
+        "url": "https://www.lra.gov.lr",
+        "authority": "Liberia Revenue Authority",
+        "title": "Liberia Revenue Authority",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "LS": [
+      {
+        "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/",
+        "authority": "South African Revenue Service / Southern African Customs Union",
+        "title": "SARS Schedule 1 Part 1, 2026-11-06",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LT": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://lrmuitine.lt/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Lithuania (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LU": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://saturn.etat.lu/arctictariff-public-web/#!/home",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Luxembourg (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LV": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Latvia (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "LY": [
+      {
+        "url": "https://customs.gov.ly/",
+        "authority": "Libyan Customs Authority",
+        "title": "Libyan Customs Authority",
+        "kind": "customs_authority",
+        "scope": "Customs information and tariff publications. Verify whether any archived tariff edition still applies.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "MA": [
+      {
+        "url": "https://mre.gov.ma/fr/e-services/dedouanement-de-marchandises-adil",
+        "authority": "Moroccan Administration of Customs and Indirect Taxes",
+        "title": "ADIL customs clearance information",
+        "kind": "tariff_search",
+        "scope": "Government directory entry for ADIL, covering duties, taxes, preferential measures and customs documentation.",
+        "sourceUrl": "https://tfadatabase.org/en/members/morocco/contact-points"
+      }
+    ],
+    "MD": [
+      {
+        "url": "https://www.legis.md/cautare/getResults?doc_id=112799&lang=ro",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Moldova — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://customs.gov.md/en/articles/acte-normative-1856-ro",
+        "authority": "Customs Service of the Republic of Moldova",
+        "title": "Regulatory acts",
+        "kind": "official_legislation",
+        "scope": "Customs Service index of customs regulatory acts and implementing measures."
+      }
+    ],
+    "ME": [
+      {
+        "url": "https://taric.carina.co.me/TariCG/",
+        "authority": "Montenegro Customs Administration",
+        "title": "TARICG",
+        "kind": "tariff_search",
+        "scope": "Montenegro integrated customs tariff."
+      },
+      {
+        "url": "https://www.gov.me/en/documents/c9ad2bc2-dfc4-4107-9fea-585c792b81af",
+        "authority": "Government of Montenegro",
+        "title": "2026 customs tariff regulation",
+        "kind": "official_legislation",
+        "scope": "Official 2026 regulation and downloadable tariff annex."
+      }
+    ],
+    "MG": [
+      {
+        "url": "https://www.douanes.gov.mg",
+        "authority": "Direction générale des douanes, Madagascar",
+        "title": "Douanes",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "MK": [
+      {
+        "url": "https://customs.gov.mk/index.php/mk/za-nas-mk/carinska-regulativa/zakon-za-carinska-tarifa",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "North Macedonia — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://customs.gov.mk/en-GB/pocetna/e-carina/nkts/carinska-tarifa.nspx",
+        "authority": "North Macedonia Customs Administration",
+        "title": "Customs tariff",
+        "kind": "official_schedule",
+        "scope": "Official 2026 customs tariff downloads, alignment decisions and prior editions."
+      }
+    ],
+    "ML": [
+      {
+        "url": "https://douanes.gouv.ml/tarif-des-douanes",
+        "authority": "Direction générale des douanes, Mali",
+        "title": "Tarif des douanes",
+        "kind": "official_schedule",
+        "scope": "National customs tariff publications."
+      }
+    ],
+    "MM": [
+      {
+        "url": "https://www.customs.gov.mm/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Myanmar (The Republic of the Union of) (link 1) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.maccs.gov.mm/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Myanmar (The Republic of the Union of) (link 2) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "MN": [
+      {
+        "url": "https://gaali.mn/hscode/en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Mongolia — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "MO": [
+      {
+        "url": "https://www.ipim.gov.mo/en/invest-here/foreign-trade",
+        "authority": "Macao Commerce and Investment Promotion Institute",
+        "title": "Foreign Trade",
+        "kind": "customs_guidance",
+        "scope": "Macao free-port treatment and trade formalities."
+      },
+      {
+        "url": "https://www.gov.mo/en/services/ps-1331/ps-1331a/",
+        "authority": "Macao SAR Financial Services Bureau",
+        "title": "Payment of Consumption Tax",
+        "kind": "customs_guidance",
+        "scope": "Import consumption tax and payment procedures for covered goods."
+      },
+      {
+        "url": "https://www.dsec.gov.mo/NcemAssistant?lang=en-US",
+        "authority": "Macao SAR Statistics and Census Service",
+        "title": "Commodity Code Enquiry System",
+        "kind": "tariff_search",
+        "scope": "Official commodity code enquiry service."
+      }
+    ],
+    "MR": [
+      {
+        "url": "https://www.msgg.gov.mr/sites/default/files/2020-11/J.O.%201403F%20DU%2030.12.2017.pdf",
+        "authority": "Journal officiel de la République islamique de Mauritanie",
+        "title": "Journal officiel 1403F",
+        "kind": "official_legislation",
+        "scope": "Historical customs tariff legislation. Verify amendments."
+      }
+    ],
+    "MT": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Malta (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "MU": [
+      {
+        "url": "https://www.mra.mu/index.php/customs1/tariff-information",
+        "authority": "Mauritius Revenue Authority",
+        "title": "Tariff Information",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://mra.mu/index.php/customs1/tariff-information",
+        "authority": "Mauritius Revenue Authority Customs Department",
+        "title": "MRA Integrated Customs Tariff, HS2022, 1 October 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "MV": [
+      {
+        "url": "https://www.customs.gov.mv/Business/Importers/import-duty-concessions-allowances",
+        "authority": "Maldives Customs Service",
+        "title": "Importers' Duty Concessions and Allowances",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "MW": [
+      {
+        "url": "https://customsetariff.mra.mw/",
+        "authority": "Malawi Revenue Authority",
+        "title": "MRA eCustoms Tariff",
+        "kind": "tariff_search",
+        "scope": "National electronic tariff search."
+      }
+    ],
+    "MX": [
+      {
+        "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.html",
+        "authority": "Secretaría de Economía de México",
+        "title": "LIGIE",
+        "kind": "official_schedule",
+        "scope": "Mexican tariff legislation and associated publications."
+      },
+      {
+        "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.ligiebibjur.html",
+        "authority": "Secretaría de Economía, SNICE",
+        "title": "SNICE LIGIE / NICO workbook dated 2026-10-14",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "MY": [
+      {
+        "url": "https://ezhs.customs.gov.my/",
+        "authority": "Royal Malaysian Customs Department",
+        "title": "eZHS",
+        "kind": "tariff_search",
+        "scope": "Official HS and tariff query."
+      }
+    ],
+    "MZ": [
+      {
+        "url": "https://www.at.gov.mz/por/Pauta-Aduaneira",
+        "authority": "Autoridade Tributária de Moçambique",
+        "title": "Pauta Aduaneira",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "NA": [
+      {
+        "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/",
+        "authority": "South African Revenue Service / Southern African Customs Union",
+        "title": "SARS Schedule 1 Part 1, 2026-11-06",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NE": [
+      {
+        "url": "https://tfadatabase.org/fr/members/niger/publication-of-information-for-governments-and-traders",
+        "authority": "WTO, publication notified by Niger",
+        "title": "TFA Article 1.4 links for Niger",
+        "kind": "member_notification",
+        "scope": "Customs authority, tariff and procedures notified by Niger."
+      }
+    ],
+    "NG": [
+      {
+        "url": "https://trade.gov.ng/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Nigeria — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://demo-cet.customs.gov.ng/",
+        "authority": "Nigeria Customs Service (NCS)",
+        "title": "Nigeria Customs Service CET Edition 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://customs.gov.ng/publications/circulars/customs-excise-tariff-etc-variation-order2026.",
+        "authority": "Federal Republic of Nigeria / Nigeria Customs Service",
+        "title": "Nigeria S.I. 29 of 2026 (selected IAT rows)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NI": [
+      {
+        "url": "https://www.dga.gob.ni",
+        "authority": "Dirección General de Servicios Aduaneros, Nicaragua",
+        "title": "Dirección General de Servicios Aduaneros",
+        "kind": "authority",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+        "authority": "Secretaría de Integración Económica Centroamericana and COMIECO",
+        "title": "SIECA Arancel Centroamericano de Importación, SAC VII Enmienda, version 6 (August 2025)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NL": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Netherlands (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NO": [
+      {
+        "url": "https://www.toll.no/en/corporate/norwegian-customs-tariff",
+        "authority": "Norwegian Customs",
+        "title": "Norwegian Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Official Norwegian tariff search and reference."
+      },
+      {
+        "url": "https://data.toll.no/dataset/tollavgiftssats",
+        "authority": "Norwegian Customs (Tolletaten)",
+        "title": "Tolletaten TL1 v1.2, 2026-11-11 resource",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://data.toll.no/dataset/innfoerselsavgift",
+        "authority": "Norwegian Customs (Tolletaten)",
+        "title": "Tolletaten import VAT and charges v1.1, 2026-10-31 resource",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://lovdata.no/dokument/SF/forskrift/2026-06-12-1055",
+        "authority": "Norwegian Customs (Tolletaten)",
+        "title": "FOR-2026-06-12-1055",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NP": [
+      {
+        "url": "https://www.customs.gov.np/page/custom-tariff-new",
+        "authority": "Department of Customs, Nepal",
+        "title": "Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://customs.gov.np/content/46/integrated-tariff-rate/",
+        "authority": "Department of Customs, Ministry of Finance, Government of Nepal",
+        "title": "Nepal integrated import tariff, FY 2083/84",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "NZ": [
+      {
+        "url": "https://www.customs.govt.nz/business/tariffs/working-tariff-document/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "New Zealand — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.customs.govt.nz/business/tariffs/tariff-classifications-and-rates",
+        "authority": "New Zealand Customs Service",
+        "title": "CusMod 2026-11-11 04:00 NZDT",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "OM": [
+      {
+        "url": "https://www.customs.gov.om/dgcportal/web/dgc/business-services?artid=32719",
+        "authority": "Royal Oman Police, Directorate General of Customs",
+        "title": "Customs Business Services",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.customs.gov.om/en/user-guides/",
+        "authority": "Royal Oman Police, Directorate General of Customs",
+        "title": "Oman's Customs Tariff for 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PA": [
+      {
+        "url": "https://aranceles.ana.gob.pa/",
+        "authority": "Autoridad Nacional de Aduanas, Panama",
+        "title": "Herramienta Interactiva del Arancel Nacional",
+        "kind": "tariff_search",
+        "scope": "Official national tariff search and temporary modifications."
+      }
+    ],
+    "PE": [
+      {
+        "url": "https://www.sunat.gob.pe/orientacionaduanera/importacion/consideraciones_generales.html",
+        "authority": "SUNAT, Peru",
+        "title": "Importación — Consideraciones Generales",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.mef.gob.pe/es/economia-internacional/politica-arancelaria/",
+        "authority": "SUNAT and Ministerio de Economía y Finanzas del Perú",
+        "title": "Arancel de Aduanas 2022, D.S. 404-2021-EF as amended by D.S. 163-2022-EF and 194-2022-EF",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PG": [
+      {
+        "url": "https://customs.gov.pg/legislations.php?q=legislation",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Papua New Guinea — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.customs.gov.pg/tev/tariff",
+        "authority": "Papua New Guinea Customs Service",
+        "title": "PNG Customs Tariff Act Schedule 1, HS 2022",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PH": [
+      {
+        "url": "https://finder.tariffcommission.gov.ph/",
+        "authority": "Tariff Commission, Philippines",
+        "title": "Philippine Tariff Finder",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "PK": [
+      {
+        "url": "https://www.fbr.gov.pk/categ/customs-tariff/51149/70853/131188",
+        "authority": "Pakistan Federal Board of Revenue",
+        "title": "Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Official Pakistan tariff publication index."
+      },
+      {
+        "url": "https://www.fbr.gov.pk/categ/laws/144",
+        "authority": "Federal Board of Revenue, Government of Pakistan",
+        "title": "Pakistan Customs Tariff FY 2026–27",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.fbr.gov.pk/Activesrosimport",
+        "authority": "Federal Board of Revenue, Government of Pakistan",
+        "title": "Additional Customs Duty S.R.O. 1063(I)/2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PL": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Poland (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eli.gov.pl/eli/DU/2026/1263/ogl",
+        "authority": "Sejm of the Republic of Poland / Ministry of Finance",
+        "title": "VAT Act 2026 consolidated text, Annexes 3 and 10",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PS": [
+      {
+        "url": "https://www.mof.gov.ps/",
+        "authority": "Palestinian Ministry of Finance",
+        "title": "Ministry of Finance and customs administration",
+        "kind": "customs_authority",
+        "scope": "Ministry designated by the WCO regional directory for customs administration enquiries.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "PT": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Portugal (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-01-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "PW": [
+      {
+        "url": "https://bcbp.pw/?page_id=3210",
+        "authority": "Palau Bureau of Customs and Border Protection",
+        "title": "Tariff and Valuation",
+        "kind": "customs_guidance",
+        "scope": "HS classification and import duty guidance. PGST and excise have separate rules."
+      },
+      {
+        "url": "https://bcbp.pw/wp-content/uploads/2024/02/PALAU-HS2022.pdf",
+        "authority": "Palau Bureau of Customs and Border Protection",
+        "title": "Palau HS 2022",
+        "kind": "official_schedule",
+        "scope": "Customs publication with HS codes and printed rate columns. Verify against Palau National Code and current notices, especially the PGST column.",
+        "sourceUrl": "https://bcbp.pw/?page_id=3210"
+      },
+      {
+        "url": "https://www.palaulaw.gov.pw/palau-national-code",
+        "authority": "Palau Code Commission",
+        "title": "Palau National Code",
+        "kind": "official_legislation",
+        "scope": "Official statutory reference for import taxes, PGST and excise. Check the latest laws."
+      },
+      {
+        "url": "https://www.palaulaw.gov.pw/view/recsEBwJfyb2r7jaF?source=documents",
+        "authority": "Palau Code Commission",
+        "title": "Palau National Code Title 40 (2026-09-30)",
+        "kind": "official_legislation",
+        "scope": "Sections 1301, 1214–1215 and 1239 establish ordinary import tax, PGST on taxable imports, exemptions and valuation.",
+        "sourceUrl": "https://www.palaulaw.gov.pw/palau-national-code"
+      }
+    ],
+    "PY": [
+      {
+        "url": "https://economia.gov.py/index.php/paraguay-y-el-mundo/aranceles-la-importacion",
+        "authority": "Ministerio de Economía y Finanzas, Paraguay",
+        "title": "Aranceles a la importación",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://polcom.mercosur.int/public/ncm/vigente",
+        "authority": "Secretaría del MERCOSUR, Sector de Asesoría Técnica",
+        "title": "MERCOSUR POLCOM NCM and AEC at 1 November 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "QA": [
+      {
+        "url": "https://www.customs.gov.qa/English/Tariff/Pages/HS-Guide.aspx",
+        "authority": "Qatar General Authority of Customs",
+        "title": "HS user manual",
+        "kind": "tariff_search",
+        "scope": "Official instructions for searching the tariff and applying the Harmonized System.",
+        "sourceUrl": "https://tfadatabase.org/en/members/qatar/publication-of-information-for-governments-and-traders"
+      }
+    ],
+    "RO": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Romania (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "RS": [
+      {
+        "url": "https://www.carina.rs/en/business-community/CustomsTariff.html",
+        "authority": "Customs Administration of the Republic of Serbia",
+        "title": "Customs tariff",
+        "kind": "official_schedule",
+        "scope": "Current tariff nomenclature, annual alignment regulations and official amendments."
+      }
+    ],
+    "RU": [
+      {
+        "url": "https://economy.gov.ru/minec/activity/sections/foreignEconomicActivity/regulation/index",
+        "authority": "Ministry of Economic Development, Russian Federation",
+        "title": "Common Customs Tariff",
+        "kind": "customs_union_reference",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "authority": "Eurasian Economic Commission",
+        "title": "Decision No. 80 common external tariff, EEC chapter tables",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "RW": [
+      {
+        "url": "https://rwandatrade.rw",
+        "authority": "Ministry of Trade and Industry, Rwanda",
+        "title": "Rwanda Trade Portal",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+        "authority": "East African Community / Kenya Revenue Authority",
+        "title": "EAC CET 2022, KRA publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.rra.gov.rw/index.php?L=0&id=129",
+        "authority": "East African Community / Rwanda Revenue Authority",
+        "title": "EAC CET HS2022, June 2025 consolidated publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SA": [
+      {
+        "url": "https://eservices.zatca.gov.sa/sites/sc/en/tariff/Pages/TariffPages/TariffSearch.aspx",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Saudi Arabia — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      }
+    ],
+    "SB": [
+      {
+        "url": "https://customs.gov.sb/",
+        "authority": "Solomon Islands Customs & Excise Division",
+        "title": "ASYCUDAWorld",
+        "kind": "authority",
+        "scope": "Solomon Islands customs official services portal."
+      },
+      {
+        "url": "https://solomons.gov.sb/wp-content/uploads/2022/06/Gaz-No.-180-Sup-No.-154-Tuesday-31st-May-2022.pdf",
+        "authority": "Solomon Islands Government",
+        "title": "Customs and Excise (Import Duty) (Amendment) Order 2022",
+        "kind": "official_legislation",
+        "scope": "Selected item amendments. Consult the full schedule and later amendments separately."
+      }
+    ],
+    "SC": [
+      {
+        "url": "https://www.tradeportal.sc/wp-content/uploads/2022/05/Reference-Document-as-of-1st-January-2022-002.pdf",
+        "authority": "Seychelles Trade Portal",
+        "title": "Reference Document, 1 January 2022",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "SD": [
+      {
+        "url": "https://web.customs.gov.sd/",
+        "authority": "Sudan Customs",
+        "title": "Sudan Customs official website",
+        "kind": "customs_authority",
+        "scope": "Import and export procedures and Sudan Customs information.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "SE": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Sweden — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SG": [
+      {
+        "url": "https://www.customs.gov.sg/businesses/valuation-duties-taxes-fees/duties-and-dutiable-goods/",
+        "authority": "Singapore Customs",
+        "title": "Duties and Dutiable Goods",
+        "kind": "customs_guidance",
+        "scope": "Official guidance on dutiable goods and excise."
+      },
+      {
+        "url": "https://www.customs.gov.sg/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Singapore — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://sso.agc.gov.sg/SL/CA1960-OR4",
+        "authority": "Singapore Ministry of Finance, Government Gazette",
+        "title": "Customs (Duties) Order First Schedule, Gazette S483/2022 consolidated through S785/2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SI": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://www.fu.gov.si/en/",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Slovenia (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/tedb/index.html",
+        "authority": "European Commission DG TAXUD, national VAT submissions",
+        "title": "TEDB SOAP observation 2026-11-11, source situation(s) 2026-07-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SK": [
+      {
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en",
+        "authority": "European Commission",
+        "title": "EU TARIC consultation",
+        "kind": "customs_union_reference",
+        "scope": "EU common customs tariff and integrated measures. Check destination-country VAT and excise separately.",
+        "sourceUrl": "https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-tariff/eu-customs-tariff-taric_en"
+      },
+      {
+        "url": "https://ec.europa.eu/taxation_customs/index_en",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Slovakia (EU) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng",
+        "authority": "European Commission",
+        "title": "Combined Nomenclature 2026, EU 2025/1926",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R2754-20260211",
+        "authority": "European Commission / EUR-Lex",
+        "title": "Regulation (EU) 2024/2754 consolidated 2026-02-11",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/222/20260101.print.html",
+        "authority": "Ministry of Justice of the Slovak Republic / Slov-Lex",
+        "title": "Act 222/2004, consolidated 2026 Annex 7",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/eu-customs-tariff-taric_en",
+        "authority": "European Commission, Directorate-General for Taxation and Customs Union",
+        "title": "DG TAXUD TARIC group origins, reference date 2026-11-01",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SL": [
+      {
+        "url": "https://nra.gov.sl/customs/duty/0",
+        "authority": "National Revenue Authority, Sierra Leone",
+        "title": "Customs Duty",
+        "kind": "customs_guidance",
+        "scope": "National import duty and excise guidance."
+      }
+    ],
+    "SN": [
+      {
+        "url": "https://senegalcommerce.sec.gouv.sn/TauxEtTaxes.aspx",
+        "authority": "Government of Senegal",
+        "title": "Portail d'informations commerciales — Taux et taxes",
+        "kind": "official_schedule",
+        "scope": "Government tariff and import tax publications. Verify the displayed edition."
+      }
+    ],
+    "SO": [
+      {
+        "url": "https://www.mof.gov.so/sites/default/files/Publications/General%20Customs%20Regulation%202024.pdf",
+        "authority": "Ministry of Finance, Somalia",
+        "title": "General Customs Regulation 2024",
+        "kind": "official_legislation",
+        "scope": "National customs regulations."
+      }
+    ],
+    "SR": [
+      {
+        "url": "https://gov.sr/document/wet-tarief-van-invoerrechten/",
+        "authority": "Government of Suriname",
+        "title": "Wet tarief van invoerrechten",
+        "kind": "official_legislation",
+        "scope": "Principal import duty legislation. Check applicable amendments."
+      }
+    ],
+    "SS": [
+      {
+        "url": "https://ecustoms.nra.gov.ss/customs",
+        "authority": "South Sudan Revenue Authority",
+        "title": "eCustoms",
+        "kind": "authority",
+        "scope": "National customs workflow and tariff calculation service."
+      }
+    ],
+    "ST": [
+      {
+        "url": "https://guce.gov.st/legislacao-e-diplomas-legais/",
+        "authority": "Governo de São Tomé e Príncipe",
+        "title": "Legislação e Diplomas Legais",
+        "kind": "customs_guidance",
+        "scope": "Official trade single window lists import legislation and procedures."
+      }
+    ],
+    "SV": [
+      {
+        "url": "https://aduana2.mh.gob.sv/SAC/",
+        "authority": "Dirección General de Aduanas de El Salvador",
+        "title": "Sistema Arancelario Centroamericano",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.sieca.int/recursos/arancel-centroamericano-importacion/",
+        "authority": "Secretaría de Integración Económica Centroamericana and COMIECO",
+        "title": "SIECA Arancel Centroamericano de Importación, SAC VII Enmienda, version 6 (August 2025)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "SY": [
+      {
+        "url": "https://sana.sy/presidency/2479092/",
+        "authority": "Syrian Arab News Agency",
+        "title": "Decree 110 on the harmonized customs tariff schedule",
+        "kind": "official_legislation",
+        "scope": "State publication announcing presidential Decree 110 and its tariff schedule. Check subsequent amendments.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "SZ": [
+      {
+        "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/",
+        "authority": "South African Revenue Service / Southern African Customs Union",
+        "title": "SARS Schedule 1 Part 1, 2026-11-06",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "TD": [
+      {
+        "url": "https://douanes.td/douane/",
+        "authority": "Direction générale des douanes et droits indirects, Chad",
+        "title": "La Douane",
+        "kind": "authority",
+        "scope": "National customs administration."
+      }
+    ],
+    "TG": [
+      {
+        "url": "https://anciensite.otr.tg/index.php/fr/documentation/sur-la-douane-togolaise/tarifs-des-douanes.html",
+        "authority": "Office Togolais des Recettes (OTR)",
+        "title": "OTR TEC CEDEAO actualisé (2025-11-10)",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "TH": [
+      {
+        "url": "https://itd.customs.go.th/igtf/th/main_frame.jsp?lang=th&top_menu=menu_homepage&current_id=5028",
+        "authority": "Thai Customs Department",
+        "title": "Integrated Tariff Database",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "TJ": [
+      {
+        "url": "https://tajtrade.tj/menu/2?l=en",
+        "authority": "Tajikistan Trade Portal",
+        "title": "Tajikistan import procedures",
+        "kind": "customs_authority",
+        "scope": "Government trade portal for import formalities and customs references.",
+        "sourceUrl": "https://tfadatabase.org/en/members/tajikistan/contact-points"
+      }
+    ],
+    "TL": [
+      {
+        "url": "https://customs.gov.tl/doing-business/hs-code-tariff-and-incoterms/",
+        "authority": "Timor-Leste Customs Authority",
+        "title": "HS Code (Tariff) and Incoterms",
+        "kind": "customs_guidance",
+        "scope": "Customs tariff classification and tariff reference."
+      },
+      {
+        "url": "https://customs.gov.tl/doing-business/duties-taxes/",
+        "authority": "Timor-Leste Customs Authority",
+        "title": "Duties and Taxes",
+        "kind": "customs_guidance",
+        "scope": "Official information on import duties and taxes by charge type."
+      }
+    ],
+    "TM": [
+      {
+        "url": "https://customs.gov.tm/en/customs-info/customs-fees/duties",
+        "authority": "State Customs Service of Turkmenistan",
+        "title": "Custom duties",
+        "kind": "official_schedule",
+        "scope": "Official list of products subject to import duty and their published rates.",
+        "sourceUrl": "https://japan.tmembassy.gov.tm/websites"
+      }
+    ],
+    "TN": [
+      {
+        "url": "https://www.douane.gov.tn/tarifweb2026/",
+        "authority": "Tunisian Customs",
+        "title": "Tarif Web 2026",
+        "kind": "tariff_search",
+        "scope": "Official 2026 tariff and nomenclature search.",
+        "sourceUrl": "https://rocb-mena.org/memberspage/"
+      }
+    ],
+    "TO": [
+      {
+        "url": "https://www.revenue.gov.to/index.php/customs-tariffs-and-fees",
+        "authority": "Tonga Ministry of Revenue and Customs",
+        "title": "Customs Tariffs and Fees",
+        "kind": "official_schedule",
+        "scope": "Official customs duty and excise schedules."
+      }
+    ],
+    "TR": [
+      {
+        "url": "https://uygulama.gtb.gov.tr/Tara",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Türkiye (link 1) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.mevzuat.gov.tr/MevzuatMetin/20.5.6622.pdf",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Türkiye (link 2) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri/1-ithalat-rejimi-kararikarar-sayisi3350karar-metni-ve-tablolar-konsolide-edilmis-olup-gunceldir",
+        "authority": "Republic of Türkiye Ministry of Trade",
+        "title": "2026 Ministry of Trade consolidated Lists I–IV",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://ticaret.gov.tr/ithalat/ithalat-mevzuati/ithalat-rejimi-karari-igv-karari-ve-ithalat-tebligleri/2-ithalatta-ilave-gumruk-vergisi-uygulanmasina-iliskin-karar-karar-sayisi-3351-karar-metni-ve-tablolar-konsolide-edilmis-olup-gunceldir",
+        "authority": "Republic of Türkiye Ministry of Trade",
+        "title": "2026 Ministry of Trade consolidated Annexes 1–3",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "TT": [
+      {
+        "url": "https://tradeind.gov.tt/ttbizlink-launches-an-enhanced-hs-code-and-tariff-finder/",
+        "authority": "Trinidad and Tobago Ministry of Trade, Investment and Tourism",
+        "title": "HS Code and Tariff Finder",
+        "kind": "tariff_search",
+        "scope": "Official announcement and access to tariff finder."
+      }
+    ],
+    "TZ": [
+      {
+        "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+        "authority": "East African Community / Kenya Revenue Authority",
+        "title": "EAC CET 2022, KRA publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.rra.gov.rw/index.php?L=0&id=129",
+        "authority": "East African Community / Rwanda Revenue Authority",
+        "title": "EAC CET HS2022, June 2025 consolidated publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "UA": [
+      {
+        "url": "https://zakon.rada.gov.ua/laws/show/2697-20",
+        "authority": "Verkhovna Rada of Ukraine",
+        "title": "Law on the Customs Tariff of Ukraine",
+        "kind": "official_legislation",
+        "scope": "Official act and amendments, with links to chapter annexes."
+      },
+      {
+        "url": "https://zakon.rada.gov.ua/laws/show/2697%d0%b0-20?lang=en#Text",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Ukraine (Chapters 01-49) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://zakon.rada.gov.ua/laws/show/en/2697%d0%b1-20#Text",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "Ukraine (Chapters 50-97) — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://customs.gov.ua/en/informatsia-dlia-opryliudnenia-zgidno-z-ugodoiu-sot",
+        "authority": "State Customs Service of Ukraine",
+        "title": "WTO Trade Facilitation Agreement publications",
+        "kind": "customs_authority",
+        "scope": "Customs Service reference for applied import duty legislation, customs procedures and contacts."
+      }
+    ],
+    "UG": [
+      {
+        "url": "https://ugandatrades.go.ug",
+        "authority": "Ministry of Trade, Industry and Cooperatives, Uganda",
+        "title": "Uganda Trade Portal",
+        "kind": "customs_guidance",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.kra.go.ke/news-center/public-notices/1733-implementation-of-the-2022-harmonized-system-the-2022-east-african-community-common-external-tariff",
+        "authority": "East African Community / Kenya Revenue Authority",
+        "title": "EAC CET 2022, KRA publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://www.rra.gov.rw/index.php?L=0&id=129",
+        "authority": "East African Community / Rwanda Revenue Authority",
+        "title": "EAC CET HS2022, June 2025 consolidated publication",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "US": [
+      {
+        "url": "https://hts.usitc.gov/current",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "United States — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.usitc.gov/harmonized_tariff_information/hts/archive/list",
+        "authority": "USITC",
+        "title": "2026 HTS Revision 23",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "UY": [
+      {
+        "url": "https://aplicaciones.aduanas.gub.uy/LuciapubX/DatoBasico.Arancel.HPUDBAr2.aspx",
+        "authority": "Dirección Nacional de Aduanas, Uruguay",
+        "title": "Sistema Lucía — Arancel",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      },
+      {
+        "url": "https://www.gub.uy/ministerio-economia-finanzas/nomenclatura-aranceles-uruguay-0",
+        "authority": "Ministerio de Economía y Finanzas, Uruguay",
+        "title": "MEF Arancel Nacional, February 2025",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      },
+      {
+        "url": "https://polcom.mercosur.int/public/ncm/vigente",
+        "authority": "Secretaría del MERCOSUR, Sector de Asesoría Técnica",
+        "title": "MERCOSUR POLCOM NCM and AEC at 1 November 2026",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "UZ": [
+      {
+        "url": "https://tarif.customs.uz/en?lang=uz_UZ",
+        "authority": "Customs Committee, Uzbekistan",
+        "title": "Integrated Tariff",
+        "kind": "tariff_search",
+        "scope": "Official national tariff by product, origin and trade direction."
+      }
+    ],
+    "VC": [
+      {
+        "url": "https://customs.gov.vc/tariff-classification",
+        "authority": "Saint Vincent and the Grenadines Customs and Excise Department",
+        "title": "Tariff Classification",
+        "kind": "official_schedule",
+        "scope": "Official ASYCUDA HS 2022 tariff with rates."
+      }
+    ],
+    "VE": [
+      {
+        "url": "https://tfadatabase.org/en/members/venezuela-bolivarian-republic-of/publication-of-information-for-governments-and-traders",
+        "authority": "WTO Trade Facilitation Agreement Database (Venezuela notification)",
+        "title": "Venezuela published trade information",
+        "kind": "member_notification",
+        "scope": "Published WTO member notification lists SENIAT and the single window for applied duties and taxes. The linked SENIAT site returned an access error in verification."
+      }
+    ],
+    "VN": [
+      {
+        "url": "https://www.vietnamtradeportal.gov.vn/index.php?r=tradeInfo/index",
+        "authority": "Viet Nam Customs",
+        "title": "Viet Nam Trade Portal",
+        "kind": "tariff_search",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ],
+    "VU": [
+      {
+        "url": "https://vanuatucustoms.gov.vu/index.php/customs/hs-nomenclature",
+        "authority": "Vanuatu Department of Customs and Inland Revenue",
+        "title": "HS 2022 Customs Tariff",
+        "kind": "official_schedule",
+        "scope": "Official HS 2022 English V4 and digital tariff."
+      },
+      {
+        "url": "https://vanuatucustoms.gov.vu/images/Customs_Tariff/HS2022_English_Version_Final_V4.pdf",
+        "authority": "Vanuatu Department of Customs and Inland Revenue",
+        "title": "HS 2022 Schedule 1 (English V4)",
+        "kind": "official_schedule",
+        "scope": "Published statutory ordinary duty, import excise and VAT columns.",
+        "sourceUrl": "https://vanuatucustoms.gov.vu/index.php/customs/hs-nomenclature"
+      }
+    ],
+    "WS": [
+      {
+        "url": "https://customs.gov.ws/customs-services/",
+        "authority": "Samoa Ministry of Customs",
+        "title": "Customs Services",
+        "kind": "official_schedule",
+        "scope": "Official tariff schedule and amendments index."
+      }
+    ],
+    "XK": [
+      {
+        "url": "https://dogana.rks-gov.net/sharedfolder/ProductFiles/2026_488f89e7-9610-4161-b671-3e11c747d458.pdf",
+        "authority": "Kosovo Customs",
+        "title": "Integrated Tariff of Kosovo 2026",
+        "kind": "official_schedule",
+        "scope": "Integrated tariff. Verify the effective version for shipment date."
+      },
+      {
+        "url": "https://dogana.rks-gov.net/CustomsFee/ProductLinks",
+        "authority": "Kosovo Customs",
+        "title": "Integrated tariff publication index",
+        "kind": "official_schedule",
+        "scope": "Kosovo Customs index for the English and local-language integrated tariff, including 2026."
+      }
+    ],
+    "YE": [
+      {
+        "url": "https://www.yemen-customs.net/ar/help/duty-calculator/",
+        "authority": "Yemen Customs Authority",
+        "title": "Duty calculator",
+        "kind": "tariff_search",
+        "scope": "Duty calculator operated by the Yemen Customs Authority. Confirm relevant port and administration before applying results."
+      }
+    ],
+    "ZA": [
+      {
+        "url": "https://www.sars.gov.za/Pages/default.aspx",
+        "authority": "World Customs Organization (directory publisher)",
+        "title": "South Africa — WCO-listed source",
+        "kind": "wco_directory_reference",
+        "scope": "External link from the WCO national tariff directory. Verify accessibility, issuing authority and applicable tariff edition at the destination.",
+        "sourceUrl": "https://www.wcoomd.org/en/topics/nomenclature/resources/national-and-international-customs-tariff/national-tariff.aspx"
+      },
+      {
+        "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/",
+        "authority": "South African Revenue Service / Southern African Customs Union",
+        "title": "SARS Schedule 1 Part 1, 2026-11-06",
+        "kind": "bundled_reference",
+        "scope": "Authority source for the bundled reference edition. Review its dated scope and limitations."
+      }
+    ],
+    "ZM": [
+      {
+        "url": "https://www.zra.org.zm/applied-rates-of-duties-and-taxes-imposed-in-connection-with-importation-exportation/",
+        "authority": "Zambia Revenue Authority",
+        "title": "Applied rates of duties and taxes",
+        "kind": "official_schedule",
+        "scope": "National tariff and import tax publications."
+      }
+    ],
+    "ZW": [
+      {
+        "url": "https://www.zimra.co.zw/customs/classification-of-goods/tariff-handbook",
+        "authority": "Zimbabwe Revenue Authority",
+        "title": "Tariff Handbook",
+        "kind": "official_schedule",
+        "scope": "Link published in the WTO TFA database based on Member notifications. Confirm the current edition and scope.",
+        "sourceUrl": "https://tfadatabase.org/en/information-for-traders/import-export-and-transit-procedures/applied-rates-of-duties-and-taxes"
+      }
+    ]
+  }
+}

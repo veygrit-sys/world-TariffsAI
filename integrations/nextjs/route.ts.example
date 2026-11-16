@@ -1,0 +1,22 @@
+// Copy into app/api/internal/customs/[...action]/route.ts in the merchant's Next.js project.
+// Install the local package and include its data/ directory in deployment tracing.
+// This endpoint is for trusted server callers; never put the service key in a NEXT_PUBLIC_ variable.
+import { loadDataset, loadOperationalTariffCatalog } from '@veygrit/customs-ai';
+import { createHandler } from '@veygrit/customs-ai/http';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+const dataset = loadDataset();
+const handle = createHandler({
+  dataset,
+  tariffs: loadOperationalTariffCatalog(dataset),
+  apiKey: process.env.VEYGRIT_CUSTOMS_API_KEY ?? '',
+});
+async function route(request: Request) {
+  const original = new URL(request.url);
+  original.pathname = original.pathname === '/api/internal/customs/plan'
+    ? '/v1/customs/plan'
+    : original.pathname.replace('/api/internal/customs', '/v1');
+  return handle(new Request(original, request), { peer: 'nextjs-internal-service' });
+}
+export const POST = route;
+export const GET = route;

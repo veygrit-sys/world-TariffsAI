@@ -1,0 +1,499 @@
+[
+  {
+    "id": "us_mpf_formal_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "正式申告の貨物処理手数料（MPF）",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "関税・運賃・保険料を除いた対象貨物価額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "0.3464",
+      "minimum": "34.58",
+      "maximum": "670.86"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "正式輸入申告に適用される場合の参考条件。",
+      "USMCAなどの協定上の免除、特別手続、手入力の加算を個別に確認する。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_mpf_manual_surcharge_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "正式申告の手入力加算",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "対象の手入力申告・貨物引取り1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "4.15"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "手入力加算が適用される正式申告の場合。簡易申告の定額区分は別に確認する。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_mpf_informal_automated_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "簡易申告の貨物処理手数料（電子・CBP作成以外）",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "適用される簡易申告・貨物引取り1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "2.77"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "申告方法に応じた選択肢。ほかの簡易申告区分との重複計上を避ける。",
+      "国際郵便、指定の急送貨物施設、協定免除は個別に扱う。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_mpf_informal_manual_non_cbp_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "簡易申告の貨物処理手数料（手入力・CBP作成以外）",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "適用される簡易申告・貨物引取り1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "8.30"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "申告方法に応じた選択肢。ほかの簡易申告区分との重複計上を避ける。",
+      "国際郵便、指定の急送貨物施設、協定免除は個別に扱う。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_mpf_informal_manual_cbp_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "簡易申告の貨物処理手数料（手入力・CBP作成）",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "適用される簡易申告・貨物引取り1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "12.45"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "申告方法に応じた選択肢。ほかの簡易申告区分との重複計上を避ける。",
+      "国際郵便、指定の急送貨物施設、協定免除は個別に扱う。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_dutiable_mail_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "課税郵便のCBP手数料",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "対象となる課税郵便物1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "7.61"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": [
+      "post"
+    ],
+    "conditionsJa": [
+      "CBPが扱う対象の課税郵便物に限る。郵便事業者の取扱手数料は別に照会する。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.22(f), dutiable mail",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.22"
+      }
+    ]
+  },
+  {
+    "id": "us_express_hub_fy2027",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "指定急送貨物施設の手数料",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "該当施設で扱う個別運送状・船荷証券1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "1.38"
+    },
+    "referenceFrom": "2026-10-01",
+    "referenceThrough": "2026-11-12",
+    "transports": [
+      "air",
+      "sea",
+      "land",
+      "courier_unspecified"
+    ],
+    "conditionsJa": [
+      "指定の急送貨物・集中処理施設が対象。荷主への請求の有無と内訳を運送事業者に確認する。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "CBP Decision 26-14, fiscal year 2027 user fees",
+        "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15530/customs-user-fees-to-be-adjusted-for-inflation-in-fiscal-year-2027"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "19 CFR 24.23, merchandise processing fees",
+        "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-24/section-24.23"
+      }
+    ]
+  },
+  {
+    "id": "us_harbor_maintenance",
+    "countries": [
+      "US",
+      "PR"
+    ],
+    "labelJa": "港湾維持手数料（HMF）",
+    "category": "port_usage",
+    "currency": "USD",
+    "basisJa": "対象港で荷卸しする船舶輸入商業貨物の価額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "0.125"
+    },
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "transports": [
+      "sea"
+    ],
+    "conditionsJa": [
+      "法令上の対象港・貨物・免除を確認する。輸入以外の利用形態はこの参照の範囲外。"
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "Harbor Maintenance Fee",
+        "url": "https://www.help.cbp.gov/s/article/Article-1105?language=en_US"
+      }
+    ]
+  },
+  {
+    "id": "ca_post_handling",
+    "countries": [
+      "CA"
+    ],
+    "labelJa": "カナダ郵便の輸入取扱手数料",
+    "category": "postal_operator",
+    "currency": "CAD",
+    "basisJa": "関税または税が課された対象郵便物1件",
+    "terms": {
+      "kind": "flat",
+      "amount": "9.95"
+    },
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "transports": [
+      "post"
+    ],
+    "conditionsJa": [
+      "Canada Post取扱の郵便で、CBSAが関税または税を賦課した場合。",
+      "民間クーリエの立替・通関サービス料金は運送会社に確認する。"
+    ],
+    "sources": [
+      {
+        "authority": "Canada Post",
+        "title": "Customs duty, taxes and exemptions",
+        "url": "https://www.canadapost-postescanada.ca/cpc/en/support/articles/customs-requirements/customs-duty-taxes-and-exemptions.page"
+      },
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "D5-1-1 International Mail",
+        "url": "https://www.cbsa-asfc.gc.ca/publications/dm-md/pdf/d5-1-1-eng.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mx_dta_article49",
+    "countries": [
+      "MX"
+    ],
+    "labelJa": "通関手続料（DTA）",
+    "category": "customs_authority",
+    "currency": "MXN",
+    "basisJa": "LFD第49条第I号の一般輸入税の課税価額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "0.8",
+      "minimum": "461.61"
+    },
+    "referenceFrom": "2026-01-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "第I号の従価区分と第III号に基づく下限。定額となる別区分・特例は申告類型と照合する。",
+      "協定、対象申告、免除・特例を確認する。"
+    ],
+    "sources": [
+      {
+        "authority": "Cámara de Diputados de México",
+        "title": "Ley Federal de Derechos, artículo 49",
+        "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFD.pdf"
+      }
+    ]
+  },
+  {
+    "id": "br_siscomex_di",
+    "countries": [
+      "BR"
+    ],
+    "labelJa": "Siscomexの輸入申告基本手数料（DI）",
+    "category": "customs_authority",
+    "currency": "BRL",
+    "basisJa": "旧方式のDI申告1件の基本額",
+    "terms": {
+      "kind": "flat",
+      "amount": "115.67"
+    },
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "DIの基本額。明細追加（adição）の段階別料金は別途確認する。",
+      "DUIMPや郵便・急送貨物の方式は、利用する制度に合わせて照合する。"
+    ],
+    "sources": [
+      {
+        "authority": "Imprensa Nacional do Brasil",
+        "title": "Portaria ME 4.131/2021, Diário Oficial",
+        "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=16%2F04%2F2021&jornal=515&pagina=18"
+      },
+      {
+        "authority": "Receita Federal do Brasil",
+        "title": "Simular o tratamento tributário e administrativo de importações",
+        "url": "https://www.gov.br/pt-br/servicos/simular-o-tratamento-tributario-e-administrativo-de-importacoes"
+      }
+    ]
+  },
+  {
+    "id": "ar_statistics_charge",
+    "countries": [
+      "AR"
+    ],
+    "labelJa": "統計手数料（Tasa de Estadística）",
+    "category": "customs_authority",
+    "currency": "USD",
+    "basisJa": "最終消費向け輸入の法定課税標準。上限区分はUSD換算額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "3"
+    },
+    "referenceFrom": "2025-01-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "上限は価額区分ごとに異なる。政令第1条の表を確認する。",
+      "MERCOSUR原産品、明示された協定免除、特例の対象を照合する。"
+    ],
+    "sources": [
+      {
+        "authority": "Poder Ejecutivo Nacional de Argentina",
+        "title": "Decreto 1140/2024, artículos 1 a 5",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1140-2024-407914/texto"
+      },
+      {
+        "authority": "Secretaría de Hacienda de Argentina",
+        "title": "Modificaciones a la legislación tributaria, 4to trimestre 2024",
+        "url": "https://www.argentina.gob.ar/sites/default/files/4to_trimestre_2024.pdf"
+      }
+    ]
+  },
+  {
+    "id": "bs_c13_processing",
+    "countries": [
+      "BS"
+    ],
+    "labelJa": "C13通常輸入申告の処理料",
+    "category": "customs_authority",
+    "currency": "BSD",
+    "basisJa": "対象のC13 Home Consumption EntryのCIF価額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "1",
+      "minimum": "10.00",
+      "maximum": "1500.00"
+    },
+    "referenceFrom": "2026-07-01",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "規則147(2)(a)の対象申告。郵便物、C14、簡易申告の料金は各制度を確認する。",
+      "環境税や通関業者の手数料は別費目。",
+      "2026年7月1日施行の改正上限を参照する。"
+    ],
+    "sources": [
+      {
+        "authority": "Government of The Bahamas",
+        "title": "Customs Management Regulations 2013, reg. 147",
+        "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0062/2013-0062.pdf"
+      },
+      {
+        "authority": "Government of The Bahamas",
+        "title": "Customs Management (Amendment) (No. 3) Regulations 2026, S.I. No. 57",
+        "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/AMENDING/2026/2026-0057S/2026-0057S.pdf"
+      }
+    ]
+  },
+  {
+    "id": "bm_wharfage",
+    "countries": [
+      "BM"
+    ],
+    "labelJa": "指定港・空港の荷役手数料",
+    "category": "port_usage",
+    "currency": "BMD",
+    "basisJa": "指定港または指定空港で荷卸しされる輸入品の関税評価額",
+    "terms": {
+      "kind": "ad_valorem",
+      "ratePercent": "1.25"
+    },
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "transports": [
+      "air",
+      "sea"
+    ],
+    "conditionsJa": [
+      "Hamilton港、St. George’s港、L.F. Wade国際空港が対象。",
+      "郵便貨物、免除品目・制度は別途照合する。"
+    ],
+    "sources": [
+      {
+        "authority": "Government of Bermuda, Customs Department",
+        "title": "Wharfage fees on imported goods",
+        "url": "https://www.gov.bm/articles/wharfage-fees-imported-goods"
+      }
+    ]
+  },
+  {
+    "id": "jm_customs_administrative_fee",
+    "countries": [
+      "JM"
+    ],
+    "labelJa": "税関事務手数料（CAF）",
+    "category": "customs_authority",
+    "currency": "JMD",
+    "basisJa": "申告方式、税関サービス区分",
+    "terms": {
+      "kind": "authority_review"
+    },
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "transports": null,
+    "conditionsJa": [
+      "申告の種類と料金表を税関で確認する。品目別関税、環境賦課金、配送会社手数料は別に照会する。"
+    ],
+    "sources": [
+      {
+        "authority": "Jamaica Customs Agency",
+        "title": "Duties & taxes: Customs Administrative Fee",
+        "url": "https://jca.gov.jm/business/duties-and-taxes/"
+      }
+    ]
+  }
+]

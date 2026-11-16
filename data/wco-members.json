@@ -1,0 +1,1795 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "memberCount": 187,
+  "sources": [
+    {
+      "id": "wco-membership",
+      "authority": "World Customs Organization",
+      "title": "WCO Members",
+      "url": "https://www.wcoomd.org/en/about-us/wco-members/membership.aspx",
+      "role": "Published membership count"
+    },
+    {
+      "id": "wco-membership-dates",
+      "authority": "World Customs Organization",
+      "title": "List of Members with membership date",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/about-us/wco-members/list-of-members-with-membership-date.pdf?db=web",
+      "referenceDate": "2025-10-16",
+      "sha256": "307ded4ab503bc2d4ffecbd1e4314bfa664a3dc4d64c5be856af0d5d09a53ac5",
+      "role": "Canonical membership labels, membership dates and EU participation status"
+    },
+    {
+      "id": "japan-mof-wco-roster",
+      "authority": "Ministry of Finance, Japan",
+      "title": "WCO（世界税関機構）メンバー一覧表（加入順）",
+      "url": "https://www.mof.go.jp/policy/customs_tariff/trade/international/wco/members.pdf",
+      "referenceDate": "2026-07-01",
+      "sha256": "82f119e96cde5a7468de1f19b19001de9ea1f2ebf99881ab66231323f517835c",
+      "termsUrl": "https://www.mof.go.jp/about_mof/notice/index.html",
+      "role": "Independent cross-check of all 187 members, Japanese names and deposit dates"
+    },
+    {
+      "id": "eurostat-xk",
+      "authority": "Eurostat",
+      "title": "NUTS correspondence tables",
+      "url": "https://ec.europa.eu/eurostat/web/nuts/correspondence-tables",
+      "role": "Reference for the use of XK for Kosovo"
+    }
+  ],
+  "members": [
+    {
+      "memberId": "AD",
+      "iso2": "AD",
+      "name": "Andorra",
+      "nameJa": "アンドラ",
+      "kind": "country_or_territory",
+      "joinedOn": "1998-09-03",
+      "mofRosterNumber": 147
+    },
+    {
+      "memberId": "AE",
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "nameJa": "アラブ首長国連邦",
+      "kind": "country_or_territory",
+      "joinedOn": "1979-02-07",
+      "mofRosterNumber": 85
+    },
+    {
+      "memberId": "AF",
+      "iso2": "AF",
+      "name": "Afghanistan (Islamic Republic of)",
+      "nameJa": "アフガニスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "2004-08-10",
+      "mofRosterNumber": 164
+    },
+    {
+      "memberId": "AG",
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "nameJa": "アンティグア・バーブーダ",
+      "kind": "country_or_territory",
+      "joinedOn": "2017-04-10",
+      "mofRosterNumber": 182
+    },
+    {
+      "memberId": "AL",
+      "iso2": "AL",
+      "name": "Albania",
+      "nameJa": "アルバニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-08-31",
+      "mofRosterNumber": 121
+    },
+    {
+      "memberId": "AM",
+      "iso2": "AM",
+      "name": "Armenia",
+      "nameJa": "アルメニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-30",
+      "mofRosterNumber": 116
+    },
+    {
+      "memberId": "AO",
+      "iso2": "AO",
+      "name": "Angola",
+      "nameJa": "アンゴラ",
+      "kind": "country_or_territory",
+      "joinedOn": "1990-09-26",
+      "mofRosterNumber": 106
+    },
+    {
+      "memberId": "AR",
+      "iso2": "AR",
+      "name": "Argentina",
+      "nameJa": "アルゼンチン",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-07-01",
+      "mofRosterNumber": 52
+    },
+    {
+      "memberId": "AT",
+      "iso2": "AT",
+      "name": "Austria",
+      "nameJa": "オーストリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1953-01-21",
+      "mofRosterNumber": 14
+    },
+    {
+      "memberId": "AU",
+      "iso2": "AU",
+      "name": "Australia",
+      "nameJa": "オーストラリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1961-01-05",
+      "mofRosterNumber": 27
+    },
+    {
+      "memberId": "AZ",
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "nameJa": "アゼルバイジャン",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-17",
+      "mofRosterNumber": 112
+    },
+    {
+      "memberId": "BA",
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "nameJa": "ボスニア・ヘルツェゴビナ",
+      "kind": "country_or_territory",
+      "joinedOn": "2008-07-04",
+      "mofRosterNumber": 174
+    },
+    {
+      "memberId": "BB",
+      "iso2": "BB",
+      "name": "Barbados",
+      "nameJa": "バルバドス",
+      "kind": "country_or_territory",
+      "joinedOn": "1999-01-07",
+      "mofRosterNumber": 150
+    },
+    {
+      "memberId": "BD",
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "nameJa": "バングラデシュ",
+      "kind": "country_or_territory",
+      "joinedOn": "1978-07-01",
+      "mofRosterNumber": 81
+    },
+    {
+      "memberId": "BE",
+      "iso2": "BE",
+      "name": "Belgium",
+      "nameJa": "ベルギー",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-12-11",
+      "mofRosterNumber": 12
+    },
+    {
+      "memberId": "BF",
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "nameJa": "ブルキナファソ",
+      "kind": "country_or_territory",
+      "joinedOn": "1966-09-16",
+      "mofRosterNumber": 48
+    },
+    {
+      "memberId": "BG",
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "nameJa": "ブルガリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1973-08-01",
+      "mofRosterNumber": 69
+    },
+    {
+      "memberId": "BH",
+      "iso2": "BH",
+      "name": "Bahrain",
+      "nameJa": "バーレーン",
+      "kind": "country_or_territory",
+      "joinedOn": "2001-04-18",
+      "mofRosterNumber": 156
+    },
+    {
+      "memberId": "BI",
+      "iso2": "BI",
+      "name": "Burundi",
+      "nameJa": "ブルンジ",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-10-20",
+      "mofRosterNumber": 39
+    },
+    {
+      "memberId": "BJ",
+      "iso2": "BJ",
+      "name": "Benin",
+      "nameJa": "ベナン",
+      "kind": "country_or_territory",
+      "joinedOn": "1998-11-09",
+      "mofRosterNumber": 149
+    },
+    {
+      "memberId": "BM",
+      "iso2": "BM",
+      "name": "Bermuda",
+      "nameJa": "バミューダ",
+      "kind": "customs_territory",
+      "joinedOn": "1990-07-01",
+      "mofRosterNumber": 105
+    },
+    {
+      "memberId": "BN",
+      "iso2": "BN",
+      "name": "Brunei Darussalam",
+      "nameJa": "ブルネイ",
+      "kind": "country_or_territory",
+      "joinedOn": "1996-07-01",
+      "mofRosterNumber": 141
+    },
+    {
+      "memberId": "BO",
+      "iso2": "BO",
+      "name": "Bolivia",
+      "nameJa": "ボリビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1997-08-14",
+      "mofRosterNumber": 145
+    },
+    {
+      "memberId": "BR",
+      "iso2": "BR",
+      "name": "Brazil",
+      "nameJa": "ブラジル",
+      "kind": "country_or_territory",
+      "joinedOn": "1981-01-19",
+      "mofRosterNumber": 88
+    },
+    {
+      "memberId": "BS",
+      "iso2": "BS",
+      "name": "Bahamas",
+      "nameJa": "バハマ",
+      "kind": "country_or_territory",
+      "joinedOn": "1974-08-16",
+      "mofRosterNumber": 73
+    },
+    {
+      "memberId": "BT",
+      "iso2": "BT",
+      "name": "Bhutan",
+      "nameJa": "ブータン",
+      "kind": "country_or_territory",
+      "joinedOn": "2002-02-12",
+      "mofRosterNumber": 160
+    },
+    {
+      "memberId": "BW",
+      "iso2": "BW",
+      "name": "Botswana",
+      "nameJa": "ボツワナ",
+      "kind": "country_or_territory",
+      "joinedOn": "1978-08-25",
+      "mofRosterNumber": 83
+    },
+    {
+      "memberId": "BY",
+      "iso2": "BY",
+      "name": "Belarus",
+      "nameJa": "ベラルーシ",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-12-16",
+      "mofRosterNumber": 135
+    },
+    {
+      "memberId": "BZ",
+      "iso2": "BZ",
+      "name": "Belize",
+      "nameJa": "ベリーズ",
+      "kind": "country_or_territory",
+      "joinedOn": "2008-04-22",
+      "mofRosterNumber": 173
+    },
+    {
+      "memberId": "CA",
+      "iso2": "CA",
+      "name": "Canada",
+      "nameJa": "カナダ",
+      "kind": "country_or_territory",
+      "joinedOn": "1971-10-12",
+      "mofRosterNumber": 64
+    },
+    {
+      "memberId": "CD",
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "nameJa": "コンゴ民主共和国",
+      "kind": "country_or_territory",
+      "joinedOn": "1972-07-26",
+      "mofRosterNumber": 66
+    },
+    {
+      "memberId": "CF",
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "nameJa": "中央アフリカ",
+      "kind": "country_or_territory",
+      "joinedOn": "1986-07-28",
+      "mofRosterNumber": 96
+    },
+    {
+      "memberId": "CG",
+      "iso2": "CG",
+      "name": "Congo (Republic of the)",
+      "nameJa": "コンゴ共和国",
+      "kind": "country_or_territory",
+      "joinedOn": "1975-09-02",
+      "mofRosterNumber": 76
+    },
+    {
+      "memberId": "CH",
+      "iso2": "CH",
+      "name": "Switzerland",
+      "nameJa": "スイス",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-12-19",
+      "mofRosterNumber": 13
+    },
+    {
+      "memberId": "CI",
+      "iso2": "CI",
+      "name": "Côte d'Ivoire",
+      "nameJa": "コートジボワール",
+      "kind": "country_or_territory",
+      "joinedOn": "1963-09-02",
+      "mofRosterNumber": 32
+    },
+    {
+      "memberId": "CL",
+      "iso2": "CL",
+      "name": "Chile",
+      "nameJa": "チリ",
+      "kind": "country_or_territory",
+      "joinedOn": "1966-07-01",
+      "mofRosterNumber": 46
+    },
+    {
+      "memberId": "CM",
+      "iso2": "CM",
+      "name": "Cameroon",
+      "nameJa": "カメルーン",
+      "kind": "country_or_territory",
+      "joinedOn": "1965-04-09",
+      "mofRosterNumber": 43
+    },
+    {
+      "memberId": "CN",
+      "iso2": "CN",
+      "name": "China",
+      "nameJa": "中国",
+      "kind": "country_or_territory",
+      "joinedOn": "1983-07-18",
+      "mofRosterNumber": 93
+    },
+    {
+      "memberId": "CO",
+      "iso2": "CO",
+      "name": "Colombia",
+      "nameJa": "コロンビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-07-11",
+      "mofRosterNumber": 128
+    },
+    {
+      "memberId": "CR",
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "nameJa": "コスタリカ",
+      "kind": "country_or_territory",
+      "joinedOn": "2001-08-29",
+      "mofRosterNumber": 158
+    },
+    {
+      "memberId": "CU",
+      "iso2": "CU",
+      "name": "Cuba",
+      "nameJa": "キューバ",
+      "kind": "country_or_territory",
+      "joinedOn": "1988-07-01",
+      "mofRosterNumber": 102
+    },
+    {
+      "memberId": "CV",
+      "iso2": "CV",
+      "name": "Cape Verde",
+      "nameJa": "カーボベルデ",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-07-01",
+      "mofRosterNumber": 119
+    },
+    {
+      "memberId": "CW",
+      "iso2": "CW",
+      "name": "Curaçao",
+      "nameJa": "キュラソー",
+      "kind": "customs_territory",
+      "joinedOn": "1988-07-11",
+      "mofRosterNumber": 157
+    },
+    {
+      "memberId": "CY",
+      "iso2": "CY",
+      "name": "Cyprus",
+      "nameJa": "キプロス",
+      "kind": "country_or_territory",
+      "joinedOn": "1967-08-31",
+      "mofRosterNumber": 51
+    },
+    {
+      "memberId": "CZ",
+      "iso2": "CZ",
+      "name": "Czech Republic",
+      "nameJa": "チェコ",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-01-01",
+      "mofRosterNumber": 124
+    },
+    {
+      "memberId": "DE",
+      "iso2": "DE",
+      "name": "Germany",
+      "nameJa": "ドイツ",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-11-04",
+      "mofRosterNumber": 10
+    },
+    {
+      "memberId": "DJ",
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "nameJa": "ジブチ",
+      "kind": "country_or_territory",
+      "joinedOn": "2008-03-19",
+      "mofRosterNumber": 172
+    },
+    {
+      "memberId": "DK",
+      "iso2": "DK",
+      "name": "Denmark",
+      "nameJa": "デンマーク",
+      "kind": "country_or_territory",
+      "joinedOn": "1951-10-19",
+      "mofRosterNumber": 3
+    },
+    {
+      "memberId": "DO",
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "nameJa": "ドミニカ共和国",
+      "kind": "country_or_territory",
+      "joinedOn": "2004-07-28",
+      "mofRosterNumber": 163
+    },
+    {
+      "memberId": "DZ",
+      "iso2": "DZ",
+      "name": "Algeria",
+      "nameJa": "アルジェリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1966-12-19",
+      "mofRosterNumber": 49
+    },
+    {
+      "memberId": "EC",
+      "iso2": "EC",
+      "name": "Ecuador",
+      "nameJa": "エクアドル",
+      "kind": "country_or_territory",
+      "joinedOn": "1997-12-16",
+      "mofRosterNumber": 146
+    },
+    {
+      "memberId": "EE",
+      "iso2": "EE",
+      "name": "Estonia",
+      "nameJa": "エストニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-18",
+      "mofRosterNumber": 113
+    },
+    {
+      "memberId": "EG",
+      "iso2": "EG",
+      "name": "Egypt",
+      "nameJa": "エジプト",
+      "kind": "country_or_territory",
+      "joinedOn": "1956-10-26",
+      "mofRosterNumber": 19
+    },
+    {
+      "memberId": "ER",
+      "iso2": "ER",
+      "name": "Eritrea",
+      "nameJa": "エリトリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1995-08-08",
+      "mofRosterNumber": 138
+    },
+    {
+      "memberId": "ES",
+      "iso2": "ES",
+      "name": "Spain",
+      "nameJa": "スペイン",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-07-13",
+      "mofRosterNumber": 5
+    },
+    {
+      "memberId": "ET",
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "nameJa": "エチオピア",
+      "kind": "country_or_territory",
+      "joinedOn": "1973-08-06",
+      "mofRosterNumber": 70
+    },
+    {
+      "memberId": "FI",
+      "iso2": "FI",
+      "name": "Finland",
+      "nameJa": "フィンランド",
+      "kind": "country_or_territory",
+      "joinedOn": "1961-01-27",
+      "mofRosterNumber": 28
+    },
+    {
+      "memberId": "FJ",
+      "iso2": "FJ",
+      "name": "Fiji",
+      "nameJa": "フィジー",
+      "kind": "country_or_territory",
+      "joinedOn": "1997-07-01",
+      "mofRosterNumber": 143
+    },
+    {
+      "memberId": "FR",
+      "iso2": "FR",
+      "name": "France",
+      "nameJa": "フランス",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-10-06",
+      "mofRosterNumber": 8
+    },
+    {
+      "memberId": "GA",
+      "iso2": "GA",
+      "name": "Gabon",
+      "nameJa": "ガボン",
+      "kind": "country_or_territory",
+      "joinedOn": "1965-02-18",
+      "mofRosterNumber": 42
+    },
+    {
+      "memberId": "GB",
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "nameJa": "英国",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-09-12",
+      "mofRosterNumber": 6
+    },
+    {
+      "memberId": "GE",
+      "iso2": "GE",
+      "name": "Georgia",
+      "nameJa": "ジョージア",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-10-26",
+      "mofRosterNumber": 134
+    },
+    {
+      "memberId": "GH",
+      "iso2": "GH",
+      "name": "Ghana",
+      "nameJa": "ガーナ",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-08-01",
+      "mofRosterNumber": 56
+    },
+    {
+      "memberId": "GM",
+      "iso2": "GM",
+      "name": "Gambia",
+      "nameJa": "ガンビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1987-10-14",
+      "mofRosterNumber": 100
+    },
+    {
+      "memberId": "GN",
+      "iso2": "GN",
+      "name": "Guinea",
+      "nameJa": "ギニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1991-10-30",
+      "mofRosterNumber": 110
+    },
+    {
+      "memberId": "GQ",
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "nameJa": "赤道ギニア",
+      "kind": "country_or_territory",
+      "joinedOn": "2021-12-22",
+      "mofRosterNumber": 184
+    },
+    {
+      "memberId": "GR",
+      "iso2": "GR",
+      "name": "Greece",
+      "nameJa": "ギリシャ",
+      "kind": "country_or_territory",
+      "joinedOn": "1951-12-10",
+      "mofRosterNumber": 4
+    },
+    {
+      "memberId": "GT",
+      "iso2": "GT",
+      "name": "Guatemala",
+      "nameJa": "グアテマラ",
+      "kind": "country_or_territory",
+      "joinedOn": "1985-02-22",
+      "mofRosterNumber": 94
+    },
+    {
+      "memberId": "GW",
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "nameJa": "ギニアビサウ",
+      "kind": "country_or_territory",
+      "joinedOn": "2010-08-19",
+      "mofRosterNumber": 177
+    },
+    {
+      "memberId": "GY",
+      "iso2": "GY",
+      "name": "Guyana",
+      "nameJa": "ガイアナ",
+      "kind": "country_or_territory",
+      "joinedOn": "1976-07-29",
+      "mofRosterNumber": 79
+    },
+    {
+      "memberId": "HK",
+      "iso2": "HK",
+      "name": "Hong Kong, China",
+      "nameJa": "香港",
+      "kind": "customs_territory",
+      "joinedOn": "1987-07-01",
+      "mofRosterNumber": 97
+    },
+    {
+      "memberId": "HN",
+      "iso2": "HN",
+      "name": "Honduras",
+      "nameJa": "ホンジュラス",
+      "kind": "country_or_territory",
+      "joinedOn": "2005-12-08",
+      "mofRosterNumber": 169
+    },
+    {
+      "memberId": "HR",
+      "iso2": "HR",
+      "name": "Croatia",
+      "nameJa": "クロアチア",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-07-01",
+      "mofRosterNumber": 129
+    },
+    {
+      "memberId": "HT",
+      "iso2": "HT",
+      "name": "Haiti",
+      "nameJa": "ハイチ",
+      "kind": "country_or_territory",
+      "joinedOn": "1958-01-31",
+      "mofRosterNumber": 21
+    },
+    {
+      "memberId": "HU",
+      "iso2": "HU",
+      "name": "Hungary",
+      "nameJa": "ハンガリー",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-09-16",
+      "mofRosterNumber": 57
+    },
+    {
+      "memberId": "ID",
+      "iso2": "ID",
+      "name": "Indonesia",
+      "nameJa": "インドネシア",
+      "kind": "country_or_territory",
+      "joinedOn": "1957-04-30",
+      "mofRosterNumber": 20
+    },
+    {
+      "memberId": "IE",
+      "iso2": "IE",
+      "name": "Ireland",
+      "nameJa": "アイルランド",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-09-23",
+      "mofRosterNumber": 7
+    },
+    {
+      "memberId": "IL",
+      "iso2": "IL",
+      "name": "Israel",
+      "nameJa": "イスラエル",
+      "kind": "country_or_territory",
+      "joinedOn": "1958-05-23",
+      "mofRosterNumber": 22
+    },
+    {
+      "memberId": "IN",
+      "iso2": "IN",
+      "name": "India",
+      "nameJa": "インド",
+      "kind": "country_or_territory",
+      "joinedOn": "1971-02-15",
+      "mofRosterNumber": 62
+    },
+    {
+      "memberId": "IQ",
+      "iso2": "IQ",
+      "name": "Iraq",
+      "nameJa": "イラク",
+      "kind": "country_or_territory",
+      "joinedOn": "1990-06-06",
+      "mofRosterNumber": 104
+    },
+    {
+      "memberId": "IR",
+      "iso2": "IR",
+      "name": "Iran (Islamic Republic of)",
+      "nameJa": "イラン",
+      "kind": "country_or_territory",
+      "joinedOn": "1959-10-16",
+      "mofRosterNumber": 23
+    },
+    {
+      "memberId": "IS",
+      "iso2": "IS",
+      "name": "Iceland",
+      "nameJa": "アイスランド",
+      "kind": "country_or_territory",
+      "joinedOn": "1971-02-15",
+      "mofRosterNumber": 63
+    },
+    {
+      "memberId": "IT",
+      "iso2": "IT",
+      "name": "Italy",
+      "nameJa": "イタリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-11-20",
+      "mofRosterNumber": 11
+    },
+    {
+      "memberId": "JM",
+      "iso2": "JM",
+      "name": "Jamaica",
+      "nameJa": "ジャマイカ",
+      "kind": "country_or_territory",
+      "joinedOn": "1963-03-29",
+      "mofRosterNumber": 29
+    },
+    {
+      "memberId": "JO",
+      "iso2": "JO",
+      "name": "Jordan",
+      "nameJa": "ヨルダン",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-01-01",
+      "mofRosterNumber": 33
+    },
+    {
+      "memberId": "JP",
+      "iso2": "JP",
+      "name": "Japan",
+      "nameJa": "日本",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-06-15",
+      "mofRosterNumber": 37
+    },
+    {
+      "memberId": "KE",
+      "iso2": "KE",
+      "name": "Kenya",
+      "nameJa": "ケニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1965-05-24",
+      "mofRosterNumber": 44
+    },
+    {
+      "memberId": "KG",
+      "iso2": "KG",
+      "name": "Kyrgyzstan",
+      "nameJa": "キルギス",
+      "kind": "country_or_territory",
+      "joinedOn": "2000-02-10",
+      "mofRosterNumber": 151
+    },
+    {
+      "memberId": "KH",
+      "iso2": "KH",
+      "name": "Cambodia",
+      "nameJa": "カンボジア",
+      "kind": "country_or_territory",
+      "joinedOn": "2001-04-03",
+      "mofRosterNumber": 155
+    },
+    {
+      "memberId": "KM",
+      "iso2": "KM",
+      "name": "Comoros",
+      "nameJa": "コモロ",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-07-01",
+      "mofRosterNumber": 131
+    },
+    {
+      "memberId": "KR",
+      "iso2": "KR",
+      "name": "Korea (Republic of)",
+      "nameJa": "韓国",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-07-02",
+      "mofRosterNumber": 54
+    },
+    {
+      "memberId": "KW",
+      "iso2": "KW",
+      "name": "Kuwait",
+      "nameJa": "クウェート",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-10-04",
+      "mofRosterNumber": 133
+    },
+    {
+      "memberId": "KZ",
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "nameJa": "カザフスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-30",
+      "mofRosterNumber": 117
+    },
+    {
+      "memberId": "LA",
+      "iso2": "LA",
+      "name": "Lao People’s Democratic Republic",
+      "nameJa": "ラオス",
+      "kind": "country_or_territory",
+      "joinedOn": "2007-01-16",
+      "mofRosterNumber": 171
+    },
+    {
+      "memberId": "LB",
+      "iso2": "LB",
+      "name": "Lebanon",
+      "nameJa": "レバノン",
+      "kind": "country_or_territory",
+      "joinedOn": "1960-05-20",
+      "mofRosterNumber": 25
+    },
+    {
+      "memberId": "LC",
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "nameJa": "セントルシア",
+      "kind": "country_or_territory",
+      "joinedOn": "2005-05-12",
+      "mofRosterNumber": 166
+    },
+    {
+      "memberId": "LK",
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "nameJa": "スリランカ",
+      "kind": "country_or_territory",
+      "joinedOn": "1967-05-29",
+      "mofRosterNumber": 50
+    },
+    {
+      "memberId": "LR",
+      "iso2": "LR",
+      "name": "Liberia",
+      "nameJa": "リベリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1975-01-07",
+      "mofRosterNumber": 74
+    },
+    {
+      "memberId": "LS",
+      "iso2": "LS",
+      "name": "Lesotho",
+      "nameJa": "レソト",
+      "kind": "country_or_territory",
+      "joinedOn": "1978-08-02",
+      "mofRosterNumber": 82
+    },
+    {
+      "memberId": "LT",
+      "iso2": "LT",
+      "name": "Lithuania",
+      "nameJa": "リトアニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-18",
+      "mofRosterNumber": 114
+    },
+    {
+      "memberId": "LU",
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "nameJa": "ルクセンブルク",
+      "kind": "country_or_territory",
+      "joinedOn": "1953-01-23",
+      "mofRosterNumber": 15
+    },
+    {
+      "memberId": "LV",
+      "iso2": "LV",
+      "name": "Latvia",
+      "nameJa": "ラトビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-22",
+      "mofRosterNumber": 115
+    },
+    {
+      "memberId": "LY",
+      "iso2": "LY",
+      "name": "Libya",
+      "nameJa": "リビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1983-01-11",
+      "mofRosterNumber": 92
+    },
+    {
+      "memberId": "MA",
+      "iso2": "MA",
+      "name": "Morocco",
+      "nameJa": "モロッコ",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-07-01",
+      "mofRosterNumber": 53
+    },
+    {
+      "memberId": "MD",
+      "iso2": "MD",
+      "name": "Moldova",
+      "nameJa": "モルドバ",
+      "kind": "country_or_territory",
+      "joinedOn": "1994-10-28",
+      "mofRosterNumber": 137
+    },
+    {
+      "memberId": "ME",
+      "iso2": "ME",
+      "name": "Montenegro",
+      "nameJa": "モンテネグロ",
+      "kind": "country_or_territory",
+      "joinedOn": "2006-10-24",
+      "mofRosterNumber": 170
+    },
+    {
+      "memberId": "MG",
+      "iso2": "MG",
+      "name": "Madagascar",
+      "nameJa": "マダガスカル",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-02-18",
+      "mofRosterNumber": 34
+    },
+    {
+      "memberId": "MK",
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "nameJa": "北マケドニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1994-07-01",
+      "mofRosterNumber": 136
+    },
+    {
+      "memberId": "ML",
+      "iso2": "ML",
+      "name": "Mali",
+      "nameJa": "マリ",
+      "kind": "country_or_territory",
+      "joinedOn": "1987-08-07",
+      "mofRosterNumber": 99
+    },
+    {
+      "memberId": "MM",
+      "iso2": "MM",
+      "name": "Myanmar (The Republic of the Union of)",
+      "nameJa": "ミャンマー",
+      "kind": "country_or_territory",
+      "joinedOn": "1991-03-25",
+      "mofRosterNumber": 107
+    },
+    {
+      "memberId": "MN",
+      "iso2": "MN",
+      "name": "Mongolia",
+      "nameJa": "モンゴル",
+      "kind": "country_or_territory",
+      "joinedOn": "1991-09-17",
+      "mofRosterNumber": 109
+    },
+    {
+      "memberId": "MO",
+      "iso2": "MO",
+      "name": "Macao, China",
+      "nameJa": "マカオ",
+      "kind": "customs_territory",
+      "joinedOn": "1993-07-07",
+      "mofRosterNumber": 132
+    },
+    {
+      "memberId": "MR",
+      "iso2": "MR",
+      "name": "Mauritania",
+      "nameJa": "モーリタニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1979-10-02",
+      "mofRosterNumber": 86
+    },
+    {
+      "memberId": "MT",
+      "iso2": "MT",
+      "name": "Malta",
+      "nameJa": "マルタ",
+      "kind": "country_or_territory",
+      "joinedOn": "1968-07-06",
+      "mofRosterNumber": 55
+    },
+    {
+      "memberId": "MU",
+      "iso2": "MU",
+      "name": "Mauritius",
+      "nameJa": "モーリシャス",
+      "kind": "country_or_territory",
+      "joinedOn": "1973-03-29",
+      "mofRosterNumber": 67
+    },
+    {
+      "memberId": "MV",
+      "iso2": "MV",
+      "name": "Maldives",
+      "nameJa": "モルディブ",
+      "kind": "country_or_territory",
+      "joinedOn": "1995-09-08",
+      "mofRosterNumber": 139
+    },
+    {
+      "memberId": "MW",
+      "iso2": "MW",
+      "name": "Malawi",
+      "nameJa": "マラウイ",
+      "kind": "country_or_territory",
+      "joinedOn": "1966-06-06",
+      "mofRosterNumber": 45
+    },
+    {
+      "memberId": "MX",
+      "iso2": "MX",
+      "name": "Mexico",
+      "nameJa": "メキシコ",
+      "kind": "country_or_territory",
+      "joinedOn": "1988-02-08",
+      "mofRosterNumber": 101
+    },
+    {
+      "memberId": "MY",
+      "iso2": "MY",
+      "name": "Malaysia",
+      "nameJa": "マレーシア",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-06-30",
+      "mofRosterNumber": 38
+    },
+    {
+      "memberId": "MZ",
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "nameJa": "モザンビーク",
+      "kind": "country_or_territory",
+      "joinedOn": "1987-07-01",
+      "mofRosterNumber": 98
+    },
+    {
+      "memberId": "NA",
+      "iso2": "NA",
+      "name": "Namibia",
+      "nameJa": "ナミビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-07-01",
+      "mofRosterNumber": 118
+    },
+    {
+      "memberId": "NE",
+      "iso2": "NE",
+      "name": "Niger",
+      "nameJa": "ニジェール",
+      "kind": "country_or_territory",
+      "joinedOn": "1981-07-01",
+      "mofRosterNumber": 91
+    },
+    {
+      "memberId": "NG",
+      "iso2": "NG",
+      "name": "Nigeria",
+      "nameJa": "ナイジェリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1963-08-21",
+      "mofRosterNumber": 31
+    },
+    {
+      "memberId": "NI",
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "nameJa": "ニカラグア",
+      "kind": "country_or_territory",
+      "joinedOn": "1998-09-24",
+      "mofRosterNumber": 148
+    },
+    {
+      "memberId": "NL",
+      "iso2": "NL",
+      "name": "Netherlands",
+      "nameJa": "オランダ",
+      "kind": "country_or_territory",
+      "joinedOn": "1953-01-23",
+      "mofRosterNumber": 16
+    },
+    {
+      "memberId": "NO",
+      "iso2": "NO",
+      "name": "Norway",
+      "nameJa": "ノルウェー",
+      "kind": "country_or_territory",
+      "joinedOn": "1951-08-06",
+      "mofRosterNumber": 2
+    },
+    {
+      "memberId": "NP",
+      "iso2": "NP",
+      "name": "Nepal",
+      "nameJa": "ネパール",
+      "kind": "country_or_territory",
+      "joinedOn": "1986-07-22",
+      "mofRosterNumber": 95
+    },
+    {
+      "memberId": "NZ",
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "nameJa": "ニュージーランド",
+      "kind": "country_or_territory",
+      "joinedOn": "1963-05-16",
+      "mofRosterNumber": 30
+    },
+    {
+      "memberId": "OM",
+      "iso2": "OM",
+      "name": "Oman",
+      "nameJa": "オマーン",
+      "kind": "country_or_territory",
+      "joinedOn": "2000-09-11",
+      "mofRosterNumber": 153
+    },
+    {
+      "memberId": "PA",
+      "iso2": "PA",
+      "name": "Panama",
+      "nameJa": "パナマ",
+      "kind": "country_or_territory",
+      "joinedOn": "1996-03-08",
+      "mofRosterNumber": 140
+    },
+    {
+      "memberId": "PE",
+      "iso2": "PE",
+      "name": "Peru",
+      "nameJa": "ペルー",
+      "kind": "country_or_territory",
+      "joinedOn": "1970-01-27",
+      "mofRosterNumber": 60
+    },
+    {
+      "memberId": "PG",
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "nameJa": "パプアニューギニア",
+      "kind": "country_or_territory",
+      "joinedOn": "2002-03-18",
+      "mofRosterNumber": 161
+    },
+    {
+      "memberId": "PH",
+      "iso2": "PH",
+      "name": "Philippines",
+      "nameJa": "フィリピン",
+      "kind": "country_or_territory",
+      "joinedOn": "1980-10-01",
+      "mofRosterNumber": 87
+    },
+    {
+      "memberId": "PK",
+      "iso2": "PK",
+      "name": "Pakistan",
+      "nameJa": "パキスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "1955-11-16",
+      "mofRosterNumber": 18
+    },
+    {
+      "memberId": "PL",
+      "iso2": "PL",
+      "name": "Poland",
+      "nameJa": "ポーランド",
+      "kind": "country_or_territory",
+      "joinedOn": "1974-07-17",
+      "mofRosterNumber": 72
+    },
+    {
+      "memberId": "PS",
+      "iso2": "PS",
+      "name": "Palestine",
+      "nameJa": "パレスチナ",
+      "kind": "country_or_territory",
+      "joinedOn": "2015-03-24",
+      "mofRosterNumber": 180
+    },
+    {
+      "memberId": "PT",
+      "iso2": "PT",
+      "name": "Portugal",
+      "nameJa": "ポルトガル",
+      "kind": "country_or_territory",
+      "joinedOn": "1953-01-26",
+      "mofRosterNumber": 17
+    },
+    {
+      "memberId": "PW",
+      "iso2": "PW",
+      "name": "Palau",
+      "nameJa": "パラオ",
+      "kind": "country_or_territory",
+      "joinedOn": "2024-02-02",
+      "mofRosterNumber": 186
+    },
+    {
+      "memberId": "PY",
+      "iso2": "PY",
+      "name": "Paraguay",
+      "nameJa": "パラグアイ",
+      "kind": "country_or_territory",
+      "joinedOn": "1969-10-03",
+      "mofRosterNumber": 59
+    },
+    {
+      "memberId": "QA",
+      "iso2": "QA",
+      "name": "Qatar",
+      "nameJa": "カタール",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-05-04",
+      "mofRosterNumber": 111
+    },
+    {
+      "memberId": "RO",
+      "iso2": "RO",
+      "name": "Romania",
+      "nameJa": "ルーマニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1969-01-15",
+      "mofRosterNumber": 58
+    },
+    {
+      "memberId": "RS",
+      "iso2": "RS",
+      "name": "Serbia",
+      "nameJa": "セルビア",
+      "kind": "country_or_territory",
+      "joinedOn": "2001-03-27",
+      "mofRosterNumber": 154
+    },
+    {
+      "memberId": "RU",
+      "iso2": "RU",
+      "name": "Russian Federation",
+      "nameJa": "ロシア",
+      "kind": "country_or_territory",
+      "joinedOn": "1991-07-08",
+      "mofRosterNumber": 108
+    },
+    {
+      "memberId": "RW",
+      "iso2": "RW",
+      "name": "Rwanda",
+      "nameJa": "ルワンダ",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-03-03",
+      "mofRosterNumber": 35
+    },
+    {
+      "memberId": "SA",
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "nameJa": "サウジアラビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1973-05-08",
+      "mofRosterNumber": 68
+    },
+    {
+      "memberId": "SB",
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "nameJa": "ソロモン諸島",
+      "kind": "country_or_territory",
+      "joinedOn": "2023-01-26",
+      "mofRosterNumber": 185
+    },
+    {
+      "memberId": "SC",
+      "iso2": "SC",
+      "name": "Seychelles",
+      "nameJa": "セーシェル",
+      "kind": "country_or_territory",
+      "joinedOn": "2000-07-25",
+      "mofRosterNumber": 152
+    },
+    {
+      "memberId": "SD",
+      "iso2": "SD",
+      "name": "Sudan",
+      "nameJa": "スーダン",
+      "kind": "country_or_territory",
+      "joinedOn": "1960-06-08",
+      "mofRosterNumber": 26
+    },
+    {
+      "memberId": "SE",
+      "iso2": "SE",
+      "name": "Sweden",
+      "nameJa": "スウェーデン",
+      "kind": "country_or_territory",
+      "joinedOn": "1952-10-17",
+      "mofRosterNumber": 9
+    },
+    {
+      "memberId": "SG",
+      "iso2": "SG",
+      "name": "Singapore",
+      "nameJa": "シンガポール",
+      "kind": "country_or_territory",
+      "joinedOn": "1975-07-09",
+      "mofRosterNumber": 75
+    },
+    {
+      "memberId": "SI",
+      "iso2": "SI",
+      "name": "Slovenia",
+      "nameJa": "スロベニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-09-07",
+      "mofRosterNumber": 122
+    },
+    {
+      "memberId": "SK",
+      "iso2": "SK",
+      "name": "Slovakia",
+      "nameJa": "スロバキア",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-01-01",
+      "mofRosterNumber": 125
+    },
+    {
+      "memberId": "SL",
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "nameJa": "シエラレオネ",
+      "kind": "country_or_territory",
+      "joinedOn": "1975-11-06",
+      "mofRosterNumber": 77
+    },
+    {
+      "memberId": "SN",
+      "iso2": "SN",
+      "name": "Senegal",
+      "nameJa": "セネガル",
+      "kind": "country_or_territory",
+      "joinedOn": "1976-03-10",
+      "mofRosterNumber": 78
+    },
+    {
+      "memberId": "SO",
+      "iso2": "SO",
+      "name": "Somalia",
+      "nameJa": "ソマリア",
+      "kind": "country_or_territory",
+      "joinedOn": "2012-10-04",
+      "mofRosterNumber": 179
+    },
+    {
+      "memberId": "SR",
+      "iso2": "SR",
+      "name": "Suriname",
+      "nameJa": "スリナム",
+      "kind": "country_or_territory",
+      "joinedOn": "2018-11-26",
+      "mofRosterNumber": 183
+    },
+    {
+      "memberId": "SS",
+      "iso2": "SS",
+      "name": "South Sudan",
+      "nameJa": "南スーダン",
+      "kind": "country_or_territory",
+      "joinedOn": "2012-07-18",
+      "mofRosterNumber": 178
+    },
+    {
+      "memberId": "ST",
+      "iso2": "ST",
+      "name": "Sao Tome and Principe",
+      "nameJa": "サントメ・プリンシペ",
+      "kind": "country_or_territory",
+      "joinedOn": "2009-09-23",
+      "mofRosterNumber": 175
+    },
+    {
+      "memberId": "SV",
+      "iso2": "SV",
+      "name": "El Salvador",
+      "nameJa": "エルサルバドル",
+      "kind": "country_or_territory",
+      "joinedOn": "2005-07-07",
+      "mofRosterNumber": 168
+    },
+    {
+      "memberId": "SY",
+      "iso2": "SY",
+      "name": "Syrian Arab Republic",
+      "nameJa": "シリア",
+      "kind": "country_or_territory",
+      "joinedOn": "1959-11-19",
+      "mofRosterNumber": 24
+    },
+    {
+      "memberId": "SZ",
+      "iso2": "SZ",
+      "name": "Eswatini",
+      "nameJa": "エスワティニ",
+      "kind": "country_or_territory",
+      "joinedOn": "1981-05-15",
+      "mofRosterNumber": 90
+    },
+    {
+      "memberId": "TD",
+      "iso2": "TD",
+      "name": "Chad",
+      "nameJa": "チャド",
+      "kind": "country_or_territory",
+      "joinedOn": "2005-02-16",
+      "mofRosterNumber": 165
+    },
+    {
+      "memberId": "TG",
+      "iso2": "TG",
+      "name": "Togo",
+      "nameJa": "トーゴ",
+      "kind": "country_or_territory",
+      "joinedOn": "1990-02-12",
+      "mofRosterNumber": 103
+    },
+    {
+      "memberId": "TH",
+      "iso2": "TH",
+      "name": "Thailand",
+      "nameJa": "タイ",
+      "kind": "country_or_territory",
+      "joinedOn": "1972-02-04",
+      "mofRosterNumber": 65
+    },
+    {
+      "memberId": "TJ",
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "nameJa": "タジキスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "1997-07-01",
+      "mofRosterNumber": 144
+    },
+    {
+      "memberId": "TL",
+      "iso2": "TL",
+      "name": "Timor-Leste",
+      "nameJa": "東ティモール",
+      "kind": "country_or_territory",
+      "joinedOn": "2003-09-19",
+      "mofRosterNumber": 162
+    },
+    {
+      "memberId": "TM",
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "nameJa": "トルクメニスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-05-17",
+      "mofRosterNumber": 126
+    },
+    {
+      "memberId": "TN",
+      "iso2": "TN",
+      "name": "Tunisia",
+      "nameJa": "チュニジア",
+      "kind": "country_or_territory",
+      "joinedOn": "1966-07-20",
+      "mofRosterNumber": 47
+    },
+    {
+      "memberId": "TO",
+      "iso2": "TO",
+      "name": "Tonga",
+      "nameJa": "トンガ",
+      "kind": "country_or_territory",
+      "joinedOn": "2005-07-01",
+      "mofRosterNumber": 167
+    },
+    {
+      "memberId": "TR",
+      "iso2": "TR",
+      "name": "Türkiye (Republic of)",
+      "nameJa": "トルコ",
+      "kind": "country_or_territory",
+      "joinedOn": "1951-06-06",
+      "mofRosterNumber": 1
+    },
+    {
+      "memberId": "TT",
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "nameJa": "トリニダード・トバゴ",
+      "kind": "country_or_territory",
+      "joinedOn": "1973-10-15",
+      "mofRosterNumber": 71
+    },
+    {
+      "memberId": "TZ",
+      "iso2": "TZ",
+      "name": "Tanzania",
+      "nameJa": "タンザニア",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-11-07",
+      "mofRosterNumber": 41
+    },
+    {
+      "memberId": "UA",
+      "iso2": "UA",
+      "name": "Ukraine",
+      "nameJa": "ウクライナ",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-06-26",
+      "mofRosterNumber": 123
+    },
+    {
+      "memberId": "UG",
+      "iso2": "UG",
+      "name": "Uganda",
+      "nameJa": "ウガンダ",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-11-03",
+      "mofRosterNumber": 40
+    },
+    {
+      "memberId": "US",
+      "iso2": "US",
+      "name": "United States",
+      "nameJa": "米国",
+      "kind": "country_or_territory",
+      "joinedOn": "1970-11-05",
+      "mofRosterNumber": 61
+    },
+    {
+      "memberId": "UY",
+      "iso2": "UY",
+      "name": "Uruguay",
+      "nameJa": "ウルグアイ",
+      "kind": "country_or_territory",
+      "joinedOn": "1977-09-16",
+      "mofRosterNumber": 80
+    },
+    {
+      "memberId": "UZ",
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "nameJa": "ウズベキスタン",
+      "kind": "country_or_territory",
+      "joinedOn": "1992-07-28",
+      "mofRosterNumber": 120
+    },
+    {
+      "memberId": "VC",
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "nameJa": "セントビンセント及びグレナディーン諸島",
+      "kind": "country_or_territory",
+      "joinedOn": "2025-09-17",
+      "mofRosterNumber": 187
+    },
+    {
+      "memberId": "VE",
+      "iso2": "VE",
+      "name": "Venezuela",
+      "nameJa": "ベネズエラ",
+      "kind": "country_or_territory",
+      "joinedOn": "1996-07-01",
+      "mofRosterNumber": 142
+    },
+    {
+      "memberId": "VN",
+      "iso2": "VN",
+      "name": "Vietnam",
+      "nameJa": "ベトナム",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-07-01",
+      "mofRosterNumber": 127
+    },
+    {
+      "memberId": "VU",
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "nameJa": "バヌアツ",
+      "kind": "country_or_territory",
+      "joinedOn": "2009-11-17",
+      "mofRosterNumber": 176
+    },
+    {
+      "memberId": "WS",
+      "iso2": "WS",
+      "name": "Samoa",
+      "nameJa": "サモア",
+      "kind": "country_or_territory",
+      "joinedOn": "2001-10-01",
+      "mofRosterNumber": 159
+    },
+    {
+      "memberId": "XK",
+      "iso2": null,
+      "name": "Kosovo",
+      "nameJa": "コソボ",
+      "kind": "country_or_territory",
+      "joinedOn": "2017-01-25",
+      "mofRosterNumber": 181
+    },
+    {
+      "memberId": "YE",
+      "iso2": "YE",
+      "name": "Yemen",
+      "nameJa": "イエメン",
+      "kind": "country_or_territory",
+      "joinedOn": "1993-07-01",
+      "mofRosterNumber": 130
+    },
+    {
+      "memberId": "ZA",
+      "iso2": "ZA",
+      "name": "South Africa",
+      "nameJa": "南アフリカ",
+      "kind": "country_or_territory",
+      "joinedOn": "1964-03-24",
+      "mofRosterNumber": 36
+    },
+    {
+      "memberId": "ZM",
+      "iso2": "ZM",
+      "name": "Zambia",
+      "nameJa": "ザンビア",
+      "kind": "country_or_territory",
+      "joinedOn": "1978-09-27",
+      "mofRosterNumber": 84
+    },
+    {
+      "memberId": "ZW",
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "nameJa": "ジンバブエ",
+      "kind": "country_or_territory",
+      "joinedOn": "1981-03-19",
+      "mofRosterNumber": 89
+    }
+  ],
+  "affiliates": [
+    {
+      "memberId": "EU",
+      "iso2": null,
+      "name": "European Union",
+      "nameJa": "欧州連合",
+      "kind": "customs_union",
+      "status": "akin_to_wco_membership",
+      "joinedOn": null,
+      "countsAsMember": false
+    }
+  ],
+  "dateDifferences": [
+    {
+      "memberId": "CO",
+      "wcoJoinedOn": "1993-07-11",
+      "mofDepositDate": "1993-07-01"
+    },
+    {
+      "memberId": "CU",
+      "wcoJoinedOn": "1988-07-01",
+      "mofDepositDate": "1988-07-11"
+    },
+    {
+      "memberId": "CW",
+      "wcoJoinedOn": "1988-07-11",
+      "mofDepositDate": "2001-07-01"
+    },
+    {
+      "memberId": "MZ",
+      "wcoJoinedOn": "1987-07-01",
+      "mofDepositDate": "1987-07-02"
+    },
+    {
+      "memberId": "NA",
+      "wcoJoinedOn": "1992-07-01",
+      "mofDepositDate": "1992-06-30"
+    },
+    {
+      "memberId": "NP",
+      "wcoJoinedOn": "1986-07-22",
+      "mofDepositDate": "1985-07-22"
+    },
+    {
+      "memberId": "OM",
+      "wcoJoinedOn": "2000-09-11",
+      "mofDepositDate": "2000-09-19"
+    },
+    {
+      "memberId": "SY",
+      "wcoJoinedOn": "1959-11-19",
+      "mofDepositDate": "1959-11-03"
+    },
+    {
+      "memberId": "TZ",
+      "wcoJoinedOn": "1964-11-07",
+      "mofDepositDate": "1964-11-17"
+    },
+    {
+      "memberId": "UA",
+      "wcoJoinedOn": "1992-06-26",
+      "mofDepositDate": "1992-11-10"
+    }
+  ],
+  "notes": [
+    "joinedOn is the WCO roster’s membership date. The Japanese roster records ratification or accession instrument deposit dates.",
+    "XK is a user-assigned destination code for Kosovo. EU is a customs-union identifier. Neither is an assigned ISO 3166-1 alpha-2 country code.",
+    "Membership rows are independent of tariff, tax and declaration coverage. Puerto Rico (PR) is not separately listed as a WCO member.",
+    "This crosswalk records factual identifiers, names, membership and dates; the source publications are not included."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "ZA",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-12",
+    "locale": "ja",
+    "currency": "ZAR",
+    "freight": "0.00",
+    "insurance": "0.00",
+    "items": [{
+      "id": "regulated-item",
+      "description": "Hypothetical petroleum product",
+      "quantity": 1,
+      "unitValue": "100.00",
+      "originCountry": "JP",
+      "goodsType": "ordinary",
+      "hs6": "271019",
+      "classificationConfirmed": true
+    }],
+    "transaction": "b2b_sale",
+    "channel": "direct",
+    "transport": "sea",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "unknown",
+    "consignmentScopeConfirmed": true,
+    "incoterm": "DAP"
+  },
+  "lines": [{"itemId": "regulated-item", "tariffCode": "27101907"}],
+  "availableDocuments": ["COMMERCIAL_INVOICE", "TRANSPORT_DOCUMENT", "PACKING_LIST"]
+}

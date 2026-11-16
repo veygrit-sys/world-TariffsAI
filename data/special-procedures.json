@@ -1,0 +1,5305 @@
+[
+  {
+    "id": "afcfta_eg",
+    "category": "preference",
+    "agreement": "afcfta",
+    "titleJa": "エジプト向けAfCFTA特恵",
+    "conditionJa": "エジプト工業開発庁が示す実施原産国及び南アフリカの開始通達について、エジプトの申告日に有効な譲許表、原産国別の段階削減、対象品目を照合します。センシティブ品目、対象外品目、未確定の品目別規則は税関資料で確認します。原産地証明と附属書2の品目別規則を照合します。第三国経由では通し運送書類等により税関監督下に置かれ、積み卸しや保存に必要な範囲を超える加工がないことを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "EG"
+      ],
+      "productOrigins": [
+        "CM",
+        "DZ",
+        "GH",
+        "KE",
+        "MU",
+        "RW",
+        "TN",
+        "TZ",
+        "ZA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "afcfta_tariff_schedule",
+        "labelJa": "輸入国の官報・暫定譲許表における相互適用国、品目番号、申告日の段階税率と除外・停止措置"
+      },
+      {
+        "code": "afcfta_product_origin",
+        "labelJa": "附属書2の品目別原産地規則、原材料・加工記録及び累積の根拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "afcfta_proof_of_origin",
+        "labelJa": "輸入国が受理する様式のAfCFTA原産地証明書又は条件を満たす原産地申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "afcfta_direct_transport",
+        "labelJa": "附属書2第30条の直接輸送、経由時の税関監督と荷扱いを裏付ける運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "afcfta_import_claim",
+        "labelJa": "AfCFTA特恵を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Egyptian Industrial Development Authority",
+        "title": "AfCFTAエジプトの相互段階的関税撤廃",
+        "url": "https://ida.gov.eg/en/international-agreements"
+      },
+      {
+        "authority": "Egyptian Customs Authority",
+        "title": "協定通達6/2024（南アフリカのAfCFTA適用開始）",
+        "url": "https://www.customs.gov.eg/Legislations/Manshorat?categoryId=4"
+      },
+      {
+        "authority": "South African Revenue Service",
+        "title": "2025年11月 AfCFTA実施国と登録手続",
+        "url": "https://www.sars.gov.za/latest-news/automation-of-customs-excise-african-continental-free-trade-area-afcfta-agreement/"
+      },
+      {
+        "authority": "African Union / AfCFTA Secretariat",
+        "title": "AfCFTA Rules of Origin Manual（附属書2 第4・16・17～20・30条）",
+        "url": "https://au.int/sites/default/files/treaties/36437-ax-AfCFTA_RULES_OF_ORIGIN_MANUAL.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "afcfta_gh",
+    "category": "preference",
+    "agreement": "afcfta",
+    "titleJa": "ガーナ向けAfCFTA特恵",
+    "conditionJa": "ガーナへの協定利用貨物が確認された原産国について、ガーナの適用する譲許表、申告年の税率、品目別の国内実施を照合します。通関業者はICUMSで申告します。輸入VAT等の費目は別途確認します。原産地証明と附属書2の品目別規則を照合します。第三国経由では通し運送書類等により税関監督下に置かれ、積み卸しや保存に必要な範囲を超える加工がないことを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "GH"
+      ],
+      "productOrigins": [
+        "EG",
+        "KE",
+        "ZA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "afcfta_tariff_schedule",
+        "labelJa": "輸入国の官報・暫定譲許表における相互適用国、品目番号、申告日の段階税率と除外・停止措置"
+      },
+      {
+        "code": "afcfta_product_origin",
+        "labelJa": "附属書2の品目別原産地規則、原材料・加工記録及び累積の根拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "afcfta_proof_of_origin",
+        "labelJa": "輸入国が受理する様式のAfCFTA原産地証明書又は条件を満たす原産地申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "afcfta_direct_transport",
+        "labelJa": "附属書2第30条の直接輸送、経由時の税関監督と荷扱いを裏付ける運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "afcfta_import_claim",
+        "labelJa": "AfCFTA特恵を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Ghana Free Zones Authority",
+        "title": "AfCFTA Desk・ガーナの輸入特恵と譲許表",
+        "url": "https://afcftadesk.gfza.gov.gh/faq-2/"
+      },
+      {
+        "authority": "Ghana Revenue Authority",
+        "title": "ICUMS輸入申告手続",
+        "url": "https://gra.gov.gh/customs/import-procedures/"
+      },
+      {
+        "authority": "South African Department of Trade, Industry and Competition",
+        "title": "年次報告 2023/2024・ガーナとケニアへの協定利用貨物",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/202410/dticannual-annual-2023-24.pdf"
+      },
+      {
+        "authority": "Kenya Revenue Authority",
+        "title": "ケニアにおけるAfCFTA譲許の官報掲載と原産地証明",
+        "url": "https://www.kra.go.ke/component/kra_faq/faq/555"
+      },
+      {
+        "authority": "Egyptian Industrial Development Authority",
+        "title": "AfCFTAエジプトの相互段階的関税撤廃",
+        "url": "https://ida.gov.eg/en/international-agreements"
+      },
+      {
+        "authority": "African Union / AfCFTA Secretariat",
+        "title": "AfCFTA Rules of Origin Manual（附属書2 第4・16・17～20・30条）",
+        "url": "https://au.int/sites/default/files/treaties/36437-ax-AfCFTA_RULES_OF_ORIGIN_MANUAL.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "afcfta_gm",
+    "category": "preference",
+    "agreement": "afcfta",
+    "titleJa": "ガンビア向けAfCFTA特恵",
+    "conditionJa": "南アフリカ原産品について、ガンビアが官報掲載した暫定譲許表、適用年の税率、相互実施と品目別の国内適用を照合します。原産地証明と附属書2の品目別規則を照合します。第三国経由では通し運送書類等により税関監督下に置かれ、積み卸しや保存に必要な範囲を超える加工がないことを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "GM"
+      ],
+      "productOrigins": [
+        "ZA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "afcfta_tariff_schedule",
+        "labelJa": "輸入国の官報・暫定譲許表における相互適用国、品目番号、申告日の段階税率と除外・停止措置"
+      },
+      {
+        "code": "afcfta_product_origin",
+        "labelJa": "附属書2の品目別原産地規則、原材料・加工記録及び累積の根拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "afcfta_proof_of_origin",
+        "labelJa": "輸入国が受理する様式のAfCFTA原産地証明書又は条件を満たす原産地申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "afcfta_direct_transport",
+        "labelJa": "附属書2第30条の直接輸送、経由時の税関監督と荷扱いを裏付ける運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "afcfta_import_claim",
+        "labelJa": "AfCFTA特恵を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "The Gambia Ministry of Trade, Industry, Regional Integration and Employment",
+        "title": "ガンビア AfCFTA暫定譲許表と官報掲載資料",
+        "url": "https://motie.gov.gm/publications/"
+      },
+      {
+        "authority": "South African Department of Trade, Industry and Competition",
+        "title": "AfCFTA newsletter（2026年3月）実施市場と暫定譲許表",
+        "url": "https://www.thedtic.gov.za/wp-content/uploads/Newsletter-on-the-AfCFTA-March-2026.pdf"
+      },
+      {
+        "authority": "South African Revenue Service",
+        "title": "Customs and Excise Act Schedule No. 1 General Note O・Part F（2026年3月27日版）",
+        "url": "https://www.sars.gov.za/legal-lprim-ce-sch1gen-general-notes-to-schedules-to-customs-and-excise-act/"
+      },
+      {
+        "authority": "African Union / AfCFTA Secretariat",
+        "title": "AfCFTA Rules of Origin Manual（附属書2 第4・16・17～20・30条）",
+        "url": "https://au.int/sites/default/files/treaties/36437-ax-AfCFTA_RULES_OF_ORIGIN_MANUAL.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "afcfta_ke",
+    "category": "preference",
+    "agreement": "afcfta",
+    "titleJa": "ケニア向けAfCFTA特恵",
+    "conditionJa": "南アフリカ原産品は、ケニアが官報掲載したEACのAfCFTA暫定譲許表のカテゴリーAについて、適用年の税率列、国内適用、対象品目及び例外を照合します。原産地証明と附属書2の品目別規則を照合します。第三国経由では通し運送書類等により税関監督下に置かれ、積み卸しや保存に必要な範囲を超える加工がないことを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "KE"
+      ],
+      "productOrigins": [
+        "ZA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "afcfta_tariff_schedule",
+        "labelJa": "輸入国の官報・暫定譲許表における相互適用国、品目番号、申告日の段階税率と除外・停止措置"
+      },
+      {
+        "code": "afcfta_product_origin",
+        "labelJa": "附属書2の品目別原産地規則、原材料・加工記録及び累積の根拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "afcfta_proof_of_origin",
+        "labelJa": "輸入国が受理する様式のAfCFTA原産地証明書又は条件を満たす原産地申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "afcfta_direct_transport",
+        "labelJa": "附属書2第30条の直接輸送、経由時の税関監督と荷扱いを裏付ける運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "afcfta_import_claim",
+        "labelJa": "AfCFTA特恵を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Kenya Revenue Authority / East African Community",
+        "title": "EAC AfCFTA暫定譲許表・カテゴリーA（年次税率列）",
+        "url": "https://www.kra.go.ke/images/publications/Provisional-Schedule-for-AfCFTA-tarrif-concessions-1.pdf"
+      },
+      {
+        "authority": "Kenya Revenue Authority",
+        "title": "ケニアにおけるAfCFTA譲許の官報掲載と原産地証明",
+        "url": "https://www.kra.go.ke/component/kra_faq/faq/555"
+      },
+      {
+        "authority": "South African Department of Trade, Industry and Competition",
+        "title": "年次報告 2023/2024・ガーナとケニアへの協定利用貨物",
+        "url": "https://www.gov.za/sites/default/files/gcis_document/202410/dticannual-annual-2023-24.pdf"
+      },
+      {
+        "authority": "African Union / AfCFTA Secretariat",
+        "title": "AfCFTA Rules of Origin Manual（附属書2 第4・16・17～20・30条）",
+        "url": "https://au.int/sites/default/files/treaties/36437-ax-AfCFTA_RULES_OF_ORIGIN_MANUAL.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "afcfta_za",
+    "category": "preference",
+    "agreement": "afcfta",
+    "titleJa": "南アフリカ向けAfCFTA特恵",
+    "conditionJa": "SARS一般注Oに掲載された原産国と、Schedule 1 Part 1のAfCFTA欄を申告日・品目別に照合します。ケニア原産の0902.40は注O.9の特恵停止品目で、一般税率を確認します。SACU域内及びSADC貿易議定書による取引は該当する制度を確認します。原産地証明と附属書2の品目別規則を照合します。第三国経由では通し運送書類等により税関監督下に置かれ、積み卸しや保存に必要な範囲を超える加工がないことを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "ZA"
+      ],
+      "productOrigins": [
+        "BI",
+        "CM",
+        "DZ",
+        "EG",
+        "ET",
+        "GH",
+        "GM",
+        "KE",
+        "MA",
+        "NG",
+        "RW",
+        "TN",
+        "UG"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "afcfta_tariff_schedule",
+        "labelJa": "輸入国の官報・暫定譲許表における相互適用国、品目番号、申告日の段階税率と除外・停止措置"
+      },
+      {
+        "code": "afcfta_product_origin",
+        "labelJa": "附属書2の品目別原産地規則、原材料・加工記録及び累積の根拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "afcfta_proof_of_origin",
+        "labelJa": "輸入国が受理する様式のAfCFTA原産地証明書又は条件を満たす原産地申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "afcfta_direct_transport",
+        "labelJa": "附属書2第30条の直接輸送、経由時の税関監督と荷扱いを裏付ける運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "afcfta_import_claim",
+        "labelJa": "AfCFTA特恵を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "South African Revenue Service",
+        "title": "Customs and Excise Act Schedule No. 1 General Note O・Part F（2026年3月27日版）",
+        "url": "https://www.sars.gov.za/legal-lprim-ce-sch1gen-general-notes-to-schedules-to-customs-and-excise-act/"
+      },
+      {
+        "authority": "South African Revenue Service",
+        "title": "Schedule No. 1 Part 1（2026年11月6日版）",
+        "url": "https://www.sars.gov.za/legal-lprim-ce-sch1p1chpt1-to-99-schedule-no-1-part-1-chapters-1-to-99/"
+      },
+      {
+        "authority": "South African Revenue Service",
+        "title": "2025年11月 AfCFTA実施国と登録手続",
+        "url": "https://www.sars.gov.za/latest-news/automation-of-customs-excise-african-continental-free-trade-area-afcfta-agreement/"
+      },
+      {
+        "authority": "African Union / AfCFTA Secretariat",
+        "title": "AfCFTA Rules of Origin Manual（附属書2 第4・16・17～20・30条）",
+        "url": "https://au.int/sites/default/files/treaties/36437-ax-AfCFTA_RULES_OF_ORIGIN_MANUAL.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "atiga_existing_parties_review",
+    "category": "preference",
+    "agreement": "atiga",
+    "titleJa": "ASEAN物品貿易協定（ATIGA）の特恵確認",
+    "conditionJa": "対象10か国間のATIGA特恵は、輸入国の譲許表・国内施行、品目別原産地規則、原産地証明および積送条件を照合します。証明はASEAN Single Windowのe-Form D、認定輸出者（AWSC）の原産地申告、または輸入国が認める例外手続を確認します。経由貨物は輸出締約国からの積送実態と必要な証拠を照合し、中間締約国から再輸出する場合は連続原産地証明（back-to-back）の条件も確認します。2026年9月の暫定適用宣言では、第2改正議定書の関税譲許に係る第2.4条第1項と原産地規則の第3章は2027年6月1日まで適用対象外です。東ティモールを含む取引は、ATIGAの発効、相手国別の国内施行と証明受理を当局に確認します。",
+    "appliesWhen": {
+      "countries": [
+        "BN",
+        "KH",
+        "ID",
+        "LA",
+        "MY",
+        "MM",
+        "PH",
+        "SG",
+        "TH",
+        "VN"
+      ],
+      "productOrigins": [
+        "BN",
+        "KH",
+        "ID",
+        "LA",
+        "MY",
+        "MM",
+        "PH",
+        "SG",
+        "TH",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "atiga_tariff_line",
+        "labelJa": "輸入日の仕向国譲許表、AHTNと国内品目番号、例外・税率区分"
+      },
+      {
+        "code": "atiga_product_origin",
+        "labelJa": "品目別原産地規則と生産・材料の記録、必要に応じ域内累積の証拠",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "atiga_proof_of_origin",
+        "labelJa": "e-Form D受信・参照番号、認定輸出者の有効なAWSC申告、または輸入国が認める例外・簡易申告",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "atiga_direct_consignment",
+        "labelJa": "輸出締約国と積送経路。経由理由・許容作業・非流通を照合し、域外経由では規則21の通し船荷証券等を確認",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "atiga_back_to_back",
+        "labelJa": "中間締約国から再輸出する場合は、有効な元の証明と連続証明・数量・貨物の同一性"
+      },
+      {
+        "code": "atiga_third_country_invoice",
+        "labelJa": "第三国発行のインボイスを使う場合は、原産地証明の第三国インボイス記載と発行者・取引の対応を確認"
+      },
+      {
+        "code": "atiga_import_claim",
+        "labelJa": "輸入国所定のATIGA特恵申告、証明参照番号・添付書類の照合",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "ASEAN",
+        "title": "ASEAN Trade in Goods Agreement (2009), Chapter 3, including Article 32",
+        "url": "https://investasean.asean.org/files/upload/Doc%2002%20-%20ATIGA.pdf"
+      },
+      {
+        "authority": "ASEAN",
+        "title": "ASEAN-wide Self-Certification Guidebook and ATIGA Annex 8 operational certification procedures",
+        "url": "https://asean.org/wp-content/uploads/2021/09/ASEAN-wide-Self-Certification-Guidebook-web.pdf"
+      },
+      {
+        "authority": "ASEAN",
+        "title": "Full implementation of e-Form D through the ASEAN Single Window (1 January 2024)",
+        "url": "https://asean.org/wp-content/uploads/2024/01/Full-Implementation-of-e-Form-D-Final.pdf"
+      },
+      {
+        "authority": "ASEAN",
+        "title": "Declaration on the Provisional Application of the Second ATIGA Protocol (19 September 2026), Annex",
+        "url": "https://agreement.asean.org/media/download/20260922094235.pdf"
+      },
+      {
+        "authority": "Singapore Customs",
+        "title": "Electronic exchange of ATIGA Form D via ASEAN Single Window and participating destinations",
+        "url": "https://www.customs.gov.sg/doing-business/rules-of-origin/origin-documentation/electronic-exchange-of-form-d-via-the-asean-single-window/"
+      },
+      {
+        "authority": "Singapore Ministry of Trade and Industry",
+        "title": "ASEAN Free Trade Area and Timor-Leste accession status",
+        "url": "https://www.mti.gov.sg/trade-international-economic-relations/agreements-/asean---free-trade-area--afta-/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "au_commercial_import",
+    "category": "business_import",
+    "titleJa": "豪州本土の商業輸入と輸入申告",
+    "conditionJa": "貨物価格、輸送方法と品目で、輸入申告（N10）、倉庫申告（N20）、簡易通関の要否を確認します。輸入者、申告時の処理料、関税・GSTと検疫条件を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Import processing charges",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/charges/import-processing-charge"
+      },
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Import declarations",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import/import-declaration"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "au_gift_post",
+    "category": "gift",
+    "titleJa": "豪州本土宛ての贈答郵便と価額申告",
+    "conditionJa": "贈答品の内容と価額を正しく申告し、郵便貨物の申告・査定額1,000豪ドル以下に対する通常の国境課税の取扱いを確認します。酒類は別扱いです。たばこは郵送による輸入制限、規制・検疫対象品は許可要否を確認します。販売の取引がある場合、販売時GSTの扱いを別途確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "transactions": [
+        "private_gift"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "gift_postal_declaration",
+        "labelJa": "内容・数量・価額を記載した郵便税関告知書",
+        "document": "POSTAL_CUSTOMS_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Importing by post or mail",
+        "url": "https://www.abf.gov.au/buying-online-subsite/Pages/importing-post-mail.aspx"
+      },
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Declarations for imported goods",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import/import-declaration"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "au_low_value_retail_gst",
+    "category": "cross_border_ecommerce",
+    "titleJa": "豪州本土の少額輸入品の販売時GST",
+    "conditionJa": "税関評価額1,000豪ドル以下の対象商品の豪州消費者向け販売では、販売者、電子流通プラットフォームまたは再配送事業者のGST登録・徴収責任を確認します。複数品を同梱した貨物の輸入GSTと販売時徴収の証拠を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tax_registration_status",
+        "labelJa": "取引の徴税主体に適用される税務登録状況"
+      },
+      {
+        "code": "tax_collection_handoff",
+        "labelJa": "徴税主体、販売時の税額と配送・通関担当への引継ぎ記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Australian Border Force",
+        "title": "GST on low value goods when importing",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/gst-and-other-taxes/gst-on-low-value-goods"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "au_postal_low_value",
+    "category": "low_value",
+    "titleJa": "豪州本土の少額郵便貨物",
+    "conditionJa": "合算した申告・査定額が1,000豪ドル以下の適格な郵便貨物は、通常の輸入関税の取扱いを確認します。酒類・たばこ等、輸入許可、検疫、豪州外部領土には個別の条件があります。販売時GSTの徴収主体と申告情報も照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "relief_eligibility",
+        "labelJa": "免除対象品目と除外品目を照合した記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Australian Border Force",
+        "title": "Importing by post or mail",
+        "url": "https://www.abf.gov.au/buying-online-subsite/Pages/importing-post-mail.aspx"
+      },
+      {
+        "authority": "Australian Border Force",
+        "title": "GST on low value goods when importing",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/gst-and-other-taxes/gst-on-low-value-goods"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "confirmed_customs_value",
+      "currency": "AUD",
+      "operator": "lte",
+      "amount": "1000"
+    }
+  },
+  {
+    "id": "au_returned_goods",
+    "category": "return",
+    "titleJa": "豪州の戻り貨物（Schedule 4 Item 17）",
+    "conditionJa": "豪州産品、または最初の輸入時に所定の関税を納めた品が豪州から輸出後に原状で戻る場合に、Item 17とBy-law 2300145を確認します。海外での処理・修理・改造、未納の関税・物品税、返納していない払戻しを照合します。GSTや修理品の取扱いは別途確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "original_status",
+        "labelJa": "再輸入前の国内流通資格・原産性・納税状況を裏付ける証拠"
+      },
+      {
+        "code": "prior_duty_or_drawback",
+        "labelJa": "元輸入の納税・元輸出の払戻し記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Customs Tariff Schedule 4",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-4"
+      },
+      {
+        "authority": "豪州国境警備隊",
+        "title": "Schedule 4 By-law 2300145",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-4-by-law"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "ca_commercial_import",
+    "category": "business_import",
+    "titleJa": "カナダの商業輸入とCARM",
+    "conditionJa": "輸入者の事業番号と輸入プログラム口座（RM）、CARM Client Portal、通関業者への委任、CADでの計上を確認します。関税・GST/HST・追加措置、必要なら支払前引取の保証を個別に照合します。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "carm_bn_rm",
+        "labelJa": "CARMの輸入者登録、事業番号・RM口座と代理権限"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "Set up your business to import",
+        "url": "https://www.cbsa-asfc.gc.ca/import/guide-4-eng.html"
+      },
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "CARM Commercial Accounting Declaration",
+        "url": "https://cbsa-asfc.gc.ca/eservices/eccrd-eng.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "ca_courier_low_value_remission",
+    "category": "low_value",
+    "titleJa": "カナダの少額クーリエ貨物",
+    "conditionJa": "関税評価額で判定します。対象となるクーリエ貨物は、米国・メキシコからの適格な輸入なら40カナダドル以下で関税・税の免除、40超150以下で関税のみの免除を確認します。その他の発送国は20カナダドル以下が基準です。米国・メキシコの高い上限を使う場合は、発送前にいずれかの国の商流に入った記録を確認します。通過・積替えと、品目の協定原産性を区別します。クーリエ資格、除外品、配送会社手数料も照合します。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "courier_unspecified"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "relief_eligibility",
+        "labelJa": "免除対象品目と除外品目を照合した記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "courier_remission_eligibility",
+        "labelJa": "対象クーリエ、発送地・商流と免除条件の照合記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "Increase to low-value shipment thresholds and other changes",
+        "url": "https://cbsa-asfc.gc.ca/services/cusma-aceum/lvs-efv-eng.html"
+      },
+      {
+        "authority": "Department of Justice Canada",
+        "title": "Courier Imports Remission Order (SI/85-182), sections 4 and 4.1",
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SI-85-182/FullText.html"
+      },
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "Memorandum D8-2-16: Courier Imports Remission",
+        "url": "https://www.cbsa-asfc.gc.ca/publications/dm-md/d8/d8-2-16-eng.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "ca_postal_low_value_remission",
+    "category": "low_value",
+    "titleJa": "カナダの少額郵便貨物",
+    "conditionJa": "全発送国からの国際郵便は、関税評価額20カナダドル以下の対象貨物について関税・税の免除を確認します。酒類、たばこ、対象刊行物などの除外、分割出荷と同梱を確認します。米国・メキシコのクーリエ向け40・150カナダドル基準は郵便と別です。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "relief_eligibility",
+        "labelJa": "免除対象品目と除外品目を照合した記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "Increase to low-value shipment thresholds and other changes",
+        "url": "https://cbsa-asfc.gc.ca/services/cusma-aceum/lvs-efv-eng.html"
+      },
+      {
+        "authority": "Department of Justice Canada",
+        "title": "Postal Imports Remission Order (SI/85-181)",
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SI-85-181/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "confirmed_customs_value",
+      "currency": "CAD",
+      "operator": "lte",
+      "amount": "20"
+    }
+  },
+  {
+    "id": "ca_private_gift",
+    "category": "gift",
+    "titleJa": "カナダの個人間の贈答郵便",
+    "conditionJa": "国外の友人・親族から本人宛に届く個人贈答は、カードなど贈答を示す通知、60カナダドルの免税枠、超過部分への課税、複数品のまとめ方を確認します。酒、たばこ、広告品、事業者からの発送はこの贈答免税の対象外で、郵便少額免税20カナダドルとの併用もできません。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "transactions": [
+        "private_gift"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "gift_postal_declaration",
+        "labelJa": "内容・数量・価額を記載した郵便税関告知書",
+        "document": "POSTAL_CUSTOMS_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "Importing by mail or courier – Determining duty and taxes owed",
+        "url": "https://cbsa-asfc.gc.ca/import/courier/menu-eng.html"
+      },
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "D2-1-4 Casual Donations – Tariff Item 9816.00.00",
+        "url": "https://www.cbsa-asfc.gc.ca/publications/dm-md/d2/d2-1-4-eng.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "ca_returned_goods",
+    "category": "return",
+    "titleJa": "カナダの一時輸出後の戻り貨物",
+    "conditionJa": "カナダ原産品（9813.00.00）、または過去にカナダで申告・納税された品（9814.00.00）が同一の状態で戻る場合に確認します。海外加工・改良、保税、免税輸入、元の輸出時の関税払戻しの有無を照合します。GST/HSTの免税は別条件です。商業貨物の計上は現行のCARM手続を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "original_status",
+        "labelJa": "再輸入前の国内流通資格・原産性・納税状況を裏付ける証拠"
+      },
+      {
+        "code": "prior_duty_or_drawback",
+        "labelJa": "関税納付、保税、払戻し・減免税の履歴"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "D8-2-27 Canadian Goods Temporarily Exported and Returned",
+        "url": "https://www.cbsa-asfc.gc.ca/publications/dm-md/d8/d8-2-27-eng.html"
+      },
+      {
+        "authority": "カナダ国境サービス庁",
+        "title": "CARM Commercial Accounting Declaration",
+        "url": "https://cbsa-asfc.gc.ca/eservices/eccrd-eng.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_1210_retail_import",
+    "category": "cross_border_ecommerce",
+    "titleJa": "中国本土の越境EC小売輸入 1210",
+    "conditionJa": "1210の網購保税輸入として適格な保税拠点と保税搬出・申告条件を照合します。購入者の個人利用が対象です。小売価格、運賃、保険を合算した取引額が人民元5,000以下かつ年間累計26,000以下で要件を満たす場合、暫定関税0%、輸入増値税と消費税はそれぞれ法定税額の70%です。5,000超の単品は取引額が26,000未満かつ年枠内なら全税率の越境EC手続を確認し、年枠超過は一般貿易の確認へ進みます。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "cn_1210"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "personal_use",
+        "labelJa": "購入者本人の個人利用と再販売制限を確認した記録"
+      },
+      {
+        "code": "identity_verification",
+        "labelJa": "購入者本人確認の参照記録",
+        "document": "IDENTITY_VERIFIED_REFERENCE"
+      },
+      {
+        "code": "transaction_payment_logistics",
+        "labelJa": "注文・決済・物流の電子記録の照合",
+        "document": "ORDER_PAYMENT_LOGISTICS_EVIDENCE"
+      },
+      {
+        "code": "positive_list",
+        "labelJa": "ポジティブリストの税目と付帯条件の確認",
+        "document": "POSITIVE_LIST_EVIDENCE"
+      },
+      {
+        "code": "remaining_annual_limit",
+        "labelJa": "購入者の年間枠の残額を確認した記録"
+      },
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "bonded_import_channel",
+        "labelJa": "1210の保税拠点・保税搬出と申告条件の照合記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国財政部・税関総署・国家税務総局",
+        "title": "財関税〔2016〕18号　越境EC小売輸入税制",
+        "url": "https://www.mof.gov.cn/gp/xxgkml/gss/201603/t20160324_2510682.htm"
+      },
+      {
+        "authority": "中国国家税務総局",
+        "title": "財関税〔2018〕49号　取引上限と個人利用",
+        "url": "https://www.chinatax.gov.cn/chinatax/n810341/n810765/n3359382/201812/c4182338/content.html"
+      },
+      {
+        "authority": "中国商務部ほか",
+        "title": "商財発〔2018〕486号　越境EC小売輸入の監督",
+        "url": "https://www.cac.gov.cn/2018-12/01/c_1123793309.htm"
+      },
+      {
+        "authority": "中国財政部ほか",
+        "title": "2022年第7号　越境EC小売輸入ポジティブリストの調整",
+        "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202202/t20220221_3788662.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_9610_retail_import",
+    "category": "cross_border_ecommerce",
+    "titleJa": "中国本土の越境EC小売輸入 9610",
+    "conditionJa": "9610の直購輸入として適格な申告経路・事業者を照合します。購入者の個人利用が対象です。小売価格、運賃、保険を合算した取引額が人民元5,000以下かつ年間累計26,000以下で要件を満たす場合、暫定関税0%、輸入増値税と消費税はそれぞれ法定税額の70%です。5,000超の単品は取引額が26,000未満かつ年枠内なら全税率の越境EC手続を確認し、年枠超過は一般貿易の確認へ進みます。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "cn_9610"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "personal_use",
+        "labelJa": "購入者本人の個人利用と再販売制限を確認した記録"
+      },
+      {
+        "code": "identity_verification",
+        "labelJa": "購入者本人確認の参照記録",
+        "document": "IDENTITY_VERIFIED_REFERENCE"
+      },
+      {
+        "code": "transaction_payment_logistics",
+        "labelJa": "注文・決済・物流の電子記録の照合",
+        "document": "ORDER_PAYMENT_LOGISTICS_EVIDENCE"
+      },
+      {
+        "code": "positive_list",
+        "labelJa": "ポジティブリストの税目と付帯条件の確認",
+        "document": "POSITIVE_LIST_EVIDENCE"
+      },
+      {
+        "code": "remaining_annual_limit",
+        "labelJa": "購入者の年間枠の残額を確認した記録"
+      },
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "direct_import_channel",
+        "labelJa": "9610直購輸入の申告経路・事業者の照合記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国財政部・税関総署・国家税務総局",
+        "title": "財関税〔2016〕18号　越境EC小売輸入税制",
+        "url": "https://www.mof.gov.cn/gp/xxgkml/gss/201603/t20160324_2510682.htm"
+      },
+      {
+        "authority": "中国国家税務総局",
+        "title": "財関税〔2018〕49号　取引上限と個人利用",
+        "url": "https://www.chinatax.gov.cn/chinatax/n810341/n810765/n3359382/201812/c4182338/content.html"
+      },
+      {
+        "authority": "中国商務部ほか",
+        "title": "商財発〔2018〕486号　越境EC小売輸入の監督",
+        "url": "https://www.cac.gov.cn/2018-12/01/c_1123793309.htm"
+      },
+      {
+        "authority": "中国財政部ほか",
+        "title": "2022年第7号　越境EC小売輸入ポジティブリストの調整",
+        "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202202/t20220221_3788662.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_cbec_export_return",
+    "category": "return",
+    "titleJa": "中国本土への越境EC輸出品の返品・売れ残り",
+    "conditionJa": "2026年1月1日から2027年12月31日までに元の輸出を監管コード1210・9610・9710・9810で申告し、売れ残りまたは返品により6か月以内に原状で戻る食品以外を対象に、輸入関税・増値税・消費税の免税を確認します。1210は特別監管区域・保税物流センター（B型）から出区し国外へ出た日を起点とし、区域外への返送条件を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "prior_cbec_export_code",
+        "labelJa": "元の越境EC輸出監管コードと輸出・出区離境日"
+      },
+      {
+        "code": "export_rebate_certificate",
+        "labelJa": "輸出還付済みの場合は補税、所定の未退税・已補税証明、返品・売れ残り理由の資料"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国財政部・海関総署・税務総局（商務部掲載）",
+        "title": "2026年第16号 跨境电子商务出口退运商品税收优惠政策",
+        "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104934"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_commercial_import",
+    "category": "business_import",
+    "titleJa": "中国本土の企業向け貨物申告",
+    "conditionJa": "企業間販売は荷受人・代理人と貨物申告方式、契約、インボイス、包装明細、運送・許可書類を確認します。提出要否は貨物と申告方式に応じ、海関審査時に提示できるよう準備します。越境ECの個人向け小売輸入と区別し、実際の監管コードを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "packing_list",
+        "labelJa": "貨物と対応する包装明細書",
+        "document": "PACKING_LIST"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "registered_consignee",
+        "labelJa": "輸入者・荷受人・申告代理者の登録と権限"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国海関総署",
+        "title": "货物申报 政务服务事项办事指南",
+        "url": "https://online.customs.gov.cn/static/pages/guides/000629002001/%E2%80%9C%E8%B4%A7%E7%89%A9%E7%94%B3%E6%8A%A5%E2%80%9D%E6%94%BF%E5%8A%A1%E6%9C%8D%E5%8A%A1%E4%BA%8B%E9%A1%B9%E5%8A%9E%E4%BA%8B%E6%8C%87%E5%8D%97.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_private_post",
+    "category": "gift",
+    "titleJa": "中国本土の個人向け贈答郵便",
+    "conditionJa": "国外からの個人郵送品は税関が合理的な自用と認める範囲で、1回2,000人民元の価額限度と、簡易方式で算定した輸入税額50人民元以下の免税を確認します。分割できない単一物品の限度超過は税関確認が必要です。販売など商業性のある郵便は貨物としての通関を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "private_gift"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "gift_postal_declaration",
+        "labelJa": "内容・数量・価額を記載した郵便税関告知書",
+        "document": "POSTAL_CUSTOMS_DECLARATION"
+      },
+      {
+        "code": "personal_use_identity",
+        "labelJa": "受取人本人、合理的自用、品目の数量と価額の確認"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国海関総署",
+        "title": "海关政务服务进出境邮件常见问题",
+        "url": "https://online.customs.gov.cn/ociswebserver/pages/jcjybcx/question.html"
+      },
+      {
+        "authority": "中国海関総署（商務部掲載）",
+        "title": "海关总署公告2024年第176号",
+        "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_4adf716bf28542fdbffe5510b30d8ed9.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cn_standard_return",
+    "category": "return",
+    "titleJa": "中国本土の原状返送（関税法第39条）",
+    "conditionJa": "品質・規格の理由または不可抗力により、中国から輸出した同一貨物が輸出日から1年以内に原状で戻る場合は、関税法第39条の輸入関税の取扱いを確認します。例外の期限延長は海関承認が必要です。輸出時の税還付・再納付、輸入時の増値税・消費税は別条件を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "return_cause",
+        "labelJa": "品質・規格上の問題または不可抗力の証拠"
+      },
+      {
+        "code": "export_tax_refund",
+        "labelJa": "元の輸出で受けた税の還付と必要な再納付の確認"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "中国財政部",
+        "title": "中华人民共和国关税法 第39条、第52条",
+        "url": "https://www.mof.gov.cn/jrttts/202404/t20240429_3933790.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cptpp_au",
+    "category": "preference",
+    "agreement": "cptpp",
+    "titleJa": "オーストラリア向けCPTPP特恵",
+    "conditionJa": "附属書2-Dの仕向国別の譲許、品目別原産地規則、原産地証明の必要データを照合します。非締約国を経由した場合は税関管理下に置かれ、許容された作業の範囲に収まることを確認します。繊維、車両、関税割当は別途確認します。 英国原産品の豪州での発効日は2024年12月24日です。豪州Schedule 8Bの例外品目、最終生産工程に応じた税率差、輸入手続を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AU"
+      ],
+      "productOrigins": [
+        "BN",
+        "CA",
+        "CL",
+        "GB",
+        "JP",
+        "MX",
+        "MY",
+        "NZ",
+        "PE",
+        "SG",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cptpp_certification",
+        "labelJa": "CPTPP附属書3-Bのデータを満たす証明と申告者が保有する根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "cptpp_transit",
+        "labelJa": "CPTPP第3.18条に沿った非締約国経由時の税関管理と作業記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Australian Border Force",
+        "title": "CPTPP原産地規則と輸入手続",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/fta/free-trade-agreements/comprehensive-and-progressive-agreement-for-trans-pacific-partnership"
+      },
+      {
+        "authority": "Australian Border Force",
+        "title": "ACN 2024/43 英国とのCPTPP発効",
+        "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2024-43.pdf"
+      },
+      {
+        "authority": "Australian Border Force",
+        "title": "豪州作業税表Schedule 8B・CPTPP原産品の例外税率",
+        "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-8b"
+      },
+      {
+        "authority": "New Zealand Ministry of Foreign Affairs and Trade",
+        "title": "CPTPP第3章 第3.18条・第3.20条・附属書3-B",
+        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/TPP/Text-ENGLISH/3.-Rules-of-Origin-and-Origin-Procedures-Chapter.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cptpp_gb",
+    "category": "preference",
+    "agreement": "cptpp",
+    "titleJa": "英国本土向けCPTPP特恵",
+    "conditionJa": "附属書2-Dの仕向国別の譲許、品目別原産地規則、原産地証明の必要データを照合します。非締約国を経由した場合は税関管理下に置かれ、許容された作業の範囲に収まることを確認します。繊維、車両、関税割当は別途確認します。 英国本土向けの国内品目番号、申告日、相手国での発効と英国の証明コードを照合します。英国との発効日はカナダが2026年9月1日、メキシコが同年6月22日です。二国間協定を用いる場合は別個に審査します。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "productOrigins": [
+        "AU",
+        "BN",
+        "CA",
+        "CL",
+        "JP",
+        "MX",
+        "MY",
+        "NZ",
+        "PE",
+        "SG",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cptpp_certification",
+        "labelJa": "CPTPP附属書3-Bのデータを満たす証明と申告者が保有する根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "cptpp_transit",
+        "labelJa": "CPTPP第3.18条に沿った非締約国経由時の税関管理と作業記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "UK Department for Business and Trade",
+        "title": "英国CPTPP発効国と協定実施資料",
+        "url": "https://www.gov.uk/government/collections/the-uk-and-the-comprehensive-and-progressive-agreement-for-trans-pacific-partnershipcptpp"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "英国輸入の原産地証明",
+        "url": "https://www.gov.uk/guidance/get-proof-of-origin-for-your-goods"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "UK Integrated Online Tariff",
+        "url": "https://www.trade-tariff.service.gov.uk/"
+      },
+      {
+        "authority": "New Zealand Ministry of Foreign Affairs and Trade",
+        "title": "CPTPP第3章 第3.18条・第3.20条・附属書3-B",
+        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/TPP/Text-ENGLISH/3.-Rules-of-Origin-and-Origin-Procedures-Chapter.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cptpp_jp",
+    "category": "preference",
+    "agreement": "cptpp",
+    "titleJa": "日本向けCPTPP特恵",
+    "conditionJa": "附属書2-Dの仕向国別の譲許、品目別原産地規則、原産地証明の必要データを照合します。非締約国を経由した場合は税関管理下に置かれ、許容された作業の範囲に収まることを確認します。繊維、車両、関税割当は別途確認します。 日本の自己申告方式、根拠資料、輸入申告時の提出手続を確認します。税率差品目は税率適用国を別途確認し、国別の申告コードと税率を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "AU",
+        "BN",
+        "CA",
+        "CL",
+        "GB",
+        "MX",
+        "MY",
+        "NZ",
+        "PE",
+        "SG",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cptpp_certification",
+        "labelJa": "CPTPP附属書3-Bのデータを満たす証明と申告者が保有する根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "cptpp_transit",
+        "labelJa": "CPTPP第3.18条に沿った非締約国経由時の税関管理と作業記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "cptpp_tariff_country",
+        "labelJa": "税率差の対象品目では協定付録C等の税率適用国"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "CPTPP発効範囲と締約国別譲許表",
+        "url": "https://www.customs.go.jp/english/c-answer_e/keizairenkei/4052_e.htm"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "CPTPP原産地証明と輸入者・輸出者・生産者の自己申告",
+        "url": "https://www.customs.go.jp/roo/procedure/riyou.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "CPTPP税率適用国と税率差品目の申告",
+        "url": "https://www.customs.go.jp/roo/information/epa/naccs_nyuryoku.pdf"
+      },
+      {
+        "authority": "New Zealand Ministry of Foreign Affairs and Trade",
+        "title": "CPTPP第3章 第3.18条・第3.20条・附属書3-B",
+        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/TPP/Text-ENGLISH/3.-Rules-of-Origin-and-Origin-Procedures-Chapter.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "cptpp_nz",
+    "category": "preference",
+    "agreement": "cptpp",
+    "titleJa": "ニュージーランド向けCPTPP特恵",
+    "conditionJa": "附属書2-Dの仕向国別の譲許、品目別原産地規則、原産地証明の必要データを照合します。非締約国を経由した場合は税関管理下に置かれ、許容された作業の範囲に収まることを確認します。繊維、車両、関税割当は別途確認します。 特恵申告時に輸入者が文書または電子形式の原産地申告を保有し、日付と税率列を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "productOrigins": [
+        "AU",
+        "BN",
+        "CA",
+        "CL",
+        "GB",
+        "JP",
+        "MX",
+        "MY",
+        "PE",
+        "SG",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cptpp_certification",
+        "labelJa": "CPTPP附属書3-Bのデータを満たす証明と申告者が保有する根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "cptpp_transit",
+        "labelJa": "CPTPP第3.18条に沿った非締約国経由時の税関管理と作業記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "CPTPP締約国と特恵申告",
+        "url": "https://www.customs.govt.nz/information-releases-and-legislation/legislation/international-agreements/free-trade-agreements/comprehensive-and-progressive-trans-pacific-partnership-cptpp-agreement"
+      },
+      {
+        "authority": "New Zealand Parliamentary Counsel Office",
+        "title": "Tariff (Specified CPTPP Parties) Order 2018",
+        "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2018/232/en/2024-12-15.pdf"
+      },
+      {
+        "authority": "New Zealand Ministry of Foreign Affairs and Trade",
+        "title": "CPTPP第3章 第3.18条・第3.20条・附属書3-B",
+        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/TPP/Text-ENGLISH/3.-Rules-of-Origin-and-Origin-Procedures-Chapter.pdf"
+      },
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "CusMod Tariff classifications and rates",
+        "url": "https://www.customs.govt.nz/business/tariffs/tariff-classifications-and-rates"
+      },
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "Working Tariff Document 特恵税率略号 CPT",
+        "url": "https://www.customs.govt.nz/media/dovd045w/introduction-1-may-2024.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "rateReferences": [
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "AU",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "BN",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "CA",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "CL",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "GB",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "JP",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "MX",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "MY",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "PE",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "SG",
+        "labels": [
+          "CPT"
+        ]
+      },
+      {
+        "destinationCountry": "NZ",
+        "productOrigin": "VN",
+        "labels": [
+          "CPT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu_commercial_import",
+    "category": "business_import",
+    "titleJa": "EU域外からの商業貨物の輸入申告",
+    "conditionJa": "EU域外から自由流通に付す輸入では、申告者・輸入者のEORI、仕向地・税関領域、品目・原産地・課税価格、輸入VAT、適用される特別措置と書類を照合します。消費者向けIOSSの前提で法人取引の税額を判定せず、実際の申告手続を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "eori",
+        "labelJa": "輸入者・申告者のEORI番号と役割"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "欧州委員会",
+        "title": "Economic Operators Registration and Identification number",
+        "url": "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/economic-operators-registration-and-identification-number-eori_en"
+      },
+      {
+        "authority": "欧州連合",
+        "title": "Union Customs Code 第201条",
+        "url": "https://eur-lex.europa.eu/eli/reg/2013/952/oj/eng"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_distance_sale_union_handling_fee",
+    "category": "cross_border_ecommerce",
+    "titleJa": "EUの輸入通信販売に対するUnion handling fee",
+    "conditionJa": "2026年11月1日以降、EU域外からの対象通信販売品を自由流通に付す申告では、EU取扱手数料を申告上の物品明細1行につき2ユーロで照合します。150ユーロを超える貨物にも適用され得ます。EU域外にある商品、販売者側の輸送への関与、購入者の課税事業者区分、申告明細を照合します。この手数料は暫定関税3ユーロと別の費目（F00、追加参照Y126）で、手数料そのものは還付対象外です。VAT課税標準への反映は徴収方式に応じて照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard",
+        "ioss"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適切な申告方式と輸入申告を確認できる記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "declaration_goods_items",
+        "labelJa": "申告上の物品明細・行数の確認記録。同じ分類でも別行の申告はそれぞれ数える"
+      },
+      {
+        "code": "distance_sale_scope",
+        "labelJa": "域外商品の通信販売、販売者側の運送関与と購入者区分の照合記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Parliament and Council",
+        "title": "Regulation (EU) 2026/2108, Articles 5(78) and 20",
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/2108/oj/eng"
+      },
+      {
+        "authority": "European Commission",
+        "title": "Commission Delegated Regulation (EU) 2026/2152",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/2152/oj/eng"
+      },
+      {
+        "authority": "European Commission",
+        "title": "Commission Implementing Regulation (EU) 2026/2403",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2403"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "The temporary EUR 3 customs duty and the Union handling fee, 5 October 2026",
+        "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_ioss_temporary_duty",
+    "category": "cross_border_ecommerce",
+    "titleJa": "EUのIOSSと少額貨物の暫定関税",
+    "conditionJa": "EU域外からの消費者向け貨物で本源的価額の合計が150ユーロ以下の場合にIOSSの適用を照合します。IOSSによる輸入VAT免除の貨物では、2026年7月1日から暫定関税が申告上の物品明細1行ごとに3ユーロです。VATの販売時徴収・輸入申告への連携と商品識別子を確認します。物品税対象品、特別税関・VAT領域、手数料は別途確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "ioss"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tariff_classification",
+        "labelJa": "仕向地の申告品目分類と商品同定の記録"
+      },
+      {
+        "code": "declaration_goods_items",
+        "labelJa": "申告上の物品明細・行数の確認記録。同じ分類でも別行の申告はそれぞれ数える"
+      },
+      {
+        "code": "product_identifier",
+        "labelJa": "対象品の申告用商品識別子（PID）",
+        "document": "PRODUCT_IDENTIFIER_EVIDENCE"
+      },
+      {
+        "code": "ioss_registration_handoff",
+        "labelJa": "IOSS登録と申告担当への安全な参照連携",
+        "document": "IOSS_SECURE_HANDOFF_REFERENCE"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Council of the European Union",
+        "title": "Council Regulation (EU) 2026/382",
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng"
+      },
+      {
+        "authority": "European Commission",
+        "title": "Commission Delegated Regulation (EU) 2026/1022",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "The temporary EUR 3 customs duty and the Union handling fee, 5 October 2026",
+        "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "declared_consignment_goods",
+      "currency": "EUR",
+      "operator": "lte",
+      "amount": "150"
+    }
+  },
+  {
+    "id": "eu_japan_epa_eu",
+    "category": "preference",
+    "agreement": "eu_japan_epa",
+    "titleJa": "EU向け日EU・EPA特恵",
+    "conditionJa": "協定附属書2-Aの品目別譲許と第3章の原産地規則を確認します。申告の根拠は輸出者の原産地申告文、または十分な記録に基づく輸入者の知識です。第三国での輸送・保管等は非変更要件と税関監督を確認します。特恵の割当、関税・税領域や申告の例外は当局の案内で照合します。 EU輸入ではTARICの日本向けの措置と申告上の根拠を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "productOrigins": [
+        "JP"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "epa_claim_basis",
+        "labelJa": "輸出者の原産地申告文、または輸入者の知識を裏付ける記録",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "経由・保管・分割時の非変更、税関監督、必要な輸送記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Commission",
+        "title": "日EU・EPA原産地申告文・輸入者の知識・検認",
+        "url": "https://taxation-customs.ec.europa.eu/customs/international-affairs/third-countries/japan_en"
+      },
+      {
+        "authority": "European Commission",
+        "title": "日EU・EPA第3章 第3.10条・第3.16～3.22条",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/country-assets/tradoc_157228.pdf"
+      },
+      {
+        "authority": "European Commission",
+        "title": "TARIC tariff consultation",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_japan_epa_jp",
+    "category": "preference",
+    "agreement": "eu_japan_epa",
+    "titleJa": "日本向け日EU・EPA特恵",
+    "conditionJa": "協定附属書2-Aの品目別譲許と第3章の原産地規則を確認します。申告の根拠は輸出者の原産地申告文、または十分な記録に基づく輸入者の知識です。第三国での輸送・保管等は非変更要件と税関監督を確認します。特恵の割当、関税・税領域や申告の例外は当局の案内で照合します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "epa_claim_basis",
+        "labelJa": "輸出者の原産地申告文、または輸入者の知識を裏付ける記録",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "経由・保管・分割時の非変更、税関監督、必要な輸送記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "日EU・EPA原産地申告・確認の手引き",
+        "url": "https://www.customs.go.jp/roo/procedure/riyou_eu_EN.pdf"
+      },
+      {
+        "authority": "European Commission",
+        "title": "日EU・EPA第3章 第3.10条・第3.16～3.22条",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/country-assets/tradoc_157228.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "rateReferences": [
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "AT",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "BE",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "BG",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "HR",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "CY",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "CZ",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "DK",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "EE",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "FI",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "FR",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "DE",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "GR",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "HU",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "IE",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "IT",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "LV",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "LT",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "LU",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "MT",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "NL",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "PL",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "PT",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "RO",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "SK",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "SI",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "ES",
+        "labels": [
+          "欧州連合EU"
+        ]
+      },
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "SE",
+        "labels": [
+          "欧州連合EU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu_mercosur_ita_ar_from_eu",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "アルゼンチン向けEU・MERCOSUR ITA特恵（EU原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。EU輸出者は附属書3-Cの原産地申告文を使用します。有効なREX番号がある場合は申告文に記載し、未登録輸出者が発行できるのは原産品の積送単位の価額が6,000ユーロ以下の場合です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。アルゼンチンの当局案内で輸入申告、協定根拠と適用される関税割当・輸入許可を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AR"
+      ],
+      "productOrigins": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "附属書3-CのEU輸出者原産地申告文とREX番号または未登録輸出者の6,000ユーロ以下要件",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "アルゼンチンの輸入申告に記載する協定根拠、品目番号と割当対象時の必要書類",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "協定附属書3-B・3-C・3-D",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/9.-Anexos-3A-3B-3C-3D-3E-3F-4A-5A-5B-6A-9A.pdf"
+      },
+      {
+        "authority": "Boletín Oficial de la República Argentina",
+        "title": "法律第27800号・暫定貿易協定の承認",
+        "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/5992203/20260226?suplemento=1"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_br_from_eu",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "ブラジル向けEU・MERCOSUR ITA特恵（EU原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。EU輸出者は附属書3-Cの原産地申告文を使用します。有効なREX番号がある場合は申告文に記載し、未登録輸出者が発行できるのは原産品の積送単位の価額が6,000ユーロ以下の場合です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。ブラジルのDUIMPで協定の法的根拠を指定し、原産地書類と品目ごとの条件を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "BR"
+      ],
+      "productOrigins": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "附属書3-CのEU輸出者原産地申告文とREX番号または未登録輸出者の6,000ユーロ以下要件",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "ブラジルの輸入申告に記載する協定根拠、品目番号と割当対象時の必要書類",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "協定附属書3-B・3-C・3-D",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/9.-Anexos-3A-3B-3C-3D-3E-3F-4A-5A-5B-6A-9A.pdf"
+      },
+      {
+        "authority": "Portal Siscomex",
+        "title": "Importação 035/2026・DUIMPの協定根拠",
+        "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-035/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_eu_from_ar",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "EU向けEU・MERCOSUR ITA特恵（アルゼンチン原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。アルゼンチン輸出者の附属書3-C原産地申告文は輸出者番号（CUIT）、氏名、署名を確認します。移行期間中は附属書3-Dに基づく原産地証明書も確認対象です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。EU輸入ではTARICの品目・措置と輸入申告上の特恵コードを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "productOrigins": [
+        "AR"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "輸出者のCUIT・氏名・署名入り附属書3-C原産地申告文、または移行期間中の附属書3-D原産地証明書",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "EU輸入申告の原産地・特恵コードと裏付書類の照合",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/875・MERCOSUR通知の附属書3-D証明書様式",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/875/oj/eng"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "EU輸入申告の根拠コードと輸出者番号",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/abril/27/acuerdo-interino-ue-mercosur.html"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "TARIC品目別協定措置と関税割当",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      },
+      {
+        "authority": "Boletín Oficial de la República Argentina",
+        "title": "法律第27800号・暫定貿易協定の承認",
+        "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/5992203/20260226?suplemento=1"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_eu_from_br",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "EU向けEU・MERCOSUR ITA特恵（ブラジル原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。ブラジル輸出者の附属書3-C原産地申告文は輸出者番号（CNPJ）、氏名、署名を確認します。移行期間中は附属書3-Dに基づく原産地証明書も確認対象です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。EU輸入ではTARICの品目・措置と輸入申告上の特恵コードを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "productOrigins": [
+        "BR"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "輸出者のCNPJ・氏名・署名入り附属書3-C原産地申告文、または移行期間中の附属書3-D原産地証明書",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "EU輸入申告の原産地・特恵コードと裏付書類の照合",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/875・MERCOSUR通知の附属書3-D証明書様式",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/875/oj/eng"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "EU輸入申告の根拠コードと輸出者番号",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/abril/27/acuerdo-interino-ue-mercosur.html"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "TARIC品目別協定措置と関税割当",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      },
+      {
+        "authority": "Portal Siscomex",
+        "title": "Importação 035/2026・DUIMPの協定根拠",
+        "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-035/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_eu_from_py",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "EU向けEU・MERCOSUR ITA特恵（パラグアイ原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。パラグアイ輸出者についてEU税関当局の公表手続は附属書3-Dの原産地証明書を指定しています。発行機関と原本を確認します。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。EU輸入ではTARICの品目・措置と輸入申告上の特恵コードを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "productOrigins": [
+        "PY"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "附属書3-Dの認定機関が発行する原産地証明書",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "EU輸入申告の原産地・特恵コードと裏付書類の照合",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/875・MERCOSUR通知の附属書3-D証明書様式",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/875/oj/eng"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "EU輸入申告の根拠コードと輸出者番号",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/abril/27/acuerdo-interino-ue-mercosur.html"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "TARIC品目別協定措置と関税割当",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "ITA本文とMERCOSUR譲許表",
+        "url": "https://www.mre.gov.py/acuerdo-interino-de-comercio/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_eu_from_uy",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "EU向けEU・MERCOSUR ITA特恵（ウルグアイ原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。ウルグアイ輸出者の附属書3-C原産地申告文は輸出者番号（RUT）、氏名、署名を確認します。移行期間中は附属書3-Dに基づく原産地証明書も確認対象です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。EU輸入ではTARICの品目・措置と輸入申告上の特恵コードを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "productOrigins": [
+        "UY"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "輸出者のRUT・氏名・署名入り附属書3-C原産地申告文、または移行期間中の附属書3-D原産地証明書",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "EU輸入申告の原産地・特恵コードと裏付書類の照合",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/875・MERCOSUR通知の附属書3-D証明書様式",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/875/oj/eng"
+      },
+      {
+        "authority": "Agencia Estatal de Administración Tributaria",
+        "title": "EU輸入申告の根拠コードと輸出者番号",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/aduanas/novedades/2026/abril/27/acuerdo-interino-ue-mercosur.html"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "TARIC品目別協定措置と関税割当",
+        "url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp?Lang=en"
+      },
+      {
+        "authority": "Dirección Nacional de Aduanas Uruguay",
+        "title": "国内輸入申告・証明・関税割当の税関案内",
+        "url": "https://www.aduanas.gub.uy/innovaportal/v/28577/9/innova.front/acuerdo-mercosur---ue.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_py_from_eu",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "パラグアイ向けEU・MERCOSUR ITA特恵（EU原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。EU輸出者は附属書3-Cの原産地申告文を使用します。有効なREX番号がある場合は申告文に記載し、未登録輸出者が発行できるのは原産品の積送単位の価額が6,000ユーロ以下の場合です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。パラグアイの当局案内で輸入申告と協定根拠、関税割当の手続を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "PY"
+      ],
+      "productOrigins": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "附属書3-CのEU輸出者原産地申告文とREX番号または未登録輸出者の6,000ユーロ以下要件",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "パラグアイの輸入申告に記載する協定根拠、品目番号と割当対象時の必要書類",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "協定附属書3-B・3-C・3-D",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/9.-Anexos-3A-3B-3C-3D-3E-3F-4A-5A-5B-6A-9A.pdf"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "ITA本文とMERCOSUR譲許表",
+        "url": "https://www.mre.gov.py/acuerdo-interino-de-comercio/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_mercosur_ita_uy_from_eu",
+    "category": "preference",
+    "agreement": "eu_mercosur_ita",
+    "titleJa": "ウルグアイ向けEU・MERCOSUR ITA特恵（EU原産品）",
+    "conditionJa": "2026年5月1日に暫定適用されたEU・MERCOSUR暫定貿易協定を対象とします。附属書2-Aの譲許表と附属書3-Bの品目別原産地規則を照合し、段階税率・割当・対象外品目を確認します。EU輸出者は附属書3-Cの原産地申告文を使用します。有効なREX番号がある場合は申告文に記載し、未登録輸出者が発行できるのは原産品の積送単位の価額が6,000ユーロ以下の場合です。輸出者の原産地申告を根拠とし、輸入者の知識による申請はこの協定に含まれません。第3.14条に沿い、第三国での保管・貨物分割がある場合は税関監督、輸出者または後続保有者の責任、貨物の同一性と許容作業を輸送記録で確認します。原産地申告の原則12か月の有効期間と、輸入時または自由流通への引渡しから2年以内の申請条件を確認します。ウルグアイ税関の現行案内で協定コード、原産地書類、割当対象時の許可および事後申請の手続を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "UY"
+      ],
+      "productOrigins": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "輸入時の国内品目番号と附属書2-Aの段階税率・割当、適用日における国内措置の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "附属書3-Bの原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "eu_mercosur_statement",
+        "labelJa": "附属書3-CのEU輸出者原産地申告文とREX番号または未登録輸出者の6,000ユーロ以下要件",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "第3.14条の貨物同一性・許容作業、経由地での保管・分割に関する輸送記録と税関監督の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "ウルグアイの輸入申告に記載する協定根拠、品目番号と割当対象時の必要書類",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "European Union Official Journal",
+        "title": "告示2026/868・2026年5月1日の暫定適用",
+        "url": "https://eur-lex.europa.eu/eli/notice/2026/868/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "EU・MERCOSUR ITA原産地と証明方法",
+        "url": "https://taxation-customs.ec.europa.eu/customs/rules-origin-goods/preferential-rules-origin/latin-america/mercosur_en"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "署名済み協定本文・第3章原産地と第3.14条輸送条件",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/0.-ACUERDO-INTERINO-DE-COMERCIO-MERCOSUR-UE.pdf"
+      },
+      {
+        "authority": "Ministerio de Relaciones Exteriores del Paraguay",
+        "title": "協定附属書3-B・3-C・3-D",
+        "url": "https://www.mre.gov.py/wp-content/uploads/2026/01/9.-Anexos-3A-3B-3C-3D-3E-3F-4A-5A-5B-6A-9A.pdf"
+      },
+      {
+        "authority": "Dirección Nacional de Aduanas Uruguay",
+        "title": "国内輸入申告・証明・関税割当の税関案内",
+        "url": "https://www.aduanas.gub.uy/innovaportal/v/28577/9/innova.front/acuerdo-mercosur---ue.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_non_ioss_distance_sale_duty",
+    "category": "low_value",
+    "titleJa": "EUのIOSSを用いない少額輸入通信販売",
+    "conditionJa": "2026年7月1日から従来の150ユーロ以下の一律少額免税は廃止されています。IOSSを用いない対象通信販売品の本源的価額合計が150ユーロ以下の場合、郵便・クーリエ等の運送方式を問わず暫定関税を申告上の物品明細1行につき3ユーロで照合します。H1申告で実際に協定特恵・関税同盟措置を利用できる場合はその税率を確認します。輸入VAT、申告方式と対象品の商品識別子は別途照合します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "tariff_classification",
+        "labelJa": "仕向地の申告品目分類と商品同定の記録"
+      },
+      {
+        "code": "declaration_goods_items",
+        "labelJa": "申告上の物品明細・行数の確認記録。同じ分類でも別行の申告はそれぞれ数える"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "product_identifier",
+        "labelJa": "対象品の申告用商品識別子（PID）",
+        "document": "PRODUCT_IDENTIFIER_EVIDENCE"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適切な申告方式と輸入申告を確認できる記録",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Council of the European Union",
+        "title": "Council Regulation (EU) 2026/382",
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng"
+      },
+      {
+        "authority": "European Commission",
+        "title": "Commission Delegated Regulation (EU) 2026/1022",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng"
+      },
+      {
+        "authority": "European Commission DG TAXUD",
+        "title": "The temporary EUR 3 customs duty and the Union handling fee, 5 October 2026",
+        "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "declared_consignment_goods",
+      "currency": "EUR",
+      "operator": "lte",
+      "amount": "150"
+    }
+  },
+  {
+    "id": "eu_private_gift",
+    "category": "gift",
+    "titleJa": "EUの個人間贈答に対する少額免税",
+    "conditionJa": "EU関税領域の外から個人間で、時折、無償で、本人または家族の私用に送る非商業貨物を確認します。ヘルゴラント島発はこの関税免税の対象外です。関税・輸入VATの贈答免税は原則1梱包45ユーロまでで、複数品の関税免税は品物単位、VAT・酒・たばこ・香水などは個別条件を確認します。2026年7月開始の低額貨物の取扱いとは別の制度です。贈答免税の条件を外れる場合は、申告種別に応じて税額を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "private_gift"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "gift_contents",
+        "labelJa": "個人使用の内容・数量、品目別価額、贈答の頻度"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "欧州連合",
+        "title": "Regulation (EC) No 1186/2009 第25～27条",
+        "url": "https://eur-lex.europa.eu/eli/reg/2009/1186/oj/eng"
+      },
+      {
+        "authority": "欧州連合",
+        "title": "Council Regulation (EU) 2026/382",
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng"
+      },
+      {
+        "authority": "欧州連合",
+        "title": "Council Directive 2006/79/EC",
+        "url": "https://eur-lex.europa.eu/eli/dir/2006/79/oj/eng"
+      },
+      {
+        "authority": "アイルランド歳入庁",
+        "title": "Rules for duty relief on gift consignments",
+        "url": "https://www.revenue.ie/en/customs/individuals/relief-gifts-low-value/rules-gifts.aspx"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "eu_returned_goods",
+    "category": "return",
+    "titleJa": "EUの戻り貨物関税免除（UCC第203条）",
+    "conditionJa": "EU関税領域からEU貨物として輸出した同一品が原則3年以内に戻り、輸出時の状態で自由流通に付す申告をして申請する場合に確認します。例外期限、保全の範囲、元の輸出申告の証明を照合します。輸入VATは輸出した者による再輸入など別条件を確認します。EUに輸入した低額遠隔販売品（本体価額150ユーロ以下）を自由流通後に域外の販売者へ返す場合は別手続で、改正第148条(3)による輸入申告の無効化・定額関税の還付は対象外です。一般の還付条件を別途確認します。",
+    "appliesWhen": {
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "original_status",
+        "labelJa": "再輸入前の国内流通資格・原産性・納税状況を裏付ける証拠"
+      },
+      {
+        "code": "vat_reimporter",
+        "labelJa": "輸入VAT免税を求める場合の元輸出者と再輸入者の同一性"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "欧州連合",
+        "title": "Union Customs Code 第203条",
+        "url": "https://eur-lex.europa.eu/eli/reg/2013/952/oj/eng"
+      },
+      {
+        "authority": "欧州委員会",
+        "title": "Guidance on returned goods",
+        "url": "https://taxation-customs.ec.europa.eu/document/download/462c469d-6e51-4993-a347-f003300336a4_en?filename=Note-on-returned-goods-en-7-2021-revised.pdf"
+      },
+      {
+        "authority": "欧州連合",
+        "title": "VAT Directive 2006/112/EC 第143条(1)(e)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2006/112/oj/eng"
+      },
+      {
+        "authority": "欧州連合",
+        "title": "Delegated Regulation (EU) 2026/1022 第148条(3)改正",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "gb_commercial_import",
+    "category": "business_import",
+    "titleJa": "グレートブリテンの商業輸入と取引時VAT",
+    "conditionJa": "GB EORI、品目、評価額、申告主体・輸入VATの処理を確認します。英国外にある商品の低額直販では、商品本体価額が1貨物135ポンド以下の制度、購入者の有効な英国VAT登録番号とリバースチャージ、除外品、マーケットプレイスが関与する場合の扱いを区別します。北アイルランドは別途照会します。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "buyer_vat_id",
+        "labelJa": "低額B2B販売の購入者VAT登録番号と請求書処理の証拠"
+      },
+      {
+        "code": "gb_eori",
+        "labelJa": "輸入者・申告者のGB EORI"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "英国政府",
+        "title": "Import goods into the UK: step by step",
+        "url": "https://www.gov.uk/import-goods-into-uk"
+      },
+      {
+        "authority": "英国歳入関税庁",
+        "title": "Charging VAT on goods sold direct to customers in the UK",
+        "url": "https://www.gov.uk/guidance/charging-vat-on-goods-sold-direct-to-customers-in-the-uk"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "gb_low_value_b2b_reverse_charge",
+    "category": "cross_border_ecommerce",
+    "titleJa": "英国本土の少額B2B・VATリバースチャージ",
+    "conditionJa": "貨物全体の本源的価額が135ポンド以下の対象取引で、買い手が英国VAT登録番号を提示し確認できる場合、英国本土では買い手のVAT申告によるリバースチャージを確認します。インボイスにリバースチャージの記載を確認します。北アイルランドでは輸入VATの別手続です。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "buyer_tax_registration",
+        "labelJa": "買い手の税務登録と当該取引に使う登録番号の確認記録"
+      },
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "vat_reverse_charge_invoice",
+        "labelJa": "買い手がVATを申告する旨のインボイス記載"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "VAT and overseas goods sold directly to customers in the UK",
+        "url": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-directly-to-customers-in-the-uk"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "VAT and overseas goods sold via an online marketplace to UK customers",
+        "url": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-to-customers-in-the-uk-using-online-marketplaces"
+      },
+      {
+        "authority": "UK Parliament",
+        "title": "VAT Act 1994 section 7AA",
+        "url": "https://www.legislation.gov.uk/ukpga/1994/23/section/7AA"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "declared_consignment_goods",
+      "currency": "GBP",
+      "operator": "lte",
+      "amount": "135"
+    }
+  },
+  {
+    "id": "gb_low_value_retail_vat",
+    "category": "cross_border_ecommerce",
+    "titleJa": "英国本土の少額販売VAT",
+    "conditionJa": "貨物全体の本源的価額が135ポンド以下で英国本土の消費者向けの場合、直接販売は販売者、モール経由は適格なモールの販売時VATを確認します。物品税対象品、チャネル諸島の個別制度、北アイルランドの輸入VATは別扱いです。少額関税免除の改正は2028年10月までに施行日を別途定める扱いで、この確認日には将来措置です。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tax_registration_status",
+        "labelJa": "取引の徴税主体に適用される税務登録状況"
+      },
+      {
+        "code": "tax_collection_handoff",
+        "labelJa": "徴税主体、販売時の税額と配送・通関担当への引継ぎ記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "VAT and overseas goods sold directly to customers in the UK",
+        "url": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-directly-to-customers-in-the-uk"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "VAT and overseas goods sold via an online marketplace to UK customers",
+        "url": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-to-customers-in-the-uk-using-online-marketplaces"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "Tax and duty for goods sent from abroad",
+        "url": "https://www.gov.uk/goods-sent-from-abroad/tax-and-duty"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "2026年10月28日更新 Low Value Imports reform",
+        "url": "https://www.gov.uk/government/publications/reforming-customs-rules-for-low-value-imports/reforming-the-customs-treatment-of-low-value-imports-into-the-uk"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "declared_consignment_goods",
+      "currency": "GBP",
+      "operator": "lte",
+      "amount": "135"
+    }
+  },
+  {
+    "id": "gb_private_gift",
+    "category": "gift",
+    "titleJa": "グレートブリテン向け個人間贈答",
+    "conditionJa": "英国外からグレートブリテンへ個人同士で送り、機会に応じた私用の贈答として税関告知する場合に、39ポンド以下の輸入VAT免税と、関税・物品税の別条件を確認します。受取人がオンライン購入した商品を直送する場合や企業が発送する場合、酒・たばこ等は扱いが異なります。北アイルランドは経路に応じて別途確認します。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "transactions": [
+        "private_gift"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "gift_declaration",
+        "labelJa": "贈答と品目別価額を記載した税関告知・申告"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "英国歳入関税庁",
+        "title": "Tax and customs for goods sent from abroad: Gifts",
+        "url": "https://www.gov.uk/goods-sent-from-abroad/gifts"
+      },
+      {
+        "authority": "英国歳入関税庁",
+        "title": "Tax and customs for goods sent from abroad: Tax and duty",
+        "url": "https://www.gov.uk/goods-sent-from-abroad/tax-and-duty"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "gb_returned_goods",
+    "category": "return",
+    "titleJa": "英国の戻り貨物免税（Returned Goods Relief）",
+    "conditionJa": "元の英国輸出または対象地域からの移動、原則3年以内、原状と同一性、自由流通など輸出時の状態を確認します。整備による維持と、価値を上げる加工・改良は区別します。輸入VATの免税には元輸出者と再輸入者が同一であることが必要です。北アイルランドや農業措置、加工向け輸出は個別要件を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "original_status",
+        "labelJa": "再輸入前の国内流通資格・原産性・納税状況を裏付ける証拠"
+      },
+      {
+        "code": "vat_reimporter",
+        "labelJa": "輸入VAT免税を求める場合の元輸出者と再輸入者の同一性"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "英国歳入関税庁",
+        "title": "Pay less import duty and VAT when re-importing goods to the UK",
+        "url": "https://www.gov.uk/guidance/pay-less-import-duty-and-vat-when-re-importing-goods-to-the-uk-and-eu"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "jp_commercial_import",
+    "category": "business_import",
+    "titleJa": "日本の商業貨物の輸入申告",
+    "conditionJa": "輸入者・申告者、輸入（納税）申告書、仕入書、包装明細、運送状、運賃・保険料、課税価格と品目分類を確認します。貨物に応じて他法令の許可や原産地証明、減免税明細を準備します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "packing_list",
+        "labelJa": "貨物と対応する包装明細書",
+        "document": "PACKING_LIST"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "日本税関",
+        "title": "1107 輸入申告の際に必要な書類",
+        "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1107.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "jp_private_gift",
+    "category": "gift",
+    "titleJa": "日本への個人贈答と評価額",
+    "conditionJa": "無償の個人贈答にも税関評価額があります。課税価格の合計が1万円以下の少額免税を検討し、分割発送の合算、指定除外品、酒税・たばこ税、税関が個人的使用と認める贈与品の例外を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "transactions": [
+        "private_gift"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "東京税関",
+        "title": "国際郵便の贈物・無償見本の課税",
+        "url": "https://www.customs.go.jp/tokyo/english/yuubin/postal_qa/giftmusyomihon.htm"
+      },
+      {
+        "authority": "日本税関",
+        "title": "1006 課税価格の合計額が1万円以下の物品の免税適用",
+        "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1006.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "jp_returned_goods",
+    "category": "return",
+    "titleJa": "日本の再輸入免税",
+    "conditionJa": "日本から輸出した貨物を、輸出許可時と性質・形状が変わらない状態で再輸入する場合に、関税定率法第14条第10号の関税・消費税免税を確認します。元の輸出許可書またはこれに代わる資料を用意し、過去の減免戻し税や輸出免税の適用による除外を税関に照会します。修理・加工・交換と酒税・たばこ税等は個別確認です。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "prior_relief",
+        "labelJa": "輸出時の免税・戻し税等の適用記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "日本税関",
+        "title": "1609 再輸入免税貨物の手続",
+        "url": "https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1609_jr.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "jp_small_import_value",
+    "category": "low_value",
+    "titleJa": "日本の課税価格合計1万円以下の輸入",
+    "conditionJa": "同一インボイスや同一発送人から同一宛先に同時に分割発送した貨物を合算して課税価格を判定します。合計1万円以下では、指定除外品を照合した上で関税・輸入消費税の免税を確認します。酒税などの内国消費税は個別確認です。日本の少額輸入貨物の通信販売に係る販売時消費税・対象プラットフォーム課税は2028年4月1日からの改正です。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "relief_eligibility",
+        "labelJa": "免除対象品目と除外品目を照合した記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "日本税関",
+        "title": "カスタムスアンサー1006 少額輸入貨物の免税",
+        "url": "https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1006_jr.htm"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "Customs Answer 1006, duty exemption for small value goods",
+        "url": "https://www.customs.go.jp/english/c-answer_e/imtsukan/1006_e.htm"
+      },
+      {
+        "authority": "財務省",
+        "title": "令和8年度税制改正 消費課税",
+        "url": "https://www.mof.go.jp/tax_policy/publication/brochure/zeisei2026_pdf/zeisei26_03.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "confirmed_customs_value",
+      "currency": "JPY",
+      "operator": "lte",
+      "amount": "10000"
+    }
+  },
+  {
+    "id": "nz_commercial_import",
+    "category": "business_import",
+    "titleJa": "ニュージーランドの商業輸入とTSW",
+    "conditionJa": "商業貨物の申告方式、Trade Single Windowへの登録、輸入者のクライアントコードと供給者コードの要否を確認します。クライアントコードは1,000ニュージーランドドル以上の輸入、販売用食品や自動車などで確認します。貨物と輸送条件に応じた検疫、課税、徴収料を個別に確認します。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "tsw_client_supplier",
+        "labelJa": "TSW登録と輸入者・供給者の識別情報"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Register as a commercial importer",
+        "url": "https://www.customs.govt.nz/business/import/start-importing/register-as-a-commercial-importer"
+      },
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Client codes",
+        "url": "https://www.customs.govt.nz/business/import/lodge-your-import-entry/client-codes"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "nz_low_value_border",
+    "category": "low_value",
+    "titleJa": "ニュージーランドの少額輸入と貨物賦課金",
+    "conditionJa": "税関の貨物合算で1,000NZドル以下のとき、酒・たばこを含む例外と輸入時の関税・GSTの扱いを確認します。貨物賦課金は輸送方式・徴収経路で別に扱います。販売時GSTの証拠を配送・通関担当へ引き継ぎます。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "relief_eligibility",
+        "labelJa": "免除対象品目と除外品目を照合した記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "Duty and allowances",
+        "url": "https://www.customs.govt.nz/sending-and-receiving/duty-and-gst/duty-and-allowances"
+      },
+      {
+        "authority": "New Zealand Customs Service",
+        "title": "Goods levies and hourly rate",
+        "url": "https://www.customs.govt.nz/business/goods-levies"
+      },
+      {
+        "authority": "New Zealand Inland Revenue",
+        "title": "When to charge GST on low value imported goods",
+        "url": "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods/when-to-charge-gst-on-low-value-imported-goods"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "nz_low_value_retail_gst",
+    "category": "cross_border_ecommerce",
+    "titleJa": "ニュージーランドの低額輸入品の販売時GST",
+    "conditionJa": "商品ごとの税抜価額1,000NZドル以下と、税関での貨物合算の判定を区別します。海外販売者、モール、再配送事業者のGST登録要否を確認します。対象売上の登録基準は原則年60,000NZドルです。輸入時の重複徴収を避けるため販売時GSTの申告引継ぎを照合します。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tax_registration_status",
+        "labelJa": "取引の徴税主体に適用される税務登録状況"
+      },
+      {
+        "code": "tax_collection_handoff",
+        "labelJa": "徴税主体、販売時の税額と配送・通関担当への引継ぎ記録"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "New Zealand Inland Revenue",
+        "title": "When to charge GST on low value imported goods",
+        "url": "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods/when-to-charge-gst-on-low-value-imported-goods"
+      },
+      {
+        "authority": "New Zealand Inland Revenue",
+        "title": "Registering for GST on low value imported goods",
+        "url": "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods/registering-for-gst-on-low-value-imported-goods"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "nz_private_gift",
+    "category": "gift",
+    "titleJa": "ニュージーランドの贈答と少額輸入",
+    "conditionJa": "2026年4月1日に贈答向けConcession 75が廃止され、一般の少額輸入制度で確認します。申告価額1,000ニュージーランドドル以下の個人贈答は、酒・たばこを除いて免税の対象になり得ます。禁制品、食品等の検疫、他の料金は個別に照会します。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "transactions": [
+        "private_gift"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Changes to duty-free entry of heirlooms, inherited goods and gifts",
+        "url": "https://www.customs.govt.nz/about-us/news/important-notices/changes-to-duty-free-entry-of-heirlooms-inherited-goods-and-gifts"
+      },
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Importing goods for personal use",
+        "url": "https://www.customs.govt.nz/media/drglbgr0/importing-goods-for-personal-use-1.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "nz_returned_goods",
+    "category": "return",
+    "titleJa": "ニュージーランドの戻り貨物と評価額",
+    "conditionJa": "ニュージーランドから輸出した品の同一性、元の輸出記録、原状での返品か、修理・改修・交換かを確認します。原状の戻り貨物と海外で修理・改修した貨物は税関評価方法が異なり、再輸入時の税や手数料も条件を個別に照会します。",
+    "appliesWhen": {
+      "countries": [
+        "NZ"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "repair_or_exchange",
+        "labelJa": "修理・加工・交換の有無と費用・保証条件"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Customs Valuation Guide",
+        "url": "https://www.customs.govt.nz/globalassets/documents/guides/valuation-guide.pdf"
+      },
+      {
+        "authority": "ニュージーランド税関",
+        "title": "Information for traders exporting goods out of NZ",
+        "url": "https://www.customs.govt.nz/media/4yrlb1y5/information-for-traders-exporting-goods-out-of-nz.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "rcep_cn_jp",
+    "category": "preference",
+    "agreement": "rcep",
+    "titleJa": "中国向けRCEP・日本原産品の協定税率",
+    "conditionJa": "日本から中国へ輸入する貨物について、中国の申告日別の日本向けRCEP協定税率、品目別原産地規則、RCEP原産国を照合します。認められる原産地証明と商業書類・全行程の輸送証拠を確認して協定税率を申告します。",
+    "appliesWhen": {
+      "countries": [
+        "CN"
+      ],
+      "productOrigins": [
+        "JP"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "rcep_country_of_origin",
+        "labelJa": "RCEP第2.6条の原産国を原産地証明の欄と照合"
+      },
+      {
+        "code": "rcep_proof_of_origin",
+        "labelJa": "原産地証明書または認定輸出者の原産地申告と有効期間",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "rcep_direct_consignment",
+        "labelJa": "直接積送、経由する場合の税関管理・許容作業・通し運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "General Administration of Customs of China",
+        "title": "海关总署令第255号　RCEP项下进出口货物原产地管理办法",
+        "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/t20220408_2669922.html"
+      },
+      {
+        "authority": "New Zealand Ministry of Foreign Affairs and Trade",
+        "title": "RCEP協定本文 第2章・第3章",
+        "url": "https://www.mfat.govt.nz/assets/Trade-agreements/RCEP/RCEP-Agreement-Legal-Text.pdf"
+      },
+      {
+        "authority": "Customs Tariff Commission of the State Council",
+        "title": "中華人民共和国進出口税則2026と協定税率表",
+        "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202512/t20251231_3981044.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "rcep_jp_asean_au_nz",
+    "category": "preference",
+    "agreement": "rcep",
+    "titleJa": "日本向けRCEP・対象ASEAN諸国／豪州／NZ",
+    "conditionJa": "日本で発効済みの対象ASEAN諸国・豪州・NZについて、第2.6条のRCEP原産国と実行関税率表の該当列を照合します。輸出者・生産者による通常の自己申告方式は豪州・NZについて確認し、その他の輸出締約国では輸入者、認定輸出者、第三者証明の条件を確認します。経由貨物の積送基準も確認します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "AU",
+        "BN",
+        "KH",
+        "ID",
+        "LA",
+        "MY",
+        "NZ",
+        "PH",
+        "SG",
+        "TH",
+        "VN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "rcep_country_of_origin",
+        "labelJa": "RCEP第2.6条の原産国を原産地証明の欄と照合"
+      },
+      {
+        "code": "rcep_proof_of_origin",
+        "labelJa": "輸入先と輸出締約国で認められるRCEP原産地証明方式と有効期間",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "rcep_direct_consignment",
+        "labelJa": "直接積送、経由する場合の税関管理・許容作業・通し運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP輸入適用の案内・発効締約国",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP原産国の決定及び税率差",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep_gensankoku_E.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP輸入申告時の原産地証明手続",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep3.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP積送基準",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep4.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "rcep_jp_cn",
+    "category": "preference",
+    "agreement": "rcep",
+    "titleJa": "日本向けRCEP・中国の税率差",
+    "conditionJa": "実行関税率表の「RCEP(中国)」列は、協定の原産品要件を満たし、第2.6条に基づくRCEP原産国が中国の場合の照合先です。RCEP原産国を証明書と照合し、段階税率・割当、積送基準、使用できる証明方式を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "CN"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "rcep_country_of_origin",
+        "labelJa": "RCEP第2.6条の原産国を原産地証明の欄と照合"
+      },
+      {
+        "code": "rcep_proof_of_origin",
+        "labelJa": "輸入先と輸出締約国で認められるRCEP原産地証明方式と有効期間",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "rcep_direct_consignment",
+        "labelJa": "直接積送、経由する場合の税関管理・許容作業・通し運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP原産国の決定及び税率差",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep_gensankoku_E.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP輸入申告時の原産地証明手続",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep3.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP積送基準",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep4.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "rcep_jp_kr",
+    "category": "preference",
+    "agreement": "rcep",
+    "titleJa": "日本向けRCEP・韓国の税率差",
+    "conditionJa": "実行関税率表の「RCEP(韓国)」列は、協定の原産品要件を満たし、第2.6条に基づくRCEP原産国が韓国の場合の照合先です。原産地証明、積送基準、段階税率・割当を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "KR"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "rcep_country_of_origin",
+        "labelJa": "RCEP第2.6条の原産国を原産地証明の欄と照合"
+      },
+      {
+        "code": "rcep_proof_of_origin",
+        "labelJa": "輸入先と輸出締約国で認められるRCEP原産地証明方式と有効期間",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "rcep_direct_consignment",
+        "labelJa": "直接積送、経由する場合の税関管理・許容作業・通し運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP原産国の決定及び税率差",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep_gensankoku_E.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP輸入申告時の原産地証明手続",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep3.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "RCEP積送基準",
+        "url": "https://www.customs.go.jp/english/epa/rcep/rcep4.html"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "sg_air_post_low_value_gst",
+    "category": "cross_border_ecommerce",
+    "titleJa": "シンガポールの航空・郵便少額品GST",
+    "conditionJa": "航空・郵便における登録事業者の販売時GSTは品目単価400シンガポールドル以下の対象品を確認します。輸入時の少額GST免除は運賃・保険を含む貨物全体のCIF400シンガポールドル以下を基準にし、酒・たばこなどは除外条件を確認します。販売時GSTを徴収した場合は配送・通関担当へ証拠を引き継ぎます。",
+    "appliesWhen": {
+      "countries": [
+        "SG"
+      ],
+      "transactions": [
+        "b2c_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "air",
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tax_registration_status",
+        "labelJa": "取引の徴税主体に適用される税務登録状況"
+      },
+      {
+        "code": "tax_collection_handoff",
+        "labelJa": "徴税主体、販売時の税額と配送・通関担当への引継ぎ記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Inland Revenue Authority of Singapore",
+        "title": "GST on Imported Low-Value Goods",
+        "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/consumers/gst-on-imported-low-value-goods"
+      },
+      {
+        "authority": "Inland Revenue Authority of Singapore",
+        "title": "Overseas businesses supplying remote services and low-value goods",
+        "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/gst-and-digital-economy/overseas-businesses"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "uk_japan_cepa_gb",
+    "category": "preference",
+    "agreement": "uk_japan_cepa",
+    "titleJa": "英国本土向け日英CEPA特恵",
+    "conditionJa": "日英CEPAの譲許、品目別原産地規則、輸出者の原産地申告文または輸入者の知識を確認します。経由貨物は非変更と税関監督の条件を照合します。CPTPPも適用候補になる貨物は、各協定の税率・証明・割当条件を独立して確認して申告に使う協定を選びます。 英国本土に輸入する場合の品目コードと申告日時点の税率を英国の税表で確認します。",
+    "appliesWhen": {
+      "countries": [
+        "GB"
+      ],
+      "productOrigins": [
+        "JP"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cepa_claim_basis",
+        "labelJa": "輸出者の原産地申告文、または輸入者の知識を裏付ける記録",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "経由・保管・分割時の非変更、税関監督、必要な輸送記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "UK Department for Business and Trade",
+        "title": "UK–Japan CEPA輸入者の知識による特恵申告",
+        "url": "https://www.gov.uk/government/publications/uk-japan-cepa-guidance-on-importers-knowledge/uk-japan-cepa-guidance-on-importers-knowledge"
+      },
+      {
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "title": "日英CEPA第3章 原産地規則・非変更・特恵申告",
+        "url": "https://assets.publishing.service.gov.uk/media/5f92ecb8d3bf7f35f06ae3bd/CS_Japan_1.2020_UK_Japan_Agreement_Comprehensive_Economic_Partnership__v1.pdf"
+      },
+      {
+        "authority": "HM Revenue & Customs",
+        "title": "UK Integrated Online Tariff",
+        "url": "https://www.trade-tariff.service.gov.uk/"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "uk_japan_cepa_jp",
+    "category": "preference",
+    "agreement": "uk_japan_cepa",
+    "titleJa": "日本向け日英CEPA特恵",
+    "conditionJa": "日英CEPAの譲許、品目別原産地規則、輸出者の原産地申告文または輸入者の知識を確認します。経由貨物は非変更と税関監督の条件を照合します。CPTPPも適用候補になる貨物は、各協定の税率・証明・割当条件を独立して確認して申告に使う協定を選びます。",
+    "appliesWhen": {
+      "countries": [
+        "JP"
+      ],
+      "productOrigins": [
+        "GB"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "cepa_claim_basis",
+        "labelJa": "輸出者の原産地申告文、または輸入者の知識を裏付ける記録",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "non_alteration",
+        "labelJa": "経由・保管・分割時の非変更、税関監督、必要な輸送記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Japan Customs",
+        "title": "日英EPA自己申告及び確認の手引き",
+        "url": "https://www.customs.go.jp/roo/procedure/riyou_uk.pdf"
+      },
+      {
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "title": "日英CEPA第3章 原産地規則・非変更・特恵申告",
+        "url": "https://assets.publishing.service.gov.uk/media/5f92ecb8d3bf7f35f06ae3bd/CS_Japan_1.2020_UK_Japan_Agreement_Comprehensive_Economic_Partnership__v1.pdf"
+      },
+      {
+        "authority": "Japan Customs",
+        "title": "輸入統計品目表（実行関税率表）2026年10月31日版",
+        "url": "https://www.customs.go.jp/tariff/2026_10_31/index.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "rateReferences": [
+      {
+        "destinationCountry": "JP",
+        "productOrigin": "GB",
+        "labels": [
+          "英国UK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "us_bona_fide_gift",
+    "category": "gift",
+    "titleJa": "米国の真正な個人贈答",
+    "conditionJa": "通常の外国からの真正な贈答では、仕出国の公正小売価額で受取人1人・1日当たり合計100米ドルの基準を照会します。贈答の実態、同日受取分、酒・たばこ・香水等の除外や特別領域、税関告知を確認します。購入品の通常の少額輸入制度と区別します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "private_gift"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "private_gift_details",
+        "labelJa": "個人間・無償の贈答と分かる説明、送り主・受取人と用途の確認"
+      },
+      {
+        "code": "item_value",
+        "labelJa": "内容品ごとの適正価額とその根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "recipient_daily_total",
+        "labelJa": "受取人の同日受取分と仕出国の公正小売価額の合計"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "米国連邦議会",
+        "title": "19 USC §1321(a)(2)(A) 行政上の免除",
+        "url": "https://uscode.house.gov/us/usc/119-124/t19/s1321/"
+      },
+      {
+        "authority": "米国税関・国境警備局",
+        "title": "Recipients of gifts mailed from abroad",
+        "url": "https://www.help.cbp.gov/s/article/Article-1065?language=en_US"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "us_commercial_entry",
+    "category": "business_import",
+    "titleJa": "米国の商業貨物の輸入手続",
+    "conditionJa": "輸入者（Importer of Record）、商品分類・評価額・原産地、規制当局要件を確認し、輸入方式に応じて申告、Entry Summary（CBP Form 7501）、保証（bond）の要否を照合します。正式申告・郵便等の申告方式は輸送経路と貨物の条件で確認します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "b2b_sale"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "品名、数量、取引価格、契約当事者を記載した仕入書",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "transport_document",
+        "labelJa": "運送書類と運賃の根拠",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適用する輸入申告方式・申告記録",
+        "document": "IMPORT_DECLARATION"
+      },
+      {
+        "code": "product_approval",
+        "labelJa": "規制品に該当する場合の許可・証明"
+      },
+      {
+        "code": "importer_record_and_bond",
+        "labelJa": "輸入者、代理人委任、必要な保証の確認"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "米国税関・国境警備局",
+        "title": "What is a Consumption Entry?",
+        "url": "https://www.help.cbp.gov/s/article/Article-1211?language=en_US"
+      },
+      {
+        "authority": "米国税関・国境警備局",
+        "title": "Basic Importation and Entry",
+        "url": "https://www.cbp.gov/sites/default/files/documents/icp073_3.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "us_consumer_return_98010026",
+    "category": "return",
+    "titleJa": "米国小売業者への消費者返品 HTS 9801.00.26",
+    "conditionJa": "米国で以前に輸入・関税納付した品をその輸入から3年以内に輸出し、海外の個人使用購入者が見本・仕様と合わず返品した場合に確認します。輸出後1年以内に同じ輸出者が自己勘定で再輸入すること、海外での価値増加・状態改善および元の輸出時のドローバックがないことが条件です。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "previous_entry_and_duty",
+        "labelJa": "最初の輸入記録・関税納付とドローバックの有無"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "米国税関・国境警備局",
+        "title": "Goods sold outside the United States and returned to the U.S. importer",
+        "url": "https://www.help.cbp.gov/s/article/Article-1190"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "us_nonpostal_no_de_minimis",
+    "category": "low_value",
+    "titleJa": "米国の非郵便商業貨物と少額免税停止",
+    "conditionJa": "一般商業貨物では800米ドル以下でも19 USC 1321(a)(2)(C)の少額無税取扱いは停止中です。有資格の申告者がACEの適切な申告方式を確認し、HTS・追加関税・税・手数料を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "air",
+        "sea",
+        "land",
+        "courier_unspecified"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "commercial_invoice",
+        "labelJa": "取引価格と費用内訳が分かる商業インボイス",
+        "document": "COMMERCIAL_INVOICE"
+      },
+      {
+        "code": "tariff_classification",
+        "labelJa": "仕向地の申告品目分類と商品同定の記録"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適切な申告方式と輸入申告を確認できる記録",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "The White House",
+        "title": "Executive Order 14388, continuing suspension of duty-free de minimis treatment",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "Federal Register notice on informal entries and current low-value procedures",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-08/html/2026-20650.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "us_postal_low_value_entry",
+    "category": "low_value",
+    "titleJa": "米国の国際郵便簡易申告",
+    "conditionJa": "一般貨物の800米ドル以下の少額無税取扱いは停止中です。国際郵便の2,500米ドル以下は簡易申告の候補で、適用関税を照合します。CBPのEntry Type 13試行は参加条件に従う代替経路です。PGA規制、HTS第98・99類またはFTAによる一部の正式申告要件は2027年1月20日まで適合期限が延期されており、品目と申告経路を個別確認します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ],
+      "transports": [
+        "post"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "consignment_valuation",
+        "labelJa": "貨物を合算した評価額の根拠",
+        "document": "VALUE_EVIDENCE"
+      },
+      {
+        "code": "tariff_classification",
+        "labelJa": "仕向地の申告品目分類と商品同定の記録"
+      },
+      {
+        "code": "transport_record",
+        "labelJa": "発送地・運送経路・運送方式を確認できる運送書類",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "import_declaration",
+        "labelJa": "適切な申告方式と輸入申告を確認できる記録",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "The White House",
+        "title": "Executive Order 14388, continuing suspension of duty-free de minimis treatment",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "91 FR 37801, Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "91 FR 66638, delayed compliance extension",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "91 FR 66707, modification of Entry Type 13 test",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "limit": {
+      "basis": "confirmed_customs_value",
+      "currency": "USD",
+      "operator": "lte",
+      "amount": "2500"
+    }
+  },
+  {
+    "id": "us_returned_goods_98010010",
+    "category": "return",
+    "titleJa": "米国の戻り貨物 HTS 9801.00.10",
+    "conditionJa": "米国産品が輸出後に戻る場合、またはその他の品が輸出後3年以内に戻る場合は、海外で価値が増加せず状態も改善されていないことを確認します。米国原産性または輸出履歴、同一性、加工・修理履歴、CBPの申告・添付要件を照合します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "transactions": [
+        "return"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "return_reason",
+        "labelJa": "元注文・返品理由と返品記録",
+        "document": "RETURN_EVIDENCE"
+      },
+      {
+        "code": "prior_export",
+        "labelJa": "元の輸出申告番号、許可書、輸出日を確認できる証拠",
+        "document": "EXPORT_DECLARATION"
+      },
+      {
+        "code": "same_goods",
+        "labelJa": "商品識別番号・明細・写真など、元の輸出品と同一かつ所定の状態である証拠"
+      },
+      {
+        "code": "original_status",
+        "labelJa": "再輸入前の国内流通資格・原産性・納税状況を裏付ける証拠"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "米国国際貿易委員会",
+        "title": "米国関税率表 HTS 9801.00.10",
+        "url": "https://hts.usitc.gov/search?query=9801.00.10"
+      },
+      {
+        "authority": "米国税関・国境警備局",
+        "title": "U.S. goods returning to the United States",
+        "url": "https://www.help.cbp.gov/s/article/Article-1148?language=en_US"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "usmca_ca",
+    "category": "preference",
+    "agreement": "usmca",
+    "titleJa": "カナダ向けCUSMA特恵",
+    "conditionJa": "原産品の要件を品目ごとに確認し、原産地証明を根拠に特恵を申告します。証明の様式は一律に定められていません。第三国を経由する場合は第4.18条、品目別の例外、輸送記録を確認します。自動車や繊維の追加原産地要件、関税割当、別途課される追加措置は個別に照合します。 米国原産はUST、メキシコ原産はMXTを照合します。輸入者は申告時に証明を保有し、CBSAの求めに応じて提示します。",
+    "appliesWhen": {
+      "countries": [
+        "CA"
+      ],
+      "productOrigins": [
+        "MX",
+        "US"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "usmca_certification",
+        "labelJa": "T-MEC／CUSMA／USMCA附属書5-Aの9要素を満たす証明または例外根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "usmca_transit",
+        "labelJa": "域外経由時の税関管理と許容作業、運送書類・関連記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "CUSMA原産地証明と輸入者の保存・提示",
+        "url": "https://www.cbsa-asfc.gc.ca/services/cusma-aceum/cog-com-eng.html"
+      },
+      {
+        "authority": "Canada Border Services Agency",
+        "title": "Customs Tariff 2026 国別特恵列 UST・MXT",
+        "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/html/countries-pays-eng.html"
+      },
+      {
+        "authority": "Office of the United States Trade Representative",
+        "title": "USMCA Chapter 5 原産地手続・附属書5-A",
+        "url": "https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/05_Origin_Procedures.pdf"
+      },
+      {
+        "authority": "Office of the United States Trade Representative",
+        "title": "USMCA Chapter 4 第4.18条と品目別原産地規則",
+        "url": "https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/04-Rules-of-Origin.pdf"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12",
+    "rateReferences": [
+      {
+        "destinationCountry": "CA",
+        "productOrigin": "US",
+        "labels": [
+          "UST"
+        ]
+      },
+      {
+        "destinationCountry": "CA",
+        "productOrigin": "MX",
+        "labels": [
+          "MXT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "usmca_mx",
+    "category": "preference",
+    "agreement": "usmca",
+    "titleJa": "メキシコ向けT-MEC特恵",
+    "conditionJa": "原産品の要件を品目ごとに確認し、原産地証明を根拠に特恵を申告します。証明の様式は一律に定められていません。第三国を経由する場合は第4.18条、品目別の例外、輸送記録を確認します。自動車や繊維の追加原産地要件、関税割当、別途課される追加措置は個別に照合します。 メキシコの税率表・申告と証明データを照合し、電子申告用書類の取扱いを確認します。",
+    "appliesWhen": {
+      "countries": [
+        "MX"
+      ],
+      "productOrigins": [
+        "CA",
+        "US"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "usmca_certification",
+        "labelJa": "T-MEC／CUSMA／USMCA附属書5-Aの9要素を満たす証明または例外根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "usmca_transit",
+        "labelJa": "域外経由時の税関管理と許容作業、運送書類・関連記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "Secretaría de Economía",
+        "title": "T-MEC Capítulo 5 y Anexo 5-A",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/465786/05ESPProcedimientosdeorigen.pdf"
+      },
+      {
+        "authority": "Office of the United States Trade Representative",
+        "title": "USMCA Chapter 4 第4.18条と品目別原産地規則",
+        "url": "https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/04-Rules-of-Origin.pdf"
+      },
+      {
+        "authority": "Secretaría de Economía",
+        "title": "SNICE LIGIE法令資料",
+        "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.ligiebibjur.html"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  },
+  {
+    "id": "usmca_us",
+    "category": "preference",
+    "agreement": "usmca",
+    "titleJa": "米国向けUSMCA特恵",
+    "conditionJa": "原産品の要件を品目ごとに確認し、原産地証明を根拠に特恵を申告します。証明の様式は一律に定められていません。第三国を経由する場合は第4.18条、品目別の例外、輸送記録を確認します。自動車や繊維の追加原産地要件、関税割当、別途課される追加措置は個別に照合します。 米国HTSのGeneral Note 11、該当関税番号のSpecial列と申告に使うSまたはS+を確認します。",
+    "appliesWhen": {
+      "countries": [
+        "US"
+      ],
+      "productOrigins": [
+        "CA",
+        "MX"
+      ],
+      "transactions": [
+        "b2c_sale",
+        "b2b_sale"
+      ],
+      "regimes": [
+        "standard"
+      ]
+    },
+    "requiredEvidence": [
+      {
+        "code": "preferential_tariff_line",
+        "labelJa": "申告日の完全な国内品目番号、協定の税率列と段階税率・割当の確認"
+      },
+      {
+        "code": "product_origin_rule",
+        "labelJa": "品目別原産地規則と生産・材料記録",
+        "document": "ORIGIN_EVIDENCE"
+      },
+      {
+        "code": "usmca_certification",
+        "labelJa": "T-MEC／CUSMA／USMCA附属書5-Aの9要素を満たす証明または例外根拠",
+        "document": "PREFERENCE_EVIDENCE"
+      },
+      {
+        "code": "usmca_transit",
+        "labelJa": "域外経由時の税関管理と許容作業、運送書類・関連記録",
+        "document": "TRANSPORT_DOCUMENT"
+      },
+      {
+        "code": "preferential_claim",
+        "labelJa": "協定を指定した輸入申告と申告者の確認",
+        "document": "IMPORT_DECLARATION"
+      }
+    ],
+    "sources": [
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "USMCA特恵申告・申告者と証明",
+        "url": "https://www.help.cbp.gov/s/article/Article-1736"
+      },
+      {
+        "authority": "Office of the United States Trade Representative",
+        "title": "USMCA Chapter 5 原産地手続・附属書5-A",
+        "url": "https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/05_Origin_Procedures.pdf"
+      },
+      {
+        "authority": "Office of the United States Trade Representative",
+        "title": "USMCA Chapter 4 第4.18条と品目別原産地規則",
+        "url": "https://ustr.gov/sites/default/files/files/agreements/FTA/USMCA/Text/04-Rules-of-Origin.pdf"
+      },
+      {
+        "authority": "U.S. International Trade Commission",
+        "title": "2026 HTS Revision 23 と General Note 11",
+        "url": "https://hts.usitc.gov/download?release=2026HTSRev23&releaseDate=11%2F09%2F2026"
+      }
+    ],
+    "referenceFrom": "2026-11-12",
+    "referenceThrough": "2026-11-12"
+  }
+]

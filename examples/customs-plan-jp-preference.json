@@ -1,0 +1,33 @@
+{
+  "shipment": {
+    "originCountry": "GB",
+    "destinationCountry": "JP",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-12",
+    "locale": "ja",
+    "currency": "JPY",
+    "freight": "1000",
+    "insurance": "0",
+    "items": [{
+      "id": "shoe",
+      "description": "Synthetic leather footwear",
+      "quantity": 1,
+      "unitValue": "20000",
+      "originCountry": "GB",
+      "goodsType": "ordinary",
+      "hs6": "640399",
+      "classificationConfirmed": true
+    }],
+    "transaction": "b2b_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "unknown",
+    "consignmentScopeConfirmed": true,
+    "incoterm": "DAP"
+  },
+  "lines": [{"itemId": "shoe", "tariffCode": "640399011", "preferenceAgreement": "uk_japan_cepa"}],
+  "availableDocuments": ["COMMERCIAL_INVOICE", "TRANSPORT_DOCUMENT"]
+}

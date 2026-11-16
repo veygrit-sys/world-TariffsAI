@@ -1,0 +1,33 @@
+// Call from the merchant server after a trusted customs preview or quote.
+// Currency values are decimal strings. Preserve null through formatting.
+import type { CheckoutPreview, PilotQuote } from '@veygrit/customs-ai';
+
+export function previewAmounts(preview: CheckoutPreview, now = Date.now()) {
+  const expired = !(Date.parse(preview.expiresAt) > now);
+  const held = expired || preview.customsAmountHold.required;
+  const reasons = new Set<string>(preview.customsAmountHold.reasons);
+  if (expired) reasons.add('REQUOTE_REQUIRED');
+  return {
+    goodsSubtotal: preview.goodsSubtotal,
+    importFees: held ? null : preview.importTaxAndDuty.knownSubtotal,
+    buyerTotal: held ? null : preview.landedCostTotal,
+    awaitingCustomsReview: held,
+    reasons: [...reasons],
+    checkoutReady: !held && preview.checkoutReady,
+  };
+}
+
+export function quotedAmounts(quote: PilotQuote, now = Date.now()) {
+  const estimated = quote.status === 'estimated';
+  const expired = estimated && !(quote.expiresAt && Date.parse(quote.expiresAt) > now);
+  const displayable = estimated && !expired;
+  return {
+    goodsSubtotal: quote.goodsSubtotal,
+    importFees: displayable ? quote.importChargesTotal : null,
+    buyerTotal: displayable ? quote.buyerTotal : null,
+    quoteStatus: quote.status,
+    awaitingCustomsReview: expired || quote.status === 'review_required',
+    reasons: [...new Set([...quote.findings.map(({ code }) => code), ...(expired ? ['REQUOTE_REQUIRED'] : [])])],
+    checkoutReady: displayable && quote.checkoutReady,
+  };
+}

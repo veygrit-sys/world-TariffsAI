@@ -1,0 +1,1396 @@
+{
+  "pass": 2,
+  "entries": [
+    {
+      "country": "AF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.mof.gov.af/?c=customs-procedures-dr",
+          "authority": "Afghanistan Customs Department",
+          "title": "Customs procedures and electronic declarations",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.mof.gov.af/700/",
+          "authority": "Afghanistan Customs Department",
+          "title": "Ministry of Finance remit for import and export tariff setting",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://customs.mof.gov.af/?c=customs-tariffs-ps&s=pashto",
+          "authority": "Afghanistan Customs Department",
+          "title": "Customs tariff sections published in 1400 (2021)",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://ttd.wto.org/en/profiles/afghanistan",
+          "authority": "World Trade Organization",
+          "title": "Afghanistan tariff profile, applied and bound statistics",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://dpmea.gov.af/index.php/1405-English-News-97",
+          "authority": "Afghanistan Deputy Prime Minister for Economic Affairs",
+          "title": "Economic Commission meeting and proposed fixed import taxes",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関当局が公表する電子申告の手順とASYCUDAの価格評価手順を確認し、実際の提出先と必要書類を利用する税関で照合する。",
+          "sourceUrls": [
+            "https://customs.mof.gov.af/?c=customs-procedures-dr"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "輸入税率の決定は財務省の所管。対象品目の適用税率は税関当局の現行決定で確認する。",
+          "sourceUrls": [
+            "https://customs.mof.gov.af/700/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "税関が公開した1400年（2021年）の章別資料とWTOの譲許税率・過去年の統計は参考資料。輸入日の適用税率と品目コードを利用する税関で照合する。",
+          "sourceUrls": [
+            "https://customs.mof.gov.af/?c=customs-tariffs-ps&s=pashto",
+            "https://ttd.wto.org/en/profiles/afghanistan"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年11月9日の経済委員会の公表では、商業輸入事業者の固定税案は最終承認に付された段階。現行税率の根拠には採用せず、公布・施行を確認する。",
+          "sourceUrls": [
+            "https://dpmea.gov.af/index.php/1405-English-News-97"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BD",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://bangladeshcustoms.gov.bd/procedures/p_import/123",
+          "authority": "Bangladesh Customs, National Board of Revenue",
+          "title": "Import procedure and customs clearance",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://nbr.gov.bd/budget/budget-at-a-glance/ban",
+          "authority": "National Board of Revenue, Bangladesh",
+          "title": "FY2026–27 budget and customs measures",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "運送側の輸入マニフェスト（IGM）登録を確認し、輸入者または通関代理人がASYCUDA Worldで輸入申告書（Bill of Entry）を提出する。",
+          "sourceUrls": [
+            "https://bangladeshcustoms.gov.bd/procedures/p_import/123"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "NBRの2026–27年度資料で関税の変更と補足税等の措置を確認し、適用する品目番号と個別の発効日を照合する。",
+          "sourceUrls": [
+            "https://nbr.gov.bd/budget/budget-at-a-glance/ban"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.bn/import/",
+          "authority": "Royal Customs and Excise Department of Brunei Darussalam",
+          "title": "Import",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.bn/ref-rced/",
+          "authority": "Royal Customs and Excise Department of Brunei Darussalam",
+          "title": "RCED reference documents",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Brunei Darussalam National Single Window（BDNSW）で輸入申告を提出する。対象品には所管機関の許可の有無も確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.bn/import/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "品目番号と関税・物品税はBDTTCとその後の改正を別々に確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.bn/ref-rced/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BT",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://mof.gov.bt/wp-content/uploads/2025/12/Customs-Rules-and-Regulations-of-Bhutan-Revised-Edition-2023.pdf",
+          "authority": "Bhutan Ministry of Finance, Department of Revenue and Customs",
+          "title": "Customs Rules and Regulations of Bhutan, revised edition 2023",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.ecms.gov.bt/ECMSFE/login/indexBhutan.jsp",
+          "authority": "Bhutan Department of Revenue and Customs",
+          "title": "Electronic Customs Management System",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://ecms.gov.bt/publication/btc-and-tariff-schedule",
+          "authority": "Bhutan Department of Revenue and Customs",
+          "title": "eCMS tariff publication index and linked 2022 edition",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "eCMSでの貨物申告に向けて、適用する輸入手続と必要書類を財務省の改訂規則で確認する。",
+          "sourceUrls": [
+            "https://mof.gov.bt/wp-content/uploads/2025/12/Customs-Rules-and-Regulations-of-Bhutan-Revised-Edition-2023.pdf"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "eCMSの登録・申告状況照会機能を使用し、申告者の登録状況を事前に確認する。",
+          "sourceUrls": [
+            "https://www.ecms.gov.bt/ECMSFE/login/indexBhutan.jsp"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "eCMSの一覧には2026年改正と記載されているが、リンク先PDFは2022年版の原本と一致する。申告に使う品目コードと税率は、税関に最新版と改正の適用日を確認する。",
+          "sourceUrls": [
+            "https://ecms.gov.bt/publication/btc-and-tariff-schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://online.customs.gov.cn/static/pages/guides/000629002001/000629002001.html",
+          "authority": "General Administration of Customs of the People's Republic of China",
+          "title": "货物申报办事指南",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_8adbdacb40c84b2ca399988ce530b180.html",
+          "authority": "General Administration of Customs of the People's Republic of China, published by MOFCOM",
+          "title": "GACC Announcement No. 115 of 2025 on two-step declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202512/t20251231_3981044.htm",
+          "authority": "Customs Tariff Commission of the State Council, Ministry of Finance",
+          "title": "中华人民共和国进出口税则（2026）",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.mofcom.gov.cn/cwxx/zcfb/art/2026/art_031306c35f494f64b3b4e259458bbc22.html",
+          "authority": "Customs Tariff Commission of the State Council, published by MOFCOM",
+          "title": "2026 tariff adjustment plan",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "中国本土の輸入貨物申告では荷受人または代理人の申告情報と関連書類を準備し、税関の貨物申告手続を確認する。",
+          "sourceUrls": [
+            "https://online.customs.gov.cn/static/pages/guides/000629002001/000629002001.html"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "二段階申告を選ぶ場合は国際貿易シングルウィンドウ等で対象条件を確認し、選択した方式に沿って申告する。",
+          "sourceUrls": [
+            "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_8adbdacb40c84b2ca399988ce530b180.html"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年1月1日施行の2026年版輸出入税則で品目番号を確認する。暫定税率や追加措置は別に照合する。",
+          "sourceUrls": [
+            "https://gss.mof.gov.cn/gzdt/zhengcefabu/202512/t20251231_3981044.htm"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年1月1日から適用される一部品目の税率・税目変更は、調整方案の添付表で対象と適用条件を確認する。",
+          "sourceUrls": [
+            "https://www.mofcom.gov.cn/cwxx/zcfb/art/2026/art_031306c35f494f64b3b4e259458bbc22.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/import-export-declaration/index.html",
+          "authority": "Hong Kong Customs and Excise Department",
+          "title": "Import and Export Declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/",
+          "authority": "Hong Kong Customs and Excise Department",
+          "title": "Cargo Clearance",
+          "topic": "territory"
+        },
+        {
+          "url": "https://www.customs.gov.hk/en/service-enforcement-information/trade-facilitation/dutiable-commodities/index.html",
+          "authority": "Hong Kong Customs and Excise Department",
+          "title": "Dutiable Commodities",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "申告免除に当たらない貨物は輸入後14日以内の申告が案内されている。食品とその他で使用する様式を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/import-export-declaration/index.html"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "香港は自由港で一般の輸出入関税を課さない。申告、対象品目の物品税および規制品の許可は個別に確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.hk/en/service-enforcement-information/cargo-clearance/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "酒類、たばこ類、特定の炭化水素油、メチルアルコールについて、税・許可の対象区分と例外を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.hk/en/service-enforcement-information/trade-facilitation/dutiable-commodities/index.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ID",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://beacukai.go.id/impor-untuk-dipakai",
+          "authority": "Directorate General of Customs and Excise, Indonesia",
+          "title": "Impor Untuk Dipakai",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.beacukai.go.id/pemeriksaan-pabean",
+          "authority": "Directorate General of Customs and Excise, Indonesia",
+          "title": "Pemeriksaan Pabean",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://jdih.kemenkeu.go.id/dok/pmk-68-tahun-2026/files",
+          "authority": "Ministry of Finance of Indonesia",
+          "title": "PMK 68 of 2026, fourth amendment of classification and import duty regulation",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "国内使用目的の輸入ではPIB（輸入貨物申告）を提出する。品名・数量・価格等を証明する関連書類を用意する。",
+          "sourceUrls": [
+            "https://beacukai.go.id/impor-untuk-dipakai"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "税関の検査区分に応じて、書類提出や貨物の現物検査を手配する。",
+          "sourceUrls": [
+            "https://www.beacukai.go.id/pemeriksaan-pabean"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "輸入品の分類・税率については規則26/PMK.010/2022と、2026年の第4次改正PMK 68の対象品目・発効条項を確認する。",
+          "sourceUrls": [
+            "https://jdih.kemenkeu.go.id/dok/pmk-68-tahun-2026/files"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://taxinformation.cbic.gov.in/content-page/explore-act/1000086/1000002",
+          "authority": "Central Board of Indirect Taxes and Customs, India",
+          "title": "Customs Act 1962, section 46",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.icegate.gov.in/Webappl/index_imp.jsp",
+          "authority": "Central Board of Indirect Taxes and Customs, India",
+          "title": "ICEGATE Know your Import Duty Enquiry System",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "通過・積替え貨物を除く輸入では、国内消費または保税蔵置のBill of Entryを税関の自動化システムで電子提出する。",
+          "sourceUrls": [
+            "https://taxinformation.cbic.gov.in/content-page/explore-act/1000086/1000002"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "ICEGATEでは品名や関税品目番号から輸入税を照会できる。適用を決める際は通達、原産地、税の適用条件を個別に確認する。",
+          "sourceUrls": [
+            "https://www.icegate.gov.in/Webappl/index_imp.jsp"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IR",
+      "status": "official_reference",
+      "sources": [
+        {
+          "url": "https://www.wipo.int/wipolex/en/legislation/details/14520",
+          "authority": "World Intellectual Property Organization, WIPO Lex",
+          "title": "Customs Law of Iran, IR037",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://eec.eaeunion.org/upload/medialibrary/649/Guidance-on-the-Islamic-Republic-of-Iran-Trade-Regulation-2020.pdf",
+          "authority": "Eurasian Economic Commission",
+          "title": "Guidance on the Islamic Republic of Iran Trade Regulation 2020",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://dotic.ir/p/legislativebranch/541",
+          "authority": "Iran National Information Portal for Laws and Regulations",
+          "title": "Iran Customs Administration circulars",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://dotic.ir/news/22033",
+          "authority": "Iran National Information Portal for Laws and Regulations",
+          "title": "Iran Customs circular 1405/1181684 on goods eligible for percentage clearance",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "EECの2020年資料では電子申告と輸入書類の流れが掲載されている。実際の注文では申告経路の現行性と取引規制を個別に確認する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/upload/medialibrary/649/Guidance-on-the-Islamic-Republic-of-Iran-Trade-Regulation-2020.pdf"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "標準税率の照合時は、輸出入規則の税率表と税関通達の改正を品目別に確認する。2026年11月に公表された通達1405/1181684は、部分通関対象品目の追加に関する手続資料。",
+          "sourceUrls": [
+            "https://dotic.ir/p/legislativebranch/541",
+            "https://dotic.ir/news/22033"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "JP",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.go.jp/english/summary/import.htm",
+          "authority": "Japan Customs",
+          "title": "Import Procedures",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.go.jp/english/c-answer_e/imtsukan/1107_e.htm",
+          "authority": "Japan Customs",
+          "title": "1107 Documents to be Submitted for Import Clearance",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.go.jp/english/tariff/2026_10_31/index.htm",
+          "authority": "Japan Customs",
+          "title": "Japan's Tariff Schedule as of October 31 2026",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告後、税関の審査と必要な納税を経て輸入許可を受ける。貨物に応じて他法令の許可・承認も確認する。",
+          "sourceUrls": [
+            "https://www.customs.go.jp/english/summary/import.htm"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "仕入書、運送書類、保険・運賃関係書類、包装明細書等を準備する。特恵を申請する場合は原産地の証明要件も確認する。",
+          "sourceUrls": [
+            "https://www.customs.go.jp/english/c-answer_e/imtsukan/1107_e.htm"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年10月31日時点の実行関税率表は、輸入統計品目番号と税率の参照に使う。注文の輸入日に対応する版と特別措置を確認する。",
+          "sourceUrls": [
+            "https://www.customs.go.jp/english/tariff/2026_10_31/index.htm"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://invest.gov.kg/en/invest-compass/taxes/customs",
+          "authority": "National Investment Agency of the Kyrgyz Republic",
+          "title": "Foreign Trade and Customs Regulation",
+          "topic": "territory"
+        },
+        {
+          "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+          "authority": "Eurasian Economic Commission",
+          "title": "Common Customs Tariff and commodity nomenclature",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "EAEUの域内移動を判定するときは貨物が域内産またはEAEU貨物としての地位を有するか確認する。域外輸入では統一品目表と共通関税率表を参照する。",
+          "sourceUrls": [
+            "https://invest.gov.kg/en/invest-compass/taxes/customs"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EAEUの共通関税率表から該当品目を探し、キルギスの税・許可と該当する改正を確認する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/comission/department/catr/ett/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://cambodiantr.gov.kh/en/procedure/?title=submission-of-customs-declaration",
+          "authority": "Cambodia National Trade Repository, General Department of Customs and Excise",
+          "title": "Submission of Customs Declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://tools.customs.gov.kh/documents/reader/17709/17373560374410226/Manual%20on%20Customs%20Procedures%20in%20Cambodia%20%28English%29",
+          "authority": "General Department of Customs and Excise of Cambodia",
+          "title": "Manual on Customs Procedures in Cambodia",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://cambodiantr.gov.kh/en/search-commodity/",
+          "authority": "Cambodia National Trade Repository",
+          "title": "Search Commodity",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物所有者または認められた代理人がASYCUDAでSAD（統一行政文書）を提出し、窓口の添付書類の要件を確認する。",
+          "sourceUrls": [
+            "https://cambodiantr.gov.kh/en/procedure/?title=submission-of-customs-declaration"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "申告前に利用システムの口座登録と、通関業者に委任する場合の資格・委任書類を確認する。",
+          "sourceUrls": [
+            "https://tools.customs.gov.kh/documents/reader/17709/17373560374410226/Manual%20on%20Customs%20Procedures%20in%20Cambodia%20%28English%29"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "貿易リポジトリでHS番号または品名から該当品目の関税参照情報を調べる。",
+          "sourceUrls": [
+            "https://cambodiantr.gov.kh/en/search-commodity/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KP",
+      "status": "excluded",
+      "sources": [
+        {
+          "url": "https://main.un.org/securitycouncil/en/sanctions/1718",
+          "authority": "United Nations Security Council",
+          "title": "Security Council sanctions committee pursuant to resolution 1718",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://www.meti.go.jp/english/press/2025/0408_001.html",
+          "authority": "Japan Ministry of Economy, Trade and Industry",
+          "title": "Extension of Ban on Imports from and Exports to North Korea",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "restriction",
+          "textJa": "Veygritの商用対象外。北朝鮮を関係地に含む案件については国連の制裁措置と関係法域の規制を確認する。",
+          "sourceUrls": [
+            "https://main.un.org/securitycouncil/en/sanctions/1718"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "日本の措置は北朝鮮向け輸出および北朝鮮原産または同地から船積みされた貨物の輸入を対象とする。発送元とは別に原産地と船積地を確認する。",
+          "sourceUrls": [
+            "https://www.meti.go.jp/english/press/2025/0408_001.html"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.go.kr/kcs_english/cm/cntnts/cntntsView.do?cntntsId=2731&mi=8055",
+          "authority": "Korea Customs Service",
+          "title": "Import Declaration Guideline",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www2.customs.go.kr/engportal/cm/cntnts/cntntsView.do?cntntsId=2335&mi=7313",
+          "authority": "Korea Customs Service",
+          "title": "KCS FTA Portal: How to search for HS Code",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物所有者または通関業者がUNI-PASSで輸入申告し、税関が受理した後の輸入申告証明と関係書類を管理する。",
+          "sourceUrls": [
+            "https://www.customs.go.kr/kcs_english/cm/cntnts/cntntsView.do?cntntsId=2731&mi=8055"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "品目番号はKCSの関税データベースで確認する。分類が確定できない貨物では品目分類の事前教示を検討する。",
+          "sourceUrls": [
+            "https://www2.customs.go.kr/engportal/cm/cntnts/cntntsView.do?cntntsId=2335&mi=7313"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.gov.kz/org/kgd-pavlodar/press/news/details/1224242?lang=ru",
+          "authority": "Kazakhstan State Revenue authorities, Pavlodar",
+          "title": "Keden goods declaration module",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+          "authority": "Eurasian Economic Commission",
+          "title": "Common Customs Tariff and commodity nomenclature",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商用貨物の申告では税関のKeden貨物申告機能と利用する税関の手続を確認する。申告のステータスは同機能で照会できる。",
+          "sourceUrls": [
+            "https://www.gov.kz/org/kgd-pavlodar/press/news/details/1224242?lang=ru"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "EAEU域外からの輸入では共通税表の品目番号とカザフスタンに適用される例外・国内税を照合する。",
+          "sourceUrls": [
+            "https://eec.eaeunion.org/comission/department/catr/ett/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LA",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.laotradeportal.gov.la/en-gb/site/display/10",
+          "authority": "Lao PDR Ministry of Industry and Commerce",
+          "title": "Lao Trade Portal: Imports",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.laotradeportal.gov.la/en-gb/site/listcommodity",
+          "authority": "Lao PDR Ministry of Industry and Commerce",
+          "title": "Lao Trade Portal: Search Commodity",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商用輸入は事業者登録を確認し、許可・検疫・技術規則の対象を確認したうえで税関に申告する。事前申告の利用条件も確認する。",
+          "sourceUrls": [
+            "https://www.laotradeportal.gov.la/en-gb/site/display/10"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "AHTN・HSに基づく2022年版品目表を使い、品目別の適用関税を検索する。",
+          "sourceUrls": [
+            "https://www.laotradeportal.gov.la/en-gb/site/listcommodity"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.lk/services/importing-goods/",
+          "authority": "Sri Lanka Customs",
+          "title": "Importing Goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://srilankatradeportal.gov.lk/index.php?id=232&r=searchProcedure%2Fview1",
+          "authority": "Sri Lanka Trade Information Portal, Sri Lanka Customs",
+          "title": "Import Customs Declaration (CusDec)",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.lk/customs-tariff/import-tariff/",
+          "authority": "Sri Lanka Customs",
+          "title": "Import Tariff",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入貨物は申告情報を準備し、通関担当者を通じた申告と貨物の分類を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lk/services/importing-goods/"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告のCusDecの要件と担当機関を確認する。",
+          "sourceUrls": [
+            "https://srilankatradeportal.gov.lk/index.php?id=232&r=searchProcedure%2Fview1"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年版税表の該当章に加え、通関日時点の特別商品課徴金・輸入管理リストを確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.lk/customs-tariff/import-tariff/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.maccs.gov.mm/Import",
+          "authority": "Myanmar Customs Department",
+          "title": "Myanmar Automated Cargo Clearance System: Import",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.myanmartradeportal.gov.mm/index.php/guide-to-import",
+          "authority": "Myanmar National Trade Portal",
+          "title": "Guide to Importing Goods into Myanmar",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.myanmartradeportal.gov.mm/index.php/en/document/734",
+          "authority": "Myanmar National Trade Portal",
+          "title": "Commodity Search",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "MACCSの輸入申告、税費用の支払い、海上・航空貨物の登録手順を確認する。",
+          "sourceUrls": [
+            "https://www.maccs.gov.mm/Import"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "商業送り状等を用いて品目分類、原産地、価格および数量を確認する。品目別に輸入ライセンスの要否も確認する。",
+          "sourceUrls": [
+            "https://www.myanmartradeportal.gov.mm/index.php/guide-to-import"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "Commodity SearchからASEAN共通分類に基づく品目番号を検索し、該当時点の関税と追加措置を照合する。",
+          "sourceUrls": [
+            "https://www.myanmartradeportal.gov.mm/index.php/en/document/734"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://mongoliatradeportal.com/index.php?id=2&r=searchProcedure%2Fview1",
+          "authority": "Mongolia Customs General Administration, Mongolia Trade Information Portal",
+          "title": "Customs clearance procedure of imported goods for domestic consumption",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://investmongolia.gov.mn/taxation/",
+          "authority": "Investment and Trade Agency of Mongolia",
+          "title": "Taxation: customs duty and tax",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "国内消費向けでは申告者が商業送り状、運送書類、包装明細等を提出し、税関による書類確認と税・手数料の処理を受ける。品目に応じて許可証や原産地書類も照合する。",
+          "sourceUrls": [
+            "https://mongoliatradeportal.com/index.php?id=2&r=searchProcedure%2Fview1"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "モンゴル政府の投資案内では関税の適用区分を分類している。原産地に応じた区分と申告時点の税表を確認する。",
+          "sourceUrls": [
+            "https://investmongolia.gov.mn/taxation/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.mo/cn/customs_declaration_item5.html",
+          "authority": "Macao Customs Service",
+          "title": "進口報關/清關程序",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.ipim.gov.mo/en/invest-here/foreign-trade",
+          "authority": "Commerce and Investment Promotion Institute of the Macao SAR",
+          "title": "Foreign Trade",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入許可対象品は所管機関の許可と添付書類を用意し、その他は品目に対応する輸入申告手続を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.mo/cn/customs_declaration_item5.html"
+          ]
+        },
+        {
+          "topic": "territory",
+          "textJa": "マカオの自由港の扱いを前提に、対象品の消費税、輸入許可、申告書類を個別に照合する。",
+          "sourceUrls": [
+            "https://www.ipim.gov.mo/en/invest-here/foreign-trade"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MV",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://trade.gov.mv/en/22803/",
+          "authority": "Maldives Ministry of Economic Development, Transport and Trade",
+          "title": "Submission of house bills of lading via Tradian",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://trade.gov.mv/en/25630/",
+          "authority": "Maldives Ministry of Economic Development, Transport and Trade",
+          "title": "Vessel declaration and controlled import permit services on Tradian",
+          "topic": "restriction"
+        },
+        {
+          "url": "https://trade.gov.mv/en/laws-and-regulations/",
+          "authority": "Maldives Ministry of Economic Development, Transport and Trade",
+          "title": "Laws and Regulations",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://gazette.gov.mv/gazette/7528",
+          "authority": "Maldives Government Gazette",
+          "title": "Act 5/2026, 20th Amendment to the Export-Import Act",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://presidency.gov.mv/Press/Article/36911",
+          "authority": "The President's Office of the Maldives",
+          "title": "Ratification and effective date of Export-Import Act amendment",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.customs.gov.mv/eServices/findtariff",
+          "authority": "Maldives Customs Service",
+          "title": "HS classification and import duty search",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "海上輸送のHouse B/L情報はTradianで提出できる。貨物全体の輸入申告とは区別し、利用する通関手続と許可を確認する。",
+          "sourceUrls": [
+            "https://trade.gov.mv/en/22803/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "船舶申告、花火と発炎筒の輸入許可については2026年5月10日以降のTradianの機能案内を参照する。",
+          "sourceUrls": [
+            "https://trade.gov.mv/en/25630/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "商用貨物に適用する関税法令は、輸出入法と改正法を参照して確認する。",
+          "sourceUrls": [
+            "https://trade.gov.mv/en/laws-and-regulations/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026年7月2日に公布・施行された改正法5/2026では、紙巻きたばこ、ビディ、加熱式たばこの消耗品に30%の従価税と1本当たりMVR 4を定める。禁煙専用のニコチンガム・パッチ等には関税免除の規定がある。個別の国内品目コードと該当性は税関に照会する。",
+          "sourceUrls": [
+            "https://gazette.gov.mv/gazette/7528",
+            "https://presidency.gov.mv/Press/Article/36911",
+            "https://www.customs.gov.mv/eServices/findtariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MY",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.my/ms/perniagaan/import-eksport/import/prosedur-pengimportan",
+          "authority": "Royal Malaysian Customs Department",
+          "title": "Import Procedure",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.my/images/06-prosedur/perintah-kastam/perintah/PUA_384.pdf",
+          "authority": "Malaysia Minister of Finance, published by Royal Malaysian Customs Department",
+          "title": "Customs Duties Order 2025, P.U. (A) 384",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入者向けの申告、税の支払い、貨物引取りと輸入許可の手順を確認する。貨物が自由地区から移動する場合は専用案内も確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.my/ms/perniagaan/import-eksport/import/prosedur-pengimportan"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2025年11月1日施行のCustoms Duties Order 2025では、第一附表の第5列が輸入税率。関税割当対象は別表、輸入日時点の改正や特恵は別に確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.my/images/06-prosedur/perintah-kastam/perintah/PUA_384.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NP",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.np/pages/asycuda-system-implementation/",
+          "authority": "Department of Customs, Nepal",
+          "title": "ASYCUDA and NECAS implementation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.np/content/50/custom-tariff-rate/",
+          "authority": "Department of Customs, Nepal",
+          "title": "Customs Tariff 2026–27",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "申告に使用するNECAS（Nepal Customs Automation System）の対象税関と電子申告の手続を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.np/pages/asycuda-system-implementation/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "2026–27年度版の関税表を参照し、申告日に適用される版・品目・追加措置を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.np/content/50/custom-tariff-rate/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.ph/guidelines-on-importation/",
+          "authority": "Bureau of Customs, Philippines",
+          "title": "Guidelines on Importation",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://newtc.tariffcommission.gov.ph/philippine-tariff-finder/",
+          "authority": "Philippine Tariff Commission",
+          "title": "Philippine Tariff Finder",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物到着時のGoods Declarationは輸入者または通関業者がE2Mに電子提出する。輸入登録・品目別の許可も確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ph/guidelines-on-importation/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "AHTN 2022に基づく2024～2028年のMFN・FTAの参照税率を確認できる。輸入日に対応する年、原産地条件、後続の措置を照合する。",
+          "sourceUrls": [
+            "https://newtc.tariffcommission.gov.ph/philippine-tariff-finder/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://psw.gov.pk/single-declaration-import",
+          "authority": "Pakistan Single Window",
+          "title": "Single Declaration for Import",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.fbr.gov.pk/categ/laws/144",
+          "authority": "Federal Board of Revenue, Pakistan",
+          "title": "Pakistan Customs Tariff F.Y. 2026–27",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "PSWのSingle Declarationで輸入を選び、輸入者・貨物・該当する許可情報を登録する。",
+          "sourceUrls": [
+            "https://psw.gov.pk/single-declaration-import"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "FBRが公開する2026–27年度税表で品目を確認する。第五附表や追加関税等の通知に該当する場合は別に照合する。",
+          "sourceUrls": [
+            "https://www.fbr.gov.pk/categ/laws/144"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/obtain-a-customs-import-permit/",
+          "authority": "Singapore Customs",
+          "title": "Obtain a Customs Import Permit",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.gov.sg/doing-business/valuation-duties-and-fees/duties-and-dutiable-goods/list-of-dutiable-goods/",
+          "authority": "Singapore Customs",
+          "title": "List of Dutiable Goods",
+          "topic": "tariff"
+        },
+        {
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/claiming-gst-%28input-tax%29/importing-of-goods",
+          "authority": "Inland Revenue Authority of Singapore",
+          "title": "Importing of Goods",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "TradeNetで輸入許可を取得し、許可に記載された貨物引取り・納税等の条件を確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/obtain-a-customs-import-permit/"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "課税品は品目区分により従価または数量等を基準に算定される。関税・物品税と規制品の許可を分けて確認する。",
+          "sourceUrls": [
+            "https://www.customs.gov.sg/doing-business/valuation-duties-and-fees/duties-and-dutiable-goods/list-of-dutiable-goods/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "輸入GSTは輸入許可に記載される価額や適用関税などに基づいて評価される。免税・軽減・納付猶予の適用は別途確認する。",
+          "sourceUrls": [
+            "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/claiming-gst-%28input-tax%29/importing-of-goods"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TH",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.thailandntr.com/index.php/en/goods/procedures-and-documentary-requirement",
+          "authority": "Thailand National Trade Repository",
+          "title": "Procedures and Documentary Requirements",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://thailand.go.th/public/issue-focus-detail/001_03_182?hl=en",
+          "authority": "Thailand Government Portal",
+          "title": "Import Customs clearance by land and releasing goods from Customs",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://www.customs.go.th/list_strc_link_image_with_infographic.php?ini_content=customs_tariff_service&lang=en",
+          "authority": "Thai Customs Department",
+          "title": "Customs Tariff Service",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "e-Importで輸入申告を行い、対象となる関税・VAT・物品税等の納付と税関からの検査指示を確認する。",
+          "sourceUrls": [
+            "https://www.thailandntr.com/index.php/en/goods/procedures-and-documentary-requirement"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "陸路輸入はe-Customsに申告情報を送り、審査結果に従って必要な検査を受ける。利用する税関と輸送方法の手順を照合する。",
+          "sourceUrls": [
+            "https://thailand.go.th/public/issue-focus-detail/001_03_182?hl=en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "税関の関税検索サービスで品目を確認し、輸入日に適用される税率と特恵・規制を照合する。",
+          "sourceUrls": [
+            "https://www.customs.go.th/list_strc_link_image_with_infographic.php?ini_content=customs_tariff_service&lang=en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TJ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://tajtrade.tj/procedure/procedure/154?embed=true&includeSearch=true&l=en",
+          "authority": "Tajikistan Trade Portal",
+          "title": "Import procedure and regulatory controls",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://tajtrade.tj/procedure/263?l=en",
+          "authority": "Tajikistan Trade Portal",
+          "title": "Import procedure documents and customs declaration",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://tajtrade.tj/procedure/225/step/542?includeSearch=true&l=ru",
+          "authority": "Tajikistan Trade Portal",
+          "title": "References to Import Duties Regulation No. 399 and customs fees",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "対象品目・輸送方法ごとの手続を選び、税関申告、所管機関の検査・許可、必要な費用を照合する。",
+          "sourceUrls": [
+            "https://tajtrade.tj/procedure/procedure/154?embed=true&includeSearch=true&l=en"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "タジキスタン貿易ポータルの品目別事例で輸入申告書や前段の国内通過書類を確認する。必要書類は貨物によって変わる。",
+          "sourceUrls": [
+            "https://tajtrade.tj/procedure/263?l=en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "公的貿易ポータルが案内する政府決定第399号と改正状況を確認する。通関サービスの手数料は関税と区別して照合する。",
+          "sourceUrls": [
+            "https://tajtrade.tj/procedure/225/step/542?includeSearch=true&l=ru"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TL",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://customs.gov.tl/doing-business/asycuda-world/",
+          "authority": "Timor-Leste Customs Authority",
+          "title": "ASYCUDA World",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tl/doing-business/duties-taxes/",
+          "authority": "Timor-Leste Customs Authority",
+          "title": "Duties and Taxes",
+          "topic": "tax"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関が登録を認めた輸入者・通関業者がASYCUDA Worldで輸入申告を作成し、税・費用や貨物引取りの処理を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.tl/doing-business/asycuda-world/"
+          ]
+        },
+        {
+          "topic": "tax",
+          "textJa": "商用貨物では関税・売上税・該当品の物品税を分けて確認する。税関案内では輸入売上税の課税標準に関税と物品税を含めている。",
+          "sourceUrls": [
+            "https://customs.gov.tl/doing-business/duties-taxes/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://www.customs.gov.tm/en/pages/customs-code",
+          "authority": "State Customs Service of Turkmenistan",
+          "title": "Turkmenistan Customs Code",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tm/en/news/1040",
+          "authority": "State Customs Service of Turkmenistan",
+          "title": "Preliminary Information on Goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://customs.gov.tm/en/customs-info/customs-fees/duties",
+          "authority": "State Customs Service of Turkmenistan",
+          "title": "Custom Duties",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商用貨物の通関には貨物に適した税関手続と申告者を確認し、税関当局が定める申告手順に従う。",
+          "sourceUrls": [
+            "https://www.customs.gov.tm/en/pages/customs-code"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "税関は輸入・通過貨物の事前電子情報を案内している。運送人等が事前に提出する情報と輸入申告を分けて準備する。",
+          "sourceUrls": [
+            "https://customs.gov.tm/en/news/1040"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "税関当局の関税資料で該当品目と申告日に適用する税率を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.tm/en/customs-info/customs-fees/duties"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93300_1207",
+          "authority": "Taiwan Customs Administration, Ministry of Finance",
+          "title": "貨物通關自動化・進口報關及文件",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93298_1207",
+          "authority": "Taiwan Customs Administration, Ministry of Finance",
+          "title": "進出口貨物の自己申告",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://web.customs.gov.tw/singlehtml/1205?cntId=cus1_112173_1205",
+          "authority": "Taiwan Customs Administration, Ministry of Finance",
+          "title": "稅則稅率專區",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "電子申告では仕入書・運送書類等に基づいて品名と品目番号を進口報單に入力し、通関ネットワークへ送信する。",
+          "sourceUrls": [
+            "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93300_1207"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "自己申告する場合は関港貿単一窓口の対応条件と申告者用の電子証明を確認する。",
+          "sourceUrls": [
+            "https://web.customs.gov.tw/singlehtml/1207?cntId=cus1_93298_1207"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "海関輸入税則の品目番号と税率を検索し、申告日に対応する改定と適用区分を照合する。",
+          "sourceUrls": [
+            "https://web.customs.gov.tw/singlehtml/1205?cntId=cus1_112173_1205"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://uztradeinfo.uz/?l=en",
+          "authority": "Uzbekistan Ministry of Investment, Industry and Trade",
+          "title": "Uzbekistan Trade Info",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://gov.uz/en/miit/sections/view/12769",
+          "authority": "Uzbekistan Ministry of Investment, Industry and Trade",
+          "title": "Customs payments",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "貨物の電子申告システム、シングルウィンドウ、統合税率検索を、品目・輸入手続に応じて使い分ける。",
+          "sourceUrls": [
+            "https://uztradeinfo.uz/?l=en"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "MFNや自由貿易の適用には原産地等の条件を確認する。発送国と原産国は別に管理する。",
+          "sourceUrls": [
+            "https://gov.uz/en/miit/sections/view/12769"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VN",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "url": "https://vntr.moit.gov.vn/procedures/detail/3",
+          "authority": "Vietnam Ministry of Industry and Trade, Vietnam National Trade Repository",
+          "title": "Procedure and Requirements on Customs Documents for Imported Goods",
+          "topic": "procedure"
+        },
+        {
+          "url": "https://vntr.moit.gov.vn/news/tim-kiem-thue-quan-quoc-gia",
+          "authority": "Vietnam Ministry of Industry and Trade, Vietnam National Trade Repository",
+          "title": "Searching national tariffs",
+          "topic": "tariff"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入申告書と品目に応じた輸入関連書類を準備し、申告先と電子手続の要件を貿易リポジトリで確認する。",
+          "sourceUrls": [
+            "https://vntr.moit.gov.vn/procedures/detail/3"
+          ]
+        },
+        {
+          "topic": "tariff",
+          "textJa": "HS番号でベトナムの税表と特恵措置を調べ、該当する協定の原産地基準を照合する。",
+          "sourceUrls": [
+            "https://vntr.moit.gov.vn/news/tim-kiem-thue-quan-quoc-gia"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewedOn": "2026-11-12"
+}

@@ -1,0 +1,71 @@
+{
+  "estimate": {
+    "estimateId": "synthetic-estimate-jp-us",
+    "orderId": "synthetic-order-jp-us",
+    "issuedOn": "2026-11-12",
+    "currency": "USD",
+    "charges": [
+      {
+        "category": "customs_duty",
+        "amount": "10.00"
+      },
+      {
+        "category": "import_vat_gst",
+        "amount": "0.00"
+      },
+      {
+        "category": "additional_duty",
+        "amount": "2.00"
+      },
+      {
+        "category": "excise",
+        "amount": "0.00"
+      },
+      {
+        "category": "customs_fee",
+        "amount": "3.00"
+      },
+      {
+        "category": "carrier_fee",
+        "amount": "5.00"
+      }
+    ]
+  },
+  "invoice": {
+    "invoiceId": "synthetic-invoice-jp-us",
+    "estimateId": "synthetic-estimate-jp-us",
+    "orderId": "synthetic-order-jp-us",
+    "issuedOn": "2026-11-13",
+    "currency": "USD",
+    "charges": [
+      {
+        "category": "customs_duty",
+        "amount": "10.00"
+      },
+      {
+        "category": "import_vat_gst",
+        "amount": "0.00"
+      },
+      {
+        "category": "additional_duty",
+        "amount": "2.00"
+      },
+      {
+        "category": "excise",
+        "amount": "0.00"
+      },
+      {
+        "category": "customs_fee",
+        "amount": "3.00"
+      },
+      {
+        "category": "carrier_fee",
+        "amount": "5.50",
+        "explanation": {
+          "reason": "fee",
+          "evidenceId": "synthetic-carrier-invoice-fee-adjustment"
+        }
+      }
+    ]
+  }
+}

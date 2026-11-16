@@ -1,0 +1,1140 @@
+{
+  "pass": 6,
+  "reviewedOn": "2026-11-12",
+  "entries": [
+    {
+      "country": "AS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "U.S. Government Accountability Office",
+          "title": "GAO-26-107811: Customs models in U.S. territories",
+          "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+          "topic": "territory"
+        },
+        {
+          "authority": "American Samoa Bar Association, American Samoa Code Annotated",
+          "title": "A.S.C.A. 27.1005 Customs entry and declaration",
+          "url": "https://asbar.org/code-annotated/27-1005-customs-entry-and-declaration/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "American Samoa Bar Association, American Samoa Code Annotated",
+          "title": "A.S.C.A. 27.1017 Furnishing of invoices to treasurer",
+          "url": "https://asbar.org/code-annotated/27-1017-furnishing-of-invoices-to-treasurer/",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "米領サモアの税関当局が現地制度で貨物を処理する。米国本土の通常輸入申告を流用せず、輸入地と貨物の種類を伝えて現地当局に申告方法を確認する。",
+          "sourceUrls": [
+            "https://files.gao.gov/reports/GAO-26-107811/index.html"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "A.S.C.A. 27.1005の税関申告を行い、27.1017のインボイス提出要件を確認する。搬出前の検査・許可についてAmerican Samoa Customsに確認する。",
+          "sourceUrls": [
+            "https://asbar.org/code-annotated/27-1005-customs-entry-and-declaration/",
+            "https://asbar.org/code-annotated/27-1017-furnishing-of-invoices-to-treasurer/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Australian Border Force",
+          "title": "Import declarations",
+          "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import/import-declaration",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "Before you import goods to Australia",
+          "url": "https://www.agriculture.gov.au/import/before",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "External territories",
+          "url": "https://www.agriculture.gov.au/import/goods/external-territories",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "国内消費向け貨物の合計価額が1,000豪ドルを超える場合はN10をICSで提出するか、署名済み書類をABF窓口に提出する。窓口提出の航空・海上貨物はB650、国際郵便はB374を確認する。1,000豪ドル以下の航空・海上貨物はSACを確認し、国際郵便とカルネにはSACを使用しない。輸入許可が必要な貨物はN10または長様式SACを使用する。",
+          "sourceUrls": [
+            "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import/import-declaration"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "出発地・原産地、品目、梱包材に応じてBICONでバイオセキュリティ条件を調べ、必要な輸入許可、証明書、処理、検査条件を発送前に確認する。クリスマス島、ココス（キーリング）諸島、ノーフォーク島はそれぞれの条件を照会する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/import/before",
+            "https://www.agriculture.gov.au/import/goods/external-territories"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "topic": "territory"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "External territories",
+          "url": "https://www.agriculture.gov.au/import/goods/external-territories",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "Indian Ocean Territories: Christmas and Cocos (Keeling) Islands",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/iot",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "First points of entry: seaport locations",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ココス（キーリング）諸島と豪州本土間の貨物は、ABF通知2026/11で、出入境報告、貨物申告、適用される税関・税務の取扱いを確認する。",
+          "sourceUrls": [
+            "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "ココス（キーリング）諸島の個別の条件付許容品目規則を照会する。規則の対象外の貨物はBICONで許可を申請し、豪州本土を出る前に許可を取得する。必要な処理、検査、証明は品目別に照合する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/import/goods/external-territories",
+            "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/iot"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "DAFFの指定海港の一般貨物と貨物コンテナの受付区分を照合する。指定表が列挙するコンテナは20フィートのもの。その他のコンテナは荷揚げ前に許可の要否を照会する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CK",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Cook Islands Ministry of Finance and Economic Management",
+          "title": "Importing",
+          "url": "https://www.mfem.gov.ck/importing",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Cook Islands Ministry of Agriculture",
+          "title": "Biosecurity: importing",
+          "url": "https://agriculture.gov.ck/biosecurity/importing/",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Cook Islands Ministry of Agriculture",
+          "title": "Biosecurity register and forms",
+          "url": "https://agriculture.gov.ck/biosecurity/register-forms/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "海上・航空・郵便等の輸入貨物は、免除が確認された場合を除き、現地の認可通関業者または申告者を通じて到着前または到着時に輸入申告する。税関に申告免除と受理条件を照会する。",
+          "sourceUrls": [
+            "https://www.mfem.gov.ck/importing"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動物・植物等の規制対象貨物は農業省Biosecurityに品目別の輸入許可と添付証明書を照会し、専用様式を提出する。",
+          "sourceUrls": [
+            "https://agriculture.gov.ck/biosecurity/importing/",
+            "https://agriculture.gov.ck/biosecurity/register-forms/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CX",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "topic": "territory"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "External territories",
+          "url": "https://www.agriculture.gov.au/import/goods/external-territories",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "Indian Ocean Territories: Christmas and Cocos (Keeling) Islands",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/iot",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "First points of entry: seaport locations",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "クリスマス島と豪州本土間の貨物は、ABF通知2026/11で、出入境報告、貨物申告、適用される税関・税務の取扱いを確認する。",
+          "sourceUrls": [
+            "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "クリスマス島の個別の条件付許容品目規則を照会する。規則の対象外の貨物はBICONで許可を申請し、豪州本土を出る前に許可を取得する。必要な処理、検査、証明は品目別に照合する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/import/goods/external-territories",
+            "https://www.agriculture.gov.au/biosecurity-trade/import/goods/external-territories/iot"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "DAFFの指定海港では一般貨物・貨物コンテナを扱う。貨物と船舶の種類を指定表で確認し、対象外の荷揚げは事前に照会する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FJ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Fiji Revenue and Customs Service",
+          "title": "Import procedure",
+          "url": "https://frcs.org.fj/our-services/customs/trade-business/importers/import-procedure/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Fiji Government Trade Portal",
+          "title": "Registering the customs declaration",
+          "url": "https://fijitradeportal.gov.fj/en-gb/super-process/step-detail?id=14",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Biosecurity Authority of Fiji",
+          "title": "Permit application system",
+          "url": "https://permit.baf.com.fj/",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Biosecurity Authority of Fiji",
+          "title": "Application forms",
+          "url": "https://www.baf.com.fj/download-forms/",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Biosecurity Authority of Fiji",
+          "title": "Animals and animal products",
+          "url": "https://www.baf.com.fj/animals-and-animal-products/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "初回はFRCSのASYCUDA登録を確認し、商業インボイス、梱包明細、船荷証券または航空運送状をそろえる。ASYCUDA WorldでSADを提出し、対象品の許可を添付する。検査指示と納付を確認してから引取りを行う。",
+          "sourceUrls": [
+            "https://frcs.org.fj/our-services/customs/trade-business/importers/import-procedure/",
+            "https://fijitradeportal.gov.fj/en-gb/super-process/step-detail?id=14"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動物・動物製品・植物・植物製品はBAFの許可システムで品目と輸出国を選び、必要な許可・証明・検査条件を確認する。医薬品は税関案内に従い保健当局の許可を照会する。",
+          "sourceUrls": [
+            "https://permit.baf.com.fj/",
+            "https://www.baf.com.fj/download-forms/",
+            "https://www.baf.com.fj/animals-and-animal-products/",
+            "https://frcs.org.fj/our-services/customs/trade-business/importers/import-procedure/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "FM",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Federated States of Micronesia Department of Finance and Administration",
+          "title": "Customs and Tax Administration",
+          "url": "https://dofa.gov.fm/services/customs-tax/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Federated States of Micronesia Department of Finance and Administration",
+          "title": "Customs entry form",
+          "url": "https://dofa.gov.fm/documents/esad-42/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Federated States of Micronesia Department of Finance and Administration",
+          "title": "Customs entry instructions",
+          "url": "https://dofa.gov.fm/documents/sad-manual/",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "到着する州・港のCustoms and Tax Administrationに、公式の税関申告様式と記載要領に沿って輸入申告と貨物書類の提出先を確認する。貨物価額・品目情報と、輸入税の納付または免除の根拠を用意し、現地の引取り許可を確認する。",
+          "sourceUrls": [
+            "https://dofa.gov.fm/services/customs-tax/",
+            "https://dofa.gov.fm/documents/esad-42/",
+            "https://dofa.gov.fm/documents/sad-manual/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "U.S. Government Accountability Office",
+          "title": "GAO-26-107811: Customs models in U.S. territories",
+          "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+          "topic": "territory"
+        },
+        {
+          "authority": "Guam Customs & Quarantine Agency",
+          "title": "Resources and import requirements",
+          "url": "https://cqa.guam.gov/resources/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Compiler of Laws, Judiciary of Guam",
+          "title": "4 GAR, Customs, Agriculture, and Quarantine",
+          "url": "https://col.guamcourts.gov/sites/default/files/04GAR001-2.pdf",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Guam Department of Agriculture",
+          "title": "Biosecurity and animal health contacts",
+          "url": "https://doag.guam.gov/contact-us/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "グアムの貨物はGuam Customs & Quarantine Agency（CQA）が現地制度で処理する。米国本土の関税領域と区別し、利用港でCQAに書類提出先を確認する。",
+          "sourceUrls": [
+            "https://files.gao.gov/reports/GAO-26-107811/index.html",
+            "https://cqa.guam.gov/resources/"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "CQAの輸入要件と4 GARの貨物検査・報告手続を照合し、運送業者とマニフェストや貨物資料を準備する。",
+          "sourceUrls": [
+            "https://cqa.guam.gov/resources/",
+            "https://col.guamcourts.gov/sites/default/files/04GAR001-2.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動物・動物製品はGuam Department of Agricultureに許可・健康証明の要件を確認し、植物その他の規制品はBiosecurityの窓口を確認する。",
+          "sourceUrls": [
+            "https://doag.guam.gov/contact-us/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "HM",
+      "status": "official_reference",
+      "sources": [
+        {
+          "authority": "Australian Antarctic Division",
+          "title": "Heard Island and McDonald Islands permits",
+          "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/protection-and-management/permits/",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "topic": "territory"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ハード島・マクドナルド諸島と領海は立入り許可の対象。通常の商業貨物の受付窓口は確認できていないため、事業・貨物・輸送方法ごとにAustralian Antarctic Divisionへ事前照会する。生物の持込み、着陸・航行、機材の残置等も許可条件を確認する。",
+          "sourceUrls": [
+            "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/protection-and-management/permits/",
+            "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "KI",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Government of Kiribati Trade Portal",
+          "title": "Submit customs declaration",
+          "url": "https://kiribati.tradeportal.org/procedure/119/step/24",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Kiribati Trade Portal",
+          "title": "Import procedure and documents",
+          "url": "https://kiribati.tradeportal.org/procedure/26?l=en",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Kiribati Trade Portal",
+          "title": "Food import clearance",
+          "url": "https://kiribati.tradeportal.org/procedure/20/step/30?l=en",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "対象品の手順をKiribati Trade Portalで確認し、Kiribati Customs Administrationへ輸入申告を提出する。輸送書類・インボイス等の必要資料、提出者、支払と引取りの条件は、貨物と港に該当する手順を使う。",
+          "sourceUrls": [
+            "https://kiribati.tradeportal.org/procedure/119/step/24",
+            "https://kiribati.tradeportal.org/procedure/26?l=en"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "食品等の保健当局による検査・許可が手順に含まれる場合は、税関申告とあわせて保健当局の承認条件を確認する。",
+          "sourceUrls": [
+            "https://kiribati.tradeportal.org/procedure/20/step/30?l=en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MH",
+      "status": "official_reference",
+      "sources": [
+        {
+          "authority": "Marshall Islands Ministry of Finance, Banking & Postal Services",
+          "title": "Department of Customs",
+          "url": "https://mof.gov.mh/department-of-customs/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Marshall Islands Ministry of Finance, Banking & Postal Services",
+          "title": "Preparing for ASYCUDAWorld",
+          "url": "https://mof.gov.mh/marshall-islands-preparing-for-asycudaworld/",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Marshall Islands Customsが輸入通関を担当する。Majuro等の実際の到着地を伝え、輸入申告様式、インボイス・運送書類の添付と提出方法を確認する。ASYCUDAWorldの準備告知だけで実運用開始や電子受付の可否を判定しない。",
+          "sourceUrls": [
+            "https://mof.gov.mh/department-of-customs/",
+            "https://mof.gov.mh/marshall-islands-preparing-for-asycudaworld/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MP",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "U.S. Government Accountability Office",
+          "title": "GAO-26-107811: Customs models in U.S. territories",
+          "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+          "topic": "territory"
+        },
+        {
+          "authority": "CNMI Department of Finance, Customs and Quarantine",
+          "title": "Customs offices and staff",
+          "url": "https://dof.gov.mp/cus-offices-and-staff.php",
+          "topic": "procedure"
+        },
+        {
+          "authority": "CNMI Department of Finance, Customs and Quarantine",
+          "title": "Import requirements",
+          "url": "https://dof.gov.mp/cus-import-requirements.php",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "北マリアナ諸島は米国本土とは別にCNMI Customs and Quarantineが到着貨物を審査する。",
+          "sourceUrls": [
+            "https://files.gao.gov/reports/GAO-26-107811/index.html",
+            "https://dof.gov.mp/cus-offices-and-staff.php"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "到着地の海港・空港・郵便の窓口を選び、運送業者のマニフェストと貨物資料の審査、制限品の許可、現地物品税等の納付・引取り手続を確認する。",
+          "sourceUrls": [
+            "https://dof.gov.mp/cus-offices-and-staff.php",
+            "https://dof.gov.mp/cus-import-requirements.php"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NC",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Direction des Douanes de Nouvelle-Calédonie",
+          "title": "Établir une déclaration en douane",
+          "url": "https://douane.gouv.nc/comment-est-ce-que-je-peux-etablir-ma-declaration-en-douane-sans-prendre-les-services-dun-declarant",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Direction des Douanes de Nouvelle-Calédonie",
+          "title": "Droits et taxes applicables",
+          "url": "https://douane.gouv.nc/node/181",
+          "topic": "tax"
+        },
+        {
+          "authority": "Direction des Affaires Vétérinaires Alimentaires et Rurales",
+          "title": "Les végétaux et produits végétaux",
+          "url": "https://davar.gouv.nc/importations-exportations-importations/les-vegetaux-et-produits-vegetaux",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "ニューカレドニア税関の様式・窓口を使う。自ら申告する場合は当該貨物の受取人であること等の条件を確認し、必要に応じ現地申告業者を利用する。現地の関税と税は別に確認する。",
+          "sourceUrls": [
+            "https://douane.gouv.nc/comment-est-ce-que-je-peux-etablir-ma-declaration-en-douane-sans-prendre-les-services-dun-declarant",
+            "https://douane.gouv.nc/node/181"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物・植物製品はDAVARのSIVAPへ輸入許可を申請し、出荷国、品目、植物検疫証明等の指定を確認する。",
+          "sourceUrls": [
+            "https://davar.gouv.nc/importations-exportations-importations/les-vegetaux-et-produits-vegetaux"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Australian Border Force",
+          "title": "Australian Customs Notice 2026/11",
+          "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+          "topic": "territory"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "External territories",
+          "url": "https://www.agriculture.gov.au/import/goods/external-territories",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Australian Department of Agriculture, Fisheries and Forestry",
+          "title": "First points of entry: seaport locations",
+          "url": "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ノーフォーク島と豪州本土間の貨物は、ABF通知2026/11で、出入境報告、貨物申告、適用される税関・税務の取扱いを確認する。",
+          "sourceUrls": [
+            "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "ノーフォーク島の個別の条件付許容品目規則を照会する。規則の対象外の貨物はBICONで許可を申請し、豪州本土を出る前に許可を取得する。必要な処理、検査、証明は品目別に照合する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/import/goods/external-territories"
+          ]
+        },
+        {
+          "topic": "procedure",
+          "textJa": "DAFFの指定海港の一般貨物・船舶の受付範囲を確認する。指定表に貨物コンテナの区分は列挙されていないため、コンテナの荷揚げ可否は事前に当局へ照会する。",
+          "sourceUrls": [
+            "https://www.agriculture.gov.au/biosecurity-trade/aircraft-vessels-military/vessels/first-point-entry-and-non-first-point-entry/seaport-locations"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NR",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Government of Nauru Trade Portal",
+          "title": "Import permit and customs clearance procedure",
+          "url": "https://nauru.tradeportal.org/procedure/17?l=en",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Nauru Trade Portal",
+          "title": "Apply for an import licence at Customs",
+          "url": "https://nauru.tradeportal.org/procedure/9?l=en",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Nauru Trade Portalで品目・輸送方法に該当する手順を選び、税関での輸入ライセンスや許可、到着時の通関、海上貨物のコンテナ引渡書類を該当する場合に用意する。航空貨物と海上貨物の受付窓口を照合する。",
+          "sourceUrls": [
+            "https://nauru.tradeportal.org/procedure/17?l=en",
+            "https://nauru.tradeportal.org/procedure/9?l=en"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Niue Customs Office",
+          "title": "Customs clearance procedures effective 1 February 2026",
+          "url": "https://www.gov.nu/media-releases/customs-clearance-procedures-customs-clearance-procedures-for-imported-goods-effective-1-february-2026",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Niue",
+          "title": "Niue Laws: Biosecurity Act and rules",
+          "url": "https://www.gov.nu/media/pages/information/39290dbbd4-1764012801/niue_laws_vol4_part1_ul2022.pdf",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "2026年2月1日以降、ASYCUDAに完全な貨物申告を提出し、全額納付後にNiue Customsの引渡承認を受ける。輸送業者は承認前に貨物を引き渡さない。",
+          "sourceUrls": [
+            "https://www.gov.nu/media-releases/customs-clearance-procedures-customs-clearance-procedures-for-imported-goods-effective-1-february-2026"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "生きた動物、植物等の貨物はニウエのBiosecurity法令で規制対象、事前許可、検査と例外を照合する。",
+          "sourceUrls": [
+            "https://www.gov.nu/media/pages/information/39290dbbd4-1764012801/niue_laws_vol4_part1_ul2022.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NZ",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "New Zealand Customs Service",
+          "title": "Register as a commercial importer",
+          "url": "https://www.customs.govt.nz/business/import/start-importing/register-as-a-commercial-importer",
+          "topic": "procedure"
+        },
+        {
+          "authority": "New Zealand Ministry for Primary Industries",
+          "title": "Import health standards for biosecurity risk goods",
+          "url": "https://www.groundrules.mpi.govt.nz/rule/2581-imported-goods-import-health-standards",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "1,000NZドルを超える商業輸入は輸入者コードと供給者コードを取得し、Trade Single Window（TSW）に登録して該当する輸入申告を提出する。必要な場合は同窓口でBACCも申請する。",
+          "sourceUrls": [
+            "https://www.customs.govt.nz/business/import/start-importing/register-as-a-commercial-importer"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "バイオセキュリティ上のリスク品目はMPIのImport Health Standardで、輸出国、事前処理、許可・証明と検査の条件を確認する。",
+          "sourceUrls": [
+            "https://www.groundrules.mpi.govt.nz/rule/2581-imported-goods-import-health-standards"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Direction régionale des douanes de Polynésie française",
+          "title": "FENIX customs system",
+          "url": "https://www.service-public.pf/douane/fenix/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Direction régionale des douanes de Polynésie française",
+          "title": "Documents à joindre au DAUP",
+          "url": "https://www.service-public.pf/douane/wp-content/uploads/sites/18/2026/01/NO-du-16-09-2024_Doc-a-joindre-au-DAUP.pdf",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Direction de la biosécurité de Polynésie française",
+          "title": "Biosécurité: contact and permit forms",
+          "url": "https://www.service-public.pf/biosecurite/contact/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関と利用契約を結んだ利用者がFENIXで申告する。インボイス、DV1相当の価額資料、該当する許可・原産地証明などを添付し、貨物の引取許可（BAE）を確認する。船荷証券情報のマニフェスト提出も貨物条件に応じて確認する。",
+          "sourceUrls": [
+            "https://www.service-public.pf/douane/fenix/",
+            "https://www.service-public.pf/douane/wp-content/uploads/sites/18/2026/01/NO-du-16-09-2024_Doc-a-joindre-au-DAUP.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動植物等の規制品は現地のDirection de la biosécuritéに許可・証明・検査を確認する。ペット輸入には航空と海上で異なる申請様式がある。",
+          "sourceUrls": [
+            "https://www.service-public.pf/biosecurite/contact/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PG",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Papua New Guinea Customs Service",
+          "title": "Import procedures",
+          "url": "https://customs.gov.pg/trade/pns",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Papua New Guinea National Trade Office",
+          "title": "Papua New Guinea Biosecurity Authority",
+          "url": "https://facilitation.nto.gov.pg/pngba/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "輸入者が申告の正確性に責任を持つ。通関業者に商業インボイス、輸送書類、必要な許可を渡し、ASYCUDA Worldで申告する。税関の審査・検査、税費用の納付と引渡承認を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.pg/trade/pns"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "農畜産物の規制はPNG Biosecurity Authority（旧NAQIA）に照会し、対象品の許可・証明と検査条件を確認する。",
+          "sourceUrls": [
+            "https://facilitation.nto.gov.pg/pngba/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PN",
+      "status": "official_reference",
+      "sources": [
+        {
+          "authority": "Government of the Pitcairn Islands",
+          "title": "Laws and Biosecurity Ordinance 2024",
+          "url": "https://www.government.pn/laws",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "ピトケアン政府のBiosecurity Ordinance 2024と関係規則に照らして、貨物の輸入条件を現地当局に照会する。島への着岸・配送可否、貨物申告書と受付窓口は発送前に確認する。通常の商業貨物の受付は未確認。",
+          "sourceUrls": [
+            "https://www.government.pn/laws"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PW",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Palau Bureau of Customs and Border Protection",
+          "title": "Import procedure",
+          "url": "https://bcbp.pw/?page_id=3153",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Republic of Palau Bureau of Agriculture",
+          "title": "Biosecurity and import permits",
+          "url": "https://www.palaugov.pw/executive-branch/ministries/agriculture-fisheries-and-environment/bureau-of-agriculture/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業貨物は運送書類を税関に提示し、貨物マニフェスト登録後、登録利用者または認可通関業者がASYCUDAWorldでSADを提出する。商業インボイス、船荷証券・航空運送状、梱包明細、税関評価資料、該当する許可をそろえる。",
+          "sourceUrls": [
+            "https://bcbp.pw/?page_id=3153"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "対象貨物のバイオセキュリティ許可はBureau of Agricultureに申請する。税関審査とは別に検査・処理条件と引渡しの可否を確認する。",
+          "sourceUrls": [
+            "https://bcbp.pw/?page_id=3153",
+            "https://www.palaugov.pw/executive-branch/ministries/agriculture-fisheries-and-environment/bureau-of-agriculture/"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "SB",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Solomon Islands Customs and Excise Division",
+          "title": "ASYCUDA World",
+          "url": "https://customs.gov.sb/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Solomon Islands Trade Portal",
+          "title": "Submit import declaration (SAD)",
+          "url": "https://solomon-islands.tradeportal.org/procedure/15/step/115",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Solomon Islands Trade Portal",
+          "title": "Plant import permit procedure",
+          "url": "https://solomon-islands.tradeportal.org/procedure/21/step/2",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "税関にASYCUDA WorldのSADを提出し、該当する品目の手順で添付するインボイス・輸送書類や支払方法を照合する。税関と検疫当局の引渡条件を確認する。",
+          "sourceUrls": [
+            "https://customs.gov.sb/",
+            "https://solomon-islands.tradeportal.org/procedure/15/step/115"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物の輸入許可はBiosecurity Solomon Islandsへ申請する。原産地や品目に応じた証明書と到着検査を当局に確認する。",
+          "sourceUrls": [
+            "https://solomon-islands.tradeportal.org/procedure/21/step/2"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TK",
+      "status": "official_reference",
+      "sources": [
+        {
+          "authority": "Tokelau National Statistics Office",
+          "title": "Tokelau customs legislation and import reporting overview",
+          "url": "https://www.tokelau.org.nz/site/tokelau/files/TokelauNSO/IMTS-Appendix1_Charlie-Trade-Proposal%20to%20establish%20IMTS.pdf",
+          "topic": "territory"
+        },
+        {
+          "authority": "Tokelau legislation via Pacific Islands Legal Information Institute",
+          "title": "Tokelau Customs Rules 1991, consolidated text",
+          "url": "https://www.paclii.org/tk/legis/consol_act_2016/cr1991173.pdf",
+          "topic": "territory"
+        },
+        {
+          "authority": "Tokelau government legislation via FAOLEX",
+          "title": "Tokelau Biosecurity Rules",
+          "url": "https://faolex.fao.org/docs/pdf/tok51787.pdf",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "トケラウのCustoms Rules 1991とBiosecurity Rulesを参照し、到着する環礁の窓口と貨物に適用される許可・検査を当局に確認する。通常貨物の電子受付や引渡しの可否は確認が必要。",
+          "sourceUrls": [
+            "https://www.tokelau.org.nz/site/tokelau/files/TokelauNSO/IMTS-Appendix1_Charlie-Trade-Proposal%20to%20establish%20IMTS.pdf",
+            "https://www.paclii.org/tk/legis/consol_act_2016/cr1991173.pdf",
+            "https://faolex.fao.org/docs/pdf/tok51787.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TO",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Government of Tonga Trade Portal",
+          "title": "Submit customs declaration",
+          "url": "https://tonga.tradeportal.org/procedure/44/step/638",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Tonga Trade Portal",
+          "title": "Plant and plant materials import permit",
+          "url": "https://tonga.tradeportal.org/procedure/170/step/269",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Government of Tonga Trade Portal",
+          "title": "Customs and Excise Management Act, Part 7",
+          "url": "https://tonga.tradeportal.org/media/CustomsandExciseManagementAct_2_2.pdf",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "対象貨物の通関手順で、商業インボイス等をそろえ、必要に応じ認可通関業者を通じて税関のSADを提出する。",
+          "sourceUrls": [
+            "https://tonga.tradeportal.org/procedure/44/step/638"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物・植物材料はMAFF Quarantine Officeの輸入許可を照会する。その他の規制品は税関の禁止・制限一覧と品目別の許可を確認する。",
+          "sourceUrls": [
+            "https://tonga.tradeportal.org/procedure/170/step/269",
+            "https://tonga.tradeportal.org/media/CustomsandExciseManagementAct_2_2.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TV",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Government of Tuvalu Trade Portal",
+          "title": "Import clearance at the port",
+          "url": "https://tuvalu.tradeportal.org/procedure/12?l=en",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Government of Tuvalu Trade Portal",
+          "title": "Import customs declaration supporting documents",
+          "url": "https://tuvalu.tradeportal.org/procedure/12/step/22",
+          "topic": "procedure"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Tuvalu Revenue and Customs Departmentに輸入申告を提出し、商業インボイス等の添付、支払、港での引渡しを品目別手順で確認する。動物・植物等の対象貨物は検疫の輸入許可を添える。",
+          "sourceUrls": [
+            "https://tuvalu.tradeportal.org/procedure/12?l=en",
+            "https://tuvalu.tradeportal.org/procedure/12/step/22"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UM",
+      "status": "official_reference",
+      "sources": [
+        {
+          "authority": "U.S. Fish and Wildlife Service",
+          "title": "Pacific Islands Heritage Marine National Monument: visit",
+          "url": "https://www.fws.gov/national-monument/pacific-islands-heritage-marine/visit-us",
+          "topic": "restriction"
+        },
+        {
+          "authority": "U.S. Fish and Wildlife Service",
+          "title": "Jarvis Island National Wildlife Refuge: access permit",
+          "url": "https://www.fws.gov/refuge/jarvis-island/visit-us",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "territory",
+          "textJa": "米領太平洋諸島は島・施設ごとの管理主体と立入条件を確認する。保護区の一部は一般利用不可で、ジャーヴィス島は特別使用許可の対象。通常貨物の受付を前提とせず、到着島と具体的な目的を示して管理当局に照会する。",
+          "sourceUrls": [
+            "https://www.fws.gov/national-monument/pacific-islands-heritage-marine/visit-us",
+            "https://www.fws.gov/refuge/jarvis-island/visit-us"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "VU",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Vanuatu Customs and Inland Revenue",
+          "title": "SAD import clearance procedure for brokers",
+          "url": "https://vanuatucustoms.gov.vu/images/ASYCUDA/AWorld/SOP/SOP_Imports_External.pdf",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Biosecurity Vanuatu",
+          "title": "Imports",
+          "url": "https://biosecurity.gov.vu/index.php/imports",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Biosecurity Vanuatu",
+          "title": "SPS application for biosecurity import permit",
+          "url": "https://biosecurity.gov.vu/images/Forms/SPS_Application_for_Biosecurity_Import_Permit_or_Export_Certificate.pdf",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "Port Vila・Luganvilleの対象輸入貨物では、通関業者がASYCUDAのSADを提出する。商業インボイス、船荷証券または航空運送状、必要な許可、評価・保険資料等をそろえ、申告制度と提出先を照合する。",
+          "sourceUrls": [
+            "https://vanuatucustoms.gov.vu/images/ASYCUDA/AWorld/SOP/SOP_Imports_External.pdf"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "動植物・その製品や使用済み機械等はBiosecurity Vanuatuに品目別条件を照会する。SPS輸入許可申請では、貨物、原産地、到着地、輸送経路などを記載する。承認国・承認品の動物製品が5kgを超える場合は商業輸入許可の対象となる。",
+          "sourceUrls": [
+            "https://biosecurity.gov.vu/index.php/imports",
+            "https://biosecurity.gov.vu/images/Forms/SPS_Application_for_Biosecurity_Import_Permit_or_Export_Certificate.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "WF",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Services de l'État et du Territoire à Wallis et Futuna",
+          "title": "Formalités douanières",
+          "url": "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-douanieres",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Direction générale des douanes et droits indirects",
+          "title": "Îles de Wallis-et-Futuna: customs procedure links",
+          "url": "https://www.douane.gouv.fr/professionnels/outre-mer/territoires-et-collectivites-doutre-mer/iles-de-wallis-et-futuna",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Service de l’Inspection Vétérinaire Alimentaire et Phytosanitaire",
+          "title": "Formalités SIVAP: import",
+          "url": "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-SIVAP-Service-de-l-Inspection-Veterinaire-Alimentaire-et-Phytosanitaire/IMPORT",
+          "topic": "restriction"
+        },
+        {
+          "authority": "Service de l’Inspection Vétérinaire Alimentaire et Phytosanitaire",
+          "title": "Importation de végétaux",
+          "url": "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-SIVAP-Service-de-l-Inspection-Veterinaire-Alimentaire-et-Phytosanitaire/IMPORT/Importation-de-vegetaux",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "到着時に貨物を現地税関へ申告する。利用島の窓口に、貨物の申告書、運送書類、インボイスの提出方法を確認する。",
+          "sourceUrls": [
+            "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-douanieres",
+            "https://www.douane.gouv.fr/professionnels/outre-mer/territoires-et-collectivites-doutre-mer/iles-de-wallis-et-futuna"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物、動物由来製品、生きた動物はSIVAPで輸入許可と品目別衛生条件を確認する。植物・植物製品は専用の許可申請書と該当する植物検疫証明の様式を照合する。",
+          "sourceUrls": [
+            "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-SIVAP-Service-de-l-Inspection-Veterinaire-Alimentaire-et-Phytosanitaire/IMPORT",
+            "https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-SIVAP-Service-de-l-Inspection-Veterinaire-Alimentaire-et-Phytosanitaire/IMPORT/Importation-de-vegetaux"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "WS",
+      "status": "official_procedure",
+      "sources": [
+        {
+          "authority": "Samoa Ministry of Customs",
+          "title": "Customs services",
+          "url": "https://customs.gov.ws/customs-services/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Samoa Ministry of Customs",
+          "title": "Customs services FAQ",
+          "url": "https://customs.gov.ws/customs-services-faq/",
+          "topic": "procedure"
+        },
+        {
+          "authority": "Samoa Ministry of Agriculture and Fisheries",
+          "title": "Biosecurity and permits",
+          "url": "https://maf.gov.ws/biosecurity/",
+          "topic": "restriction"
+        }
+      ],
+      "guidance": [
+        {
+          "topic": "procedure",
+          "textJa": "商業貨物は税関・通関業者に対象の申告様式を確認する。個人用家財の案内では、運送業者がBS4と船荷証券または航空運送状を照合して提出する。インボイス、検査・納付・引渡しの条件を貨物区分ごとに確認する。",
+          "sourceUrls": [
+            "https://customs.gov.ws/customs-services/",
+            "https://customs.gov.ws/customs-services-faq/"
+          ]
+        },
+        {
+          "topic": "restriction",
+          "textJa": "植物製品はSamoa Quarantineへの申告と輸入許可の案内を確認する。動物・動物製品は原産国、品目、許可・証明、検査条件を確認する。",
+          "sourceUrls": [
+            "https://maf.gov.ws/biosecurity/"
+          ]
+        }
+      ]
+    }
+  ]
+}
