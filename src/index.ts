@@ -11,6 +11,17 @@ export { checkoutAmountHoldReasons, previewCheckout, previewVeygritCheckout } fr
 export type { CheckoutAmountHoldReason, CheckoutPreview, CheckoutTaxGroup } from "./checkout.ts";
 export { planCustoms, planVeygritOrder } from "./customs-plan.ts";
 export { VERSION } from "./version.ts";
+export { ClassificationCatalog, loadClassificationCatalog, classificationCatalogSchema, classificationSourceSchema } from "./classification-catalog.ts";
+export { proposeClassification, parseClassificationRequest, productFingerprint, classificationContextDigest } from "./classification.ts";
+export { classificationProductSchema, classificationContextSchema, classificationRequestSchema, classificationCandidateSchema, classificationProposalSchema } from "./classification-types.ts";
+export type * from "./classification-types.ts";
+export { createClassificationApproval, createClassificationRevocation, assignClassification, parseClassificationEvents, classificationAssignmentSchema, classificationEventsSchema, classificationApprovalInputSchema } from "./classification-approvals.ts";
+export type { ClassificationEvent, ClassificationApprovalEvent, ClassificationRevocationEvent, ClassificationApprovalInput, ClassificationAssignment } from "./classification-approvals.ts";
+export { loadClassificationEvents, appendClassificationEvent } from "./classification-store.ts";
+export { assignClassificationBatch, parseClassificationBatch, classificationBatchFromCsv, classificationBatchInputSchema, classificationBatchOutputSchema } from "./classification-batch.ts";
+export type { ClassificationBatchInput, ClassificationBatch } from "./classification-batch.ts";
+export { applyClassificationAssignments, classificationPlanInputSchema } from "./classification-plan.ts";
+export type { ClassificationPlanInput, ClassifiedCustomsPlan } from "./classification-plan.ts";
 export { releaseReadiness } from "./release-readiness.ts";
 export { parseLiveValidationRecords, loadLiveValidationRecords } from "./live-validation.ts";
 export type { LiveValidationEvidence, LiveValidationRecord, LiveValidationStage } from "./live-validation.ts";

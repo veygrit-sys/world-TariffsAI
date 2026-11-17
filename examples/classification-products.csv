@@ -1,0 +1,2 @@
+merchantId,sku,revision,description,attributes
+example-merchant,filter-sheet-001,1,液体用のシート状ろ過材,"{""product_type"": ""filter_medium"", ""function"": ""liquid_filtration""}"

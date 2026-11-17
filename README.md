@@ -2,7 +2,7 @@
 
 Veygrit向けの関税・通関判断支援エンジンです。TypeScript・Node.jsのAPIとCLIに、通関準備、根拠付きの見積もり、DAP・DDPの請求照合、Next.js・WooCommerce連携例を収録しています。
 
-**v1.0.0-rc.24** は、商品数量と個口の割当、複数申告の納付・請求・支払い、返金・追徴を注文単位で照合します。異通貨の証跡は、確認済みの精算用為替と丸め方法を記録して換算します。出典・計算ルールの期限を毎日検査し、要確認事項をGitHub Issueで管理するワークフローも追加しました。 [輸入精算台帳](docs/IMPORT_SETTLEMENT_LEDGER.md) ・ [期限監視](docs/DATA_UPDATES.md)
+**v1.0.0-rc.25** は、商品ごとの根拠付きHS候補、追加質問、運用者承認・取消、確認済みコードの自動再割当、CSV・バッチ処理を追加しました。承認された分類を既存の通関計画へ引き継ぎ、仕様・国・輸出入区分・版・期限の違いを検出します。公開初期データは日本税関の事例2件によるHS6候補で、国内税番の承認には別途確認済みの税表カタログが必要です。 [HS分類と自動割当](docs/HS_CLASSIFICATION.md)
 
 ## 公開リポジトリの対応範囲
 
@@ -98,6 +98,11 @@ curl http://127.0.0.1:3008/v1/customs/plan \
 | `POST /v1/customs/plan` | 世界の通関準備、品目別税率候補、基礎関税の参考試算 |
 | `POST /v1/ask`             | 多言語の出典付き知識検索         |
 | `POST /v1/classify`        | 商品属性・規制カテゴリの確認支援 |
+| `POST /v1/classification/propose` | 根拠付きHS候補と追加質問 |
+| `POST /v1/classification/assign` | サーバーの確認済み分類を商品へ再割当 |
+| `POST /v1/classification/batch` | 同一加盟店の商品を一括処理 |
+| `GET /v1/classification/coverage` | 分類カタログの収録範囲 |
+| `GET /v1/classification/sources` | 分類出典のURL・確認日・適用期間 |
 
 `/health` 以外はサービスキーが必要です。仕様は [OpenAPI](docs/openapi.json) にあります。入力に未定義のプロパティがある場合は拒否します。
 

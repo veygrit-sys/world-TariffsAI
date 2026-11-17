@@ -15,6 +15,11 @@ import {
   todayJst,
   ask,
   classify,
+  proposeClassification,
+  assignClassification,
+  assignClassificationBatch,
+  loadClassificationCatalog,
+  loadClassificationEvents,
   loadDataset,
   loadOperationalTariffCatalog,
 } from "./index.ts";
@@ -46,6 +51,15 @@ try {
     if (!Number.isFinite(now.getTime()))
       throw new InputError([{ path: "/referenceTime", code: "INVALID_DATE_TIME" }]);
     result = reconcileImportSettlementLedger(JSON.parse(readFileSync(arg, "utf8")), now, data);
+  } else if (["classification-propose", "classification-assign", "classification-batch"].includes(command ?? "") && arg) {
+    const now = referenceTime ? new Date(referenceTime) : new Date();
+    if (!Number.isFinite(now.getTime()))
+      throw new InputError([{ path: "/referenceTime", code: "INVALID_DATE_TIME" }]);
+    const input = JSON.parse(readFileSync(arg, "utf8"));
+    const catalog = loadClassificationCatalog(process.env, data);
+    result = command === "classification-propose" ? proposeClassification(input, catalog, data, now)
+      : command === "classification-batch" ? assignClassificationBatch(input, catalog, loadClassificationEvents(process.env, now), data, now)
+      : assignClassification(input, catalog, loadClassificationEvents(process.env, now), data, now);
   } else if (command === "invoice-reconcile" && arg)
     result = reconcileInvoice(JSON.parse(readFileSync(arg, "utf8")));
   else if (command === "release-readiness")
@@ -80,7 +94,7 @@ try {
     );
   } else {
     process.stderr.write(
-      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | release-readiness\n',
+      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | classification-propose FILE [ISO_TIME] | classification-assign FILE [ISO_TIME] | classification-batch FILE [ISO_TIME] | release-readiness\n',
     );
     process.exitCode = 2;
   }

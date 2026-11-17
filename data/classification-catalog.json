@@ -1,0 +1,136 @@
+{
+  "version": "2026-11-18.classification-v1",
+  "sources": [
+    {
+      "id": "jp-ruling-cellulose-filter-2024",
+      "title": "日本税関：セルロースが主要な特性を与えるろ過材",
+      "url": "https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400968.htm",
+      "kind": "classification_ruling",
+      "countries": [
+        "JP"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2024-08-23",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開事例への参照と独自要約。原文や品目表全文を同梱しない。期間は候補検索用カタログの確認範囲であり、法的な有効期間を示さない。"
+    },
+    {
+      "id": "jp-ruling-mineral-filter-2024",
+      "title": "日本税関：鉱物性材料が主要な機能を担うろ過材",
+      "url": "https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400541.htm",
+      "kind": "classification_ruling",
+      "countries": [
+        "JP"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2024-05-22",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開事例への参照と独自要約。原文や品目表全文を同梱しない。期間は候補検索用カタログの確認範囲であり、法的な有効期間を示さない。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "jp-cellulose-filter-hs6",
+      "title": "セルロース主体のろ過材の事例候補",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "480540",
+      "keywords": [
+        "ろ過材",
+        "ろ過",
+        "濾過",
+        "filter",
+        "过滤",
+        "滤材"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "function",
+        "essential_material",
+        "composition",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "filter_medium"
+        ],
+        "function": [
+          "liquid_filtration"
+        ],
+        "essential_material": [
+          "cellulose"
+        ],
+        "form": [
+          "sheet"
+        ]
+      },
+      "questions": {
+        "product_type": "商品の種類を確認してください。ろ過材そのものですか、それとも完成したろ過機器ですか。",
+        "function": "どのような用途で使いますか。液体をろ過するためのものですか。",
+        "essential_material": "主にろ過機能を担う材料を確認してください。セルロースと鉱物性材料のどちらですか。",
+        "composition": "構成材料と、分かる場合は成分割合を仕様書で確認してください。",
+        "form": "輸入時の形状を確認してください。シート、リングなどのどの形状ですか。"
+      },
+      "sourceIds": [
+        "jp-ruling-cellulose-filter-2024"
+      ],
+      "rationale": "日本税関の公開事例を参照候補として提示する。主な機能を担う材料、成分、形状、製法と現物の適合を確認する必要がある。事例の類似だけでは国内税番や税率を確定しない。"
+    },
+    {
+      "id": "jp-mineral-filter-hs6",
+      "title": "鉱物性材料主体のろ過材の事例候補",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "681599",
+      "keywords": [
+        "ろ過材",
+        "ろ過",
+        "濾過",
+        "filter",
+        "过滤",
+        "滤材"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "function",
+        "essential_material",
+        "composition",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "filter_medium"
+        ],
+        "function": [
+          "liquid_filtration"
+        ],
+        "essential_material": [
+          "mineral"
+        ],
+        "form": [
+          "sheet",
+          "ring"
+        ]
+      },
+      "questions": {
+        "product_type": "商品の種類を確認してください。ろ過材そのものですか、それとも完成したろ過機器ですか。",
+        "function": "どのような用途で使いますか。液体をろ過するためのものですか。",
+        "essential_material": "主にろ過機能を担う材料を確認してください。セルロースと鉱物性材料のどちらですか。",
+        "composition": "構成材料と、分かる場合は成分割合を仕様書で確認してください。",
+        "form": "輸入時の形状を確認してください。シート、リングなどのどの形状ですか。"
+      },
+      "sourceIds": [
+        "jp-ruling-mineral-filter-2024"
+      ],
+      "rationale": "日本税関の公開事例を参照候補として提示する。主な機能を担う材料、成分、形状、製法と現物の適合を確認する必要がある。事例の類似だけでは国内税番や税率を確定しない。"
+    }
+  ]
+}

@@ -35,6 +35,12 @@ npm run check:public
 
 `npm run data:review` は再確認が必要な一次出典の一覧をJSONで出し、対象があれば終了コード2を返します。従来の `date`、`ruleSetVersion`、`primarySourcesDue`、`inheritedSourcesPendingRevalidation`、`action` は維持します。`primarySourcesDue` には当日と期限超過の両方が入り、`primarySourcesDueToday`、`primarySourcesExpired`、`primarySourcesUpcoming` で区別できます。現在有効な `data/rules.json` のルールについても同じ期限区分を出します。`validTo` は排他的境界なので、適用を終えたルールや未施行のルールは現在の期限警告に含めません。
 
+rc.25のレポートは `reportVersion: 2` です。従来の一次出典・ルールの項目と `scope` の値は互換用に維持し、分類出典の範囲を `classificationScope` で示します。`classificationSourcesDue`、`classificationSourcesDueToday`、`classificationSourcesExpired`、`classificationSourcesUpcoming` と `unobservedClassificationSources` を追加しました。分類出典の `dueOn` は、再確認期限 `reviewBy` と、カタログ適用範囲の終了日 `effectiveThrough` の早い方です。どちらも当日は期限当日、翌日から期限超過として扱います。カタログの適用範囲は法令自体の有効期限を示すものではありません。
+
+CLIは `data/classification-catalog.json` を読み、`VEYGRIT_CLASSIFICATION_CATALOG` が指定されている場合はその保護されたカタログを使います。分類出典の未来の確認日も要確認にします。分類出典を指定しない `createDataReviewReport` の呼び出しは、空配列と `classificationScope: not_supplied` を返し、従来の一次出典・ルールだけを判定します。
+
+通知処理は分類項目を含まない旧v1レポートも受け付けます。v2レポートで分類項目が欠けている場合や、分類警告を残してv1へ書き換えたレポートは拒否し、既存のIssueを解消しません。
+
 確認日が未来の一次出典または現在有効なルールは `unobservedSources`、`unobservedActiveRules` として要確認にします。7日以内の再確認予告のみなら `status: upcoming` と終了コード0、期限当日・期限超過・未来の確認日があれば `status: due` と終了コード2、対象がなければ `status: clear` と終了コード0です。再確認期限は本実装の運用方針で、法令がその日に失効するという意味ではありません。
 
 ```bash
@@ -53,7 +59,7 @@ npm run data:review -- --date 2026-11-18 --warn-days 7
 
 通知先はGitHub Issueです。担当者はリポジトリのIssuesを有効にし、該当Issueの購読またはWatch設定で受信方法を設定してください。メールやチャットへの独立した送信先設定は含みません。 [GitHub通知の設定](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
 
-監視範囲は、リポジトリ同梱の一次出典の再確認期限と現在有効な計算ルールです。原文の更新検知・法改正の自動収集・非公開の運用税表パックの監視はこのワークフローに含まれません。確認期限の自動延長やデータの自動承認は行わず、担当者が根拠と変更範囲を確認して通常のPRで更新します。
+監視範囲は、リポジトリ同梱の一次出典の再確認期限、現在有効な計算ルール、および読み込んだ分類カタログ出典の再確認・カタログ適用終了です。GitHub Actionsの既定実行はチェックアウトした同梱分類カタログを使います。非公開の運用カタログを監視する場合は、そのファイルを利用できる環境でCLIを実行してください。分類の承認・取消イベントの個別期限は、この通知レポートへ読み込みません。原文の更新検知・法改正の自動収集・非公開の運用税表パックの監視はこのワークフローに含まれません。確認期限の自動延長やデータの自動承認は行わず、担当者が根拠と変更範囲を確認して通常のPRで更新します。
 
 ## 既存の事前調査
 

@@ -4,6 +4,13 @@ import { spawnSync } from "node:child_process";
 const tests = [
   "tests/acquire-tariff-sources.test.ts",
   "tests/assistant.test.ts",
+  "tests/classification.test.ts",
+  "tests/classification-api.test.ts",
+  "tests/classification-approvals.test.ts",
+  "tests/classification-store.test.ts",
+  "tests/classification-review.test.ts",
+  "tests/classification-batch.test.ts",
+  "tests/classification-plan.test.ts",
   "tests/data.test.ts",
   "tests/data-review.test.ts",
   "tests/engine.test.ts",

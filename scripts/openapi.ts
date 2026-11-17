@@ -15,6 +15,10 @@ import { importSettlementDestinationsOutputSchema } from "../src/import-settleme
 import { importSettlementPlanInputSchema, importSettlementPlanOutputSchema } from "../src/import-settlement-plan.ts";
 import { importSettlementReconciliationInputSchema, importSettlementReconciliationOutputSchema } from "../src/import-settlement-reconciliation.ts";
 import { importSettlementLedgerInputSchema, importSettlementLedgerOutputSchema } from "../src/import-settlement-ledger.ts";
+import { classificationRequestSchema, classificationProposalSchema } from "../src/classification-types.ts";
+import { classificationAssignmentSchema } from "../src/classification-approvals.ts";
+import { classificationBatchInputSchema, classificationBatchOutputSchema } from "../src/classification-batch.ts";
+import { classificationSourceSchema } from "../src/classification-catalog.ts";
 import { PILOT_ROUTES } from "../src/trade-policy.ts";
 import { VERSION } from "../src/version.ts";
 import { tariffEvidenceBases } from "../src/tariff-evidence.ts";
@@ -834,10 +838,50 @@ const doc = {
       "Product attribute and restriction triage; does not assign HS",
       classifySchema,
     ),
+    "/v1/classification/propose": post(
+      "Suggest source-backed HS candidates and questions; does not confirm a classification",
+      { $ref: "#/components/schemas/ClassificationRequest" },
+      { $ref: "#/components/schemas/ClassificationProposal" },
+    ),
+    "/v1/classification/assign": post(
+      "Reuse a current server-reviewed classification for the exact merchant SKU and product revision",
+      { $ref: "#/components/schemas/ClassificationRequest" },
+      { $ref: "#/components/schemas/ClassificationAssignment" },
+    ),
+    "/v1/classification/batch": post(
+      "Classify a bounded single-merchant product batch with protected approval history",
+      { $ref: "#/components/schemas/ClassificationBatchInput" },
+      { $ref: "#/components/schemas/ClassificationBatch" },
+    ),
+    "/v1/classification/coverage": {
+      get: { summary: "Describe loaded classification catalog coverage without claiming universal classification",
+        responses: { 200: response("Loaded catalog scope", record({
+          catalogVersion: string, catalogDigest: string, sourceCount: { type: "integer" },
+          ruleCount: { type: "integer" }, nationalCodeRuleCount: { type: "integer" },
+          countries: array(string), directions: array(choice("import", "export", "both")), hsEditions: array(string),
+          assignmentRequiresRecordedReview: { const: true }, shippingAuthorized: { const: false }, productionAuthorized: { const: false },
+        })), ...errors } },
+    },
+    "/v1/classification/sources": {
+      get: { summary: "Resolve classification evidence IDs to scoped sources and review dates",
+        parameters: [
+          { name: "offset", in: "query", schema: { type: "integer", minimum: 0, maximum: 999999, default: 0 } },
+          { name: "limit", in: "query", schema: { type: "integer", minimum: 1, maximum: 100, default: 25 } },
+        ], responses: { 200: response("Classification evidence sources", record({
+          catalogVersion: string, catalogDigest: string,
+          sources: { type: "array", items: classificationSourceSchema },
+          total: { type: "integer", minimum: 0 }, nextOffset: { type: ["integer", "null"], minimum: 0 },
+        })), ...errors } },
+    },
   },
   components: {
     securitySchemes: { serviceBearer: { type: "http", scheme: "bearer" } },
     schemas: {
+      ClassificationRequest: classificationRequestSchema,
+      ClassificationProposal: classificationProposalSchema,
+      ClassificationAssignment: classificationAssignmentSchema,
+      ClassificationBatchInput: classificationBatchInputSchema,
+      ClassificationBatch: classificationBatchOutputSchema,
       WcoParticipant: {
         type: "object",
         required: ["memberId", "membershipStatus", "status", "lookupDestinations", "tariffReferences", "officialSources"],

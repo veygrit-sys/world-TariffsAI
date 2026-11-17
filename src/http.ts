@@ -19,6 +19,11 @@ import { ask, classify } from "./assistant.ts";
 import { InputError } from "./schema.ts";
 import { todayJst } from "./dataset.ts";
 import { loadTariffCatalog, type TariffCatalog } from "./tariffs.ts";
+import { ClassificationCatalog, loadClassificationCatalog } from "./classification-catalog.ts";
+import { proposeClassification } from "./classification.ts";
+import { assignClassification, parseClassificationEvents, type ClassificationEvent } from "./classification-approvals.ts";
+import { loadClassificationEvents } from "./classification-store.ts";
+import { assignClassificationBatch } from "./classification-batch.ts";
 
 const LIMIT = 65536;
 export class WindowRateLimiter {
@@ -107,6 +112,9 @@ export interface HandlerOptions {
   now?: () => Date;
   rateLimiter?: WindowRateLimiter;
   liveValidationRecords?: unknown;
+  classificationCatalog?: ClassificationCatalog;
+  /** Server-managed records; never populated from the HTTP request body. */
+  classificationEvents?: readonly ClassificationEvent[];
 }
 export function createHandler(options: HandlerOptions) {
   if (!options.apiKey && !options.allowUnauthenticatedLoopback)
@@ -115,6 +123,7 @@ export function createHandler(options: HandlerOptions) {
     throw new Error("API_KEY_TOO_SHORT");
   const limiter = options.rateLimiter ?? new WindowRateLimiter();
   const tariffs = options.tariffs ?? loadTariffCatalog(options.dataset);
+  const classificationCatalog = options.classificationCatalog ?? loadClassificationCatalog(process.env, options.dataset);
   return async (
     request: Request,
     context: { peer: string },
@@ -271,6 +280,50 @@ export function createHandler(options: HandlerOptions) {
       if (path === "/v1/import-settlement/ledger") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
         return reply(200, reconcileImportSettlementLedger(await body(request), now, options.dataset), id);
+      }
+      if (path === "/v1/classification/coverage") {
+        if (request.method !== "GET") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        if (url.searchParams.size) throw new InputError([{ path: "/query", code: "UNKNOWN_QUERY_PARAMETER" }]);
+        return reply(200, {
+          catalogVersion: classificationCatalog.version, catalogDigest: classificationCatalog.digest,
+          sourceCount: classificationCatalog.sources.length, ruleCount: classificationCatalog.rules.length,
+          nationalCodeRuleCount: classificationCatalog.rules.filter((rule) => rule.nationalCode !== undefined).length,
+          countries: [...new Set(classificationCatalog.rules.map((rule) => rule.country))].sort(),
+          directions: [...new Set(classificationCatalog.rules.map((rule) => rule.direction))].sort(),
+          hsEditions: [...new Set(classificationCatalog.rules.map((rule) => rule.hsEdition))].sort(),
+          assignmentRequiresRecordedReview: true, shippingAuthorized: false, productionAuthorized: false,
+        }, id);
+      }
+      if (path === "/v1/classification/sources") {
+        if (request.method !== "GET") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        for (const name of url.searchParams.keys())
+          if (!["offset", "limit"].includes(name) || url.searchParams.getAll(name).length !== 1)
+            throw new InputError([{ path: "/query", code: "INVALID_QUERY_PARAMETER" }]);
+        const offsetText = url.searchParams.get("offset") ?? "0";
+        const limitText = url.searchParams.get("limit") ?? "25";
+        if (!/^(0|[1-9]\d{0,5})$/.test(offsetText) || !/^[1-9]\d{0,2}$/.test(limitText) || Number(limitText) > 100)
+          throw new InputError([{ path: "/query", code: "INVALID_CLASSIFICATION_PAGINATION" }]);
+        const offset = Number(offsetText), limit = Number(limitText);
+        const sources = classificationCatalog.sources.slice(offset, offset + limit);
+        return reply(200, { catalogVersion: classificationCatalog.version, catalogDigest: classificationCatalog.digest,
+          sources, total: classificationCatalog.sources.length,
+          nextOffset: offset + sources.length < classificationCatalog.sources.length ? offset + sources.length : null }, id);
+      }
+      if (["/v1/classification/propose", "/v1/classification/assign", "/v1/classification/batch"].includes(path)) {
+        if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        const input = await body(request);
+        if (path.endsWith("/propose"))
+          return reply(200, proposeClassification(input, classificationCatalog, options.dataset, now), id);
+        // Re-read the protected registry so revocations apply on the next request.
+        let events: ClassificationEvent[];
+        try {
+          events = parseClassificationEvents(options.classificationEvents ?? loadClassificationEvents(process.env, now), now);
+        } catch {
+          throw new Error("CLASSIFICATION_CONFIGURATION_INVALID");
+        }
+        return reply(200, path.endsWith("/batch")
+          ? assignClassificationBatch(input, classificationCatalog, events, options.dataset, now)
+          : assignClassification(input, classificationCatalog, events, options.dataset, now), id);
       }
       if (path === "/v1/import-settlement/plan" || path === "/v1/import-settlement/reconcile") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");

@@ -1,5 +1,6 @@
 import { appendFileSync } from "node:fs";
 import { loadDataset } from "../src/dataset.ts";
+import { loadClassificationCatalog } from "../src/classification-catalog.ts";
 import { createDataReviewReport, reviewReportSummary } from "../src/data-review.ts";
 
 const args = process.argv.slice(2);
@@ -12,7 +13,9 @@ for (let index = 0; index < args.length; index += 2) {
   if (flag === "--date") options.date = value;
   else options.warningDays = /^\d+$/.test(value) ? Number(value) : NaN;
 }
-const report = createDataReviewReport(loadDataset(), options);
+const data = loadDataset();
+const catalog = loadClassificationCatalog(process.env, data);
+const report = createDataReviewReport(data, { ...options, classificationSources: catalog.sources });
 console.log(JSON.stringify(report, null, 2));
 if (process.env.GITHUB_STEP_SUMMARY)
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, reviewReportSummary(report));
