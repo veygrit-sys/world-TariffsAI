@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-vulcanised-rubber-pencil-eraser-hs6",
+    "revision": "1",
+    "description": "非発泡・加硫ゴム製の鉛筆用消しゴム / rubber eraser",
+    "attributes": {
+      "product_type": "pencil_eraser",
+      "material": "vulcanised_rubber",
+      "hard_rubber": "no",
+      "cellular_structure": "non_cellular",
+      "intended_use": "erase_pencil_marks",
+      "construction": "complete_eraser",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

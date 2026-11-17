@@ -1,0 +1,25 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-cotton-knitted-tshirt-hs6",
+    "revision": "1",
+    "description": "成人用・綿100％の半袖編物Tシャツ / T-shirt",
+    "attributes": {
+      "product_type": "t_shirt",
+      "material": "cotton_only",
+      "fabric_construction": "knitted",
+      "wearer": "adult",
+      "sleeves": "short",
+      "neckline": "round_without_collar_or_opening",
+      "lower_edge": "hemmed_without_tightening",
+      "condition": "new",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

@@ -57,7 +57,7 @@ export function parseClassificationRequest(input: unknown, data: Dataset = loadD
   return { product, context };
 }
 
-function scoped(
+export function classificationScopeMatches(
   country: string, direction: string, edition: string, context: ClassificationContext,
 ): boolean {
   return (country === "*" || country === context.country) &&
@@ -65,8 +65,8 @@ function scoped(
     normalizeIdentityText(edition) === context.hsEdition;
 }
 
-function sourceIssue(source: ClassificationSource, context: ClassificationContext, today: string): string | null {
-  if (!source.countries.some((country) => scoped(country, source.direction, source.hsEdition, context)))
+export function classificationSourceIssue(source: ClassificationSource, context: ClassificationContext, today: string): string | null {
+  if (!source.countries.some((country) => classificationScopeMatches(country, source.direction, source.hsEdition, context)))
     return "CLASSIFICATION_SOURCE_SCOPE_MISMATCH";
   if (source.checkedOn > today) return "CLASSIFICATION_SOURCE_NOT_OBSERVED";
   if (source.reviewBy < today || source.reviewBy < context.date) return "CLASSIFICATION_SOURCE_REVIEW_EXPIRED";
@@ -122,7 +122,7 @@ function rankRule(
   rule: ClassificationRule, request: ClassificationRequest, catalog: ClassificationCatalog,
   today: string, findings: Map<string, ClassificationProposal["findings"][number]>,
 ): RankedCandidate | null {
-  if (!scoped(rule.country, rule.direction, rule.hsEdition, request.context)) return null;
+  if (!classificationScopeMatches(rule.country, rule.direction, rule.hsEdition, request.context)) return null;
   const searchable = normalizeClassificationText([request.product.description, ...Object.values(request.product.attributes)].join(" "));
   const keywordCount = rule.keywords.filter((keyword) => keywordMatches(searchable, keyword)).length;
   if (!keywordCount) return null;
@@ -131,7 +131,7 @@ function rankRule(
   const sources = rule.sourceIds.map((id) => catalog.source(id)!);
   let invalid = false;
   for (const source of sources) {
-    const issue = sourceIssue(source, request.context, today);
+    const issue = classificationSourceIssue(source, request.context, today);
     if (issue) {
       findings.set(source.id + ":" + issue, { code: issue, sourceId: source.id });
       invalid = true;

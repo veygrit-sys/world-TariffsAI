@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ua-coffee-unroasted-not-decaf-hs6",
+    "revision": "1",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    }
+  },
+  "context": {
+    "country": "UA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

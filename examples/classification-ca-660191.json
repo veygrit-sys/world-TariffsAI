@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-telescopic-handheld-umbrella-hs6",
+    "revision": "1",
+    "description": "伸縮軸を持つ手持ち雨傘 / telescopic umbrella",
+    "attributes": {
+      "product_type": "rain_umbrella",
+      "intended_use": "handheld_rain_protection",
+      "shaft": "telescopic",
+      "garden_or_beach_umbrella": "no",
+      "construction": "complete_umbrella",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

@@ -24,6 +24,7 @@ import { proposeClassification } from "./classification.ts";
 import { assignClassification, parseClassificationEvents, type ClassificationEvent } from "./classification-approvals.ts";
 import { loadClassificationEvents } from "./classification-store.ts";
 import { assignClassificationBatch } from "./classification-batch.ts";
+import { classificationRollout } from "./classification-rollout.ts";
 
 const LIMIT = 65536;
 export class WindowRateLimiter {
@@ -280,6 +281,21 @@ export function createHandler(options: HandlerOptions) {
       if (path === "/v1/import-settlement/ledger") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
         return reply(200, reconcileImportSettlementLedger(await body(request), now, options.dataset), id);
+      }
+      if (path === "/v1/classification/rollout") {
+        if (request.method !== "GET") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        const query: Record<string, unknown> = Object.fromEntries(url.searchParams);
+        for (const name of url.searchParams.keys()) {
+          if (url.searchParams.getAll(name).length !== 1)
+            throw new InputError([{ path: "/" + name, code: "DUPLICATE_QUERY_PARAMETER" }]);
+          if (name === "offset" || name === "limit") {
+            const value = url.searchParams.get(name)!;
+            if (!/^(0|[1-9]\d{0,5})$/.test(value))
+              throw new InputError([{ path: "/" + name, code: "INVALID_CLASSIFICATION_PAGINATION" }]);
+            query[name] = Number(value);
+          }
+        }
+        return reply(200, classificationRollout(query, classificationCatalog, options.dataset, now), id);
       }
       if (path === "/v1/classification/coverage") {
         if (request.method !== "GET") throw new HttpError(405, "METHOD_NOT_ALLOWED");

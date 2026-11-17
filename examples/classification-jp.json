@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "jp-cellulose-filter-hs6",
+    "revision": "1",
+    "description": "液体ろ過用シート状ろ過材 filter medium",
+    "attributes": {
+      "product_type": "filter_medium",
+      "function": "liquid_filtration",
+      "essential_material": "cellulose",
+      "form": "sheet",
+      "composition": "reviewed cellulose and mineral constituents"
+    }
+  },
+  "context": {
+    "country": "JP",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

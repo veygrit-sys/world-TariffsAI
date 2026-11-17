@@ -6,6 +6,7 @@ const tests = [
   "tests/assistant.test.ts",
   "tests/classification.test.ts",
   "tests/classification-countries.test.ts",
+  "tests/classification-rollout.test.ts",
   "tests/classification-api.test.ts",
   "tests/classification-approvals.test.ts",
   "tests/classification-store.test.ts",

@@ -1,0 +1,24 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ax-eu-bone-china-plate-hs6",
+    "revision": "1",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    }
+  },
+  "context": {
+    "country": "AX",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

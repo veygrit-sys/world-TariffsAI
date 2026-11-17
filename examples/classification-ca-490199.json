@@ -1,0 +1,24 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-printed-bound-novel-hs6",
+    "revision": "1",
+    "description": "文字を主とする紙の製本小説 / novel",
+    "attributes": {
+      "product_type": "printed_novel",
+      "medium": "paper",
+      "binding": "bound_volume",
+      "content": "text_dominant_fiction",
+      "reference_work": "not_dictionary_or_encyclopaedia",
+      "advertising": "not_advertising_publication",
+      "publication_type": "non_periodical",
+      "presentation": "single_book"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}
