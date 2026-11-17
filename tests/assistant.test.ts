@@ -102,6 +102,61 @@ test("expired primary evidence is labelled, never submitted for model selection"
   assert.equal(called, false);
   assert.ok(a.evidence.every((e) => e.expired));
 });
+test("evidence becomes available at the start of its confirmation day in Japan", async () => {
+  for (const [timestamp, expired] of [
+    ["2026-11-10T14:59:59Z", true],
+    ["2026-11-10T15:00:00Z", false],
+  ] as const) {
+    let called = false;
+    const a = await ask(
+      { question: "UK VAT", destinationCountry: "GB", importDate: "2026-11-11" },
+      data,
+      {
+        select: async ({ evidence }) => {
+          called = true;
+          return evidence.map(({ id }) => id);
+        },
+      },
+      new Date(timestamp),
+    );
+    assert.equal(called, !expired, timestamp);
+    assert.equal(a.evidence.find(({ id }) => id === "gb-low-value")?.expired, expired);
+    assert.equal(a.engine, expired ? "local_retrieval" : "ollama_evidence_selection");
+  }
+});
+test("one unconfirmed source keeps its card out of model selection while other evidence remains available", async () => {
+  const future = structuredClone(data);
+  future.sources.find(({ id }) => id === "primary-gb-duty")!.checkedOn = "2026-11-12";
+  const request = { question: "UK VAT", destinationCountry: "GB" };
+  const local = await ask(request, future, undefined, now);
+  assert.equal(local.evidence.find(({ id }) => id === "gb-low-value")?.expired, true);
+  let selected: string[] = [];
+  const a = await ask(
+    request,
+    future,
+    {
+      select: async ({ evidence }) => {
+        selected = evidence.map(({ id }) => id);
+        return selected;
+      },
+    },
+    now,
+  );
+  assert.ok(selected.length > 0);
+  assert.ok(!selected.includes("gb-low-value"));
+  assert.equal(a.engine, "ollama_evidence_selection");
+  assert.ok(a.evidence.every(({ expired }) => !expired));
+});
+test("already confirmed evidence remains available for an earlier applicable import date", async () => {
+  const a = await ask(
+    { question: "UK VAT", destinationCountry: "GB", importDate: "2026-11-10" },
+    data,
+    { select: async () => ["gb-low-value"] },
+    now,
+  );
+  assert.equal(a.engine, "ollama_evidence_selection");
+  assert.equal(a.evidence[0]?.expired, false);
+});
 test("raw question, address and prompt injection text never enter the model request", async () => {
   let payload = "";
   const fakeFetch: typeof fetch = async (_url, init) => {

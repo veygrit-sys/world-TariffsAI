@@ -447,6 +447,7 @@ interface RegisteredSnapshot {
 }
 
 export class TariffCatalog {
+  #manifestSha256: string[] = [];
   #snapshots: RegisteredSnapshot[];
   #countries: Map<string, { code: string; nameJa: string; inScope: boolean }>;
   #cache = new Map<string, IndexedPack>();
@@ -479,7 +480,9 @@ export class TariffCatalog {
       throw new Error("UPDATE_REVIEW_MANIFEST_MISMATCH");
     for (const [index, directory] of directories.entries()) {
       const manifest = readFileSync(new URL("manifest.json", directory));
-      if (approval && createHash("sha256").update(manifest).digest("hex") !== approval.manifestSha256[index])
+      const manifestHash = createHash("sha256").update(manifest).digest("hex");
+      this.#manifestSha256.push(manifestHash);
+      if (approval && manifestHash !== approval.manifestSha256[index])
         throw new Error("UPDATE_REVIEW_MANIFEST_MISMATCH");
       const document: unknown = JSON.parse(manifest.toString("utf8"));
       if (!validateManifest(document))
@@ -509,6 +512,10 @@ export class TariffCatalog {
         b.metadata.checkedOn.localeCompare(a.metadata.checkedOn) ||
         a.metadata.id.localeCompare(b.metadata.id),
     );
+  }
+
+  manifestSha256(): string[] {
+    return [...this.#manifestSha256];
   }
 
   #read(snapshot: RegisteredSnapshot): IndexedPack {

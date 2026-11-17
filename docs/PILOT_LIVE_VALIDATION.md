@@ -1,6 +1,6 @@
 # 日中米6方向の実注文検証
 
-対象は日本（JP）、中国本土（CN）、米国（US）の双方向です。開始時点の実注文検証は0方向です。`GET /v1/release-readiness` の各方向にある `checkout`、`customsHandoff`、`invoiceReconciliation` は `pending_live_validation` です。運用担当が証跡と判定を方向ごとに記録します。
+対象は日本（JP）、中国本土（CN）、米国（US）の双方向です。運用者の記録がないとき、`GET /v1/release-readiness` の検証済み件数は0方向、各段階は `pending_live_validation` です。実際の申告・請求を確認した運用者が、その証跡への参照と判断を方向ごとに記録します。
 
 初回は、予定する提供範囲に入る一般品の通常輸入B2C注文で、発送・船積・到着と料金を追跡できる取引を選びます。輸送方式、申告方式、配送条件、品目、特恵申告の範囲は、実際に通関担当が確認した条件を検証記録に残します。
 
@@ -43,6 +43,50 @@
 | 4 | 担当者による方向単位のレビュー | 手順1〜3の結果、元の証拠、同じ入力での再現性を照合し、差額を費目ごとに説明します。未解決の差額、申告結果、追加費用、期限切れ、経路変更、住所利用許可の変更は保留または再見積もりにします。公開範囲は検証して承認した方向・輸送方式・申告条件に限定します。 |
 
 APIの構造とエラー処理は [OpenAPI](openapi.json) に記載しています。実注文の原本、承認記録、差額の対応は運用側が保存します。現行APIの `productionAuthorized`、`checkoutReady`、`shippingAuthorized` は `false` を返します。
+
+## 運用者が確認した記録の設定
+
+rc.23では、運用者が管理するJSONファイルへの絶対パスを `VEYGRIT_LIVE_VALIDATION_FILE` に設定できます。サーバーとNext.js連携例は起動時に読み込み、`release-readiness` CLIは実行時に読み込みます。更新したファイルをサーバーへ反映するときは再起動します。
+
+記録は最大6方向、方向ごとに同じ注文1件へ結び付けます。`datasetVersion` は現在の `/v1/release-readiness` 応答で確認します。`tariffManifestSha256` は使用した税表構成のマニフェストハッシュを読込順に記録します。実際の注文を確認してから、完了した段階に `status: "validated"`、証拠の内部参照、確認担当者の内部参照、確認日を記録します。未確認の段階は省略します。
+
+次のJSONは合成例です。実際の設定では自社の不透明な参照IDへ置き換えます。参照は英字開始・16〜100字の英数字と `_ . : -` に対応します。氏名、住所、電話番号、証拠原本はアクセス制御された既存システムに保存します。
+
+```json
+[
+  {
+    "route": "JP-US",
+    "orderId": "synthetic-order-reference-0001",
+    "datasetVersion": "2026-11-18.v11",
+    "tariffManifestSha256": ["aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"],
+    "checkout": {
+      "status": "validated",
+      "evidenceId": "synthetic-checkout-reference-0001",
+      "reviewerRef": "synthetic-reviewer-reference-0001",
+      "reviewedOn": "2026-11-18"
+    }
+  }
+]
+```
+
+上記のハッシュは合成値です。稼働構成の実際の値は、署名付き税表の読込設定を使って次のコマンドで取得できます。
+
+```bash
+node --input-type=module -e 'import {loadDataset, loadOperationalTariffCatalog} from "./dist/index.js"; console.log(JSON.stringify(loadOperationalTariffCatalog(loadDataset()).manifestSha256()));'
+```
+
+購入画面は `checkout`、通関引き継ぎは `customsHandoff`、請求照合は `invoiceReconciliation` に同じ形で記録します。3段階がそろい、現在のデータ版と順序付き税表構成に対応する方向を `productionVerifiedRouteCount` に集計します。この件数は運用者がレビューしたサンプル注文のある方向数です。運用上の提供範囲は、実際に確認した品目・輸送方式・申告条件の記録で管理します。
+
+未来の確認日、同じ方向の重複、未定義の項目、不正な日付、証拠項目の不足はエラーになります。古いデータ版、税表の差し替えや読込順の変更に対応する記録は、再確認するまで検証待ちとして表示します。API応答は段階の状態と件数を返します。注文・証拠・確認担当者の内部参照は運用者の管理下に保持します。
+
+SDKから直接呼ぶ場合は、`releaseReadiness(data, now, records, tariffs.manifestSha256())` の4引数で使用します。税表構成を省略した呼出しは検証待ちになります。
+
+このファイルは運用者の申告記録として扱います。証拠の真正性、通関当局の受理、費用の確定は担当者が照合します。`productionAuthorized` は `false` を返します。
+
+```bash
+export VEYGRIT_LIVE_VALIDATION_FILE=/secure/veygrit/live-validation.json
+npm run cli -- release-readiness
+```
 
 ## 同梱サンプルの再現
 

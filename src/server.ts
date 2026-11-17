@@ -3,6 +3,7 @@ import { createHandler } from "./http.ts";
 import { loadOperationalTariffCatalog } from "./tariffs.ts";
 import { loadDataset } from "./dataset.ts";
 import { OllamaEvidenceSelector } from "./ollama.ts";
+import { loadLiveValidationRecords } from "./live-validation.ts";
 
 const host = process.env.HOST ?? "127.0.0.1",
   port = Number(process.env.PORT ?? 3008);
@@ -25,6 +26,7 @@ const dataset = loadDataset();
 const handle = createHandler({
   dataset,
   tariffs: loadOperationalTariffCatalog(dataset),
+  liveValidationRecords: loadLiveValidationRecords(),
   apiKey: process.env.VEYGRIT_CUSTOMS_API_KEY ?? "",
   allowUnauthenticatedLoopback: dev,
   ...(selector ? { selector } : {}),

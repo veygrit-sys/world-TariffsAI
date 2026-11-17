@@ -53,12 +53,13 @@ function evidence(
   importDate: string,
   now: Date,
 ): Evidence {
+  const reviewedOn = todayJst(now);
   const expired =
     (card.validFrom !== null && importDate < card.validFrom) ||
     (card.validTo !== null && importDate >= card.validTo) ||
     card.sourceIds.some((id) => {
       const s = data.sources.find((x) => x.id === id);
-      return !s || todayJst(now) > s.reviewBy || importDate > s.reviewBy;
+      return !s || s.checkedOn > reviewedOn || reviewedOn > s.reviewBy || importDate > s.reviewBy;
     });
   return {
     id: card.id,

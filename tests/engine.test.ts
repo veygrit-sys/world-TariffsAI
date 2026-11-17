@@ -153,7 +153,7 @@ test("EU missing product identifiers is a separate review checkpoint", () => {
   delete s.items[0]!.productIdentifier;
   assert.ok(has(assess(s, data, euEvidenceReviewedAt), "EU_PRODUCT_ID_REQUIRED"));
 });
-for (const date of ["2026-06-30", "2026-11-19", "2028-07-01"])
+for (const date of ["2026-06-30", "2026-11-26", "2028-07-01"])
   test("EU no active, current rule on " + date, () => {
     const r = run({
       destinationCountry: "DE",
@@ -168,7 +168,7 @@ test("review staleness cannot be bypassed by backdating import date", () => {
   const r = assess(
     shipment({ destinationCountry: "DE", currency: "EUR", regime: "ioss" }),
     data,
-    new Date("2026-11-19T00:00:00Z"),
+    new Date("2026-11-26T00:00:00Z"),
   );
   assert.equal(r.charges.length, 0);
   assert.ok(has(r, "RULE_NOT_CURRENT"));

@@ -218,7 +218,11 @@ test("operational loader rejects unsigned overlays and altered approved manifest
   const dataset = loadDataset();
   const now = new Date(observed + "T00:00:00Z");
   assert.throws(() => loadOperationalTariffCatalog(dataset, { VEYGRIT_TARIFF_DIR: proposed }, now), /UPDATE_REVIEW_REQUIRED/);
-  assert.ok(loadOperationalTariffCatalog(dataset, {}, now).coverage().snapshots.length);
+  const bundledSnapshots: { role?: string }[] = JSON.parse(
+    readFileSync(new URL("../data/tariffs/manifest.json", import.meta.url), "utf8"),
+  ).snapshots;
+  assert.equal(loadOperationalTariffCatalog(dataset, {}, now).coverage().snapshots.length,
+    bundledSnapshots.filter(({ role }) => !role).length);
   writeReview(observed, [manifest], { manifestSha256: [actualBundledDigest, manifest] });
   const env = { VEYGRIT_TARIFF_DIR: proposed, VEYGRIT_TARIFF_APPROVAL: review, VEYGRIT_TARIFF_TRUSTED_KEYS: trustedKeys };
   const catalog = loadOperationalTariffCatalog(dataset, env, new Date(updateDate + "T00:00:00Z"));
