@@ -75,3 +75,52 @@ test("review CLI keeps JSON and due exit 2, rejects misspelled arguments", () =>
   assert.notEqual(invalid.status, 0);
   assert.equal(invalid.stdout, "");
 });
+
+const classificationSource = (id: string, reviewBy: string, effectiveThrough = reviewBy, checkedOn = "2026-11-10") => ({
+  id, title: id, url: "https://example.test/" + id, kind: "classification_ruling" as const,
+  countries: ["JP"], direction: "import" as const, hsEdition: "HS2022", checkedOn, reviewBy,
+  effectiveFrom: "2026-11-01", effectiveThrough, terms: "Synthetic classification evidence",
+});
+
+test("classification sources monitor the earlier review or catalog end, including future confirmation", () => {
+  const report = createDataReviewReport(fixture(), { date: "2026-11-18", classificationSources: [
+    classificationSource("review-due", "2026-11-18", "2026-12-01"),
+    classificationSource("catalog-ended", "2026-12-01", "2026-11-17"),
+    classificationSource("upcoming-edge", "2026-12-01", "2026-11-25"),
+    classificationSource("too-far", "2026-12-01", "2026-11-26"),
+    classificationSource("future", "2026-12-01", "2026-12-01", "2026-11-19"),
+  ] });
+  assert.equal(report.reportVersion, 2);
+  assert.equal(report.classificationScope, "loaded_classification_catalog_sources");
+  assert.equal(report.status, "due");
+  assert.deepEqual(report.classificationSourcesDue.map(row => row.id), ["catalog-ended", "review-due"]);
+  assert.deepEqual(report.classificationSourcesDueToday.map(row => row.id), ["review-due"]);
+  assert.deepEqual(report.classificationSourcesExpired.map(row => row.id), ["catalog-ended"]);
+  assert.deepEqual(report.classificationSourcesUpcoming.map(row => row.id), ["upcoming-edge"]);
+  assert.equal(report.classificationSourcesExpired[0]?.dueOn, "2026-11-17");
+  assert.deepEqual(report.unobservedClassificationSources.map(row => row.id), ["future"]);
+  assert.match(reviewReportSummary(report), /Classification sources \| 1 \| 1 \| 1 \| 1/);
+});
+
+test("classification monitoring is optional and uses the same JST and warning boundaries", () => {
+  const sources = [classificationSource("classification", "2026-11-18")];
+  const previousDay = createDataReviewReport(fixture(), { classificationSources: sources, now: new Date("2026-11-17T14:59:59Z") });
+  const deadlineDay = createDataReviewReport(fixture(), { classificationSources: sources, now: new Date("2026-11-17T15:00:00Z") });
+  assert.equal(previousDay.status, "upcoming");
+  assert.equal(deadlineDay.status, "due");
+  assert.equal(createDataReviewReport(fixture(), { classificationSources: sources, date: "2026-11-17", warningDays: 0 }).status, "clear");
+  const absent = createDataReviewReport(fixture(), { date: "2026-11-18" });
+  assert.equal(absent.status, "clear");
+  assert.equal(absent.classificationScope, "not_supplied");
+  assert.deepEqual(absent.classificationSourcesDue, []);
+});
+
+test("review CLI cannot emit a clear report when a configured classification catalog is unavailable", () => {
+  const missing = new URL("./fixtures/not-present-classification-catalog.json", import.meta.url);
+  const result = spawnSync(process.execPath, ["scripts/review.ts", "--date", "2026-11-18"], {
+    cwd: new URL("../", import.meta.url), encoding: "utf8",
+    env: { ...process.env, VEYGRIT_CLASSIFICATION_CATALOG: missing.pathname },
+  });
+  assert.notEqual(result.status, 0);
+  assert.equal(result.stdout, "");
+});

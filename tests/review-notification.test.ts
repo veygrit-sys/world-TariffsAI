@@ -84,3 +84,58 @@ test("ambiguous duplicate tracking issues fail rather than updating unrelated re
   api.issues.push({ ...api.issues[0]!, number: 42 });
   await assert.rejects(updateReviewIssue(report(), api.options), /MULTIPLE_DATA_REVIEW_TRACKING_ISSUES/);
 });
+
+function classificationReport(date = "2026-11-18") {
+  return createDataReviewReport({ ...data, sources: [], rules: [] }, { date, classificationSources: [{
+    id: "classification-source", title: "Classification source", url: "https://example.test/classification",
+    kind: "classification_ruling", countries: ["JP"], direction: "import", hsEdition: "HS2022",
+    checkedOn: "2026-11-01", reviewBy: "2026-12-01", effectiveFrom: "2026-11-01",
+    effectiveThrough: "2026-11-20", terms: "Synthetic source",
+  }] });
+}
+
+test("classification warnings create and retain an alert until catalog problems are resolved", async () => {
+  const api = github();
+  const upcoming = classificationReport();
+  assert.equal(upcoming.status, "upcoming");
+  await updateReviewIssue(upcoming, api.options);
+  assert.match(api.issues[0]!.body, /Upcoming classification sources/);
+  assert.match(api.issues[0]!.body, /catalog end 2026-11-20/);
+  await updateReviewIssue(classificationReport("2026-11-20"), api.options);
+  assert.match(api.issues[0]!.body, /Classification sources due today/);
+  assert.equal(api.comments.length, 1);
+  const invalid = { ...classificationReport("2026-11-20"), classificationSourcesDue: [] };
+  await assert.rejects(updateReviewIssue(invalid, api.options), /DATA_REVIEW_REPORT/);
+  assert.equal(api.issues[0]!.state, "open");
+  const resolved = createDataReviewReport({ ...data, sources: [], rules: [] }, { date: "2026-11-20", classificationSources: [] });
+  assert.equal((await updateReviewIssue(resolved, api.options)).action, "closed");
+});
+
+test("v2 classification fields cannot be omitted or downgraded; unextended v1 reports remain accepted", () => {
+  const current = classificationReport();
+  const missing: Record<string, unknown> = { ...current };
+  delete missing.classificationSourcesUpcoming;
+  assert.throws(() => parseNotificationReport(missing), /DATA_REVIEW_REPORT/);
+  assert.throws(() => parseNotificationReport({ ...current, reportVersion: 1 }), /DATA_REVIEW_REPORT/);
+  const legacy: Record<string, unknown> = { ...report(), reportVersion: 1 };
+  for (const key of ["classificationSourcesDue", "classificationSourcesDueToday", "classificationSourcesExpired", "classificationSourcesUpcoming", "unobservedClassificationSources", "classificationScope"])
+    delete legacy[key];
+  const parsed = parseNotificationReport(legacy);
+  assert.equal(parsed.reportVersion, 2);
+  assert.equal(parsed.classificationScope, "not_supplied");
+  assert.deepEqual(parsed.classificationSourcesDue, []);
+  assert.equal(parseNotificationReport(parsed).status, parsed.status);
+  assert.equal(legacy.reportVersion, 1, "legacy input is not mutated");
+});
+
+test("classification deadline metadata and partition membership must agree", () => {
+  const current = classificationReport();
+  for (const patch of [
+    { dueOn: "2026-11-21" }, { effectiveThrough: "bad" }, { dueOn: "2026-11-20", reviewBy: "2026-11-19" },
+  ]) {
+    const invalid = { ...current, classificationSourcesUpcoming: [{ ...current.classificationSourcesUpcoming[0]!, ...patch }] };
+    assert.throws(() => parseNotificationReport(invalid), /DATA_REVIEW_REPORT/);
+  }
+  const wrongPartition = { ...current, classificationSourcesDueToday: current.classificationSourcesUpcoming };
+  assert.throws(() => parseNotificationReport(wrongPartition), /DATA_REVIEW_REPORT/);
+});

@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "merchantId": "example-merchant",
+      "sku": "filter-sheet-001",
+      "revision": "1",
+      "description": "液体用のシート状ろ過材",
+      "attributes": {
+        "product_type": "filter_medium",
+        "function": "liquid_filtration"
+      }
+    }
+  ],
+  "context": {
+    "country": "JP",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}
