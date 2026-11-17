@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "us-stainless-vacuum-flask-hs6",
+    "revision": "1",
+    "description": "Stainless steel vacuum flask for beverages / ステンレス製真空保温ボトル",
+    "attributes": {
+      "product_type": "vacuum_flask",
+      "material": "stainless_steel",
+      "insulation": "vacuum_double_wall",
+      "construction": "complete_vessel",
+      "intended_use": "beverage_storage",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "US",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

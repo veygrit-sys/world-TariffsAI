@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18.classification-v1",
+  "version": "2026-11-18.classification-v2",
   "sources": [
     {
       "id": "jp-ruling-cellulose-filter-2024",
@@ -32,6 +32,250 @@
       "effectiveFrom": "2024-05-22",
       "effectiveThrough": "2026-12-18",
       "terms": "公式公開事例への参照と独自要約。原文や品目表全文を同梱しない。期間は候補検索用カタログの確認範囲であり、法的な有効期間を示さない。"
+    },
+    {
+      "id": "us-usitc-vacuum-vessels-hs6-2026",
+      "title": "USITC：真空保温容器のHS6参照",
+      "url": "https://hts.usitc.gov/search?query=961700",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "US"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式品目表への参照と独自要約。全文や税率を同梱しない。期間はHS6候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間を示さない。国内細分と税額には別途確認を要する。"
+    },
+    {
+      "id": "us-usitc-nonporcelain-tableware-hs6-2026",
+      "title": "USITC：磁器以外の陶磁製食卓用品のHS6参照",
+      "url": "https://hts.usitc.gov/search?query=6912.00",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "US"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式品目表への参照と独自要約。全文や税率を同梱しない。期間はHS6候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間を示さない。国内細分と税額には別途確認を要する。"
+    },
+    {
+      "id": "ca-cbsa-ceramic-products-hs6-2026",
+      "title": "CBSA：2026年カナダ品目表第69類のHS6参照",
+      "url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/html/02/ch69-eng.html",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "CA"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式品目表への参照と独自要約。全文や税率を同梱しない。期間はHS6候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間を示さない。国内細分と税額には別途確認を要する。"
+    },
+    {
+      "id": "cn-gacc-2025-259-official-reprint",
+      "title": "中国海関総署2025年第259号・分類決定（香港政府の公式再掲）",
+      "url": "https://www.tid.gov.hk/en/tradecircular/files/2026/ci512026a.pdf",
+      "kind": "classification_ruling",
+      "countries": [
+        "CN"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "中国海関総署の公開分類決定を香港政府の公式再掲で照合し独自要約。GACC原文は接続できなかったため再掲を参照する。期間は候補検索の運用確認範囲であり、法的有効期間や実物への適用を示さない。"
+    },
+    {
+      "id": "sg-customs-product-guide-2022",
+      "title": "Singapore Customs Product Guide v4.0（2022年6月・HS2022）",
+      "url": "https://go.gov.sg/productguide",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "SG"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "Singapore Customsの現行案内から参照される公開ガイドへの参照と独自要約。原文全文・画像を同梱しない。期間は候補検索の運用確認範囲であり、輸入許可・税負担・法的有効期間を示さない。"
+    },
+    {
+      "id": "au-hs2022-coffee",
+      "title": "豪州ABF：コーヒーのHS6参照候補",
+      "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-ii/chapter-9",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "AU"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開品目表への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲は候補検索用の内部確認期間であり法令の有効期間を示さない。"
+    },
+    {
+      "id": "nz-hs2022-coffee-20261020",
+      "title": "NZ税関：2026年10月20日版コーヒーのHS6参照候補",
+      "url": "https://www.customs.govt.nz/media/cfch3obt/section-ii-effective-20-october-2026.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "NZ"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開品目表への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲は候補検索用の内部確認期間であり法令の有効期間を示さない。"
+    },
+    {
+      "id": "eu-reg-2023-1420-bone-china-plate",
+      "title": "EU規則2023/1420：実用性のあるボーンチャイナ製装飾皿",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2023/1420/oj/eng",
+      "kind": "classification_ruling",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
+    },
+    {
+      "id": "eu-reg-2024-3133-beanbag-shell",
+      "title": "EU規則2024/3133：未充填の大型クッション用シェル",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/3133/oj/eng",
+      "kind": "classification_ruling",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
+    },
+    {
+      "id": "gb-hmrc-ceramics-guidance-2026",
+      "title": "HMRC陶磁器分類ガイド：セラミック製グラインダー部を持つ塩挽き",
+      "url": "https://www.gov.uk/guidance/classifying-ceramics",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "GB"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
+    },
+    {
+      "id": "gb-hmrc-coffee-roasted-api-2026",
+      "title": "HMRC Trade Tariff API：焙煎済み・非脱カフェインのコーヒー",
+      "url": "https://www.trade-tariff.service.gov.uk/api/v2/commodities/0901210000",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "GB"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
+    },
+    {
+      "id": "gb-hs2022-nomenclature-annex-2025",
+      "title": "英国政府公開資料：HS2022のコーヒー品目対応",
+      "url": "https://assets.publishing.service.gov.uk/media/687e5e378adf4250705c96db/uk_india_ceta_annex3a_product_specific_rules_of_origin.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "GB"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
     }
   ],
   "rules": [
@@ -131,6 +375,4613 @@
         "jp-ruling-mineral-filter-2024"
       ],
       "rationale": "日本税関の公開事例を参照候補として提示する。主な機能を担う材料、成分、形状、製法と現物の適合を確認する必要がある。事例の類似だけでは国内税番や税率を確定しない。"
+    },
+    {
+      "id": "us-stainless-vacuum-flask-hs6",
+      "title": "米国：ステンレス製真空保温飲料容器の候補",
+      "country": "US",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "961700",
+      "keywords": [
+        "vacuum flask",
+        "vacuum bottle",
+        "vacuum vessel",
+        "真空ボトル",
+        "真空保温",
+        "保温瓶",
+        "真空保温瓶"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "insulation",
+        "construction",
+        "intended_use",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "vacuum_flask"
+        ],
+        "material": [
+          "stainless_steel"
+        ],
+        "insulation": [
+          "vacuum_double_wall"
+        ],
+        "construction": [
+          "complete_vessel"
+        ],
+        "intended_use": [
+          "beverage_storage"
+        ],
+        "presentation": [
+          "single_article"
+        ]
+      },
+      "questions": {
+        "product_type": "真空保温容器そのものですか。容器の部品や別の器具ではありませんか。",
+        "material": "本体と内側の材質を仕様書で確認してください。",
+        "insulation": "二重壁の間が真空であると確認できていますか。発泡材を入れただけの保温容器ではありませんか。",
+        "construction": "完成した容器ですか、それとも内筒等の部品ですか。",
+        "intended_use": "飲料を保存・保温する用途の容器ですか。",
+        "presentation": "単独の容器ですか。別の商品を含むセットではありませんか。"
+      },
+      "sourceIds": [
+        "us-usitc-vacuum-vessels-hs6-2026"
+      ],
+      "rationale": "米国公式品目表の真空容器の区分から、完成した真空保温飲料容器をHS6の参照候補として絞る。真空構造、材質、完成品と部品の別、実物の用途を確認し、国内細分や税率は別途照合する。"
+    },
+    {
+      "id": "us-stoneware-drinking-cup-hs6",
+      "title": "米国：せっ器（磁器以外）製飲料カップの候補",
+      "country": "US",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691200",
+      "keywords": [
+        "cup",
+        "mug",
+        "drinking cup",
+        "カップ",
+        "マグ",
+        "コップ",
+        "杯",
+        "马克杯"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "manufacturing_process",
+        "intended_use",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "drinking_cup"
+        ],
+        "material": [
+          "stoneware"
+        ],
+        "manufacturing_process": [
+          "fired_after_shaping"
+        ],
+        "intended_use": [
+          "household_tableware"
+        ],
+        "presentation": [
+          "single_article"
+        ]
+      },
+      "questions": {
+        "product_type": "飲料を入れる食卓用カップですか。装飾専用、工業用、包装用の容器ではありませんか。",
+        "material": "材質は磁器か、それ以外のせっ器等かを仕様書で確認してください。",
+        "manufacturing_process": "成形した後に焼成された陶磁器であることを確認してください。",
+        "intended_use": "家庭の食卓用として飲料に使用する商品ですか。",
+        "presentation": "単品のカップですか。異なる商品とのセットではありませんか。"
+      },
+      "sourceIds": [
+        "us-usitc-nonporcelain-tableware-hs6-2026"
+      ],
+      "rationale": "対象国の公式品目表の食卓用陶磁器の区分を参照し、成形後に焼成したカップを材質と用途で絞る。磁器とその他の陶磁器、装飾専用や工業用との違いを確認する。HS6候補だけを提示し、国内細分や税率は確定しない。"
+    },
+    {
+      "id": "ca-stoneware-drinking-cup-hs6",
+      "title": "カナダ：せっ器（磁器以外）製飲料カップの候補",
+      "country": "CA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691200",
+      "keywords": [
+        "cup",
+        "mug",
+        "drinking cup",
+        "カップ",
+        "マグ",
+        "コップ",
+        "杯",
+        "马克杯"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "manufacturing_process",
+        "intended_use",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "drinking_cup"
+        ],
+        "material": [
+          "stoneware"
+        ],
+        "manufacturing_process": [
+          "fired_after_shaping"
+        ],
+        "intended_use": [
+          "household_tableware"
+        ],
+        "presentation": [
+          "single_article"
+        ]
+      },
+      "questions": {
+        "product_type": "飲料を入れる食卓用カップですか。装飾専用、工業用、包装用の容器ではありませんか。",
+        "material": "材質は磁器か、それ以外のせっ器等かを仕様書で確認してください。",
+        "manufacturing_process": "成形した後に焼成された陶磁器であることを確認してください。",
+        "intended_use": "家庭の食卓用として飲料に使用する商品ですか。",
+        "presentation": "単品のカップですか。異なる商品とのセットではありませんか。"
+      },
+      "sourceIds": [
+        "ca-cbsa-ceramic-products-hs6-2026"
+      ],
+      "rationale": "対象国の公式品目表の食卓用陶磁器の区分を参照し、成形後に焼成したカップを材質と用途で絞る。磁器とその他の陶磁器、装飾専用や工業用との違いを確認する。HS6候補だけを提示し、国内細分や税率は確定しない。"
+    },
+    {
+      "id": "ca-porcelain-drinking-cup-hs6",
+      "title": "カナダ：磁器製飲料カップの候補",
+      "country": "CA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "cup",
+        "mug",
+        "drinking cup",
+        "カップ",
+        "マグ",
+        "コップ",
+        "杯",
+        "马克杯"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "manufacturing_process",
+        "intended_use",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "drinking_cup"
+        ],
+        "material": [
+          "porcelain"
+        ],
+        "manufacturing_process": [
+          "fired_after_shaping"
+        ],
+        "intended_use": [
+          "household_tableware"
+        ],
+        "presentation": [
+          "single_article"
+        ]
+      },
+      "questions": {
+        "product_type": "飲料を入れる食卓用カップですか。装飾専用、工業用、包装用の容器ではありませんか。",
+        "material": "材質は磁器か、それ以外のせっ器等かを仕様書で確認してください。",
+        "manufacturing_process": "成形した後に焼成された陶磁器であることを確認してください。",
+        "intended_use": "家庭の食卓用として飲料に使用する商品ですか。",
+        "presentation": "単品のカップですか。異なる商品とのセットではありませんか。"
+      },
+      "sourceIds": [
+        "ca-cbsa-ceramic-products-hs6-2026"
+      ],
+      "rationale": "対象国の公式品目表の食卓用陶磁器の区分を参照し、成形後に焼成したカップを材質と用途で絞る。磁器とその他の陶磁器、装飾専用や工業用との違いを確認する。HS6候補だけを提示し、国内細分や税率は確定しない。"
+    },
+    {
+      "id": "cn-single-side-glass-shower-hs6",
+      "title": "中国：片側取付型のガラス製シャワー間仕切りの事例",
+      "country": "CN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "702000",
+      "keywords": [
+        "glass shower enclosure",
+        "シャワー間仕切り",
+        "玻璃淋浴房"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "panels",
+        "frame",
+        "essential_character",
+        "includes_tray_roof_shower"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "shower_enclosure"
+        ],
+        "panels": [
+          "one_fixed_one_sliding_tempered_glass"
+        ],
+        "frame": [
+          "single_sided_aluminium"
+        ],
+        "essential_character": [
+          "glass"
+        ],
+        "includes_tray_roof_shower": [
+          "no"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はシャワー間仕切りですか。",
+        "panels": "固定・可動パネルの枚数と材質を確認してください。",
+        "frame": "壁側だけのアルミ取付部ですか、それとも全周金属フレームですか。",
+        "essential_character": "商品に主要な特性を与える部材を確認してください。",
+        "includes_tray_roof_shower": "底盤・天井・シャワー装置が付属しますか。"
+      },
+      "sourceIds": [
+        "cn-gacc-2025-259-official-reprint"
+      ],
+      "rationale": "GACC決定J2025-0003の限定的な比較候補。片側取付部を備えたガラス製間仕切りとしての構成を照合する。国内細分・税率・現品への適用は別途確認する。"
+    },
+    {
+      "id": "cn-full-metal-frame-shower-hs6",
+      "title": "中国：全周ステンレス枠のシャワー間仕切りの事例",
+      "country": "CN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "730830",
+      "keywords": [
+        "glass shower enclosure",
+        "シャワー間仕切り",
+        "玻璃淋浴房"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "panels",
+        "frame",
+        "essential_character",
+        "includes_tray_roof_shower"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "shower_enclosure"
+        ],
+        "panels": [
+          "two_fixed_flat_two_sliding_curved_tempered_glass"
+        ],
+        "frame": [
+          "full_stainless_steel"
+        ],
+        "essential_character": [
+          "metal_frame"
+        ],
+        "includes_tray_roof_shower": [
+          "no"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はシャワー間仕切りですか。",
+        "panels": "固定・可動パネルの枚数と形状を確認してください。",
+        "frame": "全周ステンレス枠と曲線状の軌道を備えますか。",
+        "essential_character": "商品に主要な特性を与える部材を確認してください。",
+        "includes_tray_roof_shower": "底盤・天井・シャワー装置が付属しますか。"
+      },
+      "sourceIds": [
+        "cn-gacc-2025-259-official-reprint"
+      ],
+      "rationale": "GACC決定J2025-0004の限定的な比較候補。全周金属枠が主要な特性を与える構成を照合する。国内細分・税率・現品への適用は別途確認する。"
+    },
+    {
+      "id": "cn-manual-infusion-stopcock-hs6",
+      "title": "中国：カテーテルを含まない手動輸液用三方弁の事例",
+      "country": "CN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "848180",
+      "keywords": [
+        "three way stopcock",
+        "輸液用三方弁",
+        "三方活栓",
+        "输液用三通"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "mechanism",
+        "ports",
+        "intended_use",
+        "hydraulic_transmission",
+        "supplied_with_catheter"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "three_way_stopcock"
+        ],
+        "mechanism": [
+          "manual_directional_valve"
+        ],
+        "ports": [
+          "3"
+        ],
+        "intended_use": [
+          "infusion_liquid_line"
+        ],
+        "hydraulic_transmission": [
+          "no"
+        ],
+        "supplied_with_catheter": [
+          "no"
+        ]
+      },
+      "questions": {
+        "product_type": "商品は三方弁ですか。",
+        "mechanism": "切替機構は手動ですか。",
+        "ports": "接続口は何個ありますか。",
+        "intended_use": "輸液などの液体配管用ですか。",
+        "hydraulic_transmission": "油圧伝動装置に使うものですか。",
+        "supplied_with_catheter": "医療用カテーテルと一体またはセットですか。"
+      },
+      "sourceIds": [
+        "cn-gacc-2025-259-official-reprint"
+      ],
+      "rationale": "GACC決定Z2025-0006の限定的な比較候補。手動切替・用途・カテーテルを含まない状態を確認する。医療品の許認可と国内細分は別途確認する。"
+    },
+    {
+      "id": "sg-malt-beer-hs6",
+      "title": "シンガポール：麦芽発酵ビールの案内候補",
+      "country": "SG",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "220300",
+      "keywords": [
+        "beer",
+        "ビール",
+        "啤酒"
+      ],
+      "requiredAttributes": [
+        "beverage_kind",
+        "base_material",
+        "production_method",
+        "intended_use",
+        "alcohol_status"
+      ],
+      "attributeConditions": {
+        "beverage_kind": [
+          "beer"
+        ],
+        "base_material": [
+          "malted_cereals"
+        ],
+        "production_method": [
+          "fermentation"
+        ],
+        "intended_use": [
+          "beverage"
+        ],
+        "alcohol_status": [
+          "alcoholic"
+        ]
+      },
+      "questions": {
+        "beverage_kind": "飲料の種類はビールですか。",
+        "base_material": "発酵の原料は麦芽穀類ですか。",
+        "production_method": "製造方法は発酵ですか。",
+        "intended_use": "飲用の製品ですか。",
+        "alcohol_status": "アルコールを含みますか。"
+      },
+      "sourceIds": [
+        "sg-customs-product-guide-2022"
+      ],
+      "rationale": "公式ガイドのビール案内からHS6を参照する。原料と製法を照合し、国内細分・酒類の取扱規制・税負担は別途確認する。"
+    },
+    {
+      "id": "sg-wine-distilled-brandy-hs6",
+      "title": "シンガポール：ワイン蒸留ブランデーの案内候補",
+      "country": "SG",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "220820",
+      "keywords": [
+        "brandy",
+        "ブランデー",
+        "白兰地"
+      ],
+      "requiredAttributes": [
+        "beverage_kind",
+        "base_material",
+        "production_method",
+        "intended_use",
+        "alcohol_status"
+      ],
+      "attributeConditions": {
+        "beverage_kind": [
+          "brandy"
+        ],
+        "base_material": [
+          "wine"
+        ],
+        "production_method": [
+          "distillation"
+        ],
+        "intended_use": [
+          "beverage"
+        ],
+        "alcohol_status": [
+          "alcoholic"
+        ]
+      },
+      "questions": {
+        "beverage_kind": "飲料の種類はブランデーですか。",
+        "base_material": "蒸留前の原料はワインですか。",
+        "production_method": "製造方法は蒸留ですか。",
+        "intended_use": "飲用の製品ですか。",
+        "alcohol_status": "アルコールを含みますか。"
+      },
+      "sourceIds": [
+        "sg-customs-product-guide-2022"
+      ],
+      "rationale": "公式ガイドのブランデー案内からHS6を参照する。原料と蒸留製法を照合し、国内細分・酒類の取扱規制・税負担は別途確認する。"
+    },
+    {
+      "id": "sg-fermented-apple-cider-hs6",
+      "title": "シンガポール：リンゴ果汁発酵シードルの案内候補",
+      "country": "SG",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "220600",
+      "keywords": [
+        "cider",
+        "シードル",
+        "苹果酒"
+      ],
+      "requiredAttributes": [
+        "beverage_kind",
+        "base_material",
+        "production_method",
+        "intended_use",
+        "alcohol_status"
+      ],
+      "attributeConditions": {
+        "beverage_kind": [
+          "cider"
+        ],
+        "base_material": [
+          "apple_juice"
+        ],
+        "production_method": [
+          "fermentation"
+        ],
+        "intended_use": [
+          "beverage"
+        ],
+        "alcohol_status": [
+          "alcoholic"
+        ]
+      },
+      "questions": {
+        "beverage_kind": "飲料の種類はシードルですか。清涼飲料のサイダーとは区別してください。",
+        "base_material": "発酵の原料はリンゴ果汁ですか。",
+        "production_method": "製造方法は発酵ですか。",
+        "intended_use": "飲用の製品ですか。",
+        "alcohol_status": "アルコールを含みますか。"
+      },
+      "sourceIds": [
+        "sg-customs-product-guide-2022"
+      ],
+      "rationale": "公式ガイドのシードル案内からHS6を参照する。原料と発酵製法を照合し、国内細分・酒類の取扱規制・税負担は別途確認する。"
+    },
+    {
+      "id": "au-coffee-roasted-not-decaf-hs6",
+      "title": "AU：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "AU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "au-hs2022-coffee"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "au-coffee-roasted-decaf-hs6",
+      "title": "AU：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "AU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "au-hs2022-coffee"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "au-coffee-unroasted-not-decaf-hs6",
+      "title": "AU：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "AU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "au-hs2022-coffee"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "nz-coffee-roasted-not-decaf-hs6",
+      "title": "NZ：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "NZ",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "nz-hs2022-coffee-20261020"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "nz-coffee-roasted-decaf-hs6",
+      "title": "NZ：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "NZ",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "nz-hs2022-coffee-20261020"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "nz-coffee-unroasted-not-decaf-hs6",
+      "title": "NZ：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "NZ",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "nz-hs2022-coffee-20261020"
+      ],
+      "rationale": "当該国の公式品目表のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。対象は他原料を加えない粒状の豆に限定した候補で、国内細分や税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "at-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "AT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "at-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "AT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "be-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "BE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "be-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "BE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "bg-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "BG",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "bg-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "BG",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "hr-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "HR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "hr-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "HR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "cy-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "CY",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "cy-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "CY",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "cz-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "CZ",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "cz-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "CZ",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "dk-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "DK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "dk-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "DK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ee-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "EE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ee-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "EE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "fi-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "FI",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "fi-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "FI",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "fr-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "FR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "fr-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "FR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "de-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "DE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "de-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "DE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "gr-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "GR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "gr-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "GR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "hu-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "HU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "hu-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "HU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ie-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "IE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ie-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "IE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "it-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "IT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "it-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "IT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lv-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "LV",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lv-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "LV",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lt-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "LT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lt-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "LT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lu-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "LU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "lu-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "LU",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "mt-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "MT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "mt-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "MT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "nl-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "NL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "nl-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "NL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "pl-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "PL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "pl-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "PL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "pt-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "PT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "pt-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "PT",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ro-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "RO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "ro-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "RO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "sk-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "SK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "sk-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "SK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "si-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "SI",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "si-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "SI",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "es-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "ES",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "es-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "ES",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "se-eu-bone-china-plate-hs6",
+      "title": "EU共通規則のボーンチャイナ製皿の候補",
+      "country": "SE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691110",
+      "keywords": [
+        "bone china",
+        "plate",
+        "ボーンチャイナ",
+        "皿",
+        "骨瓷",
+        "餐盘"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "surface",
+        "diameter_cm",
+        "decoration",
+        "primary_use",
+        "decorative_effect",
+        "wall_hangers"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "plate"
+        ],
+        "material": [
+          "fine_bone_china"
+        ],
+        "surface": [
+          "glazed"
+        ],
+        "diameter_cm": [
+          "about_20"
+        ],
+        "decoration": [
+          "letter_artwork"
+        ],
+        "primary_use": [
+          "tableware"
+        ],
+        "decorative_effect": [
+          "does_not_impair_utility"
+        ],
+        "wall_hangers": [
+          "not_present_at_import"
+        ]
+      },
+      "questions": {
+        "product_type": "輸入時の物品は皿ですか。",
+        "material": "材質はファイン・ボーンチャイナであることを確認できますか。",
+        "surface": "表面には釉薬が施されていますか。",
+        "diameter_cm": "直径は約20cmですか。",
+        "decoration": "装飾は文字の図案によるものですか。",
+        "primary_use": "主な用途は食卓での使用ですか。",
+        "decorative_effect": "装飾が食器としての通常の実用性を妨げないことを確認できますか。",
+        "wall_hangers": "輸入時に壁掛け用の部品は付属していませんか。"
+      },
+      "sourceIds": [
+        "eu-reg-2023-1420-bone-china-plate"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "se-eu-unfilled-beanbag-shell-hs6",
+      "title": "EU共通規則の未充填クッションシェルの候補",
+      "country": "SE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "630790",
+      "keywords": [
+        "beanbag",
+        "cushion shell",
+        "クッション",
+        "外袋",
+        "懒人沙发",
+        "坐垫外袋"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "material",
+        "construction",
+        "composition",
+        "shape",
+        "dimensions_cm",
+        "filling_state",
+        "eyelets",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "beanbag_shell"
+        ],
+        "material": [
+          "polyester"
+        ],
+        "construction": [
+          "dense_woven_textile"
+        ],
+        "composition": [
+          "polyester_only"
+        ],
+        "shape": [
+          "rectangular"
+        ],
+        "dimensions_cm": [
+          "about_185x132"
+        ],
+        "filling_state": [
+          "unfilled"
+        ],
+        "eyelets": [
+          "eight_metal_eyelets"
+        ],
+        "intended_use": [
+          "giant_cushion_shell"
+        ]
+      },
+      "questions": {
+        "product_type": "大型クッションを充填するための外袋ですか。",
+        "material": "材質はポリエステルですか。",
+        "construction": "厚く密に織った生地ですか。",
+        "composition": "生地の組成はポリエステル100%ですか。",
+        "shape": "形状は長方形ですか。",
+        "dimensions_cm": "寸法は約185×132cmですか。",
+        "filling_state": "輸入時に詰め物や内部材が入っていないことを確認できますか。",
+        "eyelets": "縁には金属製アイレットが合計8個ありますか。",
+        "intended_use": "完成したクッションや単なる枕カバーではなく、大型クッションを構成するシェルですか。"
+      },
+      "sourceIds": [
+        "eu-reg-2024-3133-beanbag-shell"
+      ],
+      "rationale": "EU共通分類規則の記載商品に対応するHS6参照候補。現物と用途・構成を別途確認する。"
+    },
+    {
+      "id": "gb-hand-held-ceramic-salt-mill-hs6",
+      "title": "英国の手持ち式セラミック塩挽きの候補",
+      "country": "GB",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "691200",
+      "keywords": [
+        "salt mill",
+        "salt grinder",
+        "塩挽き",
+        "ソルトミル",
+        "盐磨",
+        "盐研磨"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "operation",
+        "container_material",
+        "grinding_plate_material",
+        "essential_component",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "salt_grinding_mill"
+        ],
+        "operation": [
+          "hand_held"
+        ],
+        "container_material": [
+          "plastic"
+        ],
+        "grinding_plate_material": [
+          "ceramic"
+        ],
+        "essential_component": [
+          "ceramic_grinding_plate"
+        ],
+        "customs_territory": [
+          "great_britain"
+        ]
+      },
+      "questions": {
+        "product_type": "食卓用の塩挽きですか。",
+        "operation": "手で持って使用するものですか。",
+        "container_material": "容器はプラスチック製ですか。",
+        "grinding_plate_material": "粉砕部のプレートはセラミック製ですか。",
+        "essential_component": "主要な機能・特性を与えているのはセラミック製の粉砕プレートですか。",
+        "customs_territory": "使用する分類体系はGreat Britain向けですか。Northern Ireland向けなら別途確認してください。"
+      },
+      "sourceIds": [
+        "gb-hmrc-ceramics-guidance-2026"
+      ],
+      "rationale": "英国公式ガイドの複合材製塩挽きを参照。セラミック粉砕部が主要な特性を与える構成を確認し、HS6候補として扱う。"
+    },
+    {
+      "id": "gb-roasted-non-decaffeinated-coffee-hs6",
+      "title": "英国の焙煎済み・非脱カフェインコーヒー豆の候補",
+      "country": "GB",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_territory": [
+          "great_britain"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はコーヒー豆ですか。",
+        "composition": "他の原料を加えず、コーヒーだけで構成されていますか。",
+        "processing": "焙煎済みですか。抽出物やインスタント製品ではないことも確認してください。",
+        "decaffeination": "脱カフェイン処理は行われていませんか。",
+        "form": "輸入時の形態は全粒の豆ですか。",
+        "customs_territory": "使用する分類体系はGreat Britain向けですか。Northern Ireland向けなら別途確認してください。"
+      },
+      "sourceIds": [
+        "gb-hmrc-coffee-roasted-api-2026",
+        "gb-hs2022-nomenclature-annex-2025"
+      ],
+      "rationale": "英国の現行品目APIとHS2022品目対応を参照する。原産地規則、協定発効、特恵税率の適用は判断せず、コーヒーのHS6候補だけを返す。"
     }
   ]
 }
