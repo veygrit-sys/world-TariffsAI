@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-stainless-household-saucepan-hs6",
+    "revision": "1",
+    "description": "非電気式・ステンレス製の家庭用片手鍋 / stainless saucepan",
+    "attributes": {
+      "product_type": "saucepan",
+      "material": "stainless_steel_only",
+      "manufacturing": "not_cast_iron",
+      "intended_use": "household_cooking",
+      "electric_heating": "none",
+      "construction": "complete_pot",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

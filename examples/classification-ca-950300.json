@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-wooden-jigsaw-puzzle-hs6",
+    "revision": "1",
+    "description": "遊戯用の木製ジグソーパズル / jigsaw puzzle",
+    "attributes": {
+      "product_type": "jigsaw_puzzle",
+      "material": "wood_only",
+      "intended_use": "recreational_puzzle",
+      "mechanism": "none",
+      "electronics": "none",
+      "construction": "complete_puzzle",
+      "presentation": "puzzle_only"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

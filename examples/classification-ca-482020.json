@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-paper-school-exercise-book-hs6",
+    "revision": "1",
+    "description": "紙製・製本済みの学習練習帳 / school exercise book",
+    "attributes": {
+      "product_type": "school_exercise_book",
+      "material": "paper",
+      "binding": "bound_volume",
+      "page_content": "blank_or_ruled_for_handwriting",
+      "printed_instructional_content": "none",
+      "intended_use": "school_exercises",
+      "presentation": "single_book"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

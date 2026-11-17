@@ -2287,5 +2287,4153 @@
       "processing": "extracted"
     },
     "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "gt-coffee-roasted-not-decaf-hs6",
+    "country": "GT",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "gt-coffee-roasted-decaf-hs6",
+    "country": "GT",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "gt-coffee-unroasted-not-decaf-hs6",
+    "country": "GT",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "sv-coffee-roasted-not-decaf-hs6",
+    "country": "SV",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "sv-coffee-roasted-decaf-hs6",
+    "country": "SV",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "sv-coffee-unroasted-not-decaf-hs6",
+    "country": "SV",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "hn-coffee-roasted-not-decaf-hs6",
+    "country": "HN",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "hn-coffee-roasted-decaf-hs6",
+    "country": "HN",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "hn-coffee-unroasted-not-decaf-hs6",
+    "country": "HN",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ni-coffee-roasted-not-decaf-hs6",
+    "country": "NI",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ni-coffee-roasted-decaf-hs6",
+    "country": "NI",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ni-coffee-unroasted-not-decaf-hs6",
+    "country": "NI",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "cr-coffee-roasted-not-decaf-hs6",
+    "country": "CR",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "cr-coffee-roasted-decaf-hs6",
+    "country": "CR",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "cr-coffee-unroasted-not-decaf-hs6",
+    "country": "CR",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ar-coffee-roasted-not-decaf-hs6",
+    "country": "AR",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ar-coffee-roasted-decaf-hs6",
+    "country": "AR",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ar-coffee-unroasted-not-decaf-hs6",
+    "country": "AR",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "py-coffee-roasted-not-decaf-hs6",
+    "country": "PY",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "py-coffee-roasted-decaf-hs6",
+    "country": "PY",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "py-coffee-unroasted-not-decaf-hs6",
+    "country": "PY",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "uy-coffee-roasted-not-decaf-hs6",
+    "country": "UY",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "uy-coffee-roasted-decaf-hs6",
+    "country": "UY",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "uy-coffee-unroasted-not-decaf-hs6",
+    "country": "UY",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "pe-coffee-roasted-not-decaf-hs6",
+    "country": "PE",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "pe-coffee-roasted-decaf-hs6",
+    "country": "PE",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "pe-coffee-unroasted-not-decaf-hs6",
+    "country": "PE",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "co-coffee-roasted-not-decaf-hs6",
+    "country": "CO",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "co-coffee-roasted-decaf-hs6",
+    "country": "CO",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "co-coffee-unroasted-not-decaf-hs6",
+    "country": "CO",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ec-coffee-roasted-not-decaf-hs6",
+    "country": "EC",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ec-coffee-roasted-decaf-hs6",
+    "country": "EC",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ec-coffee-unroasted-not-decaf-hs6",
+    "country": "EC",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "jm-coffee-roasted-not-decaf-hs6",
+    "country": "JM",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "jm-coffee-roasted-decaf-hs6",
+    "country": "JM",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "jm-coffee-unroasted-not-decaf-hs6",
+    "country": "JM",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bz-coffee-roasted-not-decaf-hs6",
+    "country": "BZ",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bz-coffee-roasted-decaf-hs6",
+    "country": "BZ",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bz-coffee-unroasted-not-decaf-hs6",
+    "country": "BZ",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "vc-coffee-roasted-not-decaf-hs6",
+    "country": "VC",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "vc-coffee-roasted-decaf-hs6",
+    "country": "VC",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "vc-coffee-unroasted-not-decaf-hs6",
+    "country": "VC",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "do-coffee-roasted-not-decaf-hs6",
+    "country": "DO",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "do-coffee-roasted-decaf-hs6",
+    "country": "DO",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "do-coffee-unroasted-not-decaf-hs6",
+    "country": "DO",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "pa-coffee-roasted-not-decaf-hs6",
+    "country": "PA",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "pa-coffee-roasted-decaf-hs6",
+    "country": "PA",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "pa-coffee-unroasted-not-decaf-hs6",
+    "country": "PA",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bo-coffee-roasted-not-decaf-hs6",
+    "country": "BO",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_and_cocoa"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bo-brazil-nuts-in-shell-dried-hs6",
+    "country": "BO",
+    "description": "殻付き・未焙煎の乾燥ブラジルナッツ brazil nuts",
+    "attributes": {
+      "product_type": "brazil_nuts",
+      "composition": "brazil_nuts_only",
+      "processing": "dried_not_roasted",
+      "shell_status": "in_shell",
+      "form": "whole_nuts"
+    },
+    "wrongAttributes": {
+      "shell_status": "shelled"
+    },
+    "expectedHs6": "080121"
+  },
+  {
+    "ruleId": "bo-mangoes-fresh-whole-hs6",
+    "country": "BO",
+    "description": "未加工の生鮮マンゴー mango",
+    "attributes": {
+      "product_type": "mangoes",
+      "composition": "mango_only",
+      "processing": "fresh_unprepared",
+      "form": "whole_fruit"
+    },
+    "wrongAttributes": {
+      "processing": "frozen"
+    },
+    "expectedHs6": "080450"
+  },
+  {
+    "ruleId": "bj-coffee-roasted-not-decaf-hs6",
+    "country": "BJ",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bj-coffee-roasted-decaf-hs6",
+    "country": "BJ",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bj-coffee-unroasted-not-decaf-hs6",
+    "country": "BJ",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bf-coffee-roasted-not-decaf-hs6",
+    "country": "BF",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bf-coffee-roasted-decaf-hs6",
+    "country": "BF",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bf-coffee-unroasted-not-decaf-hs6",
+    "country": "BF",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ci-coffee-roasted-not-decaf-hs6",
+    "country": "CI",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ci-coffee-roasted-decaf-hs6",
+    "country": "CI",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ci-coffee-unroasted-not-decaf-hs6",
+    "country": "CI",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "gw-coffee-roasted-not-decaf-hs6",
+    "country": "GW",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "gw-coffee-roasted-decaf-hs6",
+    "country": "GW",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "gw-coffee-unroasted-not-decaf-hs6",
+    "country": "GW",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ml-coffee-roasted-not-decaf-hs6",
+    "country": "ML",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ml-coffee-roasted-decaf-hs6",
+    "country": "ML",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ml-coffee-unroasted-not-decaf-hs6",
+    "country": "ML",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ne-coffee-roasted-not-decaf-hs6",
+    "country": "NE",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ne-coffee-roasted-decaf-hs6",
+    "country": "NE",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ne-coffee-unroasted-not-decaf-hs6",
+    "country": "NE",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "sn-coffee-roasted-not-decaf-hs6",
+    "country": "SN",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "sn-coffee-roasted-decaf-hs6",
+    "country": "SN",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "sn-coffee-unroasted-not-decaf-hs6",
+    "country": "SN",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "tg-coffee-roasted-not-decaf-hs6",
+    "country": "TG",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "tg-coffee-roasted-decaf-hs6",
+    "country": "TG",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "tg-coffee-unroasted-not-decaf-hs6",
+    "country": "TG",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "gn-coffee-roasted-not-decaf-hs6",
+    "country": "GN",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "gn-coffee-roasted-decaf-hs6",
+    "country": "GN",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "gn-coffee-unroasted-not-decaf-hs6",
+    "country": "GN",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ng-coffee-roasted-not-decaf-hs6",
+    "country": "NG",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ng-coffee-roasted-decaf-hs6",
+    "country": "NG",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ng-coffee-unroasted-not-decaf-hs6",
+    "country": "NG",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "eg-coffee-roasted-not-decaf-hs6",
+    "country": "EG",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "eg-coffee-roasted-decaf-hs6",
+    "country": "EG",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "eg-coffee-unroasted-not-decaf-hs6",
+    "country": "EG",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "lr-coffee-roasted-not-decaf-hs6",
+    "country": "LR",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "lr-coffee-roasted-decaf-hs6",
+    "country": "LR",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "lr-coffee-unroasted-not-decaf-hs6",
+    "country": "LR",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "cv-coffee-roasted-not-decaf-hs6",
+    "country": "CV",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "cv-coffee-roasted-decaf-hs6",
+    "country": "CV",
+    "description": "焙煎済み・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "cv-coffee-unroasted-not-decaf-hs6",
+    "country": "CV",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ma-coffee-unroasted-not-decaf-hs6",
+    "country": "MA",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ma-coffee-unroasted-decaf-hs6",
+    "country": "MA",
+    "description": "未焙煎・カフェイン除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090112"
+  },
+  {
+    "ruleId": "tn-coffee-roasted-not-decaf-hs6",
+    "country": "TN",
+    "description": "焙煎済み・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans",
+      "pack_size_band": "up_to_3kg"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "tn-coffee-unroasted-not-decaf-hs6",
+    "country": "TN",
+    "description": "未焙煎・カフェイン未除去の純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "instant_extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bw-coffee-roasted-not-decaf-hs6",
+    "country": "BW",
+    "description": "ボツワナ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bw-coffee-roasted-decaf-hs6",
+    "country": "BW",
+    "description": "ボツワナ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bw-coffee-unroasted-not-decaf-hs6",
+    "country": "BW",
+    "description": "ボツワナ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ls-coffee-roasted-not-decaf-hs6",
+    "country": "LS",
+    "description": "レソト向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ls-coffee-roasted-decaf-hs6",
+    "country": "LS",
+    "description": "レソト向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ls-coffee-unroasted-not-decaf-hs6",
+    "country": "LS",
+    "description": "レソト向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "na-coffee-roasted-not-decaf-hs6",
+    "country": "NA",
+    "description": "ナミビア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "na-coffee-roasted-decaf-hs6",
+    "country": "NA",
+    "description": "ナミビア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "na-coffee-unroasted-not-decaf-hs6",
+    "country": "NA",
+    "description": "ナミビア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "sz-coffee-roasted-not-decaf-hs6",
+    "country": "SZ",
+    "description": "エスワティニ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "sz-coffee-roasted-decaf-hs6",
+    "country": "SZ",
+    "description": "エスワティニ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "sz-coffee-unroasted-not-decaf-hs6",
+    "country": "SZ",
+    "description": "エスワティニ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ke-coffee-roasted-not-decaf-hs6",
+    "country": "KE",
+    "description": "ケニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ke-coffee-roasted-decaf-hs6",
+    "country": "KE",
+    "description": "ケニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ke-coffee-unroasted-not-decaf-hs6",
+    "country": "KE",
+    "description": "ケニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "rw-coffee-roasted-not-decaf-hs6",
+    "country": "RW",
+    "description": "ルワンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "rw-coffee-roasted-decaf-hs6",
+    "country": "RW",
+    "description": "ルワンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "rw-coffee-unroasted-not-decaf-hs6",
+    "country": "RW",
+    "description": "ルワンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bi-coffee-roasted-not-decaf-hs6",
+    "country": "BI",
+    "description": "ブルンジ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bi-coffee-roasted-decaf-hs6",
+    "country": "BI",
+    "description": "ブルンジ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bi-coffee-unroasted-not-decaf-hs6",
+    "country": "BI",
+    "description": "ブルンジ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "tz-coffee-roasted-not-decaf-hs6",
+    "country": "TZ",
+    "description": "タンザニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "tz-coffee-roasted-decaf-hs6",
+    "country": "TZ",
+    "description": "タンザニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "tz-coffee-unroasted-not-decaf-hs6",
+    "country": "TZ",
+    "description": "タンザニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ug-coffee-roasted-not-decaf-hs6",
+    "country": "UG",
+    "description": "ウガンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ug-coffee-roasted-decaf-hs6",
+    "country": "UG",
+    "description": "ウガンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ug-coffee-unroasted-not-decaf-hs6",
+    "country": "UG",
+    "description": "ウガンダ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mg-coffee-roasted-not-decaf-hs6",
+    "country": "MG",
+    "description": "マダガスカル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mg-coffee-roasted-decaf-hs6",
+    "country": "MG",
+    "description": "マダガスカル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mg-coffee-unroasted-not-decaf-hs6",
+    "country": "MG",
+    "description": "マダガスカル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "zw-coffee-roasted-not-decaf-hs6",
+    "country": "ZW",
+    "description": "ジンバブエ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "zw-coffee-roasted-decaf-hs6",
+    "country": "ZW",
+    "description": "ジンバブエ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "zw-coffee-unroasted-not-decaf-hs6",
+    "country": "ZW",
+    "description": "ジンバブエ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mw-coffee-roasted-not-decaf-hs6",
+    "country": "MW",
+    "description": "マラウイ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mw-coffee-roasted-decaf-hs6",
+    "country": "MW",
+    "description": "マラウイ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mw-coffee-unroasted-not-decaf-hs6",
+    "country": "MW",
+    "description": "マラウイ向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "sc-coffee-roasted-not-decaf-hs6",
+    "country": "SC",
+    "description": "セーシェル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "sc-coffee-roasted-decaf-hs6",
+    "country": "SC",
+    "description": "セーシェル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "sc-coffee-unroasted-not-decaf-hs6",
+    "country": "SC",
+    "description": "セーシェル向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mu-coffee-roasted-not-decaf-hs6",
+    "country": "MU",
+    "description": "モーリシャス向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mu-coffee-roasted-decaf-hs6",
+    "country": "MU",
+    "description": "モーリシャス向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mu-coffee-unroasted-not-decaf-hs6",
+    "country": "MU",
+    "description": "モーリシャス向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "form": "extract"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "am-coffee-unroasted-not-decaf-hs6",
+    "country": "AM",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "am-coffee-roasted-not-decaf-hs6",
+    "country": "AM",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "am-coffee-roasted-decaf-hs6",
+    "country": "AM",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "by-coffee-unroasted-not-decaf-hs6",
+    "country": "BY",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "by-coffee-roasted-not-decaf-hs6",
+    "country": "BY",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "by-coffee-roasted-decaf-hs6",
+    "country": "BY",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "kz-coffee-unroasted-not-decaf-hs6",
+    "country": "KZ",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "kz-coffee-roasted-not-decaf-hs6",
+    "country": "KZ",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "kz-coffee-roasted-decaf-hs6",
+    "country": "KZ",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "kg-coffee-unroasted-not-decaf-hs6",
+    "country": "KG",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "kg-coffee-roasted-not-decaf-hs6",
+    "country": "KG",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "kg-coffee-roasted-decaf-hs6",
+    "country": "KG",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ru-coffee-unroasted-not-decaf-hs6",
+    "country": "RU",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ru-coffee-roasted-not-decaf-hs6",
+    "country": "RU",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ru-coffee-roasted-decaf-hs6",
+    "country": "RU",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "al-coffee-unroasted-not-decaf-hs6",
+    "country": "AL",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "al-coffee-roasted-not-decaf-hs6",
+    "country": "AL",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "al-coffee-roasted-decaf-hs6",
+    "country": "AL",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "rs-coffee-unroasted-not-decaf-hs6",
+    "country": "RS",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "rs-coffee-roasted-not-decaf-hs6",
+    "country": "RS",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "rs-coffee-roasted-decaf-hs6",
+    "country": "RS",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mk-coffee-unroasted-not-decaf-hs6",
+    "country": "MK",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mk-coffee-roasted-not-decaf-hs6",
+    "country": "MK",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mk-coffee-roasted-decaf-hs6",
+    "country": "MK",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "me-coffee-unroasted-not-decaf-hs6",
+    "country": "ME",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "me-coffee-roasted-not-decaf-hs6",
+    "country": "ME",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "me-coffee-roasted-decaf-hs6",
+    "country": "ME",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "md-coffee-unroasted-not-decaf-hs6",
+    "country": "MD",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "md-coffee-roasted-not-decaf-hs6",
+    "country": "MD",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "md-coffee-roasted-decaf-hs6",
+    "country": "MD",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "jo-coffee-unroasted-not-decaf-hs6",
+    "country": "JO",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "jo-coffee-roasted-not-decaf-hs6",
+    "country": "JO",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "jo-coffee-roasted-decaf-hs6",
+    "country": "JO",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "om-coffee-unroasted-not-decaf-hs6",
+    "country": "OM",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "om-coffee-roasted-not-decaf-hs6",
+    "country": "OM",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "om-coffee-roasted-decaf-hs6",
+    "country": "OM",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "li-coffee-unroasted-not-decaf-hs6",
+    "country": "LI",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "li-coffee-roasted-not-decaf-hs6",
+    "country": "LI",
+    "description": "焙煎済み・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "li-coffee-roasted-decaf-hs6",
+    "country": "LI",
+    "description": "焙煎済み・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ua-coffee-unroasted-not-decaf-hs6",
+    "country": "UA",
+    "description": "未焙煎・非脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ua-coffee-unroasted-decaf-hs6",
+    "country": "UA",
+    "description": "未焙煎・脱カフェインの純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_added_flavour"
+    },
+    "expectedHs6": "090112"
+  },
+  {
+    "ruleId": "bd-coffee-roasted-not-decaf-hs6",
+    "country": "BD",
+    "description": "バングラデシュ：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bd-coffee-roasted-decaf-hs6",
+    "country": "BD",
+    "description": "バングラデシュ：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bd-coffee-unroasted-not-decaf-hs6",
+    "country": "BD",
+    "description": "バングラデシュ：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "pk-coffee-roasted-not-decaf-hs6",
+    "country": "PK",
+    "description": "パキスタン：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "pk-coffee-roasted-decaf-hs6",
+    "country": "PK",
+    "description": "パキスタン：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "pk-coffee-unroasted-not-decaf-hs6",
+    "country": "PK",
+    "description": "パキスタン：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "np-coffee-roasted-not-decaf-hs6",
+    "country": "NP",
+    "description": "ネパール：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "np-coffee-roasted-decaf-hs6",
+    "country": "NP",
+    "description": "ネパール：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "np-coffee-unroasted-not-decaf-hs6",
+    "country": "NP",
+    "description": "ネパール：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "lk-coffee-roasted-not-decaf-hs6",
+    "country": "LK",
+    "description": "スリランカ：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "lk-coffee-roasted-decaf-hs6",
+    "country": "LK",
+    "description": "スリランカ：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "lk-coffee-unroasted-not-decaf-hs6",
+    "country": "LK",
+    "description": "スリランカ：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bt-coffee-roasted-not-decaf-hs6",
+    "country": "BT",
+    "description": "ブータン：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bt-coffee-roasted-decaf-hs6",
+    "country": "BT",
+    "description": "ブータン：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bt-coffee-unroasted-not-decaf-hs6",
+    "country": "BT",
+    "description": "ブータン：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "fj-coffee-roasted-not-decaf-hs6",
+    "country": "FJ",
+    "description": "フィジー：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "fj-coffee-roasted-decaf-hs6",
+    "country": "FJ",
+    "description": "フィジー：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "fj-coffee-unroasted-not-decaf-hs6",
+    "country": "FJ",
+    "description": "フィジー：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "pg-coffee-roasted-not-decaf-hs6",
+    "country": "PG",
+    "description": "パプアニューギニア：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "pg-coffee-roasted-decaf-hs6",
+    "country": "PG",
+    "description": "パプアニューギニア：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "pg-coffee-unroasted-not-decaf-hs6",
+    "country": "PG",
+    "description": "パプアニューギニア：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "vu-coffee-roasted-not-decaf-hs6",
+    "country": "VU",
+    "description": "バヌアツ：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "vu-coffee-roasted-decaf-hs6",
+    "country": "VU",
+    "description": "バヌアツ：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "vu-coffee-unroasted-not-decaf-hs6",
+    "country": "VU",
+    "description": "バヌアツ：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "pw-coffee-roasted-not-decaf-hs6",
+    "country": "PW",
+    "description": "パラオ：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "pw-coffee-roasted-decaf-hs6",
+    "country": "PW",
+    "description": "パラオ：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "pw-coffee-unroasted-not-decaf-hs6",
+    "country": "PW",
+    "description": "パラオ：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ck-coffee-roasted-not-decaf-hs6",
+    "country": "CK",
+    "description": "クック諸島：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ck-coffee-roasted-decaf-hs6",
+    "country": "CK",
+    "description": "クック諸島：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ck-coffee-unroasted-not-decaf-hs6",
+    "country": "CK",
+    "description": "クック諸島：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mm-coffee-roasted-not-decaf-hs6",
+    "country": "MM",
+    "description": "ミャンマー：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mm-coffee-roasted-decaf-hs6",
+    "country": "MM",
+    "description": "ミャンマー：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mm-coffee-unroasted-not-decaf-hs6",
+    "country": "MM",
+    "description": "ミャンマー：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "bn-coffee-roasted-not-decaf-hs6",
+    "country": "BN",
+    "description": "ブルネイ：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "bn-coffee-roasted-decaf-hs6",
+    "country": "BN",
+    "description": "ブルネイ：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "bn-coffee-unroasted-not-decaf-hs6",
+    "country": "BN",
+    "description": "ブルネイ：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "nc-coffee-roasted-not-decaf-hs6",
+    "country": "NC",
+    "description": "ニューカレドニア：焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "nc-coffee-roasted-decaf-hs6",
+    "country": "NC",
+    "description": "ニューカレドニア：焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "nc-coffee-unroasted-not-decaf-hs6",
+    "country": "NC",
+    "description": "ニューカレドニア：未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "composition": "coffee_with_other_ingredients"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ca-cotton-knitted-tshirt-hs6",
+    "country": "CA",
+    "description": "成人用・綿100％の半袖編物Tシャツ / T-shirt",
+    "attributes": {
+      "product_type": "t_shirt",
+      "material": "cotton_only",
+      "fabric_construction": "knitted",
+      "wearer": "adult",
+      "sleeves": "short",
+      "neckline": "round_without_collar_or_opening",
+      "lower_edge": "hemmed_without_tightening",
+      "condition": "new",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "lower_edge": "ribbed_tightening"
+    },
+    "expectedHs6": "610910"
+  },
+  {
+    "ruleId": "ca-cotton-woven-unprinted-bedsheet-hs6",
+    "country": "CA",
+    "description": "綿100％・織物製・無地のベッドシーツ / bed sheet",
+    "attributes": {
+      "product_type": "bed_sheet",
+      "material": "cotton_only",
+      "fabric_construction": "woven",
+      "printing": "unprinted",
+      "filling": "none",
+      "condition": "new",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "printing": "printed"
+    },
+    "expectedHs6": "630231"
+  },
+  {
+    "ruleId": "ca-printed-bound-novel-hs6",
+    "country": "CA",
+    "description": "文字を主とする紙の製本小説 / novel",
+    "attributes": {
+      "product_type": "printed_novel",
+      "medium": "paper",
+      "binding": "bound_volume",
+      "content": "text_dominant_fiction",
+      "reference_work": "not_dictionary_or_encyclopaedia",
+      "advertising": "not_advertising_publication",
+      "publication_type": "non_periodical",
+      "presentation": "single_book"
+    },
+    "wrongAttributes": {
+      "content": "children_picture_book"
+    },
+    "expectedHs6": "490199"
+  },
+  {
+    "ruleId": "ca-ballpoint-pen-hs6",
+    "country": "CA",
+    "description": "通常筆記用の完成ボールペン単品 / ballpoint pen",
+    "attributes": {
+      "product_type": "ballpoint_pen",
+      "writing_mechanism": "ink_ball_point",
+      "construction": "complete_pen",
+      "intended_use": "ordinary_writing",
+      "combined_functions": "none",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "writing_mechanism": "felt_tip"
+    },
+    "expectedHs6": "960810"
+  },
+  {
+    "ruleId": "ca-felt-tip-marker-hs6",
+    "country": "CA",
+    "description": "通常筆記用の完成フェルト芯マーカー単品 / felt tip marker",
+    "attributes": {
+      "product_type": "felt_tip_marker",
+      "writing_mechanism": "felt_or_porous_tip",
+      "construction": "complete_pen",
+      "intended_use": "ordinary_writing",
+      "combined_functions": "none",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "writing_mechanism": "ink_ball_point"
+    },
+    "expectedHs6": "960820"
+  },
+  {
+    "ruleId": "ca-wood-cased-graphite-pencil-hs6",
+    "country": "CA",
+    "description": "木軸に黒鉛芯を固定した通常の鉛筆 / graphite pencil",
+    "attributes": {
+      "product_type": "graphite_pencil",
+      "core": "graphite",
+      "sheath": "rigid_wood_encasing",
+      "mechanism": "fixed_core_non_propelling",
+      "intended_use": "ordinary_writing_or_drawing",
+      "construction": "complete_pencil",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "mechanism": "propelling_pencil"
+    },
+    "expectedHs6": "960910"
+  },
+  {
+    "ruleId": "ca-wired-audio-headphones-hs6",
+    "country": "CA",
+    "description": "一般音楽鑑賞用の有線ヘッドホン / headphones",
+    "attributes": {
+      "product_type": "headphones",
+      "connection": "wired_only",
+      "intended_use": "consumer_audio_listening",
+      "hearing_assistance": "none",
+      "integrated_player_or_radio": "none",
+      "construction": "complete_headphones",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "hearing_assistance": "hearing_aid"
+    },
+    "expectedHs6": "851830"
+  },
+  {
+    "ruleId": "ca-bamboo-dining-chopsticks-hs6",
+    "country": "CA",
+    "description": "竹だけで作った食卓用箸 / bamboo chopsticks",
+    "attributes": {
+      "product_type": "chopsticks",
+      "material": "bamboo_only",
+      "intended_use": "dining_tableware",
+      "construction": "finished_pair",
+      "coating_or_other_material": "none",
+      "presentation": "pair_only"
+    },
+    "wrongAttributes": {
+      "material": "other_wood"
+    },
+    "expectedHs6": "441912"
+  },
+  {
+    "ruleId": "ca-stainless-household-saucepan-hs6",
+    "country": "CA",
+    "description": "非電気式・ステンレス製の家庭用片手鍋 / stainless saucepan",
+    "attributes": {
+      "product_type": "saucepan",
+      "material": "stainless_steel_only",
+      "manufacturing": "not_cast_iron",
+      "intended_use": "household_cooking",
+      "electric_heating": "none",
+      "construction": "complete_pot",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "electric_heating": "integrated_electric_heater"
+    },
+    "expectedHs6": "732393"
+  },
+  {
+    "ruleId": "ca-polypropylene-dining-plate-hs6",
+    "country": "CA",
+    "description": "ポリプロピレン製の再使用食卓皿 / plastic plate",
+    "attributes": {
+      "product_type": "dining_plate",
+      "material": "polypropylene_only",
+      "intended_use": "household_food_serving",
+      "reuse": "reusable",
+      "construction": "complete_plate",
+      "electric_or_mechanical_function": "none",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "intended_use": "transport_packaging"
+    },
+    "expectedHs6": "392410"
+  },
+  {
+    "ruleId": "ca-cotton-knitted-beanie-hs6",
+    "country": "CA",
+    "description": "綿100％の完成したニット帽 / knitted beanie",
+    "attributes": {
+      "product_type": "beanie_hat",
+      "material": "cotton_only",
+      "fabric_construction": "knitted",
+      "construction": "finished_headgear",
+      "protective_function": "none",
+      "condition": "new",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "protective_function": "safety_helmet"
+    },
+    "expectedHs6": "650500"
+  },
+  {
+    "ruleId": "ca-telescopic-handheld-umbrella-hs6",
+    "country": "CA",
+    "description": "伸縮軸を持つ手持ち雨傘 / telescopic umbrella",
+    "attributes": {
+      "product_type": "rain_umbrella",
+      "intended_use": "handheld_rain_protection",
+      "shaft": "telescopic",
+      "garden_or_beach_umbrella": "no",
+      "construction": "complete_umbrella",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "shaft": "fixed_non_telescopic"
+    },
+    "expectedHs6": "660191"
+  },
+  {
+    "ruleId": "ca-wooden-jigsaw-puzzle-hs6",
+    "country": "CA",
+    "description": "遊戯用の木製ジグソーパズル / jigsaw puzzle",
+    "attributes": {
+      "product_type": "jigsaw_puzzle",
+      "material": "wood_only",
+      "intended_use": "recreational_puzzle",
+      "mechanism": "none",
+      "electronics": "none",
+      "construction": "complete_puzzle",
+      "presentation": "puzzle_only"
+    },
+    "wrongAttributes": {
+      "intended_use": "functional_building_component"
+    },
+    "expectedHs6": "950300"
+  },
+  {
+    "ruleId": "ca-vulcanised-rubber-pencil-eraser-hs6",
+    "country": "CA",
+    "description": "非発泡・加硫ゴム製の鉛筆用消しゴム / rubber eraser",
+    "attributes": {
+      "product_type": "pencil_eraser",
+      "material": "vulcanised_rubber",
+      "hard_rubber": "no",
+      "cellular_structure": "non_cellular",
+      "intended_use": "erase_pencil_marks",
+      "construction": "complete_eraser",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "material": "pvc_plastic"
+    },
+    "expectedHs6": "401692"
+  },
+  {
+    "ruleId": "ca-paper-school-exercise-book-hs6",
+    "country": "CA",
+    "description": "紙製・製本済みの学習練習帳 / school exercise book",
+    "attributes": {
+      "product_type": "school_exercise_book",
+      "material": "paper",
+      "binding": "bound_volume",
+      "page_content": "blank_or_ruled_for_handwriting",
+      "printed_instructional_content": "none",
+      "intended_use": "school_exercises",
+      "presentation": "single_book"
+    },
+    "wrongAttributes": {
+      "printed_instructional_content": "printed_textbook_exercises"
+    },
+    "expectedHs6": "482020"
+  },
+  {
+    "ruleId": "ax-eu-bone-china-plate-hs6",
+    "country": "AX",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "ax-eu-unfilled-beanbag-shell-hs6",
+    "country": "AX",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "gf-eu-bone-china-plate-hs6",
+    "country": "GF",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "gf-eu-unfilled-beanbag-shell-hs6",
+    "country": "GF",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "gp-eu-bone-china-plate-hs6",
+    "country": "GP",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "gp-eu-unfilled-beanbag-shell-hs6",
+    "country": "GP",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "mq-eu-bone-china-plate-hs6",
+    "country": "MQ",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "mq-eu-unfilled-beanbag-shell-hs6",
+    "country": "MQ",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "re-eu-bone-china-plate-hs6",
+    "country": "RE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "re-eu-unfilled-beanbag-shell-hs6",
+    "country": "RE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "yt-eu-bone-china-plate-hs6",
+    "country": "YT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "yt-eu-unfilled-beanbag-shell-hs6",
+    "country": "YT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "mf-eu-bone-china-plate-hs6",
+    "country": "MF",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "mf-eu-unfilled-beanbag-shell-hs6",
+    "country": "MF",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "mc-eu-bone-china-plate-hs6",
+    "country": "MC",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "mc-eu-unfilled-beanbag-shell-hs6",
+    "country": "MC",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "ad-eu-bone-china-plate-hs6",
+    "country": "AD",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "ad-eu-unfilled-beanbag-shell-hs6",
+    "country": "AD",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "sm-eu-bone-china-plate-hs6",
+    "country": "SM",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "sm-eu-unfilled-beanbag-shell-hs6",
+    "country": "SM",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "pr-stainless-vacuum-flask-hs6",
+    "country": "PR",
+    "description": "Stainless steel vacuum flask for beverages / ステンレス製真空保温ボトル",
+    "attributes": {
+      "product_type": "vacuum_flask",
+      "material": "stainless_steel",
+      "insulation": "vacuum_double_wall",
+      "construction": "complete_vessel",
+      "intended_use": "beverage_storage",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "insulation": "foam_filled"
+    },
+    "expectedHs6": "961700"
+  },
+  {
+    "ruleId": "pr-stoneware-drinking-cup-hs6",
+    "country": "PR",
+    "description": "Stoneware drinking cup / せっ器（磁器以外）製カップ",
+    "attributes": {
+      "product_type": "drinking_cup",
+      "material": "stoneware",
+      "manufacturing_process": "fired_after_shaping",
+      "intended_use": "household_tableware",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "material": "glass"
+    },
+    "expectedHs6": "691200"
   }
 ]

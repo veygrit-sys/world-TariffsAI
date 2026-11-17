@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Veygrit Customs AI",
-    "version": "1.0.0-rc.27",
+    "version": "1.0.0-rc.28",
     "description": "Decision support. Country recognition is global; numeric coverage is explicitly scoped. No customs filing or shipping authorisation."
   },
   "servers": [
@@ -1625,7 +1625,7 @@
                   ],
                   "properties": {
                     "version": {
-                      "const": "1.0.0-rc.27"
+                      "const": "1.0.0-rc.28"
                     },
                     "status": {
                       "const": "pilot"
@@ -6093,6 +6093,184 @@
         }
       }
     },
+    "/v1/classification/rollout": {
+      "get": {
+        "summary": "Track all destinations, missing official evidence and selected product examples in resumable geographic batches",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "direction",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "import",
+                "export"
+              ]
+            }
+          },
+          {
+            "name": "hsEdition",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 40,
+              "pattern": "\\S"
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$"
+            }
+          },
+          {
+            "name": "market",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "asia",
+                "europe",
+                "americas",
+                "western_asia_africa",
+                "oceania_remote"
+              ]
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "enum": [
+                "candidate_references",
+                "source_review_required",
+                "official_evidence_pending",
+                "excluded"
+              ]
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 999999
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 250
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Classification evidence rollout; discovery links do not verify classification",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClassificationRollout"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid or extra input fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid service credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Browser origin rejected",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "HTTP method not allowed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 64 KiB",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Expected uncompressed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Process-local rate limit exceeded",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic internal error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/classification/coverage": {
       "get": {
         "summary": "Describe loaded classification catalog coverage without claiming universal classification",
@@ -6592,6 +6770,244 @@
         "required": [
           "product",
           "context"
+        ]
+      },
+      "ClassificationRollout": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "catalogVersion": {
+            "type": "string"
+          },
+          "catalogDigest": {
+            "type": "string"
+          },
+          "referenceDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "reviewedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "direction": {
+            "enum": [
+              "import",
+              "export"
+            ]
+          },
+          "hsEdition": {
+            "type": "string"
+          },
+          "totals": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "destinations": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "eligibleDestinations": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "byStatus": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "candidate_references": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "source_review_required": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "official_evidence_pending": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "excluded": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "candidate_references",
+                  "source_review_required",
+                  "official_evidence_pending",
+                  "excluded"
+                ]
+              }
+            },
+            "required": [
+              "destinations",
+              "eligibleDestinations",
+              "byStatus"
+            ]
+          },
+          "total": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "nextOffset": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "destinations": {
+            "type": "array",
+            "maxItems": 250,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "country": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{2}$"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "nameJa": {
+                  "type": "string"
+                },
+                "market": {
+                  "enum": [
+                    "asia",
+                    "europe",
+                    "americas",
+                    "western_asia_africa",
+                    "oceania_remote",
+                    null
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "candidate_references",
+                    "source_review_required",
+                    "official_evidence_pending",
+                    "excluded"
+                  ]
+                },
+                "referenceRuleCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "activeRuleCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "hs6Count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "nationalCodeReferenceCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "sourceIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "holdReasons": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "productCoverage": {
+                  "enum": [
+                    "selected_examples",
+                    "none"
+                  ]
+                },
+                "nextAction": {
+                  "enum": [
+                    "expand_product_examples_and_review_national_codes",
+                    "recheck_scoped_sources",
+                    "verify_official_edition_and_product_conditions",
+                    "excluded_from_commercial_classification"
+                  ]
+                },
+                "discoveryReferences": {
+                  "type": "array",
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "title": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "title",
+                      "url"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "country",
+                "name",
+                "nameJa",
+                "market",
+                "status",
+                "referenceRuleCount",
+                "activeRuleCount",
+                "hs6Count",
+                "nationalCodeReferenceCount",
+                "sourceIds",
+                "holdReasons",
+                "productCoverage",
+                "nextAction",
+                "discoveryReferences"
+              ]
+            }
+          },
+          "discoveryReferencesVerifyClassification": {
+            "const": false
+          },
+          "allProductsCovered": {
+            "const": false
+          },
+          "assignmentRequiresRecordedReview": {
+            "const": true
+          },
+          "shippingAuthorized": {
+            "const": false
+          },
+          "productionAuthorized": {
+            "const": false
+          }
+        },
+        "required": [
+          "catalogVersion",
+          "catalogDigest",
+          "referenceDate",
+          "reviewedOn",
+          "direction",
+          "hsEdition",
+          "totals",
+          "total",
+          "nextOffset",
+          "destinations",
+          "discoveryReferencesVerifyClassification",
+          "allProductsCovered",
+          "assignmentRequiresRecordedReview",
+          "shippingAuthorized",
+          "productionAuthorized"
         ]
       },
       "ClassificationProposal": {

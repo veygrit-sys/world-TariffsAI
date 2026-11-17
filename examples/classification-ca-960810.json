@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-ballpoint-pen-hs6",
+    "revision": "1",
+    "description": "通常筆記用の完成ボールペン単品 / ballpoint pen",
+    "attributes": {
+      "product_type": "ballpoint_pen",
+      "writing_mechanism": "ink_ball_point",
+      "construction": "complete_pen",
+      "intended_use": "ordinary_writing",
+      "combined_functions": "none",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

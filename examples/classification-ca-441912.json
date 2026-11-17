@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-bamboo-dining-chopsticks-hs6",
+    "revision": "1",
+    "description": "竹だけで作った食卓用箸 / bamboo chopsticks",
+    "attributes": {
+      "product_type": "chopsticks",
+      "material": "bamboo_only",
+      "intended_use": "dining_tableware",
+      "construction": "finished_pair",
+      "coating_or_other_material": "none",
+      "presentation": "pair_only"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

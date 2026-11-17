@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-polypropylene-dining-plate-hs6",
+    "revision": "1",
+    "description": "ポリプロピレン製の再使用食卓皿 / plastic plate",
+    "attributes": {
+      "product_type": "dining_plate",
+      "material": "polypropylene_only",
+      "intended_use": "household_food_serving",
+      "reuse": "reusable",
+      "construction": "complete_plate",
+      "electric_or_mechanical_function": "none",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

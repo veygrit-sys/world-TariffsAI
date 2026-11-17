@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ke-coffee-roasted-not-decaf-hs6",
+    "revision": "1",
+    "description": "ケニア向け純コーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    }
+  },
+  "context": {
+    "country": "KE",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

@@ -2,7 +2,7 @@
 
 Veygrit向けの関税・通関判断支援エンジンです。TypeScript・Node.jsのAPIとCLIに、通関準備、根拠付きの見積もり、DAP・DDPの請求照合、Next.js・WooCommerce連携例を収録しています。
 
-**v1.0.0-rc.27** は、HS分類候補の根拠データを54か国・地域・47出典・131件の国別ルールへ拡張しました。rc.26の35か国に加え、韓国・台湾・香港・マカオ、東南アジア5か国、インド・UAE・サウジアラビア、スイス・ノルウェー・アイスランド、ブラジル・メキシコ・チリ・南アフリカの19か国・地域で、純コーヒー豆の3区分を個別の公式資料から照合しました。EUの共通2分類を27か国へ展開した54行を含みます。限定した商品のHS6候補であり、国内細分の自動承認には確認済み税表と承認記録が必要です。 [国別の収録範囲](docs/HS_CLASSIFICATION_COUNTRIES.md) ・ [分類と自動割当](docs/HS_CLASSIFICATION.md)
+**v1.0.0-rc.28** は、HS分類候補を138か国・地域、151出典、384件の国別ルール、33種類のHS6へ拡張しました。今回の追加は84か国・地域と253ルールで、公式の共通品目表の適用範囲を確認した国別展開も含みます。カナダ向けには衣料・寝具・書籍・筆記具・音響機器など15商品分類を追加しました。ISO249仕向地と補助地域コソボを含む250件の進捗API・CLIと、01〜97類の分割作業台帳を備えます。限定した商品の参照候補であり、国内税番・税率・承認を確定するものではありません。 [全体の展開台帳](docs/HS_CLASSIFICATION_ROLLOUT.md) ・ [国別の範囲と出典](docs/HS_CLASSIFICATION_COUNTRIES.md) ・ [分類と自動割当](docs/HS_CLASSIFICATION.md)
 
 ## 公開リポジトリの対応範囲
 
@@ -102,6 +102,7 @@ curl http://127.0.0.1:3008/v1/customs/plan \
 | `POST /v1/classification/assign` | サーバーの確認済み分類を商品へ再割当 |
 | `POST /v1/classification/batch` | 同一加盟店の商品を一括処理 |
 | `GET /v1/classification/coverage` | 分類カタログの収録範囲 |
+| `GET /v1/classification/rollout` | 全250仕向地の分類調査・商品例・未確認項目を分割表示 |
 | `GET /v1/classification/sources` | 分類出典のURL・確認日・適用期間 |
 
 `/health` 以外はサービスキーが必要です。仕様は [OpenAPI](docs/openapi.json) にあります。入力に未定義のプロパティがある場合は拒否します。

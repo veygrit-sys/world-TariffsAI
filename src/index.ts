@@ -13,6 +13,8 @@ export { planCustoms, planVeygritOrder } from "./customs-plan.ts";
 export { VERSION } from "./version.ts";
 export { ClassificationCatalog, loadClassificationCatalog, classificationCatalogSchema, classificationSourceSchema } from "./classification-catalog.ts";
 export { proposeClassification, parseClassificationRequest, productFingerprint, classificationContextDigest } from "./classification.ts";
+export { classificationRollout, classificationRolloutInputSchema, classificationRolloutOutputSchema } from "./classification-rollout.ts";
+export type { ClassificationRollout, ClassificationRolloutInput } from "./classification-rollout.ts";
 export { classificationProductSchema, classificationContextSchema, classificationRequestSchema, classificationCandidateSchema, classificationProposalSchema } from "./classification-types.ts";
 export type * from "./classification-types.ts";
 export { createClassificationApproval, createClassificationRevocation, assignClassification, parseClassificationEvents, classificationAssignmentSchema, classificationEventsSchema, classificationApprovalInputSchema } from "./classification-approvals.ts";

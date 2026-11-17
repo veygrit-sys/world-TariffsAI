@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-cotton-knitted-beanie-hs6",
+    "revision": "1",
+    "description": "綿100％の完成したニット帽 / knitted beanie",
+    "attributes": {
+      "product_type": "beanie_hat",
+      "material": "cotton_only",
+      "fabric_construction": "knitted",
+      "construction": "finished_headgear",
+      "protective_function": "none",
+      "condition": "new",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

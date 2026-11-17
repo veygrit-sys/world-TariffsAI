@@ -33,6 +33,7 @@ import { importIntakeCheckSchema } from "../src/import-controls.ts";
 import { customsFeeReferenceSchema } from "../src/customs-fees.ts";
 import { regionalCustomsProfileSchema } from "../src/regional-customs.ts";
 import { worldDirectionCoverageOutputSchema, worldDirectionInputSchema, worldDirectionOutputSchema } from "../src/world-directions.ts";
+import { classificationRolloutInputSchema, classificationRolloutOutputSchema } from "../src/classification-rollout.ts";
 const response = (
   description: string,
   schema: unknown = { type: "object" },
@@ -853,6 +854,12 @@ const doc = {
       { $ref: "#/components/schemas/ClassificationBatchInput" },
       { $ref: "#/components/schemas/ClassificationBatch" },
     ),
+    "/v1/classification/rollout": {
+      get: { summary: "Track all destinations, missing official evidence and selected product examples in resumable geographic batches",
+        parameters: Object.entries(classificationRolloutInputSchema.properties).map(([name, schema]) => ({ name, in: "query", schema })),
+        responses: { 200: response("Classification evidence rollout; discovery links do not verify classification",
+          { $ref: "#/components/schemas/ClassificationRollout" }), ...errors } },
+    },
     "/v1/classification/coverage": {
       get: { summary: "Describe loaded classification catalog coverage without claiming universal classification",
         responses: { 200: response("Loaded catalog scope", record({
@@ -878,6 +885,7 @@ const doc = {
     securitySchemes: { serviceBearer: { type: "http", scheme: "bearer" } },
     schemas: {
       ClassificationRequest: classificationRequestSchema,
+      ClassificationRollout: classificationRolloutOutputSchema,
       ClassificationProposal: classificationProposalSchema,
       ClassificationAssignment: classificationAssignmentSchema,
       ClassificationBatchInput: classificationBatchInputSchema,

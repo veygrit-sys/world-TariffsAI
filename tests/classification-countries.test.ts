@@ -70,10 +70,10 @@ test("every bundled country-specific candidate has a positive, incomplete and co
 
 test("country coverage distinguishes shared EU references from unrelated country classifications", () => {
   const countries = [...new Set(catalog.rules.map(rule => rule.country))].sort();
-  assert.deepEqual(countries, [...EU_COUNTRIES, "JP", "US", "CA", "CN", "SG", "AU", "NZ", "GB", "AE", "BR", "CH", "CL", "HK", "ID", "IN", "IS", "KR", "MO", "MX", "MY", "NO", "PH", "SA", "TH", "TW", "VN", "ZA"].sort());
+  assert.deepEqual(countries, [...EU_COUNTRIES, "AD", "AE", "AL", "AM", "AR", "AU", "AX", "BD", "BF", "BI", "BJ", "BN", "BO", "BR", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CK", "CL", "CN", "CO", "CR", "CV", "DO", "EC", "EG", "FJ", "GB", "GF", "GN", "GP", "GT", "GW", "HK", "HN", "ID", "IN", "IS", "JM", "JO", "JP", "KE", "KG", "KR", "KZ", "LI", "LK", "LR", "LS", "MA", "MC", "MD", "ME", "MF", "MG", "MK", "ML", "MM", "MO", "MQ", "MU", "MW", "MX", "MY", "NA", "NC", "NE", "NG", "NI", "NO", "NP", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PR", "PW", "PY", "RE", "RS", "RU", "RW", "SA", "SC", "SG", "SM", "SN", "SV", "SZ", "TG", "TH", "TN", "TW", "TZ", "UA", "UG", "US", "UY", "VC", "VN", "VU", "YT", "ZA", "ZW"].sort());
   const authorities = catalog.sources.filter(source => source.id.startsWith("eu-reg-"));
   assert.equal(authorities.length, 2);
-  for (const source of authorities) assert.deepEqual([...source.countries].sort(), [...EU_COUNTRIES].sort());
+  for (const source of authorities) assert.deepEqual([...source.countries].sort(), [...EU_COUNTRIES, "AD", "AX", "GF", "GP", "MC", "MF", "MQ", "RE", "SM", "YT"].sort());
   for (const row of cases.filter(row => row.country !== "JP")) {
     const input = request(row); input.context.country = "JP";
     assert.ok(!proposeClassification(input, catalog, data, now).candidates.some(value => value.ruleId === row.ruleId));
@@ -107,7 +107,7 @@ test("loaded-country API exposes expanded reference scope and keeps domestic aut
   }), { peer: "127.0.0.1" });
   assert.equal(response.status, 200);
   const result = await response.json();
-  assert.equal(result.countries.length, 54);
+  assert.equal(result.countries.length, 138);
   assert.equal(result.ruleCount, cases.length);
   assert.equal(result.nationalCodeRuleCount, 0);
   assert.equal(result.assignmentRequiresRecordedReview, true);

@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-felt-tip-marker-hs6",
+    "revision": "1",
+    "description": "通常筆記用の完成フェルト芯マーカー単品 / felt tip marker",
+    "attributes": {
+      "product_type": "felt_tip_marker",
+      "writing_mechanism": "felt_or_porous_tip",
+      "construction": "complete_pen",
+      "intended_use": "ordinary_writing",
+      "combined_functions": "none",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

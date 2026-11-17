@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ca-stoneware-drinking-cup-hs6",
+    "revision": "1",
+    "description": "Stoneware drinking cup / せっ器（磁器以外）製カップ",
+    "attributes": {
+      "product_type": "drinking_cup",
+      "material": "stoneware",
+      "manufacturing_process": "fired_after_shaping",
+      "intended_use": "household_tableware",
+      "presentation": "single_article"
+    }
+  },
+  "context": {
+    "country": "CA",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

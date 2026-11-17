@@ -9,7 +9,7 @@ rc.25では、商品情報の構造化、根拠付き候補検索、追加質問
 3. 確認者・証拠・適用範囲を承認記録へ保存し、後続注文で同じ商品仕様へ再利用する。
 4. CSV・バッチAPIと通関計画を接続し、変更・取消・期限切れを検出する。
 
-同梱の `data/classification-catalog.json` は、rc.27で54か国・地域・47出典・131件の国別HS6候補ルールへ拡張しました。EU共通の2分類を各加盟国へ展開した54行を含みます。rc.27の追加19か国・地域では純コーヒー豆の3区分を照合しました。日本の初期事例では、セルロース主体と鉱物性材料主体のろ過材を区別します。国内細分や税率は同梱しておらず、HS6の参照だけで国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md)
+同梱の `data/classification-catalog.json` は、rc.28で138か国・地域・151出典・384件の国別HS6候補ルール（33種類）へ拡張しました。正式な共通品目表の適用範囲を照合した国別展開を含みます。カナダでは15商品分類を追加し、材料・用途・加工・構造・組物などの境界を属性で確認します。国内細分や税率は同梱しておらず、HS6参照だけで国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md) ・ [全仕向地と商品群の展開台帳](HS_CLASSIFICATION_ROLLOUT.md)
 
 - [セルロース主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400968.htm)
 - [鉱物性材料主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400541.htm)
@@ -38,6 +38,7 @@ rc.25では、商品情報の構造化、根拠付き候補検索、追加質問
 | `POST /v1/classification/propose` | 上位3候補、分類理由、出典ID、不足属性と追加質問。常に未確認 |
 | `POST /v1/classification/assign` | サーバーの保護された承認履歴を照合し、有効な分類を再割当 |
 | `POST /v1/classification/batch` | 同一加盟店の最大100商品を処理し、商品別結果と状態件数を返す |
+| `GET /v1/classification/rollout` | ISO249仕向地と補助XKの250件を追跡。候補・再確認・未確認・対象外を国/地域群/日付/方向/HS版/状態/ページで絞り込み |
 | `GET /v1/classification/coverage` | 読み込み済みのカタログ版・件数・対象国・輸出入区分・HS版 |
 | `GET /v1/classification/sources?offset=0&limit=25` | 出典IDを公式URL、確認日、適用期間へ解決。1回最大100件 |
 
@@ -81,3 +82,7 @@ SDKの `applyClassificationAssignments(plan, input, catalog, events, data, now)`
 有効な承認だけを `Item.hs6`・`classificationConfirmed`・申告明細の `tariffCode` へ反映します。取消・未対応・結合不足は確認フラグを解除し、既存コードとの衝突は保留します。出力の `shippingAuthorized` と `productionAuthorized` は常に `false` です。既存の許可・住所利用・税率・経路・見積もりの確認は続けて実施してください。
 
 分類出典の再確認期限と適用終了は既存の[日次期限監視](DATA_UPDATES.md)にも含めます。承認履歴の個別期限は再割当時に確認します。追加商品群のデータ整備、画像・仕様書からの属性抽出、実ECへの商品台帳接続は、国・商品群ごとに検証を進める後続作業です。
+
+## 分割作業の再開
+
+`npm run classification:rollout -- --date 2026-11-18 --write` で全仕向地のJSON・Markdownと商品01〜97類の作業表を更新できます。`npm run cli -- classification-rollout 2026-11-18` は全件JSONを返します。照会リンクだけを持つ国は公式分類の確認待ちとして残し、候補がある国も商品全体を網羅したとは表示しません。

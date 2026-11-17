@@ -1,6 +1,6 @@
 {
   "name": "@veygrit/customs-ai",
-  "version": "1.0.0-rc.27",
+  "version": "1.0.0-rc.28",
   "private": true,
   "description": "Source-backed global customs decision support for Veygrit",
   "license": "UNLICENSED",
@@ -39,7 +39,8 @@
     "tariff:pilot-cycle": "node scripts/pilot-cycle.ts",
     "settlement:verify": "node scripts/verify-import-settlement-coverage.ts",
     "classification:import": "node scripts/classification-import.ts",
-    "classification:review": "node scripts/classification-review.ts"
+    "classification:review": "node scripts/classification-review.ts",
+    "classification:rollout": "node scripts/classification-rollout.ts"
   },
   "devDependencies": {
     "@types/node": "24.10.0",
