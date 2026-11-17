@@ -1,6 +1,6 @@
 {
   "name": "@veygrit/customs-ai",
-  "version": "1.0.0-rc.25",
+  "version": "1.0.0-rc.27",
   "private": true,
   "description": "Source-backed global customs decision support for Veygrit",
   "license": "UNLICENSED",

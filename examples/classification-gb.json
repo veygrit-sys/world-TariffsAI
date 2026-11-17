@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "gb-hand-held-ceramic-salt-mill-hs6",
+    "revision": "1",
+    "description": "Hand-held salt grinder with a plastic container and ceramic grinding plate",
+    "attributes": {
+      "product_type": "salt_grinding_mill",
+      "operation": "hand_held",
+      "container_material": "plastic",
+      "grinding_plate_material": "ceramic",
+      "essential_component": "ceramic_grinding_plate",
+      "customs_territory": "great_britain"
+    }
+  },
+  "context": {
+    "country": "GB",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

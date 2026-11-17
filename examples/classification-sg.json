@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "sg-malt-beer-hs6",
+    "revision": "1",
+    "description": "Malt beer ビール 啤酒",
+    "attributes": {
+      "beverage_kind": "beer",
+      "base_material": "malted_cereals",
+      "production_method": "fermentation",
+      "intended_use": "beverage",
+      "alcohol_status": "alcoholic"
+    }
+  },
+  "context": {
+    "country": "SG",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

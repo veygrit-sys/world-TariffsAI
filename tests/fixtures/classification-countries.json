@@ -1,0 +1,2291 @@
+[
+  {
+    "ruleId": "jp-cellulose-filter-hs6",
+    "country": "JP",
+    "description": "液体ろ過用シート状ろ過材 filter medium",
+    "attributes": {
+      "product_type": "filter_medium",
+      "function": "liquid_filtration",
+      "essential_material": "cellulose",
+      "form": "sheet",
+      "composition": "reviewed cellulose and mineral constituents"
+    },
+    "wrongAttributes": {
+      "essential_material": "metal"
+    },
+    "expectedHs6": "480540"
+  },
+  {
+    "ruleId": "jp-mineral-filter-hs6",
+    "country": "JP",
+    "description": "液体ろ過用シート状ろ過材 filter medium",
+    "attributes": {
+      "product_type": "filter_medium",
+      "function": "liquid_filtration",
+      "essential_material": "mineral",
+      "form": "sheet",
+      "composition": "reviewed diatomite perlite and pulp constituents"
+    },
+    "wrongAttributes": {
+      "essential_material": "metal"
+    },
+    "expectedHs6": "681599"
+  },
+  {
+    "ruleId": "us-stainless-vacuum-flask-hs6",
+    "country": "US",
+    "description": "Stainless steel vacuum flask for beverages / ステンレス製真空保温ボトル",
+    "attributes": {
+      "product_type": "vacuum_flask",
+      "material": "stainless_steel",
+      "insulation": "vacuum_double_wall",
+      "construction": "complete_vessel",
+      "intended_use": "beverage_storage",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "insulation": "foam_filled"
+    },
+    "expectedHs6": "961700"
+  },
+  {
+    "ruleId": "us-stoneware-drinking-cup-hs6",
+    "country": "US",
+    "description": "Stoneware drinking cup / せっ器（磁器以外）製カップ",
+    "attributes": {
+      "product_type": "drinking_cup",
+      "material": "stoneware",
+      "manufacturing_process": "fired_after_shaping",
+      "intended_use": "household_tableware",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "material": "glass"
+    },
+    "expectedHs6": "691200"
+  },
+  {
+    "ruleId": "ca-stoneware-drinking-cup-hs6",
+    "country": "CA",
+    "description": "Stoneware drinking cup / せっ器（磁器以外）製カップ",
+    "attributes": {
+      "product_type": "drinking_cup",
+      "material": "stoneware",
+      "manufacturing_process": "fired_after_shaping",
+      "intended_use": "household_tableware",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "material": "glass"
+    },
+    "expectedHs6": "691200"
+  },
+  {
+    "ruleId": "ca-porcelain-drinking-cup-hs6",
+    "country": "CA",
+    "description": "Porcelain drinking cup / 磁器製カップ",
+    "attributes": {
+      "product_type": "drinking_cup",
+      "material": "porcelain",
+      "manufacturing_process": "fired_after_shaping",
+      "intended_use": "household_tableware",
+      "presentation": "single_article"
+    },
+    "wrongAttributes": {
+      "material": "glass"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "cn-single-side-glass-shower-hs6",
+    "country": "CN",
+    "description": "Glass shower enclosure 玻璃淋浴房 with one fixed and one sliding tempered glass panel",
+    "attributes": {
+      "product_type": "shower_enclosure",
+      "panels": "one_fixed_one_sliding_tempered_glass",
+      "frame": "single_sided_aluminium",
+      "essential_character": "glass",
+      "includes_tray_roof_shower": "no"
+    },
+    "wrongAttributes": {
+      "frame": "full_stainless_steel"
+    },
+    "expectedHs6": "702000"
+  },
+  {
+    "ruleId": "cn-full-metal-frame-shower-hs6",
+    "country": "CN",
+    "description": "Glass shower enclosure 玻璃淋浴房 with full stainless steel frame and curved sliding panels",
+    "attributes": {
+      "product_type": "shower_enclosure",
+      "panels": "two_fixed_flat_two_sliding_curved_tempered_glass",
+      "frame": "full_stainless_steel",
+      "essential_character": "metal_frame",
+      "includes_tray_roof_shower": "no"
+    },
+    "wrongAttributes": {
+      "frame": "single_sided_aluminium"
+    },
+    "expectedHs6": "730830"
+  },
+  {
+    "ruleId": "cn-manual-infusion-stopcock-hs6",
+    "country": "CN",
+    "description": "Manual three way stopcock 输液用三通 for an infusion liquid line",
+    "attributes": {
+      "product_type": "three_way_stopcock",
+      "mechanism": "manual_directional_valve",
+      "ports": "3",
+      "intended_use": "infusion_liquid_line",
+      "hydraulic_transmission": "no",
+      "supplied_with_catheter": "no"
+    },
+    "wrongAttributes": {
+      "supplied_with_catheter": "yes"
+    },
+    "expectedHs6": "848180"
+  },
+  {
+    "ruleId": "sg-malt-beer-hs6",
+    "country": "SG",
+    "description": "Malt beer ビール 啤酒",
+    "attributes": {
+      "beverage_kind": "beer",
+      "base_material": "malted_cereals",
+      "production_method": "fermentation",
+      "intended_use": "beverage",
+      "alcohol_status": "alcoholic"
+    },
+    "wrongAttributes": {
+      "base_material": "apple_juice"
+    },
+    "expectedHs6": "220300"
+  },
+  {
+    "ruleId": "sg-wine-distilled-brandy-hs6",
+    "country": "SG",
+    "description": "Wine distilled brandy ブランデー 白兰地",
+    "attributes": {
+      "beverage_kind": "brandy",
+      "base_material": "wine",
+      "production_method": "distillation",
+      "intended_use": "beverage",
+      "alcohol_status": "alcoholic"
+    },
+    "wrongAttributes": {
+      "base_material": "cereal_mash"
+    },
+    "expectedHs6": "220820"
+  },
+  {
+    "ruleId": "sg-fermented-apple-cider-hs6",
+    "country": "SG",
+    "description": "Fermented apple cider シードル 苹果酒",
+    "attributes": {
+      "beverage_kind": "cider",
+      "base_material": "apple_juice",
+      "production_method": "fermentation",
+      "intended_use": "beverage",
+      "alcohol_status": "alcoholic"
+    },
+    "wrongAttributes": {
+      "alcohol_status": "non_alcoholic"
+    },
+    "expectedHs6": "220600"
+  },
+  {
+    "ruleId": "au-coffee-roasted-not-decaf-hs6",
+    "country": "AU",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "au-coffee-roasted-decaf-hs6",
+    "country": "AU",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "au-coffee-unroasted-not-decaf-hs6",
+    "country": "AU",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "nz-coffee-roasted-not-decaf-hs6",
+    "country": "NZ",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "nz-coffee-roasted-decaf-hs6",
+    "country": "NZ",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "nz-coffee-unroasted-not-decaf-hs6",
+    "country": "NZ",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "at-eu-bone-china-plate-hs6",
+    "country": "AT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "at-eu-unfilled-beanbag-shell-hs6",
+    "country": "AT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "be-eu-bone-china-plate-hs6",
+    "country": "BE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "be-eu-unfilled-beanbag-shell-hs6",
+    "country": "BE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "bg-eu-bone-china-plate-hs6",
+    "country": "BG",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "bg-eu-unfilled-beanbag-shell-hs6",
+    "country": "BG",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "hr-eu-bone-china-plate-hs6",
+    "country": "HR",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "hr-eu-unfilled-beanbag-shell-hs6",
+    "country": "HR",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "cy-eu-bone-china-plate-hs6",
+    "country": "CY",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "cy-eu-unfilled-beanbag-shell-hs6",
+    "country": "CY",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "cz-eu-bone-china-plate-hs6",
+    "country": "CZ",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "cz-eu-unfilled-beanbag-shell-hs6",
+    "country": "CZ",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "dk-eu-bone-china-plate-hs6",
+    "country": "DK",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "dk-eu-unfilled-beanbag-shell-hs6",
+    "country": "DK",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "ee-eu-bone-china-plate-hs6",
+    "country": "EE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "ee-eu-unfilled-beanbag-shell-hs6",
+    "country": "EE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "fi-eu-bone-china-plate-hs6",
+    "country": "FI",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "fi-eu-unfilled-beanbag-shell-hs6",
+    "country": "FI",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "fr-eu-bone-china-plate-hs6",
+    "country": "FR",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "fr-eu-unfilled-beanbag-shell-hs6",
+    "country": "FR",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "de-eu-bone-china-plate-hs6",
+    "country": "DE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "de-eu-unfilled-beanbag-shell-hs6",
+    "country": "DE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "gr-eu-bone-china-plate-hs6",
+    "country": "GR",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "gr-eu-unfilled-beanbag-shell-hs6",
+    "country": "GR",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "hu-eu-bone-china-plate-hs6",
+    "country": "HU",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "hu-eu-unfilled-beanbag-shell-hs6",
+    "country": "HU",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "ie-eu-bone-china-plate-hs6",
+    "country": "IE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "ie-eu-unfilled-beanbag-shell-hs6",
+    "country": "IE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "it-eu-bone-china-plate-hs6",
+    "country": "IT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "it-eu-unfilled-beanbag-shell-hs6",
+    "country": "IT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "lv-eu-bone-china-plate-hs6",
+    "country": "LV",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "lv-eu-unfilled-beanbag-shell-hs6",
+    "country": "LV",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "lt-eu-bone-china-plate-hs6",
+    "country": "LT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "lt-eu-unfilled-beanbag-shell-hs6",
+    "country": "LT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "lu-eu-bone-china-plate-hs6",
+    "country": "LU",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "lu-eu-unfilled-beanbag-shell-hs6",
+    "country": "LU",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "mt-eu-bone-china-plate-hs6",
+    "country": "MT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "mt-eu-unfilled-beanbag-shell-hs6",
+    "country": "MT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "nl-eu-bone-china-plate-hs6",
+    "country": "NL",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "nl-eu-unfilled-beanbag-shell-hs6",
+    "country": "NL",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "pl-eu-bone-china-plate-hs6",
+    "country": "PL",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "pl-eu-unfilled-beanbag-shell-hs6",
+    "country": "PL",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "pt-eu-bone-china-plate-hs6",
+    "country": "PT",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "pt-eu-unfilled-beanbag-shell-hs6",
+    "country": "PT",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "ro-eu-bone-china-plate-hs6",
+    "country": "RO",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "ro-eu-unfilled-beanbag-shell-hs6",
+    "country": "RO",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "sk-eu-bone-china-plate-hs6",
+    "country": "SK",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "sk-eu-unfilled-beanbag-shell-hs6",
+    "country": "SK",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "si-eu-bone-china-plate-hs6",
+    "country": "SI",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "si-eu-unfilled-beanbag-shell-hs6",
+    "country": "SI",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "es-eu-bone-china-plate-hs6",
+    "country": "ES",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "es-eu-unfilled-beanbag-shell-hs6",
+    "country": "ES",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "se-eu-bone-china-plate-hs6",
+    "country": "SE",
+    "description": "Glazed fine bone china plate with letter artwork",
+    "attributes": {
+      "product_type": "plate",
+      "material": "fine_bone_china",
+      "surface": "glazed",
+      "diameter_cm": "about_20",
+      "decoration": "letter_artwork",
+      "primary_use": "tableware",
+      "decorative_effect": "does_not_impair_utility",
+      "wall_hangers": "not_present_at_import"
+    },
+    "wrongAttributes": {
+      "material": "stoneware"
+    },
+    "expectedHs6": "691110"
+  },
+  {
+    "ruleId": "se-eu-unfilled-beanbag-shell-hs6",
+    "country": "SE",
+    "description": "Unfilled rectangular polyester beanbag shell",
+    "attributes": {
+      "product_type": "beanbag_shell",
+      "material": "polyester",
+      "construction": "dense_woven_textile",
+      "composition": "polyester_only",
+      "shape": "rectangular",
+      "dimensions_cm": "about_185x132",
+      "filling_state": "unfilled",
+      "eyelets": "eight_metal_eyelets",
+      "intended_use": "giant_cushion_shell"
+    },
+    "wrongAttributes": {
+      "filling_state": "filled"
+    },
+    "expectedHs6": "630790"
+  },
+  {
+    "ruleId": "gb-hand-held-ceramic-salt-mill-hs6",
+    "country": "GB",
+    "description": "Hand-held salt grinder with a plastic container and ceramic grinding plate",
+    "attributes": {
+      "product_type": "salt_grinding_mill",
+      "operation": "hand_held",
+      "container_material": "plastic",
+      "grinding_plate_material": "ceramic",
+      "essential_component": "ceramic_grinding_plate",
+      "customs_territory": "great_britain"
+    },
+    "wrongAttributes": {
+      "grinding_plate_material": "metal"
+    },
+    "expectedHs6": "691200"
+  },
+  {
+    "ruleId": "gb-roasted-non-decaffeinated-coffee-hs6",
+    "country": "GB",
+    "description": "Roasted coffee beans, not decaffeinated",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans",
+      "customs_territory": "great_britain"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "kr-coffee-roasted-not-decaf-hs6",
+    "country": "KR",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "kr-coffee-roasted-decaf-hs6",
+    "country": "KR",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "kr-coffee-unroasted-not-decaf-hs6",
+    "country": "KR",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "tw-coffee-roasted-not-decaf-hs6",
+    "country": "TW",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "tw-coffee-roasted-decaf-hs6",
+    "country": "TW",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "tw-coffee-unroasted-not-decaf-hs6",
+    "country": "TW",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "hk-coffee-roasted-not-decaf-hs6",
+    "country": "HK",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "hk-coffee-roasted-decaf-hs6",
+    "country": "HK",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "hk-coffee-unroasted-not-decaf-hs6",
+    "country": "HK",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mo-coffee-roasted-not-decaf-hs6",
+    "country": "MO",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mo-coffee-roasted-decaf-hs6",
+    "country": "MO",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mo-coffee-unroasted-not-decaf-hs6",
+    "country": "MO",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "my-coffee-roasted-not-decaf-hs6",
+    "country": "MY",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "my-coffee-roasted-decaf-hs6",
+    "country": "MY",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "my-coffee-unroasted-not-decaf-hs6",
+    "country": "MY",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "th-coffee-roasted-not-decaf-hs6",
+    "country": "TH",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "th-coffee-roasted-decaf-hs6",
+    "country": "TH",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "th-coffee-unroasted-not-decaf-hs6",
+    "country": "TH",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "vn-coffee-roasted-not-decaf-hs6",
+    "country": "VN",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "vn-coffee-roasted-decaf-hs6",
+    "country": "VN",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "vn-coffee-unroasted-not-decaf-hs6",
+    "country": "VN",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ph-coffee-roasted-not-decaf-hs6",
+    "country": "PH",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ph-coffee-roasted-decaf-hs6",
+    "country": "PH",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ph-coffee-unroasted-not-decaf-hs6",
+    "country": "PH",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "id-coffee-roasted-not-decaf-hs6",
+    "country": "ID",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "id-coffee-roasted-decaf-hs6",
+    "country": "ID",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "id-coffee-unroasted-not-decaf-hs6",
+    "country": "ID",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "in-coffee-roasted-not-decaf-hs6",
+    "country": "IN",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "in-coffee-roasted-decaf-hs6",
+    "country": "IN",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "in-coffee-unroasted-not-decaf-hs6",
+    "country": "IN",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ae-coffee-roasted-not-decaf-hs6",
+    "country": "AE",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ae-coffee-roasted-decaf-hs6",
+    "country": "AE",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ae-coffee-unroasted-not-decaf-hs6",
+    "country": "AE",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "sa-coffee-roasted-not-decaf-hs6",
+    "country": "SA",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "sa-coffee-roasted-decaf-hs6",
+    "country": "SA",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "sa-coffee-unroasted-not-decaf-hs6",
+    "country": "SA",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "ch-coffee-roasted-not-decaf-hs6",
+    "country": "CH",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "ch-coffee-roasted-decaf-hs6",
+    "country": "CH",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "ch-coffee-unroasted-not-decaf-hs6",
+    "country": "CH",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "no-coffee-roasted-not-decaf-hs6",
+    "country": "NO",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "no-coffee-roasted-decaf-hs6",
+    "country": "NO",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "no-coffee-unroasted-not-decaf-hs6",
+    "country": "NO",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "is-coffee-roasted-not-decaf-hs6",
+    "country": "IS",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "is-coffee-roasted-decaf-hs6",
+    "country": "IS",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "is-coffee-unroasted-not-decaf-hs6",
+    "country": "IS",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "br-coffee-roasted-not-decaf-hs6",
+    "country": "BR",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "br-coffee-roasted-decaf-hs6",
+    "country": "BR",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "br-coffee-unroasted-not-decaf-hs6",
+    "country": "BR",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "mx-coffee-roasted-not-decaf-hs6",
+    "country": "MX",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "mx-coffee-roasted-decaf-hs6",
+    "country": "MX",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "mx-coffee-unroasted-not-decaf-hs6",
+    "country": "MX",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "za-coffee-roasted-not-decaf-hs6",
+    "country": "ZA",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "za-coffee-roasted-decaf-hs6",
+    "country": "ZA",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "za-coffee-unroasted-not-decaf-hs6",
+    "country": "ZA",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  },
+  {
+    "ruleId": "cl-coffee-roasted-not-decaf-hs6",
+    "country": "CL",
+    "description": "焙煎済み・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090121"
+  },
+  {
+    "ruleId": "cl-coffee-roasted-decaf-hs6",
+    "country": "CL",
+    "description": "焙煎済み・カフェイン除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090122"
+  },
+  {
+    "ruleId": "cl-coffee-unroasted-not-decaf-hs6",
+    "country": "CL",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    },
+    "wrongAttributes": {
+      "processing": "extracted"
+    },
+    "expectedHs6": "090111"
+  }
+]

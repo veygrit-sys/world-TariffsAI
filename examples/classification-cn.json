@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "cn-single-side-glass-shower-hs6",
+    "revision": "1",
+    "description": "Glass shower enclosure 玻璃淋浴房 with one fixed and one sliding tempered glass panel",
+    "attributes": {
+      "product_type": "shower_enclosure",
+      "panels": "one_fixed_one_sliding_tempered_glass",
+      "frame": "single_sided_aluminium",
+      "essential_character": "glass",
+      "includes_tray_roof_shower": "no"
+    }
+  },
+  "context": {
+    "country": "CN",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

@@ -5,6 +5,7 @@ const tests = [
   "tests/acquire-tariff-sources.test.ts",
   "tests/assistant.test.ts",
   "tests/classification.test.ts",
+  "tests/classification-countries.test.ts",
   "tests/classification-api.test.ts",
   "tests/classification-approvals.test.ts",
   "tests/classification-store.test.ts",
