@@ -50,3 +50,9 @@ npm run cli -- import-settlement-ledger examples/import-settlement-ledger.json 2
 ```
 
 同梱例は合成証跡による機能検証用です。実際の配送業者・税関・銀行の接続や、実注文での照合結果を示すものではありません。
+
+## 実装の保守
+
+公開スキーマと処理の入口は `src/import-settlement-ledger.ts` に保持します。内部の証跡検査・換算・参照検査は `src/settlement-ledger/evidence.ts`、申告別の集計と最終判定は `accounting.ts` に分けています。商品数量と個口の割当検査は `src/parcel-allocation.ts` を発送前確認と共有し、それぞれのAPIが従来のエラー形式へ変換します。
+
+`tests/import-settlement-refactor.test.ts` はrc.24の整理前の出力を基準に、金額・配列順序・診断・例外・承認ダイジェストの互換性を確認します。内部処理の変更時は `npm run check:public` を実行し、税表パックを用いる配布物では `npm run check` も確認します。契約記録を更新するときは、挙動を変える理由と影響範囲をレビューしてください。

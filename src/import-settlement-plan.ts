@@ -2,6 +2,7 @@ import { Ajv } from "ajv";
 import addFormatsModule from "ajv-formats";
 import { todayJst } from "./dataset.ts";
 import { EU_COUNTRIES, requestDigest } from "./engine.ts";
+import { inspectParcelAllocation } from "./parcel-allocation.ts";
 import type { ImportSettlementScope } from "./import-settlement-reconciliation.ts";
 import { invoiceReconciliationInputSchema, type InvoiceEstimate } from "./invoice-reconciliation.ts";
 import {
@@ -174,20 +175,12 @@ export function reviewImportSettlementPlan(
   if (shipping.parcelCount > 1 && !shipping.parcels)
     result.findings.push("PARCEL_ALLOCATION_REQUIRED");
   if (shipping.parcels) {
-    const allocated = new Map<string, number>();
-    const ids = new Set<string>();
-    let invalid = shipping.parcels.length !== shipping.parcelCount;
-    for (const parcel of shipping.parcels) {
-      if (ids.has(parcel.parcelId)) invalid = true;
-      ids.add(parcel.parcelId);
-      const itemIds = new Set<string>();
-      for (const item of parcel.items) {
-        if (itemIds.has(item.itemId) || !shipment.items.some(({ id }) => id === item.itemId)) invalid = true;
-        itemIds.add(item.itemId);
-        allocated.set(item.itemId, (allocated.get(item.itemId) ?? 0) + item.quantity);
-      }
-    }
-    if (shipment.items.some(({ id, quantity }) => allocated.get(id) !== quantity)) invalid = true;
+    const allocation = inspectParcelAllocation(
+      shipment.items.map(({ id, quantity }) => ({ itemId: id, quantity })), shipping.parcels,
+    );
+    const invalid = shipping.parcels.length !== shipping.parcelCount ||
+      !allocation.quantitiesMatchEveryItem ||
+      allocation.diagnostics.some(({ kind }) => kind !== "duplicate_item");
     if (invalid) result.findings.push("PARCEL_ALLOCATION_MISMATCH");
   }
   if (!legacyRoute && requestedProfile === "pilot") {
