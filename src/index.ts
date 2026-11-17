@@ -12,6 +12,8 @@ export type { CheckoutAmountHoldReason, CheckoutPreview, CheckoutTaxGroup } from
 export { planCustoms, planVeygritOrder } from "./customs-plan.ts";
 export { VERSION } from "./version.ts";
 export { releaseReadiness } from "./release-readiness.ts";
+export { parseLiveValidationRecords, loadLiveValidationRecords } from "./live-validation.ts";
+export type { LiveValidationEvidence, LiveValidationRecord, LiveValidationStage } from "./live-validation.ts";
 export { assessTradePolicy, PILOT_ROUTES } from "./trade-policy.ts";
 export type { TradePolicyInput, TradePolicyDecision, TradePolicyReason, TradePolicyScope, PilotRoute } from "./trade-policy.ts";
 export { quotePilotShipment, quoteWorldShipment, pilotQuoteShipmentDigest, pilotQuoteInputSchema, worldQuoteInputSchema } from "./pilot-quote.ts";

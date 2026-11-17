@@ -85,9 +85,9 @@
     ],
     "title": "EU transitional low-value customs duty",
     "text": {
-      "ja": "2026年7月1日からの暫定制度とIOSSのVATを分けます。本実装では、150ユーロ以下・IOSS利用または郵便・通常商品の確認済み分類に限り、HS6区分ごと3ユーロを概算します。数量を掛けません。その他の通関方式は、法令と更新されたガイダンスの範囲を再照合します。2026年11月以降の商品識別情報も確認してください。",
-      "en": "The temporary customs duty and IOSS VAT are separate. This implementation estimates €3 per confirmed HS6 category for ordinary consignments up to €150 using IOSS or post, without multiplying by quantity. Other procedures require a fresh legal-scope check. Product identifiers also require checking from November 2026.",
-      "zh": "暂行关税与IOSS增值税分开处理。本实现仅对150欧元以内、IOSS或邮政且分类已核定的普通商品，按HS六位类别估算每类3欧元，不乘件数。其他申报方式须重新核对法令与更新指引范围，亦须核对2026年11月起的商品识别信息。"
+      "ja": "2026年7月1日からの暫定関税とIOSSのVATを分けます。本実装は、本体価格合計150ユーロ以下の通常B2C貨物で、IOSS登録または対象となる通常手続、分類、申告明細数を確認して、申告明細ごと3ユーロを概算します。同じHS6でも申告行が分かれれば別明細です。物品数量を掛けません。2026年11月以降の通常手続では暫定関税の適用確認を要し、商品識別情報とUnion handling feeを別途確認します。",
+      "en": "The temporary customs duty and IOSS VAT are separate. For ordinary B2C consignments with aggregate intrinsic value up to €150, this implementation requires registered IOSS or an eligible standard procedure, confirmed classification and a confirmed declaration item count, then estimates €3 per declaration item. Separate declaration lines with the same HS6 count separately. Article quantity is not multiplied. Standard procedures from November 2026 require confirmed flat-duty treatment. Product identifiers and the Union handling fee require separate checks.",
+      "zh": "暂行关税与IOSS增值税分开处理。本实现对内在价值合计不超过150欧元的普通B2C货物，核对IOSS注册或适用的标准手续、分类和申报明细数后，按每条申报明细3欧元估算。同一HS六位编码分行申报时分别计数，不乘物品数量。2026年11月起的标准手续须确认暂行关税适用条件，并另行核对商品标识和欧盟处理费。"
     },
     "sourceIds": [
       "primary-eu-law",

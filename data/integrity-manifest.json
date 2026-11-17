@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-13.v10",
+  "version": "2026-11-18.v11",
   "algorithm": "sha256",
   "files": {
     "countries.json": "c9025979316b5680df9685b951ea348d86aa789d1447294c0bcf4b8fcea5064d",
@@ -7,11 +7,11 @@
     "wco-tariff-sources.json": "d484e20707e4f9df8e9e5b1f64f2ef57c058419c9637ddac2c33d767dd5e7562",
     "territory-customs.json": "68caffe4247fb6d2e11d50e00d5479c1eb9b59f236511aa162db79da36101c38",
     "supplemental-regions.json": "56049c62e0af4c2ea35b8f9874bfa31b06609be771d001cce6f2ad4ed6cf29ee",
-    "sources.json": "444e3c5d12fd6e327a1d9c81419d3224b8189f6b10db241d3eaa13e2deca985a",
+    "sources.json": "0522c8fc3b159a7c8aa66555500e57910e54999e1ad264205e7140a7e787c326",
     "research-cards.json": "72cc30f0955f7baf069f669a5bafb47f389e3ae8fee62ade4ded2851d451e610",
     "research-provenance.json": "cb87de6c62bc025ff314b83b505387d63191e84fd4e75c055f53304c2d416b78",
-    "knowledge.json": "770030041a9e072d71fe50ce86b25eef5ee807bb57b541f40c528a93a809e3d6",
-    "rules.json": "62a1acd05acf2c45cef793d556685fb7c52efb72437c4864c46ce8c8efa571bb",
+    "knowledge.json": "d2b15813bd625ab3ad5083e7d0f8bc5a4b0c32db9dce66eb9469f6b9b6bab101",
+    "rules.json": "411e3d5ac7bd7e838b5d27c07331c442da9133b0d9ed76fd5fb0b44cc956c5b3",
     "customs-asia.json": "a381404be4f5767bd549ba83fd89c80429ff7ab15d573f519bdd25a3bdf258e5",
     "customs-europe.json": "65fe91457824953a64a8e666151a3fd5026f5154c46a6769d3dcb7188c96fa64",
     "customs-americas.json": "b995a4e41e7c4688806ee62cc9fffdca3a40a78867ab2ec455e33d50fd79a86b",

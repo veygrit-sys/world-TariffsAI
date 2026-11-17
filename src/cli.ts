@@ -9,6 +9,7 @@ import {
   worldDirectionCoverage,
   reconcileInvoice,
   releaseReadiness,
+  loadLiveValidationRecords,
   coverageLedger,
   todayJst,
   ask,
@@ -42,7 +43,8 @@ try {
   } else if (command === "invoice-reconcile" && arg)
     result = reconcileInvoice(JSON.parse(readFileSync(arg, "utf8")));
   else if (command === "release-readiness")
-    result = releaseReadiness(data);
+    result = releaseReadiness(data, new Date(), loadLiveValidationRecords(),
+      loadOperationalTariffCatalog(data).manifestSha256());
   else if (command === "worldwide-direction" && arg)
     result = worldDirection(
       JSON.parse(readFileSync(arg, "utf8")), data, loadOperationalTariffCatalog(data),

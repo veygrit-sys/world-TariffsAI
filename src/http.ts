@@ -105,6 +105,7 @@ export interface HandlerOptions {
   selector?: EvidenceSelector;
   now?: () => Date;
   rateLimiter?: WindowRateLimiter;
+  liveValidationRecords?: unknown;
 }
 export function createHandler(options: HandlerOptions) {
   if (!options.apiKey && !options.allowUnauthenticatedLoopback)
@@ -234,7 +235,8 @@ export function createHandler(options: HandlerOptions) {
       }
       if (path === "/v1/release-readiness") {
         if (request.method !== "GET") throw new HttpError(405, "METHOD_NOT_ALLOWED");
-        return reply(200, releaseReadiness(options.dataset, now), id);
+        return reply(200, releaseReadiness(options.dataset, now,
+          options.liveValidationRecords ?? [], tariffs.manifestSha256()), id);
       }
       if (path === "/v1/pilot/quote") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");

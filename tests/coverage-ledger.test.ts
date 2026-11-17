@@ -85,7 +85,7 @@ test("each listed current rule can produce its described partial calculation", (
 });
 
 test("expired rules are unavailable even when tariff reference date is backdated", () => {
-  const expired = coverageLedger(data, catalog, date, new Date("2026-11-19T00:00:00Z"));
+  const expired = coverageLedger(data, catalog, date, new Date("2026-11-26T00:00:00Z"));
   const germany = expired.destinations.find((row) => row.destinationCountry === "DE");
   assert.equal(germany?.standardTariffStatus, "tariff_reference_on_date");
   assert.deepEqual(germany?.conditionalCalculationRules, []);

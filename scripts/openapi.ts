@@ -539,12 +539,12 @@ const releaseReadiness = record({
     route: choice(...PILOT_ROUTES),
     from: choice("JP", "CN", "US"),
     to: choice("JP", "CN", "US"),
-    checkout: { const: "pending_live_validation" },
-    customsHandoff: { const: "pending_live_validation" },
-    invoiceReconciliation: { const: "pending_live_validation" },
+    checkout: choice("pending_live_validation", "validated"),
+    customsHandoff: choice("pending_live_validation", "validated"),
+    invoiceReconciliation: choice("pending_live_validation", "validated"),
     productionAuthorized: { const: false },
   })),
-  productionVerifiedRouteCount: { const: 0 },
+  productionVerifiedRouteCount: { type: "integer", minimum: 0, maximum: PILOT_ROUTES.length },
 });
 const doc = {
   openapi: "3.1.0",
