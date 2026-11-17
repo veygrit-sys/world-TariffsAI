@@ -9,6 +9,7 @@ import { importSettlementCoverage } from "./import-settlement-coverage.ts";
 import { importSettlementDestinations } from "./import-settlement-destinations.ts";
 import { reviewImportSettlementPlan } from "./import-settlement-plan.ts";
 import { reconcileImportSettlement } from "./import-settlement-reconciliation.ts";
+import { reconcileImportSettlementLedger } from "./import-settlement-ledger.ts";
 import { releaseReadiness } from "./release-readiness.ts";
 import { VERSION } from "./version.ts";
 import { worldDirection, worldDirectionCoverage } from "./world-directions.ts";
@@ -266,6 +267,10 @@ export function createHandler(options: HandlerOptions) {
       if (path === "/v1/pilot/reconcile" || path === "/v1/worldwide/reconcile") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
         return reply(200, reconcileInvoice(await body(request)), id);
+      }
+      if (path === "/v1/import-settlement/ledger") {
+        if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        return reply(200, reconcileImportSettlementLedger(await body(request), now, options.dataset), id);
       }
       if (path === "/v1/import-settlement/plan" || path === "/v1/import-settlement/reconcile") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");

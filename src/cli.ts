@@ -8,6 +8,7 @@ import {
   worldDirection,
   worldDirectionCoverage,
   reconcileInvoice,
+  reconcileImportSettlementLedger,
   releaseReadiness,
   loadLiveValidationRecords,
   coverageLedger,
@@ -40,6 +41,11 @@ try {
     result = quote(
       JSON.parse(readFileSync(arg, "utf8")), data, loadOperationalTariffCatalog(data), now,
     );
+  } else if (command === "import-settlement-ledger" && arg) {
+    const now = referenceTime ? new Date(referenceTime) : new Date();
+    if (!Number.isFinite(now.getTime()))
+      throw new InputError([{ path: "/referenceTime", code: "INVALID_DATE_TIME" }]);
+    result = reconcileImportSettlementLedger(JSON.parse(readFileSync(arg, "utf8")), now, data);
   } else if (command === "invoice-reconcile" && arg)
     result = reconcileInvoice(JSON.parse(readFileSync(arg, "utf8")));
   else if (command === "release-readiness")
@@ -74,7 +80,7 @@ try {
     );
   } else {
     process.stderr.write(
-      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | release-readiness\n',
+      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | release-readiness\n',
     );
     process.exitCode = 2;
   }

@@ -128,7 +128,7 @@ test("wrong account, old cart/address scope, expiry and deferred routes hold bil
     ["IMPORTER_REVIEW_REQUIRED", (input) => { delete input.importerReview; }],
     ["SETTLEMENT_ROUTE_OUT_OF_SCOPE", (input) => { input.remittanceRoute = "postal_delegation"; }],
     ["SETTLEMENT_ROUTE_OUT_OF_SCOPE", (input) => { input.remittanceRoute = "direct_payment"; }],
-    ["SETTLEMENT_ROUTE_OUT_OF_SCOPE", (input) => { input.parcelCount = 2; }],
+    ["PARCEL_ALLOCATION_REQUIRED", (input) => { input.parcelCount = 2; }],
   ];
   for (const [finding, mutate] of cases) {
     const input = structuredClone(source);
@@ -220,4 +220,31 @@ test("known invoice differences require review even when another estimate amount
   assert.equal(result.carrierSettlement.status, "confirmed");
   assert.equal(result.status, "needs_review");
   assert.deepEqual(result.issues, [{ path: "/carrierInvoices/invoice", code: "ESTIMATE_INVOICE_DIFFERENCE" }]);
+});
+
+test("multiple ordinary products and parcels require complete allocation and renewed carrier acceptance", async () => {
+  const input = await accepted("DDP");
+  const first = input.quoteRequest.plan.shipment.items[0]!;
+  first.quantity = 2;
+  first.unitValue = "100000";
+  input.quoteRequest.plan.shipment.items.push({ ...first, id: "ornament-2", quantity: 1, unitValue: "90000" });
+  input.quoteRequest.plan.lines![0]!.customsValue = "200000";
+  input.quoteRequest.plan.lines!.push({ itemId: "ornament-2", tariffCode: "691390000", rateTreatment: "mfn", customsValue: "100000" });
+  input.quoteRequest.reviewedShipmentDigest = pilotQuoteShipmentDigest(input.quoteRequest.plan, input.quoteRequest.orderId, "CN");
+  input.parcelCount = 2;
+  input.parcels = [
+    { parcelId: "parcel-1", items: [{ itemId: "ornament", quantity: 1 }] },
+    { parcelId: "parcel-2", items: [{ itemId: "ornament", quantity: 1 }, { itemId: "ornament-2", quantity: 1 }] },
+  ];
+  const actualQuote = await api("pilot/quote", input.quoteRequest);
+  assert.equal(actualQuote.status, "estimated", JSON.stringify(actualQuote));
+  const before = await api(planEndpoint, input);
+  assert.ok(before.findings.includes("CARRIER_ACCEPTANCE_SCOPE_MISMATCH"));
+  input.carrierAcceptance!.scopeDigest = before.scopeDigest;
+  const acceptedMulti = await api(planEndpoint, input);
+  assert.equal(acceptedMulti.status, "ready", JSON.stringify(acceptedMulti));
+  input.parcels[1]!.items[0]!.quantity = 2;
+  const invalid = await api(planEndpoint, input);
+  assert.ok(invalid.findings.includes("PARCEL_ALLOCATION_MISMATCH"));
+  assert.notEqual(invalid.status, "ready");
 });

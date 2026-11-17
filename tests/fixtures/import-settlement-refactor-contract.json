@@ -1,0 +1,1228 @@
+{
+  "baselineCommit": "f1c67ed9fb1b3fb6d853925192f88021b0a951b9",
+  "description": "Synthetic rc.24 observable behavior before internal refactoring. Hashes cover complete results/errors; canonical object keys, original array order.",
+  "ledgerTime": "2026-11-18T00:00:00Z",
+  "planTime": "2026-11-13T02:00:00+09:00",
+  "canonicalLedgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+  "cases": [
+    {
+      "name": "combined-without-variance-review",
+      "kind": "ledger",
+      "outcomeSha256": "495461cfe77dbc2575f6130bb249cc1c2214b3a2c35eb1df2f6d7ebf7418b796",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": [
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "combined-reviewed",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "495415d34463f4de7594f1675f2b4e1cfa2252bf55f30363d5360da6690da251",
+      "outcomeKind": "result",
+      "status": "reconciled",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": []
+    },
+    {
+      "name": "reordered-reviewed",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "74401b6f3bc141bfa3e6e3cc0004a999b0613e26c113c729b517fa0205eba475",
+      "outcomeKind": "result",
+      "status": "reconciled",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": []
+    },
+    {
+      "name": "exact-document-and-rate-replay",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "495415d34463f4de7594f1675f2b4e1cfa2252bf55f30363d5360da6690da251",
+      "outcomeKind": "result",
+      "status": "reconciled",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": []
+    },
+    {
+      "name": "partial-payment",
+      "kind": "ledger",
+      "approvalDigest": "b9e72a67fd37ecc2026a9667949592b186f81070670a00db2accb96116111720",
+      "outcomeSha256": "90d2a8d0c3e7b60a2e36df04efaad12599a16b2550fb0c9ed4414d157a2eb163",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "b9e72a67fd37ecc2026a9667949592b186f81070670a00db2accb96116111720",
+      "issues": []
+    },
+    {
+      "name": "missing-assessment-payment",
+      "kind": "ledger",
+      "approvalDigest": "aa83b5df8809f1e9c63023cd3e75e457c09d72c970338b14bda555bf89fd758a",
+      "outcomeSha256": "f3054f318b29b592cfa5e423004bb9ca43cd94d782d403841d73e091d4da61dc",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "aa83b5df8809f1e9c63023cd3e75e457c09d72c970338b14bda555bf89fd758a",
+      "issues": []
+    },
+    {
+      "name": "missing-all-payments",
+      "kind": "ledger",
+      "approvalDigest": "61628d9c079ec62be369dde2f5f8b71a26dfecf9c76992cc0fc40e0c5846529e",
+      "outcomeSha256": "aa03ade0d5fdea847c40c349d3484d4e9b82a402e16f595c00300becc0309784",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "61628d9c079ec62be369dde2f5f8b71a26dfecf9c76992cc0fc40e0c5846529e",
+      "issues": []
+    },
+    {
+      "name": "missing-tax-document",
+      "kind": "ledger",
+      "approvalDigest": "8921938dc597071e60e30be9d9c57fa2fa9070103e0ec7f9f44162fe703efdfc",
+      "outcomeSha256": "adac49992ab91ccb16c5cb28886018ac67806b993435018391e9189be30f4965",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "8921938dc597071e60e30be9d9c57fa2fa9070103e0ec7f9f44162fe703efdfc",
+      "issues": [
+        {
+          "path": "/entries/assessment-tax",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/declaration-1/customs_duty",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        }
+      ]
+    },
+    {
+      "name": "missing-zero-tax-category",
+      "kind": "ledger",
+      "approvalDigest": "fc0b512ae7f6c732c2441691b75ec53d40c10a4875086ea40aa3c7358dc82d53",
+      "outcomeSha256": "fb3469f3b7c3975aa8ad87b3b78789ae1f4c384d19f838a2b213408db3523020",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "fc0b512ae7f6c732c2441691b75ec53d40c10a4875086ea40aa3c7358dc82d53",
+      "issues": []
+    },
+    {
+      "name": "missing-zero-invoice-category",
+      "kind": "ledger",
+      "approvalDigest": "b80c7c4f807dfbfa770452e9f4e55b970ca030473c691dbfc9fbf3855c8d2066",
+      "outcomeSha256": "4a18deac5b965e5c0634ed530fd3c82bf3fb8036da1d943f9b66e3a2e7478860",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "b80c7c4f807dfbfa770452e9f4e55b970ca030473c691dbfc9fbf3855c8d2066",
+      "issues": []
+    },
+    {
+      "name": "unknown-estimate-amount",
+      "kind": "ledger",
+      "approvalDigest": "a5f5b06def4905e8faa7aa6e0ec4550b5b1d03e6653f6a0a53d42ba388df935f",
+      "outcomeSha256": "9d20964e25ed5cf75b62fb4b4b04cec6bd0b7da8acfabc0a918150d5d05afefd",
+      "outcomeKind": "result",
+      "status": "pending",
+      "ledgerDigest": "a5f5b06def4905e8faa7aa6e0ec4550b5b1d03e6653f6a0a53d42ba388df935f",
+      "issues": []
+    },
+    {
+      "name": "quantity-excess",
+      "kind": "ledger",
+      "outcomeSha256": "460d7b319fbbd86f84ccba3486fcf5a882980a0a5f8bb5d26ceb75bba70a841a",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "59cd4e00cb50f84b5025088ecc3baa81661a8517547f3fab554eb515b8139d69",
+      "issues": [
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "quantity-missing",
+      "kind": "ledger",
+      "outcomeSha256": "7a847812720e67803b3783e5abe5177847bf7a7952ba93b5b467aab2526e4342",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "f2bd8410cc5b9785969d0f82a938501cf5dd9df8a7a9a9abd31a7c5236af0b3f",
+      "issues": [
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unknown-product",
+      "kind": "ledger",
+      "outcomeSha256": "c2c509cf6fe8ec4bf63855681eb72d9d93ed530a3ca0daf58b8d83a25a344cb6",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "c9701d6840e88c199beaab439d6a1d293458aa0b53850f55e4d121f918c027cd",
+      "issues": [
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "duplicate-parent-item",
+      "kind": "ledger",
+      "outcomeSha256": "fd06582ed0e8c9eb131f73a584329cda0cffcfe39aff7e54cb2f09801739326b",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "1cc6d4f766130fd379b107eb42f10a5a4568d2b813185e5c8da06ffcfbff2dd6",
+      "issues": [
+        {
+          "path": "/items",
+          "code": "DUPLICATE_ITEM_ID"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "duplicate-parcel-item",
+      "kind": "ledger",
+      "outcomeSha256": "2ccc5a8cdfd942a9fbed6b96e3e004b958c8dd3bc96a942150186bc4935836db",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "45ddead245ef24cda75855e98a238f0777a5d7729c645b436e9d72e7e199bc4b",
+      "issues": [
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "duplicate-parcel-id",
+      "kind": "ledger",
+      "outcomeSha256": "50987bb34227b7a7d3900e235e3b328737f50c8a348f7f909051539416d3547d",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "17ebc4bfb6bde5c276699685666b9b93ac8d632221ccbbf4becb6e051433a514",
+      "issues": [
+        {
+          "path": "/parcels",
+          "code": "DUPLICATE_PARCEL_ID"
+        },
+        {
+          "path": "/entries/tax-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/invoice-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/tax-refund/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/invoice-credit/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-refund/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "multiple-allocation-diagnostics",
+      "kind": "ledger",
+      "outcomeSha256": "2210322d8a444f07a83ddded3048ad9e15a58315307a8958ca12c2e4be1e5fd8",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "b343ccfeb68311f62d6a8afb08fdb47ea053cb4312e5c11efcb9dc5099e4aeb2",
+      "issues": [
+        {
+          "path": "/items",
+          "code": "DUPLICATE_ITEM_ID"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/parcels",
+          "code": "DUPLICATE_PARCEL_ID"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/entries/tax-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/invoice-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-2/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/tax-refund/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/invoice-credit/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-refund/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "wrong-merchant",
+      "kind": "ledger",
+      "outcomeSha256": "1bfe8f133773a03360e41026c418093e94d6f67c3c2ea456a77c947c99c8f88f",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "95c15b8dc07d7c871d8e3bd8986aa2fe82ad012e215689be8106eca71ff79cb9",
+      "issues": [
+        {
+          "path": "/entries/tax-1/scope",
+          "code": "SETTLEMENT_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "wrong-billing-account",
+      "kind": "ledger",
+      "outcomeSha256": "3e0ef5d682c30c771223370f08f5f2bb6cfc582f02871ecbd1fd5df69d47f010",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "3b7b2a34622943550d83e7bda38e3873776c9363392ed6227d453ca16d03ed1f",
+      "issues": [
+        {
+          "path": "/entries/invoice-1/scope",
+          "code": "SETTLEMENT_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "wrong-parcel-group",
+      "kind": "ledger",
+      "outcomeSha256": "e007aec5ca4dbc26030014fb03982554e3e93ff6a815720d9b577b807df83751",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "0e8481fb84c0f4985fb4b2a6d06c789891f8942d829f700de7427cb562e2654a",
+      "issues": [
+        {
+          "path": "/entries/tax-1/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unknown-declaration",
+      "kind": "ledger",
+      "outcomeSha256": "0685c8d25065e07419a2527c16184adbf82f3ac5840d8912868a9bb097c615b7",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "d8cfcdecac8d7a45046bbda3a9b5afa166baa4c0a82561e876aeabe343d55289",
+      "issues": [
+        {
+          "path": "/entries/tax-1/parcelIds",
+          "code": "SETTLEMENT_PARCEL_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/assessment-tax",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/declaration-1/customs_duty",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        }
+      ]
+    },
+    {
+      "name": "conflicting-document-id",
+      "kind": "ledger",
+      "outcomeSha256": "7be4968e72c53d119d54c8d163920beee7dfdd83d4cd0f782106deabb114e191",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": [
+        {
+          "path": "/entries",
+          "code": "CONFLICTING_SETTLEMENT_DOCUMENT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "conflicting-rate-id",
+      "kind": "ledger",
+      "outcomeSha256": "eb4961aa9431990be6fb2ecac5f9c3a0617c70215b3174b712d96c06a04f9a37",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": [
+        {
+          "path": "/fxRates",
+          "code": "CONFLICTING_FX_RATE"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "missing-fx",
+      "kind": "ledger",
+      "outcomeSha256": "b0f9fb5d34578a9f363cc49cad3ee7b2b2ce48f4a5cc1199d2563ce7f90a3c89",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "e1958c89dc8bec0113628d0a1a4d6505595ef8526b30fa71eb2e14cbdcd5fac4",
+      "issues": [
+        {
+          "path": "/entries/payment-1/entries/fxRateId",
+          "code": "SETTLEMENT_FX_REQUIRED"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "expired-fx",
+      "kind": "ledger",
+      "outcomeSha256": "a8594856f5d08baf23c11ad815a6f1ffe8f76ada851e6d76b37c4eb49058c25a",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "1484aecd11a9e3c12f74d8f649215f1c6391a7c37187303931371c1801bca6cf",
+      "issues": [
+        {
+          "path": "/entries/payment-1/rate/reviewBy",
+          "code": "FX_REVIEW_EXPIRED"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "future-fx-review",
+      "kind": "ledger",
+      "outcomeSha256": "d1fdfbf170a07d11d367b49999335732093ec987102affa31611091d6d4d6a4b",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "a0481ed313f1ca534cf98fab19a706a599f82b4f380a160b1debd8fa830c166d",
+      "issues": [
+        {
+          "path": "/entries/payment-1/rate/reviewedOn",
+          "code": "FX_REVIEW_NOT_OBSERVED"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "fx-outside-applicable-period",
+      "kind": "ledger",
+      "outcomeSha256": "66f87555d087cdc5602c3bf03b241c0c5e7473acb2c720e15f7c055269a05540",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "a54f7306a35c0f659e84b7e143fbfdb42629563b57b5bff6f9b34402d9035545",
+      "issues": [
+        {
+          "path": "/entries/payment-1/conversionDate",
+          "code": "FX_DATE_OUT_OF_RANGE"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "wrong-fx-direction",
+      "kind": "ledger",
+      "outcomeSha256": "f1d1d7fe828a1f1b878dc6d668c222b40a1349e9822b824d9c33c54cebccffa8",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "a8d2c7049ad98acd3eff870c8fed3251c01d2fd7c70e7d9720903ff1aac6c536",
+      "issues": [
+        {
+          "path": "/entries/payment-1/rate",
+          "code": "FX_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unnecessary-fx",
+      "kind": "ledger",
+      "outcomeSha256": "e5f1392e6d89831f62ccebb7935c67dcd702eb91812ab8006cca8fa6318cdf06",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "7eb7cb3abdbd551be55f491c1ad573dc77882421e474db1a4c0cb7a0fa728016",
+      "issues": [
+        {
+          "path": "/entries/payment-2/entries/fxRateId",
+          "code": "UNNECESSARY_FX_RATE"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_EXCEEDS_REFERENCED_AMOUNT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unsupported-evidence-currency",
+      "kind": "ledger",
+      "outcomeSha256": "c64089edaf5013a6c91c17c06f027861753d3dbe61a0b1875757b80e4a1eac56",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "eb60822d2ec05939f1964ae6fbcf42d70305aa1da97b38e9d938a10796fd9da3",
+      "issues": [
+        {
+          "path": "/entries/payment-2",
+          "code": "UNSUPPORTED_CURRENCY"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_ORIGINAL_CURRENCY_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_EXCEEDS_REFERENCED_AMOUNT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unsupported-settlement-currency",
+      "kind": "ledger",
+      "outcomeSha256": "7ba18cc857883460286f3d61118c8c361f9babed46e4481333c256d42bc0398c",
+      "outcomeKind": "error",
+      "errorName": "InputError",
+      "errorMessage": "INVALID_INPUT",
+      "issues": [
+        {
+          "path": "/scope/settlementCurrency",
+          "code": "UNSUPPORTED_CURRENCY"
+        }
+      ]
+    },
+    {
+      "name": "invalid-native-precision",
+      "kind": "ledger",
+      "outcomeSha256": "09040c39ba109e89d7b1b1b08d746b00c744543558062ba76ca0c74e0afa51e9",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "5290820e58283e2b269476942f500a5b9831689c9f0468a4feb140c191fc6146",
+      "issues": [
+        {
+          "path": "/entries/payment-2",
+          "code": "CURRENCY_PRECISION"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_EXCEEDS_REFERENCED_AMOUNT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "missing-reference",
+      "kind": "ledger",
+      "outcomeSha256": "c1a751572931d0336a2e54751022fbdb60f49cd895f570bc98f8f4d0b446ce18",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "629a13d9c3203a937083087a18cdd30d26273b994f02660f42210fcebcdb148b",
+      "issues": [
+        {
+          "path": "/entries/invoice-credit",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_REFUND_EXCEEDS_CREDIT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "wrong-reference-kind",
+      "kind": "ledger",
+      "outcomeSha256": "eaedeccc2470458ca68e2a9407849792606e83090ca317c19c6a6b3258c2b8e2",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "36ae16eedb02444c1c19bb3abd41a10f4a63a7da94a88be95d08383370fc09db",
+      "issues": [
+        {
+          "path": "/entries/invoice-credit",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_REFUND_EXCEEDS_CREDIT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "cross-declaration-reference",
+      "kind": "ledger",
+      "outcomeSha256": "f847cd692617e773a74838a444528b78c996aa4e7c1ad6cf17de874bb1294940",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "d4d00eab64094bb1cba20cb4318526d5b7008167adaa093d65c519af3ad58ea5",
+      "issues": [
+        {
+          "path": "/entries/payment-2",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "future-document",
+      "kind": "ledger",
+      "outcomeSha256": "d9ed43e48d6d54019c84d7a8ef14696e4c6e6aacc7a44536205e74c4e2cd26dc",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "2922b6663e447d06b4860c0c016ea179bf70f2bcb787474d11230a6c2b245d4e",
+      "issues": [
+        {
+          "path": "/entries/payment-2/occurredOn",
+          "code": "SETTLEMENT_DATE_OUT_OF_RANGE"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_PAYMENT_EXCEEDS_INVOICE"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "refund-before-original",
+      "kind": "ledger",
+      "outcomeSha256": "b7f49d8a007fafca4b7a3078a42eced4c34373bd2e51a48336ef9336db1b287e",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "1d18abf86ae75f39b4ec14f4b246d6ce695997da5b0bc239b060e9857bb0551f",
+      "issues": [
+        {
+          "path": "/entries/tax-refund",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "same-day-reference-cycle",
+      "kind": "ledger",
+      "outcomeSha256": "8ddd2907e444af51b531f0e091f4b0829896ffeb279c632a9fae43c053156631",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "5b57a7d70e8ccb3d1800676606403c4cecb731a1b947ec55b875dee008e84f2c",
+      "issues": [
+        {
+          "path": "/entries/tax-1",
+          "code": "SETTLEMENT_REFERENCE_CYCLE"
+        },
+        {
+          "path": "/entries/assessment-tax",
+          "code": "SETTLEMENT_REFERENCE_CYCLE"
+        }
+      ]
+    },
+    {
+      "name": "refund-exceeds-tax-category",
+      "kind": "ledger",
+      "outcomeSha256": "7fa23d520a1bf53f15e45a8fadd9c0afbed01ec39bb4309f89a52625891f5e0c",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "6e3710431f2146834819a9b0e69559e033162dfa0d02b685cc297bdba5334252",
+      "issues": [
+        {
+          "path": "/entries/tax-refund",
+          "code": "REFUND_EXCEEDS_REFERENCED_AMOUNT"
+        },
+        {
+          "path": "/entries/tax-refund",
+          "code": "REFUND_EXCEEDS_ORIGINAL_AMOUNT"
+        },
+        {
+          "path": "/entries/declaration-2/customs_duty",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        },
+        {
+          "path": "/entries/declaration-2/import_vat_gst",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        },
+        {
+          "path": "/entries/declaration-2",
+          "code": "NEGATIVE_SETTLEMENT_AMOUNT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "cumulative-refund-excess",
+      "kind": "ledger",
+      "outcomeSha256": "bf0b460643d979811c0db004cdcee76c65451ac9561749c2bf41b0f6219ee6a4",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "025e72d38812da6f5c25f08e196ca071f4ba97ac1aba3394f5771b7ed82d7240",
+      "issues": [
+        {
+          "path": "/entries/second-tax-refund",
+          "code": "REFUND_EXCEEDS_REFERENCED_AMOUNT"
+        },
+        {
+          "path": "/entries/second-tax-refund",
+          "code": "REFUND_EXCEEDS_ORIGINAL_AMOUNT"
+        },
+        {
+          "path": "/entries/declaration-2/customs_duty",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        },
+        {
+          "path": "/entries/declaration-2",
+          "code": "NEGATIVE_SETTLEMENT_AMOUNT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "cash-refund-exceeds-credit",
+      "kind": "ledger",
+      "outcomeSha256": "ae32161ec0722e8d7180ac25c19a874d8a644cfa6e8cb40454156629b81fd8c5",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "c990990359e037701103fd5b05d28d0208aca69c745e2f167011cd1496d229b9",
+      "issues": [
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_REFUND_EXCEEDS_CREDIT"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "refund-original-currency-mismatch",
+      "kind": "ledger",
+      "outcomeSha256": "000661503e65b8dd5642fdc46352a0028c93b40f9b39974634ce443ddac5b404",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "fea0a4a68d2e9ed59c2a6896006b990e9adc37c0f1a758fd1ef20288e4ce682f",
+      "issues": [
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_ORIGINAL_CURRENCY_MISMATCH"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "refund-fx-cannot-hide-native-excess",
+      "kind": "ledger",
+      "outcomeSha256": "d661ce26043a69128c61a800b6af920b932647abc2a2bb57cba47710ef8bc322",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "7c3e5071b13a0dd0bcb8cdbfbed9c585e719c2a13cc6c41017886b8e52f2f90e",
+      "issues": [
+        {
+          "path": "/entries/payment-refund",
+          "code": "REFUND_EXCEEDS_ORIGINAL_AMOUNT"
+        },
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_PAYMENT_EXCEEDS_INVOICE"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "overpayment",
+      "kind": "ledger",
+      "approvalDigest": "f49e84ffd0c890226dbb6595aab6bdc83dad5aeb262f21ca8a6e624a07101c35",
+      "outcomeSha256": "345915b26121e82099b478590efe8b07b9e1dd57ed1794d63f08ffad7fbb2085",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "f49e84ffd0c890226dbb6595aab6bdc83dad5aeb262f21ca8a6e624a07101c35",
+      "issues": [
+        {
+          "path": "/entries/invoice-2",
+          "code": "CARRIER_PAYMENT_EXCEEDS_INVOICE"
+        }
+      ]
+    },
+    {
+      "name": "tax-principal-disagreement",
+      "kind": "ledger",
+      "approvalDigest": "8a031cd74d823e73012e9bf6b4d54c8ff0d7d6507c0aa7fcbeaebedd4147533c",
+      "outcomeSha256": "8fedc54f9078105678f8e5f03ebb0af2c787cf6ae4ab79a113ff4de9ee895ab3",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "8a031cd74d823e73012e9bf6b4d54c8ff0d7d6507c0aa7fcbeaebedd4147533c",
+      "issues": [
+        {
+          "path": "/entries/declaration-1/customs_duty",
+          "code": "CARRIER_TAX_REMITTANCE_MISMATCH"
+        }
+      ]
+    },
+    {
+      "name": "duplicate-charge-category",
+      "kind": "ledger",
+      "outcomeSha256": "35591fe9a49ca34ef5c4d980428851aebcf1e03c53dcea41dab7d9ea9bc96245",
+      "outcomeKind": "error",
+      "errorName": "InputError",
+      "errorMessage": "INVALID_INPUT",
+      "issues": [
+        {
+          "path": "/entries/1/charges",
+          "code": "maxItems"
+        }
+      ]
+    },
+    {
+      "name": "invalid-receipt-shape",
+      "kind": "ledger",
+      "outcomeSha256": "724e63d68c8c1c3629862eb24dd3ee35e626dee39116a2cebf56b45c228b34cc",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "f31f0760b022310a0b25c69ecc615b50384584750315e653931db08ce01217e2",
+      "issues": [
+        {
+          "path": "/entries/payment-2",
+          "code": "SETTLEMENT_ENTRY_SHAPE_INVALID"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unsupported-route",
+      "kind": "ledger",
+      "outcomeSha256": "49c6a86dbfbe6860da3bea5f3dc77f3ff69c8bc18c4b895991096ca59a56ef70",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "67c0426bdf935c7fa819cb13ad8c1e4e7bbf492ad2f2f0d041516ffc998d8a08",
+      "issues": [
+        {
+          "path": "/scope",
+          "code": "SETTLEMENT_ROUTE_OUT_OF_SCOPE"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "backdated-variance-review",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "6c87bbb78143dc5e82222cdeea3f062de662a771a3f82d907b3f143f51bd52fc",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": [
+        {
+          "path": "/varianceReview",
+          "code": "VARIANCE_REVIEW_INVALID"
+        }
+      ]
+    },
+    {
+      "name": "future-variance-review",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "6c87bbb78143dc5e82222cdeea3f062de662a771a3f82d907b3f143f51bd52fc",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "issues": [
+        {
+          "path": "/varianceReview",
+          "code": "VARIANCE_REVIEW_INVALID"
+        }
+      ]
+    },
+    {
+      "name": "stale-variance-digest",
+      "kind": "ledger",
+      "approvalDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+      "outcomeSha256": "f43c51cabe8d09147f8e2ce475dc329e06b0c86e3b93a889cac75d6a66f0d1a3",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "b9e72a67fd37ecc2026a9667949592b186f81070670a00db2accb96116111720",
+      "issues": [
+        {
+          "path": "/varianceReview",
+          "code": "VARIANCE_REVIEW_INVALID"
+        }
+      ]
+    },
+    {
+      "name": "multiple-diagnostics-order",
+      "kind": "ledger",
+      "outcomeSha256": "ad0b7a51a90a3e6716610d7b763e930bf48c3cf1af9c66236110f13628771cfb",
+      "outcomeKind": "result",
+      "status": "needs_review",
+      "ledgerDigest": "ca303031c70ad764d382a3552bbb5d4399ba43e2c749d648971c20fd8ab981f2",
+      "issues": [
+        {
+          "path": "/parcels/items",
+          "code": "PARCEL_ALLOCATION_MISMATCH"
+        },
+        {
+          "path": "/entries/tax-1/scope",
+          "code": "SETTLEMENT_SCOPE_MISMATCH"
+        },
+        {
+          "path": "/entries/payment-2/occurredOn",
+          "code": "SETTLEMENT_DATE_OUT_OF_RANGE"
+        },
+        {
+          "path": "/entries/invoice-credit",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/entries/payment-refund",
+          "code": "SETTLEMENT_REFERENCE_INVALID"
+        },
+        {
+          "path": "/varianceReview",
+          "code": "ESTIMATE_INVOICE_DIFFERENCE"
+        }
+      ]
+    },
+    {
+      "name": "unknown-top-level-field",
+      "kind": "ledger",
+      "outcomeSha256": "2dfb38904c2ac7d68116d36f8a53abb0bb426480414f54af27e23b013438f663",
+      "outcomeKind": "error",
+      "errorName": "InputError",
+      "errorMessage": "INVALID_INPUT",
+      "issues": [
+        {
+          "path": "",
+          "code": "additionalProperties"
+        }
+      ]
+    },
+    {
+      "name": "single-no-acceptance",
+      "kind": "plan",
+      "outcomeSha256": "b54e3ca4941b69fae7406d33a7c94f53b7b7fa7351f509239d6cb1bea80f420c",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "679e4e6faa053df145d7e0ea5fff48d9f101370d1f6b6a88e5c1f37714bfb75c",
+      "issues": [
+        "CARRIER_ACCEPTANCE_REQUIRED"
+      ]
+    },
+    {
+      "name": "single-accepted",
+      "kind": "plan",
+      "approvalDigest": "679e4e6faa053df145d7e0ea5fff48d9f101370d1f6b6a88e5c1f37714bfb75c",
+      "outcomeSha256": "896e051e869c3a4de093125f13720a6e1cbb632ab05340100eb6a586050909b6",
+      "outcomeKind": "result",
+      "status": "ready",
+      "scopeDigest": "679e4e6faa053df145d7e0ea5fff48d9f101370d1f6b6a88e5c1f37714bfb75c",
+      "issues": []
+    },
+    {
+      "name": "multiple-accepted",
+      "kind": "plan",
+      "approvalDigest": "97783aaf1d887254d0591d3aa1b01b8a31757edea3241c071a8ab7d3363e9def",
+      "outcomeSha256": "115f3cefcb95f72aee0916e4f8d7fe397df54d13539ab9ae18b4737e6b49a802",
+      "outcomeKind": "result",
+      "status": "ready",
+      "scopeDigest": "97783aaf1d887254d0591d3aa1b01b8a31757edea3241c071a8ab7d3363e9def",
+      "issues": []
+    },
+    {
+      "name": "multiple-missing-allocation",
+      "kind": "plan",
+      "approvalDigest": "3d38c99db6e1e555a13b136143cd4f4973b39d7476c629cf663fa8082dd4dba1",
+      "outcomeSha256": "2ed4463c36be2a8dfa886ab4935dc2ab5ce6ab1107c3a48bb75af2cf57fbee67",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "3d38c99db6e1e555a13b136143cd4f4973b39d7476c629cf663fa8082dd4dba1",
+      "issues": [
+        "PARCEL_ALLOCATION_REQUIRED"
+      ]
+    },
+    {
+      "name": "multiple-parcel-count-mismatch",
+      "kind": "plan",
+      "approvalDigest": "330d95e29465f4362af254ddeba3e42ee02b55005ef39b1db33e212dee56cb1d",
+      "outcomeSha256": "6c14391cbd049e16876fd430a28436bc8c5ee3feecbf2b2a40856ba132de1e0d",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "330d95e29465f4362af254ddeba3e42ee02b55005ef39b1db33e212dee56cb1d",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-duplicate-parcel",
+      "kind": "plan",
+      "approvalDigest": "0b4a93b753dd5f4420e93e1abab4b810fd76623f39c5dc6c2557b52deb92a40a",
+      "outcomeSha256": "2200f06e784639b8ef66b39b6ea53936d2770e199af8c469fb59ce29f96db3cc",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "0b4a93b753dd5f4420e93e1abab4b810fd76623f39c5dc6c2557b52deb92a40a",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-duplicate-parcel-item",
+      "kind": "plan",
+      "approvalDigest": "a7f15e190af65b9477723b7394a793ec8fbda9c75f5746de0028b62529c6a7bb",
+      "outcomeSha256": "2af4b574b86f11d1f5206fe223e0f1ec34dbb3071fba330081451aa7356afdfa",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "a7f15e190af65b9477723b7394a793ec8fbda9c75f5746de0028b62529c6a7bb",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-unknown-item",
+      "kind": "plan",
+      "approvalDigest": "486dcc251c67ea63688229d820958c969deb628584c36d4de8f4f31588c4effa",
+      "outcomeSha256": "061b58ee176c84788bfdb34ba6113354a96065231fbe27400c994c60847caba2",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "486dcc251c67ea63688229d820958c969deb628584c36d4de8f4f31588c4effa",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-missing-quantity",
+      "kind": "plan",
+      "approvalDigest": "087c421a1fc1524b7740b333ebe9dbfedd5a584f072e4f314eca1dc630d8096e",
+      "outcomeSha256": "337932eaeb34ccf26b831746e7958ac881966fe2f7d20a60e10c4c11c0573617",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "087c421a1fc1524b7740b333ebe9dbfedd5a584f072e4f314eca1dc630d8096e",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-extra-quantity",
+      "kind": "plan",
+      "approvalDigest": "4d118e63f2b8a105af2a927aa2b9679502cf475f599a61f755124e14a79bba19",
+      "outcomeSha256": "52773ec83f33abf5e674d76f67216dd6314c9eca361a0600581dd0cd643a886f",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "4d118e63f2b8a105af2a927aa2b9679502cf475f599a61f755124e14a79bba19",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "multiple-allocation-diagnostics",
+      "kind": "plan",
+      "approvalDigest": "543a5d868b468757d807c36abbac6dfefaaea52eaf81a84908499ea374bc7ae4",
+      "outcomeSha256": "630d9689ce51b946e4bc10e53246ca4f832d57727b1217be3cda00dd72051123",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "543a5d868b468757d807c36abbac6dfefaaea52eaf81a84908499ea374bc7ae4",
+      "issues": [
+        "PARCEL_ALLOCATION_MISMATCH"
+      ]
+    },
+    {
+      "name": "single-missing-importer",
+      "kind": "plan",
+      "approvalDigest": "f1764827f0d459588078fa87af19bed5a513045b2c1fe11577b6771f59dd6287",
+      "outcomeSha256": "e6462cffe9e1717b30ef51180e5c799460b3cd94e8d227f8d9bb5b94c7e5e926",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "f1764827f0d459588078fa87af19bed5a513045b2c1fe11577b6771f59dd6287",
+      "issues": [
+        "IMPORTER_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "name": "single-wrong-bill-to",
+      "kind": "plan",
+      "approvalDigest": "9b59e8db9a6c1f9bb0b21adc07bfd418ea3cf28d403611206271d3b6df41e279",
+      "outcomeSha256": "fc2512bec8dc421c9399f8ef40f82e6ce9dc13758c125b8dfdfd9f143f8e0650",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "9b59e8db9a6c1f9bb0b21adc07bfd418ea3cf28d403611206271d3b6df41e279",
+      "issues": [
+        "REQUESTED_BILL_TO_MISMATCH"
+      ]
+    },
+    {
+      "name": "single-unsupported-payment-route",
+      "kind": "plan",
+      "approvalDigest": "510734d3981f158b0c7223d033329535a07fe67830ac3f6e8b539061cd675ee4",
+      "outcomeSha256": "ff7faad3c1d9cce4f7ec2b24805c0106de2caf5766e615b1d3674c8df5bde535",
+      "outcomeKind": "result",
+      "status": "out_of_scope",
+      "scopeDigest": "510734d3981f158b0c7223d033329535a07fe67830ac3f6e8b539061cd675ee4",
+      "issues": [
+        "SETTLEMENT_ROUTE_OUT_OF_SCOPE"
+      ]
+    },
+    {
+      "name": "single-future-acceptance",
+      "kind": "plan",
+      "approvalDigest": "679e4e6faa053df145d7e0ea5fff48d9f101370d1f6b6a88e5c1f37714bfb75c",
+      "outcomeSha256": "5a72de5378e3e1d5d0a79c4b140d0068bdc3196b4d4fdc4f90c705ea848e66ff",
+      "outcomeKind": "result",
+      "status": "review_required",
+      "scopeDigest": "679e4e6faa053df145d7e0ea5fff48d9f101370d1f6b6a88e5c1f37714bfb75c",
+      "issues": [
+        "CARRIER_ACCEPTANCE_DATE_INVALID"
+      ]
+    },
+    {
+      "name": "single-unknown-top-level-field",
+      "kind": "plan",
+      "outcomeSha256": "2dfb38904c2ac7d68116d36f8a53abb0bb426480414f54af27e23b013438f663",
+      "outcomeKind": "error",
+      "errorName": "InputError",
+      "errorMessage": "INVALID_INPUT",
+      "issues": [
+        {
+          "path": "",
+          "code": "additionalProperties"
+        }
+      ]
+    }
+  ]
+}

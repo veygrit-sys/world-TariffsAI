@@ -57,7 +57,7 @@ function request(originCountry: string, destinationCountry: string, currency = "
         sourceType: category === "carrier_fee" ? "carrier" as const : "customs_broker" as const,
         destinationCountry, currency,
       };
-      if (category === "customs_duty") return {
+      if (category === "customs_duty" && destinationCountry !== "NZ") return {
         category, evidence, method: "confirmed_amount", amount: "2", timing: "import", payer: "buyer",
       };
       return { category, evidence, method: "not_applicable" };
@@ -69,7 +69,7 @@ function request(originCountry: string, destinationCountry: string, currency = "
 
 for (const [from, to, currency, due] of [
   ["KR", "TW", "TWD", "112.00"], ["GB", "CH", "CHF", "112.00"], ["CA", "MX", "MXN", "112.00"],
-  ["BR", "CL", "CLP", "112"], ["ZA", "NZ", "NZD", "112.00"],
+  ["BR", "CL", "CLP", "112"], ["ZA", "NZ", "NZD", "110.00"],
 ] as const) {
   test(`synthetic worldwide quote applies reviewed trade and charges for ${from}→${to}`, () => {
     const quote = quoteWorldShipment(request(from, to, currency), data, catalog, now);

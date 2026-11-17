@@ -406,14 +406,10 @@ function quoteShipment(
   let atImport = 0n;
   let importCharges = 0n;
   let expiresAt = Date.parse(customs.checkout.expiresAt);
-  // These assessed amounts apply to the full confirmed consignment.
-  const applicableImportCharges = customs.checkout.importTaxAndDuty.charges.filter(
-    ({ kind, ruleId, collection, basis }) =>
-      (ruleId === "EU_TEMP_LOW_VALUE" && kind === "customs_duty" &&
-        collection === "import" && basis === "confirmed_customs_declaration_item_count") ||
-      (ruleId === "JP_LOW_VALUE" && collection === "not_applicable" &&
-        (kind === "customs_duty" || kind === "import_vat_gst")),
-  );
+  // These current assessed amounts apply to the full confirmed consignment.
+  // Line-level tariff references remain separate and are not summed or promoted
+  // into a consignment assessment by this evidence-consistency check.
+  const applicableImportCharges = customs.checkout.importTaxAndDuty.charges;
   if (scope === "worldwide" && !tradeIssue && tradeReview?.status === "confirmed")
     expiresAt = Math.min(expiresAt, endOfDay(tradeReview.evidence.effectiveThrough), endOfDay(tradeReview.evidence.reviewBy));
   const fullZeroDutyPolicy = customs.lines.every(({ dutyScenario }) =>

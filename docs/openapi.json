@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Veygrit Customs AI",
-    "version": "1.0.0-rc.23",
+    "version": "1.0.0-rc.24",
     "description": "Decision support. Country recognition is global; numeric coverage is explicitly scoped. No customs filing or shipping authorisation."
   },
   "servers": [
@@ -1625,7 +1625,7 @@
                   ],
                   "properties": {
                     "version": {
-                      "const": "1.0.0-rc.23"
+                      "const": "1.0.0-rc.24"
                     },
                     "status": {
                       "const": "pilot"
@@ -4603,6 +4603,113 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ImportSettlementReconciliation"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid or extra input fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid service credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Browser origin rejected",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "HTTP method not allowed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 64 KiB",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Expected uncompressed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Process-local rate limit exceeded",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic internal error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/import-settlement/ledger": {
+      "post": {
+        "summary": "Reconcile parcel allocations, reassessments, refunds and reviewed settlement FX for one order",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ImportSettlementLedgerInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Source-backed decision support",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImportSettlementLedger"
                 }
               }
             }
@@ -12770,6 +12877,49 @@
             "minimum": 1,
             "maximum": 999
           },
+          "parcels": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 999,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "parcelId",
+                "items"
+              ],
+              "properties": {
+                "parcelId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 100,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "itemId",
+                      "quantity"
+                    ],
+                    "properties": {
+                      "itemId": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                      },
+                      "quantity": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 1000000
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "direct": {
             "type": "boolean"
           },
@@ -14433,6 +14583,939 @@
           "invoiceReconciliation",
           "totals",
           "issues"
+        ]
+      },
+      "ImportSettlementLedgerInput": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "merchantId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "orderId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "estimateId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "originCountry": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "destinationCountry": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "settlementCurrency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "carrierId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "carrierService": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "billingParty": {
+                "enum": [
+                  "seller",
+                  "buyer"
+                ]
+              },
+              "billingAccountRef": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "remittanceRoute": {
+                "const": "carrier_advance"
+              }
+            },
+            "required": [
+              "merchantId",
+              "orderId",
+              "estimateId",
+              "originCountry",
+              "destinationCountry",
+              "settlementCurrency",
+              "carrierId",
+              "carrierService",
+              "billingParty",
+              "billingAccountRef",
+              "remittanceRoute"
+            ]
+          },
+          "estimate": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "estimateId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "orderId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "currency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "issuedOn": {
+                "type": "string",
+                "format": "date"
+              },
+              "charges": {
+                "type": "array",
+                "minItems": 6,
+                "maxItems": 6,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "category": {
+                      "enum": [
+                        "customs_duty",
+                        "import_vat_gst",
+                        "additional_duty",
+                        "excise",
+                        "customs_fee",
+                        "carrier_fee"
+                      ]
+                    },
+                    "amount": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^(0|[1-9]\\d{0,11})(\\.\\d{1,4})?$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "category",
+                    "amount"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "estimateId",
+              "orderId",
+              "currency",
+              "issuedOn",
+              "charges"
+            ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "itemId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "quantity": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 1000000
+                }
+              },
+              "required": [
+                "itemId",
+                "quantity"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 100
+          },
+          "parcels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "parcelId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "shipmentId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "declarationId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "itemId": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                      },
+                      "quantity": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 1000000
+                      }
+                    },
+                    "required": [
+                      "itemId",
+                      "quantity"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 100
+                }
+              },
+              "required": [
+                "parcelId",
+                "shipmentId",
+                "declarationId",
+                "items"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 999
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "entryId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "kind": {
+                  "enum": [
+                    "customs_remittance",
+                    "customs_refund",
+                    "carrier_invoice",
+                    "carrier_credit",
+                    "carrier_payment",
+                    "carrier_refund"
+                  ]
+                },
+                "scope": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "merchantId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "orderId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "estimateId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "originCountry": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{2}$"
+                    },
+                    "destinationCountry": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{2}$"
+                    },
+                    "settlementCurrency": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{3}$"
+                    },
+                    "carrierId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "carrierService": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "billingParty": {
+                      "enum": [
+                        "seller",
+                        "buyer"
+                      ]
+                    },
+                    "billingAccountRef": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "remittanceRoute": {
+                      "const": "carrier_advance"
+                    }
+                  },
+                  "required": [
+                    "merchantId",
+                    "orderId",
+                    "estimateId",
+                    "originCountry",
+                    "destinationCountry",
+                    "settlementCurrency",
+                    "carrierId",
+                    "carrierService",
+                    "billingParty",
+                    "billingAccountRef",
+                    "remittanceRoute"
+                  ]
+                },
+                "declarationId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "parcelIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 999,
+                  "uniqueItems": true
+                },
+                "occurredOn": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "evidenceId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "fxRateId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "referenceEntryId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "charges": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "category": {
+                        "enum": [
+                          "customs_duty",
+                          "import_vat_gst",
+                          "additional_duty",
+                          "excise",
+                          "customs_fee",
+                          "carrier_fee"
+                        ]
+                      },
+                      "amount": {
+                        "type": "string",
+                        "pattern": "^(0|[1-9]\\d{0,11})(\\.\\d{1,4})?$"
+                      }
+                    },
+                    "required": [
+                      "category",
+                      "amount"
+                    ]
+                  },
+                  "minItems": 1,
+                  "maxItems": 6
+                },
+                "amount": {
+                  "type": "string",
+                  "pattern": "^(0|[1-9]\\d{0,11})(\\.\\d{1,4})?$"
+                },
+                "adjustment": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "kind": {
+                      "enum": [
+                        "additional_assessment",
+                        "refund"
+                      ]
+                    },
+                    "referenceEntryId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    },
+                    "evidenceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                    }
+                  },
+                  "required": [
+                    "kind",
+                    "referenceEntryId",
+                    "evidenceId"
+                  ]
+                }
+              },
+              "required": [
+                "entryId",
+                "kind",
+                "scope",
+                "declarationId",
+                "parcelIds",
+                "occurredOn",
+                "evidenceId",
+                "currency"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 1000
+          },
+          "fxRates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "from",
+                "to",
+                "numerator",
+                "denominator",
+                "purpose",
+                "sourceId",
+                "evidenceId",
+                "validFrom",
+                "validTo",
+                "reviewedOn",
+                "reviewBy",
+                "rounding"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "from": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "to": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "numerator": {
+                  "type": "string",
+                  "pattern": "^[1-9][0-9]{0,17}$"
+                },
+                "denominator": {
+                  "type": "string",
+                  "pattern": "^[1-9][0-9]{0,17}$"
+                },
+                "purpose": {
+                  "const": "import_settlement"
+                },
+                "sourceId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "evidenceId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "validFrom": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "validTo": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "reviewedOn": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "reviewBy": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "rounding": {
+                  "enum": [
+                    "half_up",
+                    "down",
+                    "up"
+                  ]
+                }
+              }
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "varianceReview": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "ledgerDigest": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "evidenceId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "reviewerRef": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+              },
+              "reviewedOn": {
+                "type": "string",
+                "format": "date"
+              }
+            },
+            "required": [
+              "ledgerDigest",
+              "evidenceId",
+              "reviewerRef",
+              "reviewedOn"
+            ]
+          }
+        },
+        "required": [
+          "scope",
+          "estimate",
+          "items",
+          "parcels",
+          "entries"
+        ]
+      },
+      "ImportSettlementLedger": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "pending",
+              "reconciled",
+              "needs_review"
+            ]
+          },
+          "orderId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+          },
+          "estimateId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+          },
+          "currency": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          },
+          "ledgerDigest": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "declarations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "declarationId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "parcelIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 999
+                },
+                "status": {
+                  "enum": [
+                    "pending",
+                    "reconciled",
+                    "needs_review"
+                  ]
+                }
+              },
+              "required": [
+                "declarationId",
+                "parcelIds",
+                "status"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 999
+          },
+          "totals": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "originalEstimate": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "originalInvoiced": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "additionalAssessments": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "credits": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "adjustedInvoiced": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "customsTax": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "carrierFees": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "paid": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "refunded": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "netPaid": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "balance": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^-?(0|[1-9]\\d{0,17})(\\.\\d{1,4})?$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "originalEstimate",
+              "originalInvoiced",
+              "additionalAssessments",
+              "credits",
+              "adjustedInvoiced",
+              "customsTax",
+              "carrierFees",
+              "paid",
+              "refunded",
+              "netPaid",
+              "balance"
+            ]
+          },
+          "conversions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "entryId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                },
+                "category": {
+                  "enum": [
+                    "customs_duty",
+                    "import_vat_gst",
+                    "additional_duty",
+                    "excise",
+                    "customs_fee",
+                    "carrier_fee",
+                    "payment"
+                  ]
+                },
+                "conversion": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "original",
+                    "converted",
+                    "conversionDate",
+                    "rate"
+                  ],
+                  "properties": {
+                    "original": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "currency",
+                        "value"
+                      ],
+                      "properties": {
+                        "currency": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        },
+                        "value": {
+                          "type": "string",
+                          "pattern": "^(0|[1-9][0-9]{0,11})(\\.[0-9]{1,4})?$"
+                        }
+                      }
+                    },
+                    "converted": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "currency",
+                        "value"
+                      ],
+                      "properties": {
+                        "currency": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        },
+                        "value": {
+                          "type": "string",
+                          "pattern": "^(0|[1-9][0-9]{0,11})(\\.[0-9]{1,4})?$"
+                        }
+                      }
+                    },
+                    "conversionDate": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "rate": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "id",
+                        "from",
+                        "to",
+                        "numerator",
+                        "denominator",
+                        "purpose",
+                        "sourceId",
+                        "evidenceId",
+                        "validFrom",
+                        "validTo",
+                        "reviewedOn",
+                        "reviewBy",
+                        "rounding"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        },
+                        "from": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        },
+                        "to": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        },
+                        "numerator": {
+                          "type": "string",
+                          "pattern": "^[1-9][0-9]{0,17}$"
+                        },
+                        "denominator": {
+                          "type": "string",
+                          "pattern": "^[1-9][0-9]{0,17}$"
+                        },
+                        "purpose": {
+                          "const": "import_settlement"
+                        },
+                        "sourceId": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        },
+                        "evidenceId": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        },
+                        "validFrom": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "validTo": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "reviewedOn": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "reviewBy": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "rounding": {
+                          "enum": [
+                            "half_up",
+                            "down",
+                            "up"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "required": [
+                "entryId",
+                "category",
+                "conversion"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 6000
+          },
+          "issues": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "path": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "path",
+                "code"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 10000
+          },
+          "shippingAuthorized": {
+            "const": false
+          },
+          "productionAuthorized": {
+            "const": false
+          }
+        },
+        "required": [
+          "status",
+          "orderId",
+          "estimateId",
+          "currency",
+          "ledgerDigest",
+          "declarations",
+          "totals",
+          "conversions",
+          "issues",
+          "shippingAuthorized",
+          "productionAuthorized"
         ]
       },
       "Ask": {

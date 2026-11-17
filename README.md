@@ -2,7 +2,7 @@
 
 Veygrit向けの関税・通関判断支援エンジンです。TypeScript・Node.jsのAPIとCLIに、通関準備、根拠付きの見積もり、DAP・DDPの請求照合、Next.js・WooCommerce連携例を収録しています。
 
-**v1.0.0-rc.23** は、知識検索でも照会時点までに確認済みの根拠だけをAIへ渡します。購入画面・通関引き継ぎ・請求照合の運用者レビューを、同じ注文とデータ版に結び付けて準備状況へ反映できます。EUの根拠を11月18日に再確認し、申告明細数による計算説明を訂正しました。 [EU出典の再確認記録](docs/EU_SOURCE_REVIEW_20261118.md)
+**v1.0.0-rc.24** は、商品数量と個口の割当、複数申告の納付・請求・支払い、返金・追徴を注文単位で照合します。異通貨の証跡は、確認済みの精算用為替と丸め方法を記録して換算します。出典・計算ルールの期限を毎日検査し、要確認事項をGitHub Issueで管理するワークフローも追加しました。 [輸入精算台帳](docs/IMPORT_SETTLEMENT_LEDGER.md) ・ [期限監視](docs/DATA_UPDATES.md)
 
 ## 公開リポジトリの対応範囲
 
@@ -86,6 +86,7 @@ curl http://127.0.0.1:3008/v1/customs/plan \
 | `GET /v1/import-settlement/destinations` | 発送国または輸入国を基準に、往路・復路の相手先と保留理由を一覧で確認 |
 | `POST /v1/import-settlement/plan` | DAP・DDPの費用負担と配送業者の受諾済み請求先を方向別に照合 |
 | `POST /v1/import-settlement/reconcile` | 税関への納付・配送業者の請求と支払いを、保存済み見積もりと照合 |
+| `POST /v1/import-settlement/ledger` | 複数個口・複数申告、返金・追徴、確認済み為替による注文単位の精算照合 |
 | `GET /v1/sources`          | 出典・確認日・再確認期限         |
 | `GET /v1/tariffs/coverage` | 関税・付加税の収録版と対象範囲 |
 | `GET /v1/tariffs/evidence` | 仕向地の税表原本、公式照会先と追加で必要な根拠 |

@@ -2,6 +2,7 @@ import { Ajv } from "ajv";
 import addFormatsModule from "ajv-formats";
 import { todayJst } from "./dataset.ts";
 import { EU_COUNTRIES, requestDigest } from "./engine.ts";
+import { inspectParcelAllocation } from "./parcel-allocation.ts";
 import type { ImportSettlementScope } from "./import-settlement-reconciliation.ts";
 import { invoiceReconciliationInputSchema, type InvoiceEstimate } from "./invoice-reconciliation.ts";
 import {
@@ -33,6 +34,11 @@ const importerReview = object({ importerRef: opaqueId, brokerRef: opaqueId, evid
 const acceptance = object({
   scopeDigest: digest, billTo, evidenceRef: opaqueId, acceptedAt: instant, expiresAt: instant,
 });
+const parcelSchema = object({
+  parcelId: opaqueId,
+  items: { type: "array", minItems: 1, maxItems: 100,
+    items: object({ itemId: opaqueId, quantity: { type: "integer", minimum: 1, maximum: 1000000 } }) },
+});
 
 export const importSettlementPlanInputSchema = object({
   merchantId: opaqueId,
@@ -42,6 +48,7 @@ export const importSettlementPlanInputSchema = object({
   carrierId: opaqueId,
   carrierService: opaqueId,
   parcelCount: { type: "integer", minimum: 1, maximum: 999 },
+  parcels: { type: "array", minItems: 1, maxItems: 999, items: parcelSchema },
   direct: { type: "boolean" },
   remittanceRoute: { enum: ["carrier_advance", "postal_delegation", "direct_payment"] },
   buyerIsRecipient: { type: "boolean" },
@@ -59,6 +66,8 @@ export interface ImportSettlementPlanInput {
   carrierId: string;
   carrierService: string;
   parcelCount: number;
+  /** Required for multiple parcels; allocates every quoted unit exactly once. */
+  parcels?: { parcelId: string; items: { itemId: string; quantity: number }[] }[];
   direct: boolean;
   remittanceRoute: "carrier_advance" | "postal_delegation" | "direct_payment";
   buyerIsRecipient: boolean;
@@ -157,11 +166,22 @@ export function reviewImportSettlementPlan(
         (shipment.transitRoute.completeness !== "confirmed" || shipment.transitRoute.stops.length > 0)) ||
       !["air", "courier_unspecified"].includes(shipment.transport) ||
       shipment.transaction !== "b2c_sale" || shipment.regime !== "standard" ||
-      shipment.items.length !== 1 || shipment.items[0]?.goodsType !== "ordinary" ||
-      shipping.parcelCount !== 1 || shipping.remittanceRoute !== "carrier_advance") {
+      shipment.items.some(({ goodsType }) => goodsType !== "ordinary") ||
+      shipping.remittanceRoute !== "carrier_advance") {
     result.status = "out_of_scope";
     result.findings.push("SETTLEMENT_ROUTE_OUT_OF_SCOPE");
     return result;
+  }
+  if (shipping.parcelCount > 1 && !shipping.parcels)
+    result.findings.push("PARCEL_ALLOCATION_REQUIRED");
+  if (shipping.parcels) {
+    const allocation = inspectParcelAllocation(
+      shipment.items.map(({ id, quantity }) => ({ itemId: id, quantity })), shipping.parcels,
+    );
+    const invalid = shipping.parcels.length !== shipping.parcelCount ||
+      !allocation.quantitiesMatchEveryItem ||
+      allocation.diagnostics.some(({ kind }) => kind !== "duplicate_item");
+    if (invalid) result.findings.push("PARCEL_ALLOCATION_MISMATCH");
   }
   if (!legacyRoute && requestedProfile === "pilot") {
     result.status = "out_of_scope";
