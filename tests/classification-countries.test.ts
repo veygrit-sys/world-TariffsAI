@@ -49,20 +49,28 @@ test("every bundled country-specific candidate has a positive, incomplete and co
     const conflict = request(row);
     Object.assign(conflict.product.attributes, row.wrongAttributes);
     assert.ok(!proposeClassification(conflict, catalog, data, now).candidates.some(value => value.ruleId === row.ruleId));
-    const incomplete = request(row);
-    const missing = catalog.rules.find(rule => rule.id === row.ruleId)!.requiredAttributes[0]!;
-    delete incomplete.product.attributes[missing];
-    const held = proposeClassification(incomplete, catalog, data, now);
-    const partial = held.candidates.find(value => value.ruleId === row.ruleId);
-    assert.ok(partial?.missingAttributes.includes(missing), JSON.stringify(held));
-    assert.ok(held.questions.some(value => value.attribute === missing));
-    assert.equal(held.classificationConfirmed, false);
+    const rule = catalog.rules.find(rule => rule.id === row.ruleId)!;
+    for (const missing of rule.requiredAttributes) {
+      const incomplete = request(row);
+      delete incomplete.product.attributes[missing];
+      const held = proposeClassification(incomplete, catalog, data, now);
+      const partial = held.candidates.find(value => value.ruleId === row.ruleId);
+      assert.ok(partial?.missingAttributes.includes(missing), row.ruleId + ": " + missing);
+      assert.ok(held.questions.some(value => value.attribute === missing), row.ruleId + ": " + missing);
+      assert.equal(held.classificationConfirmed, false);
+    }
+    for (const attribute of Object.keys(rule.attributeConditions)) {
+      const conflict = request(row);
+      conflict.product.attributes[attribute] = "intentionally_conflicting_attribute_value";
+      assert.ok(!proposeClassification(conflict, catalog, data, now).candidates
+        .some(value => value.ruleId === row.ruleId), row.ruleId + ": " + attribute);
+    }
   });
 });
 
 test("country coverage distinguishes shared EU references from unrelated country classifications", () => {
   const countries = [...new Set(catalog.rules.map(rule => rule.country))].sort();
-  assert.deepEqual(countries, [...EU_COUNTRIES, "JP", "US", "CA", "CN", "SG", "AU", "NZ", "GB"].sort());
+  assert.deepEqual(countries, [...EU_COUNTRIES, "JP", "US", "CA", "CN", "SG", "AU", "NZ", "GB", "AE", "BR", "CH", "CL", "HK", "ID", "IN", "IS", "KR", "MO", "MX", "MY", "NO", "PH", "SA", "TH", "TW", "VN", "ZA"].sort());
   const authorities = catalog.sources.filter(source => source.id.startsWith("eu-reg-"));
   assert.equal(authorities.length, 2);
   for (const source of authorities) assert.deepEqual([...source.countries].sort(), [...EU_COUNTRIES].sort());
@@ -72,8 +80,8 @@ test("country coverage distinguishes shared EU references from unrelated country
   }
 });
 
-test("foreign reference candidates cannot silently approve export or expired classifications", () => {
-  for (const country of ["US", "CA", "CN", "SG", "AU", "NZ", "GB", "DE"]) {
+test("every country rejects reference-only approval and mismatched direction, edition or dates", () => {
+  for (const country of new Set(cases.map(row => row.country))) {
     const row = cases.find(value => value.country === country)!;
     const input = request(row);
     const proposed = proposeClassification(input, catalog, data, now);
@@ -84,7 +92,9 @@ test("foreign reference candidates cannot silently approve export or expired cla
       error.issues.some(issue => issue.code === "CLASSIFICATION_REVIEWABLE_CODE_REQUIRED"));
     input.context.direction = "export";
     assert.equal(proposeClassification(input, catalog, data, now).candidates.length, 0);
-    input.context.direction = "import"; input.context.date = "2026-12-19";
+    input.context.direction = "import"; input.context.hsEdition = "HS2017";
+    assert.equal(proposeClassification(input, catalog, data, now).candidates.length, 0);
+    input.context.hsEdition = "HS2022"; input.context.date = "2026-12-19";
     assert.equal(proposeClassification(input, catalog, data, new Date("2026-12-19T03:00:00Z")).candidates.length, 0);
   }
 });
@@ -97,7 +107,7 @@ test("loaded-country API exposes expanded reference scope and keeps domestic aut
   }), { peer: "127.0.0.1" });
   assert.equal(response.status, 200);
   const result = await response.json();
-  assert.equal(result.countries.length, 35);
+  assert.equal(result.countries.length, 54);
   assert.equal(result.ruleCount, cases.length);
   assert.equal(result.nationalCodeRuleCount, 0);
   assert.equal(result.assignmentRequiresRecordedReview, true);

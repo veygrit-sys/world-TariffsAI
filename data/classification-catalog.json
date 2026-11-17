@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18.classification-v2",
+  "version": "2026-11-18.classification-v3",
   "sources": [
     {
       "id": "jp-ruling-cellulose-filter-2024",
@@ -276,6 +276,535 @@
       "effectiveFrom": "2026-11-18",
       "effectiveThrough": "2026-12-18",
       "terms": "公式資料を参照した独自のHS6候補要約。原文全文・国内税番・税率は同梱しない。適用日と確認期限はこのカタログの運用範囲であり、法的有効期間や個別貨物への拘束力を示さない。"
+    },
+    {
+      "id": "kr-government-coffee-hs6-20221231",
+      "title": "韓国政府公開・関税法付表（2022年12月31日改正版）：コーヒーのHS6参照",
+      "url": "https://trade.forest.go.kr/file/download/e085580b-8935-404e-a5e9-8b43137fbed720241002154014811/5",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "KR"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。2022年12月31日改正版の配列を参照し、2026年度の最新税率や国内細分を確認したとは扱わない。"
+    },
+    {
+      "id": "kr-kcs-hs2022-adoption",
+      "title": "韓国関税庁：HS2022の輸出入適用開始案内",
+      "url": "https://www.customs.go.kr/kcs/na/ntt/selectNttInfo.do?mi=2891&nttSn=10059678&nttSnUrl=search",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "KR"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。分類体系の版を照合する資料であり、税額の根拠に使用しない。"
+    },
+    {
+      "id": "tw-customs-coffee-hs2022-2023",
+      "title": "台湾関務署：112年版輸入税則合訂本（上）・コーヒーのHS6参照",
+      "url": "https://web.customs.gov.tw/download/fbac2681c6fe4492a5d3a7ab9a97b417",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TW"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。2023年（112年）版のHS2022配列を参照し、2026年度の最新税率や国内細分を確認したとは扱わない。"
+    },
+    {
+      "id": "tw-customs-hs2022-downloads",
+      "title": "台湾関務署：HS2022年版資料区（2026年11月2日更新）",
+      "url": "https://web.customs.gov.tw/singlehtml/1205?cntId=b0461e083fdf46d0a26a696be4fdb1e5",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TW"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。輸入税則合訂本の公開元とHS版を照合する資料であり、税額の根拠に使用しない。"
+    },
+    {
+      "id": "hk-censtatd-hkhs2022-coffee",
+      "title": "香港政府統計処：HKHS2022第1冊・コーヒーのHS6参照",
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B2XX0011/att/B2XX0011012022XXXXB0100.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "HK"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。HKHSの輸入申告用商品分類を参照する。HKSITCとは区別し、香港の課税品目・無税判定や届出費用を推定しない。"
+    },
+    {
+      "id": "hk-censtatd-alpha-list-2026",
+      "title": "香港政府統計処：2026年の常見貨品名称・コーヒー区分",
+      "url": "https://www.censtatd.gov.hk/FileManager/TC/Content_93/alpha_list.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "HK"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。2026年版の常見貨品名称で対象区分を再照合した。HKHS2022配列の補助資料であり、税率表ではない。"
+    },
+    {
+      "id": "mo-dsec-ncem-hs2022-coffee",
+      "title": "マカオ統計調査局：NCEM/HS2022第7版・コーヒーのHS6参照",
+      "url": "https://www.dsec.gov.mo/getdoc/cdc315c4-da4f-4db4-b087-852a3ceb4617/HS2020.aspx",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MO"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率は同梱しない。日付はHS6候補検索用の内部確認範囲であり、法的有効期間・輸入許可・申告承認を示さない。URL末尾はHS2020だが、現行公式導線のPDF本文は2022年版・第7版である。対外貿易申告・統計分類の参照であり、関税表や課税品目の確認ではない。"
+    },
+    {
+      "id": "my-customs-duty-order-2025-coffee",
+      "title": "マレーシア税関：2025年関税令第9類のHS6参照",
+      "url": "https://www.customs.gov.my/images/06-prosedur/perintah-kastam/perintah/PUA_384.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MY"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。2022年関税令を廃止した2025年関税令を参照する。"
+    },
+    {
+      "id": "my-hs2022-coffee-annex-2026",
+      "title": "マレーシア税関：2026年公開附属書によるHS2022照合",
+      "url": "https://www.customs.gov.my/images/06-prosedur/perintah-kastam/perintah/PUA_181_2026.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MY"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。協定関連附属書はHS版と品目記述の照合にだけ用い、原産地基準・協定税率を判定しない。"
+    },
+    {
+      "id": "th-customs-coffee-nomenclature",
+      "title": "タイ税関：参考用英語分類表第9類のHS6参照",
+      "url": "https://www.customs.go.th/data_files/3a4ffe38a9a5a67e1e4724218016c369.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。原資料は参考用で法的拘束力を持たない旨を明記している。"
+    },
+    {
+      "id": "th-customs-hs2022-coffee-annex",
+      "title": "タイ税関：HS2022附属書のコーヒー区分照合",
+      "url": "https://www.customs.go.th/data_files/f196d2a22b72858f299fca59022ee563.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。協定関連附属書は分類体系の照合にだけ使用し、原産地基準・特恵の適用は判断しない。"
+    },
+    {
+      "id": "ph-tc-ahtn2022-coffee-2024-2028",
+      "title": "フィリピン関税委員会：AHTN2022第9類のHS6参照",
+      "url": "https://drive.google.com/file/d/1WiIjbJBXF7-WVriogOhuv1Y3Bln79zvJ/view?usp=sharing",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "PH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。関税委員会公式Tariff Bookからリンクされた2024〜2028年欄を持つ09.pdfを参照し、税率・割当数量を転記しない。"
+    },
+    {
+      "id": "ph-tc-ahtn2022-index",
+      "title": "フィリピン関税委員会：AHTN2022公式章別索引",
+      "url": "https://newtc.tariffcommission.gov.ph/tariff-book/",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "PH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。第9類PDFの公式掲載元とAHTN2022の版を確認するための索引。"
+    },
+    {
+      "id": "vn-customs-hs2022-coffee-annex-2024",
+      "title": "ベトナム税関Trade Portal：2024年公開HS2022附属書のコーヒー区分",
+      "url": "https://www.vietnamtradeportal.gov.vn/index.php?id=4135&r=site/display",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VN"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。02/2024/TT-BCTの協定関連附属書をHS2022のコード・品目記述の参照に限定して利用する。原産地基準・特恵税率・協定の利用可否は判断しない。"
+    },
+    {
+      "id": "id-mof-hs2022-coffee-base",
+      "title": "インドネシア財務省：26/PMK.010/2022のHS2022コーヒー区分",
+      "url": "https://jdih.kemenkeu.go.id/api/download/04d90736-33d5-4b72-92a3-0d2b7c6bb8bd/26~PMK.010~2022Per.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "ID"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。2022年の基本分類表であり、後続改正を統合した税率表の提供ではない。国内細分と改正後の適用は別途確認する。"
+    },
+    {
+      "id": "id-customs-btki2022-reference",
+      "title": "インドネシア税関：BTKI2022公式参照案内",
+      "url": "https://www.beacukai.go.id/btki-dan-tarif",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "ID"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。2026年11月18日から12月18日は候補カタログの内部確認範囲であり、法令・個別分類判断の有効期間ではない。輸入許可・税額・原産地資格は別途確認する。輸入時のBTKI2022参照と第9類公開先を確認するための案内。最新の全改正を収録した税表を意味しない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "in-dgft-itc2022-import-appendix-v",
+      "title": "インドDGFT：ITC(HS)2022輸入政策付録V・コーヒー区分",
+      "url": "https://content.dgft.gov.in/Website/dgftprod/b1664c58-420e-401b-8e11-3f95d316a5cb/Appendix-V-updated%20%281%29.pdf",
+      "countries": [
+        "IN"
+      ],
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲はHS6候補検索の内部確認期間であり法的有効期間ではない。輸入許可や国内税番の承認を示さない。食品輸入の付録で品目対応を照合する。付録のリスク区分や指定港を、この候補から自動判定しない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "ae-dubai-coffee-correlation-v3-3",
+      "title": "UAEドバイ税関：統合税番対応表v3.3・コーヒー区分",
+      "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Documents/HSCodeMaster-v3.3customers.xlsx",
+      "countries": [
+        "AE"
+      ],
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲はHS6候補検索の内部確認期間であり法的有効期間ではない。輸入許可や国内税番の承認を示さない。公式案内に掲載された8桁から12桁への対応表を直接取得しコーヒー各行を照合。国内細分は候補へ転記しない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "ae-dubai-gcc-hs2022-transition-guide",
+      "title": "UAEドバイ税関：HS2022に基づく12桁統合税番移行ガイド",
+      "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Documents/IntegratedCustomsTariffv4.pdf",
+      "countries": [
+        "AE"
+      ],
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲はHS6候補検索の内部確認期間であり法的有効期間ではない。輸入許可や国内税番の承認を示さない。HS2022体系の根拠としてだけ参照する。移行段階・取引条件・税率の適用は別途確認する。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "sa-zatca-coffee-hs6-search",
+      "title": "サウジZATCA：統合税番検索・コーヒー区分",
+      "url": "https://eservices.zatca.gov.sa/sites/sc/ar/SCTariffs/Pages/Pages/SearchTariffsPage%20.aspx?SearchFor=9",
+      "countries": [
+        "SA"
+      ],
+      "terms": "公式公開資料への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲はHS6候補検索の内部確認期間であり法的有効期間ではない。輸入許可や国内税番の承認を示さない。サウジ当局の検索結果で焙煎・カフェイン除去別の豆の記載を照合。検索画面の国内細分や税率を候補へ転記しない。"
+    },
+    {
+      "id": "ch-bazg-general-tariff-20250301",
+      "title": "スイスBAZG：2025年3月版一般輸入品目表・コーヒー",
+      "url": "https://www.bazg.admin.ch/dam/en/sd-web/T495snjnoiLu/tarif_general.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "CH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。全文・国内細分・税率を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法令・輸入許可・個別判断の有効期間を示さない。使用中の税率はTares等で別途確認する。"
+    },
+    {
+      "id": "ch-bazg-hs2022-revision",
+      "title": "スイスBAZG：2022年HS改訂の採用案内",
+      "url": "https://www.bazg.admin.ch/de/zolltarif-aenderungen-2022",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "CH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。全文・国内細分・税率を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法令・輸入許可・個別判断の有効期間を示さない。HS版の照合に用い、単独で商品分類や税率の根拠としない。"
+    },
+    {
+      "id": "no-tolletaten-coffee-tariff-2026",
+      "title": "ノルウェー税関：2026年品目表・コーヒーとHS2022の説明",
+      "url": "https://www.toll.no/files/e9d43fc8a9d49f811d58e1aa47a752ff12b5560c.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "NO"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。全文・国内細分・税率を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法令・輸入許可・個別判断の有効期間を示さない。"
+    },
+    {
+      "id": "is-skatturinn-coffee-hs2022-2026",
+      "title": "アイスランド税関：2026年適用のTollskrá 2022第3版・コーヒー",
+      "url": "https://www.skatturinn.is/media/tollamal/Tollskra-2022-3.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "IS"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式公開資料への参照と独自要約。全文・国内細分・税率を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法令・輸入許可・個別判断の有効期間を示さない。公式の印刷用参考資料であり、誤記がある場合の法的効力を保証しない。"
+    },
+    {
+      "id": "br-mdic-tec-coffee-20261111",
+      "title": "ブラジルMDIC：2026年11月11日版TEC・コーヒーのHS6参照",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/11-11-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "BR"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。ExcelのAnexo Iを直接取得・読取して確認した。"
+    },
+    {
+      "id": "br-mdic-hs2022-current-guide",
+      "title": "ブラジルMDIC：SH2022体系と現行TEC資料の案内",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes/tarifas-vigentes",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "BR"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。HS2022の体系確認と公式配布先の照合に使い、税率・特恵は判定しない。"
+    },
+    {
+      "id": "mx-snice-ligie-coffee-20250728",
+      "title": "メキシコSNICE：2025年7月28日版LIGIE統合資料・コーヒーのHS6参照",
+      "url": "https://www.snice.gob.mx/~oracle/SNICE_DOCS/LIGIE-UNIFICADA-LIGIE_20250728-20250728.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MX"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。公式配布PDFを直接取得して本文を照合した。統合資料は参考資料として扱い、現行税率を確定しない。"
+    },
+    {
+      "id": "mx-snice-fractions-20261014",
+      "title": "メキシコSNICE：2026年10月14日版品目コード一覧のHS6照合",
+      "url": "https://www.snice.gob.mx/~oracle/SNICE_DOCS/FRACCIONESARANCELARIAS-LIGIE_20261014-20261014.xlsx",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MX"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。公式Excelを直接取得し、コーヒーの国内細分が持つHS6の接頭部を照合した。国内細分の付与は行わない。"
+    },
+    {
+      "id": "mx-snice-hs2022-implementation",
+      "title": "メキシコSNICE：LIGIEのHS2022導入案内",
+      "url": "https://www.snice.gob.mx/cs/avi/snice/ligie.info22.html",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MX"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。HS2022の導入根拠と公式配布先の確認にだけ使う。"
+    },
+    {
+      "id": "za-sars-coffee-20261113",
+      "title": "南アフリカSARS：2026年11月13日版Schedule 1 Part 1・コーヒーのHS6参照",
+      "url": "https://www.sars.gov.za/wp-content/uploads/Legal/SCEA1964/Legal-LPrim-CE-Sch1P1Chpt1-to-99-Schedule-No-1-Part-1-Chapters-1-to-99.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "ZA"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。南アフリカ向けの参照に限定し、他のSACU加盟国へ自動展開しない。"
+    },
+    {
+      "id": "za-sars-hs2022-implementation",
+      "title": "南アフリカSARS：HS2022導入案内",
+      "url": "https://www.sars.gov.za/legal-counsel/primary-legislation/hs-2022/",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "ZA"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。HS2022体系の採用根拠にだけ使う。"
+    },
+    {
+      "id": "cl-subrei-hs2022-coffee",
+      "title": "チリSUBREI掲載官報：HS2022導入版のコーヒーHS6参照",
+      "url": "https://www.subrei.gob.cl/docs/default-source/default-document-library/arancel_aduanero_nacional_de_la_republica_de_chile.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "CL"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式資料への参照と独自要約。国内細分・税率・全文を同梱しない。日付範囲はHS6候補カタログの内部確認範囲であり、法的有効期間や輸入許可・申告承認を示さない。2021年12月10日官報・2022年導入版の基礎分類を照合した。最新の国内税率表全体を確認したとは扱わない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "wco-hs2022-implementation-20260723",
+      "title": "WCO：2026年7月23日版HS実施状況表（サウジアラビア・アイスランドのHS2022欄）",
+      "url": "https://www.wcoomd.org/~/media/WCO/Public/Global/PDF/Topics/Nomenclature/Overview/HS%20Contracting%20Parties/Positions%20of%20CP/Situation_HS.ashx",
+      "countries": [
+        "IS",
+        "SA"
+      ],
+      "terms": "WCOが透明性のため公開する実施状況表への参照と独自要約。表自体は法的効力・公式な適用認定を持たず、当該国のHS2022導入体系の照合にだけ使う。商品分類には別途当該国の公式品目資料を併用する。日付範囲は内部カタログの確認期間であり、税率・輸入許可・法的有効期間を示さない。原表全文は同梱しない。"
     }
   ],
   "rules": [
@@ -4982,6 +5511,2847 @@
         "gb-hs2022-nomenclature-annex-2025"
       ],
       "rationale": "英国の現行品目APIとHS2022品目対応を参照する。原産地規則、協定発効、特恵税率の適用は判断せず、コーヒーのHS6候補だけを返す。"
+    },
+    {
+      "id": "kr-coffee-roasted-not-decaf-hs6",
+      "title": "韓国：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "KR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "커피",
+        "원두"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "kr-government-coffee-hs6-20221231",
+        "kr-kcs-hs2022-adoption"
+      ],
+      "rationale": "韓国の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "kr-coffee-roasted-decaf-hs6",
+      "title": "韓国：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "KR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "커피",
+        "원두"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "kr-government-coffee-hs6-20221231",
+        "kr-kcs-hs2022-adoption"
+      ],
+      "rationale": "韓国の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "kr-coffee-unroasted-not-decaf-hs6",
+      "title": "韓国：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "KR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "커피",
+        "원두"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "kr-government-coffee-hs6-20221231",
+        "kr-kcs-hs2022-adoption"
+      ],
+      "rationale": "韓国の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "tw-coffee-roasted-not-decaf-hs6",
+      "title": "台湾：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "TW",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "tw-customs-coffee-hs2022-2023",
+        "tw-customs-hs2022-downloads"
+      ],
+      "rationale": "台湾の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "tw-coffee-roasted-decaf-hs6",
+      "title": "台湾：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "TW",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "tw-customs-coffee-hs2022-2023",
+        "tw-customs-hs2022-downloads"
+      ],
+      "rationale": "台湾の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "tw-coffee-unroasted-not-decaf-hs6",
+      "title": "台湾：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "TW",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "tw-customs-coffee-hs2022-2023",
+        "tw-customs-hs2022-downloads"
+      ],
+      "rationale": "台湾の公式HS2022分類資料のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "hk-coffee-roasted-not-decaf-hs6",
+      "title": "香港：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "HK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "hk-censtatd-hkhs2022-coffee",
+        "hk-censtatd-alpha-list-2026"
+      ],
+      "rationale": "香港の公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "hk-coffee-roasted-decaf-hs6",
+      "title": "香港：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "HK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "hk-censtatd-hkhs2022-coffee",
+        "hk-censtatd-alpha-list-2026"
+      ],
+      "rationale": "香港の公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "hk-coffee-unroasted-not-decaf-hs6",
+      "title": "香港：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "HK",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "hk-censtatd-hkhs2022-coffee",
+        "hk-censtatd-alpha-list-2026"
+      ],
+      "rationale": "香港の公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "mo-coffee-roasted-not-decaf-hs6",
+      "title": "マカオ：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "MO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mo-dsec-ncem-hs2022-coffee"
+      ],
+      "rationale": "マカオの公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "mo-coffee-roasted-decaf-hs6",
+      "title": "マカオ：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "MO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mo-dsec-ncem-hs2022-coffee"
+      ],
+      "rationale": "マカオの公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "mo-coffee-unroasted-not-decaf-hs6",
+      "title": "マカオ：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "MO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mo-dsec-ncem-hs2022-coffee"
+      ],
+      "rationale": "マカオの公式HS2022申告・統計品目分類のコーヒー区分を参照し、焙煎とカフェイン除去の状態を区別する。他原料を加えない粒状の豆に限定したHS6候補で、関税率表としては扱わず、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "my-coffee-roasted-not-decaf-hs6",
+      "title": "MY：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "MY",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "my-customs-duty-order-2025-coffee",
+        "my-hs2022-coffee-annex-2026"
+      ],
+      "rationale": "マレーシアの2025年関税令第9類と2026年公開HS2022附属書の品目記述を照合し、焙煎とカフェイン除去の状態で候補を分ける。他原料を加えない粒状の豆だけを対象とし、国内細分・税率・輸入許可・原産地資格は別途確認する。"
+    },
+    {
+      "id": "my-coffee-roasted-decaf-hs6",
+      "title": "MY：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "MY",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "my-customs-duty-order-2025-coffee",
+        "my-hs2022-coffee-annex-2026"
+      ],
+      "rationale": "マレーシアの2025年関税令第9類と2026年公開HS2022附属書の品目記述を照合し、焙煎とカフェイン除去の状態で候補を分ける。他原料を加えない粒状の豆だけを対象とし、国内細分・税率・輸入許可・原産地資格は別途確認する。"
+    },
+    {
+      "id": "my-coffee-unroasted-not-decaf-hs6",
+      "title": "MY：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "MY",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "my-customs-duty-order-2025-coffee",
+        "my-hs2022-coffee-annex-2026"
+      ],
+      "rationale": "マレーシアの2025年関税令第9類と2026年公開HS2022附属書の品目記述を照合し、焙煎とカフェイン除去の状態で候補を分ける。他原料を加えない粒状の豆だけを対象とし、国内細分・税率・輸入許可・原産地資格は別途確認する。"
+    },
+    {
+      "id": "th-coffee-roasted-not-decaf-hs6",
+      "title": "TH：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "TH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "กาแฟ"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "th-customs-coffee-nomenclature",
+        "th-customs-hs2022-coffee-annex"
+      ],
+      "rationale": "タイ税関の参考用英語分類表第9類とHS2022附属書を照合し、焙煎とカフェイン除去の状態で候補を分ける。純粋な粒状のコーヒー豆に限定し、国内細分・法的拘束力のある分類決定・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "th-coffee-roasted-decaf-hs6",
+      "title": "TH：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "TH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "กาแฟ"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "th-customs-coffee-nomenclature",
+        "th-customs-hs2022-coffee-annex"
+      ],
+      "rationale": "タイ税関の参考用英語分類表第9類とHS2022附属書を照合し、焙煎とカフェイン除去の状態で候補を分ける。純粋な粒状のコーヒー豆に限定し、国内細分・法的拘束力のある分類決定・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "th-coffee-unroasted-not-decaf-hs6",
+      "title": "TH：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "TH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "กาแฟ"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "th-customs-coffee-nomenclature",
+        "th-customs-hs2022-coffee-annex"
+      ],
+      "rationale": "タイ税関の参考用英語分類表第9類とHS2022附属書を照合し、焙煎とカフェイン除去の状態で候補を分ける。純粋な粒状のコーヒー豆に限定し、国内細分・法的拘束力のある分類決定・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "vn-coffee-roasted-not-decaf-hs6",
+      "title": "VN：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "VN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "cà phê"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "vn-customs-hs2022-coffee-annex-2024"
+      ],
+      "rationale": "ベトナム税関Trade Portalの2024年公開HS2022附属書にあるコーヒーのコードと記述を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、国内細分・原産地基準・特恵税率・輸入許可は判定しない。"
+    },
+    {
+      "id": "vn-coffee-roasted-decaf-hs6",
+      "title": "VN：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "VN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "cà phê"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "vn-customs-hs2022-coffee-annex-2024"
+      ],
+      "rationale": "ベトナム税関Trade Portalの2024年公開HS2022附属書にあるコーヒーのコードと記述を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、国内細分・原産地基準・特恵税率・輸入許可は判定しない。"
+    },
+    {
+      "id": "vn-coffee-unroasted-not-decaf-hs6",
+      "title": "VN：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "VN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "cà phê"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "vn-customs-hs2022-coffee-annex-2024"
+      ],
+      "rationale": "ベトナム税関Trade Portalの2024年公開HS2022附属書にあるコーヒーのコードと記述を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、国内細分・原産地基準・特恵税率・輸入許可は判定しない。"
+    },
+    {
+      "id": "ph-coffee-roasted-not-decaf-hs6",
+      "title": "PH：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "PH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kape"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ph-tc-ahtn2022-coffee-2024-2028",
+        "ph-tc-ahtn2022-index"
+      ],
+      "rationale": "フィリピン関税委員会の公式章別索引から公開されるAHTN2022第9類を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6だけを案内し、国内細分・税率・関税割当・輸入許可は別途確認する。"
+    },
+    {
+      "id": "ph-coffee-roasted-decaf-hs6",
+      "title": "PH：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "PH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kape"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ph-tc-ahtn2022-coffee-2024-2028",
+        "ph-tc-ahtn2022-index"
+      ],
+      "rationale": "フィリピン関税委員会の公式章別索引から公開されるAHTN2022第9類を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6だけを案内し、国内細分・税率・関税割当・輸入許可は別途確認する。"
+    },
+    {
+      "id": "ph-coffee-unroasted-not-decaf-hs6",
+      "title": "PH：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "PH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kape"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ph-tc-ahtn2022-coffee-2024-2028",
+        "ph-tc-ahtn2022-index"
+      ],
+      "rationale": "フィリピン関税委員会の公式章別索引から公開されるAHTN2022第9類を参照し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6だけを案内し、国内細分・税率・関税割当・輸入許可は別途確認する。"
+    },
+    {
+      "id": "id-coffee-roasted-not-decaf-hs6",
+      "title": "ID：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "ID",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "id-mof-hs2022-coffee-base",
+        "id-customs-btki2022-reference"
+      ],
+      "rationale": "インドネシア財務省のHS2022基本分類表と税関のBTKI2022参照案内を照合し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、後続改正を含む国内細分・適用税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "id-coffee-roasted-decaf-hs6",
+      "title": "ID：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "ID",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "id-mof-hs2022-coffee-base",
+        "id-customs-btki2022-reference"
+      ],
+      "rationale": "インドネシア財務省のHS2022基本分類表と税関のBTKI2022参照案内を照合し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、後続改正を含む国内細分・適用税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "id-coffee-unroasted-not-decaf-hs6",
+      "title": "ID：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "ID",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kopi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "id-mof-hs2022-coffee-base",
+        "id-customs-btki2022-reference"
+      ],
+      "rationale": "インドネシア財務省のHS2022基本分類表と税関のBTKI2022参照案内を照合し、焙煎とカフェイン除去の状態で候補を分ける。純コーヒー豆のHS6参照に限定し、後続改正を含む国内細分・適用税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "in-coffee-roasted-not-decaf-hs6",
+      "title": "IN：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "IN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "कॉफ़ी"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "in-dgft-itc2022-import-appendix-v"
+      ],
+      "rationale": "インドDGFTのITC(HS)2022輸入政策付録のコーヒー品目を照合し、焙煎とカフェイン除去の状態を分ける。対象は他原料を加えない粒状の豆に限定したHS6候補で、食品輸入条件・国内細分・税率は別途確認する。"
+    },
+    {
+      "id": "in-coffee-roasted-decaf-hs6",
+      "title": "IN：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "IN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "कॉफ़ी"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "in-dgft-itc2022-import-appendix-v"
+      ],
+      "rationale": "インドDGFTのITC(HS)2022輸入政策付録のコーヒー品目を照合し、焙煎とカフェイン除去の状態を分ける。対象は他原料を加えない粒状の豆に限定したHS6候補で、食品輸入条件・国内細分・税率は別途確認する。"
+    },
+    {
+      "id": "in-coffee-unroasted-not-decaf-hs6",
+      "title": "IN：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "IN",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "कॉफ़ी"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "in-dgft-itc2022-import-appendix-v"
+      ],
+      "rationale": "インドDGFTのITC(HS)2022輸入政策付録のコーヒー品目を照合し、焙煎とカフェイン除去の状態を分ける。対象は他原料を加えない粒状の豆に限定したHS6候補で、食品輸入条件・国内細分・税率は別途確認する。"
+    },
+    {
+      "id": "ae-coffee-roasted-not-decaf-hs6",
+      "title": "AE：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "AE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ae-dubai-coffee-correlation-v3-3",
+        "ae-dubai-gcc-hs2022-transition-guide"
+      ],
+      "rationale": "UAEドバイ税関のHS2022移行ガイドと公式税番対応表を併用し、コーヒーの焙煎・カフェイン除去別の6桁を照合する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "ae-coffee-roasted-decaf-hs6",
+      "title": "AE：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "AE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ae-dubai-coffee-correlation-v3-3",
+        "ae-dubai-gcc-hs2022-transition-guide"
+      ],
+      "rationale": "UAEドバイ税関のHS2022移行ガイドと公式税番対応表を併用し、コーヒーの焙煎・カフェイン除去別の6桁を照合する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "ae-coffee-unroasted-not-decaf-hs6",
+      "title": "AE：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "AE",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ae-dubai-coffee-correlation-v3-3",
+        "ae-dubai-gcc-hs2022-transition-guide"
+      ],
+      "rationale": "UAEドバイ税関のHS2022移行ガイドと公式税番対応表を併用し、コーヒーの焙煎・カフェイン除去別の6桁を照合する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "sa-coffee-roasted-not-decaf-hs6",
+      "title": "SA：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "SA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "sa-zatca-coffee-hs6-search",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "サウジZATCAの公式検索でコーヒーの焙煎・カフェイン除去別の6桁を照合し、WCO参照表でHS2022導入状況を確認する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "sa-coffee-roasted-decaf-hs6",
+      "title": "SA：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "SA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "sa-zatca-coffee-hs6-search",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "サウジZATCAの公式検索でコーヒーの焙煎・カフェイン除去別の6桁を照合し、WCO参照表でHS2022導入状況を確認する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "sa-coffee-unroasted-not-decaf-hs6",
+      "title": "SA：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "SA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "قهوة",
+        "بن"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "sa-zatca-coffee-hs6-search",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "サウジZATCAの公式検索でコーヒーの焙煎・カフェイン除去別の6桁を照合し、WCO参照表でHS2022導入状況を確認する。対象は他原料を加えない粒状の豆に限定し、国内細分・税率・輸入許可は別途確認する。"
+    },
+    {
+      "id": "ch-coffee-roasted-not-decaf-hs6",
+      "title": "CH：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "CH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffee",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ch-bazg-general-tariff-20250301",
+        "ch-bazg-hs2022-revision"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "ch-coffee-roasted-decaf-hs6",
+      "title": "CH：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "CH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffee",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ch-bazg-general-tariff-20250301",
+        "ch-bazg-hs2022-revision"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "ch-coffee-unroasted-not-decaf-hs6",
+      "title": "CH：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "CH",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffee",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ch-bazg-general-tariff-20250301",
+        "ch-bazg-hs2022-revision"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "no-coffee-roasted-not-decaf-hs6",
+      "title": "NO：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "NO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffe"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "no-tolletaten-coffee-tariff-2026"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "no-coffee-roasted-decaf-hs6",
+      "title": "NO：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "NO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffe"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "no-tolletaten-coffee-tariff-2026"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "no-coffee-unroasted-not-decaf-hs6",
+      "title": "NO：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "NO",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffe"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "no-tolletaten-coffee-tariff-2026"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "is-coffee-roasted-not-decaf-hs6",
+      "title": "IS：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "IS",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "is-skatturinn-coffee-hs2022-2026",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "is-coffee-roasted-decaf-hs6",
+      "title": "IS：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "IS",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "is-skatturinn-coffee-hs2022-2026",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "is-coffee-unroasted-not-decaf-hs6",
+      "title": "IS：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "IS",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "kaffi"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "is-skatturinn-coffee-hs2022-2026",
+        "wco-hs2022-implementation-20260723"
+      ],
+      "rationale": "当該国の公式輸入品目表で、コーヒーの焙煎とカフェイン除去の状態による区分を照合した。HS6候補は他の原料を加えない粒状の豆だけに限定し、国内細分・税率・輸入条件は別途確認する。"
+    },
+    {
+      "id": "br-coffee-roasted-not-decaf-hs6",
+      "title": "ブラジル：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "BR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "br-mdic-tec-coffee-20261111",
+        "br-mdic-hs2022-current-guide"
+      ],
+      "rationale": "ブラジルの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "br-coffee-roasted-decaf-hs6",
+      "title": "ブラジル：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "BR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "br-mdic-tec-coffee-20261111",
+        "br-mdic-hs2022-current-guide"
+      ],
+      "rationale": "ブラジルの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "br-coffee-unroasted-not-decaf-hs6",
+      "title": "ブラジル：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "BR",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "br-mdic-tec-coffee-20261111",
+        "br-mdic-hs2022-current-guide"
+      ],
+      "rationale": "ブラジルの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "mx-coffee-roasted-not-decaf-hs6",
+      "title": "メキシコ：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "MX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mx-snice-ligie-coffee-20250728",
+        "mx-snice-fractions-20261014",
+        "mx-snice-hs2022-implementation"
+      ],
+      "rationale": "メキシコの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "mx-coffee-roasted-decaf-hs6",
+      "title": "メキシコ：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "MX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mx-snice-ligie-coffee-20250728",
+        "mx-snice-fractions-20261014",
+        "mx-snice-hs2022-implementation"
+      ],
+      "rationale": "メキシコの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "mx-coffee-unroasted-not-decaf-hs6",
+      "title": "メキシコ：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "MX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mx-snice-ligie-coffee-20250728",
+        "mx-snice-fractions-20261014",
+        "mx-snice-hs2022-implementation"
+      ],
+      "rationale": "メキシコの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "za-coffee-roasted-not-decaf-hs6",
+      "title": "南アフリカ：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "ZA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "za-sars-coffee-20261113",
+        "za-sars-hs2022-implementation"
+      ],
+      "rationale": "南アフリカの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "za-coffee-roasted-decaf-hs6",
+      "title": "南アフリカ：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "ZA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "za-sars-coffee-20261113",
+        "za-sars-hs2022-implementation"
+      ],
+      "rationale": "南アフリカの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "za-coffee-unroasted-not-decaf-hs6",
+      "title": "南アフリカ：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "ZA",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "za-sars-coffee-20261113",
+        "za-sars-hs2022-implementation"
+      ],
+      "rationale": "南アフリカの公式品目資料にあるコーヒー区分を参照し、焙煎とカフェイン除去の状態を分ける。混合物や抽出物を除く粒状の純コーヒー豆に限定したHS6候補であり、国内細分・税額・輸入要件は別途確認する。"
+    },
+    {
+      "id": "cl-coffee-roasted-not-decaf-hs6",
+      "title": "チリ：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "CL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "cl-subrei-hs2022-coffee"
+      ],
+      "rationale": "チリのHS2022導入官報にあるコーヒー区分に照らし、焙煎とカフェイン除去の状態を分けた参照候補。混合物や抽出物を除き粒状の純コーヒー豆に限定する。最新の国内細分・税率・輸入要件は別途確認する。"
+    },
+    {
+      "id": "cl-coffee-roasted-decaf-hs6",
+      "title": "チリ：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "CL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "cl-subrei-hs2022-coffee"
+      ],
+      "rationale": "チリのHS2022導入官報にあるコーヒー区分に照らし、焙煎とカフェイン除去の状態を分けた参照候補。混合物や抽出物を除き粒状の純コーヒー豆に限定する。最新の国内細分・税率・輸入要件は別途確認する。"
+    },
+    {
+      "id": "cl-coffee-unroasted-not-decaf-hs6",
+      "title": "チリ：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "CL",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡",
+        "café"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "cl-subrei-hs2022-coffee"
+      ],
+      "rationale": "チリのHS2022導入官報にあるコーヒー区分に照らし、焙煎とカフェイン除去の状態を分けた参照候補。混合物や抽出物を除き粒状の純コーヒー豆に限定する。最新の国内細分・税率・輸入要件は別途確認する。"
     }
   ]
 }
