@@ -33,6 +33,11 @@ const importerReview = object({ importerRef: opaqueId, brokerRef: opaqueId, evid
 const acceptance = object({
   scopeDigest: digest, billTo, evidenceRef: opaqueId, acceptedAt: instant, expiresAt: instant,
 });
+const parcelSchema = object({
+  parcelId: opaqueId,
+  items: { type: "array", minItems: 1, maxItems: 100,
+    items: object({ itemId: opaqueId, quantity: { type: "integer", minimum: 1, maximum: 1000000 } }) },
+});
 
 export const importSettlementPlanInputSchema = object({
   merchantId: opaqueId,
@@ -42,6 +47,7 @@ export const importSettlementPlanInputSchema = object({
   carrierId: opaqueId,
   carrierService: opaqueId,
   parcelCount: { type: "integer", minimum: 1, maximum: 999 },
+  parcels: { type: "array", minItems: 1, maxItems: 999, items: parcelSchema },
   direct: { type: "boolean" },
   remittanceRoute: { enum: ["carrier_advance", "postal_delegation", "direct_payment"] },
   buyerIsRecipient: { type: "boolean" },
@@ -59,6 +65,8 @@ export interface ImportSettlementPlanInput {
   carrierId: string;
   carrierService: string;
   parcelCount: number;
+  /** Required for multiple parcels; allocates every quoted unit exactly once. */
+  parcels?: { parcelId: string; items: { itemId: string; quantity: number }[] }[];
   direct: boolean;
   remittanceRoute: "carrier_advance" | "postal_delegation" | "direct_payment";
   buyerIsRecipient: boolean;
@@ -157,11 +165,30 @@ export function reviewImportSettlementPlan(
         (shipment.transitRoute.completeness !== "confirmed" || shipment.transitRoute.stops.length > 0)) ||
       !["air", "courier_unspecified"].includes(shipment.transport) ||
       shipment.transaction !== "b2c_sale" || shipment.regime !== "standard" ||
-      shipment.items.length !== 1 || shipment.items[0]?.goodsType !== "ordinary" ||
-      shipping.parcelCount !== 1 || shipping.remittanceRoute !== "carrier_advance") {
+      shipment.items.some(({ goodsType }) => goodsType !== "ordinary") ||
+      shipping.remittanceRoute !== "carrier_advance") {
     result.status = "out_of_scope";
     result.findings.push("SETTLEMENT_ROUTE_OUT_OF_SCOPE");
     return result;
+  }
+  if (shipping.parcelCount > 1 && !shipping.parcels)
+    result.findings.push("PARCEL_ALLOCATION_REQUIRED");
+  if (shipping.parcels) {
+    const allocated = new Map<string, number>();
+    const ids = new Set<string>();
+    let invalid = shipping.parcels.length !== shipping.parcelCount;
+    for (const parcel of shipping.parcels) {
+      if (ids.has(parcel.parcelId)) invalid = true;
+      ids.add(parcel.parcelId);
+      const itemIds = new Set<string>();
+      for (const item of parcel.items) {
+        if (itemIds.has(item.itemId) || !shipment.items.some(({ id }) => id === item.itemId)) invalid = true;
+        itemIds.add(item.itemId);
+        allocated.set(item.itemId, (allocated.get(item.itemId) ?? 0) + item.quantity);
+      }
+    }
+    if (shipment.items.some(({ id, quantity }) => allocated.get(id) !== quantity)) invalid = true;
+    if (invalid) result.findings.push("PARCEL_ALLOCATION_MISMATCH");
   }
   if (!legacyRoute && requestedProfile === "pilot") {
     result.status = "out_of_scope";

@@ -1,0 +1,539 @@
+{
+  "scope": {
+    "merchantId": "merchant-ledger",
+    "orderId": "order-ledger",
+    "estimateId": "estimate-ledger",
+    "originCountry": "CN",
+    "destinationCountry": "JP",
+    "settlementCurrency": "JPY",
+    "carrierId": "synthetic-carrier",
+    "carrierService": "synthetic-service",
+    "billingParty": "seller",
+    "billingAccountRef": "synthetic-account",
+    "remittanceRoute": "carrier_advance"
+  },
+  "estimate": {
+    "orderId": "order-ledger",
+    "estimateId": "estimate-ledger",
+    "issuedOn": "2026-11-13",
+    "currency": "JPY",
+    "charges": [
+      {
+        "category": "customs_duty",
+        "amount": "250"
+      },
+      {
+        "category": "import_vat_gst",
+        "amount": "0"
+      },
+      {
+        "category": "additional_duty",
+        "amount": "0"
+      },
+      {
+        "category": "excise",
+        "amount": "0"
+      },
+      {
+        "category": "customs_fee",
+        "amount": "0"
+      },
+      {
+        "category": "carrier_fee",
+        "amount": "20"
+      }
+    ]
+  },
+  "items": [
+    {
+      "itemId": "ceramic-a",
+      "quantity": 2
+    },
+    {
+      "itemId": "ceramic-b",
+      "quantity": 1
+    }
+  ],
+  "parcels": [
+    {
+      "parcelId": "parcel-1",
+      "shipmentId": "shipment-1",
+      "declarationId": "declaration-1",
+      "items": [
+        {
+          "itemId": "ceramic-a",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "parcelId": "parcel-2",
+      "shipmentId": "shipment-2",
+      "declarationId": "declaration-2",
+      "items": [
+        {
+          "itemId": "ceramic-a",
+          "quantity": 1
+        },
+        {
+          "itemId": "ceramic-b",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entryId": "tax-1",
+      "kind": "customs_remittance",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-tax-1",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "100"
+        },
+        {
+          "category": "import_vat_gst",
+          "amount": "0"
+        },
+        {
+          "category": "additional_duty",
+          "amount": "0"
+        },
+        {
+          "category": "excise",
+          "amount": "0"
+        }
+      ]
+    },
+    {
+      "entryId": "invoice-1",
+      "kind": "carrier_invoice",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-invoice-1",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "100"
+        },
+        {
+          "category": "import_vat_gst",
+          "amount": "0"
+        },
+        {
+          "category": "additional_duty",
+          "amount": "0"
+        },
+        {
+          "category": "excise",
+          "amount": "0"
+        },
+        {
+          "category": "customs_fee",
+          "amount": "0"
+        },
+        {
+          "category": "carrier_fee",
+          "amount": "10"
+        }
+      ]
+    },
+    {
+      "entryId": "payment-1",
+      "kind": "carrier_payment",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-payment-1",
+      "currency": "USD",
+      "referenceEntryId": "invoice-1",
+      "fxRateId": "synthetic-usdjpy",
+      "amount": "1.10"
+    },
+    {
+      "entryId": "tax-2",
+      "kind": "customs_remittance",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-tax-2",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "150"
+        },
+        {
+          "category": "import_vat_gst",
+          "amount": "0"
+        },
+        {
+          "category": "additional_duty",
+          "amount": "0"
+        },
+        {
+          "category": "excise",
+          "amount": "0"
+        }
+      ]
+    },
+    {
+      "entryId": "invoice-2",
+      "kind": "carrier_invoice",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-invoice-2",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "150"
+        },
+        {
+          "category": "import_vat_gst",
+          "amount": "0"
+        },
+        {
+          "category": "additional_duty",
+          "amount": "0"
+        },
+        {
+          "category": "excise",
+          "amount": "0"
+        },
+        {
+          "category": "customs_fee",
+          "amount": "0"
+        },
+        {
+          "category": "carrier_fee",
+          "amount": "10"
+        }
+      ]
+    },
+    {
+      "entryId": "payment-2",
+      "kind": "carrier_payment",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-14",
+      "evidenceId": "synthetic-payment-2",
+      "currency": "JPY",
+      "referenceEntryId": "invoice-2",
+      "amount": "160"
+    },
+    {
+      "entryId": "assessment-tax",
+      "kind": "customs_remittance",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-15",
+      "evidenceId": "synthetic-assessment-tax",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "20"
+        }
+      ],
+      "adjustment": {
+        "kind": "additional_assessment",
+        "referenceEntryId": "tax-1",
+        "evidenceId": "synthetic-assessment-tax"
+      }
+    },
+    {
+      "entryId": "assessment-invoice",
+      "kind": "carrier_invoice",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-15",
+      "evidenceId": "synthetic-assessment-invoice",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "20"
+        }
+      ],
+      "adjustment": {
+        "kind": "additional_assessment",
+        "referenceEntryId": "invoice-1",
+        "evidenceId": "synthetic-assessment-invoice"
+      }
+    },
+    {
+      "entryId": "assessment-payment",
+      "kind": "carrier_payment",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-1",
+      "parcelIds": [
+        "parcel-1"
+      ],
+      "occurredOn": "2026-11-15",
+      "evidenceId": "synthetic-assessment-payment",
+      "currency": "JPY",
+      "referenceEntryId": "assessment-invoice",
+      "amount": "20"
+    },
+    {
+      "entryId": "tax-refund",
+      "kind": "customs_refund",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-16",
+      "evidenceId": "synthetic-tax-refund",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "10"
+        }
+      ],
+      "adjustment": {
+        "kind": "refund",
+        "referenceEntryId": "tax-2",
+        "evidenceId": "synthetic-customs-refund"
+      }
+    },
+    {
+      "entryId": "invoice-credit",
+      "kind": "carrier_credit",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-16",
+      "evidenceId": "synthetic-invoice-credit",
+      "currency": "JPY",
+      "charges": [
+        {
+          "category": "customs_duty",
+          "amount": "10"
+        }
+      ],
+      "adjustment": {
+        "kind": "refund",
+        "referenceEntryId": "invoice-2",
+        "evidenceId": "synthetic-carrier-credit"
+      }
+    },
+    {
+      "entryId": "payment-refund",
+      "kind": "carrier_refund",
+      "scope": {
+        "merchantId": "merchant-ledger",
+        "orderId": "order-ledger",
+        "estimateId": "estimate-ledger",
+        "originCountry": "CN",
+        "destinationCountry": "JP",
+        "settlementCurrency": "JPY",
+        "carrierId": "synthetic-carrier",
+        "carrierService": "synthetic-service",
+        "billingParty": "seller",
+        "billingAccountRef": "synthetic-account",
+        "remittanceRoute": "carrier_advance"
+      },
+      "declarationId": "declaration-2",
+      "parcelIds": [
+        "parcel-2"
+      ],
+      "occurredOn": "2026-11-16",
+      "evidenceId": "synthetic-payment-refund",
+      "currency": "JPY",
+      "referenceEntryId": "payment-2",
+      "amount": "10"
+    }
+  ],
+  "fxRates": [
+    {
+      "id": "synthetic-usdjpy",
+      "from": "USD",
+      "to": "JPY",
+      "numerator": "100",
+      "denominator": "1",
+      "purpose": "import_settlement",
+      "sourceId": "synthetic-rate-source",
+      "evidenceId": "synthetic-rate-evidence",
+      "validFrom": "2026-11-13",
+      "validTo": "2026-11-19",
+      "reviewedOn": "2026-11-14",
+      "reviewBy": "2026-11-18",
+      "rounding": "half_up"
+    }
+  ],
+  "varianceReview": {
+    "ledgerDigest": "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2",
+    "evidenceId": "synthetic-variance-evidence",
+    "reviewerRef": "synthetic-reviewer",
+    "reviewedOn": "2026-11-18"
+  }
+}

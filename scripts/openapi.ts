@@ -14,6 +14,7 @@ import { importSettlementCoverageInputSchema, importSettlementCoverageOutputSche
 import { importSettlementDestinationsOutputSchema } from "../src/import-settlement-destinations.ts";
 import { importSettlementPlanInputSchema, importSettlementPlanOutputSchema } from "../src/import-settlement-plan.ts";
 import { importSettlementReconciliationInputSchema, importSettlementReconciliationOutputSchema } from "../src/import-settlement-reconciliation.ts";
+import { importSettlementLedgerInputSchema, importSettlementLedgerOutputSchema } from "../src/import-settlement-ledger.ts";
 import { PILOT_ROUTES } from "../src/trade-policy.ts";
 import { VERSION } from "../src/version.ts";
 import { tariffEvidenceBases } from "../src/tariff-evidence.ts";
@@ -760,6 +761,11 @@ const doc = {
       { $ref: "#/components/schemas/ImportSettlementReconciliationInput" },
       { $ref: "#/components/schemas/ImportSettlementReconciliation" },
     ),
+    "/v1/import-settlement/ledger": post(
+      "Reconcile parcel allocations, reassessments, refunds and reviewed settlement FX for one order",
+      { $ref: "#/components/schemas/ImportSettlementLedgerInput" },
+      { $ref: "#/components/schemas/ImportSettlementLedger" },
+    ),
     "/v1/tariffs/evidence": {
       get: {
         summary: "Look up destination tariff sources and documented customs scope",
@@ -873,6 +879,8 @@ const doc = {
       ImportSettlementDestinations: importSettlementDestinationsOutputSchema,
       ImportSettlementReconciliationInput: importSettlementReconciliationInputSchema,
       ImportSettlementReconciliation: importSettlementReconciliationOutputSchema,
+      ImportSettlementLedgerInput: importSettlementLedgerInputSchema,
+      ImportSettlementLedger: importSettlementLedgerOutputSchema,
       Ask: askSchema,
       Assessment: assessment,
       TariffLookup: tariffLookupSchema,
