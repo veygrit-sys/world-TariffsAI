@@ -17,6 +17,7 @@ const tests = [
   "tests/live-validation-api.test.ts",
   "tests/money.test.ts",
   "tests/native-server.test.ts",
+  "tests/quote-charge-consistency.test.ts",
   "tests/pilot-cycle.test.ts",
   "tests/public-catalog.test.ts",
   "tests/rollout-market.test.ts",
