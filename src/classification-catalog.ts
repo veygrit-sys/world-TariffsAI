@@ -20,11 +20,12 @@ const strings = (items: object, maxItems: number, minItems = 0) => ({
 const source = classificationObject({
   id: classificationIdSchema, title: text(1000), url: { ...text(2000), format: "uri" },
   kind: { enum: ["classification_ruling", "tariff_schedule", "hs_nomenclature"] },
+  referenceBasis: { enum: ["official_reference", "wto_bound_nomenclature", "national_edition_reference", "agreement_nomenclature"] },
   countries: strings(country, 250, 1), direction, hsEdition: text(40),
   checkedOn: classificationDateSchema, reviewBy: classificationDateSchema,
   effectiveFrom: classificationDateSchema, effectiveThrough: classificationDateSchema,
   terms: text(2000),
-});
+}, ["id", "title", "url", "kind", "countries", "direction", "hsEdition", "checkedOn", "reviewBy", "effectiveFrom", "effectiveThrough", "terms"]);
 const attributeKeys = strings(classificationAttributeKeySchema, 50);
 export const classificationSourceSchema = source;
 const rule = classificationObject({

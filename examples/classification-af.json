@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "af-fresh-boletus-wto-hs6",
+    "revision": "1",
+    "description": "生鮮又は冷蔵の単一種類のヤマドリタケ属 mushroom Boletus",
+    "attributes": {
+      "product_type": "edible_mushroom",
+      "species": "boletus_spp",
+      "processing": "fresh_or_chilled",
+      "composition": "single_mushroom_no_additives",
+      "form": "whole_fruiting_body"
+    }
+  },
+  "context": {
+    "country": "AF",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

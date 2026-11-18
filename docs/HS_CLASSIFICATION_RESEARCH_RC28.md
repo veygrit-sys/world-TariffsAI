@@ -361,7 +361,7 @@ The review interval 2026-11-18–2026-12-18 is internal catalog scope, not legal
 ## North Macedonia MK — 3 rules
 
 - Official workbook: https://customs.gov.mk/content/CT%20%202026.xlsx . Directly downloaded because web cannot parse xlsx; 1,713,912 bytes. `tariff 2026` sheet rows 1963–1969 give the parent heading, unroasted/roasted rows and all three selected states. The header still says Customs Tariff 2025, so the catalog does not claim current rate-year accuracy.
-- An existing source-data issue is explicit in terms: code cells use lower-case `o` in place of zero (e.g. `o9o121oooo`). Numeric interpretation was checked against the HS hierarchy and adjacent descriptions; no national suffix is re.
+- An existing source-data issue is explicit in terms: code cells use lower-case `o` in place of zero (e.g. `o9o121oooo`). Numeric interpretation was checked against the HS hierarchy and adjacent descriptions; no national suffix is returned.
 - HS2022 adoption corroboration is the WCO matrix row 110 / PDF page 6, 2022-01-01 (). Official tariff guide: https://customs.gov.mk/en-GB/pocetna/biznis-zaednica/carinska-tarifa.nspx (, supplementary).
 
 ## Montenegro ME — 3 rules
@@ -371,19 +371,19 @@ The review interval 2026-11-18–2026-12-18 is internal catalog scope, not legal
   - https://taric.carina.co.me/TariCG/public/Browse.jsp?ptarifa=0901110000&pindent=1 (): unroasted 090111/090112 and caffeine distinction.
   - https://taric.carina.co.me/TariCG/public/Browse.jsp?ptarifa=0901210000&pindent=1 (): roasted 090121/090122 and caffeine distinction.
 - HS2022 version basis: https://www.gov.me/upravacarina/carinska-tarifa . Search  expressly names the 2022 edition in the legal-basis section; direct official HTML was also downloaded and read. The page's annual tariff narrative says 2025, so only its explicit HS2022 basis is used; product state mappings come from live TARICG.
-- 2026 export workbook exists in official TARICG regulations (https://taric.carina.co.me/TariCG/public/public/Regulations.jsp) but its linked `https://e-carina.me/taricg/TARICG_EXPORT_16.02.2026..xlsx` re 503 and was not used. The short 2026 decree PDF alone lacks the actual tariff appendix and is not used for code conditions.
+- 2026 export workbook exists in official TARICG regulations (https://taric.carina.co.me/TariCG/public/public/Regulations.jsp) but its linked `https://e-carina.me/taricg/TARICG_EXPORT_16.02.2026..xlsx` returned 503 and was not used. The short 2026 decree PDF alone lacks the actual tariff appendix and is not used for code conditions.
 
 ## Moldova MD — 3 rules
 
 - Government statistics classifier index: https://statistica.gov.md/ro/clasificari-si-nomenclatoare-9881.html (). Direct HTML links to the HS2022 DOCX below.
 - Official DOCX: https://statistica.gov.md/files/files/Clasificatoare/Nomenclatura_Combinat%C4%83_a_Marfurilor_2022_din_15_12_2022.docx . Directly downloaded (2,126,206 bytes), ZIP/XML parsed; the 0901 table has the parent roasting rows and 090111/090121/090122 state pairs.
 - Official import-classification / adoption statement: https://trade.gov.md/ro/articles/nomenclatura-combinata-a-marfurilor-republicii-moldova . Opened , lines 13–15 say the seventh edition adjustment took effect 2023-01-01 and describe use for imports and exports.
-- This is an HS2022 baseline, not a consolidated 2026 tariff/rate endorsement. Legis.md itself re 403, so its unreadable page was not substituted as product-code evidence.
+- This is an HS2022 baseline, not a consolidated 2026 tariff/rate endorsement. Legis.md itself returned 403, so its unreadable page was not substituted as product-code evidence.
 
 ## Jordan JO — 3 rules
 
-- Public official form: https://asytrade.customs.gov.jo/customs/tariff?lang=en (). Direct public POST (read-only search) to `/customs/tariff/search`, fields `tariff=0901`, `keywords=`, `searchMode=ANY`, `_action_searchByTariffKeywords=Search`, re 200 and the seven coffee code rows.
-- Result HTML was saved in `hs28-eumena-raw/jo-result.html`. It explicitly differentiates unroasted nondecaf/decaf, roasted nondecaf (vacuum portions / other), roasted decaf (vacuum portions / other), and husks/substitutes. Only six-digit prefixes are re; the example is restricted to whole pure beans and does not select the vacuum-packaging suffix.
+- Public official form: https://asytrade.customs.gov.jo/customs/tariff?lang=en (). Direct public POST (read-only search) to `/customs/tariff/search`, fields `tariff=0901`, `keywords=`, `searchMode=ANY`, `_action_searchByTariffKeywords=Search`, returns 200 and the seven coffee code rows.
+- Result HTML was saved in `hs28-eumena-raw/jo-result.html`. It explicitly differentiates unroasted nondecaf/decaf, roasted nondecaf (vacuum portions / other), roasted decaf (vacuum portions / other), and husks/substitutes. Only six-digit prefixes are returned; the example is restricted to whole pure beans and does not select the vacuum-packaging suffix.
 - The WCO matrix row 76 / PDF page 4 shows HS2022 implementation 2022-01-13 (). No government portal credentials or private data were used.
 
 ## Oman OM — 3 rules
@@ -402,7 +402,7 @@ The review interval 2026-11-18–2026-12-18 is internal catalog scope, not legal
 
 - Customs published finance-ministry import-control order 352/2025: https://customs.gov.ua/documents/pro-zatverdzhennia-pereliku-dokumentiv-ta-abo-vidomostei-iaki-neobkhidno-podati-derzhavnii-sluzhbi-ukrayini-z-pitan-bezpeki-kharchovikh-produktiv-ta-zakhistu-spozhivachiv-dlia-zdiisnennia-vidpovidnogo-zakhodu-561 . Opened . Lines 140–142 explicitly describe unroasted caffeinated coffee 090111 and unroasted decaffeinated coffee 090112 as import-control commodity rows. This supports the two narrow HS6 references, not permissions or an exhaustive tariff schedule.
 - Edition basis: https://customs.gov.ua/news/zagalne-20/post/zakon-ukrayini-no-2697-ix-pro-mitnii-tarif-ukrayini-nabiraie-chinnosti-z-1-sichnia-2023-roku-1016 (, ): UKTZED is based on HS2022, with Law2697 entering operation 2023-01-01.
-- Rada's full tariff re timeout/503. Roasted detailed conditions were not verified from a usable official source, so no 090121/090122 rule is fabricated for UA.
+- Rada's full tariff returned timeout/503. Roasted detailed conditions were not verified from a usable official source, so no 090121/090122 rule is fabricated for UA.
 
 ## WCO shared reference
 
@@ -412,11 +412,11 @@ https://www.wcoomd.org/~/media/WCO/Public/Global/PDF/Topics/Nomenclature/Overvie
 
 These are research outcomes for the rollout backlog, not candidate approvals:
 
-- AZ: official full decree HTML is about 58MB and repeatedly re 503; WCO HS2022 cell is TBD. Existing private tariff-pack labels alone are insufficient. Defer until direct edition and product text can be read.
-- BA: HS2022 implementation is confirmed by WCO and the 2026 decision's official index exists, but the full national tariff PDF re 503/timeout. Neither a rate summary nor an EU-like structure was used to manufacture product rules.
+- AZ: official full decree HTML is about 58MB and repeatedly returned 503; WCO HS2022 cell is TBD. Existing private tariff-pack labels alone are insufficient. Defer until direct edition and product text can be read.
+- BA: HS2022 implementation is confirmed by WCO and the 2026 decision's official index exists, but the full national tariff PDF returned 503/timeout. Neither a rate summary nor an EU-like structure was used to manufacture product rules.
 - BH: official tariff-finder endpoint and government service page found. The e-copy service requires payment/login and code text was not obtained in this batch. No purchase or credential flow was attempted.
 - KW: official PAI workbook https://www.pai.gov.kw/documents/d/guest/tariffschedule was downloaded (2,086,434 bytes); sheet title says 2022 and coffee codes match, but a sufficiently direct explicit HS2022 adoption/correlation basis was not obtained. WCO cell is unreported. Defer rather than infer from 2022 publication year or another GCC state's tariff.
-- QA: official 2024 decree98 PDF explicitly refers to HS2022 in the official search index, but direct retrieval repeatedly re 502/503 and the actual coffee rows could not be read. Earlier decree43/2022 is repealed; it was not presented as current.
+- QA: official 2024 decree98 PDF explicitly refers to HS2022 in the official search index, but direct retrieval repeatedly returned 502/503 and the actual coffee rows could not be read. Earlier decree43/2022 is repealed; it was not presented as current.
 - LB: WCO HS2022 is TBD, national tariff endpoint fails, older food-control PDF is 2021 and not a HS2022 product reference. Defer.
 - GE: official nomenclature search endpoint was located from the prior work, but the existing published baseline only covers selected other headings, not coffee; further direct lookup is needed. No 0901 rules inferred.
 - IL: national Customs Book exists and prior selected goods are known, but HS2022 edition/product details were not sufficiently checked in this batch. Defer.
@@ -424,7 +424,7 @@ These are research outcomes for the rollout backlog, not candidate approvals:
 
 ## Validation and outputs
 
-`check-hs28-europe-mena.mjs` loads the fragment with the repository's actual ClassificationCatalog and proposeClassification. 533 assertions/probes passed: 41 positive cases, all 205 individual required-attribute omissions, all 205 incompatible attributes, and direction/edition rejection per case. Every positive re the expected HS6, nationalCode=null, eligibleForApproval=false, no missing attributes.
+`check-hs28-europe-mena.mjs` loads the fragment with the repository's actual ClassificationCatalog and proposeClassification. 533 assertions/probes passed: 41 positive cases, all 205 individual required-attribute omissions, all 205 incompatible attributes, and direction/edition rejection per case. Every positive returns the expected HS6, nationalCode=null, eligibleForApproval=false, no missing attributes.
 
 Files ready for integration:
 
@@ -488,7 +488,7 @@ The research retrieval IDs above are for internal cross-checking and should not 
 
 - **LA**: official current nomenclature page explicitly identifies AHTN2022 (https://www.laotradeportal.gov.la/en-gb/site/searchcommodity), but product hierarchy content was absent from the fetched page and direct HTML retrieval403. Individual valid product pages showed rate rows but not a reliable complete code-description hierarchy. ASEAN's current country-specific AHTN2022 annex index was found but its documents could not be retrieved in this environment. Wait for the actual domestic/official regional product text; no foreign national table substitution.
 - **KH**: national customs statistics methodology explicitly identifies HS/AHTN2022 from January2022 (https://stats.customs.gov.kh/en/archives/methodology). National2022 publication page is dynamic and did not expose the table in this environment; the FTA product-search page was JavaScript-only, its script retrieval failed403, ASEAN annex access403. Wait for actual national/current official regional product text.
-- **MV**: WCO2022 adoption is explicit, but official tariff search https://www.customs.gov.mv/eServices/findtariff re an access/payment-wall error to retrieval; three product descriptions were not verified. No catalog rules fabricated.
+- **MV**: WCO2022 adoption is explicit, but official tariff search https://www.customs.gov.mv/eServices/findtariff returned an access/payment-wall error to retrieval; three product descriptions were not verified. No catalog rules fabricated.
 - **WS**: current official rates/manual page https://customs.gov.ws/rates/ still labels the index as HS2017. A2022 Act amendment alone does not prove a complete HS2022 classification. Await validated HS2022 source.
 - **MN**: WCO2022 adoption is explicit, but no current domestic coffee hierarchy was obtained in this batch. Older2018/compiled foreign references are not silently promoted.
 - **SB**: identified2022 government amendment document is selected items only; did not obtain a complete HS2022 coffee base schedule in this batch.
@@ -496,7 +496,7 @@ The research retrieval IDs above are for internal cross-checking and should not 
 
 ## Local engine validation
 
-`hs28-ap-check.mjs` constructs a real `ClassificationCatalog`, then tests every rule: positive expectedHS6/no national code/no approval, every required attribute omitted independently and re as a question, every condition replaced by an incompatible value and excluded. With13countries/39rules, **429 checks** pass (39positive +195omission +195contradiction). Shared source/catalog/schema implementation files are untouched.
+`hs28-ap-check.mjs` constructs a real `ClassificationCatalog`, then tests every rule: positive expectedHS6/no national code/no approval, every required attribute omitted independently and returned as a question, every condition replaced by an incompatible value and excluded. With13countries/39rules, **429 checks** pass (39positive +195omission +195contradiction). Shared source/catalog/schema implementation files are untouched.
 
 ---
 

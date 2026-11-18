@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "nu-hs2012-coffee-unroasted-not-decaf-hs6",
+    "revision": "1",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    }
+  },
+  "context": {
+    "country": "NU",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2012"
+  }
+}

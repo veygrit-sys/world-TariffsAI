@@ -1,0 +1,20 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "dj-brussels-sprouts-fresh-wto-hs6",
+    "revision": "1",
+    "description": "brussels sprouts 芽キャベツ",
+    "attributes": {
+      "product_type": "brussels_sprouts",
+      "composition": "brussels_sprouts_only",
+      "processing": "fresh",
+      "form": "whole_heads"
+    }
+  },
+  "context": {
+    "country": "DJ",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

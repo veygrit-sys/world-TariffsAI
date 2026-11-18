@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "mv-fresh-mandarin-wto-hs6",
+    "revision": "1",
+    "description": "生鮮のマンダリン（クレメンタイン以外） citrus mandarin tangerine satsuma 丸ごとの単一果実",
+    "attributes": {
+      "product_type": "citrus_fruit",
+      "citrus_type": "mandarin",
+      "processing": "fresh",
+      "composition": "single_fruit_no_additives",
+      "form": "whole_fruit"
+    }
+  },
+  "context": {
+    "country": "MV",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}

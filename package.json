@@ -1,6 +1,6 @@
 {
   "name": "@veygrit/customs-ai",
-  "version": "1.0.0-rc.28",
+  "version": "1.0.0-rc.29",
   "private": true,
   "description": "Source-backed global customs decision support for Veygrit",
   "license": "UNLICENSED",
@@ -22,7 +22,7 @@
     "start": "node dist/server.js",
     "cli": "node dist/cli.js",
     "test": "npm run build && node scripts/test-public.ts",
-    "test:full": "npm run build && node --test tests/*.test.ts",
+    "test:full": "npm run build && node --test --test-concurrency=4 tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "data:check": "node scripts/check-data.ts",
     "data:manifest": "node scripts/manifest.ts",

@@ -1,0 +1,23 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "er-hfc32-pure-compound-hs6",
+    "revision": "1",
+    "description": "difluoromethane HFC-32 ジフルオロメタン",
+    "attributes": {
+      "product_type": "hydrofluorocarbon",
+      "chemical_identity": "difluoromethane_hfc32",
+      "purity": "pure_compound",
+      "mixture_status": "not_mixture",
+      "added_substances": "none",
+      "presentation": "bulk_standalone_chemical",
+      "form": "liquefied_gas"
+    }
+  },
+  "context": {
+    "country": "ER",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2022"
+  }
+}

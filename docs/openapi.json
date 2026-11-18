@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Veygrit Customs AI",
-    "version": "1.0.0-rc.28",
+    "version": "1.0.0-rc.29",
     "description": "Decision support. Country recognition is global; numeric coverage is explicitly scoped. No customs filing or shipping authorisation."
   },
   "servers": [
@@ -1625,7 +1625,7 @@
                   ],
                   "properties": {
                     "version": {
-                      "const": "1.0.0-rc.28"
+                      "const": "1.0.0-rc.29"
                     },
                     "status": {
                       "const": "pilot"
@@ -6122,7 +6122,8 @@
               "type": "string",
               "minLength": 1,
               "maxLength": 40,
-              "pattern": "\\S"
+              "pattern": "\\S",
+              "description": "Defaults to HS2022; all lists references in each recorded edition without converting between editions."
             }
           },
           {
@@ -6506,6 +6507,14 @@
                               "hs_nomenclature"
                             ]
                           },
+                          "referenceBasis": {
+                            "enum": [
+                              "official_reference",
+                              "wto_bound_nomenclature",
+                              "national_edition_reference",
+                              "agreement_nomenclature"
+                            ]
+                          },
                           "countries": {
                             "type": "array",
                             "items": {
@@ -6799,6 +6808,31 @@
           "hsEdition": {
             "type": "string"
           },
+          "editionTotals": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "hsEdition": {
+                  "type": "string"
+                },
+                "destinations": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "activeRuleCount": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "hsEdition",
+                "destinations",
+                "activeRuleCount"
+              ]
+            }
+          },
           "totals": {
             "type": "object",
             "additionalProperties": false,
@@ -6908,6 +6942,32 @@
                   "type": "integer",
                   "minimum": 0
                 },
+                "hsEditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "registeredHsEditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "referenceBases": {
+                  "type": "array",
+                  "uniqueItems": true,
+                  "items": {
+                    "enum": [
+                      "official_reference",
+                      "wto_bound_nomenclature",
+                      "national_edition_reference",
+                      "agreement_nomenclature"
+                    ]
+                  }
+                },
                 "sourceIds": {
                   "type": "array",
                   "items": {
@@ -6968,6 +7028,9 @@
                 "activeRuleCount",
                 "hs6Count",
                 "nationalCodeReferenceCount",
+                "hsEditions",
+                "registeredHsEditions",
+                "referenceBases",
                 "sourceIds",
                 "holdReasons",
                 "productCoverage",
@@ -6999,6 +7062,7 @@
           "reviewedOn",
           "direction",
           "hsEdition",
+          "editionTotals",
           "totals",
           "total",
           "nextOffset",

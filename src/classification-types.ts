@@ -25,6 +25,8 @@ export interface ClassificationSource {
   title: string;
   url: string;
   kind: "classification_ruling" | "tariff_schedule" | "hs_nomenclature";
+  /** Special reference bases must not be mistaken for a current applied national schedule. */
+  referenceBasis?: "official_reference" | "wto_bound_nomenclature" | "national_edition_reference" | "agreement_nomenclature";
   countries: string[];
   direction: ClassificationDirection | "both";
   hsEdition: string;

@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "sd-coffee-unroasted-not-decaf-hs6",
+    "revision": "1",
+    "description": "pure whole coffee beans コーヒー豆",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    }
+  },
+  "context": {
+    "country": "SD",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "SD-TARIFF-2017"
+  }
+}

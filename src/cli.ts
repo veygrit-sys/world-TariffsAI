@@ -64,7 +64,7 @@ try {
   } else if (command === "classification-rollout") {
     const now = referenceTime !== undefined ? new Date(referenceTime) : new Date();
     if (!Number.isFinite(now.getTime())) throw new InputError([{ path: "/referenceTime", code: "INVALID_DATE_TIME" }]);
-    result = classificationRollout({ ...(arg !== undefined ? { date: arg } : {}), limit: 250 }, loadClassificationCatalog(process.env, data), data, now);
+    result = classificationRollout({ ...(arg !== undefined ? { date: arg } : {}), hsEdition: "all", limit: 250 }, loadClassificationCatalog(process.env, data), data, now);
   } else if (command === "invoice-reconcile" && arg)
     result = reconcileInvoice(JSON.parse(readFileSync(arg, "utf8")));
   else if (command === "release-readiness")
