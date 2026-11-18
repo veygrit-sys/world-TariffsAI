@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "sy-decree188-2026-glass-mineral-water-hs6",
+    "revision": "1",
+    "description": "無糖無香料のガラス容器入りミネラルウォーター mineral water",
+    "attributes": {
+      "product_type": "mineral_water",
+      "sweetening": "none",
+      "flavouring": "none",
+      "container": "glass_container",
+      "composition": "water_only"
+    }
+  },
+  "context": {
+    "country": "SY",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "SY-DECREE188-2026"
+  }
+}

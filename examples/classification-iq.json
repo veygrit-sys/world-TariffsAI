@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "iq-law22-2010-cotton-non-electric-blanket-hs6",
+    "revision": "1",
+    "description": "綿100%の非電気毛布 cotton blanket",
+    "attributes": {
+      "product_type": "blanket",
+      "composition": "cotton_only",
+      "electrical": "non_electric",
+      "construction": "made_up_textile",
+      "filling": "none",
+      "customs_jurisdiction": "federal_iraq"
+    }
+  },
+  "context": {
+    "country": "IQ",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "IQ-TARIFF-LAW22-2010"
+  }
+}

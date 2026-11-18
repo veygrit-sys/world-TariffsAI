@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ky-national-maize-sowing-hs6",
+    "revision": "1",
+    "description": "播種用の未加工とうもろこし maize corn grains",
+    "attributes": {
+      "product_type": "maize_grain",
+      "composition": "maize_only",
+      "processing": "dried_unworked_grains",
+      "sweetcorn": "not_sweetcorn",
+      "intended_use": "sowing"
+    }
+  },
+  "context": {
+    "country": "KY",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "KY-TARIFF-2026"
+  }
+}

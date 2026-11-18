@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18.classification-v5",
+  "version": "2026-11-18.classification-v6",
   "sources": [
     {
       "id": "jp-ruling-cellulose-filter-2024",
@@ -121,7 +121,10 @@
       "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-ii/chapter-9",
       "kind": "hs_nomenclature",
       "countries": [
-        "AU"
+        "AU",
+        "CC",
+        "CX",
+        "NF"
       ],
       "direction": "import",
       "hsEdition": "HS2022",
@@ -129,7 +132,7 @@
       "reviewBy": "2026-12-18",
       "effectiveFrom": "2026-11-18",
       "effectiveThrough": "2026-12-18",
-      "terms": "公式公開品目表への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲は候補検索用の内部確認期間であり法令の有効期間を示さない。"
+      "terms": "公式公開品目表への参照と独自要約。原文全文・国内細分・税率を同梱しない。日付範囲は候補検索用の内部確認期間であり法令の有効期間を示さない。 公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。現行Working Tariff第9類の0901親見出し、未焙煎090111、焙煎090121/090122の区別を照合。CC/CX/NFはそれぞれの法律が分類同一を明記する範囲でのみ参照する。各島に豪州本土の税率や関税課税を転用しない。商品範囲の参考候補であり、輸入申告に必要な国内細分の確定ではない。"
     },
     {
       "id": "nz-hs2022-coffee-20261020",
@@ -3028,6 +3031,7 @@
       "countries": [
         "ET",
         "GM",
+        "MP",
         "MZ"
       ],
       "direction": "import",
@@ -3036,7 +3040,7 @@
       "reviewBy": "2026-12-18",
       "effectiveFrom": "2026-11-18",
       "effectiveThrough": "2026-12-18",
-      "terms": "公式資料を参照した独自の6桁分類候補要約。原文全文・国内細分・税率は同梱しない。2026年11月18日から12月18日の日付は内部の候補確認期間であり、法的有効期間・輸入許可・申告承認を示さない。ガンビアGRA公式FAQによるHS2022採用根拠と必ず併用する国際共通HS6本文の参照。WCO実施一覧や地域加盟だけから国別適用を推定していない。国内細分・現在税率は未確認。 公式資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。2026年11月18日から12月18日の日付は内部確認期間であり、法的有効期間・通関許可・配送許可・申告承認を示さない。当該国の資料で確認した品目番号の親階層を国際共通本文で補完する。国内品目表・国内細分や税率の確認に代わるものではない。"
+      "terms": "公式資料を参照した独自の6桁分類候補要約。原文全文・国内細分・税率は同梱しない。2026年11月18日から12月18日の日付は内部の候補確認期間であり、法的有効期間・輸入許可・申告承認を示さない。ガンビアGRA公式FAQによるHS2022採用根拠と必ず併用する国際共通HS6本文の参照。WCO実施一覧や地域加盟だけから国別適用を推定していない。国内細分・現在税率は未確認。 公式資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。2026年11月18日から12月18日の日付は内部確認期間であり、法的有効期間・通関許可・配送許可・申告承認を示さない。当該国の資料で確認した品目番号の親階層を国際共通本文で補完する。国内品目表・国内細分や税率の確認に代わるものではない。 公式公表資料への参照と独自要約のみ。原文・国内品目表全文・国内細分・税率は同梱しない。2026年11月18日から12月18日は内部カタログの確認範囲であり、法的有効期間・輸入許可・配送許可・申告承認を示さない。WCO HS2022第9類PDF第1頁の0901親項目と090111、090121、090122を照合した。北マリアナ財務局自身によるPACHS2022採用根拠と必ず併用する。米国本国HTSの北マリアナへの自動適用・税率の根拠ではない。"
     },
     {
       "id": "mr-tariff-coffee-national2021",
@@ -4178,6 +4182,412 @@
       "effectiveThrough": "2026-12-18",
       "terms": "WCOの2025-07-30付HS使用国・地域一覧にワリス・フツナの掲載を確認。HS基盤の補助根拠のみであり、2020年版品目表の国際HS改訂版・現在の適用版を証明しない。公式資料へのリンクと独自要約のみ。原文・税率表全文は同梱しない。先頭6桁のみ参照し、国内細分・税率・輸入許可・課税計算・自動承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、法令・協定の効力期間を示さない。",
       "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "ky-tariff2026-maize-honey",
+      "title": "ケイマン諸島：Customs Tariff Act 2026 Revision・とうもろこし／天然はちみつ",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2012/2012-0001/2012-0001.pdf",
+      "kind": "tariff_schedule",
+      "countries": [
+        "KY"
+      ],
+      "direction": "import",
+      "hsEdition": "KY-TARIFF-2026",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公的法令集の表紙に2026 Revisionを確認。Schedule 1の第4・10類とSchedule 6規則7を参照する。国際HS改訂版との対応は未確認のためHS2022へ変換しない。コーヒー等には4桁見出しをゼロ補完したコードがあるため一律に先頭6桁を取り出さず、実際に確認した100510、100590、040900のみに限定する。公式リンクと独自要約のみ。原文・税率表の全文は同梱しない。先頭6桁のみの参考候補で、国内細分・税率・税額・通関許可・配送許可・申告承認は提供しない。確認日・開始日2026-11-18、再確認期限・終了日2026-12-18はカタログ内部の参照期間であり、法令の効力期間ではない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "vg-tariff2010-maize-honey",
+      "title": "英領ヴァージン諸島：2010年法Schedule 4・とうもろこし／天然はちみつ",
+      "url": "https://laws.gov.vg/sites/default/files/2026-01/G00333_Customs%20Management%20and%20Duties%20Act%2C%202010.pdf",
+      "kind": "tariff_schedule",
+      "countries": [
+        "VG"
+      ],
+      "direction": "import",
+      "hsEdition": "VG-TARIFF-2010",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式法令集の2010年原法、61条とSchedule 4のHarmonised Systemを確認した歴史的国別品目表参照。第4・10類の実際の項目を用い、索引の誤記やコーヒー090110等の独自集約コードは使わない。国際HS改訂版、2026年までの改正統合・現在の適用品目表は未確認。現行税率や申告用コードの根拠として使用しない。公式リンクと独自要約のみ。原文・税率表の全文は同梱しない。先頭6桁のみの参考候補で、国内細分・税率・税額・通関許可・配送許可・申告承認は提供しない。確認日・開始日2026-11-18、再確認期限・終了日2026-12-18はカタログ内部の参照期間であり、法令の効力期間ではない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "tc-tariff2010-roasted-coffee",
+      "title": "タークス・カイコス税関：Customs Tariff General Order 2010・焙煎コーヒー",
+      "url": "https://customs.gov.tc/webuploads/currdoc/CustomTariffs%20%282010%29.pdf",
+      "kind": "tariff_schedule",
+      "countries": [
+        "TC"
+      ],
+      "direction": "import",
+      "hsEdition": "TC-TARIFF-2010",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式2010年品目表の第9類に掲載された焙煎済みコーヒーの0901.210／0901.220の先頭6桁だけを参照する。本文のHS改訂年記載に混在があるため国際版を断定しない。未焙煎豆には別コード0901.901を示す2016年改正資料があるため、未焙煎豆の候補は追加しない。2026年の統合適用品目表と税率は未確認。公式リンクと独自要約のみ。原文・税率表の全文は同梱しない。先頭6桁のみの参考候補で、国内細分・税率・税額・通関許可・配送許可・申告承認は提供しない。確認日・開始日2026-11-18、再確認期限・終了日2026-12-18はカタログ内部の参照期間であり、法令の効力期間ではない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "vi-gao2026-formal-import-classification",
+      "title": "GAO 2026：米領ヴァージン諸島の正式輸入記録とHTSUS分類",
+      "url": "https://files.gao.gov/reports/GAO-26-107811/index.html",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VI"
+      ],
+      "direction": "import",
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "2026年GAO報告Appendix IIは、USVIでHTSUS税率表自体は適用されない一方、CBPが正式輸入記録にHTSUSの商品分類を使うと説明する。この資料は統計記録用途の地域範囲のみを支える。2026 Revision 23の適用開始日・USVI独自関税の品目表・徴税・8桁や10桁の確定は証明しない。classification_purpose=formal_import_statisticsの事実確認を必須にし、一般の関税申告用途へ拡張しない。公式リンクと独自要約のみ。原文・税率表の全文は同梱しない。先頭6桁のみの参考候補で、国内細分・税率・税額・通関許可・配送許可・申告承認は提供しない。確認日・開始日2026-11-18、再確認期限・終了日2026-12-18はカタログ内部の参照期間であり、法令の効力期間ではない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "vi-usitc2026-rev23-coffee-statistics",
+      "title": "USITC HTSUS Revision 23 2026：第9類コーヒーの統計参照",
+      "url": "https://hts.usitc.gov/reststop/file?release=currentRelease&filename=Chapter%209",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VI"
+      ],
+      "direction": "import",
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "2026-11-18に取得した公式第9類PDFの見出しはRevision 23 (2026)、Annotated for Statistical Reporting Purposes。GAOが説明するUSVI正式輸入記録用途に限定してコーヒーの先頭6桁を参照するための資料版。URLは更新されるため版表示の再確認を要する。HTSUS税率のUSVI適用や、この版の法的採用を示さない。公式リンクと独自要約のみ。原文・税率表の全文は同梱しない。先頭6桁のみの参考候補で、国内細分・税率・税額・通関許可・配送許可・申告承認は提供しない。確認日・開始日2026-11-18、再確認期限・終了日2026-12-18はカタログ内部の参照期間であり、法令の効力期間ではない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "countries": [
+        "MP"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "mp-finance-pachs2022-adoption",
+      "title": "北マリアナ財務局：PACHS2022の採用根拠",
+      "url": "https://finance.gov.mp/division-forms/customs/2021-customs-biosecurity-annual-report.pdf",
+      "terms": "公式公表資料への参照と独自要約のみ。原文・国内品目表全文・国内細分・税率は同梱しない。2026年11月18日から12月18日は内部カタログの確認範囲であり、法的有効期間・輸入許可・配送許可・申告承認を示さない。CNMI財務局税関・バイオセキュリティ部門FY2021年次報告のPDF第4〜5頁で、PACHS2022の採用、HS2022全改正の包含、2022年1月1日開始を確認した。国際共通HS6本文と併用する採用根拠であり、現行国内枝番・現在の課税措置の証拠ではない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "cc-applied-customs-classification-law",
+      "title": "ココス諸島：適用税関法で豪州品目分類を使う明文根拠",
+      "url": "https://www.legislation.gov.au/F2006B00522/2015-07-01/2015-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+      "countries": [
+        "CC"
+      ],
+      "terms": "公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。Customs Ordinance 1993 (CKI) s3(3)が適用税関法上の分類をCustoms Tariff Act 1995と同一にする旨を明記。Federal Registerの現行一覧でF2015C00687、2015-07-01版がLatest/In forceであることも照合した。s3(1)で関税賦課を除外し、Schedule1はクリスマス島との移動に例外を置く。対象の輸入に同法が適用されるか確認し、商品本文とHS2022採用根拠を併用する。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "cx-applied-customs-classification-law",
+      "title": "クリスマス島：適用税関法で豪州品目分類を使う明文根拠",
+      "url": "https://www.legislation.gov.au/F2006B00138/2015-07-01/2015-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+      "countries": [
+        "CX"
+      ],
+      "terms": "公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。Customs Ordinance 1993 (CI) s4(3)が適用税関法上の分類をCustoms Tariff Act 1995と同一にする旨を明記。Federal Registerの現行一覧でF2015C00685、2015-07-01版がLatest/In forceであることも照合した。s4(1)で関税賦課を除外し、Schedule1はココス諸島との移動に例外を置く。対象の輸入に同法が適用されるか確認し、商品本文とHS2022採用根拠を併用する。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "nf-applied-customs-classification-law",
+      "title": "ノーフォーク島：適用税関法で豪州品目分類を使う明文根拠",
+      "url": "https://www.legislation.gov.au/F2016L00736/asmade/2016-05-09/text/original/epub/OEBPS/document_1/document_1.html",
+      "countries": [
+        "NF"
+      ],
+      "terms": "公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。Norfolk Island Customs Ordinance 2016 s7(3)が適用税関法上の分類をCustoms Tariff Act 1995と同一にする旨を明記。Federal Registerのタイトル詳細で2016-05-09版がLatest/In force、sunsetting免除であることも照合した。s7(1)は関税賦課を除外し、s8は地理的Australiaを同島に読み替える。豪州主権だけで本国関税を転用せず、商品本文とHS2022採用根拠を併用する。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "au-external-territories-hs2022-adoption",
+      "title": "豪州ABF：適用先法が参照する関税分類のHS2022導入",
+      "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2021-50.pdf",
+      "countries": [
+        "CC",
+        "CX",
+        "NF"
+      ],
+      "terms": "公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。ABF ACN2021/50はCustoms TariffのHS2022導入を2022-01-01と説明する。同資料単独では外部領域への適用を示さず、各島の適用法上の分類同一規定と必ず併用する。島の関税課税や税率を豪州本土と同一視しない。"
+    },
+    {
+      "kind": "hs_nomenclature",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "id": "au-external-territories-customs-scope-2026",
+      "title": "豪州ABF：外部領域を区別する税関法の適用範囲",
+      "url": "https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf",
+      "countries": [
+        "CC",
+        "CX",
+        "NF"
+      ],
+      "terms": "公式公開資料への参照と独自のHS6候補要約。原文全文・国内細分・税率は同梱しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令の効力期間・輸入許可・配送許可・申告承認を示さない。ACN2026/11は外部領域相互および豪州本土を別の税関領域として扱い、CC/CX/NFに個別条例があること、関税賦課の扱いと報告要件を区別する。確認した各条例の分類同一規定を補足する資料。HMは別個税関立法がなくABFが国境管理を行わないと説明されており、この資料を同島への豪州品目分類適用根拠には使わない。"
+    },
+    {
+      "id": "sh-saint-helena-hs2012-coffee-tariff-2025",
+      "title": "セントヘレナ政府：2025年7月公開税則・HS2012基盤と第9類",
+      "url": "https://www.sainthelena.gov.sh/documents/St-Helena-Tariff-July-2025.pdf",
+      "kind": "tariff_schedule",
+      "countries": [
+        "SH"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2012",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "表紙が国際HS2012基盤を明記する税則の第9類（PDF第67ページ）のコーヒー4分類を先頭6桁で参照。対象はセントヘレナ島の税則のみで、同じISOコードSH内のアセンション及びトリスタン・ダ・クーニャには展開しない。2025年7月という公開版の参考であり、現在の国内細分選択や適用税率を確認したものではない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "gl-statbank-grkn8-commodity-metadata",
+      "title": "デンマーク統計局：グリーンランドGRKN8・1989–2003年貿易品目メタデータ",
+      "url": "https://api.statbank.dk/v1/tableinfo/GRKN8?format=JSON&lang=en",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "GL"
+      ],
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "廃止済みのグリーンランド貿易統計表GRKN8の品目メタデータを参照。APIはactive=false、更新時刻2004-12-17、対象年1989–2003、輸入・輸出の区分と09011100・09011200・09012100・09012200の実品目記述を持つ。複数の年次KN版を含む表のため国際HS改訂版を特定せず、独立した統計表識別子で保持する。現行輸入税則・2026年の統計分類への採用を推定しない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "gl-statbank-grkn8-official-table-scope",
+      "title": "デンマーク統計局：グリーンランドGRKN8のKN分類・廃止済み統計表の範囲",
+      "url": "https://www.statistikbanken.dk/statbank5a/SelectVarVal/Define.asp?Maintable=GRKN8",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "GL"
+      ],
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "公式表題でグリーンランドの貿易をEU複合品目分類KNで区分した廃止済みGRKN8であることを確認する補助根拠。輸入・輸出の集計表であってグリーンランドをEU関税領域に含める根拠ではない。国際HS改訂版及び現行税則の採用を証明しない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "tk-tnso-hs2017-import-statistics-2019",
+      "title": "トケラウ統計局：2019年報告・2014–2019年の輸入貨物統計とHS2017使用品目",
+      "url": "https://www.tokelau.org.nz/site/tokelau/files/TokelauNSO/2019-IMTS-reportJJ.pdf",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TK"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "2019年12月のトケラウ統計局報告が、アピアからトケラウへの2014–2019年貨物をHS2017で分類したことを要約・附属書5で明示する。附属書5の実品目のうちWCO同版の親見出しと一致したトマト070200・にんにく070320・りんご080810だけを、同経路の歴史的輸入統計参照に限定する。本文には過去のHS2012分析の説明もあり、附属表には国際品目と一致しない例もあるため、表全体のコードを機械的に採用しない。現行の輸入税則・税率を証明しない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "tk-wco-hs2017-vegetable-hierarchy",
+      "title": "WCO HS2017第7類：トマト・にんにくの親見出し条件",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/0207_2017e.pdf?la=en",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TK"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "トケラウ統計局が実際に使用した070200・070320の親見出しを、同版の国際品目表で補完する。新鮮又は冷蔵という条件を確認するための補助根拠であり、この資料単独ではトケラウの国内採用・課税根拠を証明しない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "tk-wco-hs2017-apple-hierarchy",
+      "title": "WCO HS2017第8類：新鮮なりんごの親見出し条件",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/0208_2017e.pdf?la=en",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "TK"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "トケラウ統計局が実際に使用した080810の親見出しを、同版の国際品目表で補完する。新鮮なりんごと冷蔵品の扱いを確認するための補助根拠であり、この資料単独ではトケラウの国内採用・課税根拠を証明しない。公式資料へのリンクと独自要約のみ。国内細分・税率・輸入許可・課税計算・自動承認は提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は本カタログ内の参照期間であり、資料の法的効力期間を示さない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "iq-law22-2010-hs-foundation",
+      "title": "イラク財務省：2010年関税法22号・HSに基づく品目体系の定義",
+      "url": "https://www.mof.gov.iq/api/download/920",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "IQ"
+      ],
+      "direction": "import",
+      "hsEdition": "IQ-TARIFF-LAW22-2010",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "官報4170号（2010-12-06）第1部PDFの第1条第2項が、附属品目表をWCOの国際HSに従う構造と定義する。国際HSの改訂版は未確認。現行法令・クルディスタン地域の実適用を証明せず、連邦税関の歴史的公表版の基盤だけを補助確認する。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "iq-law22-2010-part2-cotton-blanket",
+      "title": "イラク財務省：2010年関税法22号第2部・綿製非電気毛布",
+      "url": "https://www.mof.gov.iq/api/download/921",
+      "kind": "tariff_schedule",
+      "countries": [
+        "IQ"
+      ],
+      "direction": "import",
+      "hsEdition": "IQ-TARIFF-LAW22-2010",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "官報4170号（2010-12-06）第2部PDFの3頁（印刷頁426）の63.01および63013000の実記述を照合した。対象は完成した綿製の非電気毛布に限定し、詰物入り掛布・電気毛布・他繊維への一般化を行わない。国際HS改訂版と現在の国内適用版は未確認で、独立した2010年法定公表版としてのみ参照する。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "sy-decree188-2026-announcement",
+      "title": "シリア国営SANA：2026年政令188号と関税品目表改正の公布",
+      "url": "https://sana.sy/presidency/2604942/",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "SY"
+      ],
+      "direction": "import",
+      "hsEdition": "SY-DECREE188-2026",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "国営通信社SANAの2026-10-12公表が、政令110号の統一関税品目表を政令188号で改正し添付表をその一部とする旨を示す。現行の全税率・全品目を検証した根拠ではない。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "sy-decree188-2026-glass-mineral-water",
+      "title": "シリア政令188号添付表：ガラス容器入りミネラルウォーター",
+      "url": "https://cdn.sananews.sy/2026/10/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%B1%D9%82%D9%85-188.pdf",
+      "kind": "tariff_schedule",
+      "countries": [
+        "SY"
+      ],
+      "direction": "import",
+      "hsEdition": "SY-DECREE188-2026",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "SANA公式記事が直接公開する政令188号の4頁PDFを取得し、添付表PDF2頁の2201.10.50を画像で照合した。ガラス容器入りのミネラルウォーターで、砂糖等の甘味料や香料を加えない条件だけを採用する。国際HS改訂版は未確認のため、2026年という年からHS2022等を推定せず独立政令版とする。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "national_edition_reference"
+    },
+    {
+      "id": "ve-caricom-1992-import-annex-context",
+      "title": "OAS SICE：1992年Venezuela・CARICOM協定第4条・輸入附表の位置付け",
+      "url": "https://sice.oas.org/Trade/CARIVEN1.asp",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VE"
+      ],
+      "direction": "import",
+      "hsEdition": "VE-CARICOM-1992",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "1992年協定第4条はVenezuela市場へのCARICOM原産品の取扱と、附属書IIIの例外対象商品リストの関係を規定する。本カタログは当該輸入表の分類表記のみを参照し、協定の現在の適用、特恵、原産資格や輸入税率を判定しない。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "agreement_nomenclature"
+    },
+    {
+      "id": "ve-caricom-1992-annex3-coffee",
+      "title": "OAS SICE：Venezuela向け輸入例外表・1992年協定附属書IIIコーヒー",
+      "url": "https://sice.oas.org/Trade/carven4s.asp",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VE"
+      ],
+      "direction": "import",
+      "hsEdition": "VE-CARICOM-1992",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "Venezuela市場向け輸入例外商品の実附属書IIIのNANDINA列0901.11.00と0901.21.10に、未焙煎非デカフェ粒状豆・焙煎非デカフェ粒状豆の記述を確認した。CARICOM側の4桁列や共通原産地付録からの転用ではない。国際HS改訂版は未確認のため独立した協定公表版とし、現行Venezuela輸入品目表への対応を推定しない。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "agreement_nomenclature"
+    },
+    {
+      "id": "ve-caricom-1992-nandina-hs-foundation",
+      "title": "OAS SICE・アンデス共同体決定381号前文：旧NANDINAのHS基盤",
+      "url": "https://sice.oas.org/Trade/Junac/decisiones/Dec381s.asp",
+      "kind": "hs_nomenclature",
+      "countries": [
+        "VE"
+      ],
+      "direction": "import",
+      "hsEdition": "VE-CARICOM-1992",
+      "checkedOn": "2026-11-18",
+      "reviewBy": "2026-12-18",
+      "effectiveFrom": "2026-11-18",
+      "effectiveThrough": "2026-12-18",
+      "terms": "1995年決定381号の前文が、旧決定249号のNANDINAをWCOのHSに基づく品目体系として説明する。補助根拠はNANDINAのHS基盤に限定し、1995年更新内容を1992年附属書へ遡及適用せず、HS改訂版や現行Venezuela国内分類を特定する根拠にしない。公式原典への参照と独自の商品条件要約のみ。全文・税率・国内細分・輸入許可・申告承認を提供しない。確認日・開始日2026-11-18と再確認期限・終了日2026-12-18は内部カタログの参照期間であり、法令・協定の効力期間を意味しない。",
+      "referenceBasis": "agreement_nomenclature"
     }
   ],
   "rules": [
@@ -37188,6 +37598,1984 @@
         "wco-hs2002-pacer-coffee-hierarchy"
       ],
       "rationale": "PACER Plus国別附属表の明示されたHS2002基礎品目と、同版WCO第9類の親見出しだけを参照する。他原料を加えない粒状の豆を焙煎・カフェイン除去の事実条件で絞るHS6参考候補。actual/proxyのどちらかは未確認で、現在の国内HS採用・税率・協定発効・原産資格を推定しない。国内細分未選択で自動承認不可。"
+    },
+    {
+      "id": "ky-national-maize-sowing-hs6",
+      "title": "KY（2026年国別版）：播種用の未加工とうもろこし穀粒",
+      "country": "KY",
+      "direction": "import",
+      "hsEdition": "KY-TARIFF-2026",
+      "hs6": "100510",
+      "keywords": [
+        "maize",
+        "corn",
+        "とうもろこし",
+        "トウモロコシ",
+        "玉米"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "sweetcorn",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "maize_grain"
+        ],
+        "composition": [
+          "maize_only"
+        ],
+        "processing": [
+          "dried_unworked_grains"
+        ],
+        "sweetcorn": [
+          "not_sweetcorn"
+        ],
+        "intended_use": [
+          "sowing"
+        ]
+      },
+      "questions": {
+        "product_type": "粒のとうもろこしですか。粉・加工食品と区別してください。",
+        "composition": "他の穀物・原料を加えていないとうもろこしのみですか。",
+        "processing": "輸入時は乾燥した未加工の穀粒ですか。製粉・圧ぺん・調理・皮むき等をしたものは別途確認してください。",
+        "sweetcorn": "スイートコーンではないことを確認できますか。",
+        "intended_use": "播種用の種子ですか、播種用以外の食用・飼料用ですか。仕様書と用途を確認してください。"
+      },
+      "sourceIds": [
+        "ky-tariff2026-maize-honey"
+      ],
+      "rationale": "公式国別品目表に掲載されたとうもろこしの種子／その他の区分を、実物の状態と用途から絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "ky-national-maize-food-or-feed-hs6",
+      "title": "KY（2026年国別版）：食用・飼料用（播種用以外）の未加工とうもろこし穀粒",
+      "country": "KY",
+      "direction": "import",
+      "hsEdition": "KY-TARIFF-2026",
+      "hs6": "100590",
+      "keywords": [
+        "maize",
+        "corn",
+        "とうもろこし",
+        "トウモロコシ",
+        "玉米"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "sweetcorn",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "maize_grain"
+        ],
+        "composition": [
+          "maize_only"
+        ],
+        "processing": [
+          "dried_unworked_grains"
+        ],
+        "sweetcorn": [
+          "not_sweetcorn"
+        ],
+        "intended_use": [
+          "food_or_feed"
+        ]
+      },
+      "questions": {
+        "product_type": "粒のとうもろこしですか。粉・加工食品と区別してください。",
+        "composition": "他の穀物・原料を加えていないとうもろこしのみですか。",
+        "processing": "輸入時は乾燥した未加工の穀粒ですか。製粉・圧ぺん・調理・皮むき等をしたものは別途確認してください。",
+        "sweetcorn": "スイートコーンではないことを確認できますか。",
+        "intended_use": "播種用の種子ですか、播種用以外の食用・飼料用ですか。仕様書と用途を確認してください。"
+      },
+      "sourceIds": [
+        "ky-tariff2026-maize-honey"
+      ],
+      "rationale": "公式国別品目表に掲載されたとうもろこしの種子／その他の区分を、実物の状態と用途から絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "ky-national-natural-honey-hs6",
+      "title": "KY（2026年国別版）：無添加の天然はちみつ",
+      "country": "KY",
+      "direction": "import",
+      "hsEdition": "KY-TARIFF-2026",
+      "hs6": "040900",
+      "keywords": [
+        "honey",
+        "はちみつ",
+        "蜂蜜"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "added_substances",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "natural_honey"
+        ],
+        "composition": [
+          "natural_honey_only"
+        ],
+        "added_substances": [
+          "none"
+        ],
+        "presentation": [
+          "honey_without_comb"
+        ]
+      },
+      "questions": {
+        "product_type": "ミツバチが作った天然はちみつですか。人工はちみつ・代用品は別途確認してください。",
+        "composition": "天然はちみつだけの商品ですか。",
+        "added_substances": "砂糖・シロップ・香料等の他の物質を添加していませんか。",
+        "presentation": "巣蜜や他食品とのセットではなく、はちみつ単体ですか。"
+      },
+      "sourceIds": [
+        "ky-tariff2026-maize-honey"
+      ],
+      "rationale": "公式国別品目表の天然はちみつ項目のみを参照し、無添加のはちみつ単体に絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "vg-national-maize-sowing-hs6",
+      "title": "VG（2010年原法参照）：播種用の未加工とうもろこし穀粒",
+      "country": "VG",
+      "direction": "import",
+      "hsEdition": "VG-TARIFF-2010",
+      "hs6": "100510",
+      "keywords": [
+        "maize",
+        "corn",
+        "とうもろこし",
+        "トウモロコシ",
+        "玉米"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "sweetcorn",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "maize_grain"
+        ],
+        "composition": [
+          "maize_only"
+        ],
+        "processing": [
+          "dried_unworked_grains"
+        ],
+        "sweetcorn": [
+          "not_sweetcorn"
+        ],
+        "intended_use": [
+          "sowing"
+        ]
+      },
+      "questions": {
+        "product_type": "粒のとうもろこしですか。粉・加工食品と区別してください。",
+        "composition": "他の穀物・原料を加えていないとうもろこしのみですか。",
+        "processing": "輸入時は乾燥した未加工の穀粒ですか。製粉・圧ぺん・調理・皮むき等をしたものは別途確認してください。",
+        "sweetcorn": "スイートコーンではないことを確認できますか。",
+        "intended_use": "播種用の種子ですか、播種用以外の食用・飼料用ですか。仕様書と用途を確認してください。"
+      },
+      "sourceIds": [
+        "vg-tariff2010-maize-honey"
+      ],
+      "rationale": "公式国別品目表に掲載されたとうもろこしの種子／その他の区分を、実物の状態と用途から絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "vg-national-maize-food-or-feed-hs6",
+      "title": "VG（2010年原法参照）：食用・飼料用（播種用以外）の未加工とうもろこし穀粒",
+      "country": "VG",
+      "direction": "import",
+      "hsEdition": "VG-TARIFF-2010",
+      "hs6": "100590",
+      "keywords": [
+        "maize",
+        "corn",
+        "とうもろこし",
+        "トウモロコシ",
+        "玉米"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "sweetcorn",
+        "intended_use"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "maize_grain"
+        ],
+        "composition": [
+          "maize_only"
+        ],
+        "processing": [
+          "dried_unworked_grains"
+        ],
+        "sweetcorn": [
+          "not_sweetcorn"
+        ],
+        "intended_use": [
+          "food_or_feed"
+        ]
+      },
+      "questions": {
+        "product_type": "粒のとうもろこしですか。粉・加工食品と区別してください。",
+        "composition": "他の穀物・原料を加えていないとうもろこしのみですか。",
+        "processing": "輸入時は乾燥した未加工の穀粒ですか。製粉・圧ぺん・調理・皮むき等をしたものは別途確認してください。",
+        "sweetcorn": "スイートコーンではないことを確認できますか。",
+        "intended_use": "播種用の種子ですか、播種用以外の食用・飼料用ですか。仕様書と用途を確認してください。"
+      },
+      "sourceIds": [
+        "vg-tariff2010-maize-honey"
+      ],
+      "rationale": "公式国別品目表に掲載されたとうもろこしの種子／その他の区分を、実物の状態と用途から絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "vg-national-natural-honey-hs6",
+      "title": "VG（2010年原法参照）：無添加の天然はちみつ",
+      "country": "VG",
+      "direction": "import",
+      "hsEdition": "VG-TARIFF-2010",
+      "hs6": "040900",
+      "keywords": [
+        "honey",
+        "はちみつ",
+        "蜂蜜"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "added_substances",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "natural_honey"
+        ],
+        "composition": [
+          "natural_honey_only"
+        ],
+        "added_substances": [
+          "none"
+        ],
+        "presentation": [
+          "honey_without_comb"
+        ]
+      },
+      "questions": {
+        "product_type": "ミツバチが作った天然はちみつですか。人工はちみつ・代用品は別途確認してください。",
+        "composition": "天然はちみつだけの商品ですか。",
+        "added_substances": "砂糖・シロップ・香料等の他の物質を添加していませんか。",
+        "presentation": "巣蜜や他食品とのセットではなく、はちみつ単体ですか。"
+      },
+      "sourceIds": [
+        "vg-tariff2010-maize-honey"
+      ],
+      "rationale": "公式国別品目表の天然はちみつ項目のみを参照し、無添加のはちみつ単体に絞る参考候補。国際HS改訂版へ読み替えず記録した国別版内でのみ使用する。国内細分未選択、自動承認不可。"
+    },
+    {
+      "id": "tc-national-coffee-roasted-not-decaffeinated-hs6",
+      "title": "TC（2010年国別版）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "TC",
+      "direction": "import",
+      "hsEdition": "TC-TARIFF-2010",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "tc-tariff2010-roasted-coffee"
+      ],
+      "rationale": "2010年国別品目表の焙煎済みコーヒー区分とカフェイン条件を参照する。他原料を加えない粒状の豆のみの候補。HS2022への版変換・現行税率・国内細分の自動選択はしない。"
+    },
+    {
+      "id": "tc-national-coffee-roasted-decaffeinated-hs6",
+      "title": "TC（2010年国別版）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "TC",
+      "direction": "import",
+      "hsEdition": "TC-TARIFF-2010",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "tc-tariff2010-roasted-coffee"
+      ],
+      "rationale": "2010年国別品目表の焙煎済みコーヒー区分とカフェイン条件を参照する。他原料を加えない粒状の豆のみの候補。HS2022への版変換・現行税率・国内細分の自動選択はしない。"
+    },
+    {
+      "id": "vi-statistics-coffee-unroasted-not-decaffeinated-hs6",
+      "title": "VI（正式輸入の統計記録参考）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "VI",
+      "direction": "import",
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_purpose"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_purpose": [
+          "formal_import_statistics"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_purpose": "この照会は米領ヴァージン諸島の正式輸入の統計記録用ですか。独自関税の税率・徴税・輸入許可の判断には使用できません。"
+      },
+      "sourceIds": [
+        "vi-gao2026-formal-import-classification",
+        "vi-usitc2026-rev23-coffee-statistics"
+      ],
+      "rationale": "GAOが確認した米領ヴァージン諸島の正式輸入統計記録用途に限定し、USITCが公開する2026 Revision 23のコーヒー区分を参照する。USVI独自の関税表・税率・国内細分の確定ではなく、記録した統計参照版だけのHS6候補。自動承認不可。"
+    },
+    {
+      "id": "vi-statistics-coffee-roasted-not-decaffeinated-hs6",
+      "title": "VI（正式輸入の統計記録参考）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "VI",
+      "direction": "import",
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_purpose"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_purpose": [
+          "formal_import_statistics"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_purpose": "この照会は米領ヴァージン諸島の正式輸入の統計記録用ですか。独自関税の税率・徴税・輸入許可の判断には使用できません。"
+      },
+      "sourceIds": [
+        "vi-gao2026-formal-import-classification",
+        "vi-usitc2026-rev23-coffee-statistics"
+      ],
+      "rationale": "GAOが確認した米領ヴァージン諸島の正式輸入統計記録用途に限定し、USITCが公開する2026 Revision 23のコーヒー区分を参照する。USVI独自の関税表・税率・国内細分の確定ではなく、記録した統計参照版だけのHS6候補。自動承認不可。"
+    },
+    {
+      "id": "vi-statistics-coffee-roasted-decaffeinated-hs6",
+      "title": "VI（正式輸入の統計記録参考）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "VI",
+      "direction": "import",
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_purpose"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_purpose": [
+          "formal_import_statistics"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_purpose": "この照会は米領ヴァージン諸島の正式輸入の統計記録用ですか。独自関税の税率・徴税・輸入許可の判断には使用できません。"
+      },
+      "sourceIds": [
+        "vi-gao2026-formal-import-classification",
+        "vi-usitc2026-rev23-coffee-statistics"
+      ],
+      "rationale": "GAOが確認した米領ヴァージン諸島の正式輸入統計記録用途に限定し、USITCが公開する2026 Revision 23のコーヒー区分を参照する。USVI独自の関税表・税率・国内細分の確定ではなく、記録した統計参照版だけのHS6候補。自動承認不可。"
+    },
+    {
+      "id": "mp-hs2022-coffee-unroasted-not-decaf-hs6",
+      "title": "MP（PACHS2022採用版参考）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "MP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mp-finance-pachs2022-adoption",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
+      "rationale": "北マリアナ財務局自身のPACHS2022採用・HS2022全改正包含の説明と、WCO同版第9類の親子階層を併用する。他原料を加えない粒状のコーヒー豆を、焙煎・カフェイン除去の事実条件で絞る国際共通HS6参考候補。米国本国のHTSを転用していない。現行の国内細分・税率・輸入許可は確認対象外で、自動承認不可。"
+    },
+    {
+      "id": "mp-hs2022-coffee-roasted-not-decaf-hs6",
+      "title": "MP（PACHS2022採用版参考）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "MP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mp-finance-pachs2022-adoption",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
+      "rationale": "北マリアナ財務局自身のPACHS2022採用・HS2022全改正包含の説明と、WCO同版第9類の親子階層を併用する。他原料を加えない粒状のコーヒー豆を、焙煎・カフェイン除去の事実条件で絞る国際共通HS6参考候補。米国本国のHTSを転用していない。現行の国内細分・税率・輸入許可は確認対象外で、自動承認不可。"
+    },
+    {
+      "id": "mp-hs2022-coffee-roasted-decaf-hs6",
+      "title": "MP（PACHS2022採用版参考）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "MP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "mp-finance-pachs2022-adoption",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
+      "rationale": "北マリアナ財務局自身のPACHS2022採用・HS2022全改正包含の説明と、WCO同版第9類の親子階層を併用する。他原料を加えない粒状のコーヒー豆を、焙煎・カフェイン除去の事実条件で絞る国際共通HS6参考候補。米国本国のHTSを転用していない。現行の国内細分・税率・輸入許可は確認対象外で、自動承認不可。"
+    },
+    {
+      "id": "cc-coffee-roasted-not-decaf-hs6",
+      "title": "CC（適用税関法の品目分類参考）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "CC",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cc-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "cc-coffee-roasted-decaf-hs6",
+      "title": "CC（適用税関法の品目分類参考）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "CC",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cc-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "cc-coffee-unroasted-not-decaf-hs6",
+      "title": "CC（適用税関法の品目分類参考）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "CC",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cc-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "cx-coffee-roasted-not-decaf-hs6",
+      "title": "CX（適用税関法の品目分類参考）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "CX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cx-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "cx-coffee-roasted-decaf-hs6",
+      "title": "CX（適用税関法の品目分類参考）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "CX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cx-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "cx-coffee-unroasted-not-decaf-hs6",
+      "title": "CX（適用税関法の品目分類参考）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "CX",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "cx-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "nf-coffee-roasted-not-decaf-hs6",
+      "title": "NF（適用税関法の品目分類参考）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "NF",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "nf-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "nf-coffee-roasted-decaf-hs6",
+      "title": "NF（適用税関法の品目分類参考）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "NF",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "nf-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "nf-coffee-unroasted-not-decaf-hs6",
+      "title": "NF（適用税関法の品目分類参考）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "NF",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_context": [
+          "territory_applied_customs_law"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_context": "この輸入は、当該島の適用税関法の対象ですか。クリスマス島・ココス諸島間の移動等の除外を確認してください。"
+      },
+      "sourceIds": [
+        "nf-applied-customs-classification-law",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "au-external-territories-customs-scope-2026"
+      ],
+      "rationale": "当該島の現行一覧に掲載された個別条例の分類同一規定、豪州関税分類のHS2022採用説明、ABF第9類の親子階層を併用する。対象の輸入が当該島の適用税関法の範囲にあることを確認し、他原料を加えない粒状コーヒー豆に絞るHS6参考候補。分類参照と関税賦課を区別し、豪州本土の税率を転用しない。国内細分未選択、課税・許可・自動承認は対象外。"
+    },
+    {
+      "id": "sh-hs2012-coffee-090111-hs6",
+      "title": "SH（セントヘレナ限定・HS2012）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "SH",
+      "direction": "import",
+      "hsEdition": "HS2012",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_territory": [
+          "saint_helena"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_territory": "この候補の対象はセントヘレナ島ですか。アセンションやトリスタン・ダ・クーニャの制度とは分けて確認してください。"
+      },
+      "sourceIds": [
+        "sh-saint-helena-hs2012-coffee-tariff-2025"
+      ],
+      "rationale": "2025年7月公開のセントヘレナ税則が明示するHS2012のコーヒー4分類を先頭6桁のみ参照する。他原料を加えない粒状豆を焙煎・カフェイン除去とセントヘレナ島という領域条件で絞る。SH全域に同一税則を推定せず、国内細分・現行税率・輸入可否は未確認。自動承認不可。"
+    },
+    {
+      "id": "sh-hs2012-coffee-090112-hs6",
+      "title": "SH（セントヘレナ限定・HS2012）：未焙煎・カフェイン除去のコーヒー豆",
+      "country": "SH",
+      "direction": "import",
+      "hsEdition": "HS2012",
+      "hs6": "090112",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_territory": [
+          "saint_helena"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_territory": "この候補の対象はセントヘレナ島ですか。アセンションやトリスタン・ダ・クーニャの制度とは分けて確認してください。"
+      },
+      "sourceIds": [
+        "sh-saint-helena-hs2012-coffee-tariff-2025"
+      ],
+      "rationale": "2025年7月公開のセントヘレナ税則が明示するHS2012のコーヒー4分類を先頭6桁のみ参照する。他原料を加えない粒状豆を焙煎・カフェイン除去とセントヘレナ島という領域条件で絞る。SH全域に同一税則を推定せず、国内細分・現行税率・輸入可否は未確認。自動承認不可。"
+    },
+    {
+      "id": "sh-hs2012-coffee-090121-hs6",
+      "title": "SH（セントヘレナ限定・HS2012）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "SH",
+      "direction": "import",
+      "hsEdition": "HS2012",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_territory": [
+          "saint_helena"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_territory": "この候補の対象はセントヘレナ島ですか。アセンションやトリスタン・ダ・クーニャの制度とは分けて確認してください。"
+      },
+      "sourceIds": [
+        "sh-saint-helena-hs2012-coffee-tariff-2025"
+      ],
+      "rationale": "2025年7月公開のセントヘレナ税則が明示するHS2012のコーヒー4分類を先頭6桁のみ参照する。他原料を加えない粒状豆を焙煎・カフェイン除去とセントヘレナ島という領域条件で絞る。SH全域に同一税則を推定せず、国内細分・現行税率・輸入可否は未確認。自動承認不可。"
+    },
+    {
+      "id": "sh-hs2012-coffee-090122-hs6",
+      "title": "SH（セントヘレナ限定・HS2012）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "SH",
+      "direction": "import",
+      "hsEdition": "HS2012",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "customs_territory"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "customs_territory": [
+          "saint_helena"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "customs_territory": "この候補の対象はセントヘレナ島ですか。アセンションやトリスタン・ダ・クーニャの制度とは分けて確認してください。"
+      },
+      "sourceIds": [
+        "sh-saint-helena-hs2012-coffee-tariff-2025"
+      ],
+      "rationale": "2025年7月公開のセントヘレナ税則が明示するHS2012のコーヒー4分類を先頭6桁のみ参照する。他原料を加えない粒状豆を焙煎・カフェイン除去とセントヘレナ島という領域条件で絞る。SH全域に同一税則を推定せず、国内細分・現行税率・輸入可否は未確認。自動承認不可。"
+    },
+    {
+      "id": "gl-grkn8-coffee-090111-hs6",
+      "title": "GL（廃止済みGRKN8輸入統計参照）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "GL",
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_context": [
+          "historical_grkn8_import_statistics_1989_2003"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_context": "1989–2003年の廃止済みGRKN8輸入統計の品目を参照する作業ですか。現行の輸入申告用コードとしては利用できません。"
+      },
+      "sourceIds": [
+        "gl-statbank-grkn8-commodity-metadata",
+        "gl-statbank-grkn8-official-table-scope"
+      ],
+      "rationale": "デンマーク統計局が公表するグリーンランドGRKN8の実品目記述を先頭6桁の歴史的輸入統計参照として限定する。表は廃止済みで対象年1989–2003、国際HS改訂版は未特定。現行の輸入税則、2026年の国別分類、国内細分や税率への適用を推定しない。自動承認不可。"
+    },
+    {
+      "id": "gl-grkn8-coffee-090112-hs6",
+      "title": "GL（廃止済みGRKN8輸入統計参照）：未焙煎・カフェイン除去のコーヒー豆",
+      "country": "GL",
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "hs6": "090112",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_context": [
+          "historical_grkn8_import_statistics_1989_2003"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_context": "1989–2003年の廃止済みGRKN8輸入統計の品目を参照する作業ですか。現行の輸入申告用コードとしては利用できません。"
+      },
+      "sourceIds": [
+        "gl-statbank-grkn8-commodity-metadata",
+        "gl-statbank-grkn8-official-table-scope"
+      ],
+      "rationale": "デンマーク統計局が公表するグリーンランドGRKN8の実品目記述を先頭6桁の歴史的輸入統計参照として限定する。表は廃止済みで対象年1989–2003、国際HS改訂版は未特定。現行の輸入税則、2026年の国別分類、国内細分や税率への適用を推定しない。自動承認不可。"
+    },
+    {
+      "id": "gl-grkn8-coffee-090121-hs6",
+      "title": "GL（廃止済みGRKN8輸入統計参照）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "GL",
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_context": [
+          "historical_grkn8_import_statistics_1989_2003"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_context": "1989–2003年の廃止済みGRKN8輸入統計の品目を参照する作業ですか。現行の輸入申告用コードとしては利用できません。"
+      },
+      "sourceIds": [
+        "gl-statbank-grkn8-commodity-metadata",
+        "gl-statbank-grkn8-official-table-scope"
+      ],
+      "rationale": "デンマーク統計局が公表するグリーンランドGRKN8の実品目記述を先頭6桁の歴史的輸入統計参照として限定する。表は廃止済みで対象年1989–2003、国際HS改訂版は未特定。現行の輸入税則、2026年の国別分類、国内細分や税率への適用を推定しない。自動承認不可。"
+    },
+    {
+      "id": "gl-grkn8-coffee-090122-hs6",
+      "title": "GL（廃止済みGRKN8輸入統計参照）：焙煎済み・カフェイン除去のコーヒー豆",
+      "country": "GL",
+      "direction": "import",
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "hs6": "090122",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ],
+        "classification_context": [
+          "historical_grkn8_import_statistics_1989_2003"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。",
+        "classification_context": "1989–2003年の廃止済みGRKN8輸入統計の品目を参照する作業ですか。現行の輸入申告用コードとしては利用できません。"
+      },
+      "sourceIds": [
+        "gl-statbank-grkn8-commodity-metadata",
+        "gl-statbank-grkn8-official-table-scope"
+      ],
+      "rationale": "デンマーク統計局が公表するグリーンランドGRKN8の実品目記述を先頭6桁の歴史的輸入統計参照として限定する。表は廃止済みで対象年1989–2003、国際HS改訂版は未特定。現行の輸入税則、2026年の国別分類、国内細分や税率への適用を推定しない。自動承認不可。"
+    },
+    {
+      "id": "tk-hs2017-historical-import-tomato-hs6",
+      "title": "TK（2014–2019年輸入統計参考）：新鮮又は冷蔵のトマト",
+      "country": "TK",
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "hs6": "070200",
+      "keywords": [
+        "tomato",
+        "トマト",
+        "番茄"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "processing",
+        "composition",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "tomato"
+        ],
+        "processing": [
+          "fresh_or_chilled"
+        ],
+        "composition": [
+          "single_commodity_only"
+        ],
+        "form": [
+          "whole"
+        ],
+        "classification_context": [
+          "apia_tokelau_import_statistics_2014_2019"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はトマトそのものですか。別の品種・原料とは区別してください。",
+        "processing": "新鮮又は冷蔵の状態ですか。冷凍・乾燥・加熱・保存調製品とは区別してください。",
+        "composition": "トマトだけの商品ですか。混合品・調製品とは区別してください。",
+        "form": "この候補は丸ごとの品物を対象にします。粉・ジュース・ピューレ等に加工していませんか。",
+        "classification_context": "2014–2019年のアピアからトケラウへの輸入貨物統計を参照する作業ですか。現行の通関税則や他経路の採用は未確認です。"
+      },
+      "sourceIds": [
+        "tk-tnso-hs2017-import-statistics-2019",
+        "tk-wco-hs2017-vegetable-hierarchy"
+      ],
+      "rationale": "トケラウ統計局2019年報告の附属書5に実際に掲載された070200を、WCO HS2017の親見出しで照合した限定的な歴史的輸入統計参考候補。対象経路・時期と、品物・状態・単一原料・形態を条件にする。報告内の他の不整合なコードは取り込まず、現行国内税則・国内細分・税率・輸入可否を推定しない。自動承認不可。"
+    },
+    {
+      "id": "tk-hs2017-historical-import-garlic-hs6",
+      "title": "TK（2014–2019年輸入統計参考）：新鮮又は冷蔵のにんにく",
+      "country": "TK",
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "hs6": "070320",
+      "keywords": [
+        "garlic",
+        "にんにく",
+        "大蒜"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "processing",
+        "composition",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "garlic"
+        ],
+        "processing": [
+          "fresh_or_chilled"
+        ],
+        "composition": [
+          "single_commodity_only"
+        ],
+        "form": [
+          "whole"
+        ],
+        "classification_context": [
+          "apia_tokelau_import_statistics_2014_2019"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はにんにくそのものですか。別の品種・原料とは区別してください。",
+        "processing": "新鮮又は冷蔵の状態ですか。冷凍・乾燥・加熱・保存調製品とは区別してください。",
+        "composition": "にんにくだけの商品ですか。混合品・調製品とは区別してください。",
+        "form": "この候補は丸ごとの品物を対象にします。粉・ジュース・ピューレ等に加工していませんか。",
+        "classification_context": "2014–2019年のアピアからトケラウへの輸入貨物統計を参照する作業ですか。現行の通関税則や他経路の採用は未確認です。"
+      },
+      "sourceIds": [
+        "tk-tnso-hs2017-import-statistics-2019",
+        "tk-wco-hs2017-vegetable-hierarchy"
+      ],
+      "rationale": "トケラウ統計局2019年報告の附属書5に実際に掲載された070320を、WCO HS2017の親見出しで照合した限定的な歴史的輸入統計参考候補。対象経路・時期と、品物・状態・単一原料・形態を条件にする。報告内の他の不整合なコードは取り込まず、現行国内税則・国内細分・税率・輸入可否を推定しない。自動承認不可。"
+    },
+    {
+      "id": "tk-hs2017-historical-import-apple-hs6",
+      "title": "TK（2014–2019年輸入統計参考）：新鮮又は冷蔵のりんご",
+      "country": "TK",
+      "direction": "import",
+      "hsEdition": "HS2017",
+      "hs6": "080810",
+      "keywords": [
+        "apple",
+        "りんご",
+        "苹果"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "processing",
+        "composition",
+        "form",
+        "classification_context"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "apple"
+        ],
+        "processing": [
+          "fresh_or_chilled"
+        ],
+        "composition": [
+          "single_commodity_only"
+        ],
+        "form": [
+          "whole"
+        ],
+        "classification_context": [
+          "apia_tokelau_import_statistics_2014_2019"
+        ]
+      },
+      "questions": {
+        "product_type": "商品はりんごそのものですか。別の品種・原料とは区別してください。",
+        "processing": "新鮮又は冷蔵の状態ですか。冷凍・乾燥・加熱・保存調製品とは区別してください。",
+        "composition": "りんごだけの商品ですか。混合品・調製品とは区別してください。",
+        "form": "この候補は丸ごとの品物を対象にします。粉・ジュース・ピューレ等に加工していませんか。",
+        "classification_context": "2014–2019年のアピアからトケラウへの輸入貨物統計を参照する作業ですか。現行の通関税則や他経路の採用は未確認です。"
+      },
+      "sourceIds": [
+        "tk-tnso-hs2017-import-statistics-2019",
+        "tk-wco-hs2017-apple-hierarchy"
+      ],
+      "rationale": "トケラウ統計局2019年報告の附属書5に実際に掲載された080810を、WCO HS2017の親見出しで照合した限定的な歴史的輸入統計参考候補。対象経路・時期と、品物・状態・単一原料・形態を条件にする。報告内の他の不整合なコードは取り込まず、現行国内税則・国内細分・税率・輸入可否を推定しない。自動承認不可。"
+    },
+    {
+      "id": "iq-law22-2010-cotton-non-electric-blanket-hs6",
+      "title": "IQ（2010年公表版）：綿のみの非電気毛布",
+      "country": "IQ",
+      "direction": "import",
+      "hsEdition": "IQ-TARIFF-LAW22-2010",
+      "hs6": "630130",
+      "keywords": [
+        "blanket",
+        "cotton blanket",
+        "毛布",
+        "綿毛布",
+        "بطانية",
+        "綿製毛布",
+        "non-electric blanket",
+        "manta"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "electrical",
+        "construction",
+        "filling",
+        "customs_jurisdiction"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "blanket"
+        ],
+        "composition": [
+          "cotton_only"
+        ],
+        "electrical": [
+          "non_electric"
+        ],
+        "construction": [
+          "made_up_textile"
+        ],
+        "filling": [
+          "none"
+        ],
+        "customs_jurisdiction": [
+          "federal_iraq"
+        ]
+      },
+      "questions": {
+        "product_type": "完成した毛布ですか。寝具の詰物入り掛布等とは区別してください。",
+        "composition": "繊維組成は綿のみですか。混紡や他繊維はこの限定候補から除外します。",
+        "electrical": "電気加熱機能のない毛布ですか。",
+        "construction": "完成した紡織用繊維の製品ですか。生地のままではありませんか。",
+        "filling": "中綿などの詰物がない毛布ですか。",
+        "customs_jurisdiction": "参照対象は連邦イラク税関の2010年公表品目表ですか。クルディスタン地域等の実適用は別途確認してください。"
+      },
+      "sourceIds": [
+        "iq-law22-2010-hs-foundation",
+        "iq-law22-2010-part2-cotton-blanket"
+      ],
+      "rationale": "イラク財務省掲載の2010年法22号第2部・印刷頁426の綿製非電気毛布63013000の先頭6桁だけを参考とする。綿のみ・非電気・完成した毛布・詰物なしを必須条件にし、連邦税関の歴史的公表版という文脈を限定する。国際HS改訂版、現行国内分類、地域別適用、税率や輸入可否は未確認。国内細分未選択で自動承認不可。"
+    },
+    {
+      "id": "sy-decree188-2026-glass-mineral-water-hs6",
+      "title": "SY（政令188号公表版）：無糖・無香料のガラス容器入りミネラルウォーター",
+      "country": "SY",
+      "direction": "import",
+      "hsEdition": "SY-DECREE188-2026",
+      "hs6": "220110",
+      "keywords": [
+        "mineral water",
+        "ミネラルウォーター",
+        "مياه معدنية"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "sweetening",
+        "flavouring",
+        "container",
+        "composition"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "mineral_water"
+        ],
+        "sweetening": [
+          "none"
+        ],
+        "flavouring": [
+          "none"
+        ],
+        "container": [
+          "glass_container"
+        ],
+        "composition": [
+          "water_only"
+        ]
+      },
+      "questions": {
+        "product_type": "ミネラルウォーターですか。ジュースやその他の飲料と区別してください。",
+        "sweetening": "砂糖その他の甘味料を加えていませんか。",
+        "flavouring": "香料を加えていませんか。",
+        "container": "輸入時の容器はガラス製ですか。原典のこの枝はガラス容器に限定されます。",
+        "composition": "原材料は水のみですか。他成分を加えた飲料は除外してください。"
+      },
+      "sourceIds": [
+        "sy-decree188-2026-announcement",
+        "sy-decree188-2026-glass-mineral-water"
+      ],
+      "rationale": "政令188号の実添付表にある2201.10.50のガラス容器入りミネラルウォーターを読み取り、無糖・無香料・水のみ・ガラス容器を全て必要条件としてHS6の先頭部分だけを提示する。国際HS改訂版、現在の全国内細分、税率、輸入制限や申告承認を推定しない。国内細分未選択で自動承認不可。"
+    },
+    {
+      "id": "ve-caricom1992-coffee-unroasted-not-decaf-hs6",
+      "title": "VE（1992年協定輸入表）：未焙煎・カフェイン未除去のコーヒー豆",
+      "country": "VE",
+      "direction": "import",
+      "hsEdition": "VE-CARICOM-1992",
+      "hs6": "090111",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "unroasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ve-caricom-1992-import-annex-context",
+        "ve-caricom-1992-annex3-coffee",
+        "ve-caricom-1992-nandina-hs-foundation"
+      ],
+      "rationale": "1992年Venezuela・CARICOM協定のVenezuela向け輸入例外表（附属書III）にある実際のNANDINA商品欄を参照する。共通の原産地規則表を輸入表として扱わない。他原料を加えない粒状豆を焙煎・カフェイン除去の事実条件で絞るHS6参考候補。国際HS改訂版は未確認の独立協定公表版で、現在の国内適用、協定特恵、原産資格、税率や輸入可否を推定しない。国内細分未選択で自動承認不可。"
+    },
+    {
+      "id": "ve-caricom1992-coffee-roasted-not-decaf-hs6",
+      "title": "VE（1992年協定輸入表）：焙煎済み・カフェイン未除去のコーヒー豆",
+      "country": "VE",
+      "direction": "import",
+      "hsEdition": "VE-CARICOM-1992",
+      "hs6": "090121",
+      "keywords": [
+        "coffee",
+        "コーヒー",
+        "咖啡"
+      ],
+      "requiredAttributes": [
+        "product_type",
+        "composition",
+        "processing",
+        "decaffeination",
+        "form"
+      ],
+      "attributeConditions": {
+        "product_type": [
+          "coffee_beans"
+        ],
+        "composition": [
+          "coffee_only"
+        ],
+        "processing": [
+          "roasted"
+        ],
+        "decaffeination": [
+          "not_decaffeinated"
+        ],
+        "form": [
+          "whole_beans"
+        ]
+      },
+      "questions": {
+        "product_type": "コーヒー豆そのものですか。抽出物・代用品・殻等とは区別してください。",
+        "composition": "他の原料を加えていないコーヒー豆のみの商品ですか。",
+        "processing": "輸入時点で焙煎済みですか、未焙煎ですか。",
+        "decaffeination": "カフェインを除去した商品ですか。仕様書で確認してください。",
+        "form": "この候補は粒状の豆を対象とします。粉末・抽出物等ではありませんか。"
+      },
+      "sourceIds": [
+        "ve-caricom-1992-import-annex-context",
+        "ve-caricom-1992-annex3-coffee",
+        "ve-caricom-1992-nandina-hs-foundation"
+      ],
+      "rationale": "1992年Venezuela・CARICOM協定のVenezuela向け輸入例外表（附属書III）にある実際のNANDINA商品欄を参照する。共通の原産地規則表を輸入表として扱わない。他原料を加えない粒状豆を焙煎・カフェイン除去の事実条件で絞るHS6参考候補。国際HS改訂版は未確認の独立協定公表版で、現在の国内適用、協定特恵、原産資格、税率や輸入可否を推定しない。国内細分未選択で自動承認不可。"
     }
   ]
 }
