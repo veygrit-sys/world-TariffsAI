@@ -2,7 +2,9 @@
 
 Veygrit向けの関税・通関判断支援エンジンです。TypeScript・Node.jsのAPIとCLIに、通関準備、根拠付きの見積もり、DAP・DDPの請求照合、Next.js・WooCommerce連携例を収録しています。
 
-**v1.0.0-rc.30** は、版を区別した6桁分類の参照候補を234か国・地域へ拡張しました（HS2022は166、その他の版は68）。271出典レコード・268固有URL、664件の国別ルール、60種類の6桁コードを収録しています。旧HS版、国別公表版、WTO譲許表、協定附属書は現在の適用税表と区別し、分類要求に記録された版を明示します。全250仕向地の版別・参考区分別台帳をAPI・CLIで取得でき、HS2022既定のAPIとall指定の集計を分けています。候補は未承認であり、国内税番・税率・輸入許可・配送受付を確定しません。 [全体の展開台帳](docs/HS_CLASSIFICATION_ROLLOUT.md) ・ [国別の範囲と出典](docs/HS_CLASSIFICATION_COUNTRIES.md) ・ [分類と自動割当](docs/HS_CLASSIFICATION.md)
+**v1.0.0-rc.31** は、商品を確認済み割当・単一候補・属性不足・複数候補・再確認・未対応の6キューへ自動振り分け、HSコード別の商品グループを返します。有効な承認だけを再割当し、唯一の適合候補は未確認のまま事前選択します。 [自動振り分けの使い方](docs/HS_CLASSIFICATION_ROUTING.md)
+
+分類カタログには、版を区別した6桁分類の参照候補を234か国・地域収録しています（HS2022は166、その他の版は68）。271出典レコード・268固有URL、664件の国別ルール、60種類の6桁コードを保持しています。旧HS版、国別公表版、WTO譲許表、協定附属書は現在の適用税表と区別し、分類要求に記録された版を明示します。全250仕向地の版別・参考区分別台帳をAPI・CLIで取得でき、HS2022既定のAPIとall指定の集計を分けています。候補は未承認であり、国内税番・税率・輸入許可・配送受付を確定しません。 [全体の展開台帳](docs/HS_CLASSIFICATION_ROLLOUT.md) ・ [国別の範囲と出典](docs/HS_CLASSIFICATION_COUNTRIES.md) ・ [分類と自動割当](docs/HS_CLASSIFICATION.md)
 
 ## 公開リポジトリの対応範囲
 
@@ -24,6 +26,7 @@ npm run check:public
 npm run cli -- worldwide-direction examples/worldwide-direction-jp-de.json
 npm run cli -- customs-plan examples/customs-plan-us.json
 npm run cli -- tariff examples/tariff-jp.json
+npm run cli -- classification-route examples/classification-routing.json 2026-11-19T12:00:00+09:00
 ```
 
 `check:public` は型検査、ビルド、公開データで実行できるテスト、出典台帳の整合性検査を行います。方向照会では公的資料を、通関計画では書類と税額の保留理由を確認できます。品目照会は参照候補を返し、個別取引の適用税率は `applicableRate: null` と表示します。
@@ -101,6 +104,7 @@ curl http://127.0.0.1:3008/v1/customs/plan \
 | `POST /v1/classification/propose` | 根拠付きHS候補と追加質問 |
 | `POST /v1/classification/assign` | サーバーの確認済み分類を商品へ再割当 |
 | `POST /v1/classification/batch` | 同一加盟店の商品を一括処理 |
+| `POST /v1/classification/route` | 商品の作業キューとHSコード別グループを自動作成 |
 | `GET /v1/classification/coverage` | 分類カタログの収録範囲 |
 | `GET /v1/classification/rollout` | 全250仕向地の分類調査・商品例・未確認項目を分割表示 |
 | `GET /v1/classification/sources` | 分類出典のURL・確認日・適用期間 |

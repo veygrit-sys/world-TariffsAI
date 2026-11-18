@@ -152,10 +152,14 @@ function rankRule(
   };
 }
 
-function bestCandidates(candidates: RankedCandidate[]): RankedCandidate[] {
-  candidates.sort((a, b) => b.candidate.matchedAttributes.length - a.candidate.matchedAttributes.length ||
+function compareCandidates(a: RankedCandidate, b: RankedCandidate): number {
+  return b.candidate.matchedAttributes.length - a.candidate.matchedAttributes.length ||
     a.candidate.missingAttributes.length - b.candidate.missingAttributes.length ||
-    b.keywordCount - a.keywordCount || a.rule.id.localeCompare(b.rule.id));
+    b.keywordCount - a.keywordCount || a.rule.id.localeCompare(b.rule.id);
+}
+
+function bestCandidates(candidates: RankedCandidate[]): RankedCandidate[] {
+  candidates.sort(compareCandidates);
   const identities = new Set<string>();
   return candidates.filter(({ candidate }) => {
     const key = [candidate.hs6, candidate.nationalCode ?? "", candidate.tariffEdition ?? ""].join(":");
@@ -183,10 +187,17 @@ function questionsFor(candidates: readonly RankedCandidate[]): ClassificationQue
   return [...questions.values()].slice(0, 50);
 }
 
-/** Grounded reference search and questions; only a separate recorded review can confirm a code. */
-export function proposeClassification(
+/** Internal full match set. Public proposals deliberately remain limited to three identities. */
+export interface ClassificationCandidateAnalysis {
+  request: ClassificationRequest;
+  rankedCandidates: readonly RankedCandidate[];
+  proposal: ClassificationProposal;
+}
+
+/** Share the exact search, attribute and source checks with automatic routing. */
+export function analyzeClassificationCandidates(
   input: unknown, catalog: ClassificationCatalog, data: Dataset = loadDataset(), now = new Date(),
-): ClassificationProposal {
+): ClassificationCandidateAnalysis {
   const request = parseClassificationRequest(input, data);
   const { product, context } = request;
   const base = {
@@ -198,20 +209,29 @@ export function proposeClassification(
   };
   const country = [...data.countries, ...data.supplementalRegions].find(({ code }) => code === context.country)!;
   if (!country.inScope || context.country === "KP" || context.country === "AQ")
-    return { ...base, status: "unsupported", findings: [{ code: "CLASSIFICATION_COUNTRY_EXCLUDED" }] };
+    return { request, rankedCandidates: [],
+      proposal: { ...base, status: "unsupported", findings: [{ code: "CLASSIFICATION_COUNTRY_EXCLUDED" }] } };
   const findings = new Map<string, ClassificationProposal["findings"][number]>();
   const today = todayJst(now);
-  const ranked = bestCandidates(catalog.rules.flatMap((rule) => {
+  const rankedCandidates = catalog.rules.flatMap((rule) => {
     const candidate = rankRule(rule, request, catalog, today, findings);
     return candidate ? [candidate] : [];
-  }));
+  });
+  const ranked = bestCandidates([...rankedCandidates]);
   const candidates = ranked.map(({ candidate }) => candidate);
-  if (!candidates.length) return {
+  const proposal: ClassificationProposal = !candidates.length ? {
     ...base, status: findings.size ? "review_required" : "unsupported",
     findings: findings.size ? [...findings.values()].slice(0, 2000) : [{ code: "CLASSIFICATION_REFERENCE_NOT_FOUND" }],
-  };
-  return {
+  } : {
     ...base, status: candidates[0]!.missingAttributes.length ? "needs_attributes" : "candidates",
     candidates, questions: questionsFor(ranked), findings: [...findings.values()].slice(0, 2000),
   };
+  return { request, rankedCandidates: rankedCandidates.sort(compareCandidates), proposal };
+}
+
+/** Grounded reference search and questions; only a separate recorded review can confirm a code. */
+export function proposeClassification(
+  input: unknown, catalog: ClassificationCatalog, data: Dataset = loadDataset(), now = new Date(),
+): ClassificationProposal {
+  return analyzeClassificationCandidates(input, catalog, data, now).proposal;
 }

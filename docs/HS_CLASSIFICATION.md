@@ -2,6 +2,8 @@
 
 rc.25では、商品情報の構造化、根拠付き候補検索、追加質問、運用者の承認と取消、確認済み分類の再割当、一括処理、既存の通関計画への引き継ぎを追加しました。従来の `/v1/classify` は注意カテゴリと不足属性を返す既存仕様を維持します。
 
+rc.31では、[商品の自動振り分け](HS_CLASSIFICATION_ROUTING.md)を追加しました。有効な承認の再利用、唯一の属性充足候補の事前選択、属性不足・複数候補・再確認・未対応の判定をまとめ、SKU別の作業キューとHSコード別グループを返します。表示用の上位3候補だけで判断せず、条件に適合する全候補を評価します。
+
 ## 実装順とデータ範囲
 
 1. 商品・対象国・輸出入区分・HS版を定義し、商品指紋と確認対象のダイジェストを作る。
@@ -38,11 +40,14 @@ rc.25では、商品情報の構造化、根拠付き候補検索、追加質問
 | `POST /v1/classification/propose` | 上位3候補、分類理由、出典ID、不足属性と追加質問。常に未確認 |
 | `POST /v1/classification/assign` | サーバーの保護された承認履歴を照合し、有効な分類を再割当 |
 | `POST /v1/classification/batch` | 同一加盟店の最大100商品を処理し、商品別結果と状態件数を返す |
+| `POST /v1/classification/route` | 同じバッチ入力から6つの作業キュー、候補の事前選択、HSコード別グループを返す |
 | `GET /v1/classification/rollout` | ISO249仕向地と補助XKの250件を追跡。候補・再確認・未確認・対象外を国/地域群/日付/方向/HS版/状態/ページで絞り込み |
 | `GET /v1/classification/coverage` | 読み込み済みのカタログ版・件数・対象国・輸出入区分・HS版 |
 | `GET /v1/classification/sources?offset=0&limit=25` | 出典IDを公式URL、確認日、適用期間へ解決。1回最大100件 |
 
 `needs_attributes` は情報不足、`candidates` は候補提示、`unsupported` は収録なし・対象外、`review_required` は期限や仕様等の再確認、`approved` は有効な運用者承認の再利用です。候補だけでは `classificationConfirmed: true` を返しません。
+
+自動振り分けの状態は `assigned`、`candidate_selected`、`needs_attributes`、`ambiguous`、`review_required`、`unsupported` です。`candidate_selected` は未承認の候補を `selectedCandidate` へ入れる状態で、`assignment.hs6`・`nationalCode`の確定や承認記録の作成は行いません。`assigned` では有効な保護された承認を再利用します。振り分けの `status` と、従来照会を保持する `assignment.status` は用途が異なります。
 
 国内税番の承認には、対象国・輸出入区分・HS版に一致する国内細分と税表版、適用日の一致する `tariff_schedule` 出典、必要属性の一致、別途の運用者レビューを要求します。税表の出典を持つカタログも運用者が確認するデータであり、コードの真正性や分類判断を税関に代わって保証するものではありません。
 
@@ -55,6 +60,8 @@ HTTPは既存のサーバー間認証・ブラウザー拒否・64KiB制限・`n
 `VEYGRIT_CLASSIFICATION_APPROVALS` は保護された承認・取消イベントのJSON配列へのパスです。未設定なら承認なしとして動きます。設定されたファイルが欠落・破損している場合は再割当を確定しません。HTTPでは設定エラーとして扱い、ファイルの内容をエラーへ公開しません。
 
 運用者は候補・根拠・現物の仕様を確認したうえで、`classificationApprovalInputSchema` に従うレビュー入力を用意します。必須項目は `id`、元の `request`、その `requestDigest`、採用する `ruleId`、`reviewedOn`、`reviewBy`、`validFrom`、`validThrough`、`reviewerRef`、`evidenceIds` です。
+
+承認作成と再割当の照合も、表示用の上位3件に限定せず全適合候補を使います。表示から外れたルールでも、運用者が`ruleId`を明示し、そのルールの属性・国内細分・税表版・出典条件がそろう場合にレビューできます。同じコードの別ルールに属性不足がある場合も、レビュー対象ルール自身の充足条件で判断します。
 
 ```sh
 npm run classification:review -- approve /protected/review-input.json /protected/classification-reviews.json
@@ -73,6 +80,7 @@ npm run classification:review -- revoke /protected/revocation-input.json /protec
 npm run classification:import -- examples/classification-products.csv examples/classification-context.json /tmp/classification-batch.json
 npm run cli -- classification-propose examples/classification-propose.json 2026-11-18T12:00:00+09:00
 npm run cli -- classification-batch /tmp/classification-batch.json 2026-11-18T12:00:00+09:00
+npm run cli -- classification-route /tmp/classification-batch.json 2026-11-19T12:00:00+09:00
 ```
 
 CSVは `merchantId,sku,revision,description` を必須とし、JSONの `attributes` 列または `attribute.material` 等の属性列を使います。引用符・セル内改行・BOM・CRLFに対応します。重複SKU・複数加盟店・不正な列を拒否し、指定した出力ファイルを上書きしません。CSVの文字列を式として実行することはありません。

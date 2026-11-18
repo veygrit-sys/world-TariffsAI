@@ -22,6 +22,8 @@ export type { ClassificationEvent, ClassificationApprovalEvent, ClassificationRe
 export { loadClassificationEvents, appendClassificationEvent } from "./classification-store.ts";
 export { assignClassificationBatch, parseClassificationBatch, classificationBatchFromCsv, classificationBatchInputSchema, classificationBatchOutputSchema } from "./classification-batch.ts";
 export type { ClassificationBatchInput, ClassificationBatch } from "./classification-batch.ts";
+export { routeClassification, routeClassificationBatch, classificationRoutingStatuses, classificationRoutingResultSchema, classificationRoutingBatchOutputSchema } from "./classification-routing.ts";
+export type { ClassificationRoutingStatus, ClassificationRoutingResult, ClassificationRoutingGroup, ClassificationRoutingBatch } from "./classification-routing.ts";
 export { applyClassificationAssignments, classificationPlanInputSchema } from "./classification-plan.ts";
 export type { ClassificationPlanInput, ClassifiedCustomsPlan } from "./classification-plan.ts";
 export { releaseReadiness } from "./release-readiness.ts";

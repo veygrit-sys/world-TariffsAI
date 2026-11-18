@@ -18,6 +18,7 @@ import { importSettlementLedgerInputSchema, importSettlementLedgerOutputSchema }
 import { classificationRequestSchema, classificationProposalSchema } from "../src/classification-types.ts";
 import { classificationAssignmentSchema } from "../src/classification-approvals.ts";
 import { classificationBatchInputSchema, classificationBatchOutputSchema } from "../src/classification-batch.ts";
+import { classificationRoutingResultSchema, classificationRoutingBatchOutputSchema } from "../src/classification-routing.ts";
 import { classificationSourceSchema } from "../src/classification-catalog.ts";
 import { PILOT_ROUTES } from "../src/trade-policy.ts";
 import { VERSION } from "../src/version.ts";
@@ -854,6 +855,11 @@ const doc = {
       { $ref: "#/components/schemas/ClassificationBatchInput" },
       { $ref: "#/components/schemas/ClassificationBatch" },
     ),
+    "/v1/classification/route": post(
+      "Route a bounded merchant batch into work queues and code groups; only protected approvals confirm assignments",
+      { $ref: "#/components/schemas/ClassificationBatchInput" },
+      { $ref: "#/components/schemas/ClassificationRoutingBatch" },
+    ),
     "/v1/classification/rollout": {
       get: { summary: "Track all destinations, missing official evidence and selected product examples in resumable geographic batches",
         parameters: Object.entries(classificationRolloutInputSchema.properties).map(([name, schema]) => ({ name, in: "query", schema })),
@@ -890,6 +896,8 @@ const doc = {
       ClassificationAssignment: classificationAssignmentSchema,
       ClassificationBatchInput: classificationBatchInputSchema,
       ClassificationBatch: classificationBatchOutputSchema,
+      ClassificationRoutingResult: classificationRoutingResultSchema,
+      ClassificationRoutingBatch: classificationRoutingBatchOutputSchema,
       WcoParticipant: {
         type: "object",
         required: ["memberId", "membershipStatus", "status", "lookupDestinations", "tariffReferences", "officialSources"],
