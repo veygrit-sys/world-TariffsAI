@@ -39,7 +39,7 @@ const tests = [
   "tests/trade-policy.test.ts",
 ];
 
-const result = spawnSync(process.execPath, ["--test", ...tests], {
+const result = spawnSync(process.execPath, ["--test", "--test-concurrency=4", ...tests], {
   cwd: new URL("../", import.meta.url),
   stdio: "inherit",
 });

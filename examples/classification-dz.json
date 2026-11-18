@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "dz-fresh-banana-hs6",
+    "revision": "1",
+    "description": "生鮮のバナナ、単一種類の丸ごとの果実",
+    "attributes": {
+      "product_type": "fruit",
+      "composition": "fruit_only",
+      "species": "banana",
+      "processing": "fresh",
+      "form": "whole",
+      "variety": "not_plantain"
+    }
+  },
+  "context": {
+    "country": "DZ",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "tt-fresh-oranges-wto-hs2017-hs6",
+    "revision": "1",
+    "description": "Fresh whole oranges citrus fruit / 生鮮の丸ごとのオレンジ",
+    "attributes": {
+      "product_type": "citrus_fruit",
+      "species": "orange",
+      "processing": "fresh",
+      "form": "whole_fruit",
+      "composition": "single_species_only"
+    }
+  },
+  "context": {
+    "country": "TT",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}

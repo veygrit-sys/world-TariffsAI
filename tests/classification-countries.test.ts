@@ -13,6 +13,7 @@ import { data } from "./helpers.ts";
 interface CountryCase {
   ruleId: string;
   country: string;
+  hsEdition?: string;
   description: string;
   attributes: Record<string, string>;
   wrongAttributes: Record<string, string>;
@@ -24,7 +25,7 @@ const now = new Date("2026-11-18T03:00:00Z");
 function request(row: CountryCase): ClassificationRequest {
   return { product: { merchantId: "country-test-merchant", sku: row.ruleId, revision: "1",
     description: row.description, attributes: { ...row.attributes } },
-  context: { country: row.country, direction: "import", date: "2026-11-18", hsEdition: "HS2022" } };
+  context: { country: row.country, direction: "import", date: "2026-11-18", hsEdition: row.hsEdition ?? "HS2022" } };
 }
 
 test("every bundled country-specific candidate has a positive, incomplete and conflicting product case", async t => {
@@ -70,7 +71,7 @@ test("every bundled country-specific candidate has a positive, incomplete and co
 
 test("country coverage distinguishes shared EU references from unrelated country classifications", () => {
   const countries = [...new Set(catalog.rules.map(rule => rule.country))].sort();
-  assert.deepEqual(countries, [...EU_COUNTRIES, "AD", "AE", "AL", "AM", "AR", "AU", "AX", "BD", "BF", "BI", "BJ", "BN", "BO", "BR", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CK", "CL", "CN", "CO", "CR", "CV", "DO", "EC", "EG", "FJ", "GB", "GF", "GN", "GP", "GT", "GW", "HK", "HN", "ID", "IN", "IS", "JM", "JO", "JP", "KE", "KG", "KR", "KZ", "LI", "LK", "LR", "LS", "MA", "MC", "MD", "ME", "MF", "MG", "MK", "ML", "MM", "MO", "MQ", "MU", "MW", "MX", "MY", "NA", "NC", "NE", "NG", "NI", "NO", "NP", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PR", "PW", "PY", "RE", "RS", "RU", "RW", "SA", "SC", "SG", "SM", "SN", "SV", "SZ", "TG", "TH", "TN", "TW", "TZ", "UA", "UG", "US", "UY", "VC", "VN", "VU", "YT", "ZA", "ZW"].sort());
+  assert.deepEqual(countries, [...EU_COUNTRIES, "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AR", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BF", "BH", "BI", "BJ", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CU", "CV", "CW", "DJ", "DM", "DO", "DZ", "EC", "EG", "ER", "ET", "FJ", "FM", "FO", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GM", "GN", "GP", "GQ", "GT", "GW", "GY", "HK", "HN", "HT", "ID", "IL", "IM", "IN", "IR", "IS", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MQ", "MR", "MS", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PM", "PR", "PS", "PW", "PY", "QA", "RE", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SG", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SX", "SZ", "TD", "TG", "TH", "TJ", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WF", "WS", "XK", "YE", "YT", "ZA", "ZM", "ZW"].sort());
   const authorities = catalog.sources.filter(source => source.id.startsWith("eu-reg-"));
   assert.equal(authorities.length, 2);
   for (const source of authorities) assert.deepEqual([...source.countries].sort(), [...EU_COUNTRIES, "AD", "AX", "GF", "GP", "MC", "MF", "MQ", "RE", "SM", "YT"].sort());
@@ -92,9 +93,9 @@ test("every country rejects reference-only approval and mismatched direction, ed
       error.issues.some(issue => issue.code === "CLASSIFICATION_REVIEWABLE_CODE_REQUIRED"));
     input.context.direction = "export";
     assert.equal(proposeClassification(input, catalog, data, now).candidates.length, 0);
-    input.context.direction = "import"; input.context.hsEdition = "HS2017";
+    input.context.direction = "import"; input.context.hsEdition = "UNRECORDED-CLASSIFICATION-EDITION";
     assert.equal(proposeClassification(input, catalog, data, now).candidates.length, 0);
-    input.context.hsEdition = "HS2022"; input.context.date = "2026-12-19";
+    input.context.hsEdition = row.hsEdition ?? "HS2022"; input.context.date = "2026-12-19";
     assert.equal(proposeClassification(input, catalog, data, new Date("2026-12-19T03:00:00Z")).candidates.length, 0);
   }
 });
@@ -107,7 +108,7 @@ test("loaded-country API exposes expanded reference scope and keeps domestic aut
   }), { peer: "127.0.0.1" });
   assert.equal(response.status, 200);
   const result = await response.json();
-  assert.equal(result.countries.length, 138);
+  assert.equal(result.countries.length, 220);
   assert.equal(result.ruleCount, cases.length);
   assert.equal(result.nationalCodeRuleCount, 0);
   assert.equal(result.assignmentRequiresRecordedReview, true);

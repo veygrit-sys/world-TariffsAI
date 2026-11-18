@@ -107,6 +107,73 @@ test("an expired catalog is rechecked rather than counted as covered and export 
   assert.equal(exports.destinations[0]!.status, "official_evidence_pending");
 });
 
+test("all-edition reporting preserves explicit versions, reference bases and the HS2022 API default", async () => {
+  const doc = classificationFixtureDocument();
+  for (const [country, edition, basis] of [
+    ["CA", "HS2017", "wto_bound_nomenclature"],
+    ["US", "US-REFERENCE-2026", "national_edition_reference"],
+    ["GB", "HS2012", "agreement_nomenclature"],
+  ] as const) {
+    const source = structuredClone(doc.sources[0]!);
+    Object.assign(source, { id: "synthetic-" + country, countries: [country], hsEdition: edition, referenceBasis: basis,
+      kind: "hs_nomenclature", url: "https://test.example/reference/" + country });
+    const rule = structuredClone(doc.rules[0]!);
+    delete rule.nationalCode; delete rule.tariffEdition;
+    Object.assign(rule, { id: "synthetic-" + country, country, hsEdition: edition, sourceIds: [source.id] });
+    doc.sources.push(source); doc.rules.push(rule);
+  }
+  const mixed = new ClassificationCatalog(doc, data);
+  const legacy = classificationRollout({ country: "CA" }, mixed, data, now);
+  assert.equal(legacy.hsEdition, "HS2022");
+  assert.equal(legacy.destinations[0]!.activeRuleCount, 0);
+  assert.deepEqual(legacy.destinations[0]!.registeredHsEditions, ["HS2017"]);
+  const all = classificationRollout({ hsEdition: "all", limit: 250 }, mixed, data, now);
+  assert.ok(validate(all), JSON.stringify(validate.errors));
+  assert.equal(all.totals.byStatus.candidate_references, 4);
+  assert.equal(all.editionTotals.length, 4);
+  const key = "synthetic-multiedition-service-key-123456";
+  const handle = createHandler({ dataset: data, apiKey: key, classificationCatalog: mixed, now: () => now });
+  for (const query of ["country=CA", "country=CA&hsEdition=all"]) {
+    const response = await handle(new Request("http://localhost/v1/classification/rollout?" + query, {
+      headers: { authorization: "Bearer " + key },
+    }), { peer: "127.0.0.1" });
+    assert.equal(response.status, 200);
+    const page = await response.json();
+    assert.equal(page.hsEdition, query.includes("hsEdition") ? "all" : "HS2022");
+    assert.equal(page.destinations[0].activeRuleCount, query.includes("hsEdition") ? 1 : 0);
+  }
+  for (const country of ["CA", "US", "GB"]) {
+    const row = all.destinations.find(row => row.country === country)!;
+    assert.equal(row.activeRuleCount, 1);
+    assert.equal(row.hsEditions.length, 1);
+    assert.notEqual(row.referenceBases[0], "official_reference");
+    const input = classificationFixtureRequest();
+    input.context.country = country;
+    assert.equal(proposeClassification(input, mixed, data, now).candidates.length, 0);
+    input.context.hsEdition = row.hsEditions[0]!;
+    const result = proposeClassification(input, mixed, data, now);
+    assert.equal(result.candidates.length, 1);
+    assert.equal(result.candidates[0]!.eligibleForApproval, false);
+    input.context.hsEdition = "all";
+    assert.equal(proposeClassification(input, mixed, data, now).candidates.length, 0);
+  }
+  const expiredDoc = structuredClone(doc);
+  expiredDoc.sources.find(source => source.countries.includes("CA"))!.reviewBy = "2026-11-18";
+  const held = classificationRollout({ hsEdition: "all", country: "CA" }, new ClassificationCatalog(expiredDoc, data), data,
+    new Date("2026-11-19T03:00:00Z"));
+  assert.equal(held.destinations[0]!.status, "source_review_required");
+  assert.deepEqual(held.destinations[0]!.hsEditions, []);
+});
+
+test("reference-basis labels cannot authorize national-code approval even when mislabelled as a schedule", () => {
+  for (const basis of ["wto_bound_nomenclature", "national_edition_reference", "agreement_nomenclature"] as const) {
+    const doc = classificationFixtureDocument();
+    doc.sources[0]!.referenceBasis = basis;
+    const result = proposeClassification(classificationFixtureRequest(), new ClassificationCatalog(doc, data), data, now);
+    assert.equal(result.candidates[0]!.eligibleForApproval, false);
+  }
+});
+
 test("rollout rejects unknown fields and countries, invalid dates, statuses and unbounded pages", () => {
   for (const input of [{ country: "ZZ" }, { date: "2026-02-29" }, { date: "2026-13-01" },
     { limit: 251 }, { limit: 0 }, { offset: -1 }, { offset: 1.5 }, { offset: 1000000 },
@@ -146,5 +213,6 @@ test("rollout CLI emits all destinations from the configured catalog for a repro
     assert.equal(result.destinations.length, 250);
     assert.equal(result.catalogVersion, "synthetic-classification-v1");
     assert.equal(result.referenceDate, "2026-11-18");
+    assert.equal(result.hsEdition, "all");
   } finally { rmSync(folder, { recursive: true, force: true }); }
 });

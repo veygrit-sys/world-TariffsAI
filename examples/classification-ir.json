@@ -1,0 +1,19 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "ir-natural-honey-national-hs6",
+    "revision": "1",
+    "description": "添加物なしの天然はちみつ natural honey",
+    "attributes": {
+      "product_type": "natural_honey",
+      "composition": "natural_honey_only",
+      "presentation": "single_food_product"
+    }
+  },
+  "context": {
+    "country": "IR",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "IR-TARIFF-2016-2017"
+  }
+}

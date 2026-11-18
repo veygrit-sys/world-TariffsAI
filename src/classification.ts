@@ -115,6 +115,7 @@ function canApproveNationalCode(
   return missing.length === 0 && Boolean(rule.nationalCode && rule.tariffEdition) &&
     rule.country === context.country && rule.direction === context.direction &&
     sources.some((source) => source.kind === "tariff_schedule" && source.direction === context.direction &&
+      (source.referenceBasis === undefined || source.referenceBasis === "official_reference") &&
       source.countries.includes(context.country));
 }
 
@@ -199,8 +200,9 @@ export function proposeClassification(
   if (!country.inScope || context.country === "KP" || context.country === "AQ")
     return { ...base, status: "unsupported", findings: [{ code: "CLASSIFICATION_COUNTRY_EXCLUDED" }] };
   const findings = new Map<string, ClassificationProposal["findings"][number]>();
+  const today = todayJst(now);
   const ranked = bestCandidates(catalog.rules.flatMap((rule) => {
-    const candidate = rankRule(rule, request, catalog, todayJst(now), findings);
+    const candidate = rankRule(rule, request, catalog, today, findings);
     return candidate ? [candidate] : [];
   }));
   const candidates = ranked.map(({ candidate }) => candidate);

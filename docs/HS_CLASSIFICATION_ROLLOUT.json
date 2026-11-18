@@ -1,17 +1,144 @@
 {
-  "catalogVersion": "2026-11-18.classification-v4",
-  "catalogDigest": "c26323e56a0e07101abf97a27d85f2802556dd2ec0765ac3fbb21a459b76e253",
+  "catalogVersion": "2026-11-18.classification-v5",
+  "catalogDigest": "76f951f3d4bb6c62814a40195ee7562ef1b90f88c89c301cd3b1924192435a50",
   "referenceDate": "2026-11-18",
   "reviewedOn": "2026-11-18",
   "direction": "import",
-  "hsEdition": "HS2022",
+  "hsEdition": "all",
+  "editionTotals": [
+    {
+      "hsEdition": "AZ-Decision500-2017",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "BA-InspectionList-v208",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "FO-TAKS-Nomenclature",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "GI-IntegratedTariff-2017",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "HS2002",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "HS2007",
+      "destinations": 7,
+      "activeRuleCount": 21
+    },
+    {
+      "hsEdition": "HS2012",
+      "destinations": 10,
+      "activeRuleCount": 30
+    },
+    {
+      "hsEdition": "HS2017",
+      "destinations": 20,
+      "activeRuleCount": 60
+    },
+    {
+      "hsEdition": "HS2022",
+      "destinations": 162,
+      "activeRuleCount": 454
+    },
+    {
+      "hsEdition": "IL-IMPORT-NOMENCLATURE",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "IR-TARIFF-2016-2017",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "KM-TARIFF-2022",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "KW-PAI-Tariff-2022",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "LB-IntegratedTariff",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "MR-TARIFF-2021",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "PS-PCBS-Local-2009",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "QA-ImportStats-2025-2026",
+      "destinations": 1,
+      "activeRuleCount": 2
+    },
+    {
+      "hsEdition": "SD-TARIFF-2017",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "SO-TARIFF-2022",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "SS-EAC-TFTA-2026",
+      "destinations": 1,
+      "activeRuleCount": 2
+    },
+    {
+      "hsEdition": "ST-TARIFF-2023",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "TM-COMMODITY-NOMENCLATURE",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "TR-TGTC-2026",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "WF-TARIFF-2020",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "XK-TARIK-2026",
+      "destinations": 1,
+      "activeRuleCount": 3
+    }
+  ],
   "totals": {
     "destinations": 250,
     "eligibleDestinations": 248,
     "byStatus": {
-      "candidate_references": 138,
+      "candidate_references": 220,
       "source_review_required": 0,
-      "official_evidence_pending": 110,
+      "official_evidence_pending": 28,
       "excluded": 2
     }
   },
@@ -27,6 +154,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ad-eu-agreement-1990-consolidated-2016",
@@ -57,6 +193,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ae-dubai-coffee-correlation-v3-3",
@@ -85,15 +230,26 @@
       "name": "Afghanistan",
       "nameJa": "アフガニスタン",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "af-wto-hs2022-fresh-mushrooms"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Afghanistan Customs Department, Ministry of Finance",
@@ -118,15 +274,26 @@
       "name": "Antigua and Barbuda",
       "nameJa": "アンティグア・バーブーダ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ag-customs-hs2007-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Duties and Taxes Collected",
@@ -139,15 +306,26 @@
       "name": "Anguilla",
       "nameJa": "アングイラ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ai-customs-hs2017-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Anguilla Customs Department",
@@ -172,6 +350,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "al-customs-nomenclature-coffee-2026",
@@ -200,6 +387,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eaeu-eec-coffee-hs2022-chapter09",
@@ -220,15 +416,26 @@
       "name": "Angola",
       "nameJa": "アンゴラ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ao-tariff-coffee-hs2022-2024"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Pauta Aduaneira",
@@ -245,6 +452,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -261,6 +471,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ar-arca-ncm2022-coffee-reference"
@@ -292,6 +511,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -321,6 +543,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -361,6 +592,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "au-hs2022-coffee"
@@ -384,15 +624,27 @@
       "name": "Aruba",
       "nameJa": "アルーバ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "aw-customs-gs2012-publishing-page",
+        "aw-customs-hs2012-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tarief van Invoerrechten, 1 August 2023",
@@ -413,6 +665,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -443,15 +704,26 @@
       "name": "Azerbaijan",
       "nameJa": "アゼルバイジャン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "AZ-Decision500-2017"
+      ],
+      "registeredHsEditions": [
+        "AZ-Decision500-2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "az-decision500-2017-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "State Customs Committee of Azerbaijan",
@@ -480,15 +752,26 @@
       "name": "Bosnia and Herzegovina",
       "nameJa": "ボスニア・ヘルツェゴビナ",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "BA-InspectionList-v208"
+      ],
+      "registeredHsEditions": [
+        "BA-InspectionList-v208"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ba-inspection-list-v208-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Bosnia and Herzegovina Ministry of Foreign Trade and Economic Relations",
@@ -509,15 +792,26 @@
       "name": "Barbados",
       "nameJa": "バルバドス",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "bb-wto-hs2017-citrus-nomenclature-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tariff Search",
@@ -534,6 +828,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bd-nbr-coffee-ch9",
@@ -562,6 +865,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -602,6 +914,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -630,6 +951,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -666,15 +996,26 @@
       "name": "Bahrain",
       "nameJa": "バーレーン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "bh-gazette3585-hs2022-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Bahrain Customs Affairs",
@@ -699,6 +1040,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bi-obr-cet2022-implementation",
@@ -735,6 +1085,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -763,6 +1122,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -788,15 +1150,27 @@
       "name": "Bermuda",
       "nameJa": "バーミューダ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "bm-customs-hs2022-coffee-reference-2026",
+        "bm-parliament-hs2022-first-schedule-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "The Schedules to the Customs Tariff Act 1970",
@@ -813,6 +1187,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bn-rced-coffee-bdttc2022",
@@ -837,6 +1220,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bo-production-hs2022-annex2026"
@@ -860,15 +1252,27 @@
       "name": "Bonaire, Sint Eustatius and Saba",
       "nameJa": "ボネール、シントユースタティウス及びサバ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "nl-official-gazette-hs2017-coffee-bq-sx-reference",
+        "nl-treaty-hs2017-bq-cw-sx-adoption-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Belastingdienst Caribisch Nederland",
@@ -885,6 +1289,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "br-mdic-hs2022-current-guide",
@@ -917,15 +1330,27 @@
       "name": "Bahamas",
       "nameJa": "バハマ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "bs-statistics-hs2012-adoption-reference",
+        "bs-wco-hs2012-ch09-adoption-pair-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tariff Act",
@@ -942,6 +1367,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bt-drc-coffee-2022",
@@ -970,6 +1404,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -995,6 +1432,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "na-government-sacu-tariff-scope",
@@ -1020,6 +1466,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eaeu-eec-coffee-hs2022-chapter09",
@@ -1044,6 +1499,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "bz-customs-hs2022-coffee-ch09"
@@ -1067,6 +1531,15 @@
       "referenceRuleCount": 17,
       "activeRuleCount": 17,
       "hs6Count": 17,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ca-cbsa-ceramic-products-hs6-2026",
@@ -1120,6 +1593,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -1137,15 +1613,26 @@
       "name": "Congo, The Democratic Republic of the",
       "nameJa": "コンゴ民主共和国",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cd-wto-hs2022-certified-schedule-1801"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Direction générale des douanes et accises, République démocratique du Congo",
@@ -1166,15 +1653,26 @@
       "name": "Central African Republic",
       "nameJa": "中央アフリカ共和国",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "E-Douanes",
@@ -1187,15 +1685,26 @@
       "name": "Congo",
       "nameJa": "コンゴ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Douanes",
@@ -1212,6 +1721,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ch-bazg-general-tariff-20250301",
@@ -1240,6 +1758,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -1268,6 +1795,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ck-mfem-coffee-hs2022",
@@ -1292,6 +1828,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "cl-subrei-hs2022-coffee"
@@ -1311,15 +1856,26 @@
       "name": "Cameroon",
       "nameJa": "カメルーン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Conseil National des Chargeurs du Cameroun (CNCC)",
@@ -1340,6 +1896,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "cn-gacc-2025-259-official-reprint"
@@ -1367,6 +1932,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "co-dian-decree1881-coffee"
@@ -1398,6 +1972,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sieca-sac-hs2022-resolution-450-2021",
@@ -1422,15 +2005,26 @@
       "name": "Cuba",
       "nameJa": "キューバ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cu-wto-hs2017-citrus-nomenclature-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Gaceta Oficial de la República de Cuba",
@@ -1455,6 +2049,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "cv-boe-hs2022-adoption-2025",
@@ -1479,15 +2082,28 @@
       "name": "Curaçao",
       "nameJa": "キュラソー",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference",
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cw-customs-hs2017-coffee-reference-2026",
+        "nl-treaty-hs2017-bq-cw-sx-adoption-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tarief van invoerrechten",
@@ -1504,6 +2120,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -1525,6 +2144,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1565,6 +2193,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1605,6 +2242,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1641,15 +2287,26 @@
       "name": "Djibouti",
       "nameJa": "ジブチ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "dj-wto-hs2022-certified-schedule-1793"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Journal officiel de la République de Djibouti",
@@ -1678,6 +2335,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1714,15 +2380,26 @@
       "name": "Dominica",
       "nameJa": "ドミニカ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "dm-customs-hs2017-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Dominica Customs and Excise Division",
@@ -1743,6 +2420,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "do-dga-arancel2022-coffee",
@@ -1775,15 +2461,28 @@
       "name": "Algeria",
       "nameJa": "アルジェリア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "dz-customs-hs2017-adoption",
+        "dz-finance2017-fresh-fruit",
+        "wco-hs2017-chapter08-dz-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Algerian Directorate General of Customs",
@@ -1800,6 +2499,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ec-comex-hs2022-coffee-2023"
@@ -1831,6 +2539,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1871,6 +2588,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eg-customs-hs2022-decree-218-2022"
@@ -1898,6 +2624,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -1919,15 +2648,27 @@
       "name": "Eritrea",
       "nameJa": "エリトリア国",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "er-unep-government-report-hfc-hs2022-2025",
+        "er-wco-hs2022-chapter29-hfc-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "World Bank WITS and UNCTAD TRAINS",
@@ -1948,6 +2689,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -1984,15 +2734,29 @@
       "name": "Ethiopia",
       "nameJa": "エチオピア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature",
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "et-ecc-hs2022-notification-20220101",
+        "et-motri-afcfta-schedule-2025-coffee",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Ethiopian Customs Commission",
@@ -2013,6 +2777,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -2053,6 +2826,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "fj-frcs-coffee-2026-27",
@@ -2077,6 +2859,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -2094,15 +2879,27 @@
       "name": "Micronesia, Federated States of",
       "nameJa": "ミクロネシア連邦",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2002"
+      ],
+      "registeredHsEditions": [
+        "HS2002"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "fm-pacer-hs2002-coffee",
+        "wco-hs2002-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Federated States of Micronesia Supreme Court, FSM Code",
@@ -2127,15 +2924,26 @@
       "name": "Faroe Islands",
       "nameJa": "フェロー諸島",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "FO-TAKS-Nomenclature"
+      ],
+      "registeredHsEditions": [
+        "FO-TAKS-Nomenclature"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "fo-taks-coffee-nomenclature"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Customs Tariff",
@@ -2152,6 +2960,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -2188,15 +3005,26 @@
       "name": "Gabon",
       "nameJa": "ガボン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "La fiscalité douanière",
@@ -2213,6 +3041,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "gb-hmrc-ceramics-guidance-2026",
@@ -2250,15 +3087,26 @@
       "name": "Grenada",
       "nameJa": "グレナダ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gd-customs-hs2012-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Grenada Customs and ASYCUDA",
@@ -2275,15 +3123,26 @@
       "name": "Georgia",
       "nameJa": "グルジア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ge-order21-2024-hs2022-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Revenue Service of Georgia",
@@ -2312,6 +3171,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -2342,15 +3210,30 @@
       "name": "Guernsey",
       "nameJa": "ガーンジー",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "crown-uk-coffee-090111",
+        "crown-uk-coffee-090122",
+        "gb-hmrc-coffee-roasted-api-2026",
+        "gb-hs2022-nomenclature-annex-2025",
+        "gg-uk-common-tariff-arrangement"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "HM Revenue & Customs",
@@ -2371,15 +3254,26 @@
       "name": "Ghana",
       "nameJa": "ガーナ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gh-wto-bound-hs2017-citrus"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "ECOWAS Trade Information System (ECOTIS)",
@@ -2400,15 +3294,26 @@
       "name": "Gibraltar",
       "nameJa": "ジブラルタル",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "GI-IntegratedTariff-2017"
+      ],
+      "registeredHsEditions": [
+        "GI-IntegratedTariff-2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gi-official-harmonised-tariff-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "European Commission, Directorate-General for Taxation and Customs Union",
@@ -2437,6 +3342,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -2458,15 +3366,27 @@
       "name": "Gambia",
       "nameJa": "ガンビア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gm-gra-hs2022-adoption",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "ECOWAS Trade Information System (ECOTIS)",
@@ -2487,6 +3407,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "gn-dgd-cet-coffee-hs2022",
@@ -2519,6 +3448,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -2553,15 +3491,26 @@
       "name": "Equatorial Guinea",
       "nameJa": "赤道ギニア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "ASYCUDA compendium — Equatorial Guinea",
@@ -2578,6 +3527,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -2618,6 +3576,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -2643,6 +3604,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sieca-sac-hs2022-resolution-450-2021",
@@ -2671,6 +3641,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -2700,6 +3673,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -2724,15 +3706,26 @@
       "name": "Guyana",
       "nameJa": "ガイアナ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gy-customs-hs2017-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "The National Tariff",
@@ -2757,6 +3750,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "hk-censtatd-alpha-list-2026",
@@ -2789,6 +3791,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -2814,6 +3819,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sieca-sac-hs2022-resolution-450-2021",
@@ -2842,6 +3856,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -2878,15 +3901,26 @@
       "name": "Haiti",
       "nameJa": "ハイチ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ht-customs-hs2022-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tarif NDP",
@@ -2903,6 +3937,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -2943,6 +3986,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "id-customs-btki2022-reference",
@@ -2971,6 +4023,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -3007,15 +4068,26 @@
       "name": "Israel",
       "nameJa": "イスラエル",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "IL-IMPORT-NOMENCLATURE"
+      ],
+      "registeredHsEditions": [
+        "IL-IMPORT-NOMENCLATURE"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "il-official-customs-coffee-csv"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Israel Tax Authority",
@@ -3032,15 +4104,30 @@
       "name": "Isle of Man",
       "nameJa": "マン島",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "crown-uk-coffee-090111",
+        "crown-uk-coffee-090122",
+        "gb-hmrc-coffee-roasted-api-2026",
+        "gb-hs2022-nomenclature-annex-2025",
+        "im-uk-common-tariff-arrangement"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "HM Revenue & Customs",
@@ -3065,6 +4152,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "in-dgft-itc2022-import-appendix-v"
@@ -3100,6 +4196,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -3129,6 +4228,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -3146,15 +4248,26 @@
       "name": "Iran, Islamic Republic of",
       "nameJa": "イラン・イスラム共和国",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "IR-TARIFF-2016-2017"
+      ],
+      "registeredHsEditions": [
+        "IR-TARIFF-2016-2017"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ir-eec-agreement-national-2016-2017"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Eurasian Economic Commission",
@@ -3175,6 +4288,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "is-skatturinn-coffee-hs2022-2026",
@@ -3207,6 +4329,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -3243,15 +4374,30 @@
       "name": "Jersey",
       "nameJa": "ジャージー",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "crown-uk-coffee-090111",
+        "crown-uk-coffee-090122",
+        "gb-hmrc-coffee-roasted-api-2026",
+        "gb-hs2022-nomenclature-annex-2025",
+        "je-uk-common-tariff-arrangement"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "HM Revenue & Customs",
@@ -3276,6 +4422,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "jm-jca-integrated-coffee-20261030"
@@ -3303,6 +4458,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "jo-customs-jcap-coffee-search",
@@ -3331,6 +4495,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "jp-ruling-cellulose-filter-2024",
@@ -3367,6 +4540,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eac-cet-hs2022-coffee-202506",
@@ -3403,6 +4585,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eaeu-eec-coffee-hs2022-chapter09",
@@ -3427,15 +4618,27 @@
       "name": "Cambodia",
       "nameJa": "カンボジア",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "kh-gdce-hs2022-implementation",
+        "kh-wco-hs2022-chapter09"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Cambodia National Trade Repository, Ministry of Commerce",
@@ -3452,15 +4655,27 @@
       "name": "Kiribati",
       "nameJa": "キリバス",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ki-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Kiribati Ministry of Finance and Economic Development",
@@ -3477,15 +4692,26 @@
       "name": "Comoros",
       "nameJa": "コモロ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "KM-TARIFF-2022"
+      ],
+      "registeredHsEditions": [
+        "KM-TARIFF-2022"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "km-customs-tariff-v2022-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Direction générale des douanes, Union des Comores",
@@ -3502,15 +4728,26 @@
       "name": "Saint Kitts and Nevis",
       "nameJa": "セントクリストファー・ネーヴィス",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "kn-wto-hs2017-citrus-nomenclature-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Government of Saint Kitts and Nevis",
@@ -3535,6 +4772,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -3551,6 +4791,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "kr-government-coffee-hs6-20221231",
@@ -3579,15 +4828,26 @@
       "name": "Kuwait",
       "nameJa": "クウェート",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "KW-PAI-Tariff-2022"
+      ],
+      "registeredHsEditions": [
+        "KW-PAI-Tariff-2022"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "kw-pai-tariff-2022-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "General Secretariat of the Gulf Cooperation Council",
@@ -3612,6 +4872,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -3637,6 +4900,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eaeu-eec-coffee-hs2022-chapter09",
@@ -3657,15 +4929,27 @@
       "name": "Lao People's Democratic Republic",
       "nameJa": "ラオス人民民主共和国",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "la-moci-ahtn2022-coffee",
+        "la-moci-ahtn2022-index"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Lao PDR Trade Portal, Ministry of Industry and Commerce",
@@ -3682,15 +4966,26 @@
       "name": "Lebanon",
       "nameJa": "レバノン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "LB-IntegratedTariff"
+      ],
+      "registeredHsEditions": [
+        "LB-IntegratedTariff"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "lb-customs-integrated-tariff-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Lebanese Customs",
@@ -3703,15 +4998,26 @@
       "name": "Saint Lucia",
       "nameJa": "セントルシア",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "lc-customs-hs2022-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tariff Sections",
@@ -3728,6 +5034,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ch-bazg-general-tariff-20250301",
@@ -3761,6 +5076,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "lk-customs-coffee-2026",
@@ -3785,6 +5109,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "lr-lra-coffee-hs2022",
@@ -3817,6 +5150,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "na-government-sacu-tariff-scope",
@@ -3842,6 +5184,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -3882,6 +5233,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -3922,6 +5282,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -3958,15 +5327,26 @@
       "name": "Libya",
       "nameJa": "リビア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ly-tariff-coffee-hs2022"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Libyan Customs Authority",
@@ -3983,6 +5363,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ma-finance-act-2023-green-coffee",
@@ -4007,6 +5396,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -4041,6 +5439,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "md-statistics-hs2022-combined-nomenclature",
@@ -4081,6 +5488,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "me-customs-hs2022-reference",
@@ -4113,6 +5529,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -4147,6 +5572,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mg-customs-coffee-hs2022-202607"
@@ -4166,15 +5600,27 @@
       "name": "Marshall Islands",
       "nameJa": "マーシャル諸島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mh-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Nitijela of the Republic of the Marshall Islands",
@@ -4199,6 +5645,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mk-customs-coffee-workbook-2026",
@@ -4227,6 +5682,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -4251,6 +5715,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mm-customs-coffee-hs2022"
@@ -4274,15 +5747,26 @@
       "name": "Mongolia",
       "nameJa": "モンゴル国",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mn-wto-hs2017-citrus"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Mongolia Customs General Administration",
@@ -4303,6 +5787,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mo-dsec-ncem-hs2022-coffee"
@@ -4334,6 +5827,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -4359,6 +5855,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -4393,15 +5898,26 @@
       "name": "Mauritania",
       "nameJa": "モーリタニア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "MR-TARIFF-2021"
+      ],
+      "registeredHsEditions": [
+        "MR-TARIFF-2021"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mr-tariff-coffee-national2021"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Direction Générale des Douanes de Mauritanie",
@@ -4418,15 +5934,26 @@
       "name": "Montserrat",
       "nameJa": "モントセラト",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ms-customs-hs2017-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Montserrat Customs and Revenue Service",
@@ -4451,6 +5978,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -4491,6 +6027,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mu-mra-coffee-hs2022-20261001",
@@ -4516,15 +6061,26 @@
       "name": "Maldives",
       "nameJa": "モルディブ",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mv-wto-hs2017-citrus"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Maldives Customs Service",
@@ -4549,6 +6105,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mw-rat-coffee-hs2022-2025-reference",
@@ -4573,6 +6138,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "mx-snice-fractions-20261014",
@@ -4606,6 +6180,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "my-customs-duty-order-2025-coffee",
@@ -4626,15 +6209,28 @@
       "name": "Mozambique",
       "nameJa": "モザンビーク",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mz-at-customs-workbook-2026-coffee",
+        "mz-mef-hs2022-transition-cfmp2024-2026",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Autoridade Tributária de Moçambique",
@@ -4655,6 +6251,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "na-government-sacu-tariff-scope",
@@ -4680,6 +6285,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "nc-customs-coffee-2023",
@@ -4708,6 +6322,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -4744,6 +6367,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -4765,6 +6391,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ng-ncs-cet-coffee-2026",
@@ -4801,6 +6436,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sieca-sac-hs2022-resolution-450-2021",
@@ -4829,6 +6473,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -4869,6 +6522,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "no-tolletaten-coffee-tariff-2026"
@@ -4908,6 +6570,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "np-customs-coffee-2083-84",
@@ -4932,15 +6603,27 @@
       "name": "Nauru",
       "nameJa": "ナウル",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "nr-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Republic of Nauru Online Legal Database",
@@ -4957,15 +6640,27 @@
       "name": "Niue",
       "nameJa": "ニウエ",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "nu-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Government of Niue",
@@ -4986,6 +6681,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "nz-hs2022-coffee-20261020"
@@ -5013,6 +6717,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "om-customs-coffee-tariff-2026",
@@ -5045,6 +6758,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pa-gaceta-hs2022-coffee-20211202"
@@ -5072,6 +6794,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pe-sunat-hs2022-coffee-2022"
@@ -5095,15 +6826,27 @@
       "name": "French Polynesia",
       "nameJa": "仏領ポリネシア",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "pf-hs2022-official-index",
+        "pf-hs2022-tapa2026-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Le tarif douanier",
@@ -5120,6 +6863,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pg-customs-coffee-hs2022",
@@ -5152,6 +6904,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ph-tc-ahtn2022-coffee-2024-2028",
@@ -5176,6 +6937,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pk-fbr-coffee-2026-27",
@@ -5208,6 +6978,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5244,15 +7023,26 @@
       "name": "Saint Pierre and Miquelon",
       "nameJa": "サンピエール及びミクロン",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "pm-customs-hs2022-coffee-reference-2026"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Direction générale des douanes et droits indirects",
@@ -5277,6 +7067,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -5306,6 +7099,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pr-gao-us-customs-territory-2026",
@@ -5335,15 +7137,26 @@
       "name": "Palestine, State of",
       "nameJa": "パレスチナ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "PS-PCBS-Local-2009"
+      ],
+      "registeredHsEditions": [
+        "PS-PCBS-Local-2009"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ps-pcbs-local2009-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Palestinian Official Gazette Bureau",
@@ -5368,6 +7181,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5408,6 +7230,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "pw-customs-coffee-hs2022"
@@ -5443,6 +7274,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "py-mef-ncm2022-coffee-202510"
@@ -5470,15 +7310,26 @@
       "name": "Qatar",
       "nameJa": "カタール",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "QA-ImportStats-2025-2026"
+      ],
+      "registeredHsEditions": [
+        "QA-ImportStats-2025-2026"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "qa-import-statistics-2025-2026-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "General Secretariat of the Gulf Cooperation Council",
@@ -5507,6 +7358,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -5545,6 +7405,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5585,6 +7454,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "rs-customs-coffee-consolidated-2026",
@@ -5609,6 +7487,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eaeu-eec-coffee-hs2022-chapter09",
@@ -5637,6 +7524,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eac-cet-hs2022-coffee-202506",
@@ -5673,6 +7569,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sa-zatca-coffee-hs6-search",
@@ -5701,15 +7606,27 @@
       "name": "Solomon Islands",
       "nameJa": "ソロモン諸島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sb-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Solomon Islands Government, Gazette",
@@ -5734,6 +7651,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sc-tradeportal-hs2022-coffee-reference",
@@ -5755,15 +7681,26 @@
       "name": "Sudan",
       "nameJa": "スーダン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "SD-TARIFF-2017"
+      ],
+      "registeredHsEditions": [
+        "SD-TARIFF-2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sd-customs-published-tariff-2017-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Sudan Customs Authority",
@@ -5788,6 +7725,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5828,6 +7774,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sg-customs-product-guide-2022"
@@ -5859,6 +7814,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -5888,6 +7846,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5928,6 +7895,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -5953,6 +7923,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-reg-2023-1420-bone-china-plate",
@@ -5989,15 +7968,26 @@
       "name": "Sierra Leone",
       "nameJa": "シエラレオネ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sl-wto-bound-hs2017-citrus"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "ECOWAS Trade Information System (ECOTIS)",
@@ -6022,6 +8012,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -6060,6 +8059,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -6084,15 +8092,26 @@
       "name": "Somalia",
       "nameJa": "ソマリア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "SO-TARIFF-2022"
+      ],
+      "registeredHsEditions": [
+        "SO-TARIFF-2022"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "so-mof-customs-tariff-2022-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "East African Community (EAC)",
@@ -6109,15 +8128,26 @@
       "name": "Suriname",
       "nameJa": "スリナム",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sr-wto-hs2017-citrus-nomenclature-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Wet tarief van invoerrechten",
@@ -6130,15 +8160,26 @@
       "name": "South Sudan",
       "nameJa": "南スーダン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "SS-EAC-TFTA-2026"
+      ],
+      "registeredHsEditions": [
+        "SS-EAC-TFTA-2026"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ss-eac-tfta-concessions-2026-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "East African Community",
@@ -6155,15 +8196,26 @@
       "name": "Sao Tome and Principe",
       "nameJa": "サントメ・プリンシペ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "ST-TARIFF-2023"
+      ],
+      "registeredHsEditions": [
+        "ST-TARIFF-2023"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "st-tariff-coffee-national2023"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Guiché Único para o Comércio Externo, São Tomé e Príncipe",
@@ -6188,6 +8240,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "sieca-sac-hs2022-resolution-450-2021",
@@ -6212,15 +8273,27 @@
       "name": "Sint Maarten (Dutch part)",
       "nameJa": "サンマルタン (オランダ領)",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "nl-official-gazette-hs2017-coffee-bq-sx-reference",
+        "nl-treaty-hs2017-bq-cw-sx-adoption-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Sint Maarten Customs Department",
@@ -6249,6 +8322,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6278,6 +8354,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "na-government-sacu-tariff-scope",
@@ -6303,6 +8388,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6324,15 +8412,26 @@
       "name": "Chad",
       "nameJa": "チャド",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2007"
+      ],
+      "registeredHsEditions": [
+        "HS2007"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "cemac-coffee-hs2007-2009-baseline"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "La Douane",
@@ -6349,6 +8448,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6378,6 +8480,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uemoa-cet-coffee-hs2022",
@@ -6406,6 +8517,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "th-customs-coffee-nomenclature",
@@ -6430,15 +8550,26 @@
       "name": "Tajikistan",
       "nameJa": "タジキスタン",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tj-wto-hs2017-citrus"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tajikistan Ministry of Justice",
@@ -6459,6 +8590,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6476,15 +8610,26 @@
       "name": "Timor-Leste",
       "nameJa": "東ティモール",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tl-customs-hs2017-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "HS Code (Tariff) and Incoterms",
@@ -6501,15 +8646,27 @@
       "name": "Turkmenistan",
       "nameJa": "トルクメニスタン",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "TM-COMMODITY-NOMENCLATURE"
+      ],
+      "registeredHsEditions": [
+        "TM-COMMODITY-NOMENCLATURE"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tm-customs-code-hs-basis",
+        "tm-customs-national-nomenclature-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Custom duties",
@@ -6526,6 +8683,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "tn-customs-roasted-coffee-lookup",
@@ -6547,15 +8713,27 @@
       "name": "Tonga",
       "nameJa": "トンガ",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "to-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Tonga Attorney General's Office",
@@ -6580,15 +8758,26 @@
       "name": "Türkiye",
       "nameJa": "トルコ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "TR-TGTC-2026"
+      ],
+      "registeredHsEditions": [
+        "TR-TGTC-2026"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tr-tgtc-2026-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Türkiye Ministry of Trade",
@@ -6617,15 +8806,26 @@
       "name": "Trinidad and Tobago",
       "nameJa": "トリニダード・トバゴ",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tt-wto-hs2017-citrus-nomenclature-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "HS Code and Tariff Finder",
@@ -6638,15 +8838,27 @@
       "name": "Tuvalu",
       "nameJa": "ツバル",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tv-pacer-hs2012-coffee",
+        "wco-hs2012-pacer-coffee-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Customs Revenue and Border Protection Act 2014",
@@ -6663,6 +8875,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "tw-customs-coffee-hs2022-2023",
@@ -6691,6 +8912,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eac-cet-hs2022-coffee-202506",
@@ -6723,6 +8953,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "ua-customs-hs2022-uktzed-adoption",
@@ -6763,6 +9002,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eac-cet-hs2022-coffee-202506",
@@ -6799,6 +9047,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6836,6 +9087,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "us-usitc-nonporcelain-tableware-hs6-2026",
@@ -6864,6 +9124,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "uy-mef-hs2022-nomenclature-guide",
@@ -6893,15 +9162,26 @@
       "name": "Uzbekistan",
       "nameJa": "ウズベキスタン",
       "market": "asia",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "uz-lexuz-hs2022-roasted-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Integrated Tariff",
@@ -6922,6 +9202,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -6947,6 +9230,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "caricom-cet-hs2022-coffee-for-vc",
@@ -6976,6 +9268,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -7001,6 +9296,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -7026,6 +9324,9 @@
       "referenceRuleCount": 0,
       "activeRuleCount": 0,
       "hs6Count": 0,
+      "hsEditions": [],
+      "registeredHsEditions": [],
+      "referenceBases": [],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [],
       "holdReasons": [],
@@ -7051,6 +9352,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "vn-customs-hs2022-coffee-annex-2024"
@@ -7078,6 +9388,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "vu-customs-coffee-hs2022-v4"
@@ -7101,15 +9420,27 @@
       "name": "Wallis and Futuna",
       "nameJa": "ワリー及びフテュナ",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "WF-TARIFF-2020"
+      ],
+      "registeredHsEditions": [
+        "WF-TARIFF-2020"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "wf-tariff2020-coffee",
+        "wf-wco-hs-application-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Wallis and Futuna State and Territorial Services",
@@ -7126,15 +9457,27 @@
       "name": "Samoa",
       "nameJa": "サモア",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ws-hs2017-coffee-chapter9",
+        "ws-hs2017-official-index"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Samoa Ministry of Customs",
@@ -7151,15 +9494,26 @@
       "name": "Kosovo",
       "nameJa": "コソボ",
       "market": "europe",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "XK-TARIK-2026"
+      ],
+      "registeredHsEditions": [
+        "XK-TARIK-2026"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "xk-tarik-2026-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Integrated Tariff of Kosovo 2026",
@@ -7176,15 +9530,26 @@
       "name": "Yemen",
       "nameJa": "イエメン",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ye-wto-hs2022-certified-schedule-1807"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "World Trade Organization",
@@ -7205,6 +9570,15 @@
       "referenceRuleCount": 2,
       "activeRuleCount": 2,
       "hs6Count": 2,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "eu-customs-territorial-scope-2026",
@@ -7243,6 +9617,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "za-sars-coffee-20261113",
@@ -7267,15 +9650,26 @@
       "name": "Zambia",
       "nameJa": "ザンビア",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "wto_bound_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "zm-wto-hs2022-certified-schedule-1802"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "National Assembly of Zambia",
@@ -7308,6 +9702,15 @@
       "referenceRuleCount": 3,
       "activeRuleCount": 3,
       "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
       "sourceIds": [
         "zw-zimra-coffee-hs2022-si203",

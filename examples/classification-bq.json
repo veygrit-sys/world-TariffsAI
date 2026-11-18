@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "bq-coffee-roasted-not-decaf-hs6",
+    "revision": "1",
+    "description": "Whole coffee beans / 他原料を加えない粒状のコーヒー豆",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "roasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans"
+    }
+  },
+  "context": {
+    "country": "BQ",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}

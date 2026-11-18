@@ -9,7 +9,7 @@ rc.25では、商品情報の構造化、根拠付き候補検索、追加質問
 3. 確認者・証拠・適用範囲を承認記録へ保存し、後続注文で同じ商品仕様へ再利用する。
 4. CSV・バッチAPIと通関計画を接続し、変更・取消・期限切れを検出する。
 
-同梱の `data/classification-catalog.json` は、rc.28で138か国・地域・151出典・384件の国別HS6候補ルール（33種類）へ拡張しました。正式な共通品目表の適用範囲を照合した国別展開を含みます。カナダでは15商品分類を追加し、材料・用途・加工・構造・組物などの境界を属性で確認します。国内細分や税率は同梱しておらず、HS6参照だけで国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md) ・ [全仕向地と商品群の展開台帳](HS_CLASSIFICATION_ROLLOUT.md)
+同梱の `data/classification-catalog.json` は、rc.29で220か国・地域・247出典レコード・626件の国別参照ルール（53種類の6桁コード）へ拡張しました。HS2022の参照は162か国・地域です。旧HS版と国別公表版をHS2022へ読み替えず、`hsEdition`に記録された体系の識別子を明示して照会します。国内細分や税率は同梱せず、参照候補だけから国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md) ・ [全体台帳](HS_CLASSIFICATION_ROLLOUT.md)
 
 - [セルロース主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400968.htm)
 - [鉱物性材料主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400541.htm)
@@ -86,3 +86,11 @@ SDKの `applyClassificationAssignments(plan, input, catalog, events, data, now)`
 ## 分割作業の再開
 
 `npm run classification:rollout -- --date 2026-11-18 --write` で全仕向地のJSON・Markdownと商品01〜97類の作業表を更新できます。`npm run cli -- classification-rollout 2026-11-18` は全件JSONを返します。照会リンクだけを持つ国は公式分類の確認待ちとして残し、候補がある国も商品全体を網羅したとは表示しません。
+
+## 分類版と資料の区分
+
+`hsEdition`は`HS2022`等の確認済み国際HS版、または`IL-IMPORT-NOMENCLATURE`等の確認した国別公表分類の識別子です。国別版の年や国際HS版を推定で補いません。提案・割当・バッチは記録された版との一致が必要で、`all`は分類要求に使いません。
+
+`GET /v1/classification/rollout`は版指定を省略するとHS2022を維持します。`?hsEdition=all`は各ルールの実際の版と出典条件で集計し、版間変換をしません。国別の`hsEditions`、`registeredHsEditions`、`referenceBases`と、全体の`editionTotals`で参照範囲を確認できます。CLIと台帳生成は`all`を明示し、生成スクリプトの`--edition HS2022`で旧既定版だけを調べられます。
+
+出典の省略可能な`referenceBasis`は`official_reference`、`wto_bound_nomenclature`、`agreement_nomenclature`、`national_edition_reference`です。`official_reference`や未指定も、現在の税率を検証済みという意味ではありません。WTO譲許・協定附属書・独立国別版の特別参照は、誤って`tariff_schedule`と設定されても国内税番の承認適格根拠に使用しません。WTO認証済み譲許表自体の法的効力を一律に否定せず、現在の適用税表とアプリの品目参照を区別します。

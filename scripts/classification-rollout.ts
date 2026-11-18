@@ -5,13 +5,14 @@ import { loadClassificationCatalog } from "../src/classification-catalog.ts";
 import { loadDataset } from "../src/dataset.ts";
 
 const { values } = parseArgs({ options: {
-  date: { type: "string" }, now: { type: "string" }, write: { type: "boolean", default: false },
+  date: { type: "string" }, now: { type: "string" }, edition: { type: "string" }, write: { type: "boolean", default: false },
 }, strict: true });
 try {
   const now = values.now !== undefined ? new Date(values.now) : new Date();
   if (!Number.isFinite(now.getTime())) throw new Error("INVALID_REFERENCE_TIME");
   const data = loadDataset(), catalog = loadClassificationCatalog(process.env, data);
-  const report = classificationRollout({ ...(values.date !== undefined ? { date: values.date } : {}), limit: 250 }, catalog, data, now);
+  const report = classificationRollout({ ...(values.date !== undefined ? { date: values.date } : {}),
+    hsEdition: values.edition ?? "all", limit: 250 }, catalog, data, now);
   if (!values.write) process.stdout.write(JSON.stringify(report, null, 2) + "\n");
   else {
     const labels = {
@@ -26,12 +27,17 @@ try {
     };
     const escape = (text: string) => text.replaceAll("|", "\\|").replace(/[\r\n]+/g, " ");
     const counts = report.totals.byStatus;
+    const editionSummary = report.editionTotals.map(row => `| ${row.hsEdition} | ${row.destinations} | ${row.activeRuleCount} |`).join("\n");
     const markets = [...new Set(report.destinations.map(row => row.market).filter(value => value !== null))];
     const lines = [
       "# HS分類の全仕向地・商品群展開台帳", "",
       `基準日 ${report.referenceDate}、確認日 ${report.reviewedOn}。カタログ \`${catalog.version}\`、ダイジェスト \`${catalog.digest}\`。`, "",
+      `分類版の絞り込み: \`${report.hsEdition}\`。allは確認した版ごとの参照を集計し、HS2022への変換を意味しません。国別公表版・旧HS版・WTO譲許表の参照は、現在の適用税表と区別します。`, "",
       `ISOの249仕向地と補助地域コソボ（XK）を含む${report.totals.destinations}件を追跡します。分類調査の対象は${report.totals.eligibleDestinations}件（取引の受付可否は別途確認）、限定商品の候補ありは${counts.candidate_references}件、出典再確認は${counts.source_review_required}件、公式分類の確認待ちは${counts.official_evidence_pending}件、商用対象外は${counts.excluded}件です。`, "",
       "候補がある国も商品全体を網羅していません。照会先リンクの存在・加盟国一覧・共通のHS6だけでは分類確認済みにしません。国内細分、税率、原産地資格、取引の適格性、配送受付、運用者の承認はそれぞれ別に確認します。", "",
+      "## 分類版ごとの参照範囲", "",
+      "版をまたいでコードを変換・統合しません。同じ国が複数の版に含まれる場合、下表の国・地域数には重複があります。WTO譲許表や協定附属書は品目記述の参照であり、現在の適用税表・税率を確認したことを意味しません。", "",
+      "| 分類版 | 国・地域数 | 有効な国別ルール数 |", "| --- | ---: | ---: |", editionSummary, "",
       "## 分割して進める作業", "",
       "| 段階 | 作業 | 完了条件 |", "| --- | --- | --- |",
       "| 1 | 国・地域別の公式分類根拠 | 本文・HS版・適用地域を照合し、商品属性と保留条件を記録 |",
@@ -50,10 +56,10 @@ try {
     lines.push("", "AQは地理別作業グループに含めず、全仕向地表に対象外として残します。", "",
       "## 全仕向地の次の作業", "",
       "公式照会リンクは調査開始点であり、掲載商品の分類が検証済みという意味ではありません。", "",
-      "| コード | 国・地域 | 状態 | 有効HS6数 | 次の作業 | 公式照会先 |", "| --- | --- | --- | ---: | --- | --- |");
+      "| コード | 国・地域 | 状態 | 分類版 | 根拠の種別 | 有効HS6数 | 次の作業 | 公式照会先 |", "| --- | --- | --- | --- | --- | ---: | --- | --- |");
     for (const row of report.destinations) {
       const link = row.discoveryReferences[0];
-      lines.push(`| ${row.country} | ${escape(row.nameJa)} | ${labels[row.status]} | ${row.hs6Count} | ${actions[row.nextAction]} | ${link ? `[照会先](<${new URL(link.url).href}>)` : "—"} |`);
+      lines.push(`| ${row.country} | ${escape(row.nameJa)} | ${labels[row.status]} | ${row.hsEditions.join(", ") || "—"} | ${row.referenceBases.join(", ") || "—"} | ${row.hs6Count} | ${actions[row.nextAction]} | ${link ? `[照会先](<${new URL(link.url).href}>)` : "—"} |`);
     }
     lines.push("", "## 商品群の展開台帳", "",
       "HSの01〜97類を調査単位として追跡し、77類は予約類として扱います。98・99類など各国固有の区分は国内税番の段階で別に検証します。[77類の予約はカナダ税関の公式表でも確認できます](https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/01-99/ch77-2026-eng.pdf)。", "",
@@ -65,10 +71,11 @@ try {
     }
     lines.push("", "## 再開・更新", "", "```sh",
       "npm run classification:rollout -- --date " + report.referenceDate,
+      "npm run classification:rollout -- --date " + report.referenceDate + " --edition HS2022",
       "npm run classification:rollout -- --date " + report.referenceDate + " --write",
       "npm run cli -- classification-rollout " + report.referenceDate,
       "```", "",
-      "`GET /v1/classification/rollout` はサービス認証のもとで同じ台帳を返します。`market`、`status`、`country`、`date`、`direction`、`hsEdition`、`offset`、`limit`で分割できます。集計は全台帳、`total`と`nextOffset`は絞り込んだページに対応します。", "",
+      "`GET /v1/classification/rollout?hsEdition=all` はサービス認証のもとで同じ台帳を返します。APIの版指定省略時は従来どおりHS2022です。`market`、`status`、`country`、`date`、`direction`、`hsEdition`、`offset`、`limit`で分割できます。集計は全台帳、`total`と`nextOffset`は絞り込んだページに対応します。分類提案には国別表に示す版を明示し、allを分類版として渡しません。", "",
       "カタログ追加後はこのファイルとJSONを生成し直します。日時を再現する場合は`--now`にISO時刻を指定します。JSONの出典照会リンクは分類の根拠へ自動昇格しません。", "");
     writeFileSync(new URL("../docs/HS_CLASSIFICATION_ROLLOUT.json", import.meta.url), JSON.stringify(report, null, 2) + "\n");
     writeFileSync(new URL("../docs/HS_CLASSIFICATION_ROLLOUT.md", import.meta.url), lines.join("\n"));

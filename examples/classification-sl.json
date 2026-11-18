@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "sl-fresh-orange-hs6",
+    "revision": "1",
+    "description": "生鮮のオレンジ、単一種類の丸ごとの果実",
+    "attributes": {
+      "product_type": "fruit",
+      "composition": "fruit_only",
+      "species": "orange",
+      "processing": "fresh",
+      "form": "whole"
+    }
+  },
+  "context": {
+    "country": "SL",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}
