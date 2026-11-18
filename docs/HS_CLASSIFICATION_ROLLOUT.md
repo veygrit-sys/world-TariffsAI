@@ -1,12 +1,14 @@
 # HS分類の全仕向地・商品群展開台帳
 
-基準日 2026-11-18、確認日 2026-11-18。カタログ `2026-11-18.classification-v5`、ダイジェスト `76f951f3d4bb6c62814a40195ee7562ef1b90f88c89c301cd3b1924192435a50`。
+基準日 2026-11-18、確認日 2026-11-18。カタログ `2026-11-18.classification-v6`、ダイジェスト `fa8e2c874df9806e34563e1c7ec318a84e364a5a8ca054f10a82220a11eb9dbb`。
 
 分類版の絞り込み: `all`。allは確認した版ごとの参照を集計し、HS2022への変換を意味しません。国別公表版・旧HS版・WTO譲許表の参照は、現在の適用税表と区別します。
 
-ISOの249仕向地と補助地域コソボ（XK）を含む250件を追跡します。分類調査の対象は248件（取引の受付可否は別途確認）、限定商品の候補ありは220件、出典再確認は0件、公式分類の確認待ちは28件、商用対象外は2件です。
+ISOの249仕向地と補助地域コソボ（XK）を含む250件を追跡します。分類調査の対象は248件（取引の受付可否は別途確認）、限定商品の候補ありは234件、出典再確認は0件、公式分類の確認待ちは14件、商用対象外は2件です。
 
 候補がある国も商品全体を網羅していません。照会先リンクの存在・加盟国一覧・共通のHS6だけでは分類確認済みにしません。国内細分、税率、原産地資格、取引の適格性、配送受付、運用者の承認はそれぞれ別に確認します。
+
+残り28仕向地の調査結果、候補へ追加した範囲と保留理由は[rc.30調査記録](HS_CLASSIFICATION_RESEARCH_RC30.md)に記載しています。
 
 ## 分類版ごとの参照範囲
 
@@ -18,15 +20,18 @@ ISOの249仕向地と補助地域コソボ（XK）を含む250件を追跡しま
 | BA-InspectionList-v208 | 1 | 3 |
 | FO-TAKS-Nomenclature | 1 | 3 |
 | GI-IntegratedTariff-2017 | 1 | 3 |
+| GL-GRKN8-1989-2003 | 1 | 4 |
 | HS2002 | 1 | 3 |
 | HS2007 | 7 | 21 |
-| HS2012 | 10 | 30 |
-| HS2017 | 20 | 60 |
-| HS2022 | 162 | 454 |
+| HS2012 | 11 | 34 |
+| HS2017 | 21 | 63 |
+| HS2022 | 166 | 466 |
 | IL-IMPORT-NOMENCLATURE | 1 | 3 |
+| IQ-TARIFF-LAW22-2010 | 1 | 1 |
 | IR-TARIFF-2016-2017 | 1 | 3 |
 | KM-TARIFF-2022 | 1 | 3 |
 | KW-PAI-Tariff-2022 | 1 | 3 |
+| KY-TARIFF-2026 | 1 | 3 |
 | LB-IntegratedTariff | 1 | 3 |
 | MR-TARIFF-2021 | 1 | 3 |
 | PS-PCBS-Local-2009 | 1 | 3 |
@@ -35,8 +40,13 @@ ISOの249仕向地と補助地域コソボ（XK）を含む250件を追跡しま
 | SO-TARIFF-2022 | 1 | 3 |
 | SS-EAC-TFTA-2026 | 1 | 2 |
 | ST-TARIFF-2023 | 1 | 3 |
+| SY-DECREE188-2026 | 1 | 1 |
+| TC-TARIFF-2010 | 1 | 2 |
 | TM-COMMODITY-NOMENCLATURE | 1 | 3 |
 | TR-TGTC-2026 | 1 | 3 |
+| VE-CARICOM-1992 | 1 | 2 |
+| VG-TARIFF-2010 | 1 | 3 |
+| VI-HTSUS-2026-STATISTICS | 1 | 3 |
 | WF-TARIFF-2020 | 1 | 3 |
 | XK-TARIK-2026 | 1 | 3 |
 
@@ -57,10 +67,10 @@ ISOの249仕向地と補助地域コソボ（XK）を含む250件を追跡しま
 | 作業グループ | 仕向地数 | 候補あり | 出典再確認 | 公式分類待ち | 対象外 |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | europe | 52 | 50 | 0 | 2 | 0 |
-| western_asia_africa | 78 | 72 | 0 | 6 | 0 |
+| western_asia_africa | 78 | 75 | 0 | 3 | 0 |
 | asia | 33 | 32 | 0 | 0 | 1 |
-| americas | 57 | 47 | 0 | 10 | 0 |
-| oceania_remote | 29 | 19 | 0 | 10 | 0 |
+| americas | 57 | 53 | 0 | 4 | 0 |
+| oceania_remote | 29 | 24 | 0 | 5 | 0 |
 
 AQは地理別作業グループに含めず、全仕向地表に対象外として残します。
 
@@ -108,7 +118,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | BY | ベラルーシ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://eec.eaeunion.org/comission/department/catr/ett/>) |
 | BZ | ベリーズ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.customs.gov.bz/ttpg.html>) |
 | CA | カナダ | 限定商品の候補あり | HS2022 | official_reference | 17 | 商品群拡充・国内税番の確認 | [照会先](<https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/menu-eng.html>) |
-| CC | ココス (キーリング) 諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
+| CC | ココス (キーリング) 諸島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
 | CD | コンゴ民主共和国 | 限定商品の候補あり | HS2022 | wto_bound_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://douane.gouv.cd/les-procedures-douanieres/les-procedures-de-dedouanement-a-limportation-en-rdc%EF%BF%BC/>) |
 | CF | 中央アフリカ共和国 | 限定商品の候補あり | HS2007 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://finances.gouv.cf/projet/16/e-douanes>) |
 | CG | コンゴ | 限定商品の候補あり | HS2007 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://douanes.gouv.cg/>) |
@@ -123,7 +133,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | CU | キューバ | 限定商品の候補あり | HS2017 | wto_bound_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.gacetaoficial.gob.cu/es/gaceta-oficial-no-21-edicion-especial-de-2026>) |
 | CV | カーボヴェルデ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | CW | キュラソー | 限定商品の候補あり | HS2017 | national_edition_reference, official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://douane.cw/tarief-van-invoerrechten/>) |
-| CX | クリスマス島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
+| CX | クリスマス島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
 | CY | キプロス | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
 | CZ | チェコ | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
 | DE | ドイツ | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
@@ -153,7 +163,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | GG | ガーンジー | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies>) |
 | GH | ガーナ | 限定商品の候補あり | HS2017 | wto_bound_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | GI | ジブラルタル | 限定商品の候補あり | GI-IntegratedTariff-2017 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en>) |
-| GL | グリーンランド | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://nalunaarutit.gl/groenlandsk-lovgivning/2024/selvstyrets-lovbekendtgoerelse-nr-40-af-17_07_2024?sc_lang=da>) |
+| GL | グリーンランド | 限定商品の候補あり | GL-GRKN8-1989-2003 | national_edition_reference | 4 | 商品群拡充・国内税番の確認 | [照会先](<https://nalunaarutit.gl/groenlandsk-lovgivning/2024/selvstyrets-lovbekendtgoerelse-nr-40-af-17_07_2024?sc_lang=da>) |
 | GM | ガンビア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | GN | ギニア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | GP | グアドループ | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer>) |
@@ -176,7 +186,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | IM | マン島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.gov.uk/government/publications/customs-arrangements-with-the-crown-dependencies>) |
 | IN | インド | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.cbic.gov.in/entities/cbic-content-mst/Njk%3D>) |
 | IO | 英国インド洋領土 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://commonslibrary.parliament.uk/research-briefings/cbp-10512/>) |
-| IQ | イラク | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.mof.gov.iq/Customs-tariff-law>) |
+| IQ | イラク | 限定商品の候補あり | IQ-TARIFF-LAW22-2010 | national_edition_reference | 1 | 商品群拡充・国内税番の確認 | [照会先](<https://www.mof.gov.iq/Customs-tariff-law>) |
 | IR | イラン・イスラム共和国 | 限定商品の候補あり | IR-TARIFF-2016-2017 | agreement_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://eec.eaeunion.org/upload/medialibrary/649/Guidance-on-the-Islamic-Republic-of-Iran-Trade-Regulation-2020.pdf>) |
 | IS | アイスランド | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.skatturinn.is/fagadilar/tollamal/hugbunadarhus/tollskrarlyklar/tollskrarlyklar>) |
 | IT | イタリア | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
@@ -193,7 +203,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | KP | 朝鮮民主主義人民共和国 | 商用対象外 | — | — | 0 | 台帳のみ維持 | — |
 | KR | 大韓民国 (韓国) | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.data.go.kr/data/15051179/fileData.do>) |
 | KW | クウェート | 限定商品の候補あり | KW-PAI-Tariff-2022 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://gcc-sg.org/en/MediaCenter/DigitalLibrary/Documents/1282120184.pdf>) |
-| KY | ケイマン諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://gov.ky/web/cbc/trade/imports>) |
+| KY | ケイマン諸島 | 限定商品の候補あり | KY-TARIFF-2026 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://gov.ky/web/cbc/trade/imports>) |
 | KZ | カザフスタン | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://eec.eaeunion.org/comission/department/catr/ett/>) |
 | LA | ラオス人民民主共和国 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.laotradeportal.gov.la/en-gb/site/listcommodity>) |
 | LB | レバノン | 限定商品の候補あり | LB-IntegratedTariff | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.customs.gov.lb/Tariff/Tariff_Table.aspx>) |
@@ -218,7 +228,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | MM | ミャンマー | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.customs.gov.mm/>) |
 | MN | モンゴル国 | 限定商品の候補あり | HS2017 | wto_bound_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://gaali.mn/hscode/en>) |
 | MO | マカオ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.gov.mo/en/services/ps-1331/ps-1331a/>) |
-| MP | 北マリアナ諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://cnmilaw.gov/commonwealth-code/3381>) |
+| MP | 北マリアナ諸島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://cnmilaw.gov/commonwealth-code/3381>) |
 | MQ | マルティニーク | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://www.douane.gouv.fr/fiche/fiscalite-douaniere-dans-les-departements-doutre-mer>) |
 | MR | モーリタニア | 限定商品の候補あり | MR-TARIFF-2021 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.douanes.mr/view/1x617NY/GywLpG7pJd6>) |
 | MS | モントセラト | 限定商品の候補あり | HS2017 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://mcrs.gov.ms/cargo-clearing-process-at-the-montserrat-port-authority-2-2/>) |
@@ -232,7 +242,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | NA | ナミビア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/>) |
 | NC | ニューカレドニア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://data.gouv.nc/explore/dataset/referentiel-douanier-tarif-douanier-compilation/>) |
 | NE | ニジェール | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://finances.gouv.ne/index.php/lois-de-finances/file/1303-ordonnance-n-2025-44>) |
-| NF | ノーフォーク島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
+| NF | ノーフォーク島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) |
 | NG | ナイジェリア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | NI | ニカラグア | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.dga.gob.ni/>) |
 | NL | オランダ | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
@@ -268,7 +278,7 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | SD | スーダン | 限定商品の候補あり | SD-TARIFF-2017 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://web.customs.gov.sd/%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%B1%D9%83%D9%8A%D8%A9/>) |
 | SE | スウェーデン | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
 | SG | シンガポール | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://sso.agc.gov.sg/SL/CA1960-OR4>) |
-| SH | セントヘレナ、アセンション及びトリスタン・ダ・クーニャ | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.sainthelena.gov.sh/st-helena/government/portfolios/safety-security-and-home-affairs/hm-customs/>) |
+| SH | セントヘレナ、アセンション及びトリスタン・ダ・クーニャ | 限定商品の候補あり | HS2012 | national_edition_reference | 4 | 商品群拡充・国内税番の確認 | [照会先](<https://www.sainthelena.gov.sh/st-helena/government/portfolios/safety-security-and-home-affairs/hm-customs/>) |
 | SI | スロベニア | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
 | SJ | スヴァールバル及びヤンマイエン | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.toll.no/en/corporate/import/norwegian-customs-in-svalbard/>) |
 | SK | スロバキア | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://taxation-customs.ec.europa.eu/news/commission-publishes-2027-version-combined-nomenclature-2026-10-30_en>) |
@@ -281,15 +291,15 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | ST | サントメ・プリンシペ | 限定商品の候補あり | ST-TARIFF-2023 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://guce.gov.st/calculadora-de-custos/>) |
 | SV | エルサルバドル | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://aduana2.mh.gob.sv/SAC/>) |
 | SX | サンマルタン (オランダ領) | 限定商品の候補あり | HS2017 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.sintmaartengov.org/Ministries/Departments/Pages/Customs.aspx>) |
-| SY | シリア・アラブ共和国 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://syrianmemory.org/archive/documents/6a0d6919dc45fbbca4a7af65>) |
+| SY | シリア・アラブ共和国 | 限定商品の候補あり | SY-DECREE188-2026 | national_edition_reference | 1 | 商品群拡充・国内税番の確認 | [照会先](<https://syrianmemory.org/archive/documents/6a0d6919dc45fbbca4a7af65>) |
 | SZ | エスワティニ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.sars.gov.za/legal-counsel/primary-legislation/schedules-to-the-customs-and-excise-act-1964/>) |
-| TC | タークス及びカイコス諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://customs.gov.tc/trf>) |
+| TC | タークス及びカイコス諸島 | 限定商品の候補あり | TC-TARIFF-2010 | national_edition_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://customs.gov.tc/trf>) |
 | TD | チャド | 限定商品の候補あり | HS2007 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://douanes.td/douane/>) |
 | TF | フランス南方領土 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://taaf.fr/acceder-aux-territoires/demandes-dactivites-et-dacces/acces-et-mouillage-dans-les-australes/>) |
 | TG | トーゴ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://ecotis.ecowas.int/developpement-des-politiques/tarif-exterieur-commun-ect/?lang=fr>) |
 | TH | タイ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.customs.go.th/list_strc_link_image_with_infographic.php?ini_content=customs_tariff_service&lang=en>) |
 | TJ | タジキスタン | 限定商品の候補あり | HS2017 | wto_bound_nomenclature | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://mmih.adlia.tj/SEARCH/DocumentView?DocumentId=166633>) |
-| TK | トケラウ | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1991/4/en/latest/>) |
+| TK | トケラウ | 限定商品の候補あり | HS2017 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1991/4/en/latest/>) |
 | TL | 東ティモール | 限定商品の候補あり | HS2017 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://customs.gov.tl/doing-business/hs-code-tariff-and-incoterms/>) |
 | TM | トルクメニスタン | 限定商品の候補あり | TM-COMMODITY-NOMENCLATURE | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://customs.gov.tm/en/customs-info/customs-fees/duties>) |
 | TN | チュニジア | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://www.douane.gov.tn/tarifweb2026/>) |
@@ -307,9 +317,9 @@ AQは地理別作業グループに含めず、全仕向地表に対象外とし
 | UZ | ウズベキスタン | 限定商品の候補あり | HS2022 | official_reference | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://tarif.customs.uz/en?lang=uz_UZ>) |
 | VA | 聖庁 (バチカン市国) | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/how-does-vat-work/territorial-scope_en>) |
 | VC | セントビンセント及びグレナディーン諸島 | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://customs.gov.vc/integrated-tariff-search>) |
-| VE | ベネズエラ・ボリバル共和国 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://aam.aladi.org/accesoamercados/arancelesdeimportacion/>) |
-| VG | 英領ヴァージン諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://laws.gov.vg/laws/customs-management-and-duties-act-2010>) |
-| VI | 米領ヴァージン諸島 | 公式分類の確認待ち | — | — | 0 | 公式本文・HS版・商品条件の確認 | [照会先](<https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2>) |
+| VE | ベネズエラ・ボリバル共和国 | 限定商品の候補あり | VE-CARICOM-1992 | agreement_nomenclature | 2 | 商品群拡充・国内税番の確認 | [照会先](<https://aam.aladi.org/accesoamercados/arancelesdeimportacion/>) |
+| VG | 英領ヴァージン諸島 | 限定商品の候補あり | VG-TARIFF-2010 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://laws.gov.vg/laws/customs-management-and-duties-act-2010>) |
+| VI | 米領ヴァージン諸島 | 限定商品の候補あり | VI-HTSUS-2026-STATISTICS | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.ecfr.gov/current/title-19/chapter-I/part-7/section-7.2>) |
 | VN | ベトナム | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://chinhphu.vn/?classid=1&docid=208020&pageid=27160&typegroupid=4>) |
 | VU | バヌアツ | 限定商品の候補あり | HS2022 | official_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://vanuatucustoms.gov.vu/index.php/customs/hs-nomenclature>) |
 | WF | ワリー及びフテュナ | 限定商品の候補あり | WF-TARIFF-2020 | national_edition_reference | 3 | 商品群拡充・国内税番の確認 | [照会先](<https://www.wallis-et-futuna.gouv.fr/Demarches/Formalites-douanieres>) |
@@ -332,13 +342,13 @@ HSの01〜97類を調査単位として追跡し、77類は予約類として扱
 | 01 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 02 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 03 | 0 | 0 | 公式資料と代表商品の属性を調査 |
-| 04 | 1 | 1 | 限定例の拡充・他商品との境界確認 |
+| 04 | 1 | 3 | 限定例の拡充・他商品との境界確認 |
 | 05 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 06 | 0 | 0 | 公式資料と代表商品の属性を調査 |
-| 07 | 6 | 15 | 限定例の拡充・他商品との境界確認 |
-| 08 | 9 | 35 | 限定例の拡充・他商品との境界確認 |
-| 09 | 8 | 469 | 限定例の拡充・他商品との境界確認 |
-| 10 | 0 | 0 | 公式資料と代表商品の属性を調査 |
+| 07 | 8 | 17 | 限定例の拡充・他商品との境界確認 |
+| 08 | 10 | 36 | 限定例の拡充・他商品との境界確認 |
+| 09 | 8 | 496 | 限定例の拡充・他商品との境界確認 |
+| 10 | 2 | 4 | 限定例の拡充・他商品との境界確認 |
 | 11 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 12 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 13 | 0 | 0 | 公式資料と代表商品の属性を調査 |
@@ -350,7 +360,7 @@ HSの01〜97類を調査単位として追跡し、77類は予約類として扱
 | 19 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 20 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 21 | 0 | 0 | 公式資料と代表商品の属性を調査 |
-| 22 | 3 | 3 | 限定例の拡充・他商品との境界確認 |
+| 22 | 4 | 4 | 限定例の拡充・他商品との境界確認 |
 | 23 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 24 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 25 | 0 | 0 | 公式資料と代表商品の属性を調査 |
@@ -391,7 +401,7 @@ HSの01〜97類を調査単位として追跡し、77類は予約類として扱
 | 60 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 61 | 1 | 1 | 限定例の拡充・他商品との境界確認 |
 | 62 | 0 | 0 | 公式資料と代表商品の属性を調査 |
-| 63 | 2 | 38 | 限定例の拡充・他商品との境界確認 |
+| 63 | 3 | 39 | 限定例の拡充・他商品との境界確認 |
 | 64 | 0 | 0 | 公式資料と代表商品の属性を調査 |
 | 65 | 1 | 1 | 限定例の拡充・他商品との境界確認 |
 | 66 | 1 | 1 | 限定例の拡充・他商品との境界確認 |

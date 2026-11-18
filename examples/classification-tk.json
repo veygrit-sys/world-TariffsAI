@@ -1,0 +1,21 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "tk-hs2017-historical-import-tomato-hs6",
+    "revision": "1",
+    "description": "新鮮又は冷蔵の丸ごとのトマト tomato",
+    "attributes": {
+      "product_type": "tomato",
+      "processing": "fresh_or_chilled",
+      "composition": "single_commodity_only",
+      "form": "whole",
+      "classification_context": "apia_tokelau_import_statistics_2014_2019"
+    }
+  },
+  "context": {
+    "country": "TK",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "HS2017"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "vi-statistics-coffee-unroasted-not-decaffeinated-hs6",
+    "revision": "1",
+    "description": "正式輸入の統計記録用 未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans",
+      "classification_purpose": "formal_import_statistics"
+    }
+  },
+  "context": {
+    "country": "VI",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "VI-HTSUS-2026-STATISTICS"
+  }
+}

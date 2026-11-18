@@ -9,7 +9,7 @@ rc.25では、商品情報の構造化、根拠付き候補検索、追加質問
 3. 確認者・証拠・適用範囲を承認記録へ保存し、後続注文で同じ商品仕様へ再利用する。
 4. CSV・バッチAPIと通関計画を接続し、変更・取消・期限切れを検出する。
 
-同梱の `data/classification-catalog.json` は、rc.29で220か国・地域・247出典レコード・626件の国別参照ルール（53種類の6桁コード）へ拡張しました。HS2022の参照は162か国・地域です。旧HS版と国別公表版をHS2022へ読み替えず、`hsEdition`に記録された体系の識別子を明示して照会します。国内細分や税率は同梱せず、参照候補だけから国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md) ・ [全体台帳](HS_CLASSIFICATION_ROLLOUT.md)
+同梱の `data/classification-catalog.json` は、rc.30で234か国・地域・271出典レコード・664件の国別参照ルール（60種類の6桁コード）へ拡張しました。HS2022の参照は166か国・地域です。旧HS版と国別公表版をHS2022へ読み替えず、`hsEdition`に記録された体系の識別子を明示して照会します。国内細分や税率は同梱せず、参照候補だけから国内税番の承認は作れません。 [国別の範囲と根拠](HS_CLASSIFICATION_COUNTRIES.md) ・ [全体台帳](HS_CLASSIFICATION_ROLLOUT.md)
 
 - [セルロース主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400968.htm)
 - [鉱物性材料主体のろ過材：日本税関の公開事例](https://www.customs.go.jp/tetsuzuki_search/bunrui/J1/24/J12400541.htm)

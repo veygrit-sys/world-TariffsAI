@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "2026-11-18.classification-v5",
-  "catalogDigest": "76f951f3d4bb6c62814a40195ee7562ef1b90f88c89c301cd3b1924192435a50",
+  "catalogVersion": "2026-11-18.classification-v6",
+  "catalogDigest": "fa8e2c874df9806e34563e1c7ec318a84e364a5a8ca054f10a82220a11eb9dbb",
   "referenceDate": "2026-11-18",
   "reviewedOn": "2026-11-18",
   "direction": "import",
@@ -27,6 +27,11 @@
       "activeRuleCount": 3
     },
     {
+      "hsEdition": "GL-GRKN8-1989-2003",
+      "destinations": 1,
+      "activeRuleCount": 4
+    },
+    {
       "hsEdition": "HS2002",
       "destinations": 1,
       "activeRuleCount": 3
@@ -38,23 +43,28 @@
     },
     {
       "hsEdition": "HS2012",
-      "destinations": 10,
-      "activeRuleCount": 30
+      "destinations": 11,
+      "activeRuleCount": 34
     },
     {
       "hsEdition": "HS2017",
-      "destinations": 20,
-      "activeRuleCount": 60
+      "destinations": 21,
+      "activeRuleCount": 63
     },
     {
       "hsEdition": "HS2022",
-      "destinations": 162,
-      "activeRuleCount": 454
+      "destinations": 166,
+      "activeRuleCount": 466
     },
     {
       "hsEdition": "IL-IMPORT-NOMENCLATURE",
       "destinations": 1,
       "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "IQ-TARIFF-LAW22-2010",
+      "destinations": 1,
+      "activeRuleCount": 1
     },
     {
       "hsEdition": "IR-TARIFF-2016-2017",
@@ -68,6 +78,11 @@
     },
     {
       "hsEdition": "KW-PAI-Tariff-2022",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "KY-TARIFF-2026",
       "destinations": 1,
       "activeRuleCount": 3
     },
@@ -112,12 +127,37 @@
       "activeRuleCount": 3
     },
     {
+      "hsEdition": "SY-DECREE188-2026",
+      "destinations": 1,
+      "activeRuleCount": 1
+    },
+    {
+      "hsEdition": "TC-TARIFF-2010",
+      "destinations": 1,
+      "activeRuleCount": 2
+    },
+    {
       "hsEdition": "TM-COMMODITY-NOMENCLATURE",
       "destinations": 1,
       "activeRuleCount": 3
     },
     {
       "hsEdition": "TR-TGTC-2026",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "VE-CARICOM-1992",
+      "destinations": 1,
+      "activeRuleCount": 2
+    },
+    {
+      "hsEdition": "VG-TARIFF-2010",
+      "destinations": 1,
+      "activeRuleCount": 3
+    },
+    {
+      "hsEdition": "VI-HTSUS-2026-STATISTICS",
       "destinations": 1,
       "activeRuleCount": 3
     },
@@ -136,9 +176,9 @@
     "destinations": 250,
     "eligibleDestinations": 248,
     "byStatus": {
-      "candidate_references": 220,
+      "candidate_references": 234,
       "source_review_required": 0,
-      "official_evidence_pending": 28,
+      "official_evidence_pending": 14,
       "excluded": 2
     }
   },
@@ -1589,18 +1629,29 @@
       "name": "Cocos (Keeling) Islands",
       "nameJa": "ココス (キーリング) 諸島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "au-external-territories-customs-scope-2026",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "cc-applied-customs-classification-law"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Australian Border Force",
@@ -2116,18 +2167,29 @@
       "name": "Christmas Island",
       "nameJa": "クリスマス島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "au-external-territories-customs-scope-2026",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "cx-applied-customs-classification-law"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Australian Border Force",
@@ -3338,18 +3400,27 @@
       "name": "Greenland",
       "nameJa": "グリーンランド",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 4,
+      "activeRuleCount": 4,
+      "hs6Count": 4,
+      "hsEditions": [
+        "GL-GRKN8-1989-2003"
+      ],
+      "registeredHsEditions": [
+        "GL-GRKN8-1989-2003"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "gl-statbank-grkn8-commodity-metadata",
+        "gl-statbank-grkn8-official-table-scope"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Government of Greenland, Nalunaarutit",
@@ -4224,18 +4295,27 @@
       "name": "Iraq",
       "nameJa": "イラク",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 1,
+      "activeRuleCount": 1,
+      "hs6Count": 1,
+      "hsEditions": [
+        "IQ-TARIFF-LAW22-2010"
+      ],
+      "registeredHsEditions": [
+        "IQ-TARIFF-LAW22-2010"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "iq-law22-2010-hs-foundation",
+        "iq-law22-2010-part2-cotton-blanket"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Iraq Ministry of Finance",
@@ -4868,18 +4948,26 @@
       "name": "Cayman Islands",
       "nameJa": "ケイマン諸島",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "KY-TARIFF-2026"
+      ],
+      "registeredHsEditions": [
+        "KY-TARIFF-2026"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ky-tariff2026-maize-honey"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Imports and Customs Tariff Act First Schedule",
@@ -5823,18 +5911,27 @@
       "name": "Northern Mariana Islands",
       "nameJa": "北マリアナ諸島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "mp-finance-pachs2022-adoption",
+        "wco-hs2022-chapter09-gm-reference"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Northern Mariana Islands Law Revision Commission",
@@ -6363,18 +6460,29 @@
       "name": "Norfolk Island",
       "nameJa": "ノーフォーク島",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2022"
+      ],
+      "registeredHsEditions": [
+        "HS2022"
+      ],
+      "referenceBases": [
+        "official_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "au-external-territories-customs-scope-2026",
+        "au-external-territories-hs2022-adoption",
+        "au-hs2022-coffee",
+        "nf-applied-customs-classification-law"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Australian Border Force",
@@ -7810,18 +7918,26 @@
       "name": "Saint Helena, Ascension and Tristan da Cunha",
       "nameJa": "セントヘレナ、アセンション及びトリスタン・ダ・クーニャ",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 4,
+      "activeRuleCount": 4,
+      "hs6Count": 4,
+      "hsEditions": [
+        "HS2012"
+      ],
+      "registeredHsEditions": [
+        "HS2012"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sh-saint-helena-hs2012-coffee-tariff-2025"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Saint Helena HM Customs and tariff schedule",
@@ -8318,18 +8434,27 @@
       "name": "Syrian Arab Republic",
       "nameJa": "シリア・アラブ共和国",
       "market": "western_asia_africa",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 1,
+      "activeRuleCount": 1,
+      "hs6Count": 1,
+      "hsEditions": [
+        "SY-DECREE188-2026"
+      ],
+      "registeredHsEditions": [
+        "SY-DECREE188-2026"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "sy-decree188-2026-announcement",
+        "sy-decree188-2026-glass-mineral-water"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Syrian General Authority for Ports and Customs; reproduction archived by Syrian Memory",
@@ -8384,18 +8509,26 @@
       "name": "Turks and Caicos Islands",
       "nameJa": "タークス及びカイコス諸島",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "TC-TARIFF-2010"
+      ],
+      "registeredHsEditions": [
+        "TC-TARIFF-2010"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tc-tariff2010-roasted-coffee"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Turks and Caicos Islands Customs Department",
@@ -8586,18 +8719,28 @@
       "name": "Tokelau",
       "nameJa": "トケラウ",
       "market": "oceania_remote",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "HS2017"
+      ],
+      "registeredHsEditions": [
+        "HS2017"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "tk-tnso-hs2017-import-statistics-2019",
+        "tk-wco-hs2017-apple-hierarchy",
+        "tk-wco-hs2017-vegetable-hierarchy"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "New Zealand Parliamentary Counsel Office",
@@ -9264,18 +9407,28 @@
       "name": "Venezuela, Bolivarian Republic of",
       "nameJa": "ベネズエラ・ボリバル共和国",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 2,
+      "activeRuleCount": 2,
+      "hs6Count": 2,
+      "hsEditions": [
+        "VE-CARICOM-1992"
+      ],
+      "registeredHsEditions": [
+        "VE-CARICOM-1992"
+      ],
+      "referenceBases": [
+        "agreement_nomenclature"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "ve-caricom-1992-annex3-coffee",
+        "ve-caricom-1992-import-annex-context",
+        "ve-caricom-1992-nandina-hs-foundation"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Asociación Latinoamericana de Integración (ALADI)",
@@ -9292,18 +9445,26 @@
       "name": "Virgin Islands, British",
       "nameJa": "英領ヴァージン諸島",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "VG-TARIFF-2010"
+      ],
+      "registeredHsEditions": [
+        "VG-TARIFF-2010"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "vg-tariff2010-maize-honey"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "Virgin Islands Laws Online",
@@ -9320,18 +9481,27 @@
       "name": "Virgin Islands, U.S.",
       "nameJa": "米領ヴァージン諸島",
       "market": "americas",
-      "status": "official_evidence_pending",
-      "referenceRuleCount": 0,
-      "activeRuleCount": 0,
-      "hs6Count": 0,
-      "hsEditions": [],
-      "registeredHsEditions": [],
-      "referenceBases": [],
+      "status": "candidate_references",
+      "referenceRuleCount": 3,
+      "activeRuleCount": 3,
+      "hs6Count": 3,
+      "hsEditions": [
+        "VI-HTSUS-2026-STATISTICS"
+      ],
+      "registeredHsEditions": [
+        "VI-HTSUS-2026-STATISTICS"
+      ],
+      "referenceBases": [
+        "national_edition_reference"
+      ],
       "nationalCodeReferenceCount": 0,
-      "sourceIds": [],
+      "sourceIds": [
+        "vi-gao2026-formal-import-classification",
+        "vi-usitc2026-rev23-coffee-statistics"
+      ],
       "holdReasons": [],
-      "productCoverage": "none",
-      "nextAction": "verify_official_edition_and_product_conditions",
+      "productCoverage": "selected_examples",
+      "nextAction": "expand_product_examples_and_review_national_codes",
       "discoveryReferences": [
         {
           "title": "U.S. Customs and Border Protection / eCFR",

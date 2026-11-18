@@ -1,0 +1,22 @@
+{
+  "product": {
+    "merchantId": "example-merchant",
+    "sku": "gl-grkn8-coffee-090111-hs6",
+    "revision": "1",
+    "description": "未焙煎・カフェイン未除去のコーヒー豆 coffee beans",
+    "attributes": {
+      "product_type": "coffee_beans",
+      "composition": "coffee_only",
+      "processing": "unroasted",
+      "decaffeination": "not_decaffeinated",
+      "form": "whole_beans",
+      "classification_context": "historical_grkn8_import_statistics_1989_2003"
+    }
+  },
+  "context": {
+    "country": "GL",
+    "direction": "import",
+    "date": "2026-11-18",
+    "hsEdition": "GL-GRKN8-1989-2003"
+  }
+}

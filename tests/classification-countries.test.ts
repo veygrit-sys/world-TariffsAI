@@ -71,7 +71,7 @@ test("every bundled country-specific candidate has a positive, incomplete and co
 
 test("country coverage distinguishes shared EU references from unrelated country classifications", () => {
   const countries = [...new Set(catalog.rules.map(rule => rule.country))].sort();
-  assert.deepEqual(countries, [...EU_COUNTRIES, "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AR", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BF", "BH", "BI", "BJ", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CU", "CV", "CW", "DJ", "DM", "DO", "DZ", "EC", "EG", "ER", "ET", "FJ", "FM", "FO", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GM", "GN", "GP", "GQ", "GT", "GW", "GY", "HK", "HN", "HT", "ID", "IL", "IM", "IN", "IR", "IS", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MQ", "MR", "MS", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NG", "NI", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PM", "PR", "PS", "PW", "PY", "QA", "RE", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SG", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SX", "SZ", "TD", "TG", "TH", "TJ", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WF", "WS", "XK", "YE", "YT", "ZA", "ZM", "ZW"].sort());
+  assert.deepEqual(countries, [...EU_COUNTRIES, "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AR", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BF", "BH", "BI", "BJ", "BM", "BN", "BO", "BQ", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CC", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CU", "CV", "CW", "CX", "DJ", "DM", "DO", "DZ", "EC", "EG", "ER", "ET", "FJ", "FM", "FO", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL", "GM", "GN", "GP", "GQ", "GT", "GW", "GY", "HK", "HN", "HT", "ID", "IL", "IM", "IN", "IQ", "IR", "IS", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KY", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MP", "MQ", "MR", "MS", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PM", "PR", "PS", "PW", "PY", "QA", "RE", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SG", "SH", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SX", "SY", "SZ", "TC", "TD", "TG", "TH", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VG", "VI", "VN", "VU", "WF", "WS", "XK", "YE", "YT", "ZA", "ZM", "ZW"].sort());
   const authorities = catalog.sources.filter(source => source.id.startsWith("eu-reg-"));
   assert.equal(authorities.length, 2);
   for (const source of authorities) assert.deepEqual([...source.countries].sort(), [...EU_COUNTRIES, "AD", "AX", "GF", "GP", "MC", "MF", "MQ", "RE", "SM", "YT"].sort());
@@ -108,7 +108,7 @@ test("loaded-country API exposes expanded reference scope and keeps domestic aut
   }), { peer: "127.0.0.1" });
   assert.equal(response.status, 200);
   const result = await response.json();
-  assert.equal(result.countries.length, 220);
+  assert.equal(result.countries.length, 234);
   assert.equal(result.ruleCount, cases.length);
   assert.equal(result.nationalCodeRuleCount, 0);
   assert.equal(result.assignmentRequiresRecordedReview, true);

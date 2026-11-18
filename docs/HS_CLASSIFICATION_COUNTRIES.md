@@ -1,10 +1,10 @@
-# 6桁分類の国・地域別参照データ（rc.29）
+# 6桁分類の国・地域別参照データ（rc.30）
 
-2026年11月18日JST確認。220か国・地域、247出典レコード（246固有URL）、626件の国別ルール、53種類の6桁コード候補を収録しました。今回は82か国・地域と242ルールを追加しています。共通資料の同一URLでも分類版・用途が異なる場合は別レコードとして保持します。
+2026年11月18日JST確認。234か国・地域、271出典レコード（268固有URL）、664件の国別ルール、60種類の6桁コード候補を収録しました。今回は14か国・地域と38ルールを追加しています。共通資料の同一URLでも分類版・用途が異なる場合は別レコードとして保持します。
 
-HS2022の参照は162か国・地域、その他の確認済み版は58か国・地域です。旧版や国別公表分類をHS2022に変換しません。WTO譲許表・協定附属書・統計分類・歴史的基礎版も、資料に実在する品目の参照として用途を明示します。220か国の現行税率や全商品の国内分類が完成したという意味ではありません。
+HS2022の参照は166か国・地域、その他の確認済み版は68か国・地域です。旧版や国別公表分類をHS2022に変換しません。WTO譲許表・協定附属書・統計分類・歴史的基礎版も、資料に実在する品目の参照として用途を明示します。234か国の現行税率や全商品の国内分類が完成したという意味ではありません。
 
-全250仕向地の状態は[版別展開台帳](HS_CLASSIFICATION_ROLLOUT.md)と[JSON](HS_CLASSIFICATION_ROLLOUT.json)で追跡します。all版集計では候補220、未確認28、対象外2です。API版指定省略時のHS2022集計とは区別します。
+全250仕向地の状態は[版別展開台帳](HS_CLASSIFICATION_ROLLOUT.md)と[JSON](HS_CLASSIFICATION_ROLLOUT.json)で追跡します。all版集計では候補234、未確認14、対象外2です。API版指定省略時のHS2022集計とは区別します。
 
 ## 分類版ごとの範囲
 
@@ -14,15 +14,18 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | BA-InspectionList-v208 | 1 | 3 |
 | FO-TAKS-Nomenclature | 1 | 3 |
 | GI-IntegratedTariff-2017 | 1 | 3 |
+| GL-GRKN8-1989-2003 | 1 | 4 |
 | HS2002 | 1 | 3 |
 | HS2007 | 7 | 21 |
-| HS2012 | 10 | 30 |
-| HS2017 | 20 | 60 |
-| HS2022 | 162 | 454 |
+| HS2012 | 11 | 34 |
+| HS2017 | 21 | 63 |
+| HS2022 | 166 | 466 |
 | IL-IMPORT-NOMENCLATURE | 1 | 3 |
+| IQ-TARIFF-LAW22-2010 | 1 | 1 |
 | IR-TARIFF-2016-2017 | 1 | 3 |
 | KM-TARIFF-2022 | 1 | 3 |
 | KW-PAI-Tariff-2022 | 1 | 3 |
+| KY-TARIFF-2026 | 1 | 3 |
 | LB-IntegratedTariff | 1 | 3 |
 | MR-TARIFF-2021 | 1 | 3 |
 | PS-PCBS-Local-2009 | 1 | 3 |
@@ -31,8 +34,13 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | SO-TARIFF-2022 | 1 | 3 |
 | SS-EAC-TFTA-2026 | 1 | 2 |
 | ST-TARIFF-2023 | 1 | 3 |
+| SY-DECREE188-2026 | 1 | 1 |
+| TC-TARIFF-2010 | 1 | 2 |
 | TM-COMMODITY-NOMENCLATURE | 1 | 3 |
 | TR-TGTC-2026 | 1 | 3 |
+| VE-CARICOM-1992 | 1 | 2 |
+| VG-TARIFF-2010 | 1 | 3 |
+| VI-HTSUS-2026-STATISTICS | 1 | 3 |
 | WF-TARIFF-2020 | 1 | 3 |
 | XK-TARIK-2026 | 1 | 3 |
 
@@ -74,6 +82,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | ベラルーシ（BY） | HS2022 | 3 | 3 | [例](../examples/classification-by.json) |
 | ベリーズ（BZ） | HS2022 | 3 | 3 | [例](../examples/classification-bz.json) |
 | カナダ（CA） | HS2022 | 17 | 17 | [例](../examples/classification-ca.json) |
+| ココス (キーリング) 諸島（CC） | HS2022 | 3 | 3 | [例](../examples/classification-cc.json) |
 | コンゴ民主共和国（CD） | HS2022 | 3 | 3 | [例](../examples/classification-cd.json) |
 | 中央アフリカ共和国（CF） | HS2007 | 3 | 3 | [例](../examples/classification-cf.json) |
 | コンゴ（CG） | HS2007 | 3 | 3 | [例](../examples/classification-cg.json) |
@@ -88,6 +97,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | キューバ（CU） | HS2017 | 3 | 3 | [例](../examples/classification-cu.json) |
 | カーボヴェルデ（CV） | HS2022 | 3 | 3 | [例](../examples/classification-cv.json) |
 | キュラソー（CW） | HS2017 | 3 | 3 | [例](../examples/classification-cw.json) |
+| クリスマス島（CX） | HS2022 | 3 | 3 | [例](../examples/classification-cx.json) |
 | ジブチ（DJ） | HS2022 | 3 | 3 | [例](../examples/classification-dj.json) |
 | ドミニカ（DM） | HS2017 | 3 | 3 | [例](../examples/classification-dm.json) |
 | ドミニカ共和国（DO） | HS2022 | 3 | 3 | [例](../examples/classification-do.json) |
@@ -107,6 +117,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | ガーンジー（GG） | HS2022 | 3 | 3 | [例](../examples/classification-gg.json) |
 | ガーナ（GH） | HS2017 | 3 | 3 | [例](../examples/classification-gh.json) |
 | ジブラルタル（GI） | GI-IntegratedTariff-2017 | 3 | 3 | [例](../examples/classification-gi.json) |
+| グリーンランド（GL） | GL-GRKN8-1989-2003 | 4 | 4 | [例](../examples/classification-gl.json) |
 | ガンビア（GM） | HS2022 | 3 | 3 | [例](../examples/classification-gm.json) |
 | ギニア（GN） | HS2022 | 3 | 3 | [例](../examples/classification-gn.json) |
 | グアドループ（GP） | HS2022 | 2 | 2 | [例](../examples/classification-gp.json) |
@@ -121,6 +132,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | イスラエル（IL） | IL-IMPORT-NOMENCLATURE | 3 | 3 | [例](../examples/classification-il.json) |
 | マン島（IM） | HS2022 | 3 | 3 | [例](../examples/classification-im.json) |
 | インド（IN） | HS2022 | 3 | 3 | [例](../examples/classification-in.json) |
+| イラク（IQ） | IQ-TARIFF-LAW22-2010 | 1 | 1 | [例](../examples/classification-iq.json) |
 | イラン・イスラム共和国（IR） | IR-TARIFF-2016-2017 | 3 | 3 | [例](../examples/classification-ir.json) |
 | アイスランド（IS） | HS2022 | 3 | 3 | [例](../examples/classification-is.json) |
 | ジャージー（JE） | HS2022 | 3 | 3 | [例](../examples/classification-je.json) |
@@ -135,6 +147,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | セントクリストファー・ネーヴィス（KN） | HS2017 | 3 | 3 | [例](../examples/classification-kn.json) |
 | 韓国（KR） | HS2022 | 3 | 3 | [例](../examples/classification-kr.json) |
 | クウェート（KW） | KW-PAI-Tariff-2022 | 3 | 3 | [例](../examples/classification-kw.json) |
+| ケイマン諸島（KY） | KY-TARIFF-2026 | 3 | 3 | [例](../examples/classification-ky.json) |
 | カザフスタン（KZ） | HS2022 | 3 | 3 | [例](../examples/classification-kz.json) |
 | ラオス人民民主共和国（LA） | HS2022 | 3 | 3 | [例](../examples/classification-la.json) |
 | レバノン（LB） | LB-IntegratedTariff | 3 | 3 | [例](../examples/classification-lb.json) |
@@ -156,6 +169,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | ミャンマー（MM） | HS2022 | 3 | 3 | [例](../examples/classification-mm.json) |
 | モンゴル国（MN） | HS2017 | 3 | 3 | [例](../examples/classification-mn.json) |
 | マカオ（MO） | HS2022 | 3 | 3 | [例](../examples/classification-mo.json) |
+| 北マリアナ諸島（MP） | HS2022 | 3 | 3 | [例](../examples/classification-mp.json) |
 | マルティニーク（MQ） | HS2022 | 2 | 2 | [例](../examples/classification-mq.json) |
 | モーリタニア（MR） | MR-TARIFF-2021 | 3 | 3 | [例](../examples/classification-mr.json) |
 | モントセラト（MS） | HS2017 | 3 | 3 | [例](../examples/classification-ms.json) |
@@ -168,6 +182,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | ナミビア（NA） | HS2022 | 3 | 3 | [例](../examples/classification-na.json) |
 | ニューカレドニア（NC） | HS2022 | 3 | 3 | [例](../examples/classification-nc.json) |
 | ニジェール（NE） | HS2022 | 3 | 3 | [例](../examples/classification-ne.json) |
+| ノーフォーク島（NF） | HS2022 | 3 | 3 | [例](../examples/classification-nf.json) |
 | ナイジェリア（NG） | HS2022 | 3 | 3 | [例](../examples/classification-ng.json) |
 | ニカラグア（NI） | HS2022 | 3 | 3 | [例](../examples/classification-ni.json) |
 | ノルウェー（NO） | HS2022 | 3 | 3 | [例](../examples/classification-no.json) |
@@ -197,6 +212,7 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | セーシェル（SC） | HS2022 | 3 | 3 | [例](../examples/classification-sc.json) |
 | スーダン（SD） | SD-TARIFF-2017 | 3 | 3 | [例](../examples/classification-sd.json) |
 | シンガポール（SG） | HS2022 | 3 | 3 | [例](../examples/classification-sg.json) |
+| セントヘレナ、アセンション及びトリスタン・ダ・クーニャ（SH） | HS2012 | 4 | 4 | [例](../examples/classification-sh.json) |
 | シエラレオネ（SL） | HS2017 | 3 | 3 | [例](../examples/classification-sl.json) |
 | サンマリノ（SM） | HS2022 | 2 | 2 | [例](../examples/classification-sm.json) |
 | セネガル（SN） | HS2022 | 3 | 3 | [例](../examples/classification-sn.json) |
@@ -206,11 +222,14 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | サントメ・プリンシペ（ST） | ST-TARIFF-2023 | 3 | 3 | [例](../examples/classification-st.json) |
 | エルサルバドル（SV） | HS2022 | 3 | 3 | [例](../examples/classification-sv.json) |
 | サンマルタン (オランダ領)（SX） | HS2017 | 3 | 3 | [例](../examples/classification-sx.json) |
+| シリア・アラブ共和国（SY） | SY-DECREE188-2026 | 1 | 1 | [例](../examples/classification-sy.json) |
 | エスワティニ（SZ） | HS2022 | 3 | 3 | [例](../examples/classification-sz.json) |
+| タークス及びカイコス諸島（TC） | TC-TARIFF-2010 | 2 | 2 | [例](../examples/classification-tc.json) |
 | チャド（TD） | HS2007 | 3 | 3 | [例](../examples/classification-td.json) |
 | トーゴ（TG） | HS2022 | 3 | 3 | [例](../examples/classification-tg.json) |
 | タイ（TH） | HS2022 | 3 | 3 | [例](../examples/classification-th.json) |
 | タジキスタン（TJ） | HS2017 | 3 | 3 | [例](../examples/classification-tj.json) |
+| トケラウ（TK） | HS2017 | 3 | 3 | [例](../examples/classification-tk.json) |
 | 東ティモール（TL） | HS2017 | 3 | 3 | [例](../examples/classification-tl.json) |
 | トルクメニスタン（TM） | TM-COMMODITY-NOMENCLATURE | 3 | 3 | [例](../examples/classification-tm.json) |
 | チュニジア（TN） | HS2022 | 2 | 2 | [例](../examples/classification-tn.json) |
@@ -226,6 +245,9 @@ HS2022の参照は162か国・地域、その他の確認済み版は58か国・
 | ウルグアイ（UY） | HS2022 | 3 | 3 | [例](../examples/classification-uy.json) |
 | ウズベキスタン（UZ） | HS2022 | 2 | 2 | [例](../examples/classification-uz.json) |
 | セントビンセント及びグレナディーン諸島（VC） | HS2022 | 3 | 3 | [例](../examples/classification-vc.json) |
+| ベネズエラ・ボリバル共和国（VE） | VE-CARICOM-1992 | 2 | 2 | [例](../examples/classification-ve.json) |
+| 英領ヴァージン諸島（VG） | VG-TARIFF-2010 | 3 | 3 | [例](../examples/classification-vg.json) |
+| 米領ヴァージン諸島（VI） | VI-HTSUS-2026-STATISTICS | 3 | 3 | [例](../examples/classification-vi.json) |
 | ベトナム（VN） | HS2022 | 3 | 3 | [例](../examples/classification-vn.json) |
 | バヌアツ（VU） | HS2022 | 3 | 3 | [例](../examples/classification-vu.json) |
 | ワリー及びフテュナ（WF） | WF-TARIFF-2020 | 3 | 3 | [例](../examples/classification-wf.json) |
@@ -252,7 +274,7 @@ CEMAC6国の公式2009年表はHS2007の歴史的基礎参照です。WTOの変�
 
 国別の版が不明確なIL、FO、XK、KM等は、その公表表の独立識別子へ固定します。KMの非標準な誤記は採用せず、QAの言語間で矛盾する品目も除外しました。SD・WF等の公式検索本文だけを確認した範囲は出典termsに明示します。ERは政府書簡に基づくUNEP報告のHFC分野とWCOの具体品目・注釈に基づき、純粋単一のHFC-32/HFC-134aだけを対象とし、他商品へ採用範囲を外挿しません。
 
-旧来のSIECA/UEMOA/SACU/EAC/EAEU/EU等の展開も、正式な適用範囲を確認した国だけへ限定しています。単なる加盟・政治的所属・出典リンクの存在から候補を追加しません。詳細は[rc.29調査記録](HS_CLASSIFICATION_RESEARCH_RC29.md)と[rc.28調査記録](HS_CLASSIFICATION_RESEARCH_RC28.md)へ残しています。
+旧来のSIECA/UEMOA/SACU/EAC/EAEU/EU等の展開も、正式な適用範囲を確認した国だけへ限定しています。単なる加盟・政治的所属・出典リンクの存在から候補を追加しません。詳細は[rc.30調査記録](HS_CLASSIFICATION_RESEARCH_RC30.md)、[rc.29調査記録](HS_CLASSIFICATION_RESEARCH_RC29.md)と[rc.28調査記録](HS_CLASSIFICATION_RESEARCH_RC28.md)へ残しています。
 
 ## 出典レコード
 
@@ -267,7 +289,7 @@ CEMAC6国の公式2009年表はHS2007の歴史的基礎参照です。WTOの変�
 | `ca-cbsa-ceramic-products-hs6-2026` | [CBSA：2026年カナダ品目表第69類のHS6参照](<https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/2026/html/02/ch69-eng.html>) | HS2022 | official_reference | CA |
 | `cn-gacc-2025-259-official-reprint` | [中国海関総署2025年第259号・分類決定（香港政府の公式再掲）](<https://www.tid.gov.hk/en/tradecircular/files/2026/ci512026a.pdf>) | HS2022 | official_reference | CN |
 | `sg-customs-product-guide-2022` | [Singapore Customs Product Guide v4.0（2022年6月・HS2022）](<https://go.gov.sg/productguide>) | HS2022 | official_reference | SG |
-| `au-hs2022-coffee` | [豪州ABF：コーヒーのHS6参照候補](<https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-ii/chapter-9>) | HS2022 | official_reference | AU |
+| `au-hs2022-coffee` | [豪州ABF：コーヒーのHS6参照候補](<https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-ii/chapter-9>) | HS2022 | official_reference | AU, CC, CX, NF |
 | `nz-hs2022-coffee-20261020` | [NZ税関：2026年10月20日版コーヒーのHS6参照候補](<https://www.customs.govt.nz/media/cfch3obt/section-ii-effective-20-october-2026.pdf>) | HS2022 | official_reference | NZ |
 | `eu-reg-2023-1420-bone-china-plate` | [EU規則2023/1420：実用性のあるボーンチャイナ製装飾皿](<https://eur-lex.europa.eu/eli/reg_impl/2023/1420/oj/eng>) | HS2022 | official_reference | AD, AT, AX, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GF, GP, GR, HR, HU, IE, IT, LT, LU, LV, MC, MF, MQ, MT, NL, PL, PT, RE, RO, SE, SI, SK, SM, YT |
 | `eu-reg-2024-3133-beanbag-shell` | [EU規則2024/3133：未充填の大型クッション用シェル](<https://eur-lex.europa.eu/eli/reg_impl/2024/3133/oj/eng>) | HS2022 | official_reference | AD, AT, AX, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GF, GP, GR, HR, HU, IE, IT, LT, LU, LV, MC, MF, MQ, MT, NL, PL, PT, RE, RO, SE, SI, SK, SM, YT |
@@ -438,7 +460,7 @@ CEMAC6国の公式2009年表はHS2007の歴史的基礎参照です。WTOの変�
 | `ao-tariff-coffee-hs2022-2024` | [AO：2024年官報のHS2022採用品目表・コーヒー](<https://www.ucm.minfin.gov.ao/cs/groups/public/documents/document/aw4z/nzcw/~edisp/minfin3770211.pdf>) | HS2022 | official_reference | AO |
 | `ly-tariff-coffee-hs2022` | [LY：税関公式HS2022改正対応品目表・コーヒー](<https://customs.gov.ly/wp-content/uploads/2023/12/%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%B1%D9%83%D9%8A%D8%A9-%D9%84%D8%B3%D9%86%D8%A9-2022.pdf>) | HS2022 | official_reference | LY |
 | `gm-gra-hs2022-adoption` | [GM：GRAのHS2022 ECOWAS分類採用説明](<https://www.gra.gm/custom-faqs>) | HS2022 | official_reference | GM |
-| `wco-hs2022-chapter09-gm-reference` | [WCO：HS2022第9章の国際共通6桁分類（GM採用根拠併用）](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/0209_2022e.pdf?la=en>) | HS2022 | official_reference | ET, GM, MZ |
+| `wco-hs2022-chapter09-gm-reference` | [WCO：HS2022第9章の国際共通6桁分類（GM採用根拠併用）](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/0209_2022e.pdf?la=en>) | HS2022 | official_reference | ET, GM, MP, MZ |
 | `mr-tariff-coffee-national2021` | [MR：税関公式2021年品目表・コーヒー](<https://www.douanes.mr/uploads/pics/tarif_fr_2021.pdf>) | MR-TARIFF-2021 | national_edition_reference | MR |
 | `gh-wto-bound-hs2017-citrus` | [GH：WTO認証済みHS2017譲許表の柑橘類区分](<https://goods-schedules.wto.org/browse/43390/file_browser>) | HS2017 | wto_bound_nomenclature | GH |
 | `sl-wto-bound-hs2017-citrus` | [SL：WTO認証済みHS2017譲許表の柑橘類区分](<https://goods-schedules.wto.org/browse/43325/file_browser>) | HS2017 | wto_bound_nomenclature | SL |
@@ -507,6 +529,30 @@ CEMAC6国の公式2009年表はHS2007の歴史的基礎参照です。WTOの変�
 | `wco-hs2002-pacer-coffee-hierarchy` | [WCO：HS2002第9類・ミクロネシア附属表の親見出し照合](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-older-edition/2002/hs-2002/0209e.pdf?la=en>) | HS2002 | agreement_nomenclature | FM |
 | `wf-tariff2020-coffee` | [ワリス・フツナ税関：2020-04-23更新版・第9類コーヒー](<https://www.douane.wf/wp-content/uploads/2016/06/TARIF-DES-DOUANES-mis-%C3%A0-jour-le-23.04.2020.pdf>) | WF-TARIFF-2020 | national_edition_reference | WF |
 | `wf-wco-hs-application-reference` | [WCO：HS使用国一覧・ワリス・フツナの掲載](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/overview/hs-contracting-parties/list-of-countries/countries_applying_hs.pdf?db=web>) | WF-TARIFF-2020 | national_edition_reference | WF |
+| `ky-tariff2026-maize-honey` | [ケイマン諸島：Customs Tariff Act 2026 Revision・とうもろこし／天然はちみつ](<https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2012/2012-0001/2012-0001.pdf>) | KY-TARIFF-2026 | national_edition_reference | KY |
+| `vg-tariff2010-maize-honey` | [英領ヴァージン諸島：2010年法Schedule 4・とうもろこし／天然はちみつ](<https://laws.gov.vg/sites/default/files/2026-01/G00333_Customs%20Management%20and%20Duties%20Act%2C%202010.pdf>) | VG-TARIFF-2010 | national_edition_reference | VG |
+| `tc-tariff2010-roasted-coffee` | [タークス・カイコス税関：Customs Tariff General Order 2010・焙煎コーヒー](<https://customs.gov.tc/webuploads/currdoc/CustomTariffs%20%282010%29.pdf>) | TC-TARIFF-2010 | national_edition_reference | TC |
+| `vi-gao2026-formal-import-classification` | [GAO 2026：米領ヴァージン諸島の正式輸入記録とHTSUS分類](<https://files.gao.gov/reports/GAO-26-107811/index.html>) | VI-HTSUS-2026-STATISTICS | national_edition_reference | VI |
+| `vi-usitc2026-rev23-coffee-statistics` | [USITC HTSUS Revision 23 2026：第9類コーヒーの統計参照](<https://hts.usitc.gov/reststop/file?release=currentRelease&filename=Chapter%209>) | VI-HTSUS-2026-STATISTICS | national_edition_reference | VI |
+| `mp-finance-pachs2022-adoption` | [北マリアナ財務局：PACHS2022の採用根拠](<https://finance.gov.mp/division-forms/customs/2021-customs-biosecurity-annual-report.pdf>) | HS2022 | official_reference | MP |
+| `cc-applied-customs-classification-law` | [ココス諸島：適用税関法で豪州品目分類を使う明文根拠](<https://www.legislation.gov.au/F2006B00522/2015-07-01/2015-07-01/text/original/epub/OEBPS/document_1/document_1.html>) | HS2022 | official_reference | CC |
+| `cx-applied-customs-classification-law` | [クリスマス島：適用税関法で豪州品目分類を使う明文根拠](<https://www.legislation.gov.au/F2006B00138/2015-07-01/2015-07-01/text/original/epub/OEBPS/document_1/document_1.html>) | HS2022 | official_reference | CX |
+| `nf-applied-customs-classification-law` | [ノーフォーク島：適用税関法で豪州品目分類を使う明文根拠](<https://www.legislation.gov.au/F2016L00736/asmade/2016-05-09/text/original/epub/OEBPS/document_1/document_1.html>) | HS2022 | official_reference | NF |
+| `au-external-territories-hs2022-adoption` | [豪州ABF：適用先法が参照する関税分類のHS2022導入](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2021-50.pdf>) | HS2022 | official_reference | CC, CX, NF |
+| `au-external-territories-customs-scope-2026` | [豪州ABF：外部領域を区別する税関法の適用範囲](<https://www.abf.gov.au/help-and-support-subsite/CustomsNotices/2026-11.pdf>) | HS2022 | official_reference | CC, CX, NF |
+| `sh-saint-helena-hs2012-coffee-tariff-2025` | [セントヘレナ政府：2025年7月公開税則・HS2012基盤と第9類](<https://www.sainthelena.gov.sh/documents/St-Helena-Tariff-July-2025.pdf>) | HS2012 | national_edition_reference | SH |
+| `gl-statbank-grkn8-commodity-metadata` | [デンマーク統計局：グリーンランドGRKN8・1989–2003年貿易品目メタデータ](<https://api.statbank.dk/v1/tableinfo/GRKN8?format=JSON&lang=en>) | GL-GRKN8-1989-2003 | national_edition_reference | GL |
+| `gl-statbank-grkn8-official-table-scope` | [デンマーク統計局：グリーンランドGRKN8のKN分類・廃止済み統計表の範囲](<https://www.statistikbanken.dk/statbank5a/SelectVarVal/Define.asp?Maintable=GRKN8>) | GL-GRKN8-1989-2003 | national_edition_reference | GL |
+| `tk-tnso-hs2017-import-statistics-2019` | [トケラウ統計局：2019年報告・2014–2019年の輸入貨物統計とHS2017使用品目](<https://www.tokelau.org.nz/site/tokelau/files/TokelauNSO/2019-IMTS-reportJJ.pdf>) | HS2017 | national_edition_reference | TK |
+| `tk-wco-hs2017-vegetable-hierarchy` | [WCO HS2017第7類：トマト・にんにくの親見出し条件](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/0207_2017e.pdf?la=en>) | HS2017 | national_edition_reference | TK |
+| `tk-wco-hs2017-apple-hierarchy` | [WCO HS2017第8類：新鮮なりんごの親見出し条件](<https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/0208_2017e.pdf?la=en>) | HS2017 | national_edition_reference | TK |
+| `iq-law22-2010-hs-foundation` | [イラク財務省：2010年関税法22号・HSに基づく品目体系の定義](<https://www.mof.gov.iq/api/download/920>) | IQ-TARIFF-LAW22-2010 | national_edition_reference | IQ |
+| `iq-law22-2010-part2-cotton-blanket` | [イラク財務省：2010年関税法22号第2部・綿製非電気毛布](<https://www.mof.gov.iq/api/download/921>) | IQ-TARIFF-LAW22-2010 | national_edition_reference | IQ |
+| `sy-decree188-2026-announcement` | [シリア国営SANA：2026年政令188号と関税品目表改正の公布](<https://sana.sy/presidency/2604942/>) | SY-DECREE188-2026 | national_edition_reference | SY |
+| `sy-decree188-2026-glass-mineral-water` | [シリア政令188号添付表：ガラス容器入りミネラルウォーター](<https://cdn.sananews.sy/2026/10/%D9%85%D8%B1%D8%B3%D9%88%D9%85-%D8%B1%D9%82%D9%85-188.pdf>) | SY-DECREE188-2026 | national_edition_reference | SY |
+| `ve-caricom-1992-import-annex-context` | [OAS SICE：1992年Venezuela・CARICOM協定第4条・輸入附表の位置付け](<https://sice.oas.org/Trade/CARIVEN1.asp>) | VE-CARICOM-1992 | agreement_nomenclature | VE |
+| `ve-caricom-1992-annex3-coffee` | [OAS SICE：Venezuela向け輸入例外表・1992年協定附属書IIIコーヒー](<https://sice.oas.org/Trade/carven4s.asp>) | VE-CARICOM-1992 | agreement_nomenclature | VE |
+| `ve-caricom-1992-nandina-hs-foundation` | [OAS SICE・アンデス共同体決定381号前文：旧NANDINAのHS基盤](<https://sice.oas.org/Trade/Junac/decisiones/Dec381s.asp>) | VE-CARICOM-1992 | agreement_nomenclature | VE |
 
 ## 実行例と継続検証
 
@@ -516,4 +562,4 @@ npm run classification:rollout -- --date 2026-11-18 --write
 npm run classification:rollout -- --date 2026-11-18 --edition HS2022
 ```
 
-各入力例は実際の収録版を指定します。全626ルールの正例、3,421必須属性の個別欠落、3,419条件の矛盾、国・方向・版・期限の混同、承認拒否を継続検証します。カタログ更新はダイジェストを変えるため、旧版に結合した承認は再確認が必要です。独自カタログへ同梱データを自動混入しません。
+各入力例は実際の収録版を指定します。全664ルールの正例、3,630必須属性の個別欠落、3,628条件の矛盾、国・方向・版・期限の混同、承認拒否を継続検証します。カタログ更新はダイジェストを変えるため、旧版に結合した承認は再確認が必要です。独自カタログへ同梱データを自動混入しません。
