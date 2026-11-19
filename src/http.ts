@@ -24,6 +24,7 @@ import { proposeClassification } from "./classification.ts";
 import { assignClassification, parseClassificationEvents, type ClassificationEvent } from "./classification-approvals.ts";
 import { loadClassificationEvents } from "./classification-store.ts";
 import { assignClassificationBatch } from "./classification-batch.ts";
+import { routeClassificationBatch } from "./classification-routing.ts";
 import { classificationRollout } from "./classification-rollout.ts";
 
 const LIMIT = 65536;
@@ -325,7 +326,7 @@ export function createHandler(options: HandlerOptions) {
           sources, total: classificationCatalog.sources.length,
           nextOffset: offset + sources.length < classificationCatalog.sources.length ? offset + sources.length : null }, id);
       }
-      if (["/v1/classification/propose", "/v1/classification/assign", "/v1/classification/batch"].includes(path)) {
+      if (["/v1/classification/propose", "/v1/classification/assign", "/v1/classification/batch", "/v1/classification/route"].includes(path)) {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
         const input = await body(request);
         if (path.endsWith("/propose"))
@@ -337,7 +338,9 @@ export function createHandler(options: HandlerOptions) {
         } catch {
           throw new Error("CLASSIFICATION_CONFIGURATION_INVALID");
         }
-        return reply(200, path.endsWith("/batch")
+        return reply(200, path.endsWith("/route")
+          ? routeClassificationBatch(input, classificationCatalog, events, options.dataset, now)
+          : path.endsWith("/batch")
           ? assignClassificationBatch(input, classificationCatalog, events, options.dataset, now)
           : assignClassification(input, classificationCatalog, events, options.dataset, now), id);
       }

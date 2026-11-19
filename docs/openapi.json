@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Veygrit Customs AI",
-    "version": "1.0.0-rc.30",
+    "version": "1.0.0-rc.31",
     "description": "Decision support. Country recognition is global; numeric coverage is explicitly scoped. No customs filing or shipping authorisation."
   },
   "servers": [
@@ -1625,7 +1625,7 @@
                   ],
                   "properties": {
                     "version": {
-                      "const": "1.0.0-rc.30"
+                      "const": "1.0.0-rc.31"
                     },
                     "status": {
                       "const": "pilot"
@@ -6093,6 +6093,113 @@
         }
       }
     },
+    "/v1/classification/route": {
+      "post": {
+        "summary": "Route a bounded merchant batch into work queues and code groups; only protected approvals confirm assignments",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClassificationBatchInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Source-backed decision support",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClassificationRoutingBatch"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid or extra input fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid service credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Browser origin rejected",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "HTTP method not allowed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 64 KiB",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Expected uncompressed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Process-local rate limit exceeded",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic internal error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/classification/rollout": {
       "get": {
         "summary": "Track all destinations, missing official evidence and selected product examples in resumable geographic batches",
@@ -8370,6 +8477,1626 @@
           "status",
           "counts",
           "results"
+        ]
+      },
+      "ClassificationRoutingResult": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "merchantId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "sku": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "context": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "country": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "direction": {
+                "enum": [
+                  "import",
+                  "export"
+                ]
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "hsEdition": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 40
+              }
+            },
+            "required": [
+              "country",
+              "direction",
+              "date",
+              "hsEdition"
+            ]
+          },
+          "status": {
+            "enum": [
+              "assigned",
+              "candidate_selected",
+              "needs_attributes",
+              "ambiguous",
+              "review_required",
+              "unsupported"
+            ]
+          },
+          "classificationConfirmed": {
+            "type": "boolean"
+          },
+          "selectedCandidate": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "ruleId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100,
+                    "pattern": "^[A-Za-z0-9_.:-]+$"
+                  },
+                  "hs6": {
+                    "type": "string",
+                    "pattern": "^[0-9]{6}$"
+                  },
+                  "nationalCode": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^[0-9]{7,12}$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "tariffEdition": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1000
+                  },
+                  "rationale": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1000
+                  },
+                  "sourceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "minItems": 1,
+                    "maxItems": 20,
+                    "uniqueItems": true
+                  },
+                  "matchedAttributes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                      "not": {
+                        "enum": [
+                          "constructor",
+                          "prototype",
+                          "__proto__"
+                        ]
+                      }
+                    },
+                    "minItems": 0,
+                    "maxItems": 50,
+                    "uniqueItems": true
+                  },
+                  "missingAttributes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                      "not": {
+                        "enum": [
+                          "constructor",
+                          "prototype",
+                          "__proto__"
+                        ]
+                      }
+                    },
+                    "minItems": 0,
+                    "maxItems": 50,
+                    "uniqueItems": true
+                  },
+                  "eligibleForApproval": {
+                    "type": "boolean"
+                  },
+                  "classificationConfirmed": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "ruleId",
+                  "hs6",
+                  "nationalCode",
+                  "tariffEdition",
+                  "title",
+                  "rationale",
+                  "sourceIds",
+                  "matchedAttributes",
+                  "missingAttributes",
+                  "eligibleForApproval",
+                  "classificationConfirmed"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "assignment": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "status": {
+                "enum": [
+                  "approved",
+                  "needs_attributes",
+                  "candidates",
+                  "unsupported",
+                  "review_required"
+                ]
+              },
+              "merchantId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100,
+                "pattern": "^[A-Za-z0-9_.:-]+$"
+              },
+              "sku": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100,
+                "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+              },
+              "revision": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100,
+                "pattern": "^[A-Za-z0-9_.:-]+$"
+              },
+              "context": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "country": {
+                    "type": "string",
+                    "pattern": "^[A-Z]{2}$"
+                  },
+                  "direction": {
+                    "enum": [
+                      "import",
+                      "export"
+                    ]
+                  },
+                  "date": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "hsEdition": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 40
+                  }
+                },
+                "required": [
+                  "country",
+                  "direction",
+                  "date",
+                  "hsEdition"
+                ]
+              },
+              "productFingerprint": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "contextDigest": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "requestDigest": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "catalogDigest": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "catalogVersion": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100,
+                "pattern": "^[A-Za-z0-9_.:-]+$"
+              },
+              "candidates": {
+                "type": "array",
+                "minItems": 0,
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "ruleId": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "hs6": {
+                      "type": "string",
+                      "pattern": "^[0-9]{6}$"
+                    },
+                    "nationalCode": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[0-9]{7,12}$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "tariffEdition": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "title": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 1000
+                    },
+                    "rationale": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 1000
+                    },
+                    "sourceIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100,
+                        "pattern": "^[A-Za-z0-9_.:-]+$"
+                      },
+                      "minItems": 1,
+                      "maxItems": 20,
+                      "uniqueItems": true
+                    },
+                    "matchedAttributes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                        "not": {
+                          "enum": [
+                            "constructor",
+                            "prototype",
+                            "__proto__"
+                          ]
+                        }
+                      },
+                      "minItems": 0,
+                      "maxItems": 50,
+                      "uniqueItems": true
+                    },
+                    "missingAttributes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                        "not": {
+                          "enum": [
+                            "constructor",
+                            "prototype",
+                            "__proto__"
+                          ]
+                        }
+                      },
+                      "minItems": 0,
+                      "maxItems": 50,
+                      "uniqueItems": true
+                    },
+                    "eligibleForApproval": {
+                      "type": "boolean"
+                    },
+                    "classificationConfirmed": {
+                      "const": false
+                    }
+                  },
+                  "required": [
+                    "ruleId",
+                    "hs6",
+                    "nationalCode",
+                    "tariffEdition",
+                    "title",
+                    "rationale",
+                    "sourceIds",
+                    "matchedAttributes",
+                    "missingAttributes",
+                    "eligibleForApproval",
+                    "classificationConfirmed"
+                  ]
+                }
+              },
+              "questions": {
+                "type": "array",
+                "maxItems": 50,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "attribute": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                      "not": {
+                        "enum": [
+                          "constructor",
+                          "prototype",
+                          "__proto__"
+                        ]
+                      }
+                    },
+                    "question": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 1000
+                    },
+                    "candidateRuleIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100,
+                        "pattern": "^[A-Za-z0-9_.:-]+$"
+                      },
+                      "minItems": 1,
+                      "maxItems": 3,
+                      "uniqueItems": true
+                    }
+                  },
+                  "required": [
+                    "attribute",
+                    "question",
+                    "candidateRuleIds"
+                  ]
+                }
+              },
+              "findings": {
+                "type": "array",
+                "maxItems": 2000,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "sourceId": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    }
+                  },
+                  "required": [
+                    "code"
+                  ]
+                }
+              },
+              "classificationConfirmed": {
+                "type": "boolean"
+              },
+              "hs6": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9]{6}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "nationalCode": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[0-9]{7,12}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "tariffEdition": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "approval": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100,
+                        "pattern": "^[A-Za-z0-9_.:-]+$"
+                      },
+                      "reviewedOn": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "reviewBy": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "reviewerRef": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100,
+                        "pattern": "^[A-Za-z0-9_.:-]+$"
+                      },
+                      "evidenceIds": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 20,
+                        "uniqueItems": true,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        }
+                      },
+                      "validFrom": {
+                        "type": "string",
+                        "format": "date"
+                      },
+                      "validThrough": {
+                        "type": "string",
+                        "format": "date"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "reviewedOn",
+                      "reviewBy",
+                      "reviewerRef",
+                      "evidenceIds",
+                      "validFrom",
+                      "validThrough"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "assignmentIssues": {
+                "type": "array",
+                "maxItems": 10000,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                }
+              }
+            },
+            "required": [
+              "status",
+              "merchantId",
+              "sku",
+              "revision",
+              "context",
+              "productFingerprint",
+              "contextDigest",
+              "requestDigest",
+              "catalogDigest",
+              "catalogVersion",
+              "candidates",
+              "questions",
+              "findings",
+              "classificationConfirmed",
+              "hs6",
+              "nationalCode",
+              "tariffEdition",
+              "approval",
+              "assignmentIssues"
+            ]
+          },
+          "matchingIdentityCount": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5000
+          },
+          "completeIdentityCount": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5000
+          },
+          "questions": {
+            "type": "array",
+            "maxItems": 50,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "attribute": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                  "not": {
+                    "enum": [
+                      "constructor",
+                      "prototype",
+                      "__proto__"
+                    ]
+                  }
+                },
+                "question": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1000
+                },
+                "candidateRuleIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100,
+                    "pattern": "^[A-Za-z0-9_.:-]+$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 3,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "attribute",
+                "question",
+                "candidateRuleIds"
+              ]
+            }
+          },
+          "questionsTruncated": {
+            "type": "boolean"
+          },
+          "decisionReasons": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 10000,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100,
+              "pattern": "^[A-Za-z0-9_.:-]+$"
+            }
+          }
+        },
+        "required": [
+          "merchantId",
+          "sku",
+          "revision",
+          "context",
+          "status",
+          "classificationConfirmed",
+          "selectedCandidate",
+          "assignment",
+          "matchingIdentityCount",
+          "completeIdentityCount",
+          "questions",
+          "questionsTruncated",
+          "decisionReasons"
+        ]
+      },
+      "ClassificationRoutingBatch": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "merchantId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "context": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "country": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "direction": {
+                "enum": [
+                  "import",
+                  "export"
+                ]
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "hsEdition": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 40
+              }
+            },
+            "required": [
+              "country",
+              "direction",
+              "date",
+              "hsEdition"
+            ]
+          },
+          "catalogVersion": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[A-Za-z0-9_.:-]+$"
+          },
+          "catalogDigest": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "classificationConfirmed": {
+            "type": "boolean"
+          },
+          "counts": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "assigned": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "candidate_selected": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "needs_attributes": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "ambiguous": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "review_required": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "unsupported": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "assigned",
+              "candidate_selected",
+              "needs_attributes",
+              "ambiguous",
+              "review_required",
+              "unsupported"
+            ]
+          },
+          "queues": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "assigned": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              },
+              "candidate_selected": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              },
+              "needs_attributes": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              },
+              "ambiguous": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              },
+              "review_required": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              },
+              "unsupported": {
+                "type": "array",
+                "maxItems": 100,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                }
+              }
+            },
+            "required": [
+              "assigned",
+              "candidate_selected",
+              "needs_attributes",
+              "ambiguous",
+              "review_required",
+              "unsupported"
+            ]
+          },
+          "groups": {
+            "type": "array",
+            "maxItems": 100,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "status": {
+                  "enum": [
+                    "assigned",
+                    "candidate_selected"
+                  ]
+                },
+                "hs6": {
+                  "type": "string",
+                  "pattern": "^[0-9]{6}$"
+                },
+                "nationalCode": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9]{7,12}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "tariffEdition": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "classificationConfirmed": {
+                  "type": "boolean"
+                },
+                "skus": {
+                  "type": "array",
+                  "maxItems": 100,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100,
+                    "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "status",
+                "hs6",
+                "nationalCode",
+                "tariffEdition",
+                "classificationConfirmed",
+                "skus"
+              ]
+            }
+          },
+          "results": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "merchantId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "sku": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                },
+                "revision": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z0-9_.:-]+$"
+                },
+                "context": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "country": {
+                      "type": "string",
+                      "pattern": "^[A-Z]{2}$"
+                    },
+                    "direction": {
+                      "enum": [
+                        "import",
+                        "export"
+                      ]
+                    },
+                    "date": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "hsEdition": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    }
+                  },
+                  "required": [
+                    "country",
+                    "direction",
+                    "date",
+                    "hsEdition"
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "assigned",
+                    "candidate_selected",
+                    "needs_attributes",
+                    "ambiguous",
+                    "review_required",
+                    "unsupported"
+                  ]
+                },
+                "classificationConfirmed": {
+                  "type": "boolean"
+                },
+                "selectedCandidate": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "ruleId": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        },
+                        "hs6": {
+                          "type": "string",
+                          "pattern": "^[0-9]{6}$"
+                        },
+                        "nationalCode": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "pattern": "^[0-9]{7,12}$"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "tariffEdition": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 100
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1000
+                        },
+                        "rationale": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 1000
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100,
+                            "pattern": "^[A-Za-z0-9_.:-]+$"
+                          },
+                          "minItems": 1,
+                          "maxItems": 20,
+                          "uniqueItems": true
+                        },
+                        "matchedAttributes": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                            "not": {
+                              "enum": [
+                                "constructor",
+                                "prototype",
+                                "__proto__"
+                              ]
+                            }
+                          },
+                          "minItems": 0,
+                          "maxItems": 50,
+                          "uniqueItems": true
+                        },
+                        "missingAttributes": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                            "not": {
+                              "enum": [
+                                "constructor",
+                                "prototype",
+                                "__proto__"
+                              ]
+                            }
+                          },
+                          "minItems": 0,
+                          "maxItems": 50,
+                          "uniqueItems": true
+                        },
+                        "eligibleForApproval": {
+                          "type": "boolean"
+                        },
+                        "classificationConfirmed": {
+                          "const": false
+                        }
+                      },
+                      "required": [
+                        "ruleId",
+                        "hs6",
+                        "nationalCode",
+                        "tariffEdition",
+                        "title",
+                        "rationale",
+                        "sourceIds",
+                        "matchedAttributes",
+                        "missingAttributes",
+                        "eligibleForApproval",
+                        "classificationConfirmed"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "assignment": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "status": {
+                      "enum": [
+                        "approved",
+                        "needs_attributes",
+                        "candidates",
+                        "unsupported",
+                        "review_required"
+                      ]
+                    },
+                    "merchantId": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "sku": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[^\\u0000-\\u001f\\u007f-\\u009f]+$"
+                    },
+                    "revision": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "context": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "country": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{2}$"
+                        },
+                        "direction": {
+                          "enum": [
+                            "import",
+                            "export"
+                          ]
+                        },
+                        "date": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "hsEdition": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 40
+                        }
+                      },
+                      "required": [
+                        "country",
+                        "direction",
+                        "date",
+                        "hsEdition"
+                      ]
+                    },
+                    "productFingerprint": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}$"
+                    },
+                    "contextDigest": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}$"
+                    },
+                    "requestDigest": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}$"
+                    },
+                    "catalogDigest": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}$"
+                    },
+                    "catalogVersion": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[A-Za-z0-9_.:-]+$"
+                    },
+                    "candidates": {
+                      "type": "array",
+                      "minItems": 0,
+                      "maxItems": 3,
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "ruleId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100,
+                            "pattern": "^[A-Za-z0-9_.:-]+$"
+                          },
+                          "hs6": {
+                            "type": "string",
+                            "pattern": "^[0-9]{6}$"
+                          },
+                          "nationalCode": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "pattern": "^[0-9]{7,12}$"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "tariffEdition": {
+                            "anyOf": [
+                              {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 100
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "title": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 1000
+                          },
+                          "rationale": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 1000
+                          },
+                          "sourceIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 100,
+                              "pattern": "^[A-Za-z0-9_.:-]+$"
+                            },
+                            "minItems": 1,
+                            "maxItems": 20,
+                            "uniqueItems": true
+                          },
+                          "matchedAttributes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                              "not": {
+                                "enum": [
+                                  "constructor",
+                                  "prototype",
+                                  "__proto__"
+                                ]
+                              }
+                            },
+                            "minItems": 0,
+                            "maxItems": 50,
+                            "uniqueItems": true
+                          },
+                          "missingAttributes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                              "not": {
+                                "enum": [
+                                  "constructor",
+                                  "prototype",
+                                  "__proto__"
+                                ]
+                              }
+                            },
+                            "minItems": 0,
+                            "maxItems": 50,
+                            "uniqueItems": true
+                          },
+                          "eligibleForApproval": {
+                            "type": "boolean"
+                          },
+                          "classificationConfirmed": {
+                            "const": false
+                          }
+                        },
+                        "required": [
+                          "ruleId",
+                          "hs6",
+                          "nationalCode",
+                          "tariffEdition",
+                          "title",
+                          "rationale",
+                          "sourceIds",
+                          "matchedAttributes",
+                          "missingAttributes",
+                          "eligibleForApproval",
+                          "classificationConfirmed"
+                        ]
+                      }
+                    },
+                    "questions": {
+                      "type": "array",
+                      "maxItems": 50,
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "attribute": {
+                            "type": "string",
+                            "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                            "not": {
+                              "enum": [
+                                "constructor",
+                                "prototype",
+                                "__proto__"
+                              ]
+                            }
+                          },
+                          "question": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 1000
+                          },
+                          "candidateRuleIds": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 100,
+                              "pattern": "^[A-Za-z0-9_.:-]+$"
+                            },
+                            "minItems": 1,
+                            "maxItems": 3,
+                            "uniqueItems": true
+                          }
+                        },
+                        "required": [
+                          "attribute",
+                          "question",
+                          "candidateRuleIds"
+                        ]
+                      }
+                    },
+                    "findings": {
+                      "type": "array",
+                      "maxItems": 2000,
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "code": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100,
+                            "pattern": "^[A-Za-z0-9_.:-]+$"
+                          },
+                          "sourceId": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100,
+                            "pattern": "^[A-Za-z0-9_.:-]+$"
+                          }
+                        },
+                        "required": [
+                          "code"
+                        ]
+                      }
+                    },
+                    "classificationConfirmed": {
+                      "type": "boolean"
+                    },
+                    "hs6": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[0-9]{6}$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "nationalCode": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[0-9]{7,12}$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "tariffEdition": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "approval": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 100,
+                              "pattern": "^[A-Za-z0-9_.:-]+$"
+                            },
+                            "reviewedOn": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "reviewBy": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "reviewerRef": {
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 100,
+                              "pattern": "^[A-Za-z0-9_.:-]+$"
+                            },
+                            "evidenceIds": {
+                              "type": "array",
+                              "minItems": 1,
+                              "maxItems": 20,
+                              "uniqueItems": true,
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 100,
+                                "pattern": "^[A-Za-z0-9_.:-]+$"
+                              }
+                            },
+                            "validFrom": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "validThrough": {
+                              "type": "string",
+                              "format": "date"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "reviewedOn",
+                            "reviewBy",
+                            "reviewerRef",
+                            "evidenceIds",
+                            "validFrom",
+                            "validThrough"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "assignmentIssues": {
+                      "type": "array",
+                      "maxItems": 10000,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100,
+                        "pattern": "^[A-Za-z0-9_.:-]+$"
+                      }
+                    }
+                  },
+                  "required": [
+                    "status",
+                    "merchantId",
+                    "sku",
+                    "revision",
+                    "context",
+                    "productFingerprint",
+                    "contextDigest",
+                    "requestDigest",
+                    "catalogDigest",
+                    "catalogVersion",
+                    "candidates",
+                    "questions",
+                    "findings",
+                    "classificationConfirmed",
+                    "hs6",
+                    "nationalCode",
+                    "tariffEdition",
+                    "approval",
+                    "assignmentIssues"
+                  ]
+                },
+                "matchingIdentityCount": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 5000
+                },
+                "completeIdentityCount": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 5000
+                },
+                "questions": {
+                  "type": "array",
+                  "maxItems": 50,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "attribute": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_]{0,49}$",
+                        "not": {
+                          "enum": [
+                            "constructor",
+                            "prototype",
+                            "__proto__"
+                          ]
+                        }
+                      },
+                      "question": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 1000
+                      },
+                      "candidateRuleIds": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 100,
+                          "pattern": "^[A-Za-z0-9_.:-]+$"
+                        },
+                        "minItems": 1,
+                        "maxItems": 3,
+                        "uniqueItems": true
+                      }
+                    },
+                    "required": [
+                      "attribute",
+                      "question",
+                      "candidateRuleIds"
+                    ]
+                  }
+                },
+                "questionsTruncated": {
+                  "type": "boolean"
+                },
+                "decisionReasons": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 10000,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100,
+                    "pattern": "^[A-Za-z0-9_.:-]+$"
+                  }
+                }
+              },
+              "required": [
+                "merchantId",
+                "sku",
+                "revision",
+                "context",
+                "status",
+                "classificationConfirmed",
+                "selectedCandidate",
+                "assignment",
+                "matchingIdentityCount",
+                "completeIdentityCount",
+                "questions",
+                "questionsTruncated",
+                "decisionReasons"
+              ]
+            }
+          },
+          "shippingAuthorized": {
+            "const": false
+          },
+          "productionAuthorized": {
+            "const": false
+          }
+        },
+        "required": [
+          "merchantId",
+          "context",
+          "catalogVersion",
+          "catalogDigest",
+          "classificationConfirmed",
+          "counts",
+          "queues",
+          "groups",
+          "results",
+          "shippingAuthorized",
+          "productionAuthorized"
         ]
       },
       "WcoParticipant": {

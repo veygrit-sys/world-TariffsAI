@@ -2,14 +2,14 @@ import { isDeepStrictEqual } from "node:util";
 import { Ajv } from "ajv";
 import addFormatsModule from "ajv-formats";
 import { todayJst } from "./dataset.ts";
-import { parseClassificationRequest, proposeClassification } from "./classification.ts";
+import { analyzeClassificationCandidates } from "./classification.ts";
 import type { ClassificationCatalog } from "./classification-catalog.ts";
 import {
   classificationObject as object, classificationIdSchema as id,
   classificationDateSchema as date, classificationDigestSchema as digest,
   classificationSkuSchema,
   classificationRequestSchema, classificationProposalSchema,
-  type ClassificationRequest, type ClassificationProposal,
+  type ClassificationRequest, type ClassificationProposal, type ClassificationCandidate,
 } from "./classification-types.ts";
 import { InputError } from "./schema.ts";
 import type { Dataset } from "./types.ts";
@@ -156,9 +156,11 @@ export function createClassificationApproval(
   input: unknown, catalog: ClassificationCatalog, data: Dataset, now = new Date(),
 ): ClassificationApprovalEvent {
   if (!validateApproval(input)) fail("/approval", "INVALID_CLASSIFICATION_APPROVAL_REQUEST");
-  const proposal = proposeClassification(input.request, catalog, data, now);
+  const analysis = analyzeClassificationCandidates(input.request, catalog, data, now);
+  const proposal = analysis.proposal;
   if (proposal.requestDigest !== input.requestDigest) fail("/requestDigest", "CLASSIFICATION_REVIEW_SCOPE_MISMATCH");
-  const candidate = proposal.candidates.find(value => value.ruleId === input.ruleId);
+  // Display limits must not prevent review of a fully matching, explicitly selected rule.
+  const candidate = analysis.rankedCandidates.find(value => value.rule.id === input.ruleId)?.candidate;
   if (!candidate?.eligibleForApproval || !candidate.nationalCode || !candidate.tariffEdition)
     fail("/ruleId", "CLASSIFICATION_REVIEWABLE_CODE_REQUIRED");
   const sources = candidate.sourceIds.map(sourceId => catalog.source(sourceId));
@@ -199,6 +201,7 @@ export function createClassificationRevocation(
 function approvalIssue(
   event: ClassificationApprovalEvent, request: ClassificationRequest, proposal: ClassificationProposal,
   catalog: ClassificationCatalog, revoked: ReadonlySet<string>, today: string,
+  candidates: readonly ClassificationCandidate[],
 ): string | null {
   if (event.revision !== request.product.revision) return "CLASSIFICATION_PRODUCT_REVISION_CHANGED";
   if (event.productFingerprint !== proposal.productFingerprint) return "CLASSIFICATION_PRODUCT_CHANGED";
@@ -210,7 +213,7 @@ function approvalIssue(
     return "CLASSIFICATION_REVIEW_EXPIRED";
   if (request.context.date < event.validFrom || request.context.date > event.validThrough)
     return "CLASSIFICATION_APPROVAL_DATE_OUT_OF_RANGE";
-  const candidate = proposal.candidates.find(value => value.ruleId === event.ruleId);
+  const candidate = candidates.find(value => value.ruleId === event.ruleId);
   if (!candidate?.eligibleForApproval || candidate.hs6 !== event.hs6 || candidate.nationalCode !== event.nationalCode ||
       candidate.tariffEdition !== event.tariffEdition ||
       !isDeepStrictEqual([...candidate.sourceIds].sort(), [...event.sourceIds].sort()))
@@ -226,8 +229,9 @@ function approvalIssue(
 export function assignClassification(
   input: unknown, catalog: ClassificationCatalog, inputEvents: readonly ClassificationEvent[], data: Dataset, now = new Date(),
 ): ClassificationAssignment {
-  const request = parseClassificationRequest(input, data);
-  const proposal = proposeClassification(request, catalog, data, now);
+  const analysis = analyzeClassificationCandidates(input, catalog, data, now);
+  const { request, proposal } = analysis;
+  const candidates = analysis.rankedCandidates.map(value => value.candidate);
   const events = parseClassificationEvents(inputEvents, now);
   const revoked = new Set(events.flatMap(event => event.type === "revoked" ? [event.approvalId] : []));
   const matching = events.filter((event): event is ClassificationApprovalEvent => event.type === "approved" &&
@@ -235,7 +239,7 @@ export function assignClassification(
   const assignmentIssues: string[] = [];
   const active: ClassificationApprovalEvent[] = [];
   for (const event of matching) {
-    const issue = approvalIssue(event, request, proposal, catalog, revoked, todayJst(now));
+    const issue = approvalIssue(event, request, proposal, catalog, revoked, todayJst(now), candidates);
     if (issue) { if (!assignmentIssues.includes(issue)) assignmentIssues.push(issue); }
     else active.push(event);
   }
