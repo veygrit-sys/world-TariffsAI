@@ -19,6 +19,7 @@ const tests = [
   "tests/data.test.ts",
   "tests/data-review.test.ts",
   "tests/engine.test.ts",
+  "tests/eu-us-review.test.ts",
   "tests/http.test.ts",
   "tests/import-settlement-worldwide.test.ts",
   "tests/import-settlement.test.ts",

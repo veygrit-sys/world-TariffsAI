@@ -569,7 +569,7 @@
   },
   {
     "id": "primary-eu-guidance",
-    "title": "European Commission low-value import guidance, updated 2026-07-20",
+    "title": "European Commission low-value import news and linked living guidance (news updated 2026-07-20)",
     "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-11",
@@ -829,6 +829,22 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
+    "reviewBy": "2026-11-25"
+  },
+  {
+    "id": "primary-eu-duty-handling-guidance",
+    "title": "European Commission — temporary EUR 3 customs duty and Union handling fee, guidance version 2026-10-05",
+    "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-22",
+    "reviewBy": "2026-11-25"
+  },
+  {
+    "id": "primary-us-postal-entry13-modification",
+    "title": "US CBP — modification of Entry Type 13 test (91 FR 66707)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-22",
     "reviewBy": "2026-11-25"
   }
 ]

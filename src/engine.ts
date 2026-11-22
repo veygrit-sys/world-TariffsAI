@@ -381,8 +381,11 @@ export function assess(
       note("THRESHOLD_EXCEEDED");
       return finish();
     }
-    const standardFlatDuty = s.regime === "standard" && (s.importDate < "2026-11-01"
-      ? s.transport === "post" : s.euDeclaration?.flatDutyTreatmentConfirmed === true);
+    // Regulation 2026/1022 redefines "goods in postal consignment" from July 1.
+    // Physical postal transport alone does not establish distance-sale eligibility
+    // or exclude preferential treatment. November 1 is the PID boundary.
+    const standardFlatDuty = s.regime === "standard" &&
+      s.euDeclaration?.flatDutyTreatmentConfirmed === true;
     if (s.regime !== "ioss" && !standardFlatDuty) {
       note("EU_PROCEDURE_REVIEW");
       return finish();
