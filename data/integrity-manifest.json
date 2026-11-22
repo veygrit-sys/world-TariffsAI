@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18.v11",
+  "version": "2026-11-22.v12",
   "algorithm": "sha256",
   "files": {
     "countries.json": "c9025979316b5680df9685b951ea348d86aa789d1447294c0bcf4b8fcea5064d",
@@ -7,10 +7,10 @@
     "wco-tariff-sources.json": "d484e20707e4f9df8e9e5b1f64f2ef57c058419c9637ddac2c33d767dd5e7562",
     "territory-customs.json": "68caffe4247fb6d2e11d50e00d5479c1eb9b59f236511aa162db79da36101c38",
     "supplemental-regions.json": "56049c62e0af4c2ea35b8f9874bfa31b06609be771d001cce6f2ad4ed6cf29ee",
-    "sources.json": "0522c8fc3b159a7c8aa66555500e57910e54999e1ad264205e7140a7e787c326",
+    "sources.json": "caf5ccea3c31a5a7946d36a44658d0f009d60ffc023984a91002d8cc44dc1570",
     "research-cards.json": "72cc30f0955f7baf069f669a5bafb47f389e3ae8fee62ade4ded2851d451e610",
     "research-provenance.json": "cb87de6c62bc025ff314b83b505387d63191e84fd4e75c055f53304c2d416b78",
-    "knowledge.json": "d2b15813bd625ab3ad5083e7d0f8bc5a4b0c32db9dce66eb9469f6b9b6bab101",
+    "knowledge.json": "ba434f76d16d958ef4a507e3ad0b6f54c69fee3de36ade638cd4e062b465e1f8",
     "rules.json": "411e3d5ac7bd7e838b5d27c07331c442da9133b0d9ed76fd5fb0b44cc956c5b3",
     "customs-asia.json": "a381404be4f5767bd549ba83fd89c80429ff7ab15d573f519bdd25a3bdf258e5",
     "customs-europe.json": "65fe91457824953a64a8e666151a3fd5026f5154c46a6769d3dcb7188c96fa64",
@@ -19,7 +19,7 @@
     "customs-western-asia-africa.json": "4854f4e85276649450e1d8730dea3b569d5ba214f842aaacd93f444277af1ff1",
     "customs-oceania.json": "2165a2452a61e6830b6312dd5ca5840af43fa3aa88fe01efc4990b46c048cf66",
     "import-controls.json": "516dc4745772117dcb68fecf244c632bd44f0da88140ac23ccc966ba736ec50e",
-    "special-procedures.json": "00342b2510962b19f0f2a9fb8a5ada3c8dd4ccc06d2f8851b627118a8e3d9019",
+    "special-procedures.json": "866254716cf53c6fa406334958652b4eda93c12af449476e93b23f5b0843fdd7",
     "trade-blocs.json": "1f02eadb6b920a91e097f817f4fc83889b035ee07113b194ce04aadb7bdee7de",
     "special-territory-references.json": "4d24682b7728b0e14a2833468a207e9962040153261acca6e87d934ab176d156",
     "official-tariff-sources.json": "35f8dd05ad2722236145afef087a014dee9df0d583c34f4075b1ecf1f9ec40ab",

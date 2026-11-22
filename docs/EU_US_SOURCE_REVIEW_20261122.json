@@ -1,0 +1,222 @@
+{
+  "reviewedOn": "2026-11-22",
+  "timezone": "Asia/Tokyo",
+  "status": "reviewable_proposal_not_production_approval",
+  "repository": "veygrit-sys/world-TariffsAI",
+  "baseCommit": "eb8ca68f67f5d74b960880e608eddad93d393ceb",
+  "baseDataset": "2026-11-18.v11",
+  "proposedDataset": "2026-11-22.v12",
+  "issue": 8,
+  "monitoredRule": {
+    "id": "EU_TEMP_LOW_VALUE",
+    "checkedOn": "2026-11-11",
+    "reviewByBefore": "2026-11-25",
+    "reviewByProposed": "2026-11-25",
+    "validFrom": "2026-07-01",
+    "validToExclusive": "2028-07-01",
+    "flatDuty": "3",
+    "threshold": "150",
+    "currency": "EUR"
+  },
+  "deadlineExtensionApproved": false,
+  "sources": [
+    {
+      "sourceId": "primary-eu-law",
+      "registeredUrl": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+      "accessedUrls": [
+        "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng/pdf"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "Articles 2-4",
+      "findingJa": "150ユーロ以下、3ユーロ/申告item、2026-07-01以上2028-07-01未満。",
+      "decision": "retain_amount_threshold_and_legal_dates",
+      "originalCheckedOn": "2026-11-11",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-eu-guidance",
+      "registeredUrl": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+      "accessedUrls": [
+        "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+        "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "News Q&A; 2026-10-05 guidance sections 3, 5.2-5.4, 6.3, 8.2",
+      "findingJa": "旧ニュースの手数料提案説明を最終法令と照合。申告行と物理数量を区別。",
+      "decision": "add_current_guidance_as_separate_source",
+      "originalCheckedOn": "2026-11-11",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-eu-declaration-item",
+      "registeredUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng",
+      "accessedUrls": [
+        "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng/pdf",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?qid=1791612888734&uri=CELEX%3A02026R1022-20260701",
+        "https://eur-lex.europa.eu/eli/reg_del/2026/1022/corrigendum/2026-07-03/oj/eng"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "Article 1(1)(a)-(b), Article 2(2)-(3); corrigendum 2026/90556",
+      "findingJa": "7月のpostal consignment定義変更を物理的郵便と混同しない。11月はPID境界。",
+      "decision": "require_confirmed_standard_flat_duty_eligibility_throughout_period",
+      "originalCheckedOn": "2026-11-12",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-eu-union-handling-fee",
+      "registeredUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
+      "accessedUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
+        "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202602403"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "2026/2152 Articles 1-2; 2026/2403 Article 2, F00",
+      "findingJa": "11月1日から2ユーロ/item、F00は3ユーロ関税と別。",
+      "decision": "retain_manual_fee_review",
+      "originalCheckedOn": "2026-11-12",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-us-de-minimis",
+      "registeredUrl": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
+      "accessedUrls": [
+        "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "EO 14388 sections 2, 3 and 5",
+      "findingJa": "適用は2月24日00:01 EST。暫定郵便税率には終了条件。",
+      "decision": "correct_knowledge_effective_start_and_do_not_compute_tax",
+      "originalCheckedOn": "2026-11-11",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-us-nonpostal-suspension",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm",
+      "accessedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "SUMMARY, DATES",
+      "findingJa": "6月24日から非郵便の少額免税を無期限停止。",
+      "decision": "retain_tax_hold_and_cite_effective_rule",
+      "originalCheckedOn": "2026-11-12",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-us-postal-suspension",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm",
+      "accessedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "SUMMARY, DATES, 19 CFR 145.12 amendments",
+      "findingJa": "免税停止は6月24日、残部は7月24日。2500ドル以下でも適格性確認。",
+      "decision": "retain_tax_hold_and_separate_compliance_deadline",
+      "originalCheckedOn": "2026-11-12",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-us-postal-delayed-compliance",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
+      "accessedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm"
+      ],
+      "reviewedOn": "2026-11-22",
+      "timezone": "Asia/Tokyo",
+      "access": "official_full_text",
+      "sections": "DATES, Background I",
+      "findingJa": "145.12(a)(2)(v)-(vi)のみ2027-01-20に延期。少額免税の再開ではない。",
+      "decision": "add_time_bounded_transition_knowledge",
+      "originalCheckedOn": "2026-11-12",
+      "reviewByBefore": "2026-11-25",
+      "reviewByProposed": "2026-11-25"
+    }
+  ],
+  "additionalSources": [
+    {
+      "sourceId": "primary-eu-duty-handling-guidance",
+      "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
+      "checkedOn": "2026-11-22",
+      "reviewBy": "2026-11-25"
+    },
+    {
+      "sourceId": "primary-us-postal-entry13-modification",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm",
+      "checkedOn": "2026-11-22",
+      "reviewBy": "2026-11-25"
+    }
+  ],
+  "supplementalChecks": [
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12668.htm",
+      "status": "effective_test_notice",
+      "findingJa": "Entry Type 13試行は9月22日開始。"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm",
+      "status": "effective_test_modification",
+      "findingJa": "10月22日から不完全な電子PGAデータでの試行送信を暫定受理。終了は将来通知。"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-08/html/2026-20650.htm",
+      "status": "proposed_not_applied",
+      "findingJa": "NPRM。12月7日は意見提出期限であり施行日ではない。"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-10/section-10.151",
+      "status": "current_compilation_as_of_2026-11-19",
+      "findingJa": "10.151(b)の非郵便免税停止を確認。表示基準日は11月19日で、11月22日までの更新がない証明とはしない。"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-145/section-145.12",
+      "status": "current_compilation_as_of_2026-11-19",
+      "findingJa": "郵便の正式・略式申告要件を確認。限定的な遵守延期はFederal Register原本と併読。"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-145/section-145.31",
+      "status": "current_compilation_as_of_2026-11-19",
+      "findingJa": "145.31(b)の国際郵便免税停止を確認。"
+    }
+  ],
+  "regressionSuite": "tests/eu-us-review.test.ts",
+  "limitations": [
+    "No individual HTSUS or additional-duty rate approval",
+    "No automatic EU UHF or VAT calculation",
+    "Post-2027-01-20 postal procedures require new source review",
+    "No claim that all subsequent laws, litigation or carrier policies were exhaustively checked",
+    "Original deadlines remain active; issue is not resolved by this proposal"
+  ],
+  "validation": {
+    "command": "npm run check:public",
+    "typecheck": "passed",
+    "tests": 1078,
+    "failed": 0,
+    "newRegressionTests": 24,
+    "dataIntegrity": "passed",
+    "reviewOn20261122": "upcoming",
+    "reviewOn20261126": "due_exit_2",
+    "privateTariffFullSuite": "not_run"
+  }
+}

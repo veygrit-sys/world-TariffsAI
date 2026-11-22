@@ -60,7 +60,9 @@ export interface Shipment {
   customsValue?: string;
   customsValueConfirmed?: boolean;
   taxEvidenceConfirmed?: boolean;
-  /** Number of items in the customs declaration, confirmed by the declarant. */
+  /** Confirmed declaration lines. Standard procedures also require confirmation
+   * of distance-sale flat-duty eligibility, including preferential exclusions;
+   * physical postal transport alone does not establish that eligibility. */
   euDeclaration?: { itemCount: number; countConfirmed: true; flatDutyTreatmentConfirmed?: boolean };
   china?: {
     positiveListConfirmed: boolean;

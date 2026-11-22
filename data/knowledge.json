@@ -85,13 +85,15 @@
     ],
     "title": "EU transitional low-value customs duty",
     "text": {
-      "ja": "2026年7月1日からの暫定関税とIOSSのVATを分けます。本実装は、本体価格合計150ユーロ以下の通常B2C貨物で、IOSS登録または対象となる通常手続、分類、申告明細数を確認して、申告明細ごと3ユーロを概算します。同じHS6でも申告行が分かれれば別明細です。物品数量を掛けません。2026年11月以降の通常手続では暫定関税の適用確認を要し、商品識別情報とUnion handling feeを別途確認します。",
-      "en": "The temporary customs duty and IOSS VAT are separate. For ordinary B2C consignments with aggregate intrinsic value up to €150, this implementation requires registered IOSS or an eligible standard procedure, confirmed classification and a confirmed declaration item count, then estimates €3 per declaration item. Separate declaration lines with the same HS6 count separately. Article quantity is not multiplied. Standard procedures from November 2026 require confirmed flat-duty treatment. Product identifiers and the Union handling fee require separate checks.",
-      "zh": "暂行关税与IOSS增值税分开处理。本实现对内在价值合计不超过150欧元的普通B2C货物，核对IOSS注册或适用的标准手续、分类和申报明细数后，按每条申报明细3欧元估算。同一HS六位编码分行申报时分别计数，不乘物品数量。2026年11月起的标准手续须确认暂行关税适用条件，并另行核对商品标识和欧盟处理费。"
+      "ja": "2026年7月1日以上・2028年7月1日未満の暫定関税です。本体価格合計150ユーロ以下の通常B2C貨物について、有効なIOSS登録または通常申告の定額関税適用条件、分類と申告明細数を確認し、明細ごと3ユーロを概算します。規則2026/1022が改正したpostal consignmentの定義は物理的な郵便輸送と同義ではありません。通常申告では輸送方式や11月の前後によらず適用確認が必要で、特恵措置の対象を自動で定額にしません。同じHS6でも別行は別明細で、物品数量を乗じません。11月1日からの商品識別情報と、対象通信販売の明細ごと2ユーロのUnion handling feeは別途確認し、VAT・支払総額は保留します。",
+      "en": "The temporary duty applies from 1 July 2026 until 1 July 2028 (exclusive). For ordinary B2C consignments with aggregate intrinsic value up to EUR 150, confirm IOSS registration or standard-procedure flat-duty eligibility, classification and declaration item count; estimate EUR 3 per declaration line, not article quantity. Regulation 2026/1022 redefines postal consignment independently of physical postal transport. Standard procedures require confirmed eligibility throughout this period; preferential treatment is not automatically replaced by the flat duty. From 1 November, check product identifiers and the separate EUR 2 per-line Union handling fee for qualifying distance sales. VAT and the payable total remain unresolved.",
+      "zh": "暂行关税适用期为2026年7月1日起至2028年7月1日前。对内在价值合计不超过150欧元的普通B2C货物，核实IOSS登记或标准申报定额关税适用条件、分类及申报明细数后，按每行3欧元估算，不乘物品数量。2026/1022号条例修订的postal consignment定义不等同于实际邮政运输。整个适用期内，标准申报均须确认适用条件，不自动以定额关税替代优惠待遇。11月1日起另核实商品标识及适用远程销售每明细2欧元的欧盟处理费；VAT和应付总额仍待确认。"
     },
     "sourceIds": [
       "primary-eu-law",
-      "primary-eu-guidance"
+      "primary-eu-declaration-item",
+      "primary-eu-duty-handling-guidance",
+      "primary-eu-union-handling-fee"
     ],
     "verification": "primary_rechecked",
     "validFrom": "2026-07-01",
@@ -229,15 +231,17 @@
     ],
     "title": "US de minimis is not an automatic $800 exemption",
     "text": {
-      "ja": "2026年2月20日の大統領令14388は少額免税停止の継続を定めています。800米ドル以下を自動免税にしません。HTSUS、原産地、輸入日、追加税、郵便と通常貨物の方式を現行資料で確認します。本版は米国税額を自動計算しません。",
-      "en": "Executive Order 14388 continues the suspension of de minimis treatment. A value below US$800 does not trigger automatic exemption. Recheck current HTSUS, origin, entry date, additional duties and postal procedure. This version does not calculate US duties.",
-      "zh": "第14388号行政命令继续暂停小额免税。本系统不因低于800美元自动免税。须核对现行HTSUS、原产地、进口日、附加税与邮递申报方式；本版不自动计算美国税额。"
+      "ja": "大統領令14388の適用開始は2026年2月24日00:01米東部標準時です。800米ドル以下だけで免税にしません。6月24日のCBP規則は郵便・非郵便とも少額免税を無期限停止し、新郵便手続のその他の部分は7月24日施行です。大統領令の暫定郵便税率を現在の一般税率に流用せず、HTSUS、原産地、輸入日、追加税、申告方式を確認します。本版は米国税額を自動計算しません。",
+      "en": "EO 14388 applies from 00:01 EST on 24 February 2026. A value of USD 800 or less does not establish exemption. CBP rules independently suspend de minimis for postal and nonpostal goods from 24 June; the remaining new postal-process provisions apply from 24 July. Do not reuse the EO transitional postal rate as a current general rate. Verify HTSUS, origin, entry date, additional duties and entry procedure. This version does not calculate US duties.",
+      "zh": "第14388号行政命令自2026年2月24日美国东部标准时间00:01起适用。不因货值不超过800美元自动免税。CBP规则自6月24日起无限期暂停邮递和非邮递小额免税，新邮递手续的其余规定于7月24日生效。不得将行政命令的过渡邮递税率沿用为现行一般税率。须核实HTSUS、原产地、进口日、附加税及申报方式；本版不自动计算美国税额。"
     },
     "sourceIds": [
-      "primary-us-de-minimis"
+      "primary-us-de-minimis",
+      "primary-us-nonpostal-suspension",
+      "primary-us-postal-suspension"
     ],
     "verification": "primary_rechecked",
-    "validFrom": "2026-02-20",
+    "validFrom": "2026-02-24",
     "validTo": null
   },
   {
@@ -483,5 +487,30 @@
     "verification": "primary_rechecked",
     "validFrom": null,
     "validTo": null
+  },
+  {
+    "id": "us-postal-compliance-transition",
+    "countries": [
+      "US"
+    ],
+    "topics": [
+      "documents",
+      "threshold",
+      "tax"
+    ],
+    "title": "US postal entry: limited compliance extension, not renewed de minimis",
+    "text": {
+      "ja": "2026年10月22日の最終規則は19 CFR 145.12(a)(2)(v)・(vi)の遵守期限を2027年1月20日に延期しています。PGA対象、HTS第98・99章の税、同第98章・FTAの免税主張に関する特定の郵便申告要件の延期で、少額免税の再開ではありません。2,500米ドル以下は適格性確認を伴う簡易申告の候補です。Entry Type 13は適格貨物の代替手続で、10月22日の試行変更は電子PGAデータを伴わない送信も暫定受理しますが、PGAの実体要件を免除しません。2027年1月20日以降の手続と税率は再確認します。",
+      "en": "The 22 October final rule moves compliance with 19 CFR 145.12(a)(2)(v)-(vi) to 20 January 2027 for specified PGA, Chapter 98/99 duty and Chapter 98/FTA duty-free-claim mail cases. It does not restore de minimis. USD 2,500 or less is only a candidate for eligible informal entry. Entry Type 13 is an alternative for qualified shipments; its 22 October test modification temporarily accepts filings without complete electronic PGA data, without waiving substantive PGA requirements. Recheck procedures from 20 January and all applicable duties.",
+      "zh": "10月22日最终规则将19 CFR 145.12(a)(2)(v)-(vi)的遵守期限延至2027年1月20日，仅涉及特定PGA、HTS第98/99章税款及第98章或FTA免税主张的邮递申报要求，不恢复小额免税。货值不超过2500美元仅是符合条件的简易申报候选。Entry Type 13是适格货物的替代手续；10月22日试行修改暂时接受未附完整电子PGA数据的申报，但不豁免PGA实体要求。1月20日起的手续和适用税款须重新核实。"
+    },
+    "sourceIds": [
+      "primary-us-postal-suspension",
+      "primary-us-postal-delayed-compliance",
+      "primary-us-postal-entry13-modification"
+    ],
+    "verification": "primary_rechecked",
+    "validFrom": "2026-10-22",
+    "validTo": "2027-01-20"
   }
 ]

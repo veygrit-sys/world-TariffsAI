@@ -32,6 +32,11 @@ const contract = JSON.parse(readFileSync(new URL("./fixtures/import-settlement-r
 const fixture = openSettlementFixture();
 after(fixture.close);
 
+// Saved rc.24 approvals and output hashes bind this historical data version.
+// Keep that input fixed when testing refactor compatibility; current-version
+// invalidation is exercised by the live-validation and settlement suites.
+const contractData = { ...data, version: "2026-11-18.v11" };
+
 // Objects are unordered JSON records; evidence, conversion and diagnostic array order is preserved.
 function canonical(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(canonical);
@@ -79,7 +84,7 @@ test("the rc.24 canonical ledger digest remains compatible with saved approvals"
   assert.equal(contract.ledgerTime, ledgerContractTime);
   assert.equal(contract.planTime, planContractTime);
   assert.equal(contract.canonicalLedgerDigest, "58bd82809666dad0fe6f686accde3689353619f9b442bc7f1f5b8d7c3cdc30c2");
-  assert.equal(reconcileImportSettlementLedger(ledgerFixture(), new Date(ledgerContractTime), data).ledgerDigest,
+  assert.equal(reconcileImportSettlementLedger(ledgerFixture(), new Date(ledgerContractTime), contractData).ledgerDigest,
     contract.canonicalLedgerDigest);
 });
 
@@ -96,8 +101,8 @@ test("settlement refactoring preserves complete results, diagnostics, conversion
       approve(probe, expected);
       const originalInput = structuredClone(probe.input);
       const actual = outcome(() => probe.kind === "ledger"
-        ? reconcileImportSettlementLedger(probe.input, new Date(ledgerContractTime), data)
-        : reviewImportSettlementPlan(probe.input, data, fixture.tariffs, new Date(planContractTime)));
+        ? reconcileImportSettlementLedger(probe.input, new Date(ledgerContractTime), contractData)
+        : reviewImportSettlementPlan(probe.input, contractData, fixture.tariffs, new Date(planContractTime)));
       assert.deepEqual(probe.input, originalInput, "caller-owned input must remain unchanged");
       assert.equal(actual.kind, expected.outcomeKind);
       if (actual.kind === "result") {

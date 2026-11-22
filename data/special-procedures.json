@@ -4902,7 +4902,7 @@
     "id": "us_nonpostal_no_de_minimis",
     "category": "low_value",
     "titleJa": "米国の非郵便商業貨物と少額免税停止",
-    "conditionJa": "一般商業貨物では800米ドル以下でも19 USC 1321(a)(2)(C)の少額無税取扱いは停止中です。有資格の申告者がACEの適切な申告方式を確認し、HTS・追加関税・税・手数料を照合します。",
+    "conditionJa": "一般商業貨物では800米ドル以下でも19 USC 1321(a)(2)(C)の少額無税取扱いは停止中です。有資格の申告者がACEの適切な申告方式を確認し、HTS・追加関税・税・手数料を照合します。 2026年10月8日のLow-Value Shipmentsは提案規則であり、その提案内容や12月7日の意見提出期限を施行済みの申告義務・施行日として扱いません。",
     "appliesWhen": {
       "countries": [
         "US"
@@ -4945,18 +4945,23 @@
       },
       {
         "authority": "U.S. Customs and Border Protection",
-        "title": "Federal Register notice on informal entries and current low-value procedures",
+        "title": "91 FR 37789, indefinite suspension of nonpostal de minimis (effective 2026-06-24)",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm"
+      },
+      {
+        "authority": "U.S. Customs and Border Protection",
+        "title": "91 FR 64532, Low-Value Shipments — proposed rule, not an effective filing mandate",
         "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-08/html/2026-20650.htm"
       }
     ],
     "referenceFrom": "2026-11-12",
-    "referenceThrough": "2026-11-12"
+    "referenceThrough": "2026-11-22"
   },
   {
     "id": "us_postal_low_value_entry",
     "category": "low_value",
     "titleJa": "米国の国際郵便簡易申告",
-    "conditionJa": "一般貨物の800米ドル以下の少額無税取扱いは停止中です。国際郵便の2,500米ドル以下は簡易申告の候補で、適用関税を照合します。CBPのEntry Type 13試行は参加条件に従う代替経路です。PGA規制、HTS第98・99類またはFTAによる一部の正式申告要件は2027年1月20日まで適合期限が延期されており、品目と申告経路を個別確認します。",
+    "conditionJa": "一般貨物の800米ドル以下の少額無税取扱いは停止中です。国際郵便の2,500米ドル以下は簡易申告の候補で、適用関税を照合します。CBPのEntry Type 13試行は参加条件に従う代替経路です。PGA規制、HTS第98・99類またはFTAによる一部の正式申告要件は2027年1月20日まで適合期限が延期されており、品目と申告経路を個別確認します。 遵守期限の延期は少額免税の再開ではありません。10月22日のEntry Type 13試行変更は電子PGAデータ未完備の申告を暫定受理するもので、PGAの実体要件を免除しません。",
     "appliesWhen": {
       "countries": [
         "US"
@@ -5016,7 +5021,7 @@
       }
     ],
     "referenceFrom": "2026-11-12",
-    "referenceThrough": "2026-11-12",
+    "referenceThrough": "2026-11-22",
     "limit": {
       "basis": "confirmed_customs_value",
       "currency": "USD",
