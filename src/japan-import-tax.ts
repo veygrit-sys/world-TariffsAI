@@ -32,7 +32,8 @@ function percentUnits(percent: string | null): bigint | null {
 
 function rateNeedsReview(rate: TariffMatch["rates"][number], mfn: bigint): boolean {
   if (["additional_duty", "excise", "trade_remedy", "levy", "other"].includes(rate.charge)) return true;
-  if (rate.charge === "import_vat" || rate.charge === "import_gst")
+  if (rate.charge === "import_gst") return true;
+  if (rate.charge === "import_vat")
     return percentUnits(rate.adValoremPercent) !== 1_000_000_000n;
   if (rate.charge !== "customs_duty") return false;
   if (["temporary", "quota", "other"].includes(rate.treatment)) return true;
@@ -82,7 +83,7 @@ export function japanSingleLineTaxes(
   const references = line.tariffReferences;
   const dutyPercent = tariffAdValoremPercent(scenario.expression);
   const mfn = percentUnits(dutyPercent);
-  if (!references || references.snapshotId !== scenario.snapshotId || dutyPercent === null || mfn === null)
+  if (!references || references.totalMatches !== 1 || references.snapshotId !== scenario.snapshotId || dutyPercent === null || mfn === null)
     return { issue: "JAPAN_EXACT_MFN_TARIFF_REQUIRED" };
   // The generic lookup uses snapshot ID as its last tiebreaker. The order
   // must not get a tax amount solely because one overlapping ID sorts first.

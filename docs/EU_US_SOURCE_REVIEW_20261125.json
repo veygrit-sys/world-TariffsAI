@@ -104,5 +104,27 @@
       "sections": "91 FR 66707: supplementary information, Modification to Test",
       "findingJa": "10月22日から試行中の適格な申告について電子PGAデータ未完備の送信を暫定受理。終了は将来の官報告示。PGAの実体要件を免除しない。"
     }
+  ],
+  "usPublicationChecks": [
+    {
+      "publicationDate": "2026-11-23",
+      "officialContents": "https://www.govinfo.gov/content/pkg/FR-2026-11-23/html/FR-2026-11-23-FrontMatter.htm",
+      "contentsSha256": "6139117ec24e76e50dfba5d351ae7c08d0c72d0dcd2f432b32ee095afedfa063",
+      "dailyApi": "https://www.federalregister.gov/api/v1/documents.json?per_page=200&conditions%5Bpublication_date%5D%5Bis%5D=2026-11-23",
+      "documentCount": 91,
+      "cbpDocumentNumbers": [
+        "2026-23795"
+      ]
+    },
+    {
+      "publicationDate": "2026-11-24",
+      "officialContents": "https://www.govinfo.gov/content/pkg/FR-2026-11-24/html/FR-2026-11-24-FrontMatter.htm",
+      "contentsSha256": "110d0fe3469a1f73be4221c9c2656af77ea341934b6b1386f5bede1ef5f8640c",
+      "fullIssueXml": "https://www.govinfo.gov/content/pkg/FR-2026-11-24/xml/FR-2026-11-24.xml",
+      "xmlSha256": "c84a3e7840cd006b84b19c9c2a94aba019aedad36308c6ff55d3fb78db0d6483",
+      "dailyApi": "https://www.federalregister.gov/api/v1/documents.json?per_page=200&conditions%5Bpublication_date%5D%5Bis%5D=2026-11-24",
+      "documentCount": 122,
+      "cbpDocumentNumbers": []
+    }
   ]
 }

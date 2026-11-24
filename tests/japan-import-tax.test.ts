@@ -37,6 +37,8 @@ const cases: [string, TariffRate[]][] = [
   ["691390006", [ordinaryRate("14%"), ordinaryRate("8%", { condition: "only when applicable" })]],
   ["691390007", [ordinaryRate("14%")]], ["691390007", [ordinaryRate("0%")]],
   ["691390008", [ordinaryRate("14%"), ordinaryRate("JPY 50 per kg", { charge: "excise", treatment: "general" })]],
+  ["691390009", [ordinaryRate("14%")]], ["691390009", [ordinaryRate("14%")]],
+  ["691390010", [ordinaryRate("14%"), ordinaryRate("10%", { charge: "import_gst", treatment: "general" })]],
 ];
 writeFileSync(lines, JSON.stringify(cases.map(([code, rates]) => ({ code, reference: "Synthetic item", rates }))));
 const importer = fileURLToPath(new URL("../scripts/tariffs/import.ts", import.meta.url));
@@ -199,7 +201,8 @@ test("rate phases and origin filters select only the active MFN expression", () 
 for (const [suffix, reason] of [
   ["004", "JAPAN_TARIFF_OR_TAX_MEASURE_REVIEW"], ["005", "JAPAN_TARIFF_OR_TAX_MEASURE_REVIEW"],
   ["006", "JAPAN_EXACT_MFN_TARIFF_REQUIRED"], ["007", "JAPAN_EXACT_MFN_TARIFF_REQUIRED"],
-  ["008", "JAPAN_TARIFF_OR_TAX_MEASURE_REVIEW"],
+  ["008", "JAPAN_TARIFF_OR_TAX_MEASURE_REVIEW"], ["009", "JAPAN_EXACT_MFN_TARIFF_REQUIRED"],
+  ["010", "JAPAN_TARIFF_OR_TAX_MEASURE_REVIEW"],
 ] as const) test("an alternate domestic rate, conditional/ambiguous MFN or excise holds " + suffix, () => {
   const draft = request();
   draft.plan.lines![0]!.tariffCode = "691390" + suffix;
