@@ -1,0 +1,49 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "AU",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "AUD",
+    "freight": "50.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "Synthetic exercise books",
+        "quantity": 1,
+        "unitValue": "300.00",
+        "originCountry": "JP",
+        "goodsType": "ordinary",
+        "hs6": "482020",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "post",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true,
+    "customsValue": "300.00",
+    "customsValueConfirmed": true,
+    "loadingCountry": "JP",
+    "transitRoute": {
+      "completeness": "confirmed",
+      "stops": []
+    }
+  },
+  "evidence": {
+    "saleDate": "2026-11-24",
+    "reference": "synthetic-au-merchant-invoice",
+    "nonresidentMerchantArrangesDelivery": true,
+    "residentPrivateConsumer": true,
+    "allInvoiceAmountsTaxExclusive": true,
+    "ordinaryNonExcisableGoods": true
+  }
+}

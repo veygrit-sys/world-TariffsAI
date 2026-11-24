@@ -1,0 +1,12 @@
+{
+  "fixtureKind": "synthetic_test",
+  "documentType": "merchant_checkout_receipt",
+  "orderReference": "SYNTHETIC-GB-001",
+  "requestDigest": "774db5b8c32be10e742dbbda426c677ce9178d1abfb36020208b709d27e7f44d",
+  "saleDate": "2026-11-24",
+  "currency": "GBP",
+  "netGoods": "120.00",
+  "delivery": "8.00",
+  "checkoutVat": "25.60",
+  "customerPayment": "153.60"
+}

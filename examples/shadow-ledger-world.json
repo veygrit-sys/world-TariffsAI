@@ -1,0 +1,439 @@
+{
+  "version": 1,
+  "merchantRef": "demo-merchant",
+  "carrierRef": "demo-carrier",
+  "products": [
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "skuRef": "demo-sku-a1",
+      "classification": "unreviewed"
+    }
+  ],
+  "orders": [
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "orderId": "demo-order-a1",
+      "skuRefs": [
+        "demo-sku-a1"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 4,
+      "quote": {
+        "status": "offered",
+        "estimate": {
+          "orderId": "demo-order-a1",
+          "estimateId": "demo-est-a1",
+          "issuedOn": "2026-11-25",
+          "currency": "JPY",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "300"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "1600"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0"
+            },
+            {
+              "category": "excise",
+              "amount": "0"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "500"
+            }
+          ]
+        },
+        "methods": {
+          "customs_duty": "japan_single_line_standard",
+          "import_vat_gst": "japan_single_line_standard",
+          "additional_duty": "not_applicable",
+          "excise": "not_applicable",
+          "customs_fee": "not_applicable",
+          "carrier_fee": "confirmed_amount"
+        },
+        "reviewBy": "2026-11-30"
+      },
+      "observation": {
+        "declarationRef": "demo-clearance-a1",
+        "invoice": {
+          "orderId": "demo-order-a1",
+          "estimateId": "demo-est-a1",
+          "issuedOn": "2026-11-25",
+          "currency": "JPY",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "300"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "1700"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0"
+            },
+            {
+              "category": "excise",
+              "amount": "0"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "500"
+            }
+          ],
+          "invoiceId": "demo-invoice-a1"
+        }
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "orderId": "demo-order-b2",
+      "skuRefs": [
+        "demo-sku-b2"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 8,
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "DATED_TARIFF_REFERENCE_REQUIRED"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "US-GB",
+      "orderId": "demo-us-gb",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 4,
+      "quote": {
+        "status": "offered",
+        "estimate": {
+          "orderId": "demo-us-gb",
+          "estimateId": "demo-us-gb-est",
+          "issuedOn": "2026-11-25",
+          "currency": "GBP",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "0.00"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "excise",
+              "amount": "0.00"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0.00"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "4.00"
+            }
+          ]
+        },
+        "methods": {
+          "customs_duty": "confirmed_amount",
+          "import_vat_gst": "confirmed_amount",
+          "additional_duty": "confirmed_amount",
+          "excise": "confirmed_amount",
+          "customs_fee": "confirmed_amount",
+          "carrier_fee": "confirmed_amount"
+        },
+        "reviewBy": "2026-11-30"
+      },
+      "observation": {
+        "declarationRef": "demo-us-gb-clearance",
+        "invoice": {
+          "orderId": "demo-us-gb",
+          "estimateId": "demo-us-gb-est",
+          "issuedOn": "2026-11-25",
+          "currency": "GBP",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "0.00"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "excise",
+              "amount": "0.00"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0.00"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "4.75"
+            }
+          ],
+          "invoiceId": "demo-us-gb-invoice"
+        }
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "JP-SG",
+      "orderId": "demo-jp-sg",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 4,
+      "quote": {
+        "status": "offered",
+        "estimate": {
+          "orderId": "demo-jp-sg",
+          "estimateId": "demo-jp-sg-est",
+          "issuedOn": "2026-11-25",
+          "currency": "SGD",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "0.00"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "excise",
+              "amount": "0.00"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0.00"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "6.00"
+            }
+          ]
+        },
+        "methods": {
+          "customs_duty": "confirmed_amount",
+          "import_vat_gst": "confirmed_amount",
+          "additional_duty": "confirmed_amount",
+          "excise": "confirmed_amount",
+          "customs_fee": "confirmed_amount",
+          "carrier_fee": "confirmed_amount"
+        },
+        "reviewBy": "2026-11-30"
+      },
+      "observation": {
+        "declarationRef": "demo-jp-sg-clearance",
+        "invoice": {
+          "orderId": "demo-jp-sg",
+          "estimateId": "demo-jp-sg-est",
+          "issuedOn": "2026-11-25",
+          "currency": "SGD",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "0.00"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0.00"
+            },
+            {
+              "category": "excise",
+              "amount": "0.00"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0.00"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "6.00"
+            }
+          ],
+          "invoiceId": "demo-jp-sg-invoice"
+        }
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "JP-GB",
+      "orderId": "demo-jp-gb",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "PARTIAL_ESTIMATE",
+          "GB_SKU_VAT_TREATMENT_REVIEW"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "CN-SG",
+      "orderId": "demo-cn-sg",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "PARTIAL_ESTIMATE",
+          "SG_GST_PAID_ITEM_HANDOFF_REQUIRED",
+          "SG_CARRIER_FEE_REVIEW"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "JP-AU",
+      "orderId": "demo-jp-au",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "PARTIAL_ESTIMATE",
+          "CARRIER_FEE_REQUIRED"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "AU-NZ",
+      "orderId": "demo-au-nz",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "PARTIAL_ESTIMATE",
+          "NZ_POSTAL_OPERATOR_LEVY_BUYER_SHARE_UNKNOWN"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "JP-CN",
+      "orderId": "demo-jp-cn",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "CN_QUOTA_BEFORE_ORDER_REQUIRED"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "CN-US",
+      "orderId": "demo-cn-us",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "US_LOW_VALUE_NO_AUTOMATIC_EXEMPTION",
+          "US_POSTAL_QUOTA_AD_CVD_PGA_AND_CLAIM_SCREEN_REQUIRED"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "US-DE",
+      "orderId": "demo-us-de",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "EU_DECLARATION_ITEM_COUNT_REQUIRED"
+        ]
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "DE-US",
+      "orderId": "demo-de-us",
+      "skuRefs": [
+        "demo-world-pen"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "US_IMPORT_NETWORK_CONFIRMATION_REQUIRED"
+        ]
+      }
+    }
+  ]
+}

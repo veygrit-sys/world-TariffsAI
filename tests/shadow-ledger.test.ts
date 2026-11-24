@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { captureShadowQuote, summarizeShadowLedger, type ShadowOrder } from "../src/shadow-ledger.ts";
+import { captureCountryPreview, captureShadowQuote, summarizeShadowLedger, type ShadowOrder } from "../src/shadow-ledger.ts";
 import { InputError } from "../src/schema.ts";
 import type { PilotQuote } from "../src/pilot-quote.ts";
 
@@ -133,4 +133,77 @@ test("unconfirmed or incompatible estimates cannot be presented as offered", () 
   invalid(row => { row.quote.estimate.charges[2].amount = "50"; }, "SHADOW_NONZERO_NOT_APPLICABLE");
   invalid(row => { row.capturedOn = "2024-04-28"; }, "SHADOW_ESTIMATE_DATE_MISMATCH");
   invalid(row => { row.route = "JP-US"; }, "SHADOW_JAPAN_METHOD_SCOPE");
+});
+
+const readWorld = () => JSON.parse(readFileSync(new URL("../examples/shadow-ledger-world.json", import.meta.url), "utf8"));
+
+test("worldwide route groups preserve the original JP target alias and isolate SKU, order and fee metrics", () => {
+  const data = readWorld();
+  const report = summarizeShadowLedger(data, "synthetic", true);
+  assert.equal(report.routes.length, 11);
+  assert.deepEqual(report.cnJpPilot, { orders: 2, targetOrders: 30, skus: 2, targetSkus: 10 });
+  assert.deepEqual(report.pilots.find(p => p.route === "CN-JP"), { route: "CN-JP", ...report.cnJpPilot });
+  assert.deepEqual(report.pilots.find(p => p.route === "US-GB"), {
+    route: "US-GB", orders: 1, targetOrders: 30, skus: 1, targetSkus: 10,
+  });
+  const gb = report.routes.find(r => r.route === "US-GB")!;
+  const sg = report.routes.find(r => r.route === "JP-SG")!;
+  assert.deepEqual(gb.maximumUnderstatementByCurrency, [{ currency: "GBP", comparedOrders: 1, value: "0.75" }]);
+  assert.deepEqual(sg.maximumUnderstatementByCurrency, [{ currency: "SGD", comparedOrders: 1, value: "0.00" }]);
+  assert.ok(gb.charges.every(c => c.independentlyQuoted === 0 && c.confirmedAmount === 1));
+  assert.equal(report.site!.products.filter(p => p.route === "JP-GB").length, 1);
+  const orders = report.site!.orders;
+  assert.ok(orders.every(row => !row.holdReasons.includes("OTHER_HOLD")));
+  assert.ok(orders.find(row => row.route === "AU-NZ")!.holdReasons.includes("NZ_POSTAL_OPERATOR_LEVY_BUYER_SHARE_UNKNOWN"));
+  assert.deepEqual(summarizeShadowLedger(data, "live", true).routes.map(r => r.route), ["CN-JP"]);
+  assert.equal(report.productionAuthorized, false);
+
+  const extra = structuredClone(data.orders.at(-1));
+  extra.route = "XK-SG";
+  data.orders.push(extra);
+  assert.throws(() => summarizeShadowLedger(data, "synthetic"), errorCode("DUPLICATE_SHADOW_ORDER"));
+  extra.orderId = "extra-review";
+  assert.ok(summarizeShadowLedger(data, "synthetic").routes.some(r => r.route === "XK-SG"));
+});
+
+test("non-commercial, domestic and unknown directions reject order records and product-only requests", () => {
+  for (const route of ["SG-SG", "AQ-SG", "AU-KP", "KP-NZ", "ZZ-CA", "HK-ZZ"]) {
+    const data = read();
+    data.orders[1].route = route;
+    assert.throws(() => summarizeShadowLedger(data, "synthetic"), errorCode("SHADOW_ROUTE_OUT_OF_SCOPE"));
+    data.orders = [];
+    data.products[0].route = route;
+    assert.throws(() => summarizeShadowLedger(data, "synthetic"), errorCode("SHADOW_ROUTE_OUT_OF_SCOPE"));
+  }
+});
+
+test("a product-only lane is tracked with zero order progress; duplicate classifications fail even without site output", () => {
+  const data = read();
+  data.orders = [];
+  data.products[0].route = "KE-MX";
+  const report = summarizeShadowLedger(data, "synthetic");
+  assert.deepEqual(report.pilots.find(row => row.route === "KE-MX"), {
+    route: "KE-MX", orders: 0, skus: 0, targetOrders: 30, targetSkus: 10,
+  });
+  data.products.push(structuredClone(data.products[0]));
+  assert.throws(() => summarizeShadowLedger(data, "synthetic"), errorCode("DUPLICATE_SHADOW_PRODUCT"));
+});
+
+test("partial estimates remain held and expose only recognized reason codes", () => {
+  const data = read();
+  const order = data.orders[1];
+  order.route = "JP-SG";
+  order.quote = captureCountryPreview({
+    status: "partial_estimate",
+    reasons: ["CARRIER_FEE_REQUIRED", "PARTIAL_ESTIMATE", "unstructured free text"],
+  });
+  assert.deepEqual(order.quote, { status: "held", reasons: ["CARRIER_FEE_REQUIRED", "PARTIAL_ESTIMATE", "OTHER_HOLD"] });
+  const report = summarizeShadowLedger(data, "synthetic", true);
+  const lane = report.routes.find(row => row.route === "JP-SG")!;
+  assert.deepEqual([lane.eligibleOrders, lane.offered, lane.held, lane.offerRate], [1, 0, 1, 0]);
+  assert.equal(lane.holdReasons.PARTIAL_ESTIMATE, 1);
+  assert.equal(lane.charges.find(c => c.category === "import_vat_gst")!.matchRate, null);
+  assert.deepEqual(captureCountryPreview({ status: "needs_review", reasons: [] }), {
+    status: "held", reasons: ["REVIEW_REQUIRED"],
+  });
 });

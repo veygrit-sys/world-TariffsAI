@@ -3901,6 +3901,220 @@
         }
       }
     },
+    "/v1/worldwide/country-preview": {
+      "post": {
+        "summary": "Return evidenced checkout and import charge components of a country pilot",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CountryPreviewRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Source-backed decision support",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountryPreview"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid or extra input fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid service credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Browser origin rejected",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "HTTP method not allowed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 64 KiB",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Expected uncompressed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Process-local rate limit exceeded",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic internal error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/worldwide/country-reconcile": {
+      "post": {
+        "summary": "Compare a country pilot against itemised checkout or import receipt charges",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CountryReceiptComparisonRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Source-backed decision support",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountryReceiptComparison"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid or extra input fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid service credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Browser origin rejected",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "HTTP method not allowed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 64 KiB",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Expected uncompressed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Process-local rate limit exceeded",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic internal error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/worldwide/quote": {
       "post": {
         "summary": "Estimate reviewed ordinary cross-border B2C shipments across worldwide directions",
@@ -10580,6 +10794,357 @@
           "sellerTaxRegistration",
           "consignmentScopeConfirmed"
         ]
+      },
+      "CountryPreviewRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "shipment"
+        ],
+        "properties": {
+          "shipment": {
+            "$ref": "#/components/schemas/Shipment"
+          },
+          "usJurisdictionApplies": {
+            "type": "boolean"
+          },
+          "evidence": {
+            "type": "object",
+            "description": "Destination-specific facts, dates and declaration evidence. See docs/COUNTRY_PREVIEWS.md and the country-pilot examples."
+          }
+        }
+      },
+      "CountryPreview": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "route",
+          "destinationCountry",
+          "status",
+          "procedure",
+          "assessedAt",
+          "requestDigest",
+          "charges",
+          "sources",
+          "reasons",
+          "landedCostTotal",
+          "productionAuthorized",
+          "shippingAuthorized",
+          "checkoutReady"
+        ],
+        "properties": {
+          "route": {
+            "type": "string"
+          },
+          "destinationCountry": {
+            "type": "string"
+          },
+          "procedure": {
+            "type": "string"
+          },
+          "requestDigest": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "status": {
+            "enum": [
+              "partial_estimate",
+              "needs_review",
+              "out_of_scope"
+            ]
+          },
+          "assessedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "charges": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "category",
+                "collection",
+                "currency",
+                "value",
+                "sourceIds"
+              ],
+              "properties": {
+                "category": {
+                  "enum": [
+                    "customs_duty",
+                    "import_vat_gst",
+                    "additional_duty",
+                    "excise",
+                    "customs_fee",
+                    "carrier_fee",
+                    "checkout_tax"
+                  ]
+                },
+                "collection": {
+                  "enum": [
+                    "checkout",
+                    "import",
+                    "not_applicable"
+                  ]
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "sourceIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "url",
+                "reviewBy"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "reviewBy": {
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          },
+          "landedCostTotal": {
+            "type": "null"
+          },
+          "productionAuthorized": {
+            "const": false
+          },
+          "shippingAuthorized": {
+            "const": false
+          },
+          "checkoutReady": {
+            "const": false
+          }
+        }
+      },
+      "CountryReceiptComparisonRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "request",
+          "document"
+        ],
+        "properties": {
+          "request": {
+            "$ref": "#/components/schemas/CountryPreviewRequest"
+          },
+          "document": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "stage",
+              "currency",
+              "lines"
+            ],
+            "properties": {
+              "stage": {
+                "enum": [
+                  "checkout",
+                  "import"
+                ]
+              },
+              "currency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "requestDigest": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "issuedOn": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lines": {
+                "type": "array",
+                "maxItems": 7,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "category",
+                    "value"
+                  ],
+                  "properties": {
+                    "category": {
+                      "enum": [
+                        "customs_duty",
+                        "import_vat_gst",
+                        "additional_duty",
+                        "excise",
+                        "customs_fee",
+                        "carrier_fee",
+                        "checkout_tax"
+                      ]
+                    },
+                    "value": {
+                      "type": "string",
+                      "pattern": "^(0|[1-9]\\d{0,11})(\\.\\d{1,4})?$"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "CountryReceiptComparison": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "requestDigest",
+          "stage",
+          "previewCurrency",
+          "documentCurrency",
+          "previewStatus",
+          "status",
+          "lines",
+          "reasons",
+          "landedCostTotal",
+          "checkoutReady",
+          "productionAuthorized",
+          "shippingAuthorized"
+        ],
+        "properties": {
+          "requestDigest": {
+            "type": "string"
+          },
+          "stage": {
+            "enum": [
+              "checkout",
+              "import"
+            ]
+          },
+          "documentCurrency": {
+            "type": "string"
+          },
+          "previewCurrency": {
+            "type": "string"
+          },
+          "previewStatus": {
+            "enum": [
+              "partial_estimate",
+              "needs_review",
+              "out_of_scope"
+            ]
+          },
+          "status": {
+            "enum": [
+              "matched_components",
+              "differences",
+              "needs_review"
+            ]
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "category",
+                "estimated",
+                "observed",
+                "difference",
+                "status",
+                "sourceIds"
+              ],
+              "properties": {
+                "category": {
+                  "enum": [
+                    "customs_duty",
+                    "import_vat_gst",
+                    "additional_duty",
+                    "excise",
+                    "customs_fee",
+                    "carrier_fee",
+                    "checkout_tax"
+                  ]
+                },
+                "estimated": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "observed": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "difference": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "matched",
+                    "difference",
+                    "estimate_missing",
+                    "document_missing",
+                    "not_comparable"
+                  ]
+                },
+                "sourceIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "landedCostTotal": {
+            "type": "null"
+          },
+          "checkoutReady": {
+            "const": false
+          },
+          "productionAuthorized": {
+            "const": false
+          },
+          "shippingAuthorized": {
+            "const": false
+          }
+        }
       },
       "CustomsPlanRequest": {
         "type": "object",

@@ -1,0 +1,63 @@
+{
+  "request": {
+    "shipment": {
+      "originCountry": "JP",
+      "destinationCountry": "GB",
+      "originZone": "standard",
+      "destinationZone": "standard",
+      "importDate": "2026-11-25",
+      "currency": "GBP",
+      "freight": "8.00",
+      "insurance": "0.00",
+      "items": [
+        {
+          "id": "L1",
+          "productIdentifier": "SYNTHETIC-BALLPEN-BLUE",
+          "description": "Synthetic blue ballpoint pen set",
+          "quantity": 2,
+          "unitValue": "60.00",
+          "originCountry": "JP",
+          "goodsType": "ordinary",
+          "hs6": "960810",
+          "classificationConfirmed": true,
+          "standardTaxConfirmed": true
+        }
+      ],
+      "transaction": "b2c_sale",
+      "channel": "direct",
+      "transport": "post",
+      "regime": "standard",
+      "inventoryStatus": "free_circulation",
+      "sellerTaxRegistration": "registered",
+      "consignmentScopeConfirmed": true,
+      "taxEvidenceConfirmed": true
+    },
+    "evidence": {
+      "saleDate": "2026-11-24",
+      "destinationRegion": "england",
+      "stockAtSale": "outside_uk",
+      "invoiceBasis": "net_goods_separate_freight",
+      "deliveryContract": "delivery_required",
+      "nonExciseConfirmed": true,
+      "skuReviews": [
+        {
+          "itemId": "L1",
+          "sku": "SYNTHETIC-BALLPEN-BLUE",
+          "vatTreatment": "standard"
+        }
+      ]
+    }
+  },
+  "document": {
+    "stage": "checkout",
+    "currency": "GBP",
+    "issuedOn": "2026-11-24",
+    "requestDigest": "774db5b8c32be10e742dbbda426c677ce9178d1abfb36020208b709d27e7f44d",
+    "lines": [
+      {
+        "category": "checkout_tax",
+        "value": "25.60"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "shipment": {
+    "originCountry": "US",
+    "destinationCountry": "FR",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "EUR",
+    "freight": "10.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "Synthetic ballpoint pens",
+        "quantity": 3,
+        "unitValue": "12.00",
+        "originCountry": "US",
+        "goodsType": "ordinary",
+        "hs6": "960810",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true,
+        "nonDutiableConfirmed": true,
+        "japanReliefEligibility": "eligible",
+        "productIdentifier": "SYNTHETIC-001"
+      },
+      {
+        "id": "line-2",
+        "description": "Synthetic pencil",
+        "quantity": 1,
+        "unitValue": "12.00",
+        "originCountry": "US",
+        "goodsType": "ordinary",
+        "hs6": "960910",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true,
+        "nonDutiableConfirmed": true,
+        "japanReliefEligibility": "eligible",
+        "productIdentifier": "SYNTHETIC-002"
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "ioss",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true,
+    "euDeclaration": {
+      "itemCount": 2,
+      "countConfirmed": true,
+      "flatDutyTreatmentConfirmed": true
+    }
+  },
+  "evidence": {
+    "distanceSaleConfirmed": true,
+    "freeCirculationReleaseConfirmed": true,
+    "intrinsicValueConfirmed": true,
+    "f00DeclarantConfirmed": true,
+    "declarationItems": [
+      [
+        "line-1"
+      ],
+      [
+        "line-2"
+      ]
+    ],
+    "declarationDataset": "H7",
+    "declarationIdentifiersReviewed": true,
+    "h7EligibilityConfirmed": true,
+    "declarationReviewed": true,
+    "y126Confirmed": true
+  }
+}

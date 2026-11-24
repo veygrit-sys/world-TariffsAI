@@ -1,4 +1,5 @@
 import { writeFileSync } from "node:fs";
+import { countryPreviewDocumentSchema } from "../src/country-preview-reconcile.ts";
 import {
   shipmentSchema,
   askSchema,
@@ -722,6 +723,15 @@ const doc = {
         responses: { 200: response("Worldwide direction", worldDirectionOutputSchema), ...errors },
       },
     },
+    "/v1/worldwide/country-preview": post(
+      "Return evidenced checkout and import charge components of a country pilot",
+      { $ref: "#/components/schemas/CountryPreviewRequest" }, { $ref: "#/components/schemas/CountryPreview" },
+    ),
+    "/v1/worldwide/country-reconcile": post(
+      "Compare a country pilot against itemised checkout or import receipt charges",
+      { $ref: "#/components/schemas/CountryReceiptComparisonRequest" },
+      { $ref: "#/components/schemas/CountryReceiptComparison" },
+    ),
     "/v1/worldwide/quote": post(
       "Estimate reviewed ordinary cross-border B2C shipments across worldwide directions",
       { $ref: "#/components/schemas/WorldQuoteRequest" },
@@ -927,6 +937,49 @@ const doc = {
         },
       },
       Shipment: shipmentSchema,
+      CountryPreviewRequest: {
+        type:"object", additionalProperties:false, required:["shipment"],
+        properties:{ shipment:{$ref:"#/components/schemas/Shipment"}, usJurisdictionApplies:{type:"boolean"},
+          evidence:{type:"object",description:"Destination-specific facts, dates and declaration evidence. See docs/COUNTRY_PREVIEWS.md and the country-pilot examples."} },
+      },
+      CountryPreview: {
+        type:"object",additionalProperties:false,
+        required:["route","destinationCountry","status","procedure","assessedAt","requestDigest","charges","sources","reasons","landedCostTotal","productionAuthorized","shippingAuthorized","checkoutReady"],
+        properties:{
+          route:{type:"string"},destinationCountry:{type:"string"},procedure:{type:"string"},requestDigest:{type:"string",pattern:"^[a-f0-9]{64}$"},
+          status:{enum:["partial_estimate","needs_review","out_of_scope"]},assessedAt:{type:"string",format:"date-time"},
+          charges:{type:"array",items:{type:"object",additionalProperties:false,required:["category","collection","currency","value","sourceIds"],properties:{
+            category:{enum:pilotChargeCategories},collection:{enum:["checkout","import","not_applicable"]},currency:{type:"string"},value:{type:"string"},
+            sourceIds:{type:"array",items:{type:"string"}}}}},
+          reasons:{type:"array",items:{type:"string"}},sources:{type:"array",items:{type:"object",required:["id","url","reviewBy"],properties:{
+            id:{type:"string"},url:{type:"string",format:"uri"},reviewBy:{type:"string",format:"date"}}}},
+          landedCostTotal:{type:"null"},productionAuthorized:{const:false},shippingAuthorized:{const:false},checkoutReady:{const:false},
+        },
+      },
+      CountryReceiptComparisonRequest: {
+        type: "object", additionalProperties: false, required: ["request", "document"],
+        properties: { request: { $ref: "#/components/schemas/CountryPreviewRequest" }, document: countryPreviewDocumentSchema },
+      },
+      CountryReceiptComparison: {
+        type: "object", additionalProperties: false,
+        required: ["requestDigest", "stage", "previewCurrency", "documentCurrency", "previewStatus", "status", "lines", "reasons",
+          "landedCostTotal", "checkoutReady", "productionAuthorized", "shippingAuthorized"],
+        properties: {
+          requestDigest: { type: "string" }, stage: { enum: ["checkout", "import"] },
+          documentCurrency: { type: "string" }, previewCurrency: { type: "string" },
+          previewStatus: { enum: ["partial_estimate", "needs_review", "out_of_scope"] },
+          status: { enum: ["matched_components", "differences", "needs_review"] },
+          lines: { type: "array", items: {
+            type: "object", additionalProperties: false, required: ["category","estimated","observed","difference","status","sourceIds"],
+            properties: { category: { enum: pilotChargeCategories }, estimated: { type: ["string", "null"] },
+              observed: { type: ["string", "null"] }, difference: { type: ["string", "null"] },
+              status: { enum: ["matched", "difference", "estimate_missing", "document_missing", "not_comparable"] },
+              sourceIds: { type: "array", items: { type: "string" } } },
+          } },
+          reasons: { type: "array", items: { type: "string" } }, landedCostTotal: { type: "null" },
+          checkoutReady: { const: false }, productionAuthorized: { const: false }, shippingAuthorized: { const: false },
+        },
+      },
       CustomsPlanRequest: {
         ...customsPlanSchema,
         properties: { ...customsPlanSchema.properties, shipment: { $ref: "#/components/schemas/Shipment" } },

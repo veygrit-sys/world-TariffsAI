@@ -1,0 +1,42 @@
+{
+  "shipment": {
+    "originCountry": "CN",
+    "destinationCountry": "US",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "USD",
+    "freight": "10.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "合成例の中国産陶器製食器",
+        "quantity": 1,
+        "unitValue": "800.00",
+        "originCountry": "CN",
+        "goodsType": "ordinary",
+        "hs6": "691200",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "post",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true,
+    "customsValueConfirmed": true,
+    "customsValue": "800.00"
+  },
+  "evidence": {
+    "recordRef": "synthetic-us-review-001",
+    "network": "international_post",
+    "permanentFormalEntryTrigger": "absent",
+    "pgaChapterOrPreferenceTrigger": "present"
+  }
+}
