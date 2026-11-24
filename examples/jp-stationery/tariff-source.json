@@ -1,0 +1,29 @@
+{
+  "id": "jp-stationery-20261125",
+  "jurisdiction": "JP",
+  "countries": [
+    "JP"
+  ],
+  "zone": "standard",
+  "edition": "Japan Customs 2026-10-31",
+  "hsEdition": "2022",
+  "availableFrom": "2026-11-25",
+  "availableThrough": "2026-11-25",
+  "checkedOn": "2026-11-25",
+  "scope": "national_schedule",
+  "authority": "Japan Customs",
+  "sourceUrl": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+  "terms": "財務省税関の2026年10月31日版第96類を加工。利用規約は https://www.customs.go.jp/kyotsu/rules.htm を参照。",
+  "termsUrl": "https://www.customs.go.jp/kyotsu/rules.htm",
+  "inputFiles": [
+    {
+      "name": "j_96.htm",
+      "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+      "sha256": "04d9a11bfbc438980adfcafce4b6169323bf306649332df18d9160fe0b4186e7"
+    }
+  ],
+  "limitations": [
+    "Five selected national codes; General and WTO columns only. Date is the observed reference day.",
+    "Preferential treatment, valuation, additional measures, other laws, customs fees, VAT and carrier fees require independent review."
+  ]
+}

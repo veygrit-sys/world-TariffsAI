@@ -13,7 +13,7 @@ const rule = (id: string, reviewBy: string, patch: Partial<Rule> = {}): Rule => 
   checkedOn: "2026-11-10", reviewBy, sourceIds: ["source"], ...patch,
 });
 function fixture(sources: Source[] = [], rules: Rule[] = []): Dataset {
-  return { ...data, sources, rules };
+  return { ...data, sources, rules, customsFeeReferences: [], importControlReferences: [] };
 }
 
 test("review partitions source deadlines, preserves compatibility, and excludes inherited approvals", () => {
@@ -90,7 +90,7 @@ test("classification sources monitor the earlier review or catalog end, includin
     classificationSource("too-far", "2026-12-01", "2026-11-26"),
     classificationSource("future", "2026-12-01", "2026-12-01", "2026-11-19"),
   ] });
-  assert.equal(report.reportVersion, 2);
+  assert.equal(report.reportVersion, 3);
   assert.equal(report.classificationScope, "loaded_classification_catalog_sources");
   assert.equal(report.status, "due");
   assert.deepEqual(report.classificationSourcesDue.map(row => row.id), ["catalog-ended", "review-due"]);
@@ -123,4 +123,37 @@ test("review CLI cannot emit a clear report when a configured classification cat
   });
   assert.notEqual(result.status, 0);
   assert.equal(result.stdout, "");
+});
+
+test("reference windows distinguish the inclusive last day, expiry and warning horizon for each destination", () => {
+  const fee = { ...data.customsFeeReferences![0]!, id: "fee_jp", countries: ["JP", "CN"], referenceThrough: "2026-11-18" };
+  const control = { ...data.importControlReferences![0]!, id: "control_us", countries: ["US"], referenceThrough: "2026-11-24" };
+  const dataset = { ...fixture(), customsFeeReferences: [fee], importControlReferences: [control] };
+  const before = createDataReviewReport(dataset, { now: new Date("2026-11-17T14:59:59Z") });
+  const today = createDataReviewReport(dataset, { now: new Date("2026-11-17T15:00:00Z") });
+  const after = createDataReviewReport(dataset, { date: "2026-11-19", referenceCountry: "JP" });
+  assert.deepEqual(before.referenceCoverage?.warnings.map(row => row.status), ["upcoming", "upcoming"]);
+  assert.equal(before.status, "upcoming");
+  assert.equal(createDataReviewReport(dataset, { date: "2026-11-17", warningDays: 0 }).status, "clear");
+  assert.equal(today.status, "due");
+  assert.deepEqual(today.referenceCoverage?.warnings.map(row => row.status), ["ends_today", "upcoming"]);
+  assert.deepEqual(after.referenceCoverage, { country: "JP", tracked: { customs_fee: 1, import_control: 0 }, warnings: [{
+    kind: "customs_fee", id: "fee_jp", countries: ["CN", "JP"], referenceThrough: "2026-11-18", status: "expired",
+  }] });
+  assert.match(reviewReportSummary(after), /Customs fees \| 1 \| 1 \| 0 \| 0/);
+  assert.deepEqual(fee.countries, ["JP", "CN"]);
+  assert.throws(() => createDataReviewReport(dataset, { referenceCountry: "ZZ" }), /INVALID_REVIEW_REFERENCE_COUNTRY/);
+});
+
+test("country-scoped CLI keeps global source checks and limits bundled reference rows", () => {
+  const result = spawnSync(process.execPath, ["scripts/review.ts", "--reference-country", "JP", "--date", "2099-01-01"], {
+    cwd: new URL("../", import.meta.url), encoding: "utf8",
+  });
+  assert.equal(result.status, 2, result.stderr);
+  const report = JSON.parse(result.stdout);
+  assert.equal(report.referenceCoverage.country, "JP");
+  assert.ok(report.primarySourcesExpired.length);
+  const expected = [...data.customsFeeReferences!, ...data.importControlReferences!].filter(row => row.countries.includes("JP"));
+  assert.equal(report.referenceCoverage.tracked.customs_fee + report.referenceCoverage.tracked.import_control, expected.length);
+  assert.deepEqual(report.referenceCoverage.warnings.map((row: { id: string }) => row.id).sort(), expected.map(row => row.id).sort());
 });

@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import type { DataReviewReport } from "../src/data-review.ts";
 
 export const reviewIssueMarker = "<!-- veygrit:data-review-monitor:v1 -->";
+const referenceMonitorMarker = "<!-- veygrit:reference-coverage:v3 -->";
 const legacyArrayFields = [
   "primarySourcesDue", "primarySourcesDueToday", "primarySourcesExpired", "primarySourcesUpcoming",
   "activeRulesDue", "activeRulesDueToday", "activeRulesExpired", "activeRulesUpcoming",
@@ -26,6 +27,8 @@ export function parseNotificationReport(value: unknown): DataReviewReport {
   if (value === null || typeof value !== "object") throw new Error("INVALID_DATA_REVIEW_REPORT");
   const supplied = value as Record<string, unknown>;
   let report = value as DataReviewReport;
+  if ((report.reportVersion === 1 || report.reportVersion === 2) && "referenceCoverage" in supplied)
+    throw new Error("INVALID_DATA_REVIEW_REPORT");
   if (report.reportVersion === 1) {
     // A legacy producer cannot silently drop or downgrade classification warnings.
     if (classificationArrayFields.some(key => key in supplied) || "classificationScope" in supplied)
@@ -34,7 +37,7 @@ export function parseNotificationReport(value: unknown): DataReviewReport {
       classificationSourcesDue: [], classificationSourcesDueToday: [], classificationSourcesExpired: [],
       classificationSourcesUpcoming: [], unobservedClassificationSources: [] };
   }
-  if (report.reportVersion !== 2 || report.scope !== "bundled_primary_sources_and_current_rules" ||
+  if ((report.reportVersion !== 2 && report.reportVersion !== 3) || report.scope !== "bundled_primary_sources_and_current_rules" ||
       !["loaded_classification_catalog_sources", "not_supplied"].includes(report.classificationScope) ||
       !validDate(report.date) || !validDate(report.warnThrough) ||
       typeof report.ruleSetVersion !== "string" || !/^[A-Za-z0-9_.:-]{1,100}$/.test(report.ruleSetVersion) ||
@@ -74,9 +77,35 @@ export function parseNotificationReport(value: unknown): DataReviewReport {
   checkPartitions(report.activeRulesDue, report.activeRulesDueToday, report.activeRulesExpired, report.activeRulesUpcoming, reviewDate);
   checkPartitions(report.classificationSourcesDue, report.classificationSourcesDueToday, report.classificationSourcesExpired, report.classificationSourcesUpcoming,
     row => (row as { id: string; dueOn: string }).dueOn);
-  const due = report.primarySourcesDue.length + report.activeRulesDue.length + report.classificationSourcesDue.length +
+  const coverage = report.referenceCoverage;
+  if (report.reportVersion === 3) {
+    if (!coverage || (coverage.country !== null && (typeof coverage.country !== "string" || !/^[A-Z]{2}$/.test(coverage.country))) ||
+        !coverage.tracked || [coverage.tracked.customs_fee, coverage.tracked.import_control].some(n => !Number.isSafeInteger(n) || n < 0) ||
+        !Array.isArray(coverage.warnings) || coverage.warnings.length > 10_000)
+      throw new Error("INVALID_DATA_REVIEW_REPORT");
+    const ids = new Set<string>();
+    const counts = { customs_fee: 0, import_control: 0 };
+    for (const row of coverage.warnings) {
+      if (!row || !["customs_fee", "import_control"].includes(row.kind) ||
+          typeof row.id !== "string" || !/^[a-z][a-z0-9_]{2,79}$/.test(row.id) ||
+          !Array.isArray(row.countries) || !row.countries.length || row.countries.length > 250 ||
+          row.countries.some(c => typeof c !== "string" || !/^[A-Z]{2}$/.test(c)) ||
+          new Set(row.countries).size !== row.countries.length || !validDate(row.referenceThrough) ||
+          ids.has(row.kind + ":" + row.id))
+        throw new Error("INVALID_DATA_REVIEW_REPORT");
+      ids.add(row.kind + ":" + row.id);
+      counts[row.kind]++;
+      if (counts[row.kind] > coverage.tracked[row.kind]) throw new Error("INCONSISTENT_DATA_REVIEW_REPORT");
+      const status = row.referenceThrough < report.date ? "expired" : row.referenceThrough === report.date ? "ends_today" : "upcoming";
+      if (row.status !== status || row.referenceThrough > report.warnThrough ||
+          (coverage.country !== null && !row.countries.includes(coverage.country)))
+        throw new Error("INCONSISTENT_DATA_REVIEW_REPORT");
+    }
+  }
+  const warnings = coverage?.warnings ?? [];
+  const due = warnings.filter(row => row.status !== "upcoming").length + report.primarySourcesDue.length + report.activeRulesDue.length + report.classificationSourcesDue.length +
     report.unobservedSources.length + report.unobservedActiveRules.length + report.unobservedClassificationSources.length;
-  const upcoming = report.primarySourcesUpcoming.length + report.activeRulesUpcoming.length + report.classificationSourcesUpcoming.length;
+  const upcoming = warnings.filter(row => row.status === "upcoming").length + report.primarySourcesUpcoming.length + report.activeRulesUpcoming.length + report.classificationSourcesUpcoming.length;
   const expected = due ? "due" : upcoming ? "upcoming" : "clear";
   if (report.status !== expected) throw new Error("INCONSISTENT_DATA_REVIEW_REPORT");
   return report;
@@ -89,6 +118,9 @@ function fingerprint(report: DataReviewReport): string {
     rules: [...report.activeRulesDue, ...report.activeRulesUpcoming],
     classificationSources: [...report.classificationSourcesDue, ...report.classificationSourcesUpcoming],
     classificationScope: report.classificationScope,
+    // A standing coverage alert can keep the overall status due as another source becomes due.
+    dueSources: report.primarySourcesDue.map(row => row.id), dueRules: report.activeRulesDue.map(row => row.id),
+    dueClassification: report.classificationSourcesDue.map(row => row.id), references: report.referenceCoverage?.warnings,
     unobservedClassificationSources: report.unobservedClassificationSources,
     unobservedSources: report.unobservedSources, unobservedRules: report.unobservedActiveRules,
   })).digest("hex");
@@ -96,6 +128,7 @@ function fingerprint(report: DataReviewReport): string {
 
 function issueBody(report: DataReviewReport, runUrl: string): string {
   const lines = [reviewIssueMarker, `<!-- review-fingerprint:${fingerprint(report)} -->`,
+    ...(report.referenceCoverage ? [referenceMonitorMarker] : []),
     "# Customs data review", "", `Checked: ${report.date} (JST). Status: **${report.status}**.`, "",
     `Warning window: ${report.warningDays} days. Dataset: \`${report.ruleSetVersion.replaceAll("`", "")}\`.`, ""];
   const group = (title: string, entries: { id: string; reviewBy?: string; checkedOn?: string; dueOn?: string; effectiveThrough?: string }[]) => {
@@ -118,6 +151,24 @@ function issueBody(report: DataReviewReport, runUrl: string): string {
   group("Classification sources due today", report.classificationSourcesDueToday);
   group("Upcoming classification sources", report.classificationSourcesUpcoming);
   group("Future classification confirmations", report.unobservedClassificationSources);
+  if (report.referenceCoverage) {
+    const priority = (countries: string[]) => countries.includes("JP") ? 0 :
+      countries.some(c => c === "US" || c === "CN") ? 1 : 2;
+    for (const kind of ["customs_fee", "import_control"] as const) {
+      const rows = report.referenceCoverage.warnings.filter(row => row.kind === kind)
+        .sort((a, b) => priority(a.countries) - priority(b.countries) ||
+          a.referenceThrough.localeCompare(b.referenceThrough) || a.id.localeCompare(b.id));
+      if (!rows.length) continue;
+      const title = kind === "customs_fee" ? "Customs fee" : "Import control";
+      lines.push(`## ${title} reference windows (${rows.length})`, "");
+      for (const row of rows.slice(0, 12)) {
+        lines.push(`- \`${row.id}\` (${row.countries.join(", ")}): ${row.status.replace("_", " ")}; coverage through ${row.referenceThrough} inclusive.`);
+      }
+      if (rows.length > 12) lines.push(`- ${rows.length - 12} more in the JSON report.`);
+      lines.push("");
+    }
+    lines.push("Reference dates describe the bundled data coverage. Recheck the official sources to confirm the law in force.", "");
+  }
   lines.push("Review the primary evidence and submit a reviewed data update. This check never extends deadlines or approves data.", "",
     `Scope: repository primary sources and currently effective rules; classification sources: ${report.classificationScope}. Private approval events, tariff packs and newly published legal changes are not monitored by this workflow.`, "",
     `[Workflow run and JSON report](${runUrl})`, "");
@@ -130,6 +181,8 @@ export async function updateReviewIssue(
   options: { repository: string; token: string; runUrl: string; fetch?: Fetch },
 ): Promise<{ action: "created" | "updated" | "reopened" | "closed" | "clear"; issueNumber?: number }> {
   const report = parseNotificationReport(value);
+  if (report.referenceCoverage?.country)
+    throw new Error("COUNTRY_FILTERED_REPORT_CANNOT_UPDATE_GLOBAL_ISSUE");
   if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(options.repository) || !options.token ||
       !/^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/actions\/runs\/\d+$/.test(options.runUrl))
     throw new Error("INVALID_REVIEW_NOTIFICATION_CONTEXT");
@@ -154,6 +207,8 @@ export async function updateReviewIssue(
   }
   if (existing.length > 1) throw new Error("MULTIPLE_DATA_REVIEW_TRACKING_ISSUES");
   const issue = existing[0];
+  if (!report.referenceCoverage && issue?.body?.includes(referenceMonitorMarker))
+    throw new Error("LEGACY_REPORT_CANNOT_REPLACE_REFERENCE_COVERAGE");
   if (!issue && report.status === "clear") return { action: "clear" };
   const body = issueBody(report, options.runUrl);
   const title = report.status === "clear" ? "Customs data review: resolved" :

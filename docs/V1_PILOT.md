@@ -30,6 +30,24 @@ v1.0.0-rc.1には、日本・中国本土・米国を結ぶ6方向のB2C見積�
 | 中国本土 | 通常輸入の関税評価額・関税・消費税・増値税を確認し、越境EC特例の利用は手続担当に照会する。 [増値税法](https://gss.mof.gov.cn/gszhs/falvlagui/202603/t20260313_3985256.htm) ・ [海関総署令第272号](https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_68923263bddd4e95b6b5d98a93987be2.html) |
 | 米国 | 申告価格、HTSUSの適用欄、追加措置、通関方式別の手数料を確認する。 [CBPの申告価格案内](https://www.help.cbp.gov/s/article/Article-1162?language=en_US) ・ [米国国際貿易委員会の税表](https://hts.usitc.gov/) ・ [CBPの手数料告示](https://public-inspection.federalregister.gov/2026-15530.pdf) |
 
+## 中国本土から日本への1明細の税額計算
+
+既存の `POST /v1/pilot/quote`、`pilot-quote` CLIとSDKで、関税と輸入消費税の2行の `method` を `japan_single_line_standard` にすると、購入前に確認した課税価格と税表から両費目を計算します。その他の5費目には従来どおり各費目の根拠を用意します。
+
+| 項目 | 確認して渡す値 |
+| --- | --- |
+| 貨物 | 中国本土製造・発送・船積、日本の通常領域に直接到着する通常輸入B2Cの航空貨物・宅配。一般商品1明細、合算範囲確認済み。実際の申告単位が1申告1明細であることを確認して `shipment.japanDeclaration.singleLineConfirmed` を設定。 |
+| 課税価格・分類 | 通関用に確認した円建ての課税価格を `shipment.customsValue` に指定。`taxEvidenceConfirmed` と商品 `standardTaxConfirmed` は日本の標準課税を確認した場合に設定。確認したHS6と一致する日本の9桁輸入統計品目番号、`rateTreatment: "mfn"` を明細に指定。 |
+| 税表 | 実行環境に読み込んだ税表で、輸入日に有効な当該国内細分・原産地・WTO税率欄の従価税率を特定。`customs_duty` の根拠には当該商品にこの税率を使うことを確認した記録を添付。署名承認した税表の設定は[更新手順](TARIFF_UPDATE_OPERATIONS.md)参照。 |
+| 関税・輸入消費税 | 両行にそれぞれ `method: "japan_single_line_standard"`、`timing: "import"`、負担者、確認期限付きの `evidence` を指定。`shipment.japanDeclaration.dutySchedule` に `"ordinary"` を指定。申告全体について輸入者が一般の関税率を選択したと確認できた場合は `"ordinary_elected"` を使用。両行の `amount` や `ratePercent` の入力は不要。 |
+| 保留条件 | 課税価格1万円以下はこの計算経路を保留。1万円超20万円以下で一般税率を希望する確認がない場合、軽減税率、郵便、特恵、従量・複合税、複数明細も対象外。追加関税と物品税は現行根拠付きの `not_applicable` が両方必要。運送会社手数料は独立した費目。基本税率欄がWTO欄より低い場合、暫定税率・数量枠、同順位の重複税表、輸入時の別税目・追加措置の候補がある場合は担当者確認へ戻します。 |
+
+根拠は日本税関の[計算図（1111）](https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1111.pdf)、[簡易税率と一般税率選択（1001）](https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1001_jr.htm)、[少額免税の対象範囲（1006）](https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1006_jr.htm)です。[税率決定の順序](https://www.customs.go.jp/tariff/mikata/mikata2_ex.htm)と、輸入消費税の課税標準に関税額・他の個別消費税を含める[国税庁の説明](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6563.htm)を参照します。各根拠の再確認期限を超えた見積もりは保留します。
+
+この計算は課税価格の千円未満を切り捨て、従価税率を掛けて関税額の百円未満を切り捨てます。元の課税価格にこの関税を加え、千円未満を切り捨てて国税消費税の課税標準とします。7.8%の国税消費税を百円単位で切り捨て、その国税額の22/78を百円単位で切り捨てて地方消費税を算出します。応答には2つの課税標準、税表ID、計算根拠URL、国・地方の内訳を含みます。例えば税関の計算例Aを1明細だけで申告する試験では、課税価格534,795円・税率14%に対し、関税74,700円、国税47,500円、地方税13,300円です。税関の原例の末尾はAとBを合算しており、この1明細試験とは集計単位が異なります。
+
+`node --test tests/japan-import-tax.test.ts` で合成税表と注文を使って境界と内訳を検証できます。[中国→日本の入力例](../examples/pilot-quote-cn-jp-standard.json)は、一般税率の選択、申告明細、料金の根拠がそろったと仮定した合成注文です。輸入日に有効な国内税番・税率を含む試験税表を設定した状態で `npm run cli -- pilot-quote examples/pilot-quote-cn-jp-standard.json 2026-11-25T00:00:00Z` を実行します。税表を追加していない公開構成では金額を保留します。購入前計算の控えと、後日受領した実請求は別々に保管してください。
+
 ## ECに接続する
 
 `quoteVeygritOrder` は既存の注文・住所利用許可ポートを使います。 `loadOrder` が返す `PilotOrderSnapshot.pilotQuote` に見積もりID、根拠、確認済みの貨物ダイジェストを登録します。注文版・住所版・許可期限を照合し、同じ注文状態から得た通関準備結果を通関担当へ引き継ぎます。

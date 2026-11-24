@@ -1,0 +1,130 @@
+{
+  "reviewedOn": "2026-11-25",
+  "timezone": "Asia/Tokyo",
+  "baseDataset": "2026-11-22.v12",
+  "dataset": "2026-11-25.v13",
+  "reviewBy": "2026-12-02",
+  "scope": "registered evidence and existing conditional EU duty estimate",
+  "productionAuthorized": false,
+  "ruleId": "EU_TEMP_LOW_VALUE",
+  "sources": [
+    {
+      "sourceId": "primary-eu-law",
+      "registeredUrl": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
+      "reviewedUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32026R0382"
+      ],
+      "sections": "Articles 2–4",
+      "findingJa": "IOSSの免税輸入または法令の定めるpostal consignmentについて、本体価格合計150ユーロ以下では申告itemごと3ユーロ。適用期間は2026-07-01以上2028-07-01未満。"
+    },
+    {
+      "sourceId": "primary-eu-guidance",
+      "registeredUrl": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+      "reviewedUrls": [
+        "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+        "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en"
+      ],
+      "sections": "Commission FAQ: goods affected; how the duty is calculated",
+      "findingJa": "FAQの金額・閾値と距離販売の説明を、改革ページと最終法令に照合。記事中の手数料の提案段階という表現は現在の徴収根拠に使用しない。"
+    },
+    {
+      "sourceId": "primary-us-de-minimis",
+      "registeredUrl": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
+      "reviewedUrls": [
+        "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+      ],
+      "sections": "Executive Order 14388 §§2, 3, 5(a)",
+      "findingJa": "2月24日00:01 ESTの適用、50 USC 1702(b)の除外、郵便の暫定手続を確認。暫定郵便税率を現在の税率として計算しない。"
+    },
+    {
+      "sourceId": "primary-eu-declaration-item",
+      "registeredUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng",
+      "reviewedUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1789871408756&uri=CELEX%3A32026R1022",
+        "https://eur-lex.europa.eu/eli/reg_del/2026/1022/corrigendum/2026-07-03/oj/eng"
+      ],
+      "sections": "Regulation 2026/1022 Art. 1(1)(a)–(b), 2(2)–(3)",
+      "findingJa": "距離販売の定義、特恵等の除外、分類・明細記述・必要な場合の原産地によるitemの区別を確認。郵便輸送だけで対象にしない。PIDの11月施行を維持。"
+    },
+    {
+      "sourceId": "primary-eu-union-handling-fee",
+      "registeredUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
+      "reviewedUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202602152",
+        "https://publications.europa.eu/resource/cellar/b3db5c06-d339-11f1-9458-01aa75ed71a1.0006.01/DOC_1"
+      ],
+      "sections": "Regulation 2026/2152 Arts. 1–2; implementing Regulation 2026/2403 Arts. 1(3), 2",
+      "findingJa": "11月1日から対象の1 itemにつき2ユーロ。申告コードF00を関税から区別し、費用・VAT・購入者総額の自動確定は保留。"
+    },
+    {
+      "sourceId": "primary-us-nonpostal-suspension",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm",
+      "reviewedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm",
+        "https://www.ecfr.gov/current/title-19/chapter-I/part-10/section-10.151"
+      ],
+      "sections": "91 FR 37789: SUMMARY, DATES, amendments to 19 CFR 10.151",
+      "findingJa": "6月24日発効の非郵便の少額免税停止と、正式・略式申告への振り分けを確認。800ドル以下の一律免税を提示しない。"
+    },
+    {
+      "sourceId": "primary-us-postal-suspension",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm",
+      "reviewedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm",
+        "https://www.ecfr.gov/current/title-19/chapter-I/part-145/subpart-B/section-145.12"
+      ],
+      "sections": "91 FR 37801: DATES; 19 CFR 145.12, 145.31",
+      "findingJa": "免税停止は6月24日、新たな郵便手続は7月24日。2,500ドル以下でも除外条件を確認する。"
+    },
+    {
+      "sourceId": "primary-us-postal-delayed-compliance",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
+      "reviewedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm"
+      ],
+      "sections": "91 FR 66638: DATES and §I",
+      "findingJa": "145.12(a)(2)(v)・(vi)に限って遵守期限を2027-01-20に延期。免税停止・他の正式申告要件の変更には使用しない。"
+    },
+    {
+      "sourceId": "primary-eu-duty-handling-guidance",
+      "registeredUrl": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
+      "reviewedUrls": [
+        "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf"
+      ],
+      "sections": "Commission guidance, 5 Oct 2026: §§3, 5.2–5.4, 8, Annex",
+      "findingJa": "申告行単位の計算、特恵が適用されるH1等の扱い、PIDの確認範囲を照合。取引の確認済み適用条件・申告明細数を要求。"
+    },
+    {
+      "sourceId": "primary-us-postal-entry13-modification",
+      "registeredUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm",
+      "reviewedUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm"
+      ],
+      "sections": "91 FR 66707: supplementary information, Modification to Test",
+      "findingJa": "10月22日から試行中の適格な申告について電子PGAデータ未完備の送信を暫定受理。終了は将来の官報告示。PGAの実体要件を免除しない。"
+    }
+  ],
+  "usPublicationChecks": [
+    {
+      "publicationDate": "2026-11-23",
+      "officialContents": "https://www.govinfo.gov/content/pkg/FR-2026-11-23/html/FR-2026-11-23-FrontMatter.htm",
+      "contentsSha256": "6139117ec24e76e50dfba5d351ae7c08d0c72d0dcd2f432b32ee095afedfa063",
+      "dailyApi": "https://www.federalregister.gov/api/v1/documents.json?per_page=200&conditions%5Bpublication_date%5D%5Bis%5D=2026-11-23",
+      "documentCount": 91,
+      "cbpDocumentNumbers": [
+        "2026-23795"
+      ]
+    },
+    {
+      "publicationDate": "2026-11-24",
+      "officialContents": "https://www.govinfo.gov/content/pkg/FR-2026-11-24/html/FR-2026-11-24-FrontMatter.htm",
+      "contentsSha256": "110d0fe3469a1f73be4221c9c2656af77ea341934b6b1386f5bede1ef5f8640c",
+      "fullIssueXml": "https://www.govinfo.gov/content/pkg/FR-2026-11-24/xml/FR-2026-11-24.xml",
+      "xmlSha256": "c84a3e7840cd006b84b19c9c2a94aba019aedad36308c6ff55d3fb78db0d6483",
+      "dailyApi": "https://www.federalregister.gov/api/v1/documents.json?per_page=200&conditions%5Bpublication_date%5D%5Bis%5D=2026-11-24",
+      "documentCount": 122,
+      "cbpDocumentNumbers": []
+    }
+  ]
+}

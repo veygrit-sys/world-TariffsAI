@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
-      report: ${{ steps.report.outputs.report }}
+      artifact_id: ${{ steps.artifact.outputs.artifact-id }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -25,7 +25,6 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts
       - name: Inspect current deadlines
-        id: report
         shell: bash
         run: |
           set +e
@@ -37,18 +36,18 @@ jobs:
             exit "$review_status"
           fi
           node --input-type=module <<'JS'
-          import { appendFileSync, readFileSync } from 'node:fs';
+          import { readFileSync } from 'node:fs';
           const report = JSON.parse(readFileSync('data-review.json', 'utf8'));
           if (report.status !== 'clear') console.log('::warning::Customs data review status: ' + report.status + '. See the summary and tracking issue.');
-          appendFileSync(process.env.GITHUB_OUTPUT, 'report=' + Buffer.from(JSON.stringify(report)).toString('base64') + '\n');
           JS
       - name: Preserve deadline report
+        id: artifact
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          name: customs-data-review
+          name: customs-data-review-${{ github.run_attempt }}
           path: data-review.json
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 30
   notify:
     needs: review
@@ -66,16 +65,13 @@ jobs:
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: 24.22.1
+      - name: Download this check's deadline report
+        uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
+        with:
+          artifact-ids: ${{ needs.review.outputs.artifact_id }}
+          path: ${{ runner.temp }}/review-report
+          merge-multiple: true
       - name: Update a single review tracking issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REVIEW_REPORT_BASE64: ${{ needs.review.outputs.report }}
-        shell: bash
-        run: |
-          node --input-type=module <<'JS'
-          import { writeFileSync } from 'node:fs';
-          const encoded = process.env.REVIEW_REPORT_BASE64;
-          if (!encoded) throw new Error('MISSING_DATA_REVIEW_REPORT');
-          writeFileSync('data-review.json', Buffer.from(encoded, 'base64'));
-          JS
-          node scripts/update-review-issue.ts data-review.json
+        run: node scripts/update-review-issue.ts "$RUNNER_TEMP/review-report/data-review.json"

@@ -1,0 +1,233 @@
+{
+  "version": "jp-stationery-20261125-v1",
+  "sources": [
+    {
+      "id": "jp-import-96-20261031-pilot",
+      "title": "日本税関 実行関税率表・第96類（2026年10月31日版）",
+      "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+      "kind": "tariff_schedule",
+      "referenceBasis": "official_reference",
+      "countries": [
+        "JP"
+      ],
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "checkedOn": "2026-11-25",
+      "reviewBy": "2026-12-02",
+      "effectiveFrom": "2026-11-25",
+      "effectiveThrough": "2026-12-02",
+      "terms": "財務省税関の2026年10月31日版第96類を加工。利用規約は https://www.customs.go.jp/kyotsu/rules.htm を参照。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "jp-pilot-porous-marker",
+      "title": "単機能の筆記用マーカー（浸透性ペン先）",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "960820",
+      "nationalCode": "960820000",
+      "tariffEdition": "Japan Customs 2026-10-31",
+      "keywords": [
+        "マーカー",
+        "フェルトペン",
+        "marker"
+      ],
+      "requiredAttributes": [
+        "function",
+        "construction",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "function": [
+          "紙への筆記"
+        ],
+        "construction": [
+          "浸透性のペン先"
+        ],
+        "presentation": [
+          "単一機能の単品"
+        ]
+      },
+      "questions": {
+        "function": "仕様書に記載された用途は何ですか。",
+        "construction": "ペン先・芯・さや・駆動方式など、商品構造を確認してください。",
+        "presentation": "異種商品とのセットや複合機能があるか、単一機能の品を単独で輸入するか確認してください。"
+      },
+      "sourceIds": [
+        "jp-import-96-20261031-pilot"
+      ],
+      "rationale": "単品の筆記用マーカーについてインクが浸透するペン先の構造を照合する。"
+    },
+    {
+      "id": "jp-pilot-black-pencil",
+      "title": "木軸の黒芯鉛筆",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "960910",
+      "nationalCode": "960910010",
+      "tariffEdition": "Japan Customs 2026-10-31",
+      "keywords": [
+        "鉛筆",
+        "pencil"
+      ],
+      "requiredAttributes": [
+        "function",
+        "construction",
+        "core_color",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "function": [
+          "紙への筆記"
+        ],
+        "construction": [
+          "木製の硬いさやに固定した芯"
+        ],
+        "core_color": [
+          "黒色"
+        ],
+        "presentation": [
+          "単一機能の単品"
+        ]
+      },
+      "questions": {
+        "function": "仕様書に記載された用途は何ですか。",
+        "construction": "ペン先・芯・さや・駆動方式など、商品構造を確認してください。",
+        "core_color": "芯自体は黒色ですか。黒以外の色ですか。",
+        "presentation": "異種商品とのセットや複合機能があるか、単一機能の品を単独で輸入するか確認してください。"
+      },
+      "sourceIds": [
+        "jp-import-96-20261031-pilot"
+      ],
+      "rationale": "機械繰出式を除き、固定した芯と芯自体の色で統計細分を区別する。"
+    },
+    {
+      "id": "jp-pilot-color-pencil",
+      "title": "木軸の色鉛筆（黒以外）",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "960910",
+      "nationalCode": "960910090",
+      "tariffEdition": "Japan Customs 2026-10-31",
+      "keywords": [
+        "鉛筆",
+        "pencil"
+      ],
+      "requiredAttributes": [
+        "function",
+        "construction",
+        "core_color",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "function": [
+          "紙への描画"
+        ],
+        "construction": [
+          "木製の硬いさやに固定した芯"
+        ],
+        "core_color": [
+          "赤色",
+          "青色",
+          "緑色"
+        ],
+        "presentation": [
+          "単一機能の単品"
+        ]
+      },
+      "questions": {
+        "function": "仕様書に記載された用途は何ですか。",
+        "construction": "ペン先・芯・さや・駆動方式など、商品構造を確認してください。",
+        "core_color": "芯自体は黒色ですか。黒以外の色ですか。",
+        "presentation": "異種商品とのセットや複合機能があるか、単一機能の品を単独で輸入するか確認してください。"
+      },
+      "sourceIds": [
+        "jp-import-96-20261031-pilot"
+      ],
+      "rationale": "有色芯のうち仕様を確認した赤・青・緑だけを対象にする。"
+    },
+    {
+      "id": "jp-pilot-refill-lead",
+      "title": "筆記用鉛筆の替芯",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "960920",
+      "nationalCode": "960920000",
+      "tariffEdition": "Japan Customs 2026-10-31",
+      "keywords": [
+        "替芯",
+        "鉛筆芯",
+        "pencil lead"
+      ],
+      "requiredAttributes": [
+        "function",
+        "construction",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "function": [
+          "鉛筆の替芯"
+        ],
+        "construction": [
+          "さやのない固形の鉛筆芯"
+        ],
+        "presentation": [
+          "単一機能の単品"
+        ]
+      },
+      "questions": {
+        "function": "仕様書に記載された用途は何ですか。",
+        "construction": "ペン先・芯・さや・駆動方式など、商品構造を確認してください。",
+        "presentation": "異種商品とのセットや複合機能があるか、単一機能の品を単独で輸入するか確認してください。"
+      },
+      "sourceIds": [
+        "jp-import-96-20261031-pilot"
+      ],
+      "rationale": "ペン用インクカートリッジを除き、単独の鉛筆用芯を照合する。"
+    },
+    {
+      "id": "jp-pilot-manual-date-stamp",
+      "title": "事務用の手動日付印",
+      "country": "JP",
+      "direction": "import",
+      "hsEdition": "HS2022",
+      "hs6": "961100",
+      "nationalCode": "961100000",
+      "tariffEdition": "Japan Customs 2026-10-31",
+      "keywords": [
+        "日付印",
+        "date stamp"
+      ],
+      "requiredAttributes": [
+        "function",
+        "construction",
+        "presentation"
+      ],
+      "attributeConditions": {
+        "function": [
+          "日付の押印"
+        ],
+        "construction": [
+          "手動の押印機構"
+        ],
+        "presentation": [
+          "単一機能の単品"
+        ]
+      },
+      "questions": {
+        "function": "仕様書に記載された用途は何ですか。",
+        "construction": "ペン先・芯・さや・駆動方式など、商品構造を確認してください。",
+        "presentation": "異種商品とのセットや複合機能があるか、単一機能の品を単独で輸入するか確認してください。"
+      },
+      "sourceIds": [
+        "jp-import-96-20261031-pilot"
+      ],
+      "rationale": "日付を押印する書類用の単品で、電動印字機や交換部品を除く。"
+    }
+  ]
+}

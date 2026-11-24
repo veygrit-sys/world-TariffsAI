@@ -4,8 +4,10 @@ import { createDataReviewReport } from "../src/data-review.ts";
 import { parseNotificationReport, reviewIssueMarker, updateReviewIssue } from "../scripts/update-review-issue.ts";
 import { data } from "./helpers.ts";
 
+const base = { ...data, customsFeeReferences: [], importControlReferences: [], sources: [], rules: [] };
+
 function report(date = "2026-11-18") {
-  return createDataReviewReport({ ...data, rules: [], sources: [{ id: "source", title: "source",
+  return createDataReviewReport({ ...base, sources: [{ id: "source", title: "source",
     url: "https://example.test/source", checkedOn: "2026-11-01", reviewBy: "2026-11-20", verification: "primary_rechecked" }] }, { date });
 }
 function github() {
@@ -45,7 +47,7 @@ test("notifier creates one issue, updates unchanged runs without comments, alert
 
 test("review resolution closes the issue; repeated clear is inert; recurrence reopens the same issue", async () => {
   const api = github();
-  const clear = createDataReviewReport({ ...data, sources: [], rules: [] }, { date: "2026-11-18" });
+  const clear = createDataReviewReport(base, { date: "2026-11-18" });
   assert.deepEqual(await updateReviewIssue(clear, api.options), { action: "clear" });
   assert.equal(api.calls.length, 1);
   await updateReviewIssue(report(), api.options);
@@ -86,7 +88,7 @@ test("ambiguous duplicate tracking issues fail rather than updating unrelated re
 });
 
 function classificationReport(date = "2026-11-18") {
-  return createDataReviewReport({ ...data, sources: [], rules: [] }, { date, classificationSources: [{
+  return createDataReviewReport(base, { date, classificationSources: [{
     id: "classification-source", title: "Classification source", url: "https://example.test/classification",
     kind: "classification_ruling", countries: ["JP"], direction: "import", hsEdition: "HS2022",
     checkedOn: "2026-11-01", reviewBy: "2026-12-01", effectiveFrom: "2026-11-01",
@@ -107,7 +109,7 @@ test("classification warnings create and retain an alert until catalog problems 
   const invalid = { ...classificationReport("2026-11-20"), classificationSourcesDue: [] };
   await assert.rejects(updateReviewIssue(invalid, api.options), /DATA_REVIEW_REPORT/);
   assert.equal(api.issues[0]!.state, "open");
-  const resolved = createDataReviewReport({ ...data, sources: [], rules: [] }, { date: "2026-11-20", classificationSources: [] });
+  const resolved = createDataReviewReport(base, { date: "2026-11-20", classificationSources: [] });
   assert.equal((await updateReviewIssue(resolved, api.options)).action, "closed");
 });
 
@@ -118,7 +120,7 @@ test("v2 classification fields cannot be omitted or downgraded; unextended v1 re
   assert.throws(() => parseNotificationReport(missing), /DATA_REVIEW_REPORT/);
   assert.throws(() => parseNotificationReport({ ...current, reportVersion: 1 }), /DATA_REVIEW_REPORT/);
   const legacy: Record<string, unknown> = { ...report(), reportVersion: 1 };
-  for (const key of ["classificationSourcesDue", "classificationSourcesDueToday", "classificationSourcesExpired", "classificationSourcesUpcoming", "unobservedClassificationSources", "classificationScope"])
+  for (const key of ["classificationSourcesDue", "classificationSourcesDueToday", "classificationSourcesExpired", "classificationSourcesUpcoming", "unobservedClassificationSources", "classificationScope", "referenceCoverage"])
     delete legacy[key];
   const parsed = parseNotificationReport(legacy);
   assert.equal(parsed.reportVersion, 2);
@@ -138,4 +140,54 @@ test("classification deadline metadata and partition membership must agree", () 
   }
   const wrongPartition = { ...current, classificationSourcesDueToday: current.classificationSourcesUpcoming };
   assert.throws(() => parseNotificationReport(wrongPartition), /DATA_REVIEW_REPORT/);
+});
+
+test("reference alerts identify covered countries, persist through source refresh and deduplicate unchanged runs", async () => {
+  const api = github();
+  const fee = { ...data.customsFeeReferences![0]!, id: "fee_jp", countries: ["JP"], referenceThrough: "2026-11-15" };
+  const dataset = { ...base, customsFeeReferences: [fee] };
+  const snapshot = createDataReviewReport(dataset, { date: "2026-11-18" });
+  await updateReviewIssue(snapshot, api.options);
+  assert.match(api.issues[0]!.body, /Customs fee reference windows \(1\)/);
+  assert.match(api.issues[0]!.body, /fee_jp.*JP.*expired.*2026-11-15/);
+  await updateReviewIssue(createDataReviewReport(dataset, { date: "2026-11-19" }), api.options);
+  assert.equal(api.comments.length, 0);
+  const future = { ...dataset, customsFeeReferences: [{ ...fee, referenceThrough: "2026-12-15" }] };
+  assert.equal((await updateReviewIssue(createDataReviewReport(future, { date: "2026-11-19" }), api.options)).action, "closed");
+});
+
+test("scope, version, data and inclusive dates must agree before a coverage notification", async () => {
+  const api = github();
+  const snapshot = createDataReviewReport(data, { date: "2026-11-25" });
+  const coverage = snapshot.referenceCoverage!;
+  const row = coverage.warnings[0]!;
+  for (const invalid of [
+    { ...snapshot, referenceCoverage: undefined }, { ...snapshot, reportVersion: 2 },
+    ...[{ ...row, status: "ends_today" }, { ...row, countries: ["JP", "JP"] }, { ...row, referenceThrough: "bad" }]
+      .map(bad => ({ ...snapshot, referenceCoverage: { ...coverage, warnings: [bad] } })),
+    { ...snapshot, referenceCoverage: { ...coverage, warnings: [row, row] } },
+  ]) await assert.rejects(updateReviewIssue(invalid, api.options), /DATA_REVIEW_REPORT/);
+  await assert.rejects(updateReviewIssue(createDataReviewReport(data, { date: "2026-11-25", referenceCountry: "JP" }), api.options), /FILTERED_REPORT/);
+  assert.equal(api.calls.length, 0);
+  await updateReviewIssue(snapshot, api.options);
+  const legacy: Record<string, unknown> = { ...createDataReviewReport(base, { date: "2026-11-25" }), reportVersion: 2 };
+  delete legacy.referenceCoverage;
+  assert.equal(parseNotificationReport(legacy).reportVersion, 2);
+  await assert.rejects(updateReviewIssue(legacy, api.options), /LEGACY_REPORT/);
+  assert.equal(api.issues[0]!.state, "open");
+});
+
+test("a standing coverage warning does not mask a newly due primary source", async () => {
+  const api = github();
+  const dataset = { ...base, customsFeeReferences: [data.customsFeeReferences![0]!], sources: [{
+    id: "upcoming", title: "Source", url: "https://example.test/source", verification: "primary_rechecked" as const,
+    checkedOn: "2026-11-14", reviewBy: "2026-11-20",
+  }] };
+  for (const date of ["2026-11-19", "2026-11-20", "2026-11-21"]) {
+    const result = createDataReviewReport(dataset, { date });
+    assert.equal(result.status, "due");
+    await updateReviewIssue(result, api.options);
+  }
+  assert.equal(api.comments.length, 1);
+  assert.match(api.comments[0]!, /2026-11-20/);
 });

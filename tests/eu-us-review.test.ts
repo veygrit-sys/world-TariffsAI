@@ -12,7 +12,8 @@ const targetIds = [
   "primary-eu-law", "primary-eu-guidance", "primary-eu-declaration-item",
   "primary-eu-union-handling-fee", "primary-us-de-minimis",
   "primary-us-nonpostal-suspension", "primary-us-postal-suspension",
-  "primary-us-postal-delayed-compliance",
+  "primary-us-postal-delayed-compliance", "primary-eu-duty-handling-guidance",
+  "primary-us-postal-entry13-modification",
 ];
 
 // Regulation 2026/1022 Art 1(1)(a), Art 2(2)-(3): the changed definition
@@ -51,22 +52,28 @@ test("EU quantity, exact threshold, PID date and unresolved UHF remain separate"
   assert.equal(assess(request, data, reviewedAt).charges.length, 0);
 });
 
-test("all eight monitored deadlines and original confirmation dates are preserved", () => {
+test("the November 25 audit covers every renewed source and preserves first observation dates", () => {
   const originalCheckedOn: Record<string, string> = {
     "primary-eu-law": "2026-11-11", "primary-eu-guidance": "2026-11-11",
     "primary-us-de-minimis": "2026-11-11",
+    "primary-eu-duty-handling-guidance": "2026-11-22",
+    "primary-us-postal-entry13-modification": "2026-11-22",
   };
+  const audit = JSON.parse(readFileSync(new URL("../docs/EU_US_SOURCE_REVIEW_20261125.json", import.meta.url), "utf8"));
+  assert.deepEqual(audit.sources.map((row: {sourceId: string}) => row.sourceId).sort(), [...targetIds].sort());
+  assert.equal(audit.reviewedOn, "2026-11-25");
+  assert.equal(audit.dataset, data.version);
+  assert.equal(audit.reviewBy, "2026-12-02");
   for (const id of targetIds) {
     const source = data.sources.find(row => row.id === id)!;
-    assert.equal(source.reviewBy, "2026-11-25", id);
+    assert.equal(source.reviewBy, audit.reviewBy, id);
     assert.equal(source.checkedOn, originalCheckedOn[id] ?? "2026-11-12", id);
   }
   const rule = data.rules.find(row => row.id === "EU_TEMP_LOW_VALUE")!;
-  assert.equal(rule.reviewBy, "2026-11-25");
+  assert.equal(rule.reviewBy, audit.reviewBy);
   assert.equal(rule.validFrom, "2026-07-01");
   assert.equal(rule.validTo, "2028-07-01");
-  const report = createDataReviewReport(data, { date: "2026-11-22" });
-  assert.equal(report.status, "upcoming");
+  const report = createDataReviewReport(data, { date: "2026-11-25" });
   assert.ok(targetIds.every(id => report.primarySourcesUpcoming.some(row => row.id === id)));
   assert.ok(report.activeRulesUpcoming.some(row => row.id === rule.id));
 });
@@ -74,8 +81,8 @@ test("all eight monitored deadlines and original confirmation dates are preserve
 test("EU fails closed at the JST review boundary even for a backdated import", () => {
   const request = shipment({ destinationCountry: "DE", currency: "EUR", regime: "ioss",
     importDate: "2026-11-22", euDeclaration: { itemCount: 1, countConfirmed: true } });
-  assert.equal(assess(request, data, new Date("2026-11-25T14:59:59Z")).charges.length, 1);
-  const expired = assess(request, data, new Date("2026-11-25T15:00:00Z"));
+  assert.equal(assess(request, data, new Date("2026-12-02T14:59:59Z")).charges.length, 1);
+  const expired = assess(request, data, new Date("2026-12-02T15:00:00Z"));
   assert.equal(expired.charges.length, 0);
   assert.ok(expired.findings.some(f => f.code === "RULE_NOT_CURRENT"));
 });
@@ -114,11 +121,11 @@ test("new postal transition evidence is unavailable before observation, after re
   }, data, undefined, now)).evidence.find(row => row.id === "us-postal-compliance-transition");
   assert.equal((await find("2026-11-22", new Date("2026-11-21T14:59:59Z")))?.expired, true);
   assert.equal((await find("2026-11-22", new Date("2026-11-21T15:00:00Z")))?.expired, false);
-  assert.equal((await find("2026-11-22", new Date("2026-11-25T15:00:00Z")))?.expired, true);
+  assert.equal((await find("2026-11-22", new Date("2026-12-02T15:00:00Z")))?.expired, true);
   assert.equal((await find("2027-01-20", reviewedAt))?.expired, true);
   assert.equal((await find("2026-10-21", reviewedAt))?.expired, true);
   // Isolate the transition end from the operational review expiry. This refresh
-  // is synthetic; no repository evidence deadline is extended.
+  // isolates the legal end from the current weekly review window.
   const synthetic = structuredClone(data);
   for (const source of synthetic.sources) source.reviewBy = "2027-02-01";
   for (const [importDate, expired] of [["2027-01-19", false], ["2027-01-20", true]] as const) {

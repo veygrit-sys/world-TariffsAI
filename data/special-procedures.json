@@ -4955,7 +4955,7 @@
       }
     ],
     "referenceFrom": "2026-11-12",
-    "referenceThrough": "2026-11-22"
+    "referenceThrough": "2026-11-25"
   },
   {
     "id": "us_postal_low_value_entry",
@@ -5021,7 +5021,7 @@
       }
     ],
     "referenceFrom": "2026-11-12",
-    "referenceThrough": "2026-11-22",
+    "referenceThrough": "2026-11-25",
     "limit": {
       "basis": "confirmed_customs_value",
       "currency": "USD",

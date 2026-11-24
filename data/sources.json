@@ -565,7 +565,7 @@
     "url": "https://eur-lex.europa.eu/eli/reg/2026/382/oj/eng",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-11",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-eu-guidance",
@@ -573,7 +573,7 @@
     "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-11",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-gb-sale",
@@ -685,7 +685,7 @@
     "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-11",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-wco-hs",
@@ -797,7 +797,7 @@
     "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1022/oj/eng",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-eu-union-handling-fee",
@@ -805,7 +805,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202602152",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-us-nonpostal-suspension",
@@ -813,7 +813,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12670.htm",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-us-postal-suspension",
@@ -821,7 +821,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12669.htm",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-us-postal-delayed-compliance",
@@ -829,7 +829,7 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21600.htm",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-12",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-eu-duty-handling-guidance",
@@ -837,7 +837,7 @@
     "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-22",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
   },
   {
     "id": "primary-us-postal-entry13-modification",
@@ -845,6 +845,38 @@
     "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-22/html/2026-21570.htm",
     "verification": "primary_rechecked",
     "checkedOn": "2026-11-22",
-    "reviewBy": "2026-11-25"
+    "reviewBy": "2026-12-02"
+  },
+  {
+    "id": "primary-jp-import-tax-calculation",
+    "title": "Japan Customs — Calculation and truncation of customs duty, national and local consumption tax (Answer 1111)",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX1111.pdf",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-25",
+    "reviewBy": "2026-12-25"
+  },
+  {
+    "id": "primary-jp-ordinary-duty-election",
+    "title": "Japan Customs — Simplified duty and election of ordinary tariff (Answer 1001)",
+    "url": "https://www.customs.go.jp/tetsuzuki/c-answer/imtsukan/1001_jr.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-25",
+    "reviewBy": "2026-12-25"
+  },
+  {
+    "id": "primary-jp-duty-rate-selection",
+    "title": "Japan Customs — Selection of statutory and WTO duty rates",
+    "url": "https://www.customs.go.jp/tariff/mikata/mikata2_ex.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-25",
+    "reviewBy": "2026-12-25"
+  },
+  {
+    "id": "primary-jp-import-consumption-base",
+    "title": "National Tax Agency — Taxable base for imported goods (No. 6563)",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6563.htm",
+    "verification": "primary_rechecked",
+    "checkedOn": "2026-11-25",
+    "reviewBy": "2026-12-25"
   }
 ]

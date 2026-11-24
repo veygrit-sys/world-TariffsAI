@@ -10427,6 +10427,26 @@
           "consignmentScopeConfirmed": {
             "type": "boolean"
           },
+          "japanDeclaration": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "singleLineConfirmed": {
+                "type": "boolean"
+              },
+              "dutySchedule": {
+                "type": "string",
+                "enum": [
+                  "ordinary",
+                  "ordinary_elected"
+                ]
+              }
+            },
+            "required": [
+              "singleLineConfirmed",
+              "dutySchedule"
+            ]
+          },
           "incoterm": {
             "type": "string",
             "enum": [
@@ -13804,6 +13824,26 @@
                   "consignmentScopeConfirmed": {
                     "type": "boolean"
                   },
+                  "japanDeclaration": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "singleLineConfirmed": {
+                        "type": "boolean"
+                      },
+                      "dutySchedule": {
+                        "type": "string",
+                        "enum": [
+                          "ordinary",
+                          "ordinary_elected"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "singleLineConfirmed",
+                      "dutySchedule"
+                    ]
+                  },
                   "incoterm": {
                     "type": "string",
                     "enum": [
@@ -14237,6 +14277,99 @@
                     "payer",
                     "method",
                     "amount"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "category": {
+                      "enum": [
+                        "customs_duty",
+                        "import_vat_gst"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                        },
+                        "sourceUrl": {
+                          "type": "string",
+                          "format": "uri",
+                          "pattern": "^https://",
+                          "maxLength": 2048
+                        },
+                        "destinationCountry": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{2}$"
+                        },
+                        "reviewedOn": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "effectiveFrom": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "effectiveThrough": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "reviewBy": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "sourceType": {
+                          "enum": [
+                            "authority",
+                            "customs_broker",
+                            "carrier",
+                            "merchant"
+                          ]
+                        },
+                        "currency": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "sourceUrl",
+                        "destinationCountry",
+                        "reviewedOn",
+                        "effectiveFrom",
+                        "effectiveThrough",
+                        "reviewBy",
+                        "sourceType",
+                        "currency"
+                      ]
+                    },
+                    "timing": {
+                      "enum": [
+                        "checkout",
+                        "import"
+                      ]
+                    },
+                    "payer": {
+                      "enum": [
+                        "buyer",
+                        "seller"
+                      ]
+                    },
+                    "method": {
+                      "const": "japan_single_line_standard"
+                    }
+                  },
+                  "required": [
+                    "category",
+                    "evidence",
+                    "timing",
+                    "payer",
+                    "method"
                   ]
                 },
                 {
@@ -14624,6 +14757,26 @@
                   "consignmentScopeConfirmed": {
                     "type": "boolean"
                   },
+                  "japanDeclaration": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "singleLineConfirmed": {
+                        "type": "boolean"
+                      },
+                      "dutySchedule": {
+                        "type": "string",
+                        "enum": [
+                          "ordinary",
+                          "ordinary_elected"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "singleLineConfirmed",
+                      "dutySchedule"
+                    ]
+                  },
                   "incoterm": {
                     "type": "string",
                     "enum": [
@@ -15057,6 +15210,99 @@
                     "payer",
                     "method",
                     "amount"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "category": {
+                      "enum": [
+                        "customs_duty",
+                        "import_vat_gst"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                        },
+                        "sourceUrl": {
+                          "type": "string",
+                          "format": "uri",
+                          "pattern": "^https://",
+                          "maxLength": 2048
+                        },
+                        "destinationCountry": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{2}$"
+                        },
+                        "reviewedOn": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "effectiveFrom": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "effectiveThrough": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "reviewBy": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "sourceType": {
+                          "enum": [
+                            "authority",
+                            "customs_broker",
+                            "carrier",
+                            "merchant"
+                          ]
+                        },
+                        "currency": {
+                          "type": "string",
+                          "pattern": "^[A-Z]{3}$"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "sourceUrl",
+                        "destinationCountry",
+                        "reviewedOn",
+                        "effectiveFrom",
+                        "effectiveThrough",
+                        "reviewBy",
+                        "sourceType",
+                        "currency"
+                      ]
+                    },
+                    "timing": {
+                      "enum": [
+                        "checkout",
+                        "import"
+                      ]
+                    },
+                    "payer": {
+                      "enum": [
+                        "buyer",
+                        "seller"
+                      ]
+                    },
+                    "method": {
+                      "const": "japan_single_line_standard"
+                    }
+                  },
+                  "required": [
+                    "category",
+                    "evidence",
+                    "timing",
+                    "payer",
+                    "method"
                   ]
                 },
                 {
@@ -15674,7 +15920,8 @@
                           "enum": [
                             "confirmed_amount",
                             "ad_valorem",
-                            "not_applicable"
+                            "not_applicable",
+                            "japan_single_line_standard"
                           ]
                         },
                         "taxBase": {
@@ -15697,7 +15944,48 @@
                           "type": "string"
                         },
                         "rounding": {
-                          "const": "half_up_minor_unit"
+                          "enum": [
+                            "half_up_minor_unit",
+                            "japan_statutory_single_line"
+                          ]
+                        },
+                        "tariffSnapshotId": {
+                          "type": "string"
+                        },
+                        "calculationSourceUrl": {
+                          "type": "string"
+                        },
+                        "nationalConsumptionTax": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "currency",
+                            "value"
+                          ],
+                          "properties": {
+                            "currency": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "localConsumptionTax": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "required": [
+                            "currency",
+                            "value"
+                          ],
+                          "properties": {
+                            "currency": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          }
                         }
                       }
                     },
@@ -16528,6 +16816,26 @@
                       "consignmentScopeConfirmed": {
                         "type": "boolean"
                       },
+                      "japanDeclaration": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "singleLineConfirmed": {
+                            "type": "boolean"
+                          },
+                          "dutySchedule": {
+                            "type": "string",
+                            "enum": [
+                              "ordinary",
+                              "ordinary_elected"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "singleLineConfirmed",
+                          "dutySchedule"
+                        ]
+                      },
                       "incoterm": {
                         "type": "string",
                         "enum": [
@@ -16961,6 +17269,99 @@
                         "payer",
                         "method",
                         "amount"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "category": {
+                          "enum": [
+                            "customs_duty",
+                            "import_vat_gst"
+                          ]
+                        },
+                        "evidence": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "pattern": "^[A-Za-z0-9_.:-]{1,100}$"
+                            },
+                            "sourceUrl": {
+                              "type": "string",
+                              "format": "uri",
+                              "pattern": "^https://",
+                              "maxLength": 2048
+                            },
+                            "destinationCountry": {
+                              "type": "string",
+                              "pattern": "^[A-Z]{2}$"
+                            },
+                            "reviewedOn": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "effectiveFrom": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "effectiveThrough": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "reviewBy": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "sourceType": {
+                              "enum": [
+                                "authority",
+                                "customs_broker",
+                                "carrier",
+                                "merchant"
+                              ]
+                            },
+                            "currency": {
+                              "type": "string",
+                              "pattern": "^[A-Z]{3}$"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "sourceUrl",
+                            "destinationCountry",
+                            "reviewedOn",
+                            "effectiveFrom",
+                            "effectiveThrough",
+                            "reviewBy",
+                            "sourceType",
+                            "currency"
+                          ]
+                        },
+                        "timing": {
+                          "enum": [
+                            "checkout",
+                            "import"
+                          ]
+                        },
+                        "payer": {
+                          "enum": [
+                            "buyer",
+                            "seller"
+                          ]
+                        },
+                        "method": {
+                          "const": "japan_single_line_standard"
+                        }
+                      },
+                      "required": [
+                        "category",
+                        "evidence",
+                        "timing",
+                        "payer",
+                        "method"
                       ]
                     },
                     {

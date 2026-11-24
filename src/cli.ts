@@ -11,6 +11,7 @@ import {
   reconcileImportSettlementLedger,
   releaseReadiness,
   loadLiveValidationRecords,
+  summarizeShadowLedger,
   coverageLedger,
   todayJst,
   ask,
@@ -69,6 +70,13 @@ try {
     result = classificationRollout({ ...(arg !== undefined ? { date: arg } : {}), hsEdition: "all", limit: 250 }, loadClassificationCatalog(process.env, data), data, now);
   } else if (command === "invoice-reconcile" && arg)
     result = reconcileInvoice(JSON.parse(readFileSync(arg, "utf8")));
+  else if (command === "shadow-ledger" && arg) {
+    const opts = process.argv.slice(4);
+    if (new Set(opts).size !== opts.length || opts.some(opt => opt !== "--synthetic" && opt !== "--site"))
+      throw new InputError([{ path: "/sample", code: "INVALID_SHADOW_SAMPLE" }]);
+    result = summarizeShadowLedger(JSON.parse(readFileSync(arg, "utf8")),
+      opts.includes("--synthetic") ? "synthetic" : "live", opts.includes("--site"));
+  }
   else if (command === "release-readiness")
     result = releaseReadiness(data, new Date(), loadLiveValidationRecords(),
       loadOperationalTariffCatalog(data).manifestSha256());
@@ -101,7 +109,7 @@ try {
     );
   } else {
     process.stderr.write(
-      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | classification-rollout [DATE] [ISO_TIME] | classification-propose FILE [ISO_TIME] | classification-assign FILE [ISO_TIME] | classification-batch FILE [ISO_TIME] | classification-route FILE [ISO_TIME] | release-readiness\n',
+      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | classification-rollout [DATE] [ISO_TIME] | classification-propose FILE [ISO_TIME] | classification-assign FILE [ISO_TIME] | classification-batch FILE [ISO_TIME] | classification-route FILE [ISO_TIME] | shadow-ledger FILE [--synthetic] [--site] | release-readiness\n',
     );
     process.exitCode = 2;
   }
