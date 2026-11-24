@@ -2,6 +2,8 @@ import { readFileSync } from "node:fs";
 import {
   assess,
   previewCheckout,
+  previewCountryShipment,
+  reconcileCountryPreview,
   planCustoms,
   quotePilotShipment,
   quoteWorldShipment,
@@ -33,6 +35,11 @@ try {
   let result: unknown;
   if (command === "assess" && arg)
     result = assess(JSON.parse(readFileSync(arg, "utf8")), data);
+  else if ((command === "country-preview" || command === "country-reconcile") && arg) {
+    const now = referenceTime ? new Date(referenceTime) : new Date();
+    const fn = command === "country-preview" ? previewCountryShipment : reconcileCountryPreview;
+    result = fn(JSON.parse(readFileSync(arg, "utf8")), data, now);
+  }
   else if (command === "checkout-preview" && arg)
     result = previewCheckout(
       JSON.parse(readFileSync(arg, "utf8")), data, new Date(), loadOperationalTariffCatalog(data),
@@ -75,7 +82,7 @@ try {
     if (new Set(opts).size !== opts.length || opts.some(opt => opt !== "--synthetic" && opt !== "--site"))
       throw new InputError([{ path: "/sample", code: "INVALID_SHADOW_SAMPLE" }]);
     result = summarizeShadowLedger(JSON.parse(readFileSync(arg, "utf8")),
-      opts.includes("--synthetic") ? "synthetic" : "live", opts.includes("--site"));
+      opts.includes("--synthetic") ? "synthetic" : "live", opts.includes("--site"), data);
   }
   else if (command === "release-readiness")
     result = releaseReadiness(data, new Date(), loadLiveValidationRecords(),
@@ -109,7 +116,7 @@ try {
     );
   } else {
     process.stderr.write(
-      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | classification-rollout [DATE] [ISO_TIME] | classification-propose FILE [ISO_TIME] | classification-assign FILE [ISO_TIME] | classification-batch FILE [ISO_TIME] | classification-route FILE [ISO_TIME] | shadow-ledger FILE [--synthetic] [--site] | release-readiness\n',
+      'Usage: npm run cli -- assess FILE | ask "question" | classify "description" | countries | tariff FILE | tariff-coverage | tariff-wco-coverage [DATE] | tariff-territory-coverage [DATE] | destination-coverage [DATE] | checkout-preview FILE | country-preview FILE [ISO_TIME] | country-reconcile FILE [ISO_TIME] | customs-plan FILE | pilot-quote FILE [ISO_TIME] | worldwide-coverage [DATE] | worldwide-direction FILE | worldwide-quote FILE [ISO_TIME] | invoice-reconcile FILE | import-settlement-ledger FILE [ISO_TIME] | classification-rollout [DATE] [ISO_TIME] | classification-propose FILE [ISO_TIME] | classification-assign FILE [ISO_TIME] | classification-batch FILE [ISO_TIME] | classification-route FILE [ISO_TIME] | shadow-ledger FILE [--synthetic] [--site] | release-readiness\n',
     );
     process.exitCode = 2;
   }

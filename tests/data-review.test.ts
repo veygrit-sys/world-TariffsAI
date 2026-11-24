@@ -157,3 +157,20 @@ test("country-scoped CLI keeps global source checks and limits bundled reference
   assert.equal(report.referenceCoverage.tracked.customs_fee + report.referenceCoverage.tracked.import_control, expected.length);
   assert.deepEqual(report.referenceCoverage.warnings.map((row: { id: string }) => row.id).sort(), expected.map(row => row.id).sort());
 });
+
+test("each country preview rule is monitored once, including its last usable day and after expiry", () => {
+  const early = ["COUNTRY_PREVIEW_CN", "COUNTRY_PREVIEW_SG", "COUNTRY_PREVIEW_US"];
+  const late = ["COUNTRY_PREVIEW_AU", "COUNTRY_PREVIEW_GB", "COUNTRY_PREVIEW_NZ"];
+  // An empty bundled rule list isolates the procedure-specific deadlines from the underlying tariff sources.
+  const report = (date: string) => createDataReviewReport(fixture(), { date, warningDays: 7 });
+  const ids = (rows: { id: string }[]) => rows.map(row => row.id);
+  assert.deepEqual(ids(report("2026-11-25").activeRulesUpcoming), early);
+  assert.deepEqual(ids(report("2026-12-02").activeRulesDueToday), early);
+  assert.deepEqual(ids(report("2026-12-03").activeRulesExpired), early);
+  assert.deepEqual(ids(report("2026-12-04").activeRulesUpcoming), late);
+  assert.deepEqual(ids(report("2026-12-11").activeRulesDueToday), late);
+  assert.deepEqual(ids(report("2026-12-12").activeRulesExpired), [...early, ...late].sort());
+  assert.equal(report("2026-11-25").status, "upcoming");
+  assert.equal(report("2026-12-02").status, "due");
+  assert.equal(report("2026-12-12").status, "due");
+});

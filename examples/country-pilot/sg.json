@@ -1,0 +1,45 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "SG",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "SGD",
+    "freight": "20.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "Synthetic plain writing pens",
+        "quantity": 2,
+        "unitValue": "210.00",
+        "originCountry": "JP",
+        "goodsType": "ordinary",
+        "hs6": "960810",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true,
+        "nonDutiableConfirmed": true,
+        "productIdentifier": "SG-SYNTHETIC-001"
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true
+  },
+  "evidence": {
+    "singleOverseasSaleToConsumer": true,
+    "buyerNotGstRegistered": true,
+    "sellerRegistrationVerified": true,
+    "netGoodsAndSeparateDeliveryReviewed": true,
+    "checkoutGst": "paid_and_transmitted",
+    "sellerRoundsOnInvoiceTotal": true,
+    "sellerUsesSalesValueThreshold": true
+  }
+}

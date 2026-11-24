@@ -1,0 +1,45 @@
+{
+  "shipment": {
+    "originCountry": "US",
+    "destinationCountry": "JP",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "JPY",
+    "freight": "1000",
+    "insurance": "0",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "Synthetic ballpoint pen",
+        "quantity": 1,
+        "unitValue": "9000",
+        "originCountry": "US",
+        "goodsType": "ordinary",
+        "hs6": "960810",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true,
+        "nonDutiableConfirmed": true,
+        "japanReliefEligibility": "eligible",
+        "productIdentifier": "SYNTHETIC-001"
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "standard",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true,
+    "customsValue": "10000",
+    "customsValueConfirmed": true,
+    "loadingCountry": "US"
+  },
+  "evidence": {
+    "reliefExclusionsReviewed": true,
+    "aggregationConfirmed": true,
+    "declaredCifBasisConfirmed": true
+  }
+}

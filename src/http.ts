@@ -3,6 +3,8 @@ import type { Dataset, EvidenceSelector } from "./types.ts";
 import { assess } from "./engine.ts";
 import { previewCheckout } from "./checkout.ts";
 import { planCustoms } from "./customs-plan.ts";
+import { previewCountryShipment } from "./country-preview.ts";
+import { reconcileCountryPreview } from "./country-preview-reconcile.ts";
 import { quotePilotShipment, quoteWorldShipment } from "./pilot-quote.ts";
 import { reconcileInvoice } from "./invoice-reconciliation.ts";
 import { importSettlementCoverage } from "./import-settlement-coverage.ts";
@@ -183,6 +185,8 @@ export function createHandler(options: HandlerOptions) {
             checkoutPreviewPath: "/v1/checkout/preview",
             customsPlanPath: "/v1/customs/plan",
             pilotQuotePath: "/v1/pilot/quote",
+            countryPreviewPath: "/v1/worldwide/country-preview",
+            countryReceiptComparisonPath: "/v1/worldwide/country-reconcile",
             worldwideQuotePath: "/v1/worldwide/quote",
             worldwideDirectionPath: "/v1/worldwide/direction",
             worldwideCoveragePath: "/v1/worldwide/coverage",
@@ -270,6 +274,11 @@ export function createHandler(options: HandlerOptions) {
         if (Object.keys(query).some((name) => name !== "date"))
           throw new InputError([{ path: "/query", code: "UNKNOWN_QUERY_PARAMETER" }]);
         return reply(200, worldDirectionCoverage(options.dataset, tariffs, query.date, now), id);
+      }
+      if (path === "/v1/worldwide/country-preview" || path === "/v1/worldwide/country-reconcile") {
+        if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");
+        const fn = path.endsWith("/country-preview") ? previewCountryShipment : reconcileCountryPreview;
+        return reply(200, fn(await body(request), options.dataset, now), id);
       }
       if (path === "/v1/worldwide/quote") {
         if (request.method !== "POST") throw new HttpError(405, "METHOD_NOT_ALLOWED");

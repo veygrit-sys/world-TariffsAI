@@ -191,3 +191,16 @@ test("a standing coverage warning does not mask a newly due primary source", asy
   assert.equal(api.comments.length, 1);
   assert.match(api.comments[0]!, /2026-11-20/);
 });
+
+test("the standing review notice surfaces profile deadlines and reports when a group becomes due", async () => {
+  const api = github();
+  const snapshot = (date: string) => createDataReviewReport(base, { date });
+  await updateReviewIssue(snapshot("2026-12-01"), api.options);
+  assert.match(api.issues[0]!.body, /Upcoming current rules[\s\S]*COUNTRY_PREVIEW_SG.*2026-12-02/);
+  await updateReviewIssue(snapshot("2026-12-02"), api.options);
+  assert.equal(api.comments.length, 1);
+  assert.match(api.issues[0]!.body, /Current rules due today[\s\S]*COUNTRY_PREVIEW_CN.*2026-12-02/);
+  await updateReviewIssue(snapshot("2026-12-03"), api.options);
+  assert.match(api.issues[0]!.body, /Expired current rules[\s\S]*COUNTRY_PREVIEW_US.*2026-12-02/);
+  assert.equal(api.comments.length, 1);
+});

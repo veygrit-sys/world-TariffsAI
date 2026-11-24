@@ -1,0 +1,53 @@
+{
+  "shipment": {
+    "originCountry": "JP",
+    "destinationCountry": "CN",
+    "originZone": "standard",
+    "destinationZone": "standard",
+    "importDate": "2026-11-25",
+    "locale": "ja",
+    "currency": "CNY",
+    "freight": "10.00",
+    "insurance": "0.00",
+    "items": [
+      {
+        "id": "line-1",
+        "description": "合成例の日本産陶器製食器",
+        "quantity": 1,
+        "unitValue": "90.00",
+        "originCountry": "JP",
+        "goodsType": "ordinary",
+        "hs6": "691200",
+        "classificationConfirmed": true,
+        "standardTaxConfirmed": true
+      }
+    ],
+    "transaction": "b2c_sale",
+    "channel": "direct",
+    "transport": "air",
+    "regime": "cn_9610",
+    "inventoryStatus": "free_circulation",
+    "sellerTaxRegistration": "registered",
+    "consignmentScopeConfirmed": true,
+    "taxEvidenceConfirmed": true,
+    "china": {
+      "positiveListConfirmed": true,
+      "identityEvidenceConfirmed": true,
+      "electronicRecordsConfirmed": true,
+      "annualRemaining": "26000.00"
+    },
+    "customsValueConfirmed": true,
+    "customsValue": "100.00"
+  },
+  "evidence": {
+    "recordRef": "synthetic-cn-review-001",
+    "personalUseConfirmed": true,
+    "channelFilingConfirmed": true,
+    "quotaBeforeOrderConfirmed": true,
+    "transactionAndBuyerAuthenticityReviewed": true,
+    "buyerIdentityBasis": "authority_certified",
+    "nonExciseStandardVatConfirmed": true,
+    "importTaxCollection": "checkout",
+    "cnCommodityCode": "69120010"
+  }
+}

@@ -26,7 +26,7 @@ export { routeClassification, routeClassificationBatch, classificationRoutingSta
 export type { ClassificationRoutingStatus, ClassificationRoutingResult, ClassificationRoutingGroup, ClassificationRoutingBatch } from "./classification-routing.ts";
 export { applyClassificationAssignments, classificationPlanInputSchema } from "./classification-plan.ts";
 export type { ClassificationPlanInput, ClassifiedCustomsPlan } from "./classification-plan.ts";
-export { summarizeShadowLedger, captureShadowQuote } from "./shadow-ledger.ts";
+export { summarizeShadowLedger, captureShadowQuote, captureCountryPreview } from "./shadow-ledger.ts";
 export type { ShadowOrder } from "./shadow-ledger.ts";
 export { releaseReadiness } from "./release-readiness.ts";
 export { parseLiveValidationRecords, loadLiveValidationRecords } from "./live-validation.ts";
@@ -96,3 +96,8 @@ export {
   tariffLookupSchema,
 } from "./schema.ts";
 export type * from "./types.ts";
+
+export { previewCountryShipment, countryPreviewDestinations } from "./country-preview.ts";
+export type { CountryPreviewResult } from "./country-preview.ts";
+export { reconcileCountryPreview } from "./country-preview-reconcile.ts";
+export type { CountryPreviewReconciliation } from "./country-preview-reconcile.ts";
