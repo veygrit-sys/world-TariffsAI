@@ -1,3 +1,4 @@
+import { countryPreviewReviews } from "./country-preview-review.ts";
 import { Ajv } from "ajv";
 import type { CountryPreview } from "./country-preview-types.ts";
 import { sourcesCurrent, todayJst } from "./dataset.ts";
@@ -6,8 +7,7 @@ import { minor } from "./money.ts";
 import type { Dataset, Shipment } from "./types.ts";
 import { isDate } from "./wco.ts";
 
-const reviewedOn = "2026-11-24";
-const reviewBy = "2026-12-11";
+const { checkedOn: reviewedOn, reviewBy } = countryPreviewReviews.GB;
 const bookSource = {
   id: "gb-pilot-hmrc-printed-books",
   url: "https://www.gov.uk/guidance/zero-rating-books-and-printed-matter-for-vat-notice-70110",

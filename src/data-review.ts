@@ -1,5 +1,6 @@
+import { countryPreviewReviews } from "./country-preview-review.ts";
 import { todayJst } from "./dataset.ts";
-import type { Dataset, Rule, Source } from "./types.ts";
+import type { Dataset, Source } from "./types.ts";
 import type { ClassificationSource } from "./classification-types.ts";
 
 export interface SourceReviewDeadline {
@@ -74,14 +75,19 @@ export function createDataReviewReport(
   const warnThrough = new Date(Date.parse(date + "T00:00:00Z") + warningDays * 86_400_000)
     .toISOString().slice(0, 10);
   const sources = data.sources.filter(({ verification }) => verification === "primary_rechecked");
-  const rules = data.rules.filter(({ validFrom, validTo }) => validFrom <= date && (validTo === null || date < validTo));
+  // Use the same profile windows as the calculations. An expired profile remains on the
+  // review list until its evidence is renewed or the profile is retired.
+  const profileRules = Object.entries(countryPreviewReviews).map(([country, window]) => ({
+    id: "COUNTRY_PREVIEW_" + country, ...window, validFrom: window.checkedOn, validTo: null,
+  }));
+  const rules = [...data.rules, ...profileRules].filter(({ validFrom, validTo }) => validFrom <= date && (validTo === null || date < validTo));
   const classificationSources = options.classificationSources ?? [];
   const sourceDeadline = ({ id, url, reviewBy }: Source): SourceReviewDeadline => ({ id, url, reviewBy });
   const classificationDeadline = ({ id, url, reviewBy, effectiveThrough }: ClassificationSource): ClassificationReviewDeadline => ({
     id, url, reviewBy, effectiveThrough, dueOn: reviewBy < effectiveThrough ? reviewBy : effectiveThrough,
   });
   const classificationDeadlines = classificationSources.map(classificationDeadline);
-  const ruleDeadline = ({ id, reviewBy, validFrom, validTo }: Rule): RuleReviewDeadline => ({ id, reviewBy, validFrom, validTo });
+  const ruleDeadline = ({ id, reviewBy, validFrom, validTo }: RuleReviewDeadline): RuleReviewDeadline => ({ id, reviewBy, validFrom, validTo });
   const ordered = <T extends { id: string }>(values: T[]) => values.sort((a, b) => a.id.localeCompare(b.id));
   const country = options.referenceCountry ?? null;
   if (country !== null && ![...data.countries, ...data.supplementalRegions].some(row => row.code === country && row.inScope))

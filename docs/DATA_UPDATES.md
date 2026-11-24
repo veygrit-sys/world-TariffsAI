@@ -35,6 +35,8 @@ npm run check:public
 
 `npm run data:review` は再確認が必要な一次出典の一覧をJSONで出し、対象があれば終了コード2を返します。従来の `date`、`ruleSetVersion`、`primarySourcesDue`、`inheritedSourcesPendingRevalidation`、`action` は維持します。`primarySourcesDue` には当日と期限超過の両方が入り、`primarySourcesDueToday`、`primarySourcesExpired`、`primarySourcesUpcoming` で区別できます。現在有効な `data/rules.json` のルールについても同じ期限区分を出します。`validTo` は排他的境界なので、適用を終えたルールや未施行のルールは現在の期限警告に含めません。
 
+英国・シンガポール・豪州・ニュージーランド・中国・米国の国別試算は、仕向地ごとに1件の `COUNTRY_PREVIEW_XX` として同じ `activeRules*` の配列と日次通知Issueに載ります。試算と監視は[共通の確認日・期限](../src/country-preview-review.ts)を使います。これらの行の `validFrom` は試算で扱う最初の確認日です。期限当日は試算期間内でも再確認の通知を出し、翌日以降は試算が停止して警告が残ります。再確認時には該当国の全出典と対象手続を照合してください。個別の一次出典や共通ルールの期限が先なら、そちらの警告も独立に出ます。
+
 rc.25のレポートは `reportVersion: 2` です。従来の一次出典・ルールの項目と `scope` の値は互換用に維持し、分類出典の範囲を `classificationScope` で示します。`classificationSourcesDue`、`classificationSourcesDueToday`、`classificationSourcesExpired`、`classificationSourcesUpcoming` と `unobservedClassificationSources` を追加しました。分類出典の `dueOn` は、再確認期限 `reviewBy` と、カタログ適用範囲の終了日 `effectiveThrough` の早い方です。どちらも当日は期限当日、翌日から期限超過として扱います。カタログの適用範囲は法令自体の有効期限を示すものではありません。
 
 CLIは `data/classification-catalog.json` を読み、`VEYGRIT_CLASSIFICATION_CATALOG` が指定されている場合はその保護されたカタログを使います。分類出典の未来の確認日も要確認にします。分類出典を指定しない `createDataReviewReport` の呼び出しは、空配列と `classificationScope: not_supplied` を返し、分類出典の期限集計を省略します。

@@ -1,3 +1,4 @@
+import { countryPreviewReviews } from "./country-preview-review.ts";
 import { Ajv } from "ajv";
 import { sourcesCurrent, todayJst } from "./dataset.ts";
 import type { CountryPreview } from "./country-preview-types.ts";
@@ -44,13 +45,13 @@ const usFacts = validator.compile<UsFacts>({
 });
 
 // The pilot uses the same JST observation cutoff as the source registry.
-const observed = "2026-11-25";
-const reviewBy = "2026-12-02";
-function withinPilotReview(importDate: string, now: Date): boolean {
+function withinPilotReview(country: "CN" | "US", importDate: string, now: Date): boolean {
+  const { checkedOn: observed, reviewBy } = countryPreviewReviews[country];
   const today = todayJst(now);
   return today >= observed && today <= reviewBy && importDate >= observed && importDate <= reviewBy;
 }
 
+const { reviewBy } = countryPreviewReviews.CN;
 const officialChina = [
   { id: "cn-pilot-cbec-tax", url: "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5203746/content.html", reviewBy },
   { id: "cn-pilot-channel", url: "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2018/art_1e2248ade45e4652a12c25d6a45e4f28.html", reviewBy },
@@ -66,7 +67,7 @@ function chinaSources(result: CountryPreview, s: Shipment, now: Date, data: Data
   result.sources.push(...officialChina.map(source => ({ ...source })));
   if (limit) result.sources.push({ id: limit.id, url: limit.url, reviewBy: limit.reviewBy });
   return !!limit && limit.checkedOn <= s.importDate && sourcesCurrent(data, [limit.id], s.importDate, now) &&
-    withinPilotReview(s.importDate, now);
+    withinPilotReview("CN", s.importDate, now);
 }
 
 function china(s: Shipment, facts: ChinaFacts, data: Dataset, now: Date): CountryPreview {
@@ -139,7 +140,7 @@ function unitedStates(s: Shipment, facts: UsFacts, data: Dataset, now: Date): Co
     : ["primary-us-de-minimis", "primary-us-nonpostal-suspension"];
   const selected = data.sources.filter(source => ids.includes(source.id));
   out.sources = selected.map(({ id, url, reviewBy }) => ({ id, url, reviewBy }));
-  if (!withinPilotReview(s.importDate, now) || !sourcesCurrent(data, ids, s.importDate, now) ||
+  if (!withinPilotReview("US", s.importDate, now) || !sourcesCurrent(data, ids, s.importDate, now) ||
     selected.some(source => source.checkedOn > s.importDate))
     return hold(out, "US_PILOT_SOURCE_REVIEW");
   if (s.currency !== "USD" || s.customsValue === undefined || !s.customsValueConfirmed)

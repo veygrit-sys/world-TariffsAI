@@ -1,3 +1,4 @@
+import { countryPreviewReviews } from "./country-preview-review.ts";
 import type { CountryPreview } from "./country-preview-types.ts";
 import { todayJst } from "./dataset.ts";
 import { assess } from "./engine.ts";
@@ -5,9 +6,7 @@ import { minor, money, tax } from "./money.ts";
 import { assessTradePolicy } from "./trade-policy.ts";
 import type { Dataset, Shipment } from "./types.ts";
 
-const checkedOn = "2026-11-24";
-const reviewBy = "2026-12-11";
-const source = (id: string, url: string) => ({ id, url, reviewBy });
+const source = (id: string, url: string) => ({ id, url });
 const ato = "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/gst-for-non-resident-businesses";
 const ird = "https://www.ird.govt.nz/gst/gst-for-overseas-businesses/gst-on-low-value-imported-goods";
 
@@ -34,7 +33,7 @@ const evidenceFlags = [
 ] as const;
 const evidenceKeys = new Set<string>(["reference", "saleDate", ...evidenceFlags]);
 
-function evidenceConfirmed(input: unknown, importDate: string): boolean {
+function evidenceConfirmed(input: unknown, importDate: string, checkedOn: string): boolean {
   if (typeof input !== "object" || input === null || Array.isArray(input)) return false;
   const facts = input as Record<string, unknown>;
   const saleDate = facts.saleDate;
@@ -54,10 +53,11 @@ export function previewOceania(
   if (destination !== "AU" && destination !== "NZ") {
     return { procedure: "OCEANIA_LOW_VALUE", charges: [], reasons: ["DESTINATION_OUT_OF_SCOPE"], sources: [] };
   }
+  const { checkedOn, reviewBy } = countryPreviewReviews[destination];
   const refs = sources[destination];
   const preview: CountryPreview = {
     procedure: destination === "AU" ? "AU_DIRECT_LOW_VALUE_POST" : "NZ_DIRECT_LOW_VALUE",
-    charges: [], reasons: [], sources: Object.values(refs).map((ref) => ({ ...ref })),
+    charges: [], reasons: [], sources: Object.values(refs).map(ref => ({ ...ref, reviewBy })),
   };
   const hold = (reason: string) => {
     preview.reasons.push(reason);
@@ -66,7 +66,7 @@ export function previewOceania(
   const asOf = todayJst(now);
   if ([asOf, shipment.importDate].some((day) => day < checkedOn || day > reviewBy))
     return hold("SOURCE_REVIEW_REQUIRED");
-  if (!evidenceConfirmed(evidence, shipment.importDate)) return hold("OCEANIA_MERCHANT_INVOICE_EVIDENCE_REQUIRED");
+  if (!evidenceConfirmed(evidence, shipment.importDate, checkedOn)) return hold("OCEANIA_MERCHANT_INVOICE_EVIDENCE_REQUIRED");
   if (shipment.channel !== "direct" || shipment.transaction !== "b2c_sale" ||
       shipment.sellerTaxRegistration !== "registered" || !shipment.taxEvidenceConfirmed)
     return hold("REGISTERED_DIRECT_CONSUMER_SALE_REQUIRED");

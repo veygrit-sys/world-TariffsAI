@@ -1,3 +1,4 @@
+import { countryPreviewReviews } from "./country-preview-review.ts";
 import { Ajv } from "ajv";
 import { currentRule, todayJst } from "./dataset.ts";
 import { assess } from "./engine.ts";
@@ -33,8 +34,7 @@ const validateEvidence = new Ajv({ strict: true }).compile<SingaporeEvidence>({
     "netGoodsAndSeparateDeliveryReviewed", "checkoutGst"],
 });
 
-const checkedOn = "2026-11-25";
-const reviewBy = "2026-12-02";
+const { checkedOn, reviewBy } = countryPreviewReviews.SG;
 const official = [
   { id: "sg-customs-lvg", url: "https://www.customs.gov.sg/personal-shipment/buying-from-overseas/gst-on-low-value-goods/" },
   { id: "sg-iras-ovr", url: "https://www.iras.gov.sg/media/docs/default-source/e-tax/gst-e-tax-guide_taxing-imported-low-value-goods-by-way-of-the-overseas-vendor-registration-regime_%281st-ed%29.pdf" },
