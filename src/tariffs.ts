@@ -905,12 +905,12 @@ function formatMatch(
     ...row,
     rates: row.rates.filter(eligible).map((rate) => ({
       ...rate,
-      adValoremPercent: percent(rate.expression),
+      adValoremPercent: tariffAdValoremPercent(rate.expression),
     })),
   };
 }
 
-function percent(expression: string): string | null {
+export function tariffAdValoremPercent(expression: string): string | null {
   if (/^(free|無税|免税)$/i.test(expression)) return "0";
   const match = /^([0-9]+(?:[.,][0-9]+)?)\s*%$/.exec(expression);
   return match?.[1]?.replace(",", ".") ?? null;

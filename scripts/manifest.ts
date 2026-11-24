@@ -36,7 +36,7 @@ const files = Object.fromEntries(
 writeFileSync(
   new URL("integrity-manifest.json", dir),
   JSON.stringify(
-    { version: "2026-11-22.v12", algorithm: "sha256", files },
+    { version: "2026-11-25.v13", algorithm: "sha256", files },
     null,
     2,
   ) + "\n",

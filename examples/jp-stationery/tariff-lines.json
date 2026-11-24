@@ -1,0 +1,134 @@
+[
+  {
+    "code": "960820000",
+    "rateCode": "960820000",
+    "reference": "Japan Customs, chapter 96, table row 49",
+    "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+    "rates": [
+      {
+        "charge": "customs_duty",
+        "treatment": "general",
+        "label": "基本",
+        "expression": "4.6%",
+        "sourceCode": "960820000"
+      },
+      {
+        "charge": "customs_duty",
+        "treatment": "mfn",
+        "label": "WTO協定",
+        "expression": "3.9%",
+        "sourceCode": "960820000"
+      }
+    ],
+    "units": [
+      "NO"
+    ],
+    "notes": [
+      "WA（他法令欄）"
+    ]
+  },
+  {
+    "code": "960910010",
+    "rateCode": "960910",
+    "reference": "Japan Customs, chapter 96, table row 65; General/WTO at parent row 64",
+    "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+    "rates": [
+      {
+        "charge": "customs_duty",
+        "treatment": "general",
+        "label": "基本",
+        "expression": "無税",
+        "sourceCode": "960910"
+      },
+      {
+        "charge": "customs_duty",
+        "treatment": "mfn",
+        "label": "WTO協定",
+        "expression": "(無税)",
+        "sourceCode": "960910"
+      }
+    ],
+    "units": [
+      "KG"
+    ],
+    "notes": []
+  },
+  {
+    "code": "960910090",
+    "rateCode": "960910",
+    "reference": "Japan Customs, chapter 96, table row 66; General/WTO at parent row 64",
+    "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+    "rates": [
+      {
+        "charge": "customs_duty",
+        "treatment": "general",
+        "label": "基本",
+        "expression": "無税",
+        "sourceCode": "960910"
+      },
+      {
+        "charge": "customs_duty",
+        "treatment": "mfn",
+        "label": "WTO協定",
+        "expression": "(無税)",
+        "sourceCode": "960910"
+      }
+    ],
+    "units": [
+      "KG"
+    ],
+    "notes": []
+  },
+  {
+    "code": "960920000",
+    "rateCode": "960920000",
+    "reference": "Japan Customs, chapter 96, table row 67",
+    "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+    "rates": [
+      {
+        "charge": "customs_duty",
+        "treatment": "general",
+        "label": "基本",
+        "expression": "無税",
+        "sourceCode": "960920000"
+      },
+      {
+        "charge": "customs_duty",
+        "treatment": "mfn",
+        "label": "WTO協定",
+        "expression": "(無税)",
+        "sourceCode": "960920000"
+      }
+    ],
+    "units": [
+      "KG"
+    ],
+    "notes": []
+  },
+  {
+    "code": "961100000",
+    "rateCode": "961100000",
+    "reference": "Japan Customs, chapter 96, table row 72",
+    "url": "https://www.customs.go.jp/tariff/2026_10_31/data/j_96.htm",
+    "rates": [
+      {
+        "charge": "customs_duty",
+        "treatment": "general",
+        "label": "基本",
+        "expression": "無税",
+        "sourceCode": "961100000"
+      },
+      {
+        "charge": "customs_duty",
+        "treatment": "mfn",
+        "label": "WTO協定",
+        "expression": "(無税)",
+        "sourceCode": "961100000"
+      }
+    ],
+    "units": [
+      "KG"
+    ],
+    "notes": []
+  }
+]

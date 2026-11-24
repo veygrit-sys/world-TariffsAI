@@ -60,6 +60,8 @@ export interface Shipment {
   customsValue?: string;
   customsValueConfirmed?: boolean;
   taxEvidenceConfirmed?: boolean;
+  /** Reviewed declaration scope and ordinary tariff selection, bound to the order digest. */
+  japanDeclaration?: { singleLineConfirmed: boolean; dutySchedule: "ordinary" | "ordinary_elected" };
   /** Confirmed declaration lines. Standard procedures also require confirmation
    * of distance-sale flat-duty eligibility, including preferential exclusions;
    * physical postal transport alone does not establish that eligibility. */

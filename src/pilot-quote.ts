@@ -8,6 +8,7 @@ import {
   type InvoiceEstimate,
   type InvoiceEstimateChargeCategory,
 } from "./invoice-reconciliation.ts";
+import { japanSingleLineTaxes } from "./japan-import-tax.ts";
 import { minor, money, roundRatio } from "./money.ts";
 import { customsPlanSchema, InputError, shipmentSchema } from "./schema.ts";
 import type { TariffCatalog } from "./tariffs.ts";
@@ -37,6 +38,7 @@ type PayableCharge = ChargeBase & { timing: ChargeTiming; payer: ChargePayer };
 export type PilotQuoteCharge =
   | (ChargeBase & { method: "not_applicable" })
   | (PayableCharge & { method: "confirmed_amount"; amount: string })
+  | (PayableCharge & { method: "japan_single_line_standard"; category: "customs_duty" | "import_vat_gst" })
   | (PayableCharge & {
       method: "ad_valorem";
       ratePercent: string;
@@ -80,7 +82,11 @@ export interface PilotQuoteLine {
     method: PilotQuoteCharge["method"];
     taxBase?: Amount;
     ratePercent?: string;
-    rounding?: "half_up_minor_unit";
+    rounding?: "half_up_minor_unit" | "japan_statutory_single_line";
+    tariffSnapshotId?: string;
+    calculationSourceUrl?: string;
+    nationalConsumptionTax?: Amount;
+    localConsumptionTax?: Amount;
   } | null;
 }
 
@@ -165,6 +171,8 @@ export const pilotQuoteInputSchema = object({
       oneOf: [
         object({ ...chargeBase, method: { const: "not_applicable" } }),
         object({ ...payableCharge, method: { const: "confirmed_amount" }, amount: decimalAmount }),
+        object({ ...payableCharge, category: { enum: ["customs_duty", "import_vat_gst"] },
+          method: { const: "japan_single_line_standard" } }),
         object({
           ...payableCharge,
           method: { const: "ad_valorem" },
@@ -227,7 +235,9 @@ function validateAmount(value: string, currency: string, path: string): bigint {
   }
 }
 
-function chargeAmount(charge: PilotQuoteCharge, chargeCurrency: string, index: number): bigint {
+function chargeAmount(
+  charge: Exclude<PilotQuoteCharge, { method: "japan_single_line_standard" }>, chargeCurrency: string, index: number,
+): bigint {
   if (charge.method === "not_applicable") return 0n;
   const path = "/charges/" + index;
   if (charge.method === "confirmed_amount") return validateAmount(charge.amount, chargeCurrency, path + "/amount");
@@ -401,11 +411,27 @@ function quoteShipment(
   const tradeIssue = scope === "worldwide" ? tradeReviewIssue(tradeReview, shipment, issuedOn, shipmentDigest)
     : transitCountries.length ? "WORLDWIDE_TRANSIT_REVIEW_REQUIRED" : null;
   if (tradeIssue) result.findings.push({ code: tradeIssue });
+  const duty = seen.get("customs_duty")?.charge;
+  const consumption = seen.get("import_vat_gst")?.charge;
+  let japanTaxes: Exclude<ReturnType<typeof japanSingleLineTaxes>, { issue: string }> | undefined;
+  if (duty?.method === "japan_single_line_standard" || consumption?.method === "japan_single_line_standard") {
+    if (duty?.method !== "japan_single_line_standard" ||
+        consumption?.method !== "japan_single_line_standard" ||
+        seen.get("additional_duty")?.charge.method !== "not_applicable" ||
+        seen.get("excise")?.charge.method !== "not_applicable") {
+      result.findings.push({ code: "JAPAN_SINGLE_LINE_CHARGES_REVIEW" });
+    } else {
+      const calculated = japanSingleLineTaxes(plan, customs, loadingCountry, data, catalog, now);
+      if ("issue" in calculated) result.findings.push({ code: calculated.issue });
+      else japanTaxes = calculated;
+    }
+  }
   const scopedEvidence = result.findings.length === 0 && input.reviewedShipmentDigest === shipmentDigest;
   let checkout = goods + freight + insurance;
   let atImport = 0n;
   let importCharges = 0n;
   let expiresAt = Date.parse(customs.checkout.expiresAt);
+  if (japanTaxes) expiresAt = Math.min(expiresAt, endOfDay(japanTaxes.reviewBy));
   // These current assessed amounts apply to the full confirmed consignment.
   // Line-level tariff references remain separate and are not summed or promoted
   // into a consignment assessment by this evidence-consistency check.
@@ -434,7 +460,27 @@ function quoteShipment(
     }
     if (!scopedEvidence) continue;
     line.evidence = reference.evidence;
-    const value = chargeAmount(charge, shipment.currency, found.index);
+    let value: bigint;
+    if (charge.method === "japan_single_line_standard") {
+      if (!japanTaxes) continue;
+      const isDuty = charge.category === "customs_duty";
+      value = isDuty ? japanTaxes.duty : japanTaxes.national + japanTaxes.local;
+      line.calculation = {
+        method: charge.method, rounding: "japan_statutory_single_line",
+        tariffSnapshotId: japanTaxes.snapshotId, calculationSourceUrl: japanTaxes.calculationSourceUrl,
+        taxBase: money(isDuty ? japanTaxes.dutyBase : japanTaxes.consumptionBase, "JPY"),
+        ...(isDuty ? { ratePercent: japanTaxes.dutyPercent } : {
+          nationalConsumptionTax: money(japanTaxes.national, "JPY"),
+          localConsumptionTax: money(japanTaxes.local, "JPY"),
+        }),
+      };
+    } else {
+      value = chargeAmount(charge, shipment.currency, found.index);
+      line.calculation = charge.method === "ad_valorem"
+        ? { method: charge.method, taxBase: money(minor(charge.taxBase, shipment.currency), shipment.currency),
+            ratePercent: charge.ratePercent, rounding: charge.rounding }
+        : { method: charge.method };
+    }
     const applicableImportCharge = applicableImportCharges.find(({ kind }) => kind === category);
     if ((applicableImportCharge && value !== minor(applicableImportCharge.amount.value, shipment.currency)) ||
         (category === "customs_duty" && fullZeroDutyPolicy && value !== 0n)) {
@@ -465,10 +511,6 @@ function quoteShipment(
     expiresAt = Math.min(expiresAt, endOfDay(charge.evidence.effectiveThrough), endOfDay(charge.evidence.reviewBy));
     line.status = charge.method === "not_applicable" ? "not_applicable" : "confirmed";
     line.amount = formatted;
-    line.calculation = charge.method === "ad_valorem"
-      ? { method: charge.method, taxBase: money(minor(charge.taxBase, shipment.currency), shipment.currency),
-          ratePercent: charge.ratePercent, rounding: charge.rounding }
-      : { method: charge.method };
   }
 
   if (result.findings.length) {

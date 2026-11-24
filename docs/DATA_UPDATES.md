@@ -37,7 +37,7 @@ npm run check:public
 
 rc.25のレポートは `reportVersion: 2` です。従来の一次出典・ルールの項目と `scope` の値は互換用に維持し、分類出典の範囲を `classificationScope` で示します。`classificationSourcesDue`、`classificationSourcesDueToday`、`classificationSourcesExpired`、`classificationSourcesUpcoming` と `unobservedClassificationSources` を追加しました。分類出典の `dueOn` は、再確認期限 `reviewBy` と、カタログ適用範囲の終了日 `effectiveThrough` の早い方です。どちらも当日は期限当日、翌日から期限超過として扱います。カタログの適用範囲は法令自体の有効期限を示すものではありません。
 
-CLIは `data/classification-catalog.json` を読み、`VEYGRIT_CLASSIFICATION_CATALOG` が指定されている場合はその保護されたカタログを使います。分類出典の未来の確認日も要確認にします。分類出典を指定しない `createDataReviewReport` の呼び出しは、空配列と `classificationScope: not_supplied` を返し、従来の一次出典・ルールだけを判定します。
+CLIは `data/classification-catalog.json` を読み、`VEYGRIT_CLASSIFICATION_CATALOG` が指定されている場合はその保護されたカタログを使います。分類出典の未来の確認日も要確認にします。分類出典を指定しない `createDataReviewReport` の呼び出しは、空配列と `classificationScope: not_supplied` を返し、分類出典の期限集計を省略します。
 
 通知処理は分類項目を含まない旧v1レポートも受け付けます。v2レポートで分類項目が欠けている場合や、分類警告を残してv1へ書き換えたレポートは拒否し、既存のIssueを解消しません。
 
@@ -49,6 +49,10 @@ npm run data:review -- --warn-days 7
 npm run data:review -- --date 2026-11-18 --warn-days 7
 ```
 
+`reportVersion: 3` の `referenceCoverage.warnings` は、同梱の手数料・輸入規制の各記録について対象国、種類、参照期間の末日 `referenceThrough` を返します。末日当日は利用可能な最後の日として `ends_today`、翌日からは `expired`、予告期間中は `upcoming` です。末日当日・経過後は要確認として終了コード2を返します。法令の効力や税額は各取引の公的根拠と照合してください。
+
+日本向け実証では `npm run data:review -- --reference-country JP` で手数料・輸入規制を仕向国で絞り込めます。`referenceCoverage.tracked` が0の区分は、対象国の資料が未収録です。一次出典・計算ルール・分類出典は全件を引き続き確認します。定期実行は全仕向地を対象とし、Issueは日本、中国、米国向けを先に表示します。全件の明細はJSON成果物にあります。国別の絞り込み結果は全体の監視Issueに反映しません。
+
 ## 定期監視とGitHub通知
 
 [期限監視ワークフロー](../.github/workflows/data-review.yml) は、毎日09:17日本時間（UTC 00:17）と手動実行に対応します。スケジュールはGitHub側の混雑で遅れる場合があります。既定ブランチへ反映してGitHub Actionsを有効にすると定期実行の対象になります。ワークフローの追加は初回実行の成功を意味しません。反映後にActionsの `Review customs data deadlines` を手動実行し、要約・JSON成果物・通知Issueを確認してください。 [GitHubのスケジュール仕様](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
@@ -59,7 +63,7 @@ npm run data:review -- --date 2026-11-18 --warn-days 7
 
 通知先はGitHub Issueです。担当者はリポジトリのIssuesを有効にし、該当Issueの購読またはWatch設定で受信方法を設定してください。メールやチャットへの独立した送信先設定は含みません。 [GitHub通知の設定](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications)
 
-監視範囲は、リポジトリ同梱の一次出典の再確認期限、現在有効な計算ルール、および読み込んだ分類カタログ出典の再確認・カタログ適用終了です。GitHub Actionsの既定実行はチェックアウトした同梱分類カタログを使います。非公開の運用カタログを監視する場合は、そのファイルを利用できる環境でCLIを実行してください。分類の承認・取消イベントの個別期限は、この通知レポートへ読み込みません。原文の更新検知・法改正の自動収集・非公開の運用税表パックの監視はこのワークフローに含まれません。確認期限の自動延長やデータの自動承認は行わず、担当者が根拠と変更範囲を確認して通常のPRで更新します。
+監視範囲は、リポジトリ同梱の一次出典の再確認期限、現在有効な計算ルール、同梱手数料・輸入規制の参照期間、および読み込んだ分類カタログ出典の再確認・カタログ適用終了です。GitHub Actionsの既定実行はチェックアウトした同梱分類カタログを使います。非公開の運用カタログを監視する場合は、そのファイルを利用できる環境でCLIを実行してください。分類の承認・取消イベントの個別期限は、この通知レポートへ読み込みません。原文の更新検知・法改正の自動収集・非公開の運用税表パックの監視はこのワークフローに含まれません。確認期限の自動延長やデータの自動承認は行わず、担当者が根拠と変更範囲を確認して通常のPRで更新します。
 
 ## 既存の事前調査
 

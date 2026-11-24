@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "merchantRef": "demo-merchant",
+  "carrierRef": "demo-carrier",
+  "products": [
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "skuRef": "demo-sku-a1",
+      "classification": "unreviewed"
+    }
+  ],
+  "orders": [
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "orderId": "demo-order-a1",
+      "skuRefs": [
+        "demo-sku-a1"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 4,
+      "quote": {
+        "status": "offered",
+        "estimate": {
+          "orderId": "demo-order-a1",
+          "estimateId": "demo-est-a1",
+          "issuedOn": "2026-11-25",
+          "currency": "JPY",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "300"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "1600"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0"
+            },
+            {
+              "category": "excise",
+              "amount": "0"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "500"
+            }
+          ]
+        },
+        "methods": {
+          "customs_duty": "japan_single_line_standard",
+          "import_vat_gst": "japan_single_line_standard",
+          "additional_duty": "not_applicable",
+          "excise": "not_applicable",
+          "customs_fee": "not_applicable",
+          "carrier_fee": "confirmed_amount"
+        },
+        "reviewBy": "2026-11-30"
+      },
+      "observation": {
+        "declarationRef": "demo-clearance-a1",
+        "invoice": {
+          "orderId": "demo-order-a1",
+          "estimateId": "demo-est-a1",
+          "issuedOn": "2026-11-25",
+          "currency": "JPY",
+          "charges": [
+            {
+              "category": "customs_duty",
+              "amount": "300"
+            },
+            {
+              "category": "import_vat_gst",
+              "amount": "1700"
+            },
+            {
+              "category": "additional_duty",
+              "amount": "0"
+            },
+            {
+              "category": "excise",
+              "amount": "0"
+            },
+            {
+              "category": "customs_fee",
+              "amount": "0"
+            },
+            {
+              "category": "carrier_fee",
+              "amount": "500"
+            }
+          ],
+          "invoiceId": "demo-invoice-a1"
+        }
+      }
+    },
+    {
+      "sample": "synthetic",
+      "route": "CN-JP",
+      "orderId": "demo-order-b2",
+      "skuRefs": [
+        "demo-sku-b2"
+      ],
+      "datasetVersion": "synthetic.v1",
+      "capturedOn": "2026-11-25",
+      "reviewMinutes": 8,
+      "quote": {
+        "status": "held",
+        "reasons": [
+          "DATED_TARIFF_REFERENCE_REQUIRED"
+        ]
+      }
+    }
+  ]
+}

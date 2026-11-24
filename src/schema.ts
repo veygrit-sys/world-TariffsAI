@@ -95,6 +95,11 @@ export const shipmentSchema = {
       inventoryStatus: choice("free_circulation", "bonded", "unknown"),
       sellerTaxRegistration: choice("registered", "not_registered", "unknown"),
       consignmentScopeConfirmed: { type: "boolean" },
+      japanDeclaration: {
+        type: "object", additionalProperties: false,
+        properties: { singleLineConfirmed: { type: "boolean" }, dutySchedule: choice("ordinary", "ordinary_elected") },
+        required: ["singleLineConfirmed", "dutySchedule"],
+      },
       incoterm: choice("DAP", "DDP", "other"),
       customsValue: money,
       customsValueConfirmed: { type: "boolean" },

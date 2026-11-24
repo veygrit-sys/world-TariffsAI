@@ -26,6 +26,8 @@ export { routeClassification, routeClassificationBatch, classificationRoutingSta
 export type { ClassificationRoutingStatus, ClassificationRoutingResult, ClassificationRoutingGroup, ClassificationRoutingBatch } from "./classification-routing.ts";
 export { applyClassificationAssignments, classificationPlanInputSchema } from "./classification-plan.ts";
 export type { ClassificationPlanInput, ClassifiedCustomsPlan } from "./classification-plan.ts";
+export { summarizeShadowLedger, captureShadowQuote } from "./shadow-ledger.ts";
+export type { ShadowOrder } from "./shadow-ledger.ts";
 export { releaseReadiness } from "./release-readiness.ts";
 export { parseLiveValidationRecords, loadLiveValidationRecords } from "./live-validation.ts";
 export type { LiveValidationEvidence, LiveValidationRecord, LiveValidationStage } from "./live-validation.ts";
